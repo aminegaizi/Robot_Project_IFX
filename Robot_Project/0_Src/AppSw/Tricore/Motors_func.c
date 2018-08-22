@@ -22,7 +22,7 @@ uint8 pin3 = 3;
 uint8 pin4 = 4;
 int cycles = 0;
 
-//gdwdgu
+
 
 void GoAhead(int Time)
 {
