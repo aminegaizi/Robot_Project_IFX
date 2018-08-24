@@ -37,9 +37,12 @@
  0_Src/BaseSw/Infra/Sfr/TC27D/_Reg/IfxPort_reg.h \
  0_Src/BaseSw/Infra/Sfr/TC27D/_Reg/IfxPort_regdef.h \
  0_Src/BaseSw/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h \
+ 0_Src/BaseSw/iLLD/TC27D/Tricore/Port/Io/IfxPort_Io.h \
+ 0_Src/BaseSw/Infra/Sfr/TC27D/_Reg\IfxPort_regdef.h \
+ 0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h \
+ 0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.h \
  0_Src/AppSw/Tricore/Motors_func.h \
  0_Src/BaseSw/iLLD/TC27D/Tricore/Port/Std/IfxPort.h \
  0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h \
  0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h \
- 0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h \
- 0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.h
+ 0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h

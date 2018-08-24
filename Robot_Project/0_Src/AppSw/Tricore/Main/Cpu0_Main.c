@@ -26,10 +26,19 @@
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
 
+#include <Port/Io/IfxPort_Io.h>
+#include <_Reg\IfxPort_regdef.h>
+#include <Src/std/IfxSrc.h>
+
 #include "Motors_func.h"
 
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
+
+
+
+
+volatile uint8 interrupt_counter = 0;
 
 int core0_main (void)
 {
@@ -42,16 +51,57 @@ int core0_main (void)
     IfxScuWdt_disableSafetyWatchdog (IfxScuWdt_getSafetyWatchdogPassword ());
 
     /* Cpu sync event wait*/
-    IfxCpu_emitEvent(&cpuSyncEvent);
-    IfxCpu_waitEvent(&cpuSyncEvent, 1);
+	IfxCpu_emitEvent(&cpuSyncEvent);
+	IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
 
-    GoAhead(3000);
+    IfxPort_setPinMode(&MODULE_P15, 4, IfxPort_InputMode_pullUp);
+
+    //input 0 is selected
+    SCU_EICR0.B.EXIS0 = 0x0;
+
+    //INTF is set on a rising edge
+    SCU_EICR0.B.REN0 = 1;
+
+    //a falling edge event will reset INTF
+    SCU_EICR0.B.LDEN0 = 1;
+
+    //trigger event enabled
+    SCU_EICR0.B.EIEN0 = 1;
+
+    //event triggered output to OGU0
+    SCU_EICR0.B.INP0 = 0x0;
+
+    /*The trigger generation at a change of the
+    pattern detection result is enabled
+    */
+    SCU_IGCR0.B.GEEN0 = 1;
+
+    /*The detected pattern is considered. IOUT(2j) is
+	activated if a trigger event occurs while the
+	pattern is present
+     */
+    SCU_IGCR0.B.IGP0 = 0x1;
+
+    IfxSrc_init(&(SRC_SCU_SCU_ERU0),0,25);
+	IfxSrc_enable(&(SRC_SCU_SCU_ERU0));
+
+	// ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+	StopLeftMotor();
+	StopRightMotor();
+
+	GoAhead(500);
+
 
     while (1)
     {
-
     }
     return (1);
 }
 
+
+IFX_INTERRUPT(TEST,0,25)
+{
+	interrupt_counter++;
+}

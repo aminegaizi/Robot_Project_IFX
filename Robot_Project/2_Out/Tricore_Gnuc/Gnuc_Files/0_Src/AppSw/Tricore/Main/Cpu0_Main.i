@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
-# 1 "C:\\Aurix1G_Workspace_V1_0_1_7_0\\Robot_Project//"
+# 1 "C:\\Robot_Project_IFX\\Robot_Project//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
@@ -10081,29 +10081,31 @@ static inline __attribute__ ((always_inline)) void IfxCpu_updatePerformanceCount
 # 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h" 1
 # 28 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
-# 1 "0_Src/AppSw/Tricore/Motors_func.h" 1
-
-
-
-# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Port/Std/IfxPort.h" 1
-# 5 "0_Src/AppSw/Tricore/Motors_func.h" 2
-# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h" 1
-# 119 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
-# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h" 1
-# 67 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h"
-typedef enum
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Port/Io/IfxPort_Io.h" 1
+# 159 "0_Src/BaseSw/iLLD/TC27D/Tricore/Port/Io/IfxPort_Io.h"
+typedef struct
 {
-    IfxStm_Index_none = -1,
-    IfxStm_Index_0 = 0,
-    IfxStm_Index_1,
-    IfxStm_Index_2
-} IfxStm_Index;
-# 84 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h"
-extern const IfxModule_IndexMap IfxStm_cfg_indexMap[3];
-# 120 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h" 2
+    const IfxPort_Pin *pin;
+    IfxPort_Mode mode;
+    IfxPort_PadDriver padDriver;
+} IfxPort_Io_ConfigPin;
 
-# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h" 1
-# 95 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+
+
+
+
+typedef struct
+{
+    uint32 size;
+    IfxPort_Io_ConfigPin *pinTable;
+} IfxPort_Io_Config;
+# 188 "0_Src/BaseSw/iLLD/TC27D/Tricore/Port/Io/IfxPort_Io.h"
+extern void IfxPort_Io_initModule(const IfxPort_Io_Config *config);
+# 30 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 1 "0_Src/BaseSw/Infra/Sfr/TC27D/_Reg\\IfxPort_regdef.h" 1
+# 31 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h" 1
+# 95 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 # 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.h" 1
 # 49 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.h"
 typedef enum
@@ -10113,24 +10115,24 @@ typedef enum
     IfxSrc_Tos_cpu2 = 2,
     IfxSrc_Tos_dma = 3
 } IfxSrc_Tos;
-# 96 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h" 2
-# 112 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 96 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h" 2
+# 112 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_clearOverrun(volatile Ifx_SRC_SRCR *src);
-# 121 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 121 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_clearRequest(volatile Ifx_SRC_SRCR *src);
-# 130 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 130 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) boolean IfxSrc_isOverrun(volatile Ifx_SRC_SRCR *src);
-# 139 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 139 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) boolean IfxSrc_isRequested(volatile Ifx_SRC_SRCR *src);
-# 148 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 148 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_setRequest(volatile Ifx_SRC_SRCR *src);
-# 166 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 166 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_deinit(volatile Ifx_SRC_SRCR *src);
-# 175 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 175 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_disable(volatile Ifx_SRC_SRCR *src);
-# 184 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 184 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_enable(volatile Ifx_SRC_SRCR *src);
-# 216 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 216 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_init(volatile Ifx_SRC_SRCR *src, IfxSrc_Tos typOfService, Ifx_Priority priority);
 
 
@@ -10193,6 +10195,30 @@ static inline __attribute__ ((always_inline)) void IfxSrc_setRequest(volatile If
 {
     src->B.SETR = 1;
 }
+# 32 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+
+# 1 "0_Src/AppSw/Tricore/Motors_func.h" 1
+
+
+
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Port/Std/IfxPort.h" 1
+# 5 "0_Src/AppSw/Tricore/Motors_func.h" 2
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h" 1
+# 119 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h" 1
+# 67 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h"
+typedef enum
+{
+    IfxStm_Index_none = -1,
+    IfxStm_Index_0 = 0,
+    IfxStm_Index_1,
+    IfxStm_Index_2
+} IfxStm_Index;
+# 84 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h"
+extern const IfxModule_IndexMap IfxStm_cfg_indexMap[3];
+# 120 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h" 2
+
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h" 1
 # 122 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h" 2
 # 131 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
 typedef enum
@@ -10653,10 +10679,15 @@ void StopLeftMotor();
 void StopRightMotor();
 void GoAhead(int Time);
 void PWM(Ifx_P *port, uint8 pin, int period, float duty_cycle, int total_time);
-# 30 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 34 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
+
+
+
+
+volatile uint8 interrupt_counter = 0;
 
 int core0_main (void)
 {
@@ -10669,16 +10700,57 @@ int core0_main (void)
     IfxScuWdt_disableSafetyWatchdog (IfxScuWdt_getSafetyWatchdogPassword ());
 
 
-    IfxCpu_emitEvent(&cpuSyncEvent);
-    IfxCpu_waitEvent(&cpuSyncEvent, 1);
+ IfxCpu_emitEvent(&cpuSyncEvent);
+ IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
 
-    GoAhead(3000);
+    IfxPort_setPinMode(&(*(Ifx_P*)0xF003B500u), 4, IfxPort_InputMode_pullUp);
+
+
+    (*(volatile Ifx_SCU_EICR*)0xF0036210u).B.EXIS0 = 0x0;
+
+
+    (*(volatile Ifx_SCU_EICR*)0xF0036210u).B.REN0 = 1;
+
+
+    (*(volatile Ifx_SCU_EICR*)0xF0036210u).B.LDEN0 = 1;
+
+
+    (*(volatile Ifx_SCU_EICR*)0xF0036210u).B.EIEN0 = 1;
+
+
+    (*(volatile Ifx_SCU_EICR*)0xF0036210u).B.INP0 = 0x0;
+
+
+
+
+    (*(volatile Ifx_SCU_IGCR*)0xF003622Cu).B.GEEN0 = 1;
+
+
+
+
+
+    (*(volatile Ifx_SCU_IGCR*)0xF003622Cu).B.IGP0 = 0x1;
+
+    IfxSrc_init(&((*(volatile Ifx_SRC_SRCR*)0xF0038CD4u)),0,25);
+ IfxSrc_enable(&((*(volatile Ifx_SRC_SRCR*)0xF0038CD4u)));
+
+
+
+ StopLeftMotor();
+ StopRightMotor();
+
+ GoAhead(500);
 
 
     while (1)
     {
-
     }
     return (1);
+}
+
+
+__asm__ (".ifndef .intr.entry.include                        \n" ".altmacro                                           \n" ".macro .int_entry.2 intEntryLabel, name # define the section and inttab entry code \n" "	.pushsection .\\intEntryLabel,\"ax\",@progbits   \n" "	__\\intEntryLabel :                              \n" "		svlcx                                        \n" "		movh.a  %a14, hi:\\name                      \n" "		lea     %a14, [%a14]lo:\\name                \n" "		ji      %a14                                 \n" "	.popsection                                      \n" ".endm                                               \n" ".macro .int_entry.1 prio,vectabNum,u,name           \n" ".int_entry.2 intvec_tc\\vectabNum\\u\\prio,(name) # build the unique name \n" ".endm                                               \n" "                                                    \n" ".macro .intr.entry name,vectabNum,prio              \n" ".int_entry.1 %(prio),%(vectabNum),_,name # evaluate the priority and the cpu number \n" ".endm                                               \n" ".intr.entry.include:                                \n" ".endif                                              \n" ".intr.entry ""TEST"",""0"",""25" );extern void __attribute__ ((interrupt_handler)) TEST(); void TEST (void)
+{
+ interrupt_counter++;
 }

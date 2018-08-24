@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Motors_func.c"
-# 1 "C:\\Aurix1G_Workspace_V1_0_1_7_0\\Robot_Project//"
+# 1 "C:\\Robot_Project_IFX\\Robot_Project//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Motors_func.c"
@@ -10678,8 +10678,7 @@ void GoAhead(int Time)
 {
 
  uint32 NbTicks = IfxStm_getTicksFromMilliseconds(stm0, Time);
-# 43 "0_Src/AppSw/Tricore/Motors_func.c"
- IfxPort_setPinModeInput(port14, pin4, IfxPort_InputMode_pullDown);
+# 44 "0_Src/AppSw/Tricore/Motors_func.c"
  StartRightMotor();
  StartLeftMotor();
 

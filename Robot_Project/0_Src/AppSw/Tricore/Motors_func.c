@@ -40,7 +40,7 @@ void GoAhead(int Time)
 	min 30 ms 0.18 Duty or 25ms 0.24 Duty
 	 Minimum is 5.4 ms in high state*/
 
-	IfxPort_setPinModeInput(port14, pin4, IfxPort_InputMode_pullDown);
+	//IfxPort_setPinModeInput(port14, pin4, IfxPort_InputMode_pullDown);
 	StartRightMotor();
 	StartLeftMotor();
 
