@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
-# 1 "C:\\Robot_Project_IFX\\Robot_Project//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
@@ -10687,7 +10687,7 @@ IfxCpu_syncEvent cpuSyncEvent= 0;
 
 
 
-volatile uint8 interrupt_counter = 0;
+volatile uint32 interrupt_counter = 0;
 
 int core0_main (void)
 {
@@ -10740,7 +10740,7 @@ int core0_main (void)
  StopLeftMotor();
  StopRightMotor();
 
- GoAhead(500);
+ GoAhead(3000);
 
 
     while (1)

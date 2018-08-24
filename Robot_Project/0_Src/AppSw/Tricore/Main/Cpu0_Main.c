@@ -38,7 +38,7 @@ IfxCpu_syncEvent cpuSyncEvent= 0;
 
 
 
-volatile uint8 interrupt_counter = 0;
+volatile uint32 interrupt_counter = 0;
 
 int core0_main (void)
 {
@@ -91,7 +91,7 @@ int core0_main (void)
 	StopLeftMotor();
 	StopRightMotor();
 
-	GoAhead(500);
+	GoAhead(3000);
 
 
     while (1)

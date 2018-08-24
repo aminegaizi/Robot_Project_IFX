@@ -27,7 +27,7 @@ int cycles = 0;
 void GoAhead(int Time)
 {
 
-	uint32 NbTicks = IfxStm_getTicksFromMilliseconds(stm0, Time);
+	//uint32 NbTicks = IfxStm_getTicksFromMilliseconds(stm0, Time);
 
 	/*IfxPort_setPinModeOutput(port2, pin1, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
     IfxPort_setPinHigh(port2, pin1);
@@ -35,19 +35,31 @@ void GoAhead(int Time)
 	IfxPort_setPinModeOutput(port2, pin0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
     IfxPort_setPinHigh(port2, pin0);*/
 
-	/*PWM(port0, pin2, 50, 0.70, Time);
-	PWM(port0, pin0, 50, 0.70, Time);
-	min 30 ms 0.18 Duty or 25ms 0.24 Duty
+	StartRightMotor();
+	StartLeftMotor();
+
+
+	PWM(port2, pin0, 300, 0.20, Time);
+	PWM(port2, pin1, 50, 0.40, Time);
+
+
+	StopLeftMotor();
+	StopRightMotor();
+
+	/*IfxPort_setPinLow(port2, pin1);
+	IfxPort_setPinLow(port2, pin0);*/
+
+	/*min 30 ms 0.18 Duty or 25ms 0.24 Duty
 	 Minimum is 5.4 ms in high state*/
 
 	//IfxPort_setPinModeInput(port14, pin4, IfxPort_InputMode_pullDown);
-	StartRightMotor();
+	/*StartRightMotor();
 	StartLeftMotor();
 
 	IfxStm_waitTicks(stm0,NbTicks);
 
 	StopLeftMotor();
-	StopRightMotor();
+	StopRightMotor();*/
 
 	/*IfxPort_setPinLow(port2, pin1);
 	IfxPort_setPinLow(port2, pin0);*/
@@ -148,7 +160,8 @@ void PWM(Ifx_P *port, uint8 pin, int period, float duty_cycle, int total_time)
 
 		IfxPort_setPinLow(port, pin);
 		IfxStm_waitTicks(stm0, DownTicks);
+
 		counter+=1;
 	}while(counter<cycles);
-	IfxPort_setPinLow(port, pin);
+	//IfxPort_setPinLow(port, pin);
 }

@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Motors_func.c"
-# 1 "C:\\Robot_Project_IFX\\Robot_Project//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Motors_func.c"
@@ -10676,19 +10676,18 @@ int cycles = 0;
 
 void GoAhead(int Time)
 {
-
- uint32 NbTicks = IfxStm_getTicksFromMilliseconds(stm0, Time);
-# 44 "0_Src/AppSw/Tricore/Motors_func.c"
+# 38 "0_Src/AppSw/Tricore/Motors_func.c"
  StartRightMotor();
  StartLeftMotor();
 
- IfxStm_waitTicks(stm0,NbTicks);
+
+ PWM(port2, pin0, 300, 0.20, Time);
+ PWM(port2, pin1, 50, 0.40, Time);
+
 
  StopLeftMotor();
  StopRightMotor();
-
-
-
+# 66 "0_Src/AppSw/Tricore/Motors_func.c"
 }
 
 void StartRightMotor()
@@ -10786,7 +10785,8 @@ void PWM(Ifx_P *port, uint8 pin, int period, float duty_cycle, int total_time)
 
   IfxPort_setPinLow(port, pin);
   IfxStm_waitTicks(stm0, DownTicks);
+
   counter+=1;
  }while(counter<cycles);
- IfxPort_setPinLow(port, pin);
+
 }
