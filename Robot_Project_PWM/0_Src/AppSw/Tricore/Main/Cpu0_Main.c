@@ -120,12 +120,12 @@ int core0_main (void)
     IfxGtm_Tom_Timer_run(&Timer);
 
     IfxGtm_Cmu_enableClocks(gtm, IFXGTM_CMU_CLKEN_FXCLK | IFXGTM_CMU_CLKEN_CLK0);
-/*
-    tOn[0] = IfxGtm_Tom_Timer_getPeriod(Timer) / 2;
-    IfxGtm_Tom_Timer_disableUpdate(timer);
-    IfxGtm_Tom_PwmHl_setOnTime(PwmHl, &tOn[0]);
-    IfxGtm_Tom_Timer_applyUpdate(timer);
-*/
+
+    tOn[0] = IfxGtm_Tom_Timer_getPeriod(&Timer) / 2;
+    IfxGtm_Tom_Timer_disableUpdate(&Timer);
+    IfxGtm_Tom_PwmHl_setOnTime(&Pwm, &tOn[0]);
+    IfxGtm_Tom_Timer_applyUpdate(&Timer);
+
     //GoAhead(3000);
 
     while (1)
