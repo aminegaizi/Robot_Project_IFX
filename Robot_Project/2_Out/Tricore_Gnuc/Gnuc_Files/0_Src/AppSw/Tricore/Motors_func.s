@@ -744,26 +744,21 @@ GoAhead:
 .LFB242:
 	.loc 1 28 0
 .LVL50:
+	.loc 1 42 0
+	movh.a	%a15, hi:port2
+	movh.a	%a2, hi:pin0
+	ld.a	%a4, [%a15] lo:port2
 	.loc 1 28 0
 	mov	%d15, %d4
 	.loc 1 42 0
-	movh.a	%a15, hi:port2
-	.loc 1 38 0
-	call	StartRightMotor
-.LVL51:
-	.loc 1 39 0
-	call	StartLeftMotor
-.LVL52:
-	.loc 1 42 0
-	movh.a	%a2, hi:pin0
-	ld.a	%a4, [%a15] lo:port2
-	ld.bu	%d4, [%a2] lo:pin0
 	movh	%d6, 15949
+	ld.bu	%d4, [%a2] lo:pin0
+.LVL51:
 	mov	%d7, %d15
-	mov	%d5, 300
+	mov	%d5, 20
 	addi	%d6, %d6, -13107
 	call	PWM
-.LVL53:
+.LVL52:
 	.loc 1 43 0
 	ld.a	%a4, [%a15] lo:port2
 	movh.a	%a15, hi:pin1
@@ -773,13 +768,13 @@ GoAhead:
 	addi	%d6, %d6, -13107
 	mov	%d7, %d15
 	call	PWM
-.LVL54:
+.LVL53:
 	.loc 1 46 0
 	call	StopLeftMotor
-.LVL55:
+.LVL54:
 	.loc 1 47 0
 	j	StopRightMotor
-.LVL56:
+.LVL55:
 .LFE242:
 	.size	GoAhead, .-GoAhead
 	.global	cycles
@@ -938,7 +933,7 @@ TIM0:
 	.file 10 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x4acd
+	.uaword	0x4ab9
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -7494,7 +7489,7 @@ TIM0:
 	.uaword	.LLST1
 	.uleb128 0x25
 	.uaword	.LVL1
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -7554,7 +7549,7 @@ TIM0:
 	.uaword	.LLST7
 	.uleb128 0x25
 	.uaword	.LVL5
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -7614,7 +7609,7 @@ TIM0:
 	.uaword	.LLST13
 	.uleb128 0x25
 	.uaword	.LVL8
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -7691,7 +7686,7 @@ TIM0:
 	.uaword	.LLST15
 	.uleb128 0x25
 	.uaword	.LVL11
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -7751,7 +7746,7 @@ TIM0:
 	.uaword	.LLST21
 	.uleb128 0x25
 	.uaword	.LVL14
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -7811,7 +7806,7 @@ TIM0:
 	.uaword	.LLST27
 	.uleb128 0x25
 	.uaword	.LVL17
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -7888,7 +7883,7 @@ TIM0:
 	.uaword	.LLST29
 	.uleb128 0x25
 	.uaword	.LVL20
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -7948,7 +7943,7 @@ TIM0:
 	.uaword	.LLST35
 	.uleb128 0x25
 	.uaword	.LVL23
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -8025,7 +8020,7 @@ TIM0:
 	.uaword	.LLST37
 	.uleb128 0x25
 	.uaword	.LVL26
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -8085,7 +8080,7 @@ TIM0:
 	.uaword	.LLST43
 	.uleb128 0x25
 	.uaword	.LVL29
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -8245,7 +8240,7 @@ TIM0:
 	.uahalf	0x223
 	.uleb128 0x35
 	.uaword	.LVL35
-	.uaword	0x4aa8
+	.uaword	0x4a94
 	.byte	0
 	.byte	0
 	.byte	0
@@ -8291,7 +8286,7 @@ TIM0:
 	.uahalf	0x223
 	.uleb128 0x35
 	.uaword	.LVL39
-	.uaword	0x4aa8
+	.uaword	0x4a94
 	.byte	0
 	.byte	0
 	.byte	0
@@ -8318,7 +8313,7 @@ TIM0:
 	.uaword	.LLST57
 	.uleb128 0x25
 	.uaword	.LVL43
-	.uaword	0x4a7a
+	.uaword	0x4a66
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
@@ -8505,23 +8500,17 @@ TIM0:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4951
+	.uaword	0x493d
 	.uleb128 0x2e
 	.string	"Time"
 	.byte	0x1
 	.byte	0x1b
 	.uaword	0x17c
 	.uaword	.LLST58
-	.uleb128 0x35
-	.uaword	.LVL51
-	.uaword	0x3f25
-	.uleb128 0x35
-	.uaword	.LVL52
-	.uaword	0x4101
 	.uleb128 0x3b
-	.uaword	.LVL53
+	.uaword	.LVL52
 	.uaword	0x4571
-	.uaword	0x4923
+	.uaword	0x490f
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x57
@@ -8531,14 +8520,13 @@ TIM0:
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x55
-	.byte	0x3
-	.byte	0xa
-	.uahalf	0x12c
+	.byte	0x1
+	.byte	0x44
 	.byte	0
 	.uleb128 0x3b
-	.uaword	.LVL54
+	.uaword	.LVL53
 	.uaword	0x4571
-	.uaword	0x493d
+	.uaword	0x4929
 	.uleb128 0x26
 	.byte	0x1
 	.byte	0x57
@@ -8553,16 +8541,16 @@ TIM0:
 	.byte	0x32
 	.byte	0
 	.uleb128 0x35
-	.uaword	.LVL55
+	.uaword	.LVL54
 	.uaword	0x4427
 	.uleb128 0x3c
-	.uaword	.LVL56
+	.uaword	.LVL55
 	.byte	0x1
 	.uaword	0x42dc
 	.byte	0
 	.uleb128 0x8
 	.uaword	0x289
-	.uaword	0x4961
+	.uaword	0x494d
 	.uleb128 0x9
 	.uaword	0x2b3
 	.byte	0x2
@@ -8571,23 +8559,23 @@ TIM0:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xa
 	.byte	0x96
-	.uaword	0x497e
+	.uaword	0x496a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3e
-	.uaword	0x4951
+	.uaword	0x493d
 	.uleb128 0x3f
 	.string	"TIM0"
 	.byte	0x1
 	.byte	0x9
-	.uaword	0x4996
+	.uaword	0x4982
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	TIM0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x499c
+	.uaword	0x4988
 	.uleb128 0x17
 	.uaword	0x124d
 	.uleb128 0x3f
@@ -8696,7 +8684,7 @@ TIM0:
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4aa8
+	.uaword	0x4a94
 	.uleb128 0x41
 	.uaword	0x3852
 	.uleb128 0x41
@@ -10028,10 +10016,10 @@ TIM0:
 	.uaword	0
 .LLST58:
 	.uaword	.LVL50
-	.uaword	.LVL51-1
+	.uaword	.LVL51
 	.uahalf	0x1
 	.byte	0x54
-	.uaword	.LVL51-1
+	.uaword	.LVL51
 	.uaword	.LFE242
 	.uahalf	0x1
 	.byte	0x5f

@@ -10676,12 +10676,8 @@ int cycles = 0;
 
 void GoAhead(int Time)
 {
-# 38 "0_Src/AppSw/Tricore/Motors_func.c"
- StartRightMotor();
- StartLeftMotor();
-
-
- PWM(port2, pin0, 300, 0.20, Time);
+# 42 "0_Src/AppSw/Tricore/Motors_func.c"
+ PWM(port2, pin0, 20, 0.20, Time);
  PWM(port2, pin1, 50, 0.40, Time);
 
 

@@ -35,11 +35,11 @@ void GoAhead(int Time)
 	IfxPort_setPinModeOutput(port2, pin0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
     IfxPort_setPinHigh(port2, pin0);*/
 
-	StartRightMotor();
-	StartLeftMotor();
+	//StartRightMotor();
+	//StartLeftMotor();
 
 
-	PWM(port2, pin0, 300, 0.20, Time);
+	PWM(port2, pin0, 20, 0.20, Time);
 	PWM(port2, pin1, 50, 0.40, Time);
 
 

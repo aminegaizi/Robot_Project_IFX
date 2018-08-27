@@ -26,6 +26,8 @@
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
 
+#include "Motors_func.h"
+
 extern IfxCpu_syncEvent cpuSyncEvent;
 
 int core1_main (void)
@@ -40,6 +42,12 @@ int core1_main (void)
     /* Cpu sync event wait*/
     IfxCpu_emitEvent(&cpuSyncEvent);
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
+
+//	StopLeftMotor();
+//	StopRightMotor();
+//
+//	GoAhead(1000);
+
     while (1)
     {
     }

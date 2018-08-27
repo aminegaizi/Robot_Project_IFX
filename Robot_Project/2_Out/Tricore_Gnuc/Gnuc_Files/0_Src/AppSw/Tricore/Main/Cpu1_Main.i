@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Main/Cpu1_Main.c"
-# 1 "C:\\Aurix1G_Workspace_V1_0_1_7_0\\Copy (5) of BaseFramework_TC27D//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Main/Cpu1_Main.c"
@@ -10081,6 +10081,580 @@ static inline __attribute__ ((always_inline)) void IfxCpu_updatePerformanceCount
 # 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h" 1
 # 28 "0_Src/AppSw/Tricore/Main/Cpu1_Main.c" 2
 
+# 1 "0_Src/AppSw/Tricore/Motors_func.h" 1
+
+
+
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Port/Std/IfxPort.h" 1
+# 5 "0_Src/AppSw/Tricore/Motors_func.h" 2
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h" 1
+# 119 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h" 1
+# 67 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h"
+typedef enum
+{
+    IfxStm_Index_none = -1,
+    IfxStm_Index_0 = 0,
+    IfxStm_Index_1,
+    IfxStm_Index_2
+} IfxStm_Index;
+# 84 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h"
+extern const IfxModule_IndexMap IfxStm_cfg_indexMap[3];
+# 120 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h" 2
+
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h" 1
+# 95 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+# 1 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.h" 1
+# 49 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.h"
+typedef enum
+{
+    IfxSrc_Tos_cpu0 = 0,
+    IfxSrc_Tos_cpu1 = 1,
+    IfxSrc_Tos_cpu2 = 2,
+    IfxSrc_Tos_dma = 3
+} IfxSrc_Tos;
+# 96 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h" 2
+# 112 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) void IfxSrc_clearOverrun(volatile Ifx_SRC_SRCR *src);
+# 121 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) void IfxSrc_clearRequest(volatile Ifx_SRC_SRCR *src);
+# 130 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) boolean IfxSrc_isOverrun(volatile Ifx_SRC_SRCR *src);
+# 139 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) boolean IfxSrc_isRequested(volatile Ifx_SRC_SRCR *src);
+# 148 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) void IfxSrc_setRequest(volatile Ifx_SRC_SRCR *src);
+# 166 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) void IfxSrc_deinit(volatile Ifx_SRC_SRCR *src);
+# 175 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) void IfxSrc_disable(volatile Ifx_SRC_SRCR *src);
+# 184 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) void IfxSrc_enable(volatile Ifx_SRC_SRCR *src);
+# 216 "0_Src/BaseSw/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h"
+static inline __attribute__ ((always_inline)) void IfxSrc_init(volatile Ifx_SRC_SRCR *src, IfxSrc_Tos typOfService, Ifx_Priority priority);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxSrc_clearOverrun(volatile Ifx_SRC_SRCR *src)
+{
+    src->B.IOVCLR = 1;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxSrc_clearRequest(volatile Ifx_SRC_SRCR *src)
+{
+    src->B.CLRR = 1;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxSrc_deinit(volatile Ifx_SRC_SRCR *src)
+{
+    src->U = 0;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxSrc_disable(volatile Ifx_SRC_SRCR *src)
+{
+    src->B.SRE = 0;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxSrc_enable(volatile Ifx_SRC_SRCR *src)
+{
+    src->B.SRE = 1;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxSrc_init(volatile Ifx_SRC_SRCR *src, IfxSrc_Tos typOfService, Ifx_Priority priority)
+{
+    src->B.SRPN = priority;
+    src->B.TOS = typOfService;
+    IfxSrc_clearRequest(src);
+}
+
+
+static inline __attribute__ ((always_inline)) boolean IfxSrc_isOverrun(volatile Ifx_SRC_SRCR *src)
+{
+    return src->B.IOV ? 1 : 0;
+}
+
+
+static inline __attribute__ ((always_inline)) boolean IfxSrc_isRequested(volatile Ifx_SRC_SRCR *src)
+{
+    return src->B.SRR ? 1 : 0;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxSrc_setRequest(volatile Ifx_SRC_SRCR *src)
+{
+    src->B.SETR = 1;
+}
+# 122 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h" 2
+# 131 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+typedef enum
+{
+    IfxStm_Comparator_0 = 0,
+    IfxStm_Comparator_1
+} IfxStm_Comparator;
+
+
+
+typedef enum
+{
+    IfxStm_ComparatorInterrupt_ir0 = 0,
+    IfxStm_ComparatorInterrupt_ir1 = 1
+} IfxStm_ComparatorInterrupt;
+
+
+
+typedef enum
+{
+    IfxStm_ComparatorOffset_0 = 0,
+    IfxStm_ComparatorOffset_1,
+    IfxStm_ComparatorOffset_2,
+    IfxStm_ComparatorOffset_3,
+    IfxStm_ComparatorOffset_4,
+    IfxStm_ComparatorOffset_5,
+    IfxStm_ComparatorOffset_6,
+    IfxStm_ComparatorOffset_7,
+    IfxStm_ComparatorOffset_8,
+    IfxStm_ComparatorOffset_9,
+    IfxStm_ComparatorOffset_10,
+    IfxStm_ComparatorOffset_11,
+    IfxStm_ComparatorOffset_12,
+    IfxStm_ComparatorOffset_13,
+    IfxStm_ComparatorOffset_14,
+    IfxStm_ComparatorOffset_15,
+    IfxStm_ComparatorOffset_16,
+    IfxStm_ComparatorOffset_17,
+    IfxStm_ComparatorOffset_18,
+    IfxStm_ComparatorOffset_19,
+    IfxStm_ComparatorOffset_20,
+    IfxStm_ComparatorOffset_21,
+    IfxStm_ComparatorOffset_22,
+    IfxStm_ComparatorOffset_23,
+    IfxStm_ComparatorOffset_24,
+    IfxStm_ComparatorOffset_25,
+    IfxStm_ComparatorOffset_26,
+    IfxStm_ComparatorOffset_27,
+    IfxStm_ComparatorOffset_28,
+    IfxStm_ComparatorOffset_29,
+    IfxStm_ComparatorOffset_30,
+    IfxStm_ComparatorOffset_31
+} IfxStm_ComparatorOffset;
+
+
+
+typedef enum
+{
+    IfxStm_ComparatorSize_1Bit = 0,
+    IfxStm_ComparatorSize_2Bits = 1,
+    IfxStm_ComparatorSize_3Bits = 2,
+    IfxStm_ComparatorSize_4Bits = 3,
+    IfxStm_ComparatorSize_5Bits = 4,
+    IfxStm_ComparatorSize_6Bits = 5,
+    IfxStm_ComparatorSize_7Bits = 6,
+    IfxStm_ComparatorSize_8Bits = 7,
+    IfxStm_ComparatorSize_9Bits = 8,
+    IfxStm_ComparatorSize_10Bits = 9,
+    IfxStm_ComparatorSize_11Bits = 10,
+    IfxStm_ComparatorSize_12Bits = 11,
+    IfxStm_ComparatorSize_13Bits = 12,
+    IfxStm_ComparatorSize_14Bits = 13,
+    IfxStm_ComparatorSize_15Bits = 14,
+    IfxStm_ComparatorSize_16Bits = 15,
+    IfxStm_ComparatorSize_17Bits = 16,
+    IfxStm_ComparatorSize_18Bits = 17,
+    IfxStm_ComparatorSize_19Bits = 18,
+    IfxStm_ComparatorSize_20Bits = 19,
+    IfxStm_ComparatorSize_21Bits = 20,
+    IfxStm_ComparatorSize_22Bits = 21,
+    IfxStm_ComparatorSize_23Bits = 22,
+    IfxStm_ComparatorSize_24Bits = 23,
+    IfxStm_ComparatorSize_25Bits = 24,
+    IfxStm_ComparatorSize_26Bits = 25,
+    IfxStm_ComparatorSize_27Bits = 26,
+    IfxStm_ComparatorSize_28Bits = 27,
+    IfxStm_ComparatorSize_29Bits = 28,
+    IfxStm_ComparatorSize_30Bits = 29,
+    IfxStm_ComparatorSize_31Bits = 30,
+    IfxStm_ComparatorSize_32Bits = 31
+} IfxStm_ComparatorSize;
+
+
+
+
+typedef enum
+{
+    IfxStm_SleepMode_enable = 0,
+    IfxStm_SleepMode_disable = 1
+} IfxStm_SleepMode;
+
+
+
+typedef enum
+{
+    IfxStm_SuspendMode_none = 0,
+    IfxStm_SuspendMode_hard = 1,
+    IfxStm_SuspendMode_soft = 2
+} IfxStm_SuspendMode;
+# 249 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+typedef struct
+{
+    IfxStm_Comparator comparator;
+    IfxStm_ComparatorInterrupt comparatorInterrupt;
+    IfxStm_ComparatorOffset compareOffset;
+    IfxStm_ComparatorSize compareSize;
+    uint32 ticks;
+    Ifx_Priority triggerPriority;
+    IfxSrc_Tos typeOfService;
+} IfxStm_CompareConfig;
+# 273 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+static inline __attribute__ ((always_inline)) uint64 IfxStm_get(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) float32 IfxStm_getFrequency(Ifx_STM *stm);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) boolean IfxStm_isModuleSuspended(Ifx_STM *stm);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_setSuspendMode(Ifx_STM *stm, IfxStm_SuspendMode mode);
+# 305 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+extern void IfxStm_disableModule(Ifx_STM *stm);
+
+
+
+
+
+extern void IfxStm_enableOcdsSuspend(Ifx_STM *stm);
+
+
+
+
+
+extern Ifx_STM *IfxStm_getAddress(IfxStm_Index stm);
+
+
+
+
+
+extern IfxStm_Index IfxStm_getIndex(Ifx_STM *stm);
+# 338 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getLower(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset12Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset16Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset20Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset32Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset4Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset8Timer(Ifx_STM *stm);
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffsetTimer(Ifx_STM *stm, uint8 offset);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_waitTicks(Ifx_STM *stm, uint32 ticks);
+# 405 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getCompare(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) sint32 IfxStm_getTicksFromMicroseconds(Ifx_STM *stm, uint32 microSeconds);
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) sint32 IfxStm_getTicksFromMilliseconds(Ifx_STM *stm, uint32 milliSeconds);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_increaseCompare(Ifx_STM *stm, IfxStm_Comparator comparator, uint32 ticks);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_updateCompare(Ifx_STM *stm, IfxStm_Comparator comparator, uint32 ticks);
+# 446 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+extern void IfxStm_clearCompareFlag(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+extern void IfxStm_disableComparatorInterrupt(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+extern void IfxStm_enableComparatorInterrupt(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+extern volatile Ifx_SRC_SRCR *IfxStm_getSrcPointer(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+extern boolean IfxStm_initCompare(Ifx_STM *stm, const IfxStm_CompareConfig *config);
+
+
+
+
+
+extern void IfxStm_initCompareConfig(IfxStm_CompareConfig *config);
+
+
+
+
+
+
+extern boolean IfxStm_isCompareFlagSet(Ifx_STM *stm, IfxStm_Comparator comparator);
+# 497 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+extern void IfxStm_setCompareControl(Ifx_STM *stm, IfxStm_Comparator comparator, IfxStm_ComparatorOffset offset, IfxStm_ComparatorSize size, IfxStm_ComparatorInterrupt interrupt);
+# 510 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+static inline __attribute__ ((always_inline)) void IfxStm_setSleepMode(Ifx_STM *stm, IfxStm_SleepMode mode);
+# 520 "0_Src/BaseSw/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h"
+extern void IfxStm_resetModule(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint64 IfxStm_get(Ifx_STM *stm)
+{
+    uint64 result;
+
+    result = stm->TIM0.U;
+    result |= ((uint64)stm->CAP.U) << 32;
+
+    return result;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getCompare(Ifx_STM *stm, IfxStm_Comparator comparator)
+{
+    return stm->CMP[comparator].B.CMPVAL;
+}
+
+
+static inline __attribute__ ((always_inline)) float32 IfxStm_getFrequency(Ifx_STM *stm)
+{
+    float32 result;
+
+    result = IfxScuCcu_getStmFrequency();
+
+    return result;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getLower(Ifx_STM *stm)
+{
+    return stm->TIM0.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset12Timer(Ifx_STM *stm)
+{
+    return stm->TIM3.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset16Timer(Ifx_STM *stm)
+{
+    return stm->TIM4.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset20Timer(Ifx_STM *stm)
+{
+    return stm->TIM5.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset32Timer(Ifx_STM *stm)
+{
+    return stm->TIM6.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset4Timer(Ifx_STM *stm)
+{
+    return stm->TIM1.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset8Timer(Ifx_STM *stm)
+{
+    return stm->TIM2.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffsetTimer(Ifx_STM *stm, uint8 offset)
+{
+    uint64 now;
+
+    now = IfxStm_get(stm);
+
+    return (uint32)(now >> offset);
+}
+
+
+static inline __attribute__ ((always_inline)) sint32 IfxStm_getTicksFromMicroseconds(Ifx_STM *stm, uint32 microSeconds)
+{
+    sint32 freq = (sint32)IfxStm_getFrequency(stm);
+    return (freq / (1000000)) * microSeconds;
+}
+
+
+static inline __attribute__ ((always_inline)) sint32 IfxStm_getTicksFromMilliseconds(Ifx_STM *stm, uint32 milliSeconds)
+{
+    sint32 freq = (sint32)IfxStm_getFrequency(stm);
+    return (freq / (1000)) * milliSeconds;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_increaseCompare(Ifx_STM *stm, IfxStm_Comparator comparator, uint32 ticks)
+{
+    stm->CMP[comparator].B.CMPVAL = stm->CMP[comparator].B.CMPVAL + ticks;
+}
+
+
+static inline __attribute__ ((always_inline)) boolean IfxStm_isModuleSuspended(Ifx_STM *stm)
+{
+    Ifx_STM_OCS ocs;
+
+
+    ocs.U = stm->OCS.U;
+
+
+    return ocs.B.SUSSTA;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_setSleepMode(Ifx_STM *stm, IfxStm_SleepMode mode)
+{
+    uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+    IfxScuWdt_clearCpuEndinit(passwd);
+    stm->CLC.B.EDIS = mode;
+    IfxScuWdt_setCpuEndinit(passwd);
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_setSuspendMode(Ifx_STM *stm, IfxStm_SuspendMode mode)
+{
+    Ifx_STM_OCS ocs;
+
+
+    ocs.B.SUS_P = 1;
+    ocs.B.SUS = mode;
+    stm->OCS.U = ocs.U;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_updateCompare(Ifx_STM *stm, IfxStm_Comparator comparator, uint32 ticks)
+{
+    stm->CMP[comparator].B.CMPVAL = ticks;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_waitTicks(Ifx_STM *stm, uint32 ticks)
+{
+    uint32 beginTime;
+
+    beginTime = IfxStm_getLower(stm);
+
+
+
+
+    while ((IfxStm_getLower(stm) - beginTime) < ticks)
+    {}
+}
+# 6 "0_Src/AppSw/Tricore/Motors_func.h" 2
+
+void StartRightMotor();
+void StartLeftMotor();
+void StopLeftMotor();
+void StopRightMotor();
+void GoAhead(int Time);
+void PWM(Ifx_P *port, uint8 pin, int period, float duty_cycle, int total_time);
+# 30 "0_Src/AppSw/Tricore/Main/Cpu1_Main.c" 2
+
 extern IfxCpu_syncEvent cpuSyncEvent;
 
 int core1_main (void)
@@ -10095,6 +10669,12 @@ int core1_main (void)
 
     IfxCpu_emitEvent(&cpuSyncEvent);
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
+
+ StopLeftMotor();
+ StopRightMotor();
+
+ GoAhead(1000);
+
     while (1)
     {
     }

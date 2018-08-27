@@ -6,9 +6,9 @@
 	.global	core1_main
 	.type	core1_main, @function
 core1_main:
-.LFB214:
+.LFB242:
 	.file 1 "0_Src/AppSw/Tricore/Main/Cpu1_Main.c"
-	.loc 1 32 0
+	.loc 1 34 0
 .LBB4:
 .LBB5:
 	.file 2 "0_Src/BaseSw/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.h"
@@ -20,29 +20,39 @@ core1_main:
 #NO_APP
 .LBE5:
 .LBE4:
-	.loc 1 38 0
+	.loc 1 40 0
 	call	IfxScuWdt_getCpuWatchdogPassword
 .LVL0:
 	mov	%d4, %d2
-	.loc 1 41 0
+	.loc 1 43 0
 	movh.a	%a15, hi:cpuSyncEvent
-	.loc 1 38 0
+	.loc 1 40 0
 	call	IfxScuWdt_disableCpuWatchdog
 .LVL1:
-	.loc 1 41 0
+	.loc 1 43 0
 	lea	%a15, [%a15] lo:cpuSyncEvent
 	mov.aa	%a4, %a15
 	call	IfxCpu_emitEvent
 .LVL2:
-	.loc 1 42 0
-	mov.aa	%a4, %a15
+	.loc 1 44 0
 	mov	%d4, 1
+	mov.aa	%a4, %a15
 	call	IfxCpu_waitEvent
 .LVL3:
+	.loc 1 46 0
+	call	StopLeftMotor
+.LVL4:
+	.loc 1 47 0
+	call	StopRightMotor
+.LVL5:
+	.loc 1 49 0
+	mov	%d4, 1000
+	call	GoAhead
+.LVL6:
 .L2:
-	.loc 1 45 0 discriminator 1
+	.loc 1 53 0 discriminator 1
 	j	.L2
-.LFE214:
+.LFE242:
 	.size	core1_main, .-core1_main
 .section .debug_frame,"",@progbits
 .Lframe0:
@@ -63,8 +73,8 @@ core1_main:
 	.uaword	.LEFDE0-.LASFDE0
 .LASFDE0:
 	.uaword	.Lframe0
-	.uaword	.LFB214
-	.uaword	.LFE214-.LFB214
+	.uaword	.LFB242
+	.uaword	.LFE242-.LFB242
 	.align 2
 .LEFDE0:
 .section .text,"ax",@progbits
@@ -73,9 +83,10 @@ core1_main:
 	.file 4 "0_Src/BaseSw/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h"
 	.file 5 "0_Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.h"
 	.file 6 "0_Src/BaseSw/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h"
+	.file 7 "0_Src/AppSw/Tricore/Motors_func.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x45b
+	.uaword	0x4c7
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -83,7 +94,7 @@ core1_main:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/AppSw/Tricore/Main/Cpu1_Main.c"
-	.string	"C:\\\\Aurix1G_Workspace_V1_0_1_7_0\\\\Copy (5) of BaseFramework_TC27D"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -116,7 +127,7 @@ core1_main:
 	.string	"uint16"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x1df
+	.uaword	0x1d9
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -125,12 +136,12 @@ core1_main:
 	.string	"sint32"
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x17c
+	.uaword	0x176
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x188
+	.uaword	0x182
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -143,7 +154,7 @@ core1_main:
 	.string	"boolean"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x1b3
+	.uaword	0x1ad
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -158,31 +169,31 @@ core1_main:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x26c
+	.uaword	0x266
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x4
 	.byte	0x7d
-	.uaword	0x293
+	.uaword	0x28d
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x4
 	.byte	0x7f
-	.uaword	0x266
+	.uaword	0x260
 	.byte	0
 	.uleb128 0x7
 	.string	"index"
 	.byte	0x4
 	.byte	0x80
-	.uaword	0x1f5
+	.uaword	0x1ef
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x4
 	.byte	0x81
-	.uaword	0x26d
+	.uaword	0x267
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -195,7 +206,7 @@ core1_main:
 	.string	"IfxCpu_syncEvent"
 	.byte	0x2
 	.byte	0x66
-	.uaword	0x2ad
+	.uaword	0x2a7
 	.uleb128 0x8
 	.string	"IfxCpu_enableInterrupts"
 	.byte	0x2
@@ -206,31 +217,31 @@ core1_main:
 	.byte	0x1
 	.string	"core1_main"
 	.byte	0x1
-	.byte	0x1f
+	.byte	0x21
 	.byte	0x1
-	.uaword	0x19d
-	.uaword	.LFB214
-	.uaword	.LFE214
+	.uaword	0x197
+	.uaword	.LFB242
+	.uaword	.LFE242
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x36d
+	.uaword	0x38e
 	.uleb128 0xa
-	.uaword	0x2e1
+	.uaword	0x2db
 	.uaword	.LBB4
 	.uaword	.LBE4
 	.byte	0x1
-	.byte	0x21
+	.byte	0x23
 	.uleb128 0xb
 	.uaword	.LVL0
-	.uaword	0x3b5
+	.uaword	0x3d6
 	.uleb128 0xb
 	.uaword	.LVL1
-	.uaword	0x3e1
+	.uaword	0x402
 	.uleb128 0xc
 	.uaword	.LVL2
-	.uaword	0x40f
-	.uaword	0x357
+	.uaword	0x430
+	.uaword	0x351
 	.uleb128 0xd
 	.byte	0x1
 	.byte	0x64
@@ -238,9 +249,10 @@ core1_main:
 	.byte	0x8f
 	.sleb128 0
 	.byte	0
-	.uleb128 0xe
+	.uleb128 0xc
 	.uaword	.LVL3
-	.uaword	0x437
+	.uaword	0x458
+	.uaword	0x36a
 	.uleb128 0xd
 	.byte	0x1
 	.byte	0x54
@@ -253,28 +265,44 @@ core1_main:
 	.byte	0x8f
 	.sleb128 0
 	.byte	0
+	.uleb128 0xb
+	.uaword	.LVL4
+	.uaword	0x483
+	.uleb128 0xb
+	.uaword	.LVL5
+	.uaword	0x49c
+	.uleb128 0xe
+	.uaword	.LVL6
+	.uaword	0x4b6
+	.uleb128 0xd
+	.byte	0x1
+	.byte	0x54
+	.byte	0x3
+	.byte	0xa
+	.uahalf	0x3e8
+	.byte	0
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x293
-	.uaword	0x37d
+	.uaword	0x28d
+	.uaword	0x39e
 	.uleb128 0x10
-	.uaword	0x2bd
+	.uaword	0x2b7
 	.byte	0x2
 	.byte	0
 	.uleb128 0x11
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x5
 	.byte	0x96
-	.uaword	0x39a
+	.uaword	0x3bb
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x12
-	.uaword	0x36d
+	.uaword	0x38e
 	.uleb128 0x11
 	.string	"cpuSyncEvent"
 	.byte	0x1
-	.byte	0x1d
-	.uaword	0x2c9
+	.byte	0x1f
+	.uaword	0x2c3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x13
@@ -283,7 +311,7 @@ core1_main:
 	.byte	0x6
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x1d1
+	.uaword	0x1cb
 	.byte	0x1
 	.uleb128 0x14
 	.byte	0x1
@@ -292,9 +320,9 @@ core1_main:
 	.uahalf	0x146
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x40f
+	.uaword	0x430
 	.uleb128 0x15
-	.uaword	0x1d1
+	.uaword	0x1cb
 	.byte	0
 	.uleb128 0x14
 	.byte	0x1
@@ -303,25 +331,54 @@ core1_main:
 	.uahalf	0x26d
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x431
+	.uaword	0x452
 	.uleb128 0x15
-	.uaword	0x431
+	.uaword	0x452
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2c9
+	.uaword	0x2c3
 	.uleb128 0x16
 	.byte	0x1
 	.string	"IfxCpu_waitEvent"
 	.byte	0x2
 	.uahalf	0x264
 	.byte	0x1
-	.uaword	0x224
+	.uaword	0x21e
+	.byte	0x1
+	.uaword	0x483
+	.uleb128 0x15
+	.uaword	0x452
+	.uleb128 0x15
+	.uaword	0x1fd
+	.byte	0
+	.uleb128 0x17
+	.byte	0x1
+	.string	"StopLeftMotor"
+	.byte	0x7
+	.byte	0x9
+	.byte	0x1
+	.uaword	0x49c
+	.uleb128 0x18
+	.byte	0
+	.uleb128 0x17
+	.byte	0x1
+	.string	"StopRightMotor"
+	.byte	0x7
+	.byte	0xa
+	.byte	0x1
+	.uaword	0x4b6
+	.uleb128 0x18
+	.byte	0
+	.uleb128 0x19
+	.byte	0x1
+	.string	"GoAhead"
+	.byte	0x7
+	.byte	0xb
+	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
-	.uaword	0x431
-	.uleb128 0x15
-	.uaword	0x203
+	.uaword	0x197
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -612,6 +669,47 @@ core1_main:
 	.uleb128 0x13
 	.uleb128 0x3c
 	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x17
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x18
+	.uleb128 0x18
+	.byte	0
+	.byte	0
+	.byte	0
+	.uleb128 0x19
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
 	.byte	0
 	.byte	0
 	.byte	0
@@ -623,19 +721,22 @@ core1_main:
 	.byte	0
 	.uahalf	0
 	.uahalf	0
-	.uaword	.LFB214
-	.uaword	.LFE214-.LFB214
+	.uaword	.LFB242
+	.uaword	.LFE242-.LFB242
 	.uaword	0
 	.uaword	0
 .section .debug_ranges,"",@progbits
 .Ldebug_ranges0:
-	.uaword	.LFB214
-	.uaword	.LFE214
+	.uaword	.LFB242
+	.uaword	.LFE242
 	.uaword	0
 	.uaword	0
 .section .debug_line,"",@progbits
 .Ldebug_line0:
 .section .debug_str,"",@progbits
+	.extern	GoAhead,STT_FUNC,0
+	.extern	StopRightMotor,STT_FUNC,0
+	.extern	StopLeftMotor,STT_FUNC,0
 	.extern	IfxCpu_waitEvent,STT_FUNC,0
 	.extern	IfxCpu_emitEvent,STT_FUNC,0
 	.extern	IfxScuWdt_disableCpuWatchdog,STT_FUNC,0

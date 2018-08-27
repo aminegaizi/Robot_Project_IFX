@@ -151,7 +151,7 @@ core0_main:
 	call	StopRightMotor
 .LVL11:
 	.loc 1 94 0
-	mov	%d4, 3000
+	mov	%d4, 500
 	call	GoAhead
 .LVL12:
 .L2:
@@ -5440,7 +5440,7 @@ cpuSyncEvent:
 	.byte	0x54
 	.byte	0x3
 	.byte	0xa
-	.uahalf	0xbb8
+	.uahalf	0x1f4
 	.byte	0
 	.byte	0
 	.uleb128 0x28

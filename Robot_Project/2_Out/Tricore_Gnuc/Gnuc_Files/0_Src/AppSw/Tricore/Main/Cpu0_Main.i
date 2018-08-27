@@ -10740,7 +10740,7 @@ int core0_main (void)
  StopLeftMotor();
  StopRightMotor();
 
- GoAhead(3000);
+ GoAhead(500);
 
 
     while (1)
