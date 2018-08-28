@@ -10670,10 +10670,10 @@ int core1_main (void)
     IfxCpu_emitEvent(&cpuSyncEvent);
     IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
- StopLeftMotor();
- StopRightMotor();
 
- GoAhead(1000);
+
+
+
 
     while (1)
     {

@@ -10656,6 +10656,7 @@ void PWM(Ifx_P *port, uint8 pin, int period, float duty_cycle, int total_time);
 
 
 
+
 volatile Ifx_STM_TIM0 *TIM0 = &(*(volatile Ifx_STM_TIM0*)0xF0000010u);
 Ifx_STM *stm0 = &(*(Ifx_STM*)0xF0000000u);
 
@@ -10676,14 +10677,14 @@ int cycles = 0;
 
 void GoAhead(int Time)
 {
-# 42 "0_Src/AppSw/Tricore/Motors_func.c"
+# 43 "0_Src/AppSw/Tricore/Motors_func.c"
  PWM(port2, pin0, 20, 0.20, Time);
  PWM(port2, pin1, 50, 0.40, Time);
 
 
  StopLeftMotor();
  StopRightMotor();
-# 66 "0_Src/AppSw/Tricore/Motors_func.c"
+# 67 "0_Src/AppSw/Tricore/Motors_func.c"
 }
 
 void StartRightMotor()

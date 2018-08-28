@@ -293,7 +293,7 @@ Ifx_g_console:
 	.file 11 "c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\tricore\\include\\string.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0xc8e
+	.uaword	0xc88
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -301,7 +301,7 @@ Ifx_g_console:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/Service/CpuGeneric/SysSe/Comm/Ifx_Console.c"
-	.string	"C:\\\\Aurix1G_Workspace_V1_0_1_7_0\\\\Copy (5) of BaseFramework_TC27D"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project"
 	.uaword	.Ldebug_ranges0+0x60
 	.uaword	0
 	.uaword	0
@@ -354,26 +354,26 @@ Ifx_g_console:
 	.string	"long unsigned int"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x24a
+	.uaword	0x244
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x258
+	.uaword	0x252
 	.uleb128 0x5
-	.uaword	0x24a
+	.uaword	0x244
 	.uleb128 0x6
 	.string	"size_t"
 	.byte	0x4
 	.byte	0xd4
-	.uaword	0x22f
+	.uaword	0x229
 	.uleb128 0x6
 	.string	"__gnuc_va_list"
 	.byte	0x5
 	.byte	0x28
-	.uaword	0x281
+	.uaword	0x27b
 	.uleb128 0x7
 	.byte	0x4
 	.string	"__builtin_va_list"
@@ -381,22 +381,22 @@ Ifx_g_console:
 	.string	"va_list"
 	.byte	0x5
 	.byte	0x62
-	.uaword	0x26b
+	.uaword	0x265
 	.uleb128 0x6
 	.string	"sint16"
 	.byte	0x6
 	.byte	0x5a
-	.uaword	0x1b0
+	.uaword	0x1aa
 	.uleb128 0x6
 	.string	"sint32"
 	.byte	0x6
 	.byte	0x5c
-	.uaword	0x215
+	.uaword	0x20f
 	.uleb128 0x6
 	.string	"uint32"
 	.byte	0x6
 	.byte	0x5d
-	.uaword	0x22f
+	.uaword	0x229
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -409,440 +409,440 @@ Ifx_g_console:
 	.string	"boolean"
 	.byte	0x6
 	.byte	0x68
-	.uaword	0x19f
+	.uaword	0x199
 	.uleb128 0x6
 	.string	"sint64"
 	.byte	0x7
 	.byte	0x24
-	.uaword	0x1ea
+	.uaword	0x1e4
 	.uleb128 0x6
 	.string	"pchar"
 	.byte	0x7
 	.byte	0x27
-	.uaword	0x252
+	.uaword	0x24c
 	.uleb128 0x6
 	.string	"Ifx_TickTime"
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x2f0
+	.uaword	0x2ea
 	.uleb128 0x6
 	.string	"Ifx_SizeT"
 	.byte	0x7
 	.byte	0x4a
-	.uaword	0x2a4
+	.uaword	0x29e
 	.uleb128 0x6
 	.string	"IfxStdIf_InterfaceDriver"
 	.byte	0x8
 	.byte	0x61
-	.uaword	0x22d
+	.uaword	0x227
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe"
 	.byte	0x2
 	.byte	0x33
-	.uaword	0x366
+	.uaword	0x360
 	.uleb128 0x8
 	.string	"IfxStdIf_DPipe_"
 	.byte	0x4c
 	.byte	0x2
 	.byte	0xd5
-	.uaword	0x4e5
+	.uaword	0x4df
 	.uleb128 0x9
 	.string	"driver"
 	.byte	0x2
 	.byte	0xd7
-	.uaword	0x330
+	.uaword	0x32a
 	.byte	0
 	.uleb128 0x9
 	.string	"txDisabled"
 	.byte	0x2
 	.byte	0xd8
-	.uaword	0x2e1
+	.uaword	0x2db
 	.byte	0x4
 	.uleb128 0x9
 	.string	"write"
 	.byte	0x2
 	.byte	0xdb
-	.uaword	0x531
+	.uaword	0x52b
 	.byte	0x8
 	.uleb128 0x9
 	.string	"read"
 	.byte	0x2
 	.byte	0xdc
-	.uaword	0x578
+	.uaword	0x572
 	.byte	0xc
 	.uleb128 0x9
 	.string	"getReadCount"
 	.byte	0x2
 	.byte	0xdd
-	.uaword	0x593
+	.uaword	0x58d
 	.byte	0x10
 	.uleb128 0x9
 	.string	"getReadEvent"
 	.byte	0x2
 	.byte	0xde
-	.uaword	0x5cc
+	.uaword	0x5c6
 	.byte	0x14
 	.uleb128 0x9
 	.string	"getWriteCount"
 	.byte	0x2
 	.byte	0xdf
-	.uaword	0x679
+	.uaword	0x673
 	.byte	0x18
 	.uleb128 0x9
 	.string	"getWriteEvent"
 	.byte	0x2
 	.byte	0xe0
-	.uaword	0x69d
+	.uaword	0x697
 	.byte	0x1c
 	.uleb128 0x9
 	.string	"canReadCount"
 	.byte	0x2
 	.byte	0xe1
-	.uaword	0x6d7
+	.uaword	0x6d1
 	.byte	0x20
 	.uleb128 0x9
 	.string	"canWriteCount"
 	.byte	0x2
 	.byte	0xe2
-	.uaword	0x71a
+	.uaword	0x714
 	.byte	0x24
 	.uleb128 0x9
 	.string	"flushTx"
 	.byte	0x2
 	.byte	0xe3
-	.uaword	0x73e
+	.uaword	0x738
 	.byte	0x28
 	.uleb128 0x9
 	.string	"clearTx"
 	.byte	0x2
 	.byte	0xe4
-	.uaword	0x7a7
+	.uaword	0x7a1
 	.byte	0x2c
 	.uleb128 0x9
 	.string	"clearRx"
 	.byte	0x2
 	.byte	0xe5
-	.uaword	0x777
+	.uaword	0x771
 	.byte	0x30
 	.uleb128 0x9
 	.string	"onReceive"
 	.byte	0x2
 	.byte	0xe6
-	.uaword	0x7c5
+	.uaword	0x7bf
 	.byte	0x34
 	.uleb128 0x9
 	.string	"onTransmit"
 	.byte	0x2
 	.byte	0xe7
-	.uaword	0x7e5
+	.uaword	0x7df
 	.byte	0x38
 	.uleb128 0x9
 	.string	"onError"
 	.byte	0x2
 	.byte	0xe8
-	.uaword	0x806
+	.uaword	0x800
 	.byte	0x3c
 	.uleb128 0x9
 	.string	"getSendCount"
 	.byte	0x2
 	.byte	0xea
-	.uaword	0x605
+	.uaword	0x5ff
 	.byte	0x40
 	.uleb128 0x9
 	.string	"getTxTimeStamp"
 	.byte	0x2
 	.byte	0xeb
-	.uaword	0x63e
+	.uaword	0x638
 	.byte	0x44
 	.uleb128 0x9
 	.string	"resetSendCount"
 	.byte	0x2
 	.byte	0xec
-	.uaword	0x824
+	.uaword	0x81e
 	.byte	0x48
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_WriteEvent"
 	.byte	0x2
 	.byte	0x35
-	.uaword	0x506
+	.uaword	0x500
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x50c
+	.uaword	0x506
 	.uleb128 0xa
-	.uaword	0x2e1
+	.uaword	0x2db
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_ReadEvent"
 	.byte	0x2
 	.byte	0x36
-	.uaword	0x506
+	.uaword	0x500
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_Write"
 	.byte	0x2
 	.byte	0x48
-	.uaword	0x54d
+	.uaword	0x547
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x553
+	.uaword	0x54d
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x2e1
-	.uaword	0x572
+	.uaword	0x2db
+	.uaword	0x56c
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.uleb128 0xc
-	.uaword	0x22d
+	.uaword	0x227
 	.uleb128 0xc
-	.uaword	0x572
+	.uaword	0x56c
 	.uleb128 0xc
-	.uaword	0x30b
+	.uaword	0x305
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x31f
+	.uaword	0x319
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_Read"
 	.byte	0x2
 	.byte	0x57
-	.uaword	0x54d
+	.uaword	0x547
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_GetReadCount"
 	.byte	0x2
 	.byte	0x5f
-	.uaword	0x5b6
+	.uaword	0x5b0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5bc
+	.uaword	0x5b6
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x2b2
-	.uaword	0x5cc
+	.uaword	0x2ac
+	.uaword	0x5c6
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_GetReadEvent"
 	.byte	0x2
 	.byte	0x67
-	.uaword	0x5ef
+	.uaword	0x5e9
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5f5
+	.uaword	0x5ef
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x511
-	.uaword	0x605
+	.uaword	0x50b
+	.uaword	0x5ff
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_GetSendCount"
 	.byte	0x2
 	.byte	0x6f
-	.uaword	0x628
+	.uaword	0x622
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x62e
+	.uaword	0x628
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x2c0
-	.uaword	0x63e
+	.uaword	0x2ba
+	.uaword	0x638
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_GetTxTimeStamp"
 	.byte	0x2
 	.byte	0x77
-	.uaword	0x663
+	.uaword	0x65d
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x669
+	.uaword	0x663
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x30b
-	.uaword	0x679
+	.uaword	0x305
+	.uaword	0x673
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_GetWriteCount"
 	.byte	0x2
 	.byte	0x7f
-	.uaword	0x5b6
+	.uaword	0x5b0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_GetWriteEvent"
 	.byte	0x2
 	.byte	0x87
-	.uaword	0x6c1
+	.uaword	0x6bb
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6c7
+	.uaword	0x6c1
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x4e5
-	.uaword	0x6d7
+	.uaword	0x4df
+	.uaword	0x6d1
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_CanReadCount"
 	.byte	0x2
 	.byte	0x92
-	.uaword	0x6fa
+	.uaword	0x6f4
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x700
+	.uaword	0x6fa
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x2e1
-	.uaword	0x71a
+	.uaword	0x2db
+	.uaword	0x714
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.uleb128 0xc
-	.uaword	0x31f
+	.uaword	0x319
 	.uleb128 0xc
-	.uaword	0x30b
+	.uaword	0x305
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_CanWriteCount"
 	.byte	0x2
 	.byte	0x9d
-	.uaword	0x6fa
+	.uaword	0x6f4
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_FlushTx"
 	.byte	0x2
 	.byte	0xa6
-	.uaword	0x75c
+	.uaword	0x756
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x762
+	.uaword	0x75c
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x2e1
-	.uaword	0x777
+	.uaword	0x2db
+	.uaword	0x771
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.uleb128 0xc
-	.uaword	0x30b
+	.uaword	0x305
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_ClearRx"
 	.byte	0x2
 	.byte	0xad
-	.uaword	0x795
+	.uaword	0x78f
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x79b
+	.uaword	0x795
 	.uleb128 0xd
 	.byte	0x1
-	.uaword	0x7a7
+	.uaword	0x7a1
 	.uleb128 0xc
-	.uaword	0x330
+	.uaword	0x32a
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_ClearTx"
 	.byte	0x2
 	.byte	0xb4
-	.uaword	0x795
+	.uaword	0x78f
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_OnReceive"
 	.byte	0x2
 	.byte	0xbc
-	.uaword	0x795
+	.uaword	0x78f
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_OnTransmit"
 	.byte	0x2
 	.byte	0xc3
-	.uaword	0x795
+	.uaword	0x78f
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_OnError"
 	.byte	0x2
 	.byte	0xca
-	.uaword	0x795
+	.uaword	0x78f
 	.uleb128 0x6
 	.string	"IfxStdIf_DPipe_ResetSendCount"
 	.byte	0x2
 	.byte	0xd1
-	.uaword	0x795
+	.uaword	0x78f
 	.uleb128 0xe
 	.byte	0x8
 	.byte	0x9
 	.byte	0x26
-	.uaword	0x86c
+	.uaword	0x866
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x9
 	.byte	0x28
-	.uaword	0x86c
+	.uaword	0x866
 	.byte	0
 	.uleb128 0x9
 	.string	"align"
 	.byte	0x9
 	.byte	0x29
-	.uaword	0x2a4
+	.uaword	0x29e
 	.byte	0x4
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x350
+	.uaword	0x34a
 	.uleb128 0x6
 	.string	"Ifx_Console"
 	.byte	0x9
 	.byte	0x2a
-	.uaword	0x849
+	.uaword	0x843
 	.uleb128 0x10
 	.string	"IfxStdIf_DPipe_write"
 	.byte	0x2
 	.byte	0xf2
 	.byte	0x1
-	.uaword	0x2e1
+	.uaword	0x2db
 	.byte	0x3
-	.uaword	0x8dd
+	.uaword	0x8d7
 	.uleb128 0x11
 	.string	"stdif"
 	.byte	0x2
 	.byte	0xf2
-	.uaword	0x86c
+	.uaword	0x866
 	.uleb128 0x11
 	.string	"data"
 	.byte	0x2
 	.byte	0xf2
-	.uaword	0x22d
+	.uaword	0x227
 	.uleb128 0x11
 	.string	"count"
 	.byte	0x2
 	.byte	0xf2
-	.uaword	0x572
+	.uaword	0x56c
 	.uleb128 0x11
 	.string	"timeout"
 	.byte	0x2
 	.byte	0xf2
-	.uaword	0x30b
+	.uaword	0x305
 	.byte	0
 	.uleb128 0x10
 	.string	"__min"
 	.byte	0x3
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2b2
+	.uaword	0x2ac
 	.byte	0x3
-	.uaword	0x90e
+	.uaword	0x908
 	.uleb128 0x11
 	.string	"a"
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x2b2
+	.uaword	0x2ac
 	.uleb128 0x11
 	.string	"b"
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x2b2
+	.uaword	0x2ac
 	.uleb128 0x12
 	.string	"res"
 	.byte	0x3
 	.byte	0x9e
-	.uaword	0x2b2
+	.uaword	0x2ac
 	.byte	0
 	.uleb128 0x13
 	.byte	0x1
@@ -855,12 +855,12 @@ Ifx_g_console:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x941
+	.uaword	0x93b
 	.uleb128 0x14
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x27
-	.uaword	0x86c
+	.uaword	0x866
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -870,18 +870,18 @@ Ifx_g_console:
 	.byte	0x1
 	.byte	0x34
 	.byte	0x1
-	.uaword	0x2e1
+	.uaword	0x2db
 	.uaword	.LFB181
 	.uaword	.LFE181
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xa45
+	.uaword	0xa3f
 	.uleb128 0x16
 	.string	"format"
 	.byte	0x1
 	.byte	0x34
-	.uaword	0x2fe
+	.uaword	0x2f8
 	.uaword	.LLST0
 	.uleb128 0x17
 	.uleb128 0x18
@@ -891,7 +891,7 @@ Ifx_g_console:
 	.string	"message"
 	.byte	0x1
 	.byte	0x38
-	.uaword	0xa45
+	.uaword	0xa3f
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -256
@@ -899,7 +899,7 @@ Ifx_g_console:
 	.string	"count"
 	.byte	0x1
 	.byte	0x39
-	.uaword	0x31f
+	.uaword	0x319
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -258
@@ -907,31 +907,31 @@ Ifx_g_console:
 	.string	"args"
 	.byte	0x1
 	.byte	0x3a
-	.uaword	0x295
+	.uaword	0x28f
 	.uaword	.LLST1
 	.uleb128 0x1b
-	.uaword	0x885
+	.uaword	0x87f
 	.uaword	.LBB14
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x41
-	.uaword	0xa10
+	.uaword	0xa0a
 	.uleb128 0x1c
-	.uaword	0x8a7
+	.uaword	0x8a1
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x1c
-	.uaword	0x8a7
+	.uaword	0x8a1
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x1d
-	.uaword	0x8cd
+	.uaword	0x8c7
 	.uaxword	0x7fffffffffffffff
 	.uleb128 0x1e
-	.uaword	0x8c0
+	.uaword	0x8ba
 	.uaword	.LLST2
 	.uleb128 0x1e
-	.uaword	0x8b4
+	.uaword	0x8ae
 	.uaword	.LLST3
 	.uleb128 0x1f
 	.uaword	.LVL11
@@ -951,8 +951,8 @@ Ifx_g_console:
 	.byte	0
 	.uleb128 0x21
 	.uaword	.LVL5
-	.uaword	0xc53
-	.uaword	0xa32
+	.uaword	0xc4d
+	.uaword	0xa2c
 	.uleb128 0x20
 	.byte	0x1
 	.byte	0x66
@@ -975,7 +975,7 @@ Ifx_g_console:
 	.byte	0
 	.uleb128 0x22
 	.uaword	.LVL6
-	.uaword	0xc7a
+	.uaword	0xc74
 	.uleb128 0x20
 	.byte	0x1
 	.byte	0x64
@@ -986,10 +986,10 @@ Ifx_g_console:
 	.byte	0
 	.byte	0
 	.uleb128 0x23
-	.uaword	0x24a
-	.uaword	0xa55
+	.uaword	0x244
+	.uaword	0xa4f
 	.uleb128 0x24
-	.uaword	0x221
+	.uaword	0x21b
 	.byte	0xff
 	.byte	0
 	.uleb128 0x15
@@ -998,29 +998,29 @@ Ifx_g_console:
 	.byte	0x1
 	.byte	0x51
 	.byte	0x1
-	.uaword	0x2e1
+	.uaword	0x2db
 	.uaword	.LFB182
 	.uaword	.LFE182
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xc27
+	.uaword	0xc21
 	.uleb128 0x16
 	.string	"format"
 	.byte	0x1
 	.byte	0x51
-	.uaword	0x2fe
+	.uaword	0x2f8
 	.uaword	.LLST4
 	.uleb128 0x17
 	.uleb128 0x25
 	.uaword	.LBB18
 	.uaword	.LBE18
-	.uaword	0xc11
+	.uaword	0xc0b
 	.uleb128 0x19
 	.string	"message"
 	.byte	0x1
 	.byte	0x55
-	.uaword	0xa45
+	.uaword	0xa3f
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -256
@@ -1028,13 +1028,13 @@ Ifx_g_console:
 	.string	"align"
 	.byte	0x1
 	.byte	0x56
-	.uaword	0x31f
+	.uaword	0x319
 	.uaword	.LLST5
 	.uleb128 0x19
 	.string	"count"
 	.byte	0x1
 	.byte	0x56
-	.uaword	0x31f
+	.uaword	0x319
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -278
@@ -1042,7 +1042,7 @@ Ifx_g_console:
 	.string	"spaces"
 	.byte	0x1
 	.byte	0x57
-	.uaword	0xc27
+	.uaword	0xc21
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -273
@@ -1050,59 +1050,59 @@ Ifx_g_console:
 	.string	"args"
 	.byte	0x1
 	.byte	0x58
-	.uaword	0x295
+	.uaword	0x28f
 	.uaword	.LLST6
 	.uleb128 0x26
 	.uaword	.Ldebug_ranges0+0x18
-	.uaword	0xb9c
+	.uaword	0xb96
 	.uleb128 0x19
 	.string	"scount"
 	.byte	0x1
 	.byte	0x62
-	.uaword	0x31f
+	.uaword	0x319
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -276
 	.uleb128 0x1b
-	.uaword	0x8dd
+	.uaword	0x8d7
 	.uaword	.LBB20
 	.uaword	.Ldebug_ranges0+0x30
 	.byte	0x1
 	.byte	0x63
-	.uaword	0xb4b
+	.uaword	0xb45
 	.uleb128 0x1e
-	.uaword	0x8f9
+	.uaword	0x8f3
 	.uaword	.LLST7
 	.uleb128 0x1e
-	.uaword	0x8f0
+	.uaword	0x8ea
 	.uaword	.LLST8
 	.uleb128 0x27
 	.uaword	.Ldebug_ranges0+0x30
 	.uleb128 0x28
-	.uaword	0x902
+	.uaword	0x8fc
 	.uaword	.LLST9
 	.byte	0
 	.byte	0
 	.uleb128 0x29
-	.uaword	0x885
+	.uaword	0x87f
 	.uaword	.LBB24
 	.uaword	.Ldebug_ranges0+0x48
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1e
-	.uaword	0x8a7
+	.uaword	0x8a1
 	.uaword	.LLST10
 	.uleb128 0x1e
-	.uaword	0x8a7
+	.uaword	0x8a1
 	.uaword	.LLST10
 	.uleb128 0x1e
-	.uaword	0x8cd
+	.uaword	0x8c7
 	.uaword	.LLST12
 	.uleb128 0x1e
-	.uaword	0x8c0
+	.uaword	0x8ba
 	.uaword	.LLST13
 	.uleb128 0x1e
-	.uaword	0x8b4
+	.uaword	0x8ae
 	.uaword	.LLST14
 	.uleb128 0x1f
 	.uaword	.LVL22
@@ -1122,34 +1122,34 @@ Ifx_g_console:
 	.byte	0
 	.byte	0
 	.uleb128 0x2a
-	.uaword	0x885
+	.uaword	0x87f
 	.uaword	.LBB29
 	.uaword	.LBE29
 	.byte	0x1
 	.byte	0x68
-	.uaword	0xbdd
+	.uaword	0xbd7
 	.uleb128 0x1c
-	.uaword	0x8a7
+	.uaword	0x8a1
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x1c
-	.uaword	0x8a7
+	.uaword	0x8a1
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x1d
-	.uaword	0x8cd
+	.uaword	0x8c7
 	.uaxword	0x7fffffffffffffff
 	.uleb128 0x1e
-	.uaword	0x8c0
+	.uaword	0x8ba
 	.uaword	.LLST15
 	.uleb128 0x1e
-	.uaword	0x8b4
+	.uaword	0x8ae
 	.uaword	.LLST16
 	.byte	0
 	.uleb128 0x21
 	.uaword	.LVL15
-	.uaword	0xc53
-	.uaword	0xbff
+	.uaword	0xc4d
+	.uaword	0xbf9
 	.uleb128 0x20
 	.byte	0x1
 	.byte	0x66
@@ -1172,7 +1172,7 @@ Ifx_g_console:
 	.byte	0
 	.uleb128 0x22
 	.uaword	.LVL16
-	.uaword	0xc7a
+	.uaword	0xc74
 	.uleb128 0x20
 	.byte	0x1
 	.byte	0x64
@@ -1199,17 +1199,17 @@ Ifx_g_console:
 	.byte	0
 	.byte	0
 	.uleb128 0x23
-	.uaword	0x24a
-	.uaword	0xc37
+	.uaword	0x244
+	.uaword	0xc31
 	.uleb128 0x24
-	.uaword	0x221
+	.uaword	0x21b
 	.byte	0x10
 	.byte	0
 	.uleb128 0x2c
 	.string	"Ifx_g_console"
 	.byte	0x1
 	.byte	0x21
-	.uaword	0x872
+	.uaword	0x86c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1220,15 +1220,15 @@ Ifx_g_console:
 	.byte	0xa
 	.byte	0xc4
 	.byte	0x1
-	.uaword	0x1d3
+	.uaword	0x1cd
 	.byte	0x1
-	.uaword	0xc7a
+	.uaword	0xc74
 	.uleb128 0xc
-	.uaword	0x244
+	.uaword	0x23e
 	.uleb128 0xc
-	.uaword	0x252
+	.uaword	0x24c
 	.uleb128 0xc
-	.uaword	0x22d
+	.uaword	0x227
 	.byte	0
 	.uleb128 0x2e
 	.byte	0x1
@@ -1236,10 +1236,10 @@ Ifx_g_console:
 	.byte	0xb
 	.byte	0x22
 	.byte	0x1
-	.uaword	0x25d
+	.uaword	0x257
 	.byte	0x1
 	.uleb128 0xc
-	.uaword	0x252
+	.uaword	0x24c
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits

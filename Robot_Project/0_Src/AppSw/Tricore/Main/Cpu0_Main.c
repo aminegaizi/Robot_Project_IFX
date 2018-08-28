@@ -31,11 +31,11 @@
 #include <Src/std/IfxSrc.h>
 
 #include "Motors_func.h"
-
+#include "PWM_config.h"
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
-
+extern IfxGtm_Tom_Timer Timer1;
 
 
 volatile uint32 interrupt_counter = 0;
@@ -91,9 +91,11 @@ int core0_main (void)
 	StopLeftMotor();
 	StopRightMotor();
 
-	GoAhead(500);
+	//GoAhead(500);
 
-
+	ClockConfig();
+	PWM_config();
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-50) * Timer1.base.period) / 100);
     while (1)
     {
     }

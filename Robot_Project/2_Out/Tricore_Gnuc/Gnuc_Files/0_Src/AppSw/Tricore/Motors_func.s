@@ -8,9 +8,9 @@
 StartRightMotor:
 .LFB243:
 	.file 1 "0_Src/AppSw/Tricore/Motors_func.c"
-	.loc 1 69 0
+	.loc 1 70 0
 .LVL0:
-	.loc 1 75 0
+	.loc 1 76 0
 	movh.a	%a15, hi:port2
 	movh.a	%a12, hi:pin0
 .LBB117:
@@ -24,7 +24,7 @@ StartRightMotor:
 .LVL1:
 .LBE118:
 .LBE117:
-	.loc 1 76 0
+	.loc 1 77 0
 	ld.bu	%d4, [%a12] lo:pin0
 .LBB119:
 .LBB120:
@@ -35,7 +35,7 @@ StartRightMotor:
 .LBE121:
 .LBE120:
 .LBE119:
-	.loc 1 76 0
+	.loc 1 77 0
 	ld.a	%a15, [%a15] lo:port2
 .LVL2:
 .LBB124:
@@ -53,7 +53,7 @@ StartRightMotor:
 .LBE122:
 .LBE123:
 .LBE128:
-	.loc 1 81 0
+	.loc 1 82 0
 	movh.a	%a15, hi:port0
 .LVL4:
 .LBB129:
@@ -85,7 +85,7 @@ StartRightMotor:
 .LBE133:
 .LBE136:
 .LBE140:
-	.loc 1 82 0
+	.loc 1 83 0
 	ld.a	%a4, [%a15] lo:port0
 .LVL6:
 .LBB141:
@@ -96,7 +96,7 @@ StartRightMotor:
 .LBE134:
 .LBE137:
 .LBE141:
-	.loc 1 87 0
+	.loc 1 88 0
 	movh.a	%a12, hi:pin1
 .LBB142:
 .LBB143:
@@ -130,7 +130,7 @@ StartRightMotor:
 .LBE149:
 .LBE148:
 .LBE147:
-	.loc 1 88 0
+	.loc 1 89 0
 	ld.a	%a15, [%a15] lo:port0
 .LVL9:
 .LBB152:
@@ -151,9 +151,9 @@ StartRightMotor:
 	.type	StartLeftMotor, @function
 StartLeftMotor:
 .LFB244:
-	.loc 1 92 0
+	.loc 1 93 0
 .LVL10:
-	.loc 1 97 0
+	.loc 1 98 0
 	movh.a	%a12, hi:port2
 	movh.a	%a15, hi:pin1
 .LBB153:
@@ -175,7 +175,7 @@ StartLeftMotor:
 .LBE157:
 .LBE156:
 .LBE155:
-	.loc 1 98 0
+	.loc 1 99 0
 	ld.a	%a2, [%a12] lo:port2
 .LVL12:
 .LBB162:
@@ -186,7 +186,7 @@ StartLeftMotor:
 .LBE158:
 .LBE160:
 .LBE162:
-	.loc 1 104 0
+	.loc 1 105 0
 	movh.a	%a15, hi:port0
 	movh.a	%a12, hi:pin2
 .LBB163:
@@ -223,10 +223,10 @@ StartLeftMotor:
 .LBE170:
 .LBE169:
 .LBE168:
-	.loc 1 105 0
+	.loc 1 106 0
 	ld.a	%a4, [%a15] lo:port0
 .LVL15:
-	.loc 1 110 0
+	.loc 1 111 0
 	movh.a	%a12, hi:pin3
 .LBB173:
 .LBB174:
@@ -260,7 +260,7 @@ StartLeftMotor:
 .LBE180:
 .LBE179:
 .LBE178:
-	.loc 1 111 0
+	.loc 1 112 0
 	ld.a	%a15, [%a15] lo:port0
 .LVL18:
 .LBB183:
@@ -281,9 +281,9 @@ StartLeftMotor:
 	.type	StopRightMotor, @function
 StopRightMotor:
 .LFB245:
-	.loc 1 115 0
+	.loc 1 116 0
 .LVL19:
-	.loc 1 121 0
+	.loc 1 122 0
 	movh.a	%a12, hi:port2
 	movh.a	%a15, hi:pin0
 .LBB184:
@@ -296,7 +296,7 @@ StopRightMotor:
 .LVL20:
 .LBE185:
 .LBE184:
-	.loc 1 122 0
+	.loc 1 123 0
 	ld.bu	%d4, [%a15] lo:pin0
 .LBB186:
 .LBB187:
@@ -306,7 +306,7 @@ StopRightMotor:
 .LBE188:
 .LBE187:
 .LBE186:
-	.loc 1 122 0
+	.loc 1 123 0
 	ld.a	%a2, [%a12] lo:port2
 .LVL21:
 .LBB193:
@@ -317,7 +317,7 @@ StopRightMotor:
 .LBE189:
 .LBE191:
 .LBE193:
-	.loc 1 126 0
+	.loc 1 127 0
 	movh.a	%a12, hi:port0
 .LBB194:
 .LBB195:
@@ -350,7 +350,7 @@ StopRightMotor:
 .LBE201:
 .LBE200:
 .LBE199:
-	.loc 1 127 0
+	.loc 1 128 0
 	ld.a	%a2, [%a12] lo:port0
 .LVL24:
 .LBB204:
@@ -371,9 +371,9 @@ StopRightMotor:
 	.type	StopLeftMotor, @function
 StopLeftMotor:
 .LFB246:
-	.loc 1 131 0
+	.loc 1 132 0
 .LVL25:
-	.loc 1 136 0
+	.loc 1 137 0
 	movh.a	%a12, hi:port2
 	movh.a	%a15, hi:pin1
 .LBB205:
@@ -395,7 +395,7 @@ StopLeftMotor:
 .LBE209:
 .LBE208:
 .LBE207:
-	.loc 1 137 0
+	.loc 1 138 0
 	ld.a	%a2, [%a12] lo:port2
 .LVL27:
 .LBB214:
@@ -406,7 +406,7 @@ StopLeftMotor:
 .LBE210:
 .LBE212:
 .LBE214:
-	.loc 1 141 0
+	.loc 1 142 0
 	movh.a	%a12, hi:port0
 	movh.a	%a15, hi:pin2
 .LBB215:
@@ -441,7 +441,7 @@ StopLeftMotor:
 .LBE222:
 .LBE221:
 .LBE220:
-	.loc 1 142 0
+	.loc 1 143 0
 	ld.a	%a2, [%a12] lo:port0
 .LVL30:
 .LBB225:
@@ -462,10 +462,10 @@ StopLeftMotor:
 	.type	PWM, @function
 PWM:
 .LFB247:
-	.loc 1 147 0
+	.loc 1 148 0
 .LVL31:
 	movh	%d15, 16256
-	.loc 1 148 0
+	.loc 1 149 0
 	div	%e2, %d7, %d5
 	sub.f	%d15, %d15, %d6
 	itof	%d5, %d5
@@ -475,7 +475,7 @@ PWM:
 	mul.f	%d5, %d6, %d5
 	ftouz	%d15, %d15
 	movh.a	%a14, hi:cycles
-	.loc 1 147 0
+	.loc 1 148 0
 	sub.a	%SP, 8
 .LCFI0:
 	mov	%d13, 1
@@ -498,16 +498,16 @@ PWM:
 .LBE228:
 .LBE227:
 .LBE226:
-	.loc 1 148 0
+	.loc 1 149 0
 	st.w	[%a14] lo:cycles, %d2
 .LVL33:
-	.loc 1 147 0
+	.loc 1 148 0
 	mov.aa	%a12, %a4
 	mov	%d11, %d4
 	st.w	[%SP] 4, %d15
 	sh	%d13, %d13, %d4
 	sh	%d12, %d12, %d4
-	.loc 1 149 0
+	.loc 1 150 0
 	mov	%d10, 0
 	lea	%a14, [%a14] lo:cycles
 .LBB293:
@@ -658,7 +658,7 @@ PWM:
 .LVL43:
 .LBE270:
 .LBE274:
-	.loc 1 159 0 discriminator 1
+	.loc 1 160 0 discriminator 1
 	movh.a	%a2, hi:stm0
 	lea	%a2, [%a2] lo:stm0
 	ld.a	%a15, [%a2]0
@@ -723,16 +723,16 @@ PWM:
 .LBE288:
 .LBE287:
 .LBE293:
-	.loc 1 165 0 discriminator 1
+	.loc 1 166 0 discriminator 1
 	ld.w	%d15, [%a14]0
 .LBB294:
-	.loc 1 164 0 discriminator 1
+	.loc 1 165 0 discriminator 1
 	add	%d10, 1
 .LVL49:
 .LBE294:
-	.loc 1 165 0 discriminator 1
+	.loc 1 166 0 discriminator 1
 	jlt	%d10, %d15, .L8
-	.loc 1 167 0
+	.loc 1 168 0
 	ret
 .LFE247:
 	.size	PWM, .-PWM
@@ -742,15 +742,15 @@ PWM:
 	.type	GoAhead, @function
 GoAhead:
 .LFB242:
-	.loc 1 28 0
+	.loc 1 29 0
 .LVL50:
-	.loc 1 42 0
+	.loc 1 43 0
 	movh.a	%a15, hi:port2
 	movh.a	%a2, hi:pin0
 	ld.a	%a4, [%a15] lo:port2
-	.loc 1 28 0
+	.loc 1 29 0
 	mov	%d15, %d4
-	.loc 1 42 0
+	.loc 1 43 0
 	movh	%d6, 15949
 	ld.bu	%d4, [%a2] lo:pin0
 .LVL51:
@@ -759,7 +759,7 @@ GoAhead:
 	addi	%d6, %d6, -13107
 	call	PWM
 .LVL52:
-	.loc 1 43 0
+	.loc 1 44 0
 	ld.a	%a4, [%a15] lo:port2
 	movh.a	%a15, hi:pin1
 	ld.bu	%d4, [%a15] lo:pin1
@@ -769,10 +769,10 @@ GoAhead:
 	mov	%d7, %d15
 	call	PWM
 .LVL53:
-	.loc 1 46 0
+	.loc 1 47 0
 	call	StopLeftMotor
 .LVL54:
-	.loc 1 47 0
+	.loc 1 48 0
 	j	StopRightMotor
 .LVL55:
 .LFE242:
@@ -7461,7 +7461,7 @@ TIM0:
 	.byte	0x1
 	.string	"StartRightMotor"
 	.byte	0x1
-	.byte	0x44
+	.byte	0x45
 	.uaword	.LFB243
 	.uaword	.LFE243
 	.byte	0x1
@@ -7473,7 +7473,7 @@ TIM0:
 	.uaword	.LBB117
 	.uaword	.LBE117
 	.byte	0x1
-	.byte	0x4b
+	.byte	0x4c
 	.uaword	0x3f8c
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -7503,7 +7503,7 @@ TIM0:
 	.uaword	.LBB119
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
-	.byte	0x4c
+	.byte	0x4d
 	.uaword	0x3fdb
 	.uleb128 0x24
 	.uaword	0x3e9a
@@ -7533,7 +7533,7 @@ TIM0:
 	.uaword	.LBB124
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
-	.byte	0x51
+	.byte	0x52
 	.uaword	0x401f
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -7563,7 +7563,7 @@ TIM0:
 	.uaword	.LBB130
 	.uaword	.Ldebug_ranges0+0x38
 	.byte	0x1
-	.byte	0x52
+	.byte	0x53
 	.uaword	0x406e
 	.uleb128 0x24
 	.uaword	0x3e9a
@@ -7593,7 +7593,7 @@ TIM0:
 	.uaword	.LBB142
 	.uaword	.Ldebug_ranges0+0x60
 	.byte	0x1
-	.byte	0x57
+	.byte	0x58
 	.uaword	0x40b2
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -7623,7 +7623,7 @@ TIM0:
 	.uaword	.LBB147
 	.uaword	.Ldebug_ranges0+0x78
 	.byte	0x1
-	.byte	0x58
+	.byte	0x59
 	.uleb128 0x2b
 	.uaword	0x3ed0
 	.byte	0x5
@@ -7658,7 +7658,7 @@ TIM0:
 	.byte	0x1
 	.string	"StartLeftMotor"
 	.byte	0x1
-	.byte	0x5b
+	.byte	0x5c
 	.uaword	.LFB244
 	.uaword	.LFE244
 	.byte	0x1
@@ -7670,7 +7670,7 @@ TIM0:
 	.uaword	.LBB153
 	.uaword	.LBE153
 	.byte	0x1
-	.byte	0x61
+	.byte	0x62
 	.uaword	0x4167
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -7700,7 +7700,7 @@ TIM0:
 	.uaword	.LBB155
 	.uaword	.Ldebug_ranges0+0x90
 	.byte	0x1
-	.byte	0x62
+	.byte	0x63
 	.uaword	0x41b6
 	.uleb128 0x24
 	.uaword	0x3e9a
@@ -7730,7 +7730,7 @@ TIM0:
 	.uaword	.LBB163
 	.uaword	.Ldebug_ranges0+0xb0
 	.byte	0x1
-	.byte	0x68
+	.byte	0x69
 	.uaword	0x41fa
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -7760,7 +7760,7 @@ TIM0:
 	.uaword	.LBB168
 	.uaword	.Ldebug_ranges0+0xc8
 	.byte	0x1
-	.byte	0x69
+	.byte	0x6a
 	.uaword	0x4249
 	.uleb128 0x24
 	.uaword	0x3e9a
@@ -7790,7 +7790,7 @@ TIM0:
 	.uaword	.LBB173
 	.uaword	.Ldebug_ranges0+0xe0
 	.byte	0x1
-	.byte	0x6e
+	.byte	0x6f
 	.uaword	0x428d
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -7820,7 +7820,7 @@ TIM0:
 	.uaword	.LBB178
 	.uaword	.Ldebug_ranges0+0xf8
 	.byte	0x1
-	.byte	0x6f
+	.byte	0x70
 	.uleb128 0x2b
 	.uaword	0x3ed0
 	.byte	0x5
@@ -7855,7 +7855,7 @@ TIM0:
 	.byte	0x1
 	.string	"StopRightMotor"
 	.byte	0x1
-	.byte	0x72
+	.byte	0x73
 	.uaword	.LFB245
 	.uaword	.LFE245
 	.byte	0x1
@@ -7867,7 +7867,7 @@ TIM0:
 	.uaword	.LBB184
 	.uaword	.LBE184
 	.byte	0x1
-	.byte	0x79
+	.byte	0x7a
 	.uaword	0x4342
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -7897,7 +7897,7 @@ TIM0:
 	.uaword	.LBB186
 	.uaword	.Ldebug_ranges0+0x110
 	.byte	0x1
-	.byte	0x7a
+	.byte	0x7b
 	.uaword	0x4394
 	.uleb128 0x24
 	.uaword	0x3ed0
@@ -7927,7 +7927,7 @@ TIM0:
 	.uaword	.LBB194
 	.uaword	.Ldebug_ranges0+0x130
 	.byte	0x1
-	.byte	0x7e
+	.byte	0x7f
 	.uaword	0x43d8
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -7957,7 +7957,7 @@ TIM0:
 	.uaword	.LBB199
 	.uaword	.Ldebug_ranges0+0x148
 	.byte	0x1
-	.byte	0x7f
+	.byte	0x80
 	.uleb128 0x2b
 	.uaword	0x3ed0
 	.byte	0x5
@@ -7992,7 +7992,7 @@ TIM0:
 	.byte	0x1
 	.string	"StopLeftMotor"
 	.byte	0x1
-	.byte	0x82
+	.byte	0x83
 	.uaword	.LFB246
 	.uaword	.LFE246
 	.byte	0x1
@@ -8004,7 +8004,7 @@ TIM0:
 	.uaword	.LBB205
 	.uaword	.LBE205
 	.byte	0x1
-	.byte	0x88
+	.byte	0x89
 	.uaword	0x448c
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -8034,7 +8034,7 @@ TIM0:
 	.uaword	.LBB207
 	.uaword	.Ldebug_ranges0+0x160
 	.byte	0x1
-	.byte	0x89
+	.byte	0x8a
 	.uaword	0x44de
 	.uleb128 0x24
 	.uaword	0x3ed0
@@ -8064,7 +8064,7 @@ TIM0:
 	.uaword	.LBB215
 	.uaword	.Ldebug_ranges0+0x180
 	.byte	0x1
-	.byte	0x8d
+	.byte	0x8e
 	.uaword	0x4522
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -8094,7 +8094,7 @@ TIM0:
 	.uaword	.LBB220
 	.uaword	.Ldebug_ranges0+0x198
 	.byte	0x1
-	.byte	0x8e
+	.byte	0x8f
 	.uleb128 0x2b
 	.uaword	0x3ed0
 	.byte	0x5
@@ -8129,7 +8129,7 @@ TIM0:
 	.byte	0x1
 	.string	"PWM"
 	.byte	0x1
-	.byte	0x92
+	.byte	0x93
 	.byte	0x1
 	.uaword	.LFB247
 	.uaword	.LFE247
@@ -8140,37 +8140,37 @@ TIM0:
 	.uleb128 0x2e
 	.string	"port"
 	.byte	0x1
-	.byte	0x92
+	.byte	0x93
 	.uaword	0x3852
 	.uaword	.LLST44
 	.uleb128 0x2e
 	.string	"pin"
 	.byte	0x1
-	.byte	0x92
+	.byte	0x93
 	.uaword	0x1b3
 	.uaword	.LLST45
 	.uleb128 0x2e
 	.string	"period"
 	.byte	0x1
-	.byte	0x92
+	.byte	0x93
 	.uaword	0x17c
 	.uaword	.LLST46
 	.uleb128 0x2e
 	.string	"duty_cycle"
 	.byte	0x1
-	.byte	0x92
+	.byte	0x93
 	.uaword	0x173
 	.uaword	.LLST47
 	.uleb128 0x2e
 	.string	"total_time"
 	.byte	0x1
-	.byte	0x92
+	.byte	0x93
 	.uaword	0x17c
 	.uaword	.LLST48
 	.uleb128 0x2f
 	.string	"counter"
 	.byte	0x1
-	.byte	0x95
+	.byte	0x96
 	.uaword	0x17c
 	.uaword	.LLST49
 	.uleb128 0x30
@@ -8178,24 +8178,24 @@ TIM0:
 	.uleb128 0x31
 	.string	"UpTime"
 	.byte	0x1
-	.byte	0x97
+	.byte	0x98
 	.uaword	0x173
 	.uleb128 0x31
 	.string	"DownTime"
 	.byte	0x1
-	.byte	0x98
+	.byte	0x99
 	.uaword	0x173
 	.uleb128 0x32
 	.string	"UpTicks"
 	.byte	0x1
-	.byte	0x99
+	.byte	0x9a
 	.uaword	0x202
 	.byte	0x1
 	.byte	0x59
 	.uleb128 0x32
 	.string	"DownTicks"
 	.byte	0x1
-	.byte	0x9a
+	.byte	0x9b
 	.uaword	0x202
 	.byte	0x1
 	.byte	0x58
@@ -8204,7 +8204,7 @@ TIM0:
 	.uaword	.LBB227
 	.uaword	.Ldebug_ranges0+0x1d0
 	.byte	0x1
-	.byte	0x99
+	.byte	0x9a
 	.uaword	0x46b3
 	.uleb128 0x24
 	.uaword	0x3dbe
@@ -8251,7 +8251,7 @@ TIM0:
 	.uaword	.LBB247
 	.uaword	.Ldebug_ranges0+0x210
 	.byte	0x1
-	.byte	0x9a
+	.byte	0x9b
 	.uaword	0x4725
 	.uleb128 0x24
 	.uaword	0x3dbe
@@ -8297,7 +8297,7 @@ TIM0:
 	.uaword	.LBB267
 	.uaword	.Ldebug_ranges0+0x258
 	.byte	0x1
-	.byte	0x9c
+	.byte	0x9d
 	.uaword	0x4775
 	.uleb128 0x23
 	.uaword	0x3e61
@@ -8339,7 +8339,7 @@ TIM0:
 	.uaword	.LBB275
 	.uaword	.LBE275
 	.byte	0x1
-	.byte	0x9e
+	.byte	0x9f
 	.uaword	0x47bc
 	.uleb128 0x2b
 	.uaword	0x3e9a
@@ -8373,7 +8373,7 @@ TIM0:
 	.uaword	.LBB278
 	.uaword	.LBE278
 	.byte	0x1
-	.byte	0x9f
+	.byte	0xa0
 	.uaword	0x4821
 	.uleb128 0x2b
 	.uaword	0x3f04
@@ -8418,7 +8418,7 @@ TIM0:
 	.uaword	.LBB284
 	.uaword	.LBE284
 	.byte	0x1
-	.byte	0xa1
+	.byte	0xa2
 	.uaword	0x4867
 	.uleb128 0x39
 	.uaword	0x3ed0
@@ -8448,7 +8448,7 @@ TIM0:
 	.uaword	.LBB287
 	.uaword	.LBE287
 	.byte	0x1
-	.byte	0xa2
+	.byte	0xa3
 	.uleb128 0x2b
 	.uaword	0x3f04
 	.byte	0x1
@@ -8493,7 +8493,7 @@ TIM0:
 	.byte	0x1
 	.string	"GoAhead"
 	.byte	0x1
-	.byte	0x1b
+	.byte	0x1c
 	.byte	0x1
 	.uaword	.LFB242
 	.uaword	.LFE242
@@ -8504,7 +8504,7 @@ TIM0:
 	.uleb128 0x2e
 	.string	"Time"
 	.byte	0x1
-	.byte	0x1b
+	.byte	0x1c
 	.uaword	0x17c
 	.uaword	.LLST58
 	.uleb128 0x3b
@@ -8567,7 +8567,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"TIM0"
 	.byte	0x1
-	.byte	0x9
+	.byte	0xa
 	.uaword	0x4982
 	.byte	0x1
 	.byte	0x5
@@ -8581,7 +8581,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"stm0"
 	.byte	0x1
-	.byte	0xa
+	.byte	0xb
 	.uaword	0x3d8a
 	.byte	0x1
 	.byte	0x5
@@ -8590,7 +8590,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"port13"
 	.byte	0x1
-	.byte	0xe
+	.byte	0xf
 	.uaword	0x3852
 	.byte	0x1
 	.byte	0x5
@@ -8599,7 +8599,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"port2"
 	.byte	0x1
-	.byte	0xf
+	.byte	0x10
 	.uaword	0x3852
 	.byte	0x1
 	.byte	0x5
@@ -8608,7 +8608,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"port0"
 	.byte	0x1
-	.byte	0x10
+	.byte	0x11
 	.uaword	0x3852
 	.byte	0x1
 	.byte	0x5
@@ -8617,7 +8617,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"port14"
 	.byte	0x1
-	.byte	0x11
+	.byte	0x12
 	.uaword	0x3852
 	.byte	0x1
 	.byte	0x5
@@ -8626,7 +8626,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"pin0"
 	.byte	0x1
-	.byte	0x12
+	.byte	0x13
 	.uaword	0x1b3
 	.byte	0x1
 	.byte	0x5
@@ -8635,7 +8635,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"pin1"
 	.byte	0x1
-	.byte	0x13
+	.byte	0x14
 	.uaword	0x1b3
 	.byte	0x1
 	.byte	0x5
@@ -8644,7 +8644,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"pin2"
 	.byte	0x1
-	.byte	0x14
+	.byte	0x15
 	.uaword	0x1b3
 	.byte	0x1
 	.byte	0x5
@@ -8653,7 +8653,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"pin3"
 	.byte	0x1
-	.byte	0x15
+	.byte	0x16
 	.uaword	0x1b3
 	.byte	0x1
 	.byte	0x5
@@ -8662,7 +8662,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"pin4"
 	.byte	0x1
-	.byte	0x16
+	.byte	0x17
 	.uaword	0x1b3
 	.byte	0x1
 	.byte	0x5
@@ -8671,7 +8671,7 @@ TIM0:
 	.uleb128 0x3f
 	.string	"cycles"
 	.byte	0x1
-	.byte	0x17
+	.byte	0x18
 	.uaword	0x17c
 	.byte	0x1
 	.byte	0x5

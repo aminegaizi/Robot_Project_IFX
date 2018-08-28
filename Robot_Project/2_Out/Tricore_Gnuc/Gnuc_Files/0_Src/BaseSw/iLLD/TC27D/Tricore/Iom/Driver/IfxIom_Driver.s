@@ -963,7 +963,7 @@ IfxIom_Driver_restoreEvents:
 	.file 6 "0_Src/BaseSw/iLLD/TC27D/Tricore/Iom/Driver/IfxIom_Driver.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x3b0b
+	.uaword	0x3b05
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -971,7 +971,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/iLLD/TC27D/Tricore/Iom/Driver/IfxIom_Driver.c"
-	.string	"C:\\\\Aurix1G_Workspace_V1_0_1_7_0\\\\Copy (5) of BaseFramework_TC27D"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project"
 	.uaword	.Ldebug_ranges0+0x58
 	.uaword	0
 	.uaword	0
@@ -980,7 +980,7 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x2
 	.byte	0x3c
-	.uaword	0x203
+	.uaword	0x1fd
 	.uleb128 0x3
 	.string	"IfxIom_MonInputSignal_p"
 	.sleb128 0
@@ -998,12 +998,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_MonInputSignal"
 	.byte	0x2
 	.byte	0x41
-	.uaword	0x192
+	.uaword	0x18c
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x2
 	.byte	0x46
-	.uaword	0x2b5
+	.uaword	0x2af
 	.uleb128 0x3
 	.string	"IfxIom_RefInputSignal_p"
 	.sleb128 0
@@ -1024,12 +1024,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_RefInputSignal"
 	.byte	0x2
 	.byte	0x4c
-	.uaword	0x220
+	.uaword	0x21a
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x2
 	.byte	0x55
-	.uaword	0x9ec
+	.uaword	0x9e6
 	.uleb128 0x3
 	.string	"IfxIom_MonInput_p33_0"
 	.sleb128 0
@@ -1227,12 +1227,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_MonInput"
 	.byte	0x2
 	.byte	0x96
-	.uaword	0x2d2
+	.uaword	0x2cc
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x2
 	.byte	0x9b
-	.uaword	0x1133
+	.uaword	0x112d
 	.uleb128 0x3
 	.string	"IfxIom_RefInput_p33_0"
 	.sleb128 0
@@ -1433,18 +1433,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_RefInput"
 	.byte	0x2
 	.byte	0xdd
-	.uaword	0xa03
+	.uaword	0x9fd
 	.uleb128 0x5
 	.string	"_Ifx_IOM_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x2d
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0x6
 	.string	"EN0"
 	.byte	0x3
 	.byte	0x2f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1453,7 +1453,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN1"
 	.byte	0x3
 	.byte	0x30
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1462,7 +1462,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN2"
 	.byte	0x3
 	.byte	0x31
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1471,7 +1471,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN3"
 	.byte	0x3
 	.byte	0x32
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1480,7 +1480,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN4"
 	.byte	0x3
 	.byte	0x33
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1489,7 +1489,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN5"
 	.byte	0x3
 	.byte	0x34
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1498,7 +1498,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN6"
 	.byte	0x3
 	.byte	0x35
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1507,7 +1507,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN7"
 	.byte	0x3
 	.byte	0x36
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1516,7 +1516,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN8"
 	.byte	0x3
 	.byte	0x37
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1525,7 +1525,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN9"
 	.byte	0x3
 	.byte	0x38
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1534,7 +1534,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN10"
 	.byte	0x3
 	.byte	0x39
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1543,7 +1543,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN11"
 	.byte	0x3
 	.byte	0x3a
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1552,7 +1552,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN12"
 	.byte	0x3
 	.byte	0x3b
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1561,7 +1561,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN13"
 	.byte	0x3
 	.byte	0x3c
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1570,7 +1570,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN14"
 	.byte	0x3
 	.byte	0x3d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1579,7 +1579,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN15"
 	.byte	0x3
 	.byte	0x3e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1588,7 +1588,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN16"
 	.byte	0x3
 	.byte	0x3f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1597,7 +1597,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN17"
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1606,7 +1606,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN18"
 	.byte	0x3
 	.byte	0x41
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1615,7 +1615,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN19"
 	.byte	0x3
 	.byte	0x42
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1624,7 +1624,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN20"
 	.byte	0x3
 	.byte	0x43
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1633,7 +1633,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN21"
 	.byte	0x3
 	.byte	0x44
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1642,7 +1642,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN22"
 	.byte	0x3
 	.byte	0x45
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1651,7 +1651,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN23"
 	.byte	0x3
 	.byte	0x46
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1660,7 +1660,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN24"
 	.byte	0x3
 	.byte	0x47
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1669,7 +1669,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN25"
 	.byte	0x3
 	.byte	0x48
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1678,7 +1678,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN26"
 	.byte	0x3
 	.byte	0x49
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1687,7 +1687,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN27"
 	.byte	0x3
 	.byte	0x4a
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1696,7 +1696,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN28"
 	.byte	0x3
 	.byte	0x4b
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1705,7 +1705,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN29"
 	.byte	0x3
 	.byte	0x4c
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1714,7 +1714,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN30"
 	.byte	0x3
 	.byte	0x4d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1723,7 +1723,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN31"
 	.byte	0x3
 	.byte	0x4e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1737,18 +1737,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_ACCEN0_Bits"
 	.byte	0x3
 	.byte	0x4f
-	.uaword	0x114a
+	.uaword	0x1144
 	.uleb128 0x5
 	.string	"_Ifx_IOM_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x52
-	.uaword	0x13bd
+	.uaword	0x13b7
 	.uleb128 0x6
 	.string	"reserved_0"
 	.byte	0x3
 	.byte	0x54
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1758,18 +1758,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_ACCEN1_Bits"
 	.byte	0x3
 	.byte	0x55
-	.uaword	0x1389
+	.uaword	0x1383
 	.uleb128 0x5
 	.string	"_Ifx_IOM_CLC_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x58
-	.uaword	0x145f
+	.uaword	0x1459
 	.uleb128 0x6
 	.string	"DISR"
 	.byte	0x3
 	.byte	0x5a
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1778,7 +1778,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"DISS"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1787,7 +1787,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1796,7 +1796,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EDIS"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1805,7 +1805,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -1814,7 +1814,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"RMC"
 	.byte	0x3
 	.byte	0x5f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1823,7 +1823,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0x60
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1833,18 +1833,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_CLC_Bits"
 	.byte	0x3
 	.byte	0x61
-	.uaword	0x13d8
+	.uaword	0x13d2
 	.uleb128 0x5
 	.string	"_Ifx_IOM_ECMCCFG_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x64
-	.uaword	0x151e
+	.uaword	0x1518
 	.uleb128 0x6
 	.string	"SELC0"
 	.byte	0x3
 	.byte	0x66
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1853,7 +1853,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"THRC0"
 	.byte	0x3
 	.byte	0x67
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -1862,7 +1862,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"SELC1"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -1871,7 +1871,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"THCR1"
 	.byte	0x3
 	.byte	0x69
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -1880,7 +1880,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"SELC2"
 	.byte	0x3
 	.byte	0x6a
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -1889,7 +1889,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"THCR2"
 	.byte	0x3
 	.byte	0x6b
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -1898,7 +1898,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"SELC3"
 	.byte	0x3
 	.byte	0x6c
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -1907,7 +1907,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"THCR3"
 	.byte	0x3
 	.byte	0x6d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1917,18 +1917,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_ECMCCFG_Bits"
 	.byte	0x3
 	.byte	0x6e
-	.uaword	0x1477
+	.uaword	0x1471
 	.uleb128 0x5
 	.string	"_Ifx_IOM_ECMETH0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x71
-	.uaword	0x1765
+	.uaword	0x175f
 	.uleb128 0x6
 	.string	"ETA0"
 	.byte	0x3
 	.byte	0x73
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1937,7 +1937,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA1"
 	.byte	0x3
 	.byte	0x74
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1946,7 +1946,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA2"
 	.byte	0x3
 	.byte	0x75
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1955,7 +1955,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA3"
 	.byte	0x3
 	.byte	0x76
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1964,7 +1964,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA4"
 	.byte	0x3
 	.byte	0x77
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1973,7 +1973,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA5"
 	.byte	0x3
 	.byte	0x78
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1982,7 +1982,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA6"
 	.byte	0x3
 	.byte	0x79
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1991,7 +1991,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA7"
 	.byte	0x3
 	.byte	0x7a
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2000,7 +2000,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA8"
 	.byte	0x3
 	.byte	0x7b
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2009,7 +2009,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA9"
 	.byte	0x3
 	.byte	0x7c
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2018,7 +2018,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA10"
 	.byte	0x3
 	.byte	0x7d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2027,7 +2027,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA11"
 	.byte	0x3
 	.byte	0x7e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2036,7 +2036,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA12"
 	.byte	0x3
 	.byte	0x7f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2045,7 +2045,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA13"
 	.byte	0x3
 	.byte	0x80
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2054,7 +2054,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA14"
 	.byte	0x3
 	.byte	0x81
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2063,7 +2063,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETA15"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2072,7 +2072,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB0"
 	.byte	0x3
 	.byte	0x83
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2081,7 +2081,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB1"
 	.byte	0x3
 	.byte	0x84
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2090,7 +2090,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB2"
 	.byte	0x3
 	.byte	0x85
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2099,7 +2099,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB3"
 	.byte	0x3
 	.byte	0x86
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2108,7 +2108,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB4"
 	.byte	0x3
 	.byte	0x87
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2117,7 +2117,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB5"
 	.byte	0x3
 	.byte	0x88
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2126,7 +2126,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB6"
 	.byte	0x3
 	.byte	0x89
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2135,7 +2135,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB7"
 	.byte	0x3
 	.byte	0x8a
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2144,7 +2144,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB8"
 	.byte	0x3
 	.byte	0x8b
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2153,7 +2153,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB9"
 	.byte	0x3
 	.byte	0x8c
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2162,7 +2162,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB10"
 	.byte	0x3
 	.byte	0x8d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2171,7 +2171,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB11"
 	.byte	0x3
 	.byte	0x8e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2180,7 +2180,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB12"
 	.byte	0x3
 	.byte	0x8f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2189,7 +2189,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB13"
 	.byte	0x3
 	.byte	0x90
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2198,7 +2198,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB14"
 	.byte	0x3
 	.byte	0x91
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2207,7 +2207,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETB15"
 	.byte	0x3
 	.byte	0x92
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2217,18 +2217,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_ECMETH0_Bits"
 	.byte	0x3
 	.byte	0x93
-	.uaword	0x153a
+	.uaword	0x1534
 	.uleb128 0x5
 	.string	"_Ifx_IOM_ECMETH1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x96
-	.uaword	0x19ac
+	.uaword	0x19a6
 	.uleb128 0x6
 	.string	"ETC0"
 	.byte	0x3
 	.byte	0x98
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2237,7 +2237,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC1"
 	.byte	0x3
 	.byte	0x99
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2246,7 +2246,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC2"
 	.byte	0x3
 	.byte	0x9a
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2255,7 +2255,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC3"
 	.byte	0x3
 	.byte	0x9b
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2264,7 +2264,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC4"
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2273,7 +2273,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC5"
 	.byte	0x3
 	.byte	0x9d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2282,7 +2282,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC6"
 	.byte	0x3
 	.byte	0x9e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2291,7 +2291,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC7"
 	.byte	0x3
 	.byte	0x9f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2300,7 +2300,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC8"
 	.byte	0x3
 	.byte	0xa0
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2309,7 +2309,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC9"
 	.byte	0x3
 	.byte	0xa1
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2318,7 +2318,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC10"
 	.byte	0x3
 	.byte	0xa2
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2327,7 +2327,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC11"
 	.byte	0x3
 	.byte	0xa3
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2336,7 +2336,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC12"
 	.byte	0x3
 	.byte	0xa4
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2345,7 +2345,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC13"
 	.byte	0x3
 	.byte	0xa5
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2354,7 +2354,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC14"
 	.byte	0x3
 	.byte	0xa6
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2363,7 +2363,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETC15"
 	.byte	0x3
 	.byte	0xa7
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2372,7 +2372,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD0"
 	.byte	0x3
 	.byte	0xa8
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2381,7 +2381,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD1"
 	.byte	0x3
 	.byte	0xa9
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2390,7 +2390,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD2"
 	.byte	0x3
 	.byte	0xaa
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2399,7 +2399,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD3"
 	.byte	0x3
 	.byte	0xab
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2408,7 +2408,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD4"
 	.byte	0x3
 	.byte	0xac
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2417,7 +2417,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD5"
 	.byte	0x3
 	.byte	0xad
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2426,7 +2426,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD6"
 	.byte	0x3
 	.byte	0xae
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2435,7 +2435,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD7"
 	.byte	0x3
 	.byte	0xaf
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2444,7 +2444,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD8"
 	.byte	0x3
 	.byte	0xb0
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2453,7 +2453,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD9"
 	.byte	0x3
 	.byte	0xb1
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2462,7 +2462,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD10"
 	.byte	0x3
 	.byte	0xb2
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2471,7 +2471,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD11"
 	.byte	0x3
 	.byte	0xb3
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2480,7 +2480,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD12"
 	.byte	0x3
 	.byte	0xb4
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2489,7 +2489,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD13"
 	.byte	0x3
 	.byte	0xb5
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2498,7 +2498,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD14"
 	.byte	0x3
 	.byte	0xb6
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2507,7 +2507,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ETD15"
 	.byte	0x3
 	.byte	0xb7
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2517,18 +2517,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_ECMETH1_Bits"
 	.byte	0x3
 	.byte	0xb8
-	.uaword	0x1781
+	.uaword	0x177b
 	.uleb128 0x5
 	.string	"_Ifx_IOM_ECMSELR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xbb
-	.uaword	0x1b44
+	.uaword	0x1b3e
 	.uleb128 0x6
 	.string	"CES0"
 	.byte	0x3
 	.byte	0xbd
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2537,7 +2537,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES1"
 	.byte	0x3
 	.byte	0xbe
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2546,7 +2546,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES2"
 	.byte	0x3
 	.byte	0xbf
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2555,7 +2555,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES3"
 	.byte	0x3
 	.byte	0xc0
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2564,7 +2564,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES4"
 	.byte	0x3
 	.byte	0xc1
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2573,7 +2573,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES5"
 	.byte	0x3
 	.byte	0xc2
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2582,7 +2582,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES6"
 	.byte	0x3
 	.byte	0xc3
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2591,7 +2591,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES7"
 	.byte	0x3
 	.byte	0xc4
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2600,7 +2600,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES8"
 	.byte	0x3
 	.byte	0xc5
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2609,7 +2609,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES9"
 	.byte	0x3
 	.byte	0xc6
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2618,7 +2618,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES10"
 	.byte	0x3
 	.byte	0xc7
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2627,7 +2627,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES11"
 	.byte	0x3
 	.byte	0xc8
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2636,7 +2636,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES12"
 	.byte	0x3
 	.byte	0xc9
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2645,7 +2645,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES13"
 	.byte	0x3
 	.byte	0xca
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2654,7 +2654,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES14"
 	.byte	0x3
 	.byte	0xcb
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2663,7 +2663,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CES15"
 	.byte	0x3
 	.byte	0xcc
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2672,7 +2672,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CTS0"
 	.byte	0x3
 	.byte	0xcd
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2681,7 +2681,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CTS1"
 	.byte	0x3
 	.byte	0xce
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2690,7 +2690,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CTS2"
 	.byte	0x3
 	.byte	0xcf
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2699,7 +2699,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"CTS3"
 	.byte	0x3
 	.byte	0xd0
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2708,7 +2708,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"reserved_20"
 	.byte	0x3
 	.byte	0xd1
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -2718,18 +2718,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_ECMSELR_Bits"
 	.byte	0x3
 	.byte	0xd2
-	.uaword	0x19c8
+	.uaword	0x19c2
 	.uleb128 0x5
 	.string	"_Ifx_IOM_FPCCTR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd5
-	.uaword	0x1c0e
+	.uaword	0x1c08
 	.uleb128 0x6
 	.string	"CMP"
 	.byte	0x3
 	.byte	0xd7
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2738,7 +2738,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"MOD"
 	.byte	0x3
 	.byte	0xd8
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2747,7 +2747,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ISM"
 	.byte	0x3
 	.byte	0xd9
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb
@@ -2756,7 +2756,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"reserved_21"
 	.byte	0x3
 	.byte	0xda
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2765,7 +2765,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"RTG"
 	.byte	0x3
 	.byte	0xdb
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2774,7 +2774,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"reserved_23"
 	.byte	0x3
 	.byte	0xdc
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2783,7 +2783,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"ISR"
 	.byte	0x3
 	.byte	0xdd
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2792,7 +2792,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"reserved_27"
 	.byte	0x3
 	.byte	0xde
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2802,18 +2802,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_FPCCTR_Bits"
 	.byte	0x3
 	.byte	0xdf
-	.uaword	0x1b60
+	.uaword	0x1b5a
 	.uleb128 0x5
 	.string	"_Ifx_IOM_FPCESR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xe2
-	.uaword	0x1e57
+	.uaword	0x1e51
 	.uleb128 0x6
 	.string	"FEG0"
 	.byte	0x3
 	.byte	0xe4
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2822,7 +2822,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG1"
 	.byte	0x3
 	.byte	0xe5
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2831,7 +2831,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG2"
 	.byte	0x3
 	.byte	0xe6
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2840,7 +2840,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG3"
 	.byte	0x3
 	.byte	0xe7
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2849,7 +2849,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG4"
 	.byte	0x3
 	.byte	0xe8
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2858,7 +2858,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG5"
 	.byte	0x3
 	.byte	0xe9
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2867,7 +2867,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG6"
 	.byte	0x3
 	.byte	0xea
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2876,7 +2876,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG7"
 	.byte	0x3
 	.byte	0xeb
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2885,7 +2885,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG8"
 	.byte	0x3
 	.byte	0xec
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2894,7 +2894,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG9"
 	.byte	0x3
 	.byte	0xed
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2903,7 +2903,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG10"
 	.byte	0x3
 	.byte	0xee
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2912,7 +2912,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG11"
 	.byte	0x3
 	.byte	0xef
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2921,7 +2921,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG12"
 	.byte	0x3
 	.byte	0xf0
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2930,7 +2930,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG13"
 	.byte	0x3
 	.byte	0xf1
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2939,7 +2939,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG14"
 	.byte	0x3
 	.byte	0xf2
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2948,7 +2948,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"FEG15"
 	.byte	0x3
 	.byte	0xf3
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2957,7 +2957,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG0"
 	.byte	0x3
 	.byte	0xf4
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2966,7 +2966,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG1"
 	.byte	0x3
 	.byte	0xf5
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2975,7 +2975,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG2"
 	.byte	0x3
 	.byte	0xf6
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2984,7 +2984,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG3"
 	.byte	0x3
 	.byte	0xf7
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2993,7 +2993,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG4"
 	.byte	0x3
 	.byte	0xf8
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3002,7 +3002,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG5"
 	.byte	0x3
 	.byte	0xf9
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3011,7 +3011,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG6"
 	.byte	0x3
 	.byte	0xfa
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3020,7 +3020,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG7"
 	.byte	0x3
 	.byte	0xfb
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3029,7 +3029,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG8"
 	.byte	0x3
 	.byte	0xfc
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3038,7 +3038,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG9"
 	.byte	0x3
 	.byte	0xfd
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3047,7 +3047,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG10"
 	.byte	0x3
 	.byte	0xfe
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3056,7 +3056,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG11"
 	.byte	0x3
 	.byte	0xff
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3065,7 +3065,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG12"
 	.byte	0x3
 	.uahalf	0x100
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3074,7 +3074,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG13"
 	.byte	0x3
 	.uahalf	0x101
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3083,7 +3083,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG14"
 	.byte	0x3
 	.uahalf	0x102
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3092,7 +3092,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"REG15"
 	.byte	0x3
 	.uahalf	0x103
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3102,18 +3102,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_FPCESR_Bits"
 	.byte	0x3
 	.uahalf	0x104
-	.uaword	0x1c29
+	.uaword	0x1c23
 	.uleb128 0xb
 	.string	"_Ifx_IOM_FPCTIM_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x107
-	.uaword	0x1eb2
+	.uaword	0x1eac
 	.uleb128 0x9
 	.string	"TIM"
 	.byte	0x3
 	.uahalf	0x109
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -3122,7 +3122,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF2
 	.byte	0x3
 	.uahalf	0x10a
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3132,18 +3132,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_FPCTIM_Bits"
 	.byte	0x3
 	.uahalf	0x10b
-	.uaword	0x1e73
+	.uaword	0x1e6d
 	.uleb128 0xb
 	.string	"_Ifx_IOM_GTMEXR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x10e
-	.uaword	0x1f84
+	.uaword	0x1f7e
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x3
 	.uahalf	0x110
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3152,7 +3152,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN1"
 	.byte	0x3
 	.uahalf	0x111
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3161,7 +3161,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN2"
 	.byte	0x3
 	.uahalf	0x112
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3170,7 +3170,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN3"
 	.byte	0x3
 	.uahalf	0x113
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3179,7 +3179,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN4"
 	.byte	0x3
 	.uahalf	0x114
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3188,7 +3188,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN5"
 	.byte	0x3
 	.uahalf	0x115
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3197,7 +3197,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN6"
 	.byte	0x3
 	.uahalf	0x116
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3206,7 +3206,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EN7"
 	.byte	0x3
 	.uahalf	0x117
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3215,7 +3215,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"reserved_8"
 	.byte	0x3
 	.uahalf	0x118
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -3225,18 +3225,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_GTMEXR_Bits"
 	.byte	0x3
 	.uahalf	0x119
-	.uaword	0x1ece
+	.uaword	0x1ec8
 	.uleb128 0xb
 	.string	"_Ifx_IOM_ID_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x11c
-	.uaword	0x1ffa
+	.uaword	0x1ff4
 	.uleb128 0x9
 	.string	"MOD_REV"
 	.byte	0x3
 	.uahalf	0x11e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3245,7 +3245,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"MOD_TYPE"
 	.byte	0x3
 	.uahalf	0x11f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3254,7 +3254,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"MODNUMBER"
 	.byte	0x3
 	.uahalf	0x120
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3264,18 +3264,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_ID_Bits"
 	.byte	0x3
 	.uahalf	0x121
-	.uaword	0x1fa0
+	.uaword	0x1f9a
 	.uleb128 0xb
 	.string	"_Ifx_IOM_KRST0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x124
-	.uaword	0x2064
+	.uaword	0x205e
 	.uleb128 0x9
 	.string	"RST"
 	.byte	0x3
 	.uahalf	0x126
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3284,7 +3284,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"RSTSTAT"
 	.byte	0x3
 	.uahalf	0x127
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3293,7 +3293,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x128
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -3303,18 +3303,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_KRST0_Bits"
 	.byte	0x3
 	.uahalf	0x129
-	.uaword	0x2012
+	.uaword	0x200c
 	.uleb128 0xb
 	.string	"_Ifx_IOM_KRST1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x12c
-	.uaword	0x20bd
+	.uaword	0x20b7
 	.uleb128 0x9
 	.string	"RST"
 	.byte	0x3
 	.uahalf	0x12e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3323,7 +3323,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF3
 	.byte	0x3
 	.uahalf	0x12f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -3333,18 +3333,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_KRST1_Bits"
 	.byte	0x3
 	.uahalf	0x130
-	.uaword	0x207f
+	.uaword	0x2079
 	.uleb128 0xb
 	.string	"_Ifx_IOM_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x133
-	.uaword	0x2118
+	.uaword	0x2112
 	.uleb128 0x9
 	.string	"CLR"
 	.byte	0x3
 	.uahalf	0x135
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3353,7 +3353,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF3
 	.byte	0x3
 	.uahalf	0x136
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -3363,18 +3363,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_KRSTCLR_Bits"
 	.byte	0x3
 	.uahalf	0x137
-	.uaword	0x20d8
+	.uaword	0x20d2
 	.uleb128 0xb
 	.string	"_Ifx_IOM_LAMCFG_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x13a
-	.uaword	0x2223
+	.uaword	0x221d
 	.uleb128 0x9
 	.string	"IVR"
 	.byte	0x3
 	.uahalf	0x13c
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3383,7 +3383,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"IVM"
 	.byte	0x3
 	.uahalf	0x13d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3392,7 +3392,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"MOS"
 	.byte	0x3
 	.uahalf	0x13e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3401,7 +3401,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"RMS"
 	.byte	0x3
 	.uahalf	0x13f
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3410,7 +3410,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EWS"
 	.byte	0x3
 	.uahalf	0x140
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3419,7 +3419,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"reserved_5"
 	.byte	0x3
 	.uahalf	0x141
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -3428,7 +3428,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"EDS"
 	.byte	0x3
 	.uahalf	0x142
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -3437,7 +3437,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"IVW"
 	.byte	0x3
 	.uahalf	0x143
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3446,7 +3446,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"reserved_13"
 	.byte	0x3
 	.uahalf	0x144
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -3455,7 +3455,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"MCS"
 	.byte	0x3
 	.uahalf	0x145
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -3464,7 +3464,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"RCS"
 	.byte	0x3
 	.uahalf	0x146
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -3473,7 +3473,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF4
 	.byte	0x3
 	.uahalf	0x147
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -3483,18 +3483,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_LAMCFG_Bits"
 	.byte	0x3
 	.uahalf	0x148
-	.uaword	0x2135
+	.uaword	0x212f
 	.uleb128 0xb
 	.string	"_Ifx_IOM_LAMEWC_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x14b
-	.uaword	0x227e
+	.uaword	0x2278
 	.uleb128 0x9
 	.string	"CNT"
 	.byte	0x3
 	.uahalf	0x14d
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -3503,7 +3503,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF4
 	.byte	0x3
 	.uahalf	0x14e
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -3513,18 +3513,18 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_LAMEWC_Bits"
 	.byte	0x3
 	.uahalf	0x14f
-	.uaword	0x223f
+	.uaword	0x2239
 	.uleb128 0xb
 	.string	"_Ifx_IOM_LAMEWS_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x152
-	.uaword	0x22d9
+	.uaword	0x22d3
 	.uleb128 0x9
 	.string	"THR"
 	.byte	0x3
 	.uahalf	0x154
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -3533,7 +3533,7 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF4
 	.byte	0x3
 	.uahalf	0x155
-	.uaword	0x135e
+	.uaword	0x1358
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -3543,27 +3543,27 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_LAMEWS_Bits"
 	.byte	0x3
 	.uahalf	0x156
-	.uaword	0x229a
+	.uaword	0x2294
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x15e
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x160
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x161
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x162
-	.uaword	0x136e
+	.uaword	0x1368
 	.byte	0
 	.uleb128 0x7
 	.byte	0x4
@@ -3573,599 +3573,599 @@ IfxIom_Driver_restoreEvents:
 	.string	"Ifx_IOM_ACCEN0"
 	.byte	0x3
 	.uahalf	0x163
-	.uaword	0x22f5
+	.uaword	0x22ef
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x166
-	.uaword	0x2363
+	.uaword	0x235d
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x168
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x169
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x16a
-	.uaword	0x13bd
+	.uaword	0x13b7
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_ACCEN1"
 	.byte	0x3
 	.uahalf	0x16b
-	.uaword	0x233b
+	.uaword	0x2335
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x16e
-	.uaword	0x23a2
+	.uaword	0x239c
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x170
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x171
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x172
-	.uaword	0x145f
+	.uaword	0x1459
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_CLC"
 	.byte	0x3
 	.uahalf	0x173
-	.uaword	0x237a
+	.uaword	0x2374
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x176
-	.uaword	0x23de
+	.uaword	0x23d8
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x178
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x179
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x17a
-	.uaword	0x151e
+	.uaword	0x1518
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_ECMCCFG"
 	.byte	0x3
 	.uahalf	0x17b
-	.uaword	0x23b6
+	.uaword	0x23b0
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x17e
-	.uaword	0x241e
+	.uaword	0x2418
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x180
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x181
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x182
-	.uaword	0x1765
+	.uaword	0x175f
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_ECMETH0"
 	.byte	0x3
 	.uahalf	0x183
-	.uaword	0x23f6
+	.uaword	0x23f0
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x186
-	.uaword	0x245e
+	.uaword	0x2458
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x188
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x189
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x18a
-	.uaword	0x19ac
+	.uaword	0x19a6
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_ECMETH1"
 	.byte	0x3
 	.uahalf	0x18b
-	.uaword	0x2436
+	.uaword	0x2430
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x18e
-	.uaword	0x249e
+	.uaword	0x2498
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x190
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x191
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x192
-	.uaword	0x1b44
+	.uaword	0x1b3e
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_ECMSELR"
 	.byte	0x3
 	.uahalf	0x193
-	.uaword	0x2476
+	.uaword	0x2470
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x196
-	.uaword	0x24de
+	.uaword	0x24d8
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x198
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x199
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x19a
-	.uaword	0x1c0e
+	.uaword	0x1c08
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_FPCCTR"
 	.byte	0x3
 	.uahalf	0x19b
-	.uaword	0x24b6
+	.uaword	0x24b0
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x19e
-	.uaword	0x251d
+	.uaword	0x2517
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1a0
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1a1
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1a2
-	.uaword	0x1e57
+	.uaword	0x1e51
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_FPCESR"
 	.byte	0x3
 	.uahalf	0x1a3
-	.uaword	0x24f5
+	.uaword	0x24ef
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1a6
-	.uaword	0x255c
+	.uaword	0x2556
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1a8
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1a9
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1aa
-	.uaword	0x1eb2
+	.uaword	0x1eac
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_FPCTIM"
 	.byte	0x3
 	.uahalf	0x1ab
-	.uaword	0x2534
+	.uaword	0x252e
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1ae
-	.uaword	0x259b
+	.uaword	0x2595
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1b0
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1b1
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1b2
-	.uaword	0x1f84
+	.uaword	0x1f7e
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_GTMEXR"
 	.byte	0x3
 	.uahalf	0x1b3
-	.uaword	0x2573
+	.uaword	0x256d
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1b6
-	.uaword	0x25da
+	.uaword	0x25d4
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1b8
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1b9
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1ba
-	.uaword	0x1ffa
+	.uaword	0x1ff4
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_ID"
 	.byte	0x3
 	.uahalf	0x1bb
-	.uaword	0x25b2
+	.uaword	0x25ac
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1be
-	.uaword	0x2615
+	.uaword	0x260f
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1c0
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1c1
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1c2
-	.uaword	0x2064
+	.uaword	0x205e
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_KRST0"
 	.byte	0x3
 	.uahalf	0x1c3
-	.uaword	0x25ed
+	.uaword	0x25e7
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1c6
-	.uaword	0x2653
+	.uaword	0x264d
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1c8
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1c9
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1ca
-	.uaword	0x20bd
+	.uaword	0x20b7
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_KRST1"
 	.byte	0x3
 	.uahalf	0x1cb
-	.uaword	0x262b
+	.uaword	0x2625
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1ce
-	.uaword	0x2691
+	.uaword	0x268b
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1d0
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1d1
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1d2
-	.uaword	0x2118
+	.uaword	0x2112
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_KRSTCLR"
 	.byte	0x3
 	.uahalf	0x1d3
-	.uaword	0x2669
+	.uaword	0x2663
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1d6
-	.uaword	0x26d1
+	.uaword	0x26cb
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1d8
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1d9
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1da
-	.uaword	0x2223
+	.uaword	0x221d
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_LAMCFG"
 	.byte	0x3
 	.uahalf	0x1db
-	.uaword	0x26a9
+	.uaword	0x26a3
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1de
-	.uaword	0x2710
+	.uaword	0x270a
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1e0
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1e1
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1e2
-	.uaword	0x227e
+	.uaword	0x2278
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_LAMEWC"
 	.byte	0x3
 	.uahalf	0x1e3
-	.uaword	0x26e8
+	.uaword	0x26e2
 	.uleb128 0xd
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1e6
-	.uaword	0x274f
+	.uaword	0x2749
 	.uleb128 0xe
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1e8
-	.uaword	0x135e
+	.uaword	0x1358
 	.uleb128 0xe
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1e9
-	.uaword	0x231d
+	.uaword	0x2317
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1ea
-	.uaword	0x22d9
+	.uaword	0x22d3
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM_LAMEWS"
 	.byte	0x3
 	.uahalf	0x1eb
-	.uaword	0x2727
+	.uaword	0x2721
 	.uleb128 0xf
 	.string	"_Ifx_IOM"
 	.uahalf	0x200
 	.byte	0x3
 	.uahalf	0x1f6
-	.uaword	0x28fb
+	.uaword	0x28f5
 	.uleb128 0x10
 	.string	"CLC"
 	.byte	0x3
 	.uahalf	0x1f8
-	.uaword	0x23a2
+	.uaword	0x239c
 	.byte	0
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x1f9
-	.uaword	0x28fb
+	.uaword	0x28f5
 	.byte	0x4
 	.uleb128 0x10
 	.string	"ID"
 	.byte	0x3
 	.uahalf	0x1fa
-	.uaword	0x25da
+	.uaword	0x25d4
 	.byte	0x8
 	.uleb128 0x10
 	.string	"reserved_C"
 	.byte	0x3
 	.uahalf	0x1fb
-	.uaword	0x2928
+	.uaword	0x2922
 	.byte	0xc
 	.uleb128 0x10
 	.string	"KRSTCLR"
 	.byte	0x3
 	.uahalf	0x1fc
-	.uaword	0x2691
+	.uaword	0x268b
 	.byte	0x1c
 	.uleb128 0x10
 	.string	"KRST1"
 	.byte	0x3
 	.uahalf	0x1fd
-	.uaword	0x2653
+	.uaword	0x264d
 	.byte	0x20
 	.uleb128 0x10
 	.string	"KRST0"
 	.byte	0x3
 	.uahalf	0x1fe
-	.uaword	0x2615
+	.uaword	0x260f
 	.byte	0x24
 	.uleb128 0x10
 	.string	"ACCEN1"
 	.byte	0x3
 	.uahalf	0x1ff
-	.uaword	0x2363
+	.uaword	0x235d
 	.byte	0x28
 	.uleb128 0x10
 	.string	"ACCEN0"
 	.byte	0x3
 	.uahalf	0x200
-	.uaword	0x2324
+	.uaword	0x231e
 	.byte	0x2c
 	.uleb128 0x10
 	.string	"ECMCCFG"
 	.byte	0x3
 	.uahalf	0x201
-	.uaword	0x23de
+	.uaword	0x23d8
 	.byte	0x30
 	.uleb128 0x10
 	.string	"ECMSELR"
 	.byte	0x3
 	.uahalf	0x202
-	.uaword	0x249e
+	.uaword	0x2498
 	.byte	0x34
 	.uleb128 0x10
 	.string	"ECMETH0"
 	.byte	0x3
 	.uahalf	0x203
-	.uaword	0x241e
+	.uaword	0x2418
 	.byte	0x38
 	.uleb128 0x10
 	.string	"ECMETH1"
 	.byte	0x3
 	.uahalf	0x204
-	.uaword	0x245e
+	.uaword	0x2458
 	.byte	0x3c
 	.uleb128 0x10
 	.string	"GTMEXR"
 	.byte	0x3
 	.uahalf	0x205
-	.uaword	0x259b
+	.uaword	0x2595
 	.byte	0x40
 	.uleb128 0x10
 	.string	"reserved_44"
 	.byte	0x3
 	.uahalf	0x206
-	.uaword	0x2938
+	.uaword	0x2932
 	.byte	0x44
 	.uleb128 0x10
 	.string	"FPCESR"
 	.byte	0x3
 	.uahalf	0x207
-	.uaword	0x251d
+	.uaword	0x2517
 	.byte	0x78
 	.uleb128 0x10
 	.string	"reserved_7C"
 	.byte	0x3
 	.uahalf	0x208
-	.uaword	0x28fb
+	.uaword	0x28f5
 	.byte	0x7c
 	.uleb128 0x10
 	.string	"FPCCTR"
 	.byte	0x3
 	.uahalf	0x209
-	.uaword	0x2948
+	.uaword	0x2942
 	.byte	0x80
 	.uleb128 0x10
 	.string	"FPCTIM"
 	.byte	0x3
 	.uahalf	0x20a
-	.uaword	0x2958
+	.uaword	0x2952
 	.byte	0xc0
 	.uleb128 0x12
 	.string	"LAMEWC"
 	.byte	0x3
 	.uahalf	0x20b
-	.uaword	0x2968
+	.uaword	0x2962
 	.uahalf	0x100
 	.uleb128 0x12
 	.string	"reserved_140"
 	.byte	0x3
 	.uahalf	0x20c
-	.uaword	0x2978
+	.uaword	0x2972
 	.uahalf	0x140
 	.uleb128 0x12
 	.string	"LAMCFG"
 	.byte	0x3
 	.uahalf	0x20d
-	.uaword	0x2988
+	.uaword	0x2982
 	.uahalf	0x180
 	.uleb128 0x12
 	.string	"LAMEWS"
 	.byte	0x3
 	.uahalf	0x20e
-	.uaword	0x2998
+	.uaword	0x2992
 	.uahalf	0x1c0
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x2917
-	.uaword	0x290b
+	.uaword	0x2911
+	.uaword	0x2905
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0x3
 	.byte	0
 	.uleb128 0x7
@@ -4177,68 +4177,68 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x8
 	.string	"unsigned char"
 	.uleb128 0x13
-	.uaword	0x2917
-	.uaword	0x2938
+	.uaword	0x2911
+	.uaword	0x2932
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0xf
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x2917
-	.uaword	0x2948
+	.uaword	0x2911
+	.uaword	0x2942
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0x33
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x24de
-	.uaword	0x2958
+	.uaword	0x24d8
+	.uaword	0x2952
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0xf
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x255c
-	.uaword	0x2968
+	.uaword	0x2556
+	.uaword	0x2962
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0xf
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x2710
-	.uaword	0x2978
+	.uaword	0x270a
+	.uaword	0x2972
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0xf
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x2917
-	.uaword	0x2988
+	.uaword	0x2911
+	.uaword	0x2982
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0x3f
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x26d1
-	.uaword	0x2998
+	.uaword	0x26cb
+	.uaword	0x2992
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0xf
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x274f
-	.uaword	0x29a8
+	.uaword	0x2749
+	.uaword	0x29a2
 	.uleb128 0x14
-	.uaword	0x290b
+	.uaword	0x2905
 	.byte	0xf
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_IOM"
 	.byte	0x3
 	.uahalf	0x20f
-	.uaword	0x29b8
+	.uaword	0x29b2
 	.uleb128 0x15
-	.uaword	0x2766
+	.uaword	0x2760
 	.uleb128 0x7
 	.byte	0x4
 	.byte	0x5
@@ -4251,7 +4251,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"sint8"
 	.byte	0x4
 	.byte	0x58
-	.uaword	0x29eb
+	.uaword	0x29e5
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x6
@@ -4260,7 +4260,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"uint8"
 	.byte	0x4
 	.byte	0x59
-	.uaword	0x2917
+	.uaword	0x2911
 	.uleb128 0x7
 	.byte	0x2
 	.byte	0x5
@@ -4269,7 +4269,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"uint16"
 	.byte	0x4
 	.byte	0x5b
-	.uaword	0x2a22
+	.uaword	0x2a1c
 	.uleb128 0x7
 	.byte	0x2
 	.byte	0x7
@@ -4278,12 +4278,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"uint32"
 	.byte	0x4
 	.byte	0x5d
-	.uaword	0x29c9
+	.uaword	0x29c3
 	.uleb128 0x4
 	.string	"float32"
 	.byte	0x4
 	.byte	0x5e
-	.uaword	0x2a55
+	.uaword	0x2a4f
 	.uleb128 0x7
 	.byte	0x4
 	.byte	0x4
@@ -4296,7 +4296,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"boolean"
 	.byte	0x4
 	.byte	0x68
-	.uaword	0x2917
+	.uaword	0x2911
 	.uleb128 0x7
 	.byte	0x8
 	.byte	0x5
@@ -4313,7 +4313,7 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x5
 	.byte	0x38
-	.uaword	0x2af1
+	.uaword	0x2aeb
 	.uleb128 0x3
 	.string	"IfxIom_LamEventSource_mon"
 	.sleb128 0
@@ -4325,12 +4325,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_LamEventSource"
 	.byte	0x5
 	.byte	0x3b
-	.uaword	0x2aaa
+	.uaword	0x2aa4
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x41
-	.uaword	0x2b9f
+	.uaword	0x2b99
 	.uleb128 0x3
 	.string	"IfxIom_LamEventTrigger_none"
 	.sleb128 0
@@ -4348,12 +4348,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_LamEventTrigger"
 	.byte	0x5
 	.byte	0x46
-	.uaword	0x2b0e
+	.uaword	0x2b08
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x4c
-	.uaword	0x2c72
+	.uaword	0x2c6c
 	.uleb128 0x3
 	.string	"IfxIom_LamEventWindowClearEvent_none"
 	.sleb128 0
@@ -4371,12 +4371,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_LamEventWindowClearEvent"
 	.byte	0x5
 	.byte	0x51
-	.uaword	0x2bbd
+	.uaword	0x2bb7
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x57
-	.uaword	0x2cf4
+	.uaword	0x2cee
 	.uleb128 0x3
 	.string	"IfxIom_LamEventWindowControlSource_ref"
 	.sleb128 0
@@ -4388,12 +4388,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_LamEventWindowControlSource"
 	.byte	0x5
 	.byte	0x5a
-	.uaword	0x2c99
+	.uaword	0x2c93
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x60
-	.uaword	0x2d7d
+	.uaword	0x2d77
 	.uleb128 0x3
 	.string	"IfxIom_LamEventWindowRunControl_freeRunning"
 	.sleb128 0
@@ -4405,12 +4405,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_LamEventWindowRunControl"
 	.byte	0x5
 	.byte	0x63
-	.uaword	0x2d1e
+	.uaword	0x2d18
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x69
-	.uaword	0x2f83
+	.uaword	0x2f7d
 	.uleb128 0x3
 	.string	"IfxIom_LamFilterMode_delayDebounceBothEdge"
 	.sleb128 0
@@ -4443,12 +4443,12 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_LamFilterMode"
 	.byte	0x5
 	.byte	0x73
-	.uaword	0x2da4
+	.uaword	0x2d9e
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x78
-	.uaword	0x30be
+	.uaword	0x30b8
 	.uleb128 0x3
 	.string	"IfxIom_LamId_0"
 	.sleb128 0
@@ -4502,334 +4502,334 @@ IfxIom_Driver_restoreEvents:
 	.string	"IfxIom_LamId"
 	.byte	0x5
 	.byte	0x89
-	.uaword	0x2f9f
+	.uaword	0x2f99
 	.uleb128 0x16
 	.byte	0x14
 	.byte	0x6
 	.byte	0x6c
-	.uaword	0x3156
+	.uaword	0x3150
 	.uleb128 0x17
 	.string	"clearTimerOnGlitch"
 	.byte	0x6
 	.byte	0x6e
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.byte	0
 	.uleb128 0x17
 	.string	"fallingEdgeFilterTime"
 	.byte	0x6
 	.byte	0x6f
-	.uaword	0x2a46
+	.uaword	0x2a40
 	.byte	0x4
 	.uleb128 0x17
 	.string	"mode"
 	.byte	0x6
 	.byte	0x70
-	.uaword	0x2f83
+	.uaword	0x2f7d
 	.byte	0x8
 	.uleb128 0x17
 	.string	"prescalerFactor"
 	.byte	0x6
 	.byte	0x71
-	.uaword	0x2a38
+	.uaword	0x2a32
 	.byte	0xc
 	.uleb128 0x17
 	.string	"risingEdgeFilterTime"
 	.byte	0x6
 	.byte	0x72
-	.uaword	0x2a46
+	.uaword	0x2a40
 	.byte	0x10
 	.byte	0
 	.uleb128 0x4
 	.string	"IfxIom_Driver_LamFilterConfig"
 	.byte	0x6
 	.byte	0x73
-	.uaword	0x30d2
+	.uaword	0x30cc
 	.uleb128 0x16
 	.byte	0x8
 	.byte	0x6
 	.byte	0x7b
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.uleb128 0x18
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0x7d
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0x7e
-	.uaword	0x29fa
+	.uaword	0x29f4
 	.byte	0x4
 	.uleb128 0x17
 	.string	"lamUsedMask"
 	.byte	0x6
 	.byte	0x7f
-	.uaword	0x2a14
+	.uaword	0x2a0e
 	.byte	0x6
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x29a8
+	.uaword	0x29a2
 	.uleb128 0x4
 	.string	"IfxIom_Driver"
 	.byte	0x6
 	.byte	0x80
-	.uaword	0x317b
+	.uaword	0x3175
 	.uleb128 0x16
 	.byte	0x2
 	.byte	0x6
 	.byte	0x84
-	.uaword	0x31f3
+	.uaword	0x31ed
 	.uleb128 0x17
 	.string	"source"
 	.byte	0x6
 	.byte	0x86
-	.uaword	0x2af1
+	.uaword	0x2aeb
 	.byte	0
 	.uleb128 0x17
 	.string	"trigger"
 	.byte	0x6
 	.byte	0x87
-	.uaword	0x2b9f
+	.uaword	0x2b99
 	.byte	0x1
 	.byte	0
 	.uleb128 0x4
 	.string	"IfxIom_Driver_LamEventConfig"
 	.byte	0x6
 	.byte	0x88
-	.uaword	0x31cb
+	.uaword	0x31c5
 	.uleb128 0x16
 	.byte	0x8
 	.byte	0x6
 	.byte	0x8c
-	.uaword	0x3273
+	.uaword	0x326d
 	.uleb128 0x17
 	.string	"clearEvent"
 	.byte	0x6
 	.byte	0x8e
-	.uaword	0x2c72
+	.uaword	0x2c6c
 	.byte	0
 	.uleb128 0x17
 	.string	"controlSource"
 	.byte	0x6
 	.byte	0x8f
-	.uaword	0x2cf4
+	.uaword	0x2cee
 	.byte	0x1
 	.uleb128 0x18
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0x90
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.byte	0x2
 	.uleb128 0x17
 	.string	"run"
 	.byte	0x6
 	.byte	0x91
-	.uaword	0x2d7d
+	.uaword	0x2d77
 	.byte	0x3
 	.uleb128 0x17
 	.string	"threshold"
 	.byte	0x6
 	.byte	0x92
-	.uaword	0x2a46
+	.uaword	0x2a40
 	.byte	0x4
 	.byte	0
 	.uleb128 0x4
 	.string	"IfxIom_Driver_LamEventWindowConfig"
 	.byte	0x6
 	.byte	0x93
-	.uaword	0x3217
+	.uaword	0x3211
 	.uleb128 0x16
 	.byte	0x18
 	.byte	0x6
 	.byte	0x97
-	.uaword	0x32cf
+	.uaword	0x32c9
 	.uleb128 0x17
 	.string	"filter"
 	.byte	0x6
 	.byte	0x99
-	.uaword	0x3156
+	.uaword	0x3150
 	.byte	0
 	.uleb128 0x17
 	.string	"input"
 	.byte	0x6
 	.byte	0x9a
-	.uaword	0x9ec
+	.uaword	0x9e6
 	.byte	0x14
 	.uleb128 0x18
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0x9b
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.byte	0x16
 	.byte	0
 	.uleb128 0x4
 	.string	"IfxIom_Driver_LamMonConfig"
 	.byte	0x6
 	.byte	0x9c
-	.uaword	0x329d
+	.uaword	0x3297
 	.uleb128 0x16
 	.byte	0x18
 	.byte	0x6
 	.byte	0xa0
-	.uaword	0x3323
+	.uaword	0x331d
 	.uleb128 0x17
 	.string	"filter"
 	.byte	0x6
 	.byte	0xa2
-	.uaword	0x3156
+	.uaword	0x3150
 	.byte	0
 	.uleb128 0x17
 	.string	"input"
 	.byte	0x6
 	.byte	0xa3
-	.uaword	0x1133
+	.uaword	0x112d
 	.byte	0x14
 	.uleb128 0x18
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0xa4
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.byte	0x16
 	.byte	0
 	.uleb128 0x4
 	.string	"IfxIom_Driver_LamRefConfig"
 	.byte	0x6
 	.byte	0xa5
-	.uaword	0x32f1
+	.uaword	0x32eb
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x6
 	.byte	0xad
-	.uaword	0x335a
+	.uaword	0x3354
 	.uleb128 0x18
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xaf
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.string	"IfxIom_Driver_Config"
 	.byte	0x6
 	.byte	0xb0
-	.uaword	0x3345
+	.uaword	0x333f
 	.uleb128 0x16
 	.byte	0xc
 	.byte	0x6
 	.byte	0xb4
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.uleb128 0x18
 	.uaword	.LASF8
 	.byte	0x6
 	.byte	0xb6
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0
 	.uleb128 0x17
 	.string	"channel"
 	.byte	0x6
 	.byte	0xb7
-	.uaword	0x30be
+	.uaword	0x30b8
 	.byte	0x4
 	.uleb128 0x18
 	.uaword	.LASF9
 	.byte	0x6
 	.byte	0xb8
-	.uaword	0x29fa
+	.uaword	0x29f4
 	.byte	0x5
 	.uleb128 0x18
 	.uaword	.LASF10
 	.byte	0x6
 	.byte	0xb9
-	.uaword	0x29fa
+	.uaword	0x29f4
 	.byte	0x6
 	.uleb128 0x18
 	.uaword	.LASF11
 	.byte	0x6
 	.byte	0xba
-	.uaword	0x2b5
+	.uaword	0x2af
 	.byte	0x7
 	.uleb128 0x18
 	.uaword	.LASF12
 	.byte	0x6
 	.byte	0xbb
-	.uaword	0x203
+	.uaword	0x1fd
 	.byte	0x8
 	.uleb128 0x17
 	.string	"accumulatedCounterIndex"
 	.byte	0x6
 	.byte	0xbc
-	.uaword	0x29de
+	.uaword	0x29d8
 	.byte	0x9
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0x6
 	.byte	0xbd
-	.uaword	0x29fa
+	.uaword	0x29f4
 	.byte	0xa
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x31b6
+	.uaword	0x31b0
 	.uleb128 0x4
 	.string	"IfxIom_Driver_Lam"
 	.byte	0x6
 	.byte	0xbe
-	.uaword	0x3376
+	.uaword	0x3370
 	.uleb128 0x16
 	.byte	0x44
 	.byte	0x6
 	.byte	0xc2
-	.uaword	0x3481
+	.uaword	0x347b
 	.uleb128 0x18
 	.uaword	.LASF8
 	.byte	0x6
 	.byte	0xc4
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0
 	.uleb128 0x17
 	.string	"channel"
 	.byte	0x6
 	.byte	0xc5
-	.uaword	0x30be
+	.uaword	0x30b8
 	.byte	0x4
 	.uleb128 0x17
 	.string	"event"
 	.byte	0x6
 	.byte	0xc6
-	.uaword	0x31f3
+	.uaword	0x31ed
 	.byte	0x6
 	.uleb128 0x17
 	.string	"eventWindow"
 	.byte	0x6
 	.byte	0xc7
-	.uaword	0x3273
+	.uaword	0x326d
 	.byte	0x8
 	.uleb128 0x17
 	.string	"mon"
 	.byte	0x6
 	.byte	0xc8
-	.uaword	0x32cf
+	.uaword	0x32c9
 	.byte	0x10
 	.uleb128 0x17
 	.string	"ref"
 	.byte	0x6
 	.byte	0xc9
-	.uaword	0x3323
+	.uaword	0x331d
 	.byte	0x28
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0x6
 	.byte	0xca
-	.uaword	0x29fa
+	.uaword	0x29f4
 	.byte	0x40
 	.byte	0
 	.uleb128 0x4
 	.string	"IfxIom_Driver_LamConfig"
 	.byte	0x6
 	.byte	0xcb
-	.uaword	0x3416
+	.uaword	0x3410
 	.uleb128 0x1a
 	.byte	0x1
 	.string	"IfxIom_Driver_clearAllGlitch"
@@ -4841,19 +4841,19 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x34ec
+	.uaword	0x34e6
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x31
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1c
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0x33
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -4868,19 +4868,19 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3536
+	.uaword	0x3530
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x38
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1c
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0x3a
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -4895,25 +4895,25 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3585
+	.uaword	0x357f
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x3f
-	.uaword	0x3585
+	.uaword	0x357f
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1c
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0x41
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x33fd
+	.uaword	0x33f7
 	.uleb128 0x1a
 	.byte	0x1
 	.string	"IfxIom_Driver_clearLamRefGlitch"
@@ -4925,19 +4925,19 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x35da
+	.uaword	0x35d4
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x4a
-	.uaword	0x3585
+	.uaword	0x357f
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1c
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0x4c
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -4947,25 +4947,25 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x55
 	.byte	0x1
-	.uaword	0x2a38
+	.uaword	0x2a32
 	.uaword	.LFB176
 	.uaword	.LFE176
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x362b
+	.uaword	0x3625
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x55
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1e
 	.string	"value"
 	.byte	0x1
 	.byte	0x57
-	.uaword	0x2a38
+	.uaword	0x2a32
 	.byte	0x1
 	.byte	0x52
 	.byte	0
@@ -4980,25 +4980,25 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3687
+	.uaword	0x3681
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x5e
-	.uaword	0x3585
+	.uaword	0x357f
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1f
 	.uaword	.LASF8
 	.byte	0x1
 	.byte	0x60
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.uaword	.LLST0
 	.uleb128 0x1c
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0x61
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -5013,25 +5013,25 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x36e2
+	.uaword	0x36dc
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x73
-	.uaword	0x3585
+	.uaword	0x357f
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1f
 	.uaword	.LASF8
 	.byte	0x1
 	.byte	0x75
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.uaword	.LLST1
 	.uleb128 0x1c
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0x76
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -5046,40 +5046,40 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x376a
+	.uaword	0x3764
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x88
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x20
 	.string	"a"
 	.byte	0x1
 	.byte	0x88
-	.uaword	0x376a
+	.uaword	0x3764
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x20
 	.string	"b"
 	.byte	0x1
 	.byte	0x88
-	.uaword	0x376a
+	.uaword	0x3764
 	.byte	0x1
 	.byte	0x66
 	.uleb128 0x20
 	.string	"c"
 	.byte	0x1
 	.byte	0x88
-	.uaword	0x376a
+	.uaword	0x3764
 	.byte	0x1
 	.byte	0x67
 	.uleb128 0x20
 	.string	"d"
 	.byte	0x1
 	.byte	0x88
-	.uaword	0x376a
+	.uaword	0x3764
 	.byte	0x2
 	.byte	0x91
 	.sleb128 0
@@ -5087,49 +5087,49 @@ IfxIom_Driver_restoreEvents:
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0x8a
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.uaword	.LLST2
 	.uleb128 0x21
 	.string	"value"
 	.byte	0x1
 	.byte	0x8b
-	.uaword	0x2a38
+	.uaword	0x2a32
 	.uaword	.LLST3
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x2a14
+	.uaword	0x2a0e
 	.uleb128 0x1d
 	.byte	0x1
 	.string	"IfxIom_Driver_init"
 	.byte	0x1
 	.byte	0x97
 	.byte	0x1
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.uaword	.LFB180
 	.uaword	.LFE180
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x37b6
+	.uaword	0x37b0
 	.uleb128 0x1b
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1b
 	.uaword	.LASF15
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x37b6
+	.uaword	0x37b0
 	.byte	0x1
 	.byte	0x65
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x335a
+	.uaword	0x3354
 	.uleb128 0x1a
 	.byte	0x1
 	.string	"IfxIom_Driver_initConfig"
@@ -5141,19 +5141,19 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3804
+	.uaword	0x37fe
 	.uleb128 0x1b
 	.uaword	.LASF15
 	.byte	0x1
 	.byte	0xa0
-	.uaword	0x37b6
+	.uaword	0x37b0
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1b
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0xa0
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x65
 	.byte	0
@@ -5163,108 +5163,108 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0xa6
 	.byte	0x1
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.uaword	.LFB182
 	.uaword	.LFE182
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x392d
+	.uaword	0x3927
 	.uleb128 0x22
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0xa6
-	.uaword	0x3585
+	.uaword	0x357f
 	.uaword	.LLST4
 	.uleb128 0x22
 	.uaword	.LASF15
 	.byte	0x1
 	.byte	0xa6
-	.uaword	0x392d
+	.uaword	0x3927
 	.uaword	.LLST5
 	.uleb128 0x21
 	.string	"result"
 	.byte	0x1
 	.byte	0xa8
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.uaword	.LLST6
 	.uleb128 0x1c
 	.uaword	.LASF8
 	.byte	0x1
 	.byte	0xa9
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0x1
 	.byte	0x6e
 	.uleb128 0x1c
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0xaa
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6d
 	.uleb128 0x21
 	.string	"fiom"
 	.byte	0x1
 	.byte	0xab
-	.uaword	0x2a46
+	.uaword	0x2a40
 	.uaword	.LLST7
 	.uleb128 0x23
 	.uaword	.Ldebug_ranges0+0
-	.uaword	0x38b4
+	.uaword	0x38ae
 	.uleb128 0x1f
 	.uaword	.LASF10
 	.byte	0x1
 	.byte	0xc0
-	.uaword	0x29fa
+	.uaword	0x29f4
 	.uaword	.LLST8
 	.uleb128 0x1f
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0xc1
-	.uaword	0x2b5
+	.uaword	0x2af
 	.uaword	.LLST9
 	.byte	0
 	.uleb128 0x23
 	.uaword	.Ldebug_ranges0+0x28
-	.uaword	0x38dc
+	.uaword	0x38d6
 	.uleb128 0x1f
 	.uaword	.LASF9
 	.byte	0x1
 	.byte	0xe3
-	.uaword	0x29fa
+	.uaword	0x29f4
 	.uaword	.LLST10
 	.uleb128 0x1f
 	.uaword	.LASF12
 	.byte	0x1
 	.byte	0xe4
-	.uaword	0x203
+	.uaword	0x1fd
 	.uaword	.LLST11
 	.byte	0
 	.uleb128 0x23
 	.uaword	.Ldebug_ranges0+0x40
-	.uaword	0x391c
+	.uaword	0x3916
 	.uleb128 0x24
 	.string	"index"
 	.byte	0x1
 	.uahalf	0x11a
-	.uaword	0x29de
+	.uaword	0x29d8
 	.uaword	.LLST12
 	.uleb128 0x25
 	.uaword	.LASF6
 	.byte	0x1
 	.uahalf	0x11b
-	.uaword	0x29fa
+	.uaword	0x29f4
 	.uaword	.LLST13
 	.uleb128 0x24
 	.string	"success"
 	.byte	0x1
 	.uahalf	0x11c
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.uaword	.LLST14
 	.byte	0
 	.uleb128 0x26
 	.uaword	.LVL33
-	.uaword	0x3aea
+	.uaword	0x3ae4
 	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
@@ -5275,7 +5275,7 @@ IfxIom_Driver_restoreEvents:
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x3481
+	.uaword	0x347b
 	.uleb128 0x28
 	.byte	0x1
 	.string	"IfxIom_Driver_initLamConfig"
@@ -5287,19 +5287,19 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3981
+	.uaword	0x397b
 	.uleb128 0x29
 	.uaword	.LASF15
 	.byte	0x1
 	.uahalf	0x13c
-	.uaword	0x392d
+	.uaword	0x3927
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x29
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x13c
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0x1
 	.byte	0x65
 	.byte	0
@@ -5314,33 +5314,33 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3a0b
+	.uaword	0x3a05
 	.uleb128 0x29
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x159
-	.uaword	0x3585
+	.uaword	0x357f
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x29
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x159
-	.uaword	0x3a0b
+	.uaword	0x3a05
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x29
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x159
-	.uaword	0x3a0b
+	.uaword	0x3a05
 	.byte	0x1
 	.byte	0x66
 	.uleb128 0x2a
 	.uaword	.LASF5
 	.byte	0x1
 	.uahalf	0x15b
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x2b
@@ -5350,7 +5350,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"index"
 	.byte	0x1
 	.uahalf	0x15f
-	.uaword	0x2a38
+	.uaword	0x2a32
 	.byte	0x6
 	.byte	0x72
 	.sleb128 0
@@ -5362,7 +5362,7 @@ IfxIom_Driver_restoreEvents:
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x2a68
+	.uaword	0x2a62
 	.uleb128 0x28
 	.byte	0x1
 	.string	"IfxIom_Driver_isLamRefGlitch"
@@ -5374,33 +5374,33 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3a9b
+	.uaword	0x3a95
 	.uleb128 0x29
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x16c
-	.uaword	0x3585
+	.uaword	0x357f
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x29
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x16c
-	.uaword	0x3a0b
+	.uaword	0x3a05
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x29
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x16c
-	.uaword	0x3a0b
+	.uaword	0x3a05
 	.byte	0x1
 	.byte	0x66
 	.uleb128 0x2a
 	.uaword	.LASF5
 	.byte	0x1
 	.uahalf	0x16e
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x2b
@@ -5410,7 +5410,7 @@ IfxIom_Driver_restoreEvents:
 	.string	"index"
 	.byte	0x1
 	.uahalf	0x172
-	.uaword	0x2a38
+	.uaword	0x2a32
 	.byte	0x6
 	.byte	0x72
 	.sleb128 0
@@ -5431,19 +5431,19 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3aea
+	.uaword	0x3ae4
 	.uleb128 0x29
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x17f
-	.uaword	0x33f7
+	.uaword	0x33f1
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x2d
 	.string	"mask"
 	.byte	0x1
 	.uahalf	0x17f
-	.uaword	0x2a38
+	.uaword	0x2a32
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -5453,10 +5453,10 @@ IfxIom_Driver_restoreEvents:
 	.byte	0x5
 	.byte	0xbd
 	.byte	0x1
-	.uaword	0x2a46
+	.uaword	0x2a40
 	.byte	0x1
 	.uleb128 0x2f
-	.uaword	0x31b0
+	.uaword	0x31aa
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
