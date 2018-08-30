@@ -19,5 +19,5 @@
 #include <_Impl/IfxSrc_cfg.h>
 
 
-void PWM_config();
+void PWM_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();

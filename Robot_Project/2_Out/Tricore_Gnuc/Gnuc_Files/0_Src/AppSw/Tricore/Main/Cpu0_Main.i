@@ -21770,7 +21770,7 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 
 
 
-void PWM_config();
+void PWM_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
 # 35 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
@@ -21835,8 +21835,12 @@ int core0_main (void)
 
 
  ClockConfig();
- PWM_config();
- IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-50) * Timer1.base.period) / 100);
+ PWM_config(IfxGtm_TOM0_0_TOUT85_P14_5_OUT);
+
+
+
+ uint8 duty = 50;
+ IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty) * Timer1.base.period) / 100);
     while (1)
     {
     }

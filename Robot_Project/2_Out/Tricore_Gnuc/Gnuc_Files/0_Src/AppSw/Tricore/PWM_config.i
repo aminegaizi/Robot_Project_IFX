@@ -21275,7 +21275,7 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 
 
 
-void PWM_config();
+void PWM_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
 # 9 "0_Src/AppSw/Tricore/PWM_config.c" 2
 
@@ -21284,17 +21284,17 @@ IfxGtm_Tom_Timer Timer1;
 IfxGtm_Tom_Timer_Config TimerConfig;
 Ifx_GTM *gtm = &(*(Ifx_GTM*)0xF0100000u);
 
-void PWM_config()
+void PWM_config(IfxGtm_Tom_ToutMap Output)
 {
  IfxGtm_Tom_Timer_initConfig(&TimerConfig, gtm);
 
- TimerConfig.tom = IfxGtm_TOM0_0_TOUT85_P14_5_OUT.tom;
- TimerConfig.timerChannel = IfxGtm_TOM0_0_TOUT85_P14_5_OUT.channel;
+ TimerConfig.tom = Output.tom;
+ TimerConfig.timerChannel = Output.channel;
  TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0;
  TimerConfig.irqModeTimer = IfxGtm_IrqMode_pulse;
  TimerConfig.irqModeTrigger = IfxGtm_IrqMode_pulse;
 
- TimerConfig.triggerOut = &IfxGtm_TOM0_0_TOUT85_P14_5_OUT;
+ TimerConfig.triggerOut = &Output;
 
  TimerConfig.base.frequency = 30000;
  TimerConfig.base.minResolution = 0;

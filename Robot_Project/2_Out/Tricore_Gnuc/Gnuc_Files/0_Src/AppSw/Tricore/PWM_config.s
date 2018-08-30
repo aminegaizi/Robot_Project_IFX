@@ -9,11 +9,23 @@ PWM_config:
 .LFB275:
 	.file 1 "0_Src/AppSw/Tricore/PWM_config.c"
 	.loc 1 16 0
+	sub.a	%SP, 24
+.LCFI0:
+	.loc 1 15 0
+	lea	%a12, [%SP] 4
+	mov.aa	%a2, %a12
+		# #chunks=2, chunksize=8, remains=4
+	ld.d	%e2, [%a4+]8
+	st.d	[%a2+]8, %e2
+	ld.d	%e2, [%a4+]8
+	st.d	[%a2+]8, %e2
+	ld.w	%d2, [%a4+]4
+	st.w	[%a2+]4, %d2
 	.loc 1 17 0
 	movh.a	%a2, hi:gtm
-	movh.a	%a12, hi:TimerConfig
 	ld.a	%a5, [%a2] lo:gtm
-	lea	%a15, [%a12] lo:TimerConfig
+	movh.a	%a13, hi:TimerConfig
+	lea	%a15, [%a13] lo:TimerConfig
 	mov.aa	%a4, %a15
 	call	IfxGtm_Tom_Timer_initConfig
 .LVL0:
@@ -21,15 +33,17 @@ PWM_config:
 	movh	%d3, 18154
 	addi	%d3, %d3, 24576
 	.loc 1 19 0
-	movh.a	%a3, hi:IfxGtm_TOM0_0_TOUT85_P14_5_OUT
-	ld.bu	%d15, [%a3] lo:IfxGtm_TOM0_0_TOUT85_P14_5_OUT
+	ld.bu	%d15, [%SP] 4
 	st.b	[%a15] 40, %d15
+	.loc 1 20 0
+	ld.bu	%d15, [%SP] 5
+	st.b	[%a15] 41, %d15
 	.loc 1 21 0
 	mov	%d2, 0
 	.loc 1 22 0
 	mov	%d15, 1
 	.loc 1 27 0
-	st.w	[%a12] lo:TimerConfig, %d3
+	st.w	[%a13] lo:TimerConfig, %d3
 	.loc 1 28 0
 	mov	%d3, 0
 	.loc 1 21 0
@@ -54,36 +68,35 @@ PWM_config:
 	mov.u	%d2, 65535
 	.loc 1 36 0
 	mov	%d15, 0
+	.loc 1 25 0
+	st.a	[%a15] 44, %a12
 	.loc 1 45 0
 	movh.a	%a12, hi:Timer1
-	.loc 1 19 0
-	lea	%a2, [%a3] lo:IfxGtm_TOM0_0_TOUT85_P14_5_OUT
-	.loc 1 45 0
-	lea	%a12, [%a12] lo:Timer1
-	.loc 1 20 0
-	ld.b	%d8, [%a2] 1
-	.loc 1 45 0
-	mov.aa	%a5, %a15
-	mov.aa	%a4, %a12
-	.loc 1 25 0
-	st.a	[%a15] 44, %a2
 	.loc 1 31 0
 	st.b	[%a15] 23, %d3
-	.loc 1 20 0
-	st.b	[%a15] 41, %d8
-	.loc 1 33 0
-	st.w	[%a15] 16, %d2
 	.loc 1 36 0
 	st.h	[%a15] 4, %d15
+	.loc 1 45 0
+	lea	%a12, [%a12] lo:Timer1
+	mov.aa	%a5, %a15
+	.loc 1 33 0
+	st.w	[%a15] 16, %d2
+	.loc 1 46 0
+	movh.a	%a15, hi:IfxGtm_TOM0_0_TOUT85_P14_5_OUT
+	.loc 1 45 0
+	mov.aa	%a4, %a12
+	.loc 1 46 0
+	lea	%a15, [%a15] lo:IfxGtm_TOM0_0_TOUT85_P14_5_OUT
 	.loc 1 45 0
 	call	IfxGtm_Tom_Timer_init
 .LVL1:
 	.loc 1 46 0
+	ld.b	%d15, [%a15] 1
+	ld.a	%a2, [%a12] 20
 	mov	%d4, 1
-	ld.a	%a15, [%a12] 20
-	sh	%d4, %d4, %d8
+	sh	%d4, %d4, %d15
 	extr.u	%d4, %d4, 0, 16
-	lea	%a4, [%a15] 48
+	lea	%a4, [%a2] 48
 	mov	%d5, 0
 	call	IfxGtm_Tom_Tgc_enableChannelsUpdate
 .LVL2:
@@ -173,6 +186,10 @@ Timer1:
 	.uaword	.Lframe0
 	.uaword	.LFB275
 	.uaword	.LFE275-.LFB275
+	.byte	0x4
+	.uaword	.LCFI0-.LFB275
+	.byte	0xe
+	.uleb128 0x18
 	.align 2
 .LEFDE0:
 .LSFDE2:
@@ -201,7 +218,7 @@ Timer1:
 	.file 15 "0_Src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x1e246
+	.uaword	0x1e255
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -46150,69 +46167,72 @@ Timer1:
 	.string	"PWM_config"
 	.byte	0x1
 	.byte	0xf
+	.byte	0x1
 	.uaword	.LFB275
 	.uaword	.LFE275
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1df79
+	.uaword	0x1df88
 	.uleb128 0x25
-	.uaword	.LVL0
-	.uaword	0x1e0c6
-	.uaword	0x1df2c
+	.string	"Output"
+	.byte	0x1
+	.byte	0xf
+	.uaword	0x1da9d
+	.byte	0x2
+	.byte	0x84
+	.sleb128 0
 	.uleb128 0x26
+	.uaword	.LVL0
+	.uaword	0x1e0d5
+	.uaword	0x1df3e
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8f
 	.sleb128 0
 	.byte	0
-	.uleb128 0x25
-	.uaword	.LVL1
-	.uaword	0x1e0fd
-	.uaword	0x1df46
 	.uleb128 0x26
+	.uaword	.LVL1
+	.uaword	0x1e10c
+	.uaword	0x1df5b
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x65
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
-	.uleb128 0x26
+	.byte	0x5
+	.byte	0x3
+	.uaword	TimerConfig
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8c
 	.sleb128 0
 	.byte	0
-	.uleb128 0x25
-	.uaword	.LVL2
-	.uaword	0x1e137
-	.uaword	0x1df67
 	.uleb128 0x26
+	.uaword	.LVL2
+	.uaword	0x1e146
+	.uaword	0x1df76
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x55
 	.byte	0x1
 	.byte	0x30
-	.uleb128 0x26
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
 	.byte	0x4
 	.byte	0x31
-	.byte	0x78
+	.byte	0x7f
 	.sleb128 0
 	.byte	0x24
-	.uleb128 0x26
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 48
 	.byte	0
-	.uleb128 0x27
+	.uleb128 0x28
 	.uaword	.LVL3
 	.byte	0x1
-	.uaword	0x1e176
-	.uleb128 0x26
+	.uaword	0x1e185
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -46220,7 +46240,7 @@ Timer1:
 	.sleb128 0
 	.byte	0
 	.byte	0
-	.uleb128 0x24
+	.uleb128 0x29
 	.byte	0x1
 	.string	"ClockConfig"
 	.byte	0x1
@@ -46230,12 +46250,12 @@ Timer1:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1e02a
-	.uleb128 0x25
-	.uaword	.LVL4
-	.uaword	0x1e19c
-	.uaword	0x1dfaf
+	.uaword	0x1e039
 	.uleb128 0x26
+	.uaword	.LVL4
+	.uaword	0x1e1ab
+	.uaword	0x1dfbe
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -46245,18 +46265,18 @@ Timer1:
 	.byte	0x24
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x25
-	.uaword	.LVL5
-	.uaword	0x1e1ba
-	.uaword	0x1dfce
 	.uleb128 0x26
+	.uaword	.LVL5
+	.uaword	0x1e1c9
+	.uaword	0x1dfdd
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
 	.byte	0x4
 	.byte	0xf5
 	.uleb128 0xf
 	.uleb128 0x172
-	.uleb128 0x26
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -46266,23 +46286,23 @@ Timer1:
 	.byte	0x24
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x25
-	.uaword	.LVL6
-	.uaword	0x1e1eb
-	.uaword	0x1dff2
 	.uleb128 0x26
+	.uaword	.LVL6
+	.uaword	0x1e1fa
+	.uaword	0x1e001
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x55
 	.byte	0x4
 	.byte	0xf5
 	.uleb128 0xf
 	.uleb128 0x172
-	.uleb128 0x26
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x30
-	.uleb128 0x26
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -46292,16 +46312,16 @@ Timer1:
 	.byte	0x24
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x25
-	.uaword	.LVL7
-	.uaword	0x1e220
-	.uaword	0x1e00e
 	.uleb128 0x26
+	.uaword	.LVL7
+	.uaword	0x1e22f
+	.uaword	0x1e01d
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x32
-	.uleb128 0x26
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -46311,18 +46331,18 @@ Timer1:
 	.byte	0x24
 	.byte	0x1f
 	.byte	0
-	.uleb128 0x27
+	.uleb128 0x28
 	.uaword	.LVL8
 	.byte	0x1
-	.uaword	0x1e220
-	.uleb128 0x26
+	.uaword	0x1e22f
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x54
 	.byte	0x3
 	.byte	0x40
 	.byte	0x43
 	.byte	0x24
-	.uleb128 0x26
+	.uleb128 0x27
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -46335,28 +46355,28 @@ Timer1:
 	.byte	0
 	.uleb128 0x9
 	.uaword	0x2cf
-	.uaword	0x1e03a
+	.uaword	0x1e049
 	.uleb128 0xa
 	.uaword	0x2fe
 	.byte	0x2
 	.byte	0
-	.uleb128 0x28
+	.uleb128 0x2a
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x5
 	.byte	0x96
-	.uaword	0x1e057
+	.uaword	0x1e066
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x22
-	.uaword	0x1e02a
-	.uleb128 0x29
+	.uaword	0x1e039
+	.uleb128 0x2b
 	.string	"IfxGtm_TOM0_0_TOUT85_P14_5_OUT"
 	.byte	0xd
 	.uahalf	0x270
 	.uaword	0x1da9d
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x2a
+	.uleb128 0x2c
 	.string	"Timer1"
 	.byte	0x1
 	.byte	0xb
@@ -46365,7 +46385,7 @@ Timer1:
 	.byte	0x5
 	.byte	0x3
 	.uaword	Timer1
-	.uleb128 0x2a
+	.uleb128 0x2c
 	.string	"TimerConfig"
 	.byte	0x1
 	.byte	0xc
@@ -46374,7 +46394,7 @@ Timer1:
 	.byte	0x5
 	.byte	0x3
 	.uaword	TimerConfig
-	.uleb128 0x2a
+	.uleb128 0x2c
 	.string	"gtm"
 	.byte	0x1
 	.byte	0xd
@@ -46383,23 +46403,23 @@ Timer1:
 	.byte	0x5
 	.byte	0x3
 	.uaword	gtm
-	.uleb128 0x2b
+	.uleb128 0x2d
 	.byte	0x1
 	.string	"IfxGtm_Tom_Timer_initConfig"
 	.byte	0xf
 	.byte	0xd3
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e0f7
-	.uleb128 0x2c
-	.uaword	0x1e0f7
-	.uleb128 0x2c
+	.uaword	0x1e106
+	.uleb128 0x2e
+	.uaword	0x1e106
+	.uleb128 0x2e
 	.uaword	0x1dabc
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
 	.uaword	0x1decf
-	.uleb128 0x2d
+	.uleb128 0x2f
 	.byte	0x1
 	.string	"IfxGtm_Tom_Timer_init"
 	.byte	0xf
@@ -46407,92 +46427,92 @@ Timer1:
 	.byte	0x1
 	.uaword	0x236
 	.byte	0x1
-	.uaword	0x1e12c
-	.uleb128 0x2c
+	.uaword	0x1e13b
+	.uleb128 0x2e
 	.uaword	0x1deee
-	.uleb128 0x2c
-	.uaword	0x1e12c
+	.uleb128 0x2e
+	.uaword	0x1e13b
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e132
+	.uaword	0x1e141
 	.uleb128 0x22
 	.uaword	0x1decf
-	.uleb128 0x2e
+	.uleb128 0x30
 	.byte	0x1
 	.string	"IfxGtm_Tom_Tgc_enableChannelsUpdate"
 	.byte	0xc
 	.uahalf	0x1c2
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e176
-	.uleb128 0x2c
+	.uaword	0x1e185
+	.uleb128 0x2e
 	.uaword	0x1def4
-	.uleb128 0x2c
+	.uleb128 0x2e
 	.uaword	0x1dd
-	.uleb128 0x2c
+	.uleb128 0x2e
 	.uaword	0x1dd
 	.byte	0
-	.uleb128 0x2e
+	.uleb128 0x30
 	.byte	0x1
 	.string	"IfxGtm_Tom_Timer_run"
 	.byte	0xf
 	.uahalf	0x12b
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e19c
-	.uleb128 0x2c
+	.uaword	0x1e1ab
+	.uleb128 0x2e
 	.uaword	0x1deee
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2d
 	.byte	0x1
 	.string	"IfxGtm_enable"
 	.byte	0xa
 	.byte	0x6d
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e1ba
-	.uleb128 0x2c
+	.uaword	0x1e1c9
+	.uleb128 0x2e
 	.uaword	0x1dabc
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2d
 	.byte	0x1
 	.string	"IfxGtm_Cmu_setGclkFrequency"
 	.byte	0x9
 	.byte	0xbf
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e1eb
-	.uleb128 0x2c
+	.uaword	0x1e1fa
+	.uleb128 0x2e
 	.uaword	0x1dabc
-	.uleb128 0x2c
+	.uleb128 0x2e
 	.uaword	0x21d
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2d
 	.byte	0x1
 	.string	"IfxGtm_Cmu_setClkFrequency"
 	.byte	0x9
 	.byte	0xb0
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e220
-	.uleb128 0x2c
+	.uaword	0x1e22f
+	.uleb128 0x2e
 	.uaword	0x1dabc
-	.uleb128 0x2c
+	.uleb128 0x2e
 	.uaword	0x1d7d9
-	.uleb128 0x2c
+	.uleb128 0x2e
 	.uaword	0x21d
 	.byte	0
-	.uleb128 0x2f
+	.uleb128 0x31
 	.byte	0x1
 	.string	"IfxGtm_Cmu_enableClocks"
 	.byte	0x9
 	.byte	0x66
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x2c
+	.uleb128 0x2e
 	.uaword	0x1dabc
-	.uleb128 0x2c
+	.uleb128 0x2e
 	.uaword	0x20f
 	.byte	0
 	.byte	0
@@ -46976,6 +46996,8 @@ Timer1:
 	.uleb128 0xb
 	.uleb128 0x3b
 	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
 	.uleb128 0x11
 	.uleb128 0x1
 	.uleb128 0x12
@@ -46989,6 +47011,21 @@ Timer1:
 	.byte	0
 	.byte	0
 	.uleb128 0x25
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2
+	.uleb128 0xa
+	.byte	0
+	.byte	0
+	.uleb128 0x26
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -46999,7 +47036,7 @@ Timer1:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x26
+	.uleb128 0x27
 	.uleb128 0x410a
 	.byte	0
 	.uleb128 0x2
@@ -47008,7 +47045,7 @@ Timer1:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x27
+	.uleb128 0x28
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -47019,38 +47056,27 @@ Timer1:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x28
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.byte	0
-	.byte	0
 	.uleb128 0x29
-	.uleb128 0x34
-	.byte	0
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
 	.uleb128 0x3
 	.uleb128 0x8
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x49
+	.uleb128 0xb
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x40
+	.uleb128 0xa
+	.uleb128 0x2117
+	.uleb128 0xc
+	.uleb128 0x1
 	.uleb128 0x13
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
 	.byte	0
 	.byte	0
 	.uleb128 0x2a
@@ -47066,34 +47092,42 @@ Timer1:
 	.uleb128 0x13
 	.uleb128 0x3f
 	.uleb128 0xc
-	.uleb128 0x2
-	.uleb128 0xa
+	.uleb128 0x3c
+	.uleb128 0xc
 	.byte	0
 	.byte	0
 	.uleb128 0x2b
-	.uleb128 0x2e
-	.byte	0x1
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0x5
+	.uleb128 0x49
+	.uleb128 0x13
 	.uleb128 0x3f
 	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.byte	0
+	.byte	0
+	.uleb128 0x2c
+	.uleb128 0x34
+	.byte	0
 	.uleb128 0x3
 	.uleb128 0x8
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
 	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x2c
-	.uleb128 0x5
-	.byte	0
 	.uleb128 0x49
 	.uleb128 0x13
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x2
+	.uleb128 0xa
 	.byte	0
 	.byte	0
 	.uleb128 0x2d
@@ -47109,6 +47143,32 @@ Timer1:
 	.uleb128 0xb
 	.uleb128 0x27
 	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x2e
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x2f
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
 	.uleb128 0x49
 	.uleb128 0x13
 	.uleb128 0x3c
@@ -47117,7 +47177,7 @@ Timer1:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2e
+	.uleb128 0x30
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -47136,7 +47196,7 @@ Timer1:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2f
+	.uleb128 0x31
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f

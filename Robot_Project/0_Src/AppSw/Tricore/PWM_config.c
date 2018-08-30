@@ -12,18 +12,18 @@ IfxGtm_Tom_Timer Timer1;
 IfxGtm_Tom_Timer_Config TimerConfig;
 Ifx_GTM *gtm = &MODULE_GTM;
 
-void PWM_config()
+void PWM_config(IfxGtm_Tom_ToutMap Output)
 {
 	IfxGtm_Tom_Timer_initConfig(&TimerConfig, gtm);
 	//TimerConfig.gtm = gtm;
-	TimerConfig.tom = IfxGtm_TOM0_0_TOUT85_P14_5_OUT.tom;
-	TimerConfig.timerChannel = IfxGtm_TOM0_0_TOUT85_P14_5_OUT.channel;
+	TimerConfig.tom = Output.tom;
+	TimerConfig.timerChannel = Output.channel;
 	TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0; //divided by 1
 	TimerConfig.irqModeTimer = IfxGtm_IrqMode_pulse;
 	TimerConfig.irqModeTrigger = IfxGtm_IrqMode_pulse;
 
-	TimerConfig.triggerOut = &IfxGtm_TOM0_0_TOUT85_P14_5_OUT;
-
+	TimerConfig.triggerOut = &Output;
+	//IfxGtm_TOM0_0_TOUT85_P14_5_OUT
 	TimerConfig.base.frequency = 30000;
 	TimerConfig.base.minResolution = 0;
 	TimerConfig.base.trigger.enabled = TRUE;

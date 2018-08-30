@@ -94,8 +94,12 @@ int core0_main (void)
 	//GoAhead(500);
 
 	ClockConfig();
-	PWM_config();
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-50) * Timer1.base.period) / 100);
+	PWM_config(IfxGtm_TOM0_0_TOUT85_P14_5_OUT);
+//	IfxGtm_TOM2_5_TOUT91_P13_0_OUT -----> This is the LED D107
+//	IfxGtm_TOM0_0_TOUT85_P14_5_OUT
+//	PWM_config(IfxGtm_TOM2_14_TOUT66_P20_10_OUT);
+	uint8 duty = 50;
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty) * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
     while (1)
     {
     }
