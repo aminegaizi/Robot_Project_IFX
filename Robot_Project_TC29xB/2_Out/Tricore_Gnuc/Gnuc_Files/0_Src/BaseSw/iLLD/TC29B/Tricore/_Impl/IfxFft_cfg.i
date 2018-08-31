@@ -1,0 +1,8 @@
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxFft_cfg.c"
+# 1 "C:\\Aurix1G_Workspace_V1_0_1_7_0\\Copy of BaseFramework_TC29B//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxFft_cfg.c"
+# 29 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxFft_cfg.c"
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxFft_cfg.h" 1
+# 29 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxFft_cfg.c" 2
