@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/PWM_config.c"
-# 1 "C:\\Aurix1G_Workspace_V1_0_1_7_0\\Copy of BaseFramework_TC29B//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/PWM_config.c"
@@ -22273,12 +22273,17 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 
 
 void PWM_config(IfxGtm_Tom_ToutMap Output);
+void PWM2_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
 # 9 "0_Src/AppSw/Tricore/PWM_config.c" 2
 
 
 IfxGtm_Tom_Timer Timer1;
+IfxGtm_Tom_Timer Timer2;
+
 IfxGtm_Tom_Timer_Config TimerConfig;
+IfxGtm_Tom_Timer_Config Timer2Config;
+
 Ifx_GTM *gtm = &(*(Ifx_GTM*)0xF0100000u);
 
 void PWM_config(IfxGtm_Tom_ToutMap Output)
@@ -22303,11 +22308,41 @@ void PWM_config(IfxGtm_Tom_ToutMap Output)
  TimerConfig.base.trigger.risingEdgeAtPeriod = 1;
 
  TimerConfig.base.isrPriority = 0;
-# 45 "0_Src/AppSw/Tricore/PWM_config.c"
+
  IfxGtm_Tom_Timer_init(&Timer1, &TimerConfig);
     IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer1.tom->TGC0_GLB_CTRL, 1 << IfxGtm_TOM0_0_TOUT85_P14_5_OUT.channel, 0);
 
     IfxGtm_Tom_Timer_run(&Timer1);
+
+
+
+}
+
+void PWM2_config(IfxGtm_Tom_ToutMap Output)
+{
+ IfxGtm_Tom_Timer_initConfig(&Timer2Config, gtm);
+ Timer2Config.tom = Output.tom;
+ Timer2Config.timerChannel = Output.channel;
+ TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0;
+ Timer2Config.irqModeTimer = IfxGtm_IrqMode_pulse;
+ Timer2Config.irqModeTrigger = IfxGtm_IrqMode_pulse;
+
+ Timer2Config.triggerOut = &Output;
+
+ Timer2Config.base.frequency = 1000;
+ Timer2Config.base.minResolution = 0;
+ Timer2Config.base.trigger.enabled = 1;
+ Timer2Config.base.trigger.outputEnabled = 1;
+ Timer2Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
+ Timer2Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
+ TimerConfig.base.trigger.triggerPoint = 0xffff;
+ Timer2Config.base.trigger.risingEdgeAtPeriod = 1;
+ Timer2Config.base.isrPriority = 0;
+
+ IfxGtm_Tom_Timer_init(&Timer2, &Timer2Config);
+    IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer2.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
+
+    IfxGtm_Tom_Timer_run(&Timer2);
 
 
 

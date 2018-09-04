@@ -924,7 +924,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.file 16 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxCpu_cfg.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x7729
+	.uaword	0x772e
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -932,7 +932,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/iLLD/TC29B/Tricore/Ebu/Dram/IfxEbu_Dram.c"
-	.string	"C:\\\\Aurix1G_Workspace_V1_0_1_7_0\\\\Copy of BaseFramework_TC29B"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
 	.uaword	.Ldebug_ranges0+0xc8
 	.uaword	0
 	.uaword	0
@@ -965,7 +965,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"uint8"
 	.byte	0x6
 	.byte	0x59
-	.uaword	0x1f8
+	.uaword	0x1fd
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -978,7 +978,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"uint16"
 	.byte	0x6
 	.byte	0x5b
-	.uaword	0x224
+	.uaword	0x229
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -987,12 +987,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"sint32"
 	.byte	0x6
 	.byte	0x5c
-	.uaword	0x1b4
+	.uaword	0x1b9
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x6
 	.byte	0x5d
-	.uaword	0x1c0
+	.uaword	0x1c5
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -1005,12 +1005,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"boolean"
 	.byte	0x6
 	.byte	0x68
-	.uaword	0x1f8
+	.uaword	0x1fd
 	.uleb128 0x3
 	.string	"sint64"
 	.byte	0x7
 	.byte	0x24
-	.uaword	0x286
+	.uaword	0x28b
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -1019,54 +1019,54 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"uint64"
 	.byte	0x7
 	.byte	0x25
-	.uaword	0x18a
+	.uaword	0x18f
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2b3
+	.uaword	0x2b8
 	.uleb128 0x5
 	.uleb128 0x3
 	.string	"Ifx_TickTime"
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x278
+	.uaword	0x27d
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x7
 	.byte	0x7d
-	.uaword	0x2ee
+	.uaword	0x2f3
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x7
 	.byte	0x7f
-	.uaword	0x2ad
+	.uaword	0x2b2
 	.byte	0
 	.uleb128 0x7
 	.string	"index"
 	.byte	0x7
 	.byte	0x80
-	.uaword	0x23a
+	.uaword	0x23f
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x7
 	.byte	0x81
-	.uaword	0x2c8
+	.uaword	0x2cd
 	.uleb128 0x8
 	.string	"_Ifx_EBU_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x2d
-	.uaword	0x51c
+	.uaword	0x521
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x8
 	.byte	0x2f
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1075,7 +1075,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN1"
 	.byte	0x8
 	.byte	0x30
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1084,7 +1084,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN2"
 	.byte	0x8
 	.byte	0x31
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1093,7 +1093,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN3"
 	.byte	0x8
 	.byte	0x32
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1102,7 +1102,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN4"
 	.byte	0x8
 	.byte	0x33
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1111,7 +1111,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN5"
 	.byte	0x8
 	.byte	0x34
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1120,7 +1120,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN6"
 	.byte	0x8
 	.byte	0x35
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1129,7 +1129,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN7"
 	.byte	0x8
 	.byte	0x36
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1138,7 +1138,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN8"
 	.byte	0x8
 	.byte	0x37
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1147,7 +1147,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN9"
 	.byte	0x8
 	.byte	0x38
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1156,7 +1156,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN10"
 	.byte	0x8
 	.byte	0x39
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1165,7 +1165,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN11"
 	.byte	0x8
 	.byte	0x3a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1174,7 +1174,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN12"
 	.byte	0x8
 	.byte	0x3b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1183,7 +1183,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN13"
 	.byte	0x8
 	.byte	0x3c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1192,7 +1192,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN14"
 	.byte	0x8
 	.byte	0x3d
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1201,7 +1201,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN15"
 	.byte	0x8
 	.byte	0x3e
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1210,7 +1210,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN16"
 	.byte	0x8
 	.byte	0x3f
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1219,7 +1219,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN17"
 	.byte	0x8
 	.byte	0x40
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1228,7 +1228,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN18"
 	.byte	0x8
 	.byte	0x41
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1237,7 +1237,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN19"
 	.byte	0x8
 	.byte	0x42
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1246,7 +1246,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN20"
 	.byte	0x8
 	.byte	0x43
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1255,7 +1255,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN21"
 	.byte	0x8
 	.byte	0x44
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1264,7 +1264,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN22"
 	.byte	0x8
 	.byte	0x45
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1273,7 +1273,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN23"
 	.byte	0x8
 	.byte	0x46
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1282,7 +1282,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN24"
 	.byte	0x8
 	.byte	0x47
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1291,7 +1291,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN25"
 	.byte	0x8
 	.byte	0x48
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1300,7 +1300,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN26"
 	.byte	0x8
 	.byte	0x49
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1309,7 +1309,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN27"
 	.byte	0x8
 	.byte	0x4a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1318,7 +1318,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN28"
 	.byte	0x8
 	.byte	0x4b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1327,7 +1327,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN29"
 	.byte	0x8
 	.byte	0x4c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1336,7 +1336,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN30"
 	.byte	0x8
 	.byte	0x4d
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1345,30 +1345,30 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN31"
 	.byte	0x8
 	.byte	0x4e
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0xa
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x3
 	.string	"Ifx_EBU_ACCEN0_Bits"
 	.byte	0x8
 	.byte	0x4f
-	.uaword	0x308
+	.uaword	0x30d
 	.uleb128 0x8
 	.string	"_Ifx_EBU_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x52
-	.uaword	0x569
+	.uaword	0x56e
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x54
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1378,18 +1378,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_ACCEN1_Bits"
 	.byte	0x8
 	.byte	0x55
-	.uaword	0x53c
+	.uaword	0x541
 	.uleb128 0x8
 	.string	"_Ifx_EBU_ADDRSEL_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x58
-	.uaword	0x620
+	.uaword	0x625
 	.uleb128 0x9
 	.string	"REGENAB"
 	.byte	0x8
 	.byte	0x5a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1398,7 +1398,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ALTENAB"
 	.byte	0x8
 	.byte	0x5b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1407,7 +1407,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"WPROT"
 	.byte	0x8
 	.byte	0x5c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1416,7 +1416,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"GLOBALCS"
 	.byte	0x8
 	.byte	0x5d
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1425,7 +1425,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"MASK"
 	.byte	0x8
 	.byte	0x5e
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -1434,7 +1434,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ALTSEG"
 	.byte	0x8
 	.byte	0x5f
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -1443,7 +1443,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"BASE"
 	.byte	0x8
 	.byte	0x60
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -1453,18 +1453,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_ADDRSEL_Bits"
 	.byte	0x8
 	.byte	0x61
-	.uaword	0x584
+	.uaword	0x589
 	.uleb128 0x8
 	.string	"_Ifx_EBU_BUSRAP_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x64
-	.uaword	0x6f9
+	.uaword	0x6fe
 	.uleb128 0x9
 	.string	"RDDTACS"
 	.byte	0x8
 	.byte	0x66
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1473,7 +1473,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RDRECOVC"
 	.byte	0x8
 	.byte	0x67
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -1482,7 +1482,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"WAITRDC"
 	.byte	0x8
 	.byte	0x68
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x5
 	.byte	0x14
@@ -1491,7 +1491,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"DATAC"
 	.byte	0x8
 	.byte	0x69
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -1500,7 +1500,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF1
 	.byte	0x8
 	.byte	0x6a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -1509,7 +1509,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EXTDATA"
 	.byte	0x8
 	.byte	0x6b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -1518,7 +1518,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF2
 	.byte	0x8
 	.byte	0x6c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -1527,7 +1527,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"AHOLDC"
 	.byte	0x8
 	.byte	0x6d
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -1536,7 +1536,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ADDRC"
 	.byte	0x8
 	.byte	0x6e
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1546,18 +1546,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_BUSRAP_Bits"
 	.byte	0x8
 	.byte	0x6f
-	.uaword	0x63c
+	.uaword	0x641
 	.uleb128 0x8
 	.string	"_Ifx_EBU_BUSRCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x72
-	.uaword	0x857
+	.uaword	0x85c
 	.uleb128 0x9
 	.string	"FETBLEN"
 	.byte	0x8
 	.byte	0x74
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1566,7 +1566,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"FBBMSEL"
 	.byte	0x8
 	.byte	0x75
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1575,7 +1575,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RESERVED"
 	.byte	0x8
 	.byte	0x76
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1584,7 +1584,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"FDBKEN"
 	.byte	0x8
 	.byte	0x77
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1593,7 +1593,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"BFCMSEL"
 	.byte	0x8
 	.byte	0x78
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1602,7 +1602,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"NAA"
 	.byte	0x8
 	.byte	0x79
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1611,7 +1611,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RES1"
 	.byte	0x8
 	.byte	0x7a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1620,7 +1620,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ECSE"
 	.byte	0x8
 	.byte	0x7b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1629,7 +1629,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EBSE"
 	.byte	0x8
 	.byte	0x7c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1638,7 +1638,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"DBA"
 	.byte	0x8
 	.byte	0x7d
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1647,7 +1647,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"WAITINV"
 	.byte	0x8
 	.byte	0x7e
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1656,7 +1656,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"BCGEN"
 	.byte	0x8
 	.byte	0x7f
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -1665,7 +1665,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PORTW"
 	.byte	0x8
 	.byte	0x80
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1674,7 +1674,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"WAIT"
 	.byte	0x8
 	.byte	0x81
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -1683,7 +1683,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"AAP"
 	.byte	0x8
 	.byte	0x82
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1692,7 +1692,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LCKABRT"
 	.byte	0x8
 	.byte	0x83
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1701,7 +1701,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"AGEN"
 	.byte	0x8
 	.byte	0x84
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1711,18 +1711,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_BUSRCON_Bits"
 	.byte	0x8
 	.byte	0x85
-	.uaword	0x714
+	.uaword	0x719
 	.uleb128 0x8
 	.string	"_Ifx_EBU_BUSWAP_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x88
-	.uaword	0x930
+	.uaword	0x935
 	.uleb128 0x9
 	.string	"WRDTACS"
 	.byte	0x8
 	.byte	0x8a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1731,7 +1731,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"WRRECOVC"
 	.byte	0x8
 	.byte	0x8b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -1740,7 +1740,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"WAITWRC"
 	.byte	0x8
 	.byte	0x8c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x5
 	.byte	0x14
@@ -1749,7 +1749,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"DATAC"
 	.byte	0x8
 	.byte	0x8d
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -1758,7 +1758,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF1
 	.byte	0x8
 	.byte	0x8e
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -1767,7 +1767,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EXTDATA"
 	.byte	0x8
 	.byte	0x8f
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -1776,7 +1776,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF2
 	.byte	0x8
 	.byte	0x90
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -1785,7 +1785,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"AHOLDC"
 	.byte	0x8
 	.byte	0x91
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -1794,7 +1794,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ADDRC"
 	.byte	0x8
 	.byte	0x92
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1804,18 +1804,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_BUSWAP_Bits"
 	.byte	0x8
 	.byte	0x93
-	.uaword	0x873
+	.uaword	0x878
 	.uleb128 0x8
 	.string	"_Ifx_EBU_BUSWCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x96
-	.uaword	0xa64
+	.uaword	0xa69
 	.uleb128 0x9
 	.string	"FETBLEN"
 	.byte	0x8
 	.byte	0x98
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1824,7 +1824,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"FBBMSEL"
 	.byte	0x8
 	.byte	0x99
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1833,7 +1833,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RES"
 	.byte	0x8
 	.byte	0x9a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -1842,7 +1842,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"NAA"
 	.byte	0x8
 	.byte	0x9b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1851,7 +1851,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RES0"
 	.byte	0x8
 	.byte	0x9c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1860,7 +1860,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ECSE"
 	.byte	0x8
 	.byte	0x9d
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1869,7 +1869,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EBSE"
 	.byte	0x8
 	.byte	0x9e
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1878,7 +1878,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RES1"
 	.byte	0x8
 	.byte	0x9f
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1887,7 +1887,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"WAITINV"
 	.byte	0x8
 	.byte	0xa0
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1896,7 +1896,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"BCGEN"
 	.byte	0x8
 	.byte	0xa1
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -1905,7 +1905,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PORTW"
 	.byte	0x8
 	.byte	0xa2
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1914,7 +1914,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"WAIT"
 	.byte	0x8
 	.byte	0xa3
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -1923,7 +1923,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"AAP"
 	.byte	0x8
 	.byte	0xa4
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1932,7 +1932,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LOCKCS"
 	.byte	0x8
 	.byte	0xa5
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1941,7 +1941,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"AGEN"
 	.byte	0x8
 	.byte	0xa6
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1951,18 +1951,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_BUSWCON_Bits"
 	.byte	0x8
 	.byte	0xa7
-	.uaword	0x94b
+	.uaword	0x950
 	.uleb128 0x8
 	.string	"_Ifx_EBU_CLC_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xaa
-	.uaword	0xb6b
+	.uaword	0xb70
 	.uleb128 0x9
 	.string	"DISR"
 	.byte	0x8
 	.byte	0xac
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1971,7 +1971,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"DISS"
 	.byte	0x8
 	.byte	0xad
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1980,7 +1980,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF3
 	.byte	0x8
 	.byte	0xae
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x6
 	.byte	0x18
@@ -1989,7 +1989,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EPE"
 	.byte	0x8
 	.byte	0xaf
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1998,7 +1998,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_9"
 	.byte	0x8
 	.byte	0xb0
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -2007,7 +2007,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SYNC"
 	.byte	0x8
 	.byte	0xb1
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2016,7 +2016,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"DIV2"
 	.byte	0x8
 	.byte	0xb2
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2025,7 +2025,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EBUDIV"
 	.byte	0x8
 	.byte	0xb3
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -2034,7 +2034,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SYNCACK"
 	.byte	0x8
 	.byte	0xb4
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2043,7 +2043,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"DIV2ACK"
 	.byte	0x8
 	.byte	0xb5
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2052,7 +2052,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EBUDIVACK"
 	.byte	0x8
 	.byte	0xb6
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -2061,7 +2061,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF4
 	.byte	0x8
 	.byte	0xb7
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2071,18 +2071,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_CLC_Bits"
 	.byte	0x8
 	.byte	0xb8
-	.uaword	0xa80
+	.uaword	0xa85
 	.uleb128 0x8
 	.string	"_Ifx_EBU_EXTBOOT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xbb
-	.uaword	0xbe7
+	.uaword	0xbec
 	.uleb128 0x9
 	.string	"CFGEND"
 	.byte	0x8
 	.byte	0xbd
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2091,7 +2091,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CFGERR"
 	.byte	0x8
 	.byte	0xbe
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2100,7 +2100,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF3
 	.byte	0x8
 	.byte	0xbf
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x1
@@ -2109,7 +2109,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EBUCFG"
 	.byte	0x8
 	.byte	0xc0
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2119,18 +2119,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_EXTBOOT_Bits"
 	.byte	0x8
 	.byte	0xc1
-	.uaword	0xb83
+	.uaword	0xb88
 	.uleb128 0x8
 	.string	"_Ifx_EBU_ID_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xc4
-	.uaword	0xc31
+	.uaword	0xc36
 	.uleb128 0x9
 	.string	"ID_VALUE"
 	.byte	0x8
 	.byte	0xc6
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2140,18 +2140,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_ID_Bits"
 	.byte	0x8
 	.byte	0xc7
-	.uaword	0xc03
+	.uaword	0xc08
 	.uleb128 0x8
 	.string	"_Ifx_EBU_MODCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xca
-	.uaword	0xd8f
+	.uaword	0xd94
 	.uleb128 0x9
 	.string	"STS"
 	.byte	0x8
 	.byte	0xcc
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2160,7 +2160,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LCKABRT"
 	.byte	0x8
 	.byte	0xcd
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2169,7 +2169,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SDTRI"
 	.byte	0x8
 	.byte	0xce
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2178,7 +2178,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CLK_COMB"
 	.byte	0x8
 	.byte	0xcf
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2187,7 +2187,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EXTLOCK"
 	.byte	0x8
 	.byte	0xd0
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2196,7 +2196,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ARBSYNC"
 	.byte	0x8
 	.byte	0xd1
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2205,7 +2205,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ARBMODE"
 	.byte	0x8
 	.byte	0xd2
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2214,7 +2214,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"TIMEOUTC"
 	.byte	0x8
 	.byte	0xd3
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2223,7 +2223,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LOCKTIMEOUT"
 	.byte	0x8
 	.byte	0xd4
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -2232,7 +2232,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"FIFO_BYPASS"
 	.byte	0x8
 	.byte	0xd5
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2241,7 +2241,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"FAST_SRI"
 	.byte	0x8
 	.byte	0xd6
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2250,7 +2250,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"OCDS_SUSP_DIS"
 	.byte	0x8
 	.byte	0xd7
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2259,7 +2259,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_27"
 	.byte	0x8
 	.byte	0xd8
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x2
@@ -2268,7 +2268,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"BUSSTATE"
 	.byte	0x8
 	.byte	0xd9
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2277,7 +2277,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ALE"
 	.byte	0x8
 	.byte	0xda
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2287,18 +2287,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_MODCON_Bits"
 	.byte	0x8
 	.byte	0xdb
-	.uaword	0xc48
+	.uaword	0xc4d
 	.uleb128 0x8
 	.string	"_Ifx_EBU_SDR_CON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xde
-	.uaword	0xe9b
+	.uaword	0xea0
 	.uleb128 0x9
 	.string	"CRAS"
 	.byte	0x8
 	.byte	0xe0
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2307,7 +2307,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CRFSH"
 	.byte	0x8
 	.byte	0xe1
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2316,7 +2316,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CRSC"
 	.byte	0x8
 	.byte	0xe2
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -2325,7 +2325,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CRP"
 	.byte	0x8
 	.byte	0xe3
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -2334,7 +2334,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"AWIDTH"
 	.byte	0x8
 	.byte	0xe4
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -2343,7 +2343,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CRCD"
 	.byte	0x8
 	.byte	0xe5
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -2352,7 +2352,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CRC"
 	.byte	0x8
 	.byte	0xe6
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -2361,7 +2361,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"BANKM"
 	.byte	0x8
 	.byte	0xe7
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x7
@@ -2370,7 +2370,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_25"
 	.byte	0x8
 	.byte	0xe8
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -2379,7 +2379,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CLKDIS"
 	.byte	0x8
 	.byte	0xe9
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2388,7 +2388,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PWR_MODE"
 	.byte	0x8
 	.byte	0xea
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1
@@ -2397,7 +2397,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SDCMSEL"
 	.byte	0x8
 	.byte	0xeb
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2407,18 +2407,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_SDR_CON_Bits"
 	.byte	0x8
 	.byte	0xec
-	.uaword	0xdaa
+	.uaword	0xdaf
 	.uleb128 0x8
 	.string	"_Ifx_EBU_SDR_MOD_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xef
-	.uaword	0xf5f
+	.uaword	0xf64
 	.uleb128 0x9
 	.string	"BURSTL"
 	.byte	0x8
 	.byte	0xf1
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2427,7 +2427,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"BTYP"
 	.byte	0x8
 	.byte	0xf2
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2436,7 +2436,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CASLAT"
 	.byte	0x8
 	.byte	0xf3
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -2445,7 +2445,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"OPMODE"
 	.byte	0x8
 	.byte	0xf4
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x7
 	.byte	0x12
@@ -2454,7 +2454,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF5
 	.byte	0x8
 	.byte	0xf5
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2463,7 +2463,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"COLDSTART"
 	.byte	0x8
 	.byte	0xf6
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2472,7 +2472,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"XOPM"
 	.byte	0x8
 	.byte	0xf7
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0xe
 	.byte	0x2
@@ -2481,7 +2481,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"XBA"
 	.byte	0x8
 	.byte	0xf8
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -2491,18 +2491,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_SDR_MOD_Bits"
 	.byte	0x8
 	.byte	0xf9
-	.uaword	0xeb7
+	.uaword	0xebc
 	.uleb128 0x8
 	.string	"_Ifx_EBU_SDR_REF_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xfc
-	.uaword	0x108d
+	.uaword	0x1092
 	.uleb128 0x9
 	.string	"REFRESHC"
 	.byte	0x8
 	.byte	0xfe
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2511,7 +2511,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"REFRESHR"
 	.byte	0x8
 	.byte	0xff
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x17
@@ -2520,7 +2520,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SELFREXST"
 	.byte	0x8
 	.uahalf	0x100
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2529,7 +2529,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SELFREX"
 	.byte	0x8
 	.uahalf	0x101
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2538,7 +2538,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SELFRENST"
 	.byte	0x8
 	.uahalf	0x102
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2547,7 +2547,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SELFREN"
 	.byte	0x8
 	.uahalf	0x103
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2556,7 +2556,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"AUTOSELFR"
 	.byte	0x8
 	.uahalf	0x104
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2565,7 +2565,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ERFSHC"
 	.byte	0x8
 	.uahalf	0x105
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -2574,7 +2574,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SELFREX_DLY"
 	.byte	0x8
 	.uahalf	0x106
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -2583,7 +2583,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ARFSH"
 	.byte	0x8
 	.uahalf	0x107
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2592,7 +2592,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RES_DLY"
 	.byte	0x8
 	.uahalf	0x108
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -2601,7 +2601,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x109
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -2611,18 +2611,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_SDR_REF_Bits"
 	.byte	0x8
 	.uahalf	0x10a
-	.uaword	0xf7b
+	.uaword	0xf80
 	.uleb128 0xf
 	.string	"_Ifx_EBU_SDR_STAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x10d
-	.uaword	0x1115
+	.uaword	0x111a
 	.uleb128 0xc
 	.string	"REFERR"
 	.byte	0x8
 	.uahalf	0x10f
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2631,7 +2631,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SDRMBUSY"
 	.byte	0x8
 	.uahalf	0x110
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2640,7 +2640,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SDERR"
 	.byte	0x8
 	.uahalf	0x111
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2649,7 +2649,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF7
 	.byte	0x8
 	.uahalf	0x112
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -2659,18 +2659,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_SDR_STAT_Bits"
 	.byte	0x8
 	.uahalf	0x113
-	.uaword	0x10aa
+	.uaword	0x10af
 	.uleb128 0xf
 	.string	"_Ifx_EBU_USERCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x116
-	.uaword	0x11db
+	.uaword	0x11e0
 	.uleb128 0xc
 	.string	"DIP"
 	.byte	0x8
 	.uahalf	0x118
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2679,7 +2679,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"NAF"
 	.byte	0x8
 	.uahalf	0x119
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x7
 	.byte	0x18
@@ -2688,7 +2688,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RES1"
 	.byte	0x8
 	.uahalf	0x11a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2697,7 +2697,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ADDIO"
 	.byte	0x8
 	.uahalf	0x11b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -2706,7 +2706,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF8
 	.byte	0x8
 	.uahalf	0x11c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x8
 	.byte	0x4
@@ -2715,7 +2715,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RES"
 	.byte	0x8
 	.uahalf	0x11d
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2724,7 +2724,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ADVIO"
 	.byte	0x8
 	.uahalf	0x11e
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2733,7 +2733,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"ADDLSW"
 	.byte	0x8
 	.uahalf	0x11f
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2743,601 +2743,601 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_EBU_USERCON_Bits"
 	.byte	0x8
 	.uahalf	0x120
-	.uaword	0x1133
+	.uaword	0x1138
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x128
-	.uaword	0x1220
+	.uaword	0x1225
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x12a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x12b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x12c
-	.uaword	0x521
+	.uaword	0x526
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_ACCEN0"
 	.byte	0x8
 	.uahalf	0x12d
-	.uaword	0x11f8
+	.uaword	0x11fd
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x130
-	.uaword	0x125f
+	.uaword	0x1264
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x132
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x133
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x134
-	.uaword	0x569
+	.uaword	0x56e
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_ACCEN1"
 	.byte	0x8
 	.uahalf	0x135
-	.uaword	0x1237
+	.uaword	0x123c
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x138
-	.uaword	0x129e
+	.uaword	0x12a3
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x13a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x13b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x13c
-	.uaword	0x620
+	.uaword	0x625
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_ADDRSEL"
 	.byte	0x8
 	.uahalf	0x13d
-	.uaword	0x1276
+	.uaword	0x127b
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x140
-	.uaword	0x12de
+	.uaword	0x12e3
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x142
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x143
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x144
-	.uaword	0x6f9
+	.uaword	0x6fe
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_BUSRAP"
 	.byte	0x8
 	.uahalf	0x145
-	.uaword	0x12b6
+	.uaword	0x12bb
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x148
-	.uaword	0x131d
+	.uaword	0x1322
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x14a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x14b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x14c
-	.uaword	0x857
+	.uaword	0x85c
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_BUSRCON"
 	.byte	0x8
 	.uahalf	0x14d
-	.uaword	0x12f5
+	.uaword	0x12fa
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x150
-	.uaword	0x135d
+	.uaword	0x1362
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x152
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x153
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x154
-	.uaword	0x930
+	.uaword	0x935
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_BUSWAP"
 	.byte	0x8
 	.uahalf	0x155
-	.uaword	0x1335
+	.uaword	0x133a
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x158
-	.uaword	0x139c
+	.uaword	0x13a1
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x15a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x15b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x15c
-	.uaword	0xa64
+	.uaword	0xa69
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_BUSWCON"
 	.byte	0x8
 	.uahalf	0x15d
-	.uaword	0x1374
+	.uaword	0x1379
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x160
-	.uaword	0x13dc
+	.uaword	0x13e1
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x162
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x163
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x164
-	.uaword	0xb6b
+	.uaword	0xb70
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_CLC"
 	.byte	0x8
 	.uahalf	0x165
-	.uaword	0x13b4
+	.uaword	0x13b9
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x168
-	.uaword	0x1418
+	.uaword	0x141d
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x16a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x16b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x16c
-	.uaword	0xbe7
+	.uaword	0xbec
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_EXTBOOT"
 	.byte	0x8
 	.uahalf	0x16d
-	.uaword	0x13f0
+	.uaword	0x13f5
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x170
-	.uaword	0x1458
+	.uaword	0x145d
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x172
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x173
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x174
-	.uaword	0xc31
+	.uaword	0xc36
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_ID"
 	.byte	0x8
 	.uahalf	0x175
-	.uaword	0x1430
+	.uaword	0x1435
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x178
-	.uaword	0x1493
+	.uaword	0x1498
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x17a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x17b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x17c
-	.uaword	0xd8f
+	.uaword	0xd94
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_MODCON"
 	.byte	0x8
 	.uahalf	0x17d
-	.uaword	0x146b
+	.uaword	0x1470
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x180
-	.uaword	0x14d2
+	.uaword	0x14d7
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x182
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x183
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x184
-	.uaword	0xe9b
+	.uaword	0xea0
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_SDR_CON"
 	.byte	0x8
 	.uahalf	0x185
-	.uaword	0x14aa
+	.uaword	0x14af
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x188
-	.uaword	0x1512
+	.uaword	0x1517
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x18a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x18b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x18c
-	.uaword	0xf5f
+	.uaword	0xf64
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_SDR_MOD"
 	.byte	0x8
 	.uahalf	0x18d
-	.uaword	0x14ea
+	.uaword	0x14ef
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x190
-	.uaword	0x1552
+	.uaword	0x1557
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x192
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x193
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x194
-	.uaword	0x108d
+	.uaword	0x1092
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_SDR_REF"
 	.byte	0x8
 	.uahalf	0x195
-	.uaword	0x152a
+	.uaword	0x152f
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x198
-	.uaword	0x1592
+	.uaword	0x1597
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x19a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x19b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x19c
-	.uaword	0x1115
+	.uaword	0x111a
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_SDR_STAT"
 	.byte	0x8
 	.uahalf	0x19d
-	.uaword	0x156a
+	.uaword	0x156f
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1a0
-	.uaword	0x15d3
+	.uaword	0x15d8
 	.uleb128 0x11
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x1a2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x1a3
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x1a4
-	.uaword	0x11db
+	.uaword	0x11e0
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_USERCON"
 	.byte	0x8
 	.uahalf	0x1a5
-	.uaword	0x15ab
+	.uaword	0x15b0
 	.uleb128 0xf
 	.string	"_Ifx_EBU_BUS"
 	.byte	0x10
 	.byte	0x8
 	.uahalf	0x1b0
-	.uaword	0x1638
+	.uaword	0x163d
 	.uleb128 0x12
 	.string	"RCON"
 	.byte	0x8
 	.uahalf	0x1b2
-	.uaword	0x131d
+	.uaword	0x1322
 	.byte	0
 	.uleb128 0x12
 	.string	"RAP"
 	.byte	0x8
 	.uahalf	0x1b3
-	.uaword	0x12de
+	.uaword	0x12e3
 	.byte	0x4
 	.uleb128 0x12
 	.string	"WCON"
 	.byte	0x8
 	.uahalf	0x1b4
-	.uaword	0x139c
+	.uaword	0x13a1
 	.byte	0x8
 	.uleb128 0x12
 	.string	"WAP"
 	.byte	0x8
 	.uahalf	0x1b5
-	.uaword	0x135d
+	.uaword	0x1362
 	.byte	0xc
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_BUS"
 	.byte	0x8
 	.uahalf	0x1b6
-	.uaword	0x164c
+	.uaword	0x1651
 	.uleb128 0xa
-	.uaword	0x15eb
+	.uaword	0x15f0
 	.uleb128 0xf
 	.string	"_Ifx_EBU_SDR"
 	.byte	0x10
 	.byte	0x8
 	.uahalf	0x1b9
-	.uaword	0x169d
+	.uaword	0x16a2
 	.uleb128 0x12
 	.string	"CON"
 	.byte	0x8
 	.uahalf	0x1bb
-	.uaword	0x14d2
+	.uaword	0x14d7
 	.byte	0
 	.uleb128 0x12
 	.string	"MOD"
 	.byte	0x8
 	.uahalf	0x1bc
-	.uaword	0x1512
+	.uaword	0x1517
 	.byte	0x4
 	.uleb128 0x12
 	.string	"REF"
 	.byte	0x8
 	.uahalf	0x1bd
-	.uaword	0x1552
+	.uaword	0x1557
 	.byte	0x8
 	.uleb128 0x12
 	.string	"STAT"
 	.byte	0x8
 	.uahalf	0x1be
-	.uaword	0x1592
+	.uaword	0x1597
 	.byte	0xc
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU_SDR"
 	.byte	0x8
 	.uahalf	0x1bf
-	.uaword	0x16b1
+	.uaword	0x16b6
 	.uleb128 0xa
-	.uaword	0x1651
+	.uaword	0x1656
 	.uleb128 0x13
 	.string	"_Ifx_EBU"
 	.uahalf	0x400
 	.byte	0x8
 	.uahalf	0x1cc
-	.uaword	0x17ab
+	.uaword	0x17b0
 	.uleb128 0x12
 	.string	"CLC"
 	.byte	0x8
 	.uahalf	0x1ce
-	.uaword	0x13dc
+	.uaword	0x13e1
 	.byte	0
 	.uleb128 0x12
 	.string	"MODCON"
 	.byte	0x8
 	.uahalf	0x1cf
-	.uaword	0x1493
+	.uaword	0x1498
 	.byte	0x4
 	.uleb128 0x12
 	.string	"ID"
 	.byte	0x8
 	.uahalf	0x1d0
-	.uaword	0x1458
+	.uaword	0x145d
 	.byte	0x8
 	.uleb128 0x12
 	.string	"USERCON"
 	.byte	0x8
 	.uahalf	0x1d1
-	.uaword	0x15d3
+	.uaword	0x15d8
 	.byte	0xc
 	.uleb128 0x12
 	.string	"EXTBOOT"
 	.byte	0x8
 	.uahalf	0x1d2
-	.uaword	0x1418
+	.uaword	0x141d
 	.byte	0x10
 	.uleb128 0x14
 	.uaword	.LASF5
 	.byte	0x8
 	.uahalf	0x1d3
-	.uaword	0x17ab
+	.uaword	0x17b0
 	.byte	0x14
 	.uleb128 0x12
 	.string	"ADDRSEL"
 	.byte	0x8
 	.uahalf	0x1d4
-	.uaword	0x17c7
+	.uaword	0x17cc
 	.byte	0x18
 	.uleb128 0x14
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x1d5
-	.uaword	0x17ab
+	.uaword	0x17b0
 	.byte	0x24
 	.uleb128 0x12
 	.string	"BUS"
 	.byte	0x8
 	.uahalf	0x1d6
-	.uaword	0x17e7
+	.uaword	0x17ec
 	.byte	0x28
 	.uleb128 0x14
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x1d7
-	.uaword	0x17ec
+	.uaword	0x17f1
 	.byte	0x58
 	.uleb128 0x12
 	.string	"SDR"
 	.byte	0x8
 	.uahalf	0x1d8
-	.uaword	0x169d
+	.uaword	0x16a2
 	.byte	0x68
 	.uleb128 0x12
 	.string	"reserved_78"
 	.byte	0x8
 	.uahalf	0x1d9
-	.uaword	0x17fc
+	.uaword	0x1801
 	.byte	0x78
 	.uleb128 0x14
 	.uaword	.LASF10
 	.byte	0x8
 	.uahalf	0x1da
-	.uaword	0x1220
+	.uaword	0x1225
 	.byte	0xb0
 	.uleb128 0x14
 	.uaword	.LASF11
 	.byte	0x8
 	.uahalf	0x1db
-	.uaword	0x125f
+	.uaword	0x1264
 	.byte	0xb4
 	.uleb128 0x12
 	.string	"reserved_B8"
 	.byte	0x8
 	.uahalf	0x1dc
-	.uaword	0x180c
+	.uaword	0x1811
 	.byte	0xb8
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x17bb
+	.uaword	0x1fd
+	.uaword	0x17c0
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -3345,68 +3345,68 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x15
-	.uaword	0x129e
-	.uaword	0x17d7
+	.uaword	0x12a3
+	.uaword	0x17dc
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x2
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x1638
-	.uaword	0x17e7
+	.uaword	0x163d
+	.uaword	0x17ec
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x2
 	.byte	0
 	.uleb128 0xa
-	.uaword	0x17d7
+	.uaword	0x17dc
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x17fc
+	.uaword	0x1fd
+	.uaword	0x1801
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0xf
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x180c
+	.uaword	0x1fd
+	.uaword	0x1811
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x37
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x181d
+	.uaword	0x1fd
+	.uaword	0x1822
 	.uleb128 0x17
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.uahalf	0x347
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_EBU"
 	.byte	0x8
 	.uahalf	0x1dd
-	.uaword	0x182d
+	.uaword	0x1832
 	.uleb128 0xa
-	.uaword	0x16b6
+	.uaword	0x16bb
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x1842
+	.uaword	0x1fd
+	.uaword	0x1847
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x7
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x1852
+	.uaword	0x1fd
+	.uaword	0x1857
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0xb
 	.byte	0
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0x32
-	.uaword	0x189d
+	.uaword	0x18a2
 	.uleb128 0x19
 	.string	"IfxEbu_ChipSelect_0"
 	.sleb128 0
@@ -3421,12 +3421,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ChipSelect"
 	.byte	0x9
 	.byte	0x36
-	.uaword	0x1852
+	.uaword	0x1857
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0x39
-	.uaword	0x1973
+	.uaword	0x1978
 	.uleb128 0x19
 	.string	"IfxEbu_ExternalClockRatio_1"
 	.sleb128 0
@@ -3450,12 +3450,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ExternalClockRatio"
 	.byte	0x9
 	.byte	0x40
-	.uaword	0x18b6
+	.uaword	0x18bb
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0x4b
-	.uaword	0x1a0a
+	.uaword	0x1a0f
 	.uleb128 0x19
 	.string	"IfxEbu_ArbitrationSignalSynchronization_synchronous"
 	.sleb128 0
@@ -3467,12 +3467,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ArbitrationSignalSynchronization"
 	.byte	0x9
 	.byte	0x4e
-	.uaword	0x1994
+	.uaword	0x1999
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0x66
-	.uaword	0x1a7c
+	.uaword	0x1a81
 	.uleb128 0x19
 	.string	"IfxEbu_CASLatency_Latency2"
 	.sleb128 2
@@ -3484,12 +3484,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_CASLatency"
 	.byte	0x9
 	.byte	0x69
-	.uaword	0x1a39
+	.uaword	0x1a3e
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0x7a
-	.uaword	0x1af8
+	.uaword	0x1afd
 	.uleb128 0x19
 	.string	"IfxEbu_ColumnAddressWidth_1"
 	.sleb128 1
@@ -3504,12 +3504,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ColumnAddressWidth"
 	.byte	0x9
 	.byte	0x7e
-	.uaword	0x1a95
+	.uaword	0x1a9a
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0x81
-	.uaword	0x1c22
+	.uaword	0x1c27
 	.uleb128 0x19
 	.string	"IfxEbu_DelayOnPowerDownExit_0"
 	.sleb128 0
@@ -3539,12 +3539,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_DelayOnPowerDownExit"
 	.byte	0x9
 	.byte	0x8a
-	.uaword	0x1b19
+	.uaword	0x1b1e
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0x8d
-	.uaword	0x1d94
+	.uaword	0x1d99
 	.uleb128 0x19
 	.string	"IfxEbu_DeviceType_muxedAsynchronousType"
 	.sleb128 0
@@ -3577,12 +3577,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_DeviceType"
 	.byte	0x9
 	.byte	0x97
-	.uaword	0x1c45
+	.uaword	0x1c4a
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0x9a
-	.uaword	0x1e16
+	.uaword	0x1e1b
 	.uleb128 0x19
 	.string	"IfxEbu_ExtendedData_0"
 	.sleb128 0
@@ -3600,12 +3600,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ExtendedData"
 	.byte	0x9
 	.byte	0x9f
-	.uaword	0x1dad
+	.uaword	0x1db2
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xa2
-	.uaword	0x1ed6
+	.uaword	0x1edb
 	.uleb128 0x19
 	.string	"IfxEbu_ExtendedOperationBankSelect_0"
 	.sleb128 0
@@ -3623,12 +3623,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ExtendedOperationBankSelect"
 	.byte	0x9
 	.byte	0xa7
-	.uaword	0x1e31
+	.uaword	0x1e36
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xaa
-	.uaword	0x1f75
+	.uaword	0x1f7a
 	.uleb128 0x19
 	.string	"IfxEbu_ExtendedRefresh_0"
 	.sleb128 0
@@ -3646,12 +3646,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ExtendedRefresh"
 	.byte	0x9
 	.byte	0xaf
-	.uaword	0x1f00
+	.uaword	0x1f05
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xb2
-	.uaword	0x2025
+	.uaword	0x202a
 	.uleb128 0x19
 	.string	"IfxEbu_ExternalBusMode_noBus"
 	.sleb128 0
@@ -3669,12 +3669,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ExternalBusMode"
 	.byte	0x9
 	.byte	0xb7
-	.uaword	0x1f93
+	.uaword	0x1f98
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xba
-	.uaword	0x2117
+	.uaword	0x211c
 	.uleb128 0x19
 	.string	"IfxEbu_ExternalDeviceInterface_8bitMultiplexed"
 	.sleb128 0
@@ -3692,12 +3692,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ExternalDeviceInterface"
 	.byte	0x9
 	.byte	0xbf
-	.uaword	0x2043
+	.uaword	0x2048
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xc8
-	.uaword	0x21e2
+	.uaword	0x21e7
 	.uleb128 0x19
 	.string	"IfxEbu_MaskForBankTag_1"
 	.sleb128 1
@@ -3721,12 +3721,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_MaskForBankTag"
 	.byte	0x9
 	.byte	0xcf
-	.uaword	0x213d
+	.uaword	0x2142
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xd2
-	.uaword	0x23ce
+	.uaword	0x23d3
 	.uleb128 0x19
 	.string	"IfxEbu_MemoryRegionMask_0"
 	.sleb128 0
@@ -3780,12 +3780,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_MemoryRegionMask"
 	.byte	0x9
 	.byte	0xe3
-	.uaword	0x21ff
+	.uaword	0x2204
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xe6
-	.uaword	0x247a
+	.uaword	0x247f
 	.uleb128 0x19
 	.string	"IfxEbu_ModeRegisterSetupTime_0"
 	.sleb128 0
@@ -3803,12 +3803,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_ModeRegisterSetupTime"
 	.byte	0x9
 	.byte	0xeb
-	.uaword	0x23ed
+	.uaword	0x23f2
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xee
-	.uaword	0x250b
+	.uaword	0x2510
 	.uleb128 0x19
 	.string	"IfxEbu_PowerSaveMode_0"
 	.sleb128 0
@@ -3826,12 +3826,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_PowerSaveMode"
 	.byte	0x9
 	.byte	0xf3
-	.uaword	0x249e
+	.uaword	0x24a3
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0x9
 	.byte	0xf6
-	.uaword	0x2608
+	.uaword	0x260d
 	.uleb128 0x19
 	.string	"IfxEbu_RefreshCommands_0"
 	.sleb128 0
@@ -3861,12 +3861,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_RefreshCommands"
 	.byte	0x9
 	.byte	0xff
-	.uaword	0x2527
+	.uaword	0x252c
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x9
 	.uahalf	0x102
-	.uaword	0x26a0
+	.uaword	0x26a5
 	.uleb128 0x19
 	.string	"IfxEbu_RowPrechargeTime_0"
 	.sleb128 0
@@ -3884,12 +3884,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_RowPrechargeTime"
 	.byte	0x9
 	.uahalf	0x107
-	.uaword	0x2626
+	.uaword	0x262b
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x9
 	.uahalf	0x10a
-	.uaword	0x273a
+	.uaword	0x273f
 	.uleb128 0x19
 	.string	"IfxEbu_RowToColumnDelay_0"
 	.sleb128 0
@@ -3907,12 +3907,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_RowToColumnDelay"
 	.byte	0x9
 	.uahalf	0x10f
-	.uaword	0x26c0
+	.uaword	0x26c5
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x9
 	.uahalf	0x112
-	.uaword	0x27f1
+	.uaword	0x27f6
 	.uleb128 0x19
 	.string	"IfxEbu_SDRAMBurstLength_1"
 	.sleb128 0
@@ -3933,12 +3933,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_SDRAMBurstLength"
 	.byte	0x9
 	.uahalf	0x118
-	.uaword	0x275a
+	.uaword	0x275f
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x9
 	.uahalf	0x121
-	.uaword	0x28a3
+	.uaword	0x28a8
 	.uleb128 0x19
 	.string	"IfxEbu_SynchronousBurstLength_1"
 	.sleb128 0
@@ -3956,12 +3956,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_SynchronousBurstLength"
 	.byte	0x9
 	.uahalf	0x126
-	.uaword	0x2811
+	.uaword	0x2816
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x9
 	.uahalf	0x129
-	.uaword	0x292f
+	.uaword	0x2934
 	.uleb128 0x19
 	.string	"IfxEbu_WaitControl_off"
 	.sleb128 0
@@ -3976,579 +3976,579 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_WaitControl"
 	.byte	0x9
 	.uahalf	0x12d
-	.uaword	0x28c9
+	.uaword	0x28ce
 	.uleb128 0x1b
 	.byte	0xc
 	.byte	0x9
 	.uahalf	0x133
-	.uaword	0x29fd
+	.uaword	0x2a02
 	.uleb128 0x12
 	.string	"regionEnabled"
 	.byte	0x9
 	.uahalf	0x135
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0
 	.uleb128 0x12
 	.string	"alternateSegmentEnabled"
 	.byte	0x9
 	.uahalf	0x136
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x1
 	.uleb128 0x12
 	.string	"writeProtection"
 	.byte	0x9
 	.uahalf	0x137
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x2
 	.uleb128 0x12
 	.string	"combinedChipSelect"
 	.byte	0x9
 	.uahalf	0x138
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x3
 	.uleb128 0x12
 	.string	"addressMask"
 	.byte	0x9
 	.uahalf	0x139
-	.uaword	0x23ce
+	.uaword	0x23d3
 	.byte	0x4
 	.uleb128 0x12
 	.string	"alternateSegment"
 	.byte	0x9
 	.uahalf	0x13a
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x5
 	.uleb128 0x14
 	.uaword	.LASF12
 	.byte	0x9
 	.uahalf	0x13b
-	.uaword	0x248
+	.uaword	0x24d
 	.byte	0x8
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_MemoryRegionConfig"
 	.byte	0x9
 	.uahalf	0x13c
-	.uaword	0x294a
+	.uaword	0x294f
 	.uleb128 0x1b
 	.byte	0x6
 	.byte	0x9
 	.uahalf	0x13e
-	.uaword	0x2aa7
+	.uaword	0x2aac
 	.uleb128 0x12
 	.string	"aleMode"
 	.byte	0x9
 	.uahalf	0x140
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0
 	.uleb128 0x12
 	.string	"arbMode"
 	.byte	0x9
 	.uahalf	0x141
-	.uaword	0x2025
+	.uaword	0x202a
 	.byte	0x1
 	.uleb128 0x12
 	.string	"arbSignalSynchronization"
 	.byte	0x9
 	.uahalf	0x142
-	.uaword	0x1a0a
+	.uaword	0x1a0f
 	.byte	0x2
 	.uleb128 0x12
 	.string	"sdramTri"
 	.byte	0x9
 	.uahalf	0x143
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x3
 	.uleb128 0x12
 	.string	"lockTimeout"
 	.byte	0x9
 	.uahalf	0x144
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x4
 	.uleb128 0x12
 	.string	"clockComb"
 	.byte	0x9
 	.uahalf	0x145
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x5
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_ModuleConfig"
 	.byte	0x9
 	.uahalf	0x146
-	.uaword	0x2a1f
+	.uaword	0x2a24
 	.uleb128 0x1b
 	.byte	0xa
 	.byte	0x9
 	.uahalf	0x148
-	.uaword	0x2b42
+	.uaword	0x2b47
 	.uleb128 0x14
 	.uaword	.LASF13
 	.byte	0x9
 	.uahalf	0x14a
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x14
 	.uaword	.LASF14
 	.byte	0x9
 	.uahalf	0x14b
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x1
 	.uleb128 0x14
 	.uaword	.LASF15
 	.byte	0x9
 	.uahalf	0x14c
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x2
 	.uleb128 0x14
 	.uaword	.LASF16
 	.byte	0x9
 	.uahalf	0x14d
-	.uaword	0x1e16
+	.uaword	0x1e1b
 	.byte	0x3
 	.uleb128 0x14
 	.uaword	.LASF17
 	.byte	0x9
 	.uahalf	0x14e
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x4
 	.uleb128 0x14
 	.uaword	.LASF18
 	.byte	0x9
 	.uahalf	0x14f
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x5
 	.uleb128 0x14
 	.uaword	.LASF19
 	.byte	0x9
 	.uahalf	0x150
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x6
 	.uleb128 0x14
 	.uaword	.LASF20
 	.byte	0x9
 	.uahalf	0x151
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x7
 	.uleb128 0x14
 	.uaword	.LASF21
 	.byte	0x9
 	.uahalf	0x152
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x8
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_ReadAccessParameter"
 	.byte	0x9
 	.uahalf	0x153
-	.uaword	0x2ac3
+	.uaword	0x2ac8
 	.uleb128 0x1b
 	.byte	0xc
 	.byte	0x9
 	.uahalf	0x155
-	.uaword	0x2c22
+	.uaword	0x2c27
 	.uleb128 0x14
 	.uaword	.LASF22
 	.byte	0x9
 	.uahalf	0x157
-	.uaword	0x1d94
+	.uaword	0x1d99
 	.byte	0
 	.uleb128 0x14
 	.uaword	.LASF23
 	.byte	0x9
 	.uahalf	0x158
-	.uaword	0x292f
+	.uaword	0x2934
 	.byte	0x1
 	.uleb128 0x14
 	.uaword	.LASF24
 	.byte	0x9
 	.uahalf	0x159
-	.uaword	0x2117
+	.uaword	0x211c
 	.byte	0x2
 	.uleb128 0x14
 	.uaword	.LASF25
 	.byte	0x9
 	.uahalf	0x15a
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x3
 	.uleb128 0x14
 	.uaword	.LASF26
 	.byte	0x9
 	.uahalf	0x15b
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x4
 	.uleb128 0x14
 	.uaword	.LASF27
 	.byte	0x9
 	.uahalf	0x15c
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x5
 	.uleb128 0x14
 	.uaword	.LASF28
 	.byte	0x9
 	.uahalf	0x15d
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x6
 	.uleb128 0x12
 	.string	"burstFlashClockMode"
 	.byte	0x9
 	.uahalf	0x15e
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x7
 	.uleb128 0x12
 	.string	"burstFlashClockFeedback"
 	.byte	0x9
 	.uahalf	0x15f
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x8
 	.uleb128 0x14
 	.uaword	.LASF29
 	.byte	0x9
 	.uahalf	0x160
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x9
 	.uleb128 0x14
 	.uaword	.LASF30
 	.byte	0x9
 	.uahalf	0x161
-	.uaword	0x28a3
+	.uaword	0x28a8
 	.byte	0xa
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_ReadConfig"
 	.byte	0x9
 	.uahalf	0x162
-	.uaword	0x2b65
+	.uaword	0x2b6a
 	.uleb128 0x1b
 	.byte	0xc
 	.byte	0x9
 	.uahalf	0x164
-	.uaword	0x2d57
+	.uaword	0x2d5c
 	.uleb128 0x12
 	.string	"rowToPrechargeDelay"
 	.byte	0x9
 	.uahalf	0x166
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x12
 	.string	"initializationRefreshCommand"
 	.byte	0x9
 	.uahalf	0x167
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x1
 	.uleb128 0x12
 	.string	"modeRegSetupTime"
 	.byte	0x9
 	.uahalf	0x168
-	.uaword	0x247a
+	.uaword	0x247f
 	.byte	0x2
 	.uleb128 0x12
 	.string	"rowPrechargeTime"
 	.byte	0x9
 	.uahalf	0x169
-	.uaword	0x26a0
+	.uaword	0x26a5
 	.byte	0x3
 	.uleb128 0x14
 	.uaword	.LASF31
 	.byte	0x9
 	.uahalf	0x16a
-	.uaword	0x1af8
+	.uaword	0x1afd
 	.byte	0x4
 	.uleb128 0x12
 	.string	"rowToColumnDelay"
 	.byte	0x9
 	.uahalf	0x16b
-	.uaword	0x273a
+	.uaword	0x273f
 	.byte	0x5
 	.uleb128 0x12
 	.string	"refreshCycleTime"
 	.byte	0x9
 	.uahalf	0x16c
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x6
 	.uleb128 0x14
 	.uaword	.LASF32
 	.byte	0x9
 	.uahalf	0x16d
-	.uaword	0x21e2
+	.uaword	0x21e7
 	.byte	0x7
 	.uleb128 0x12
 	.string	"disableClockOutput"
 	.byte	0x9
 	.uahalf	0x16e
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x8
 	.uleb128 0x12
 	.string	"powerSaveMode"
 	.byte	0x9
 	.uahalf	0x16f
-	.uaword	0x250b
+	.uaword	0x2510
 	.byte	0x9
 	.uleb128 0x12
 	.string	"clockModeSelect"
 	.byte	0x9
 	.uahalf	0x170
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0xa
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_SDRAMControlConfig"
 	.byte	0x9
 	.uahalf	0x171
-	.uaword	0x2c3c
+	.uaword	0x2c41
 	.uleb128 0x1b
 	.byte	0x8
 	.byte	0x9
 	.uahalf	0x173
-	.uaword	0x2e02
+	.uaword	0x2e07
 	.uleb128 0x12
 	.string	"extendedBankSelect"
 	.byte	0x9
 	.uahalf	0x175
-	.uaword	0x1ed6
+	.uaword	0x1edb
 	.byte	0
 	.uleb128 0x12
 	.string	"extendedOperationMode"
 	.byte	0x9
 	.uahalf	0x176
-	.uaword	0x216
+	.uaword	0x21b
 	.byte	0x2
 	.uleb128 0x12
 	.string	"coldStart"
 	.byte	0x9
 	.uahalf	0x177
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x4
 	.uleb128 0x12
 	.string	"casLatency"
 	.byte	0x9
 	.uahalf	0x178
-	.uaword	0x1a7c
+	.uaword	0x1a81
 	.byte	0x5
 	.uleb128 0x14
 	.uaword	.LASF30
 	.byte	0x9
 	.uahalf	0x179
-	.uaword	0x27f1
+	.uaword	0x27f6
 	.byte	0x6
 	.uleb128 0x12
 	.string	"opmode"
 	.byte	0x9
 	.uahalf	0x17a
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x7
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_SDRAMModConfig"
 	.byte	0x9
 	.uahalf	0x17b
-	.uaword	0x2d79
+	.uaword	0x2d7e
 	.uleb128 0x1b
 	.byte	0xa
 	.byte	0x9
 	.uahalf	0x17d
-	.uaword	0x2f15
+	.uaword	0x2f1a
 	.uleb128 0x12
 	.string	"delayOnPowerDownExit"
 	.byte	0x9
 	.uahalf	0x17f
-	.uaword	0x1c22
+	.uaword	0x1c27
 	.byte	0
 	.uleb128 0x12
 	.string	"autoRefresh"
 	.byte	0x9
 	.uahalf	0x180
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x1
 	.uleb128 0x12
 	.string	"selfRefreshExitDelay"
 	.byte	0x9
 	.uahalf	0x181
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x2
 	.uleb128 0x12
 	.string	"extendedRefresh"
 	.byte	0x9
 	.uahalf	0x182
-	.uaword	0x1f75
+	.uaword	0x1f7a
 	.byte	0x3
 	.uleb128 0x12
 	.string	"automaticSelfRefresh"
 	.byte	0x9
 	.uahalf	0x183
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x4
 	.uleb128 0x12
 	.string	"selfRefreshEntry"
 	.byte	0x9
 	.uahalf	0x184
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x5
 	.uleb128 0x12
 	.string	"selfRefreshExit"
 	.byte	0x9
 	.uahalf	0x185
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x6
 	.uleb128 0x12
 	.string	"refreshCommands"
 	.byte	0x9
 	.uahalf	0x186
-	.uaword	0x2608
+	.uaword	0x260d
 	.byte	0x7
 	.uleb128 0x12
 	.string	"refreshPeriod"
 	.byte	0x9
 	.uahalf	0x187
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x8
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_SDRAMRefreshConfig"
 	.byte	0x9
 	.uahalf	0x188
-	.uaword	0x2e20
+	.uaword	0x2e25
 	.uleb128 0x1b
 	.byte	0xa
 	.byte	0x9
 	.uahalf	0x18a
-	.uaword	0x2fb6
+	.uaword	0x2fbb
 	.uleb128 0x14
 	.uaword	.LASF13
 	.byte	0x9
 	.uahalf	0x18c
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0
 	.uleb128 0x14
 	.uaword	.LASF14
 	.byte	0x9
 	.uahalf	0x18d
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x1
 	.uleb128 0x14
 	.uaword	.LASF15
 	.byte	0x9
 	.uahalf	0x18e
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x2
 	.uleb128 0x14
 	.uaword	.LASF16
 	.byte	0x9
 	.uahalf	0x18f
-	.uaword	0x1e16
+	.uaword	0x1e1b
 	.byte	0x3
 	.uleb128 0x14
 	.uaword	.LASF17
 	.byte	0x9
 	.uahalf	0x190
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x4
 	.uleb128 0x14
 	.uaword	.LASF18
 	.byte	0x9
 	.uahalf	0x191
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x5
 	.uleb128 0x14
 	.uaword	.LASF19
 	.byte	0x9
 	.uahalf	0x192
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x6
 	.uleb128 0x14
 	.uaword	.LASF20
 	.byte	0x9
 	.uahalf	0x193
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x7
 	.uleb128 0x14
 	.uaword	.LASF21
 	.byte	0x9
 	.uahalf	0x194
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x8
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_WriteAccessParameter"
 	.byte	0x9
 	.uahalf	0x195
-	.uaword	0x2f37
+	.uaword	0x2f3c
 	.uleb128 0x1b
 	.byte	0xa
 	.byte	0x9
 	.uahalf	0x197
-	.uaword	0x3059
+	.uaword	0x305e
 	.uleb128 0x14
 	.uaword	.LASF22
 	.byte	0x9
 	.uahalf	0x199
-	.uaword	0x1d94
+	.uaword	0x1d99
 	.byte	0
 	.uleb128 0x14
 	.uaword	.LASF23
 	.byte	0x9
 	.uahalf	0x19a
-	.uaword	0x292f
+	.uaword	0x2934
 	.byte	0x1
 	.uleb128 0x14
 	.uaword	.LASF24
 	.byte	0x9
 	.uahalf	0x19b
-	.uaword	0x2117
+	.uaword	0x211c
 	.byte	0x2
 	.uleb128 0x14
 	.uaword	.LASF25
 	.byte	0x9
 	.uahalf	0x19c
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.byte	0x3
 	.uleb128 0x14
 	.uaword	.LASF26
 	.byte	0x9
 	.uahalf	0x19d
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x4
 	.uleb128 0x14
 	.uaword	.LASF27
 	.byte	0x9
 	.uahalf	0x19e
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x5
 	.uleb128 0x14
 	.uaword	.LASF28
 	.byte	0x9
 	.uahalf	0x19f
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x6
 	.uleb128 0x14
 	.uaword	.LASF29
 	.byte	0x9
 	.uahalf	0x1a0
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x7
 	.uleb128 0x14
 	.uaword	.LASF30
 	.byte	0x9
 	.uahalf	0x1a1
-	.uaword	0x28a3
+	.uaword	0x28a8
 	.byte	0x8
 	.byte	0
 	.uleb128 0xe
 	.string	"IfxEbu_WriteConfig"
 	.byte	0x9
 	.uahalf	0x1a2
-	.uaword	0x2fda
+	.uaword	0x2fdf
 	.uleb128 0xf
 	.string	"_Ifx_CPU_ICR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x176
-	.uaword	0x30e9
+	.uaword	0x30ee
 	.uleb128 0xc
 	.string	"CCPN"
 	.byte	0xa
 	.uahalf	0x178
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -4557,7 +4557,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0x179
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x5
 	.byte	0x11
@@ -4566,7 +4566,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IE"
 	.byte	0xa
 	.uahalf	0x17a
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4575,7 +4575,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PIPN"
 	.byte	0xa
 	.uahalf	0x17b
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -4584,7 +4584,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_26"
 	.byte	0xa
 	.uahalf	0x17c
-	.uaword	0x51c
+	.uaword	0x521
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -4594,45 +4594,45 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_CPU_ICR_Bits"
 	.byte	0xa
 	.uahalf	0x17d
-	.uaword	0x3074
+	.uaword	0x3079
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x3df
-	.uaword	0x312a
+	.uaword	0x312f
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x3e1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x3e2
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x3e3
-	.uaword	0x30e9
+	.uaword	0x30ee
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_CPU_ICR"
 	.byte	0xa
 	.uahalf	0x3e4
-	.uaword	0x3102
+	.uaword	0x3107
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x314e
+	.uaword	0x1fd
+	.uaword	0x3153
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x17
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x315e
+	.uaword	0x1fd
+	.uaword	0x3163
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x8f
 	.byte	0
 	.uleb128 0x8
@@ -4640,12 +4640,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x4
 	.byte	0xb
 	.byte	0x2d
-	.uaword	0x3372
+	.uaword	0x3377
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0xb
 	.byte	0x2f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4654,7 +4654,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN1"
 	.byte	0xb
 	.byte	0x30
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4663,7 +4663,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN2"
 	.byte	0xb
 	.byte	0x31
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4672,7 +4672,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN3"
 	.byte	0xb
 	.byte	0x32
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4681,7 +4681,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN4"
 	.byte	0xb
 	.byte	0x33
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4690,7 +4690,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN5"
 	.byte	0xb
 	.byte	0x34
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4699,7 +4699,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN6"
 	.byte	0xb
 	.byte	0x35
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4708,7 +4708,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN7"
 	.byte	0xb
 	.byte	0x36
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4717,7 +4717,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN8"
 	.byte	0xb
 	.byte	0x37
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4726,7 +4726,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN9"
 	.byte	0xb
 	.byte	0x38
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4735,7 +4735,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN10"
 	.byte	0xb
 	.byte	0x39
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4744,7 +4744,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN11"
 	.byte	0xb
 	.byte	0x3a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4753,7 +4753,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN12"
 	.byte	0xb
 	.byte	0x3b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4762,7 +4762,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN13"
 	.byte	0xb
 	.byte	0x3c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4771,7 +4771,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN14"
 	.byte	0xb
 	.byte	0x3d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4780,7 +4780,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN15"
 	.byte	0xb
 	.byte	0x3e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4789,7 +4789,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN16"
 	.byte	0xb
 	.byte	0x3f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4798,7 +4798,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN17"
 	.byte	0xb
 	.byte	0x40
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4807,7 +4807,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN18"
 	.byte	0xb
 	.byte	0x41
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4816,7 +4816,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN19"
 	.byte	0xb
 	.byte	0x42
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4825,7 +4825,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN20"
 	.byte	0xb
 	.byte	0x43
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4834,7 +4834,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN21"
 	.byte	0xb
 	.byte	0x44
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4843,7 +4843,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN22"
 	.byte	0xb
 	.byte	0x45
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4852,7 +4852,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN23"
 	.byte	0xb
 	.byte	0x46
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4861,7 +4861,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN24"
 	.byte	0xb
 	.byte	0x47
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4870,7 +4870,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN25"
 	.byte	0xb
 	.byte	0x48
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4879,7 +4879,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN26"
 	.byte	0xb
 	.byte	0x49
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4888,7 +4888,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN27"
 	.byte	0xb
 	.byte	0x4a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4897,7 +4897,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN28"
 	.byte	0xb
 	.byte	0x4b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4906,7 +4906,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN29"
 	.byte	0xb
 	.byte	0x4c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4915,7 +4915,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN30"
 	.byte	0xb
 	.byte	0x4d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4924,7 +4924,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN31"
 	.byte	0xb
 	.byte	0x4e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4934,18 +4934,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_ACCEN0_Bits"
 	.byte	0xb
 	.byte	0x4f
-	.uaword	0x315e
+	.uaword	0x3163
 	.uleb128 0x8
 	.string	"_Ifx_STM_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x52
-	.uaword	0x33ba
+	.uaword	0x33bf
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xb
 	.byte	0x54
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -4955,18 +4955,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_ACCEN1_Bits"
 	.byte	0xb
 	.byte	0x55
-	.uaword	0x338d
+	.uaword	0x3392
 	.uleb128 0x8
 	.string	"_Ifx_STM_CAP_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x58
-	.uaword	0x33ff
+	.uaword	0x3404
 	.uleb128 0xb
 	.uaword	.LASF34
 	.byte	0xb
 	.byte	0x5a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -4976,18 +4976,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_CAP_Bits"
 	.byte	0xb
 	.byte	0x5b
-	.uaword	0x33d5
+	.uaword	0x33da
 	.uleb128 0x8
 	.string	"_Ifx_STM_CAPSV_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x5e
-	.uaword	0x3443
+	.uaword	0x3448
 	.uleb128 0xb
 	.uaword	.LASF34
 	.byte	0xb
 	.byte	0x60
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -4997,18 +4997,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_CAPSV_Bits"
 	.byte	0xb
 	.byte	0x61
-	.uaword	0x3417
+	.uaword	0x341c
 	.uleb128 0x8
 	.string	"_Ifx_STM_CLC_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x64
-	.uaword	0x34c6
+	.uaword	0x34cb
 	.uleb128 0x9
 	.string	"DISR"
 	.byte	0xb
 	.byte	0x66
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5017,7 +5017,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"DISS"
 	.byte	0xb
 	.byte	0x67
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5026,7 +5026,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF3
 	.byte	0xb
 	.byte	0x68
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5035,7 +5035,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EDIS"
 	.byte	0xb
 	.byte	0x69
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5044,7 +5044,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF35
 	.byte	0xb
 	.byte	0x6a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -5054,18 +5054,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_CLC_Bits"
 	.byte	0xb
 	.byte	0x6b
-	.uaword	0x345d
+	.uaword	0x3462
 	.uleb128 0x8
 	.string	"_Ifx_STM_CMCON_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x6e
-	.uaword	0x35a0
+	.uaword	0x35a5
 	.uleb128 0x9
 	.string	"MSIZE0"
 	.byte	0xb
 	.byte	0x70
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -5074,7 +5074,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_5"
 	.byte	0xb
 	.byte	0x71
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -5083,7 +5083,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"MSTART0"
 	.byte	0xb
 	.byte	0x72
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -5092,7 +5092,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_13"
 	.byte	0xb
 	.byte	0x73
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -5101,7 +5101,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"MSIZE1"
 	.byte	0xb
 	.byte	0x74
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -5110,7 +5110,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_21"
 	.byte	0xb
 	.byte	0x75
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -5119,7 +5119,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"MSTART1"
 	.byte	0xb
 	.byte	0x76
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -5128,7 +5128,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_29"
 	.byte	0xb
 	.byte	0x77
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -5138,18 +5138,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_CMCON_Bits"
 	.byte	0xb
 	.byte	0x78
-	.uaword	0x34de
+	.uaword	0x34e3
 	.uleb128 0x8
 	.string	"_Ifx_STM_CMP_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x7b
-	.uaword	0x35e7
+	.uaword	0x35ec
 	.uleb128 0x9
 	.string	"CMPVAL"
 	.byte	0xb
 	.byte	0x7d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5159,18 +5159,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_CMP_Bits"
 	.byte	0xb
 	.byte	0x7e
-	.uaword	0x35ba
+	.uaword	0x35bf
 	.uleb128 0x8
 	.string	"_Ifx_STM_ICR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x81
-	.uaword	0x36a4
+	.uaword	0x36a9
 	.uleb128 0x9
 	.string	"CMP0EN"
 	.byte	0xb
 	.byte	0x83
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5179,7 +5179,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CMP0IR"
 	.byte	0xb
 	.byte	0x84
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5188,7 +5188,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CMP0OS"
 	.byte	0xb
 	.byte	0x85
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5197,7 +5197,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF7
 	.byte	0xb
 	.byte	0x86
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5206,7 +5206,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CMP1EN"
 	.byte	0xb
 	.byte	0x87
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5215,7 +5215,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CMP1IR"
 	.byte	0xb
 	.byte	0x88
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5224,7 +5224,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CMP1OS"
 	.byte	0xb
 	.byte	0x89
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5233,7 +5233,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF36
 	.byte	0xb
 	.byte	0x8a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x19
 	.byte	0
@@ -5243,18 +5243,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_ICR_Bits"
 	.byte	0xb
 	.byte	0x8b
-	.uaword	0x35ff
+	.uaword	0x3604
 	.uleb128 0x8
 	.string	"_Ifx_STM_ID_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x8e
-	.uaword	0x370a
+	.uaword	0x370f
 	.uleb128 0x9
 	.string	"MODREV"
 	.byte	0xb
 	.byte	0x90
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5263,7 +5263,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"MODTYPE"
 	.byte	0xb
 	.byte	0x91
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5272,7 +5272,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF37
 	.byte	0xb
 	.byte	0x92
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5282,18 +5282,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_ID_Bits"
 	.byte	0xb
 	.byte	0x93
-	.uaword	0x36bc
+	.uaword	0x36c1
 	.uleb128 0x8
 	.string	"_Ifx_STM_ISCR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x96
-	.uaword	0x3798
+	.uaword	0x379d
 	.uleb128 0x9
 	.string	"CMP0IRR"
 	.byte	0xb
 	.byte	0x98
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5302,7 +5302,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CMP0IRS"
 	.byte	0xb
 	.byte	0x99
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5311,7 +5311,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CMP1IRR"
 	.byte	0xb
 	.byte	0x9a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5320,7 +5320,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"CMP1IRS"
 	.byte	0xb
 	.byte	0x9b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5329,7 +5329,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF35
 	.byte	0xb
 	.byte	0x9c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -5339,18 +5339,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_ISCR_Bits"
 	.byte	0xb
 	.byte	0x9d
-	.uaword	0x3721
+	.uaword	0x3726
 	.uleb128 0x8
 	.string	"_Ifx_STM_KRST0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xa0
-	.uaword	0x37ff
+	.uaword	0x3804
 	.uleb128 0x9
 	.string	"RST"
 	.byte	0xb
 	.byte	0xa2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5359,7 +5359,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RSTSTAT"
 	.byte	0xb
 	.byte	0xa3
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5368,7 +5368,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF3
 	.byte	0xb
 	.byte	0xa4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -5378,18 +5378,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_KRST0_Bits"
 	.byte	0xb
 	.byte	0xa5
-	.uaword	0x37b1
+	.uaword	0x37b6
 	.uleb128 0x8
 	.string	"_Ifx_STM_KRST1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xa8
-	.uaword	0x3854
+	.uaword	0x3859
 	.uleb128 0x9
 	.string	"RST"
 	.byte	0xb
 	.byte	0xaa
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5398,7 +5398,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF38
 	.byte	0xb
 	.byte	0xab
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -5408,18 +5408,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_KRST1_Bits"
 	.byte	0xb
 	.byte	0xac
-	.uaword	0x3819
+	.uaword	0x381e
 	.uleb128 0x8
 	.string	"_Ifx_STM_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xaf
-	.uaword	0x38ab
+	.uaword	0x38b0
 	.uleb128 0x9
 	.string	"CLR"
 	.byte	0xb
 	.byte	0xb1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5428,7 +5428,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF38
 	.byte	0xb
 	.byte	0xb2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -5438,18 +5438,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_KRSTCLR_Bits"
 	.byte	0xb
 	.byte	0xb3
-	.uaword	0x386e
+	.uaword	0x3873
 	.uleb128 0x8
 	.string	"_Ifx_STM_OCS_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xb6
-	.uaword	0x393a
+	.uaword	0x393f
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xb
 	.byte	0xb8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -5458,7 +5458,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SUS"
 	.byte	0xb
 	.byte	0xb9
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -5467,7 +5467,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SUS_P"
 	.byte	0xb
 	.byte	0xba
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -5476,7 +5476,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SUSSTA"
 	.byte	0xb
 	.byte	0xbb
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -5485,7 +5485,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"reserved_30"
 	.byte	0xb
 	.byte	0xbc
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -5495,18 +5495,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_OCS_Bits"
 	.byte	0xb
 	.byte	0xbd
-	.uaword	0x38c7
+	.uaword	0x38cc
 	.uleb128 0x8
 	.string	"_Ifx_STM_TIM0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xc0
-	.uaword	0x3981
+	.uaword	0x3986
 	.uleb128 0x9
 	.string	"STM31_0"
 	.byte	0xb
 	.byte	0xc2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5516,18 +5516,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_TIM0_Bits"
 	.byte	0xb
 	.byte	0xc3
-	.uaword	0x3952
+	.uaword	0x3957
 	.uleb128 0x8
 	.string	"_Ifx_STM_TIM0SV_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xc6
-	.uaword	0x39cb
+	.uaword	0x39d0
 	.uleb128 0x9
 	.string	"STM31_0"
 	.byte	0xb
 	.byte	0xc8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5537,18 +5537,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_TIM0SV_Bits"
 	.byte	0xb
 	.byte	0xc9
-	.uaword	0x399a
+	.uaword	0x399f
 	.uleb128 0x8
 	.string	"_Ifx_STM_TIM1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xcc
-	.uaword	0x3a15
+	.uaword	0x3a1a
 	.uleb128 0x9
 	.string	"STM35_4"
 	.byte	0xb
 	.byte	0xce
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5558,18 +5558,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_TIM1_Bits"
 	.byte	0xb
 	.byte	0xcf
-	.uaword	0x39e6
+	.uaword	0x39eb
 	.uleb128 0x8
 	.string	"_Ifx_STM_TIM2_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xd2
-	.uaword	0x3a5d
+	.uaword	0x3a62
 	.uleb128 0x9
 	.string	"STM39_8"
 	.byte	0xb
 	.byte	0xd4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5579,18 +5579,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_TIM2_Bits"
 	.byte	0xb
 	.byte	0xd5
-	.uaword	0x3a2e
+	.uaword	0x3a33
 	.uleb128 0x8
 	.string	"_Ifx_STM_TIM3_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xd8
-	.uaword	0x3aa6
+	.uaword	0x3aab
 	.uleb128 0x9
 	.string	"STM43_12"
 	.byte	0xb
 	.byte	0xda
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5600,18 +5600,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_TIM3_Bits"
 	.byte	0xb
 	.byte	0xdb
-	.uaword	0x3a76
+	.uaword	0x3a7b
 	.uleb128 0x8
 	.string	"_Ifx_STM_TIM4_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xde
-	.uaword	0x3aef
+	.uaword	0x3af4
 	.uleb128 0x9
 	.string	"STM47_16"
 	.byte	0xb
 	.byte	0xe0
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5621,18 +5621,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_TIM4_Bits"
 	.byte	0xb
 	.byte	0xe1
-	.uaword	0x3abf
+	.uaword	0x3ac4
 	.uleb128 0x8
 	.string	"_Ifx_STM_TIM5_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xe4
-	.uaword	0x3b38
+	.uaword	0x3b3d
 	.uleb128 0x9
 	.string	"STM51_20"
 	.byte	0xb
 	.byte	0xe6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5642,18 +5642,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_TIM5_Bits"
 	.byte	0xb
 	.byte	0xe7
-	.uaword	0x3b08
+	.uaword	0x3b0d
 	.uleb128 0x8
 	.string	"_Ifx_STM_TIM6_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xea
-	.uaword	0x3b81
+	.uaword	0x3b86
 	.uleb128 0x9
 	.string	"STM63_32"
 	.byte	0xb
 	.byte	0xec
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5663,767 +5663,767 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_STM_TIM6_Bits"
 	.byte	0xb
 	.byte	0xed
-	.uaword	0x3b51
+	.uaword	0x3b56
 	.uleb128 0x1c
 	.byte	0x4
 	.byte	0xb
 	.byte	0xf5
-	.uaword	0x3bbe
+	.uaword	0x3bc3
 	.uleb128 0x1d
 	.string	"U"
 	.byte	0xb
 	.byte	0xf7
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x1d
 	.string	"I"
 	.byte	0xb
 	.byte	0xf8
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x1d
 	.string	"B"
 	.byte	0xb
 	.byte	0xf9
-	.uaword	0x3372
+	.uaword	0x3377
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_STM_ACCEN0"
 	.byte	0xb
 	.byte	0xfa
-	.uaword	0x3b9a
+	.uaword	0x3b9f
 	.uleb128 0x1c
 	.byte	0x4
 	.byte	0xb
 	.byte	0xfd
-	.uaword	0x3bfa
+	.uaword	0x3bff
 	.uleb128 0x1d
 	.string	"U"
 	.byte	0xb
 	.byte	0xff
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x100
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x101
-	.uaword	0x33ba
+	.uaword	0x33bf
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_ACCEN1"
 	.byte	0xb
 	.uahalf	0x102
-	.uaword	0x3bd4
+	.uaword	0x3bd9
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x105
-	.uaword	0x3c39
+	.uaword	0x3c3e
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x107
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x108
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x109
-	.uaword	0x33ff
+	.uaword	0x3404
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_CAP"
 	.byte	0xb
 	.uahalf	0x10a
-	.uaword	0x3c11
+	.uaword	0x3c16
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x10d
-	.uaword	0x3c75
+	.uaword	0x3c7a
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x10f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x110
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x111
-	.uaword	0x3443
+	.uaword	0x3448
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_CAPSV"
 	.byte	0xb
 	.uahalf	0x112
-	.uaword	0x3c4d
+	.uaword	0x3c52
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x115
-	.uaword	0x3cb3
+	.uaword	0x3cb8
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x117
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x118
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x119
-	.uaword	0x34c6
+	.uaword	0x34cb
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_CLC"
 	.byte	0xb
 	.uahalf	0x11a
-	.uaword	0x3c8b
+	.uaword	0x3c90
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x11d
-	.uaword	0x3cef
+	.uaword	0x3cf4
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x11f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x120
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x121
-	.uaword	0x35a0
+	.uaword	0x35a5
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_CMCON"
 	.byte	0xb
 	.uahalf	0x122
-	.uaword	0x3cc7
+	.uaword	0x3ccc
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x125
-	.uaword	0x3d2d
+	.uaword	0x3d32
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x127
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x128
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x129
-	.uaword	0x35e7
+	.uaword	0x35ec
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_CMP"
 	.byte	0xb
 	.uahalf	0x12a
-	.uaword	0x3d05
+	.uaword	0x3d0a
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x12d
-	.uaword	0x3d69
+	.uaword	0x3d6e
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x12f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x130
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x131
-	.uaword	0x36a4
+	.uaword	0x36a9
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_ICR"
 	.byte	0xb
 	.uahalf	0x132
-	.uaword	0x3d41
+	.uaword	0x3d46
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x135
-	.uaword	0x3da5
+	.uaword	0x3daa
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x137
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x138
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x139
-	.uaword	0x370a
+	.uaword	0x370f
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_ID"
 	.byte	0xb
 	.uahalf	0x13a
-	.uaword	0x3d7d
+	.uaword	0x3d82
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x13d
-	.uaword	0x3de0
+	.uaword	0x3de5
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x13f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x140
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x141
-	.uaword	0x3798
+	.uaword	0x379d
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_ISCR"
 	.byte	0xb
 	.uahalf	0x142
-	.uaword	0x3db8
+	.uaword	0x3dbd
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x145
-	.uaword	0x3e1d
+	.uaword	0x3e22
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x147
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x148
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x149
-	.uaword	0x37ff
+	.uaword	0x3804
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_KRST0"
 	.byte	0xb
 	.uahalf	0x14a
-	.uaword	0x3df5
+	.uaword	0x3dfa
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x14d
-	.uaword	0x3e5b
+	.uaword	0x3e60
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x14f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x150
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x151
-	.uaword	0x3854
+	.uaword	0x3859
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_KRST1"
 	.byte	0xb
 	.uahalf	0x152
-	.uaword	0x3e33
+	.uaword	0x3e38
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x155
-	.uaword	0x3e99
+	.uaword	0x3e9e
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x157
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x158
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x159
-	.uaword	0x38ab
+	.uaword	0x38b0
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_KRSTCLR"
 	.byte	0xb
 	.uahalf	0x15a
-	.uaword	0x3e71
+	.uaword	0x3e76
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x15d
-	.uaword	0x3ed9
+	.uaword	0x3ede
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x15f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x160
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x161
-	.uaword	0x393a
+	.uaword	0x393f
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_OCS"
 	.byte	0xb
 	.uahalf	0x162
-	.uaword	0x3eb1
+	.uaword	0x3eb6
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x165
-	.uaword	0x3f15
+	.uaword	0x3f1a
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x167
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x168
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x169
-	.uaword	0x3981
+	.uaword	0x3986
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_TIM0"
 	.byte	0xb
 	.uahalf	0x16a
-	.uaword	0x3eed
+	.uaword	0x3ef2
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x16d
-	.uaword	0x3f52
+	.uaword	0x3f57
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x16f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x170
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x171
-	.uaword	0x39cb
+	.uaword	0x39d0
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_TIM0SV"
 	.byte	0xb
 	.uahalf	0x172
-	.uaword	0x3f2a
+	.uaword	0x3f2f
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x175
-	.uaword	0x3f91
+	.uaword	0x3f96
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x177
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x178
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x179
-	.uaword	0x3a15
+	.uaword	0x3a1a
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_TIM1"
 	.byte	0xb
 	.uahalf	0x17a
-	.uaword	0x3f69
+	.uaword	0x3f6e
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x17d
-	.uaword	0x3fce
+	.uaword	0x3fd3
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x17f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x180
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x181
-	.uaword	0x3a5d
+	.uaword	0x3a62
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_TIM2"
 	.byte	0xb
 	.uahalf	0x182
-	.uaword	0x3fa6
+	.uaword	0x3fab
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x185
-	.uaword	0x400b
+	.uaword	0x4010
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x187
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x188
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x189
-	.uaword	0x3aa6
+	.uaword	0x3aab
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_TIM3"
 	.byte	0xb
 	.uahalf	0x18a
-	.uaword	0x3fe3
+	.uaword	0x3fe8
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x18d
-	.uaword	0x4048
+	.uaword	0x404d
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x18f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x190
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x191
-	.uaword	0x3aef
+	.uaword	0x3af4
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_TIM4"
 	.byte	0xb
 	.uahalf	0x192
-	.uaword	0x4020
+	.uaword	0x4025
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x195
-	.uaword	0x4085
+	.uaword	0x408a
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x197
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x198
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x199
-	.uaword	0x3b38
+	.uaword	0x3b3d
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_TIM5"
 	.byte	0xb
 	.uahalf	0x19a
-	.uaword	0x405d
+	.uaword	0x4062
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x19d
-	.uaword	0x40c2
+	.uaword	0x40c7
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x19f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x1a0
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x1a1
-	.uaword	0x3b81
+	.uaword	0x3b86
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM_TIM6"
 	.byte	0xb
 	.uahalf	0x1a2
-	.uaword	0x409a
+	.uaword	0x409f
 	.uleb128 0x13
 	.string	"_Ifx_STM"
 	.uahalf	0x100
 	.byte	0xb
 	.uahalf	0x1ad
-	.uaword	0x425b
+	.uaword	0x4260
 	.uleb128 0x12
 	.string	"CLC"
 	.byte	0xb
 	.uahalf	0x1af
-	.uaword	0x3cb3
+	.uaword	0x3cb8
 	.byte	0
 	.uleb128 0x14
 	.uaword	.LASF35
 	.byte	0xb
 	.uahalf	0x1b0
-	.uaword	0x17ab
+	.uaword	0x17b0
 	.byte	0x4
 	.uleb128 0x12
 	.string	"ID"
 	.byte	0xb
 	.uahalf	0x1b1
-	.uaword	0x3da5
+	.uaword	0x3daa
 	.byte	0x8
 	.uleb128 0x14
 	.uaword	.LASF39
 	.byte	0xb
 	.uahalf	0x1b2
-	.uaword	0x17ab
+	.uaword	0x17b0
 	.byte	0xc
 	.uleb128 0x12
 	.string	"TIM0"
 	.byte	0xb
 	.uahalf	0x1b3
-	.uaword	0x3f15
+	.uaword	0x3f1a
 	.byte	0x10
 	.uleb128 0x12
 	.string	"TIM1"
 	.byte	0xb
 	.uahalf	0x1b4
-	.uaword	0x3f91
+	.uaword	0x3f96
 	.byte	0x14
 	.uleb128 0x12
 	.string	"TIM2"
 	.byte	0xb
 	.uahalf	0x1b5
-	.uaword	0x3fce
+	.uaword	0x3fd3
 	.byte	0x18
 	.uleb128 0x12
 	.string	"TIM3"
 	.byte	0xb
 	.uahalf	0x1b6
-	.uaword	0x400b
+	.uaword	0x4010
 	.byte	0x1c
 	.uleb128 0x12
 	.string	"TIM4"
 	.byte	0xb
 	.uahalf	0x1b7
-	.uaword	0x4048
+	.uaword	0x404d
 	.byte	0x20
 	.uleb128 0x12
 	.string	"TIM5"
 	.byte	0xb
 	.uahalf	0x1b8
-	.uaword	0x4085
+	.uaword	0x408a
 	.byte	0x24
 	.uleb128 0x12
 	.string	"TIM6"
 	.byte	0xb
 	.uahalf	0x1b9
-	.uaword	0x40c2
+	.uaword	0x40c7
 	.byte	0x28
 	.uleb128 0x12
 	.string	"CAP"
 	.byte	0xb
 	.uahalf	0x1ba
-	.uaword	0x3c39
+	.uaword	0x3c3e
 	.byte	0x2c
 	.uleb128 0x12
 	.string	"CMP"
 	.byte	0xb
 	.uahalf	0x1bb
-	.uaword	0x425b
+	.uaword	0x4260
 	.byte	0x30
 	.uleb128 0x12
 	.string	"CMCON"
 	.byte	0xb
 	.uahalf	0x1bc
-	.uaword	0x3cef
+	.uaword	0x3cf4
 	.byte	0x38
 	.uleb128 0x12
 	.string	"ICR"
 	.byte	0xb
 	.uahalf	0x1bd
-	.uaword	0x3d69
+	.uaword	0x3d6e
 	.byte	0x3c
 	.uleb128 0x12
 	.string	"ISCR"
 	.byte	0xb
 	.uahalf	0x1be
-	.uaword	0x3de0
+	.uaword	0x3de5
 	.byte	0x40
 	.uleb128 0x12
 	.string	"reserved_44"
 	.byte	0xb
 	.uahalf	0x1bf
-	.uaword	0x1842
+	.uaword	0x1847
 	.byte	0x44
 	.uleb128 0x12
 	.string	"TIM0SV"
 	.byte	0xb
 	.uahalf	0x1c0
-	.uaword	0x3f52
+	.uaword	0x3f57
 	.byte	0x50
 	.uleb128 0x12
 	.string	"CAPSV"
 	.byte	0xb
 	.uahalf	0x1c1
-	.uaword	0x3c75
+	.uaword	0x3c7a
 	.byte	0x54
 	.uleb128 0x14
 	.uaword	.LASF9
 	.byte	0xb
 	.uahalf	0x1c2
-	.uaword	0x314e
+	.uaword	0x3153
 	.byte	0x58
 	.uleb128 0x12
 	.string	"OCS"
 	.byte	0xb
 	.uahalf	0x1c3
-	.uaword	0x3ed9
+	.uaword	0x3ede
 	.byte	0xe8
 	.uleb128 0x12
 	.string	"KRSTCLR"
 	.byte	0xb
 	.uahalf	0x1c4
-	.uaword	0x3e99
+	.uaword	0x3e9e
 	.byte	0xec
 	.uleb128 0x12
 	.string	"KRST1"
 	.byte	0xb
 	.uahalf	0x1c5
-	.uaword	0x3e5b
+	.uaword	0x3e60
 	.byte	0xf0
 	.uleb128 0x12
 	.string	"KRST0"
 	.byte	0xb
 	.uahalf	0x1c6
-	.uaword	0x3e1d
+	.uaword	0x3e22
 	.byte	0xf4
 	.uleb128 0x14
 	.uaword	.LASF11
 	.byte	0xb
 	.uahalf	0x1c7
-	.uaword	0x3bfa
+	.uaword	0x3bff
 	.byte	0xf8
 	.uleb128 0x14
 	.uaword	.LASF10
 	.byte	0xb
 	.uahalf	0x1c8
-	.uaword	0x3bbe
+	.uaword	0x3bc3
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x3d2d
-	.uaword	0x426b
+	.uaword	0x3d32
+	.uaword	0x4270
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x1
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_STM"
 	.byte	0xb
 	.uahalf	0x1c9
-	.uaword	0x427b
+	.uaword	0x4280
 	.uleb128 0xa
-	.uaword	0x40d7
+	.uaword	0x40dc
 	.uleb128 0x8
 	.string	"_Ifx_P_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x2d
-	.uaword	0x4492
+	.uaword	0x4497
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0xc
 	.byte	0x2f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6432,7 +6432,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN1"
 	.byte	0xc
 	.byte	0x30
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6441,7 +6441,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN2"
 	.byte	0xc
 	.byte	0x31
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6450,7 +6450,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN3"
 	.byte	0xc
 	.byte	0x32
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6459,7 +6459,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN4"
 	.byte	0xc
 	.byte	0x33
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6468,7 +6468,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN5"
 	.byte	0xc
 	.byte	0x34
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6477,7 +6477,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN6"
 	.byte	0xc
 	.byte	0x35
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6486,7 +6486,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN7"
 	.byte	0xc
 	.byte	0x36
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6495,7 +6495,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN8"
 	.byte	0xc
 	.byte	0x37
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6504,7 +6504,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN9"
 	.byte	0xc
 	.byte	0x38
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6513,7 +6513,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN10"
 	.byte	0xc
 	.byte	0x39
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6522,7 +6522,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN11"
 	.byte	0xc
 	.byte	0x3a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6531,7 +6531,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN12"
 	.byte	0xc
 	.byte	0x3b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6540,7 +6540,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN13"
 	.byte	0xc
 	.byte	0x3c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6549,7 +6549,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN14"
 	.byte	0xc
 	.byte	0x3d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6558,7 +6558,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN15"
 	.byte	0xc
 	.byte	0x3e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6567,7 +6567,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN16"
 	.byte	0xc
 	.byte	0x3f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6576,7 +6576,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN17"
 	.byte	0xc
 	.byte	0x40
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6585,7 +6585,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN18"
 	.byte	0xc
 	.byte	0x41
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6594,7 +6594,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN19"
 	.byte	0xc
 	.byte	0x42
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6603,7 +6603,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN20"
 	.byte	0xc
 	.byte	0x43
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6612,7 +6612,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN21"
 	.byte	0xc
 	.byte	0x44
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6621,7 +6621,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN22"
 	.byte	0xc
 	.byte	0x45
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6630,7 +6630,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN23"
 	.byte	0xc
 	.byte	0x46
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6639,7 +6639,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN24"
 	.byte	0xc
 	.byte	0x47
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6648,7 +6648,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN25"
 	.byte	0xc
 	.byte	0x48
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6657,7 +6657,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN26"
 	.byte	0xc
 	.byte	0x49
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -6666,7 +6666,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN27"
 	.byte	0xc
 	.byte	0x4a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6675,7 +6675,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN28"
 	.byte	0xc
 	.byte	0x4b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -6684,7 +6684,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN29"
 	.byte	0xc
 	.byte	0x4c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6693,7 +6693,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN30"
 	.byte	0xc
 	.byte	0x4d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6702,7 +6702,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN31"
 	.byte	0xc
 	.byte	0x4e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6712,18 +6712,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0xc
 	.byte	0x4f
-	.uaword	0x4280
+	.uaword	0x4285
 	.uleb128 0x8
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x52
-	.uaword	0x44d6
+	.uaword	0x44db
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0x54
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -6733,18 +6733,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0xc
 	.byte	0x55
-	.uaword	0x44ab
+	.uaword	0x44b0
 	.uleb128 0x8
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x58
-	.uaword	0x460d
+	.uaword	0x4612
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0xc
 	.byte	0x5a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6753,7 +6753,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN1"
 	.byte	0xc
 	.byte	0x5b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6762,7 +6762,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN2"
 	.byte	0xc
 	.byte	0x5c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6771,7 +6771,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN3"
 	.byte	0xc
 	.byte	0x5d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6780,7 +6780,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN4"
 	.byte	0xc
 	.byte	0x5e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6789,7 +6789,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN5"
 	.byte	0xc
 	.byte	0x5f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6798,7 +6798,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN6"
 	.byte	0xc
 	.byte	0x60
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6807,7 +6807,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN7"
 	.byte	0xc
 	.byte	0x61
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6816,7 +6816,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN8"
 	.byte	0xc
 	.byte	0x62
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6825,7 +6825,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN9"
 	.byte	0xc
 	.byte	0x63
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6834,7 +6834,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN10"
 	.byte	0xc
 	.byte	0x64
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6843,7 +6843,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN11"
 	.byte	0xc
 	.byte	0x65
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6852,7 +6852,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN12"
 	.byte	0xc
 	.byte	0x66
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6861,7 +6861,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN13"
 	.byte	0xc
 	.byte	0x67
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6870,7 +6870,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN14"
 	.byte	0xc
 	.byte	0x68
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6879,7 +6879,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"EN15"
 	.byte	0xc
 	.byte	0x69
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6888,7 +6888,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.byte	0x6a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6898,18 +6898,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0xc
 	.byte	0x6b
-	.uaword	0x44ef
+	.uaword	0x44f4
 	.uleb128 0x8
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x6e
-	.uaword	0x466f
+	.uaword	0x4674
 	.uleb128 0x9
 	.string	"MODREV"
 	.byte	0xc
 	.byte	0x70
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6918,7 +6918,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"MODTYPE"
 	.byte	0xc
 	.byte	0x71
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -6927,7 +6927,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF37
 	.byte	0xc
 	.byte	0x72
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6937,18 +6937,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0xc
 	.byte	0x73
-	.uaword	0x4623
+	.uaword	0x4628
 	.uleb128 0x8
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x76
-	.uaword	0x4791
+	.uaword	0x4796
 	.uleb128 0x9
 	.string	"P0"
 	.byte	0xc
 	.byte	0x78
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6957,7 +6957,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P1"
 	.byte	0xc
 	.byte	0x79
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6966,7 +6966,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P2"
 	.byte	0xc
 	.byte	0x7a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6975,7 +6975,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P3"
 	.byte	0xc
 	.byte	0x7b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6984,7 +6984,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P4"
 	.byte	0xc
 	.byte	0x7c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6993,7 +6993,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P5"
 	.byte	0xc
 	.byte	0x7d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7002,7 +7002,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P6"
 	.byte	0xc
 	.byte	0x7e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7011,7 +7011,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P7"
 	.byte	0xc
 	.byte	0x7f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7020,7 +7020,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P8"
 	.byte	0xc
 	.byte	0x80
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7029,7 +7029,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P9"
 	.byte	0xc
 	.byte	0x81
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7038,7 +7038,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P10"
 	.byte	0xc
 	.byte	0x82
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7047,7 +7047,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P11"
 	.byte	0xc
 	.byte	0x83
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7056,7 +7056,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P12"
 	.byte	0xc
 	.byte	0x84
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7065,7 +7065,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P13"
 	.byte	0xc
 	.byte	0x85
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7074,7 +7074,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P14"
 	.byte	0xc
 	.byte	0x86
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7083,7 +7083,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P15"
 	.byte	0xc
 	.byte	0x87
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7092,7 +7092,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.byte	0x88
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7102,18 +7102,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0xc
 	.byte	0x89
-	.uaword	0x4684
+	.uaword	0x4689
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x8c
-	.uaword	0x4839
+	.uaword	0x483e
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0x8e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7122,7 +7122,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC0"
 	.byte	0xc
 	.byte	0x8f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -7131,7 +7131,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF41
 	.byte	0xc
 	.byte	0x90
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7140,7 +7140,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC1"
 	.byte	0xc
 	.byte	0x91
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -7149,7 +7149,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.byte	0x92
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -7158,7 +7158,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC2"
 	.byte	0xc
 	.byte	0x93
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -7167,7 +7167,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF4
 	.byte	0xc
 	.byte	0x94
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -7176,7 +7176,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC3"
 	.byte	0xc
 	.byte	0x95
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -7186,18 +7186,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0xc
 	.byte	0x96
-	.uaword	0x47a6
+	.uaword	0x47ab
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x99
-	.uaword	0x48e9
+	.uaword	0x48ee
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0x9b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7206,7 +7206,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC12"
 	.byte	0xc
 	.byte	0x9c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -7215,7 +7215,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF41
 	.byte	0xc
 	.byte	0x9d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7224,7 +7224,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC13"
 	.byte	0xc
 	.byte	0x9e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -7233,7 +7233,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.byte	0x9f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -7242,7 +7242,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC14"
 	.byte	0xc
 	.byte	0xa0
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -7251,7 +7251,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF4
 	.byte	0xc
 	.byte	0xa1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -7260,7 +7260,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC15"
 	.byte	0xc
 	.byte	0xa2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -7270,18 +7270,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0xc
 	.byte	0xa3
-	.uaword	0x4851
+	.uaword	0x4856
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xa6
-	.uaword	0x4995
+	.uaword	0x499a
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0xa8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7290,7 +7290,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC4"
 	.byte	0xc
 	.byte	0xa9
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -7299,7 +7299,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF41
 	.byte	0xc
 	.byte	0xaa
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7308,7 +7308,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC5"
 	.byte	0xc
 	.byte	0xab
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -7317,7 +7317,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.byte	0xac
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -7326,7 +7326,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC6"
 	.byte	0xc
 	.byte	0xad
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -7335,7 +7335,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF4
 	.byte	0xc
 	.byte	0xae
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -7344,7 +7344,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC7"
 	.byte	0xc
 	.byte	0xaf
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -7354,18 +7354,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0xc
 	.byte	0xb0
-	.uaword	0x4902
+	.uaword	0x4907
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xb3
-	.uaword	0x4a42
+	.uaword	0x4a47
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0xb5
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7374,7 +7374,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC8"
 	.byte	0xc
 	.byte	0xb6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -7383,7 +7383,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF41
 	.byte	0xc
 	.byte	0xb7
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7392,7 +7392,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC9"
 	.byte	0xc
 	.byte	0xb8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -7401,7 +7401,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.byte	0xb9
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -7410,7 +7410,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC10"
 	.byte	0xc
 	.byte	0xba
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -7419,7 +7419,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF4
 	.byte	0xc
 	.byte	0xbb
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -7428,7 +7428,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PC11"
 	.byte	0xc
 	.byte	0xbc
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -7438,18 +7438,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0xc
 	.byte	0xbd
-	.uaword	0x49ad
+	.uaword	0x49b2
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xc0
-	.uaword	0x4aa2
+	.uaword	0x4aa7
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0xc2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7458,7 +7458,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS1"
 	.byte	0xc
 	.byte	0xc3
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7467,7 +7467,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF3
 	.byte	0xc
 	.byte	0xc4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -7477,18 +7477,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0xc
 	.byte	0xc5
-	.uaword	0x4a5a
+	.uaword	0x4a5f
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR0_P21_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xc8
-	.uaword	0x4b2c
+	.uaword	0x4b31
 	.uleb128 0xb
 	.uaword	.LASF42
 	.byte	0xc
 	.byte	0xca
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7497,7 +7497,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RX_DIS"
 	.byte	0xc
 	.byte	0xcb
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7506,7 +7506,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"TERM"
 	.byte	0xc
 	.byte	0xcc
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7515,7 +7515,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LRXTERM"
 	.byte	0xc
 	.byte	0xcd
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -7524,7 +7524,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF41
 	.byte	0xc
 	.byte	0xce
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -7534,18 +7534,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_LPCR0_P21_Bits"
 	.byte	0xc
 	.byte	0xcf
-	.uaword	0x4aba
+	.uaword	0x4abf
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xd2
-	.uaword	0x4b90
+	.uaword	0x4b95
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0xd4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7554,7 +7554,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS1"
 	.byte	0xc
 	.byte	0xd5
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7563,7 +7563,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF3
 	.byte	0xc
 	.byte	0xd6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -7573,18 +7573,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0xc
 	.byte	0xd7
-	.uaword	0x4b48
+	.uaword	0x4b4d
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xda
-	.uaword	0x4c1a
+	.uaword	0x4c1f
 	.uleb128 0xb
 	.uaword	.LASF42
 	.byte	0xc
 	.byte	0xdc
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7593,7 +7593,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"RX_DIS"
 	.byte	0xc
 	.byte	0xdd
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7602,7 +7602,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"TERM"
 	.byte	0xc
 	.byte	0xde
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7611,7 +7611,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LRXTERM"
 	.byte	0xc
 	.byte	0xdf
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -7620,7 +7620,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF41
 	.byte	0xc
 	.byte	0xe0
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -7630,18 +7630,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0xc
 	.byte	0xe1
-	.uaword	0x4ba8
+	.uaword	0x4bad
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xe4
-	.uaword	0x4c7e
+	.uaword	0x4c83
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0xe6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7650,7 +7650,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS1"
 	.byte	0xc
 	.byte	0xe7
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7659,7 +7659,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF3
 	.byte	0xc
 	.byte	0xe8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -7669,18 +7669,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0xc
 	.byte	0xe9
-	.uaword	0x4c36
+	.uaword	0x4c3b
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR2_P21_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xec
-	.uaword	0x4d51
+	.uaword	0x4d56
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0xee
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -7689,7 +7689,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LVDSR"
 	.byte	0xc
 	.byte	0xef
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7698,7 +7698,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LVDSRL"
 	.byte	0xc
 	.byte	0xf0
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7707,7 +7707,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF33
 	.byte	0xc
 	.byte	0xf1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -7716,7 +7716,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"TDIS_CTRL"
 	.byte	0xc
 	.byte	0xf2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7725,7 +7725,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"TX_DIS"
 	.byte	0xc
 	.byte	0xf3
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7734,7 +7734,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"TX_PD"
 	.byte	0xc
 	.byte	0xf4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7743,7 +7743,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"TX_PWDPD"
 	.byte	0xc
 	.byte	0xf5
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7752,7 +7752,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.byte	0xf6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7762,18 +7762,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_LPCR2_P21_Bits"
 	.byte	0xc
 	.byte	0xf7
-	.uaword	0x4c96
+	.uaword	0x4c9b
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR3_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xfa
-	.uaword	0x4db5
+	.uaword	0x4dba
 	.uleb128 0xb
 	.uaword	.LASF0
 	.byte	0xc
 	.byte	0xfc
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7782,7 +7782,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS1"
 	.byte	0xc
 	.byte	0xfd
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7791,7 +7791,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF3
 	.byte	0xc
 	.byte	0xfe
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -7801,18 +7801,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_LPCR3_Bits"
 	.byte	0xc
 	.byte	0xff
-	.uaword	0x4d6d
+	.uaword	0x4d72
 	.uleb128 0xf
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x102
-	.uaword	0x4e4d
+	.uaword	0x4e52
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xc
 	.uahalf	0x104
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -7821,7 +7821,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL0"
 	.byte	0xc
 	.uahalf	0x105
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7830,7 +7830,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL1"
 	.byte	0xc
 	.uahalf	0x106
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7839,7 +7839,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL2"
 	.byte	0xc
 	.uahalf	0x107
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7848,7 +7848,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL3"
 	.byte	0xc
 	.uahalf	0x108
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7857,7 +7857,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF8
 	.byte	0xc
 	.uahalf	0x109
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -7867,18 +7867,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0xc
 	.uahalf	0x10a
-	.uaword	0x4dcd
+	.uaword	0x4dd2
 	.uleb128 0xf
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x10d
-	.uaword	0x4edb
+	.uaword	0x4ee0
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xc
 	.uahalf	0x10f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -7887,7 +7887,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL12"
 	.byte	0xc
 	.uahalf	0x110
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7896,7 +7896,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL13"
 	.byte	0xc
 	.uahalf	0x111
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7905,7 +7905,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL14"
 	.byte	0xc
 	.uahalf	0x112
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7914,7 +7914,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL15"
 	.byte	0xc
 	.uahalf	0x113
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7924,18 +7924,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0xc
 	.uahalf	0x114
-	.uaword	0x4e66
+	.uaword	0x4e6b
 	.uleb128 0xf
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x117
-	.uaword	0x4f75
+	.uaword	0x4f7a
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xc
 	.uahalf	0x119
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -7944,7 +7944,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL4"
 	.byte	0xc
 	.uahalf	0x11a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7953,7 +7953,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL5"
 	.byte	0xc
 	.uahalf	0x11b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7962,7 +7962,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL6"
 	.byte	0xc
 	.uahalf	0x11c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7971,7 +7971,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL7"
 	.byte	0xc
 	.uahalf	0x11d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7980,7 +7980,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF4
 	.byte	0xc
 	.uahalf	0x11e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -7990,18 +7990,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0xc
 	.uahalf	0x11f
-	.uaword	0x4ef5
+	.uaword	0x4efa
 	.uleb128 0xf
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x122
-	.uaword	0x5010
+	.uaword	0x5015
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xc
 	.uahalf	0x124
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -8010,7 +8010,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL8"
 	.byte	0xc
 	.uahalf	0x125
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8019,7 +8019,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL9"
 	.byte	0xc
 	.uahalf	0x126
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8028,7 +8028,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL10"
 	.byte	0xc
 	.uahalf	0x127
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -8037,7 +8037,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL11"
 	.byte	0xc
 	.uahalf	0x128
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8046,7 +8046,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF6
 	.byte	0xc
 	.uahalf	0x129
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -8056,18 +8056,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0xc
 	.uahalf	0x12a
-	.uaword	0x4f8e
+	.uaword	0x4f93
 	.uleb128 0xf
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x12d
-	.uaword	0x516a
+	.uaword	0x516f
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xc
 	.uahalf	0x12f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -8076,7 +8076,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL0"
 	.byte	0xc
 	.uahalf	0x130
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8085,7 +8085,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL1"
 	.byte	0xc
 	.uahalf	0x131
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8094,7 +8094,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL2"
 	.byte	0xc
 	.uahalf	0x132
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8103,7 +8103,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL3"
 	.byte	0xc
 	.uahalf	0x133
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8112,7 +8112,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL4"
 	.byte	0xc
 	.uahalf	0x134
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8121,7 +8121,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL5"
 	.byte	0xc
 	.uahalf	0x135
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -8130,7 +8130,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL6"
 	.byte	0xc
 	.uahalf	0x136
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -8139,7 +8139,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL7"
 	.byte	0xc
 	.uahalf	0x137
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8148,7 +8148,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL8"
 	.byte	0xc
 	.uahalf	0x138
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8157,7 +8157,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL9"
 	.byte	0xc
 	.uahalf	0x139
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8166,7 +8166,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL10"
 	.byte	0xc
 	.uahalf	0x13a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -8175,7 +8175,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL11"
 	.byte	0xc
 	.uahalf	0x13b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8184,7 +8184,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL12"
 	.byte	0xc
 	.uahalf	0x13c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8193,7 +8193,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL13"
 	.byte	0xc
 	.uahalf	0x13d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8202,7 +8202,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL14"
 	.byte	0xc
 	.uahalf	0x13e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -8211,7 +8211,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL15"
 	.byte	0xc
 	.uahalf	0x13f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8221,18 +8221,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0xc
 	.uahalf	0x140
-	.uaword	0x5029
+	.uaword	0x502e
 	.uleb128 0xf
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x143
-	.uaword	0x53b8
+	.uaword	0x53bd
 	.uleb128 0xc
 	.string	"PS0"
 	.byte	0xc
 	.uahalf	0x145
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8241,7 +8241,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS1"
 	.byte	0xc
 	.uahalf	0x146
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8250,7 +8250,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS2"
 	.byte	0xc
 	.uahalf	0x147
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8259,7 +8259,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS3"
 	.byte	0xc
 	.uahalf	0x148
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8268,7 +8268,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS4"
 	.byte	0xc
 	.uahalf	0x149
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8277,7 +8277,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS5"
 	.byte	0xc
 	.uahalf	0x14a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8286,7 +8286,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS6"
 	.byte	0xc
 	.uahalf	0x14b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8295,7 +8295,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS7"
 	.byte	0xc
 	.uahalf	0x14c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8304,7 +8304,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS8"
 	.byte	0xc
 	.uahalf	0x14d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8313,7 +8313,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS9"
 	.byte	0xc
 	.uahalf	0x14e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8322,7 +8322,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS10"
 	.byte	0xc
 	.uahalf	0x14f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8331,7 +8331,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS11"
 	.byte	0xc
 	.uahalf	0x150
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8340,7 +8340,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS12"
 	.byte	0xc
 	.uahalf	0x151
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8349,7 +8349,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS13"
 	.byte	0xc
 	.uahalf	0x152
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8358,7 +8358,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS14"
 	.byte	0xc
 	.uahalf	0x153
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -8367,7 +8367,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS15"
 	.byte	0xc
 	.uahalf	0x154
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8376,7 +8376,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL0"
 	.byte	0xc
 	.uahalf	0x155
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8385,7 +8385,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL1"
 	.byte	0xc
 	.uahalf	0x156
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8394,7 +8394,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL2"
 	.byte	0xc
 	.uahalf	0x157
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8403,7 +8403,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL3"
 	.byte	0xc
 	.uahalf	0x158
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8412,7 +8412,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL4"
 	.byte	0xc
 	.uahalf	0x159
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8421,7 +8421,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL5"
 	.byte	0xc
 	.uahalf	0x15a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -8430,7 +8430,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL6"
 	.byte	0xc
 	.uahalf	0x15b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -8439,7 +8439,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL7"
 	.byte	0xc
 	.uahalf	0x15c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8448,7 +8448,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL8"
 	.byte	0xc
 	.uahalf	0x15d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8457,7 +8457,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL9"
 	.byte	0xc
 	.uahalf	0x15e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8466,7 +8466,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL10"
 	.byte	0xc
 	.uahalf	0x15f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -8475,7 +8475,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL11"
 	.byte	0xc
 	.uahalf	0x160
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8484,7 +8484,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL12"
 	.byte	0xc
 	.uahalf	0x161
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8493,7 +8493,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL13"
 	.byte	0xc
 	.uahalf	0x162
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8502,7 +8502,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL14"
 	.byte	0xc
 	.uahalf	0x163
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -8511,7 +8511,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PCL15"
 	.byte	0xc
 	.uahalf	0x164
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8521,18 +8521,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0xc
 	.uahalf	0x165
-	.uaword	0x5182
+	.uaword	0x5187
 	.uleb128 0xf
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x168
-	.uaword	0x543b
+	.uaword	0x5440
 	.uleb128 0xc
 	.string	"PS0"
 	.byte	0xc
 	.uahalf	0x16a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8541,7 +8541,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS1"
 	.byte	0xc
 	.uahalf	0x16b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8550,7 +8550,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS2"
 	.byte	0xc
 	.uahalf	0x16c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8559,7 +8559,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS3"
 	.byte	0xc
 	.uahalf	0x16d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8568,7 +8568,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF35
 	.byte	0xc
 	.uahalf	0x16e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -8578,18 +8578,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0xc
 	.uahalf	0x16f
-	.uaword	0x53cf
+	.uaword	0x53d4
 	.uleb128 0xf
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x172
-	.uaword	0x54d5
+	.uaword	0x54da
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xc
 	.uahalf	0x174
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -8598,7 +8598,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS12"
 	.byte	0xc
 	.uahalf	0x175
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8607,7 +8607,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS13"
 	.byte	0xc
 	.uahalf	0x176
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8616,7 +8616,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS14"
 	.byte	0xc
 	.uahalf	0x177
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -8625,7 +8625,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS15"
 	.byte	0xc
 	.uahalf	0x178
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8634,7 +8634,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.uahalf	0x179
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8644,18 +8644,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0xc
 	.uahalf	0x17a
-	.uaword	0x5454
+	.uaword	0x5459
 	.uleb128 0xf
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x17d
-	.uaword	0x556b
+	.uaword	0x5570
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xc
 	.uahalf	0x17f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -8664,7 +8664,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS4"
 	.byte	0xc
 	.uahalf	0x180
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8673,7 +8673,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS5"
 	.byte	0xc
 	.uahalf	0x181
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8682,7 +8682,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS6"
 	.byte	0xc
 	.uahalf	0x182
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8691,7 +8691,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS7"
 	.byte	0xc
 	.uahalf	0x183
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8700,7 +8700,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF41
 	.byte	0xc
 	.uahalf	0x184
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -8710,18 +8710,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0xc
 	.uahalf	0x185
-	.uaword	0x54ef
+	.uaword	0x54f4
 	.uleb128 0xf
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x188
-	.uaword	0x5602
+	.uaword	0x5607
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xc
 	.uahalf	0x18a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -8730,7 +8730,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS8"
 	.byte	0xc
 	.uahalf	0x18b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8739,7 +8739,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS9"
 	.byte	0xc
 	.uahalf	0x18c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8748,7 +8748,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS10"
 	.byte	0xc
 	.uahalf	0x18d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8757,7 +8757,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS11"
 	.byte	0xc
 	.uahalf	0x18e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8766,7 +8766,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF43
 	.byte	0xc
 	.uahalf	0x18f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -8776,18 +8776,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0xc
 	.uahalf	0x190
-	.uaword	0x5584
+	.uaword	0x5589
 	.uleb128 0xf
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x193
-	.uaword	0x574c
+	.uaword	0x5751
 	.uleb128 0xc
 	.string	"PS0"
 	.byte	0xc
 	.uahalf	0x195
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8796,7 +8796,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS1"
 	.byte	0xc
 	.uahalf	0x196
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8805,7 +8805,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS2"
 	.byte	0xc
 	.uahalf	0x197
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8814,7 +8814,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS3"
 	.byte	0xc
 	.uahalf	0x198
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8823,7 +8823,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS4"
 	.byte	0xc
 	.uahalf	0x199
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8832,7 +8832,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS5"
 	.byte	0xc
 	.uahalf	0x19a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8841,7 +8841,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS6"
 	.byte	0xc
 	.uahalf	0x19b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8850,7 +8850,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS7"
 	.byte	0xc
 	.uahalf	0x19c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8859,7 +8859,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS8"
 	.byte	0xc
 	.uahalf	0x19d
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8868,7 +8868,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS9"
 	.byte	0xc
 	.uahalf	0x19e
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8877,7 +8877,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS10"
 	.byte	0xc
 	.uahalf	0x19f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8886,7 +8886,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS11"
 	.byte	0xc
 	.uahalf	0x1a0
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8895,7 +8895,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS12"
 	.byte	0xc
 	.uahalf	0x1a1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8904,7 +8904,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS13"
 	.byte	0xc
 	.uahalf	0x1a2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8913,7 +8913,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS14"
 	.byte	0xc
 	.uahalf	0x1a3
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -8922,7 +8922,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PS15"
 	.byte	0xc
 	.uahalf	0x1a4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8931,7 +8931,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.uahalf	0x1a5
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8941,18 +8941,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0xc
 	.uahalf	0x1a6
-	.uaword	0x561b
+	.uaword	0x5620
 	.uleb128 0xf
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1a9
-	.uaword	0x5884
+	.uaword	0x5889
 	.uleb128 0xc
 	.string	"P0"
 	.byte	0xc
 	.uahalf	0x1ab
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8961,7 +8961,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P1"
 	.byte	0xc
 	.uahalf	0x1ac
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8970,7 +8970,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P2"
 	.byte	0xc
 	.uahalf	0x1ad
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8979,7 +8979,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P3"
 	.byte	0xc
 	.uahalf	0x1ae
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8988,7 +8988,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P4"
 	.byte	0xc
 	.uahalf	0x1af
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8997,7 +8997,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P5"
 	.byte	0xc
 	.uahalf	0x1b0
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9006,7 +9006,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P6"
 	.byte	0xc
 	.uahalf	0x1b1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9015,7 +9015,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P7"
 	.byte	0xc
 	.uahalf	0x1b2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9024,7 +9024,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P8"
 	.byte	0xc
 	.uahalf	0x1b3
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9033,7 +9033,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P9"
 	.byte	0xc
 	.uahalf	0x1b4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9042,7 +9042,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P10"
 	.byte	0xc
 	.uahalf	0x1b5
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9051,7 +9051,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P11"
 	.byte	0xc
 	.uahalf	0x1b6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9060,7 +9060,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P12"
 	.byte	0xc
 	.uahalf	0x1b7
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9069,7 +9069,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P13"
 	.byte	0xc
 	.uahalf	0x1b8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9078,7 +9078,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P14"
 	.byte	0xc
 	.uahalf	0x1b9
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9087,7 +9087,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"P15"
 	.byte	0xc
 	.uahalf	0x1ba
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9096,7 +9096,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.uahalf	0x1bb
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9106,18 +9106,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0xc
 	.uahalf	0x1bc
-	.uaword	0x5764
+	.uaword	0x5769
 	.uleb128 0xf
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1bf
-	.uaword	0x5981
+	.uaword	0x5986
 	.uleb128 0xc
 	.string	"SEL0"
 	.byte	0xc
 	.uahalf	0x1c1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9126,7 +9126,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SEL1"
 	.byte	0xc
 	.uahalf	0x1c2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9135,7 +9135,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SEL2"
 	.byte	0xc
 	.uahalf	0x1c3
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9144,7 +9144,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SEL3"
 	.byte	0xc
 	.uahalf	0x1c4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9153,7 +9153,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SEL4"
 	.byte	0xc
 	.uahalf	0x1c5
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9162,7 +9162,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SEL5"
 	.byte	0xc
 	.uahalf	0x1c6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9171,7 +9171,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SEL6"
 	.byte	0xc
 	.uahalf	0x1c7
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9180,7 +9180,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF36
 	.byte	0xc
 	.uahalf	0x1c8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -9189,7 +9189,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SEL10"
 	.byte	0xc
 	.uahalf	0x1c9
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9198,7 +9198,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"SEL11"
 	.byte	0xc
 	.uahalf	0x1ca
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9207,7 +9207,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF43
 	.byte	0xc
 	.uahalf	0x1cb
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -9216,7 +9216,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"LCK"
 	.byte	0xc
 	.uahalf	0x1cc
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9226,18 +9226,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0xc
 	.uahalf	0x1cd
-	.uaword	0x589b
+	.uaword	0x58a0
 	.uleb128 0xf
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1d0
-	.uaword	0x5aeb
+	.uaword	0x5af0
 	.uleb128 0xc
 	.string	"PDIS0"
 	.byte	0xc
 	.uahalf	0x1d2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9246,7 +9246,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS1"
 	.byte	0xc
 	.uahalf	0x1d3
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9255,7 +9255,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS2"
 	.byte	0xc
 	.uahalf	0x1d4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9264,7 +9264,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS3"
 	.byte	0xc
 	.uahalf	0x1d5
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9273,7 +9273,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS4"
 	.byte	0xc
 	.uahalf	0x1d6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9282,7 +9282,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS5"
 	.byte	0xc
 	.uahalf	0x1d7
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9291,7 +9291,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS6"
 	.byte	0xc
 	.uahalf	0x1d8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9300,7 +9300,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS7"
 	.byte	0xc
 	.uahalf	0x1d9
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9309,7 +9309,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS8"
 	.byte	0xc
 	.uahalf	0x1da
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9318,7 +9318,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS9"
 	.byte	0xc
 	.uahalf	0x1db
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9327,7 +9327,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS10"
 	.byte	0xc
 	.uahalf	0x1dc
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9336,7 +9336,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS11"
 	.byte	0xc
 	.uahalf	0x1dd
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9345,7 +9345,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS12"
 	.byte	0xc
 	.uahalf	0x1de
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9354,7 +9354,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS13"
 	.byte	0xc
 	.uahalf	0x1df
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9363,7 +9363,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS14"
 	.byte	0xc
 	.uahalf	0x1e0
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9372,7 +9372,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PDIS15"
 	.byte	0xc
 	.uahalf	0x1e1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9381,7 +9381,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF40
 	.byte	0xc
 	.uahalf	0x1e2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9391,18 +9391,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0xc
 	.uahalf	0x1e3
-	.uaword	0x5999
+	.uaword	0x599e
 	.uleb128 0xf
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1e6
-	.uaword	0x5c1f
+	.uaword	0x5c24
 	.uleb128 0xc
 	.string	"PD0"
 	.byte	0xc
 	.uahalf	0x1e8
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -9411,7 +9411,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL0"
 	.byte	0xc
 	.uahalf	0x1e9
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9420,7 +9420,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD1"
 	.byte	0xc
 	.uahalf	0x1ea
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -9429,7 +9429,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL1"
 	.byte	0xc
 	.uahalf	0x1eb
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9438,7 +9438,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD2"
 	.byte	0xc
 	.uahalf	0x1ec
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -9447,7 +9447,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL2"
 	.byte	0xc
 	.uahalf	0x1ed
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9456,7 +9456,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD3"
 	.byte	0xc
 	.uahalf	0x1ee
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -9465,7 +9465,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL3"
 	.byte	0xc
 	.uahalf	0x1ef
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9474,7 +9474,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD4"
 	.byte	0xc
 	.uahalf	0x1f0
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -9483,7 +9483,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL4"
 	.byte	0xc
 	.uahalf	0x1f1
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -9492,7 +9492,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD5"
 	.byte	0xc
 	.uahalf	0x1f2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -9501,7 +9501,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL5"
 	.byte	0xc
 	.uahalf	0x1f3
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -9510,7 +9510,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD6"
 	.byte	0xc
 	.uahalf	0x1f4
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -9519,7 +9519,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL6"
 	.byte	0xc
 	.uahalf	0x1f5
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9528,7 +9528,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD7"
 	.byte	0xc
 	.uahalf	0x1f6
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -9537,7 +9537,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL7"
 	.byte	0xc
 	.uahalf	0x1f7
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9547,18 +9547,18 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0xc
 	.uahalf	0x1f8
-	.uaword	0x5b04
+	.uaword	0x5b09
 	.uleb128 0xf
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1fb
-	.uaword	0x5d5e
+	.uaword	0x5d63
 	.uleb128 0xc
 	.string	"PD8"
 	.byte	0xc
 	.uahalf	0x1fd
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -9567,7 +9567,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL8"
 	.byte	0xc
 	.uahalf	0x1fe
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9576,7 +9576,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD9"
 	.byte	0xc
 	.uahalf	0x1ff
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -9585,7 +9585,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL9"
 	.byte	0xc
 	.uahalf	0x200
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9594,7 +9594,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD10"
 	.byte	0xc
 	.uahalf	0x201
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -9603,7 +9603,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL10"
 	.byte	0xc
 	.uahalf	0x202
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9612,7 +9612,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD11"
 	.byte	0xc
 	.uahalf	0x203
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -9621,7 +9621,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL11"
 	.byte	0xc
 	.uahalf	0x204
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9630,7 +9630,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD12"
 	.byte	0xc
 	.uahalf	0x205
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -9639,7 +9639,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL12"
 	.byte	0xc
 	.uahalf	0x206
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -9648,7 +9648,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD13"
 	.byte	0xc
 	.uahalf	0x207
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -9657,7 +9657,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL13"
 	.byte	0xc
 	.uahalf	0x208
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -9666,7 +9666,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD14"
 	.byte	0xc
 	.uahalf	0x209
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -9675,7 +9675,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL14"
 	.byte	0xc
 	.uahalf	0x20a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9684,7 +9684,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PD15"
 	.byte	0xc
 	.uahalf	0x20b
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -9693,7 +9693,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"PL15"
 	.byte	0xc
 	.uahalf	0x20c
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9703,1027 +9703,1027 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0xc
 	.uahalf	0x20d
-	.uaword	0x5c37
+	.uaword	0x5c3c
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x215
-	.uaword	0x5d9e
+	.uaword	0x5da3
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x217
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x218
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x219
-	.uaword	0x4492
+	.uaword	0x4497
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_ACCEN0"
 	.byte	0xc
 	.uahalf	0x21a
-	.uaword	0x5d76
+	.uaword	0x5d7b
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x21d
-	.uaword	0x5ddb
+	.uaword	0x5de0
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x21f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x220
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x221
-	.uaword	0x44d6
+	.uaword	0x44db
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_ACCEN1"
 	.byte	0xc
 	.uahalf	0x222
-	.uaword	0x5db3
+	.uaword	0x5db8
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x225
-	.uaword	0x5e18
+	.uaword	0x5e1d
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x227
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x228
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x229
-	.uaword	0x460d
+	.uaword	0x4612
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_ESR"
 	.byte	0xc
 	.uahalf	0x22a
-	.uaword	0x5df0
+	.uaword	0x5df5
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x22d
-	.uaword	0x5e52
+	.uaword	0x5e57
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x22f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x230
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x231
-	.uaword	0x466f
+	.uaword	0x4674
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_ID"
 	.byte	0xc
 	.uahalf	0x232
-	.uaword	0x5e2a
+	.uaword	0x5e2f
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x235
-	.uaword	0x5e8b
+	.uaword	0x5e90
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x237
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x238
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x239
-	.uaword	0x4791
+	.uaword	0x4796
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_IN"
 	.byte	0xc
 	.uahalf	0x23a
-	.uaword	0x5e63
+	.uaword	0x5e68
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x23d
-	.uaword	0x5ec4
+	.uaword	0x5ec9
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x23f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x240
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x241
-	.uaword	0x4839
+	.uaword	0x483e
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_IOCR0"
 	.byte	0xc
 	.uahalf	0x242
-	.uaword	0x5e9c
+	.uaword	0x5ea1
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x245
-	.uaword	0x5f00
+	.uaword	0x5f05
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x247
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x248
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x249
-	.uaword	0x48e9
+	.uaword	0x48ee
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_IOCR12"
 	.byte	0xc
 	.uahalf	0x24a
-	.uaword	0x5ed8
+	.uaword	0x5edd
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x24d
-	.uaword	0x5f3d
+	.uaword	0x5f42
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x24f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x250
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x251
-	.uaword	0x4995
+	.uaword	0x499a
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_IOCR4"
 	.byte	0xc
 	.uahalf	0x252
-	.uaword	0x5f15
+	.uaword	0x5f1a
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x255
-	.uaword	0x5f79
+	.uaword	0x5f7e
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x257
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x258
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x259
-	.uaword	0x4a42
+	.uaword	0x4a47
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_IOCR8"
 	.byte	0xc
 	.uahalf	0x25a
-	.uaword	0x5f51
+	.uaword	0x5f56
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x25d
-	.uaword	0x5fc3
+	.uaword	0x5fc8
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x25f
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x260
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x261
-	.uaword	0x4aa2
+	.uaword	0x4aa7
 	.uleb128 0x11
 	.string	"B_P21"
 	.byte	0xc
 	.uahalf	0x262
-	.uaword	0x4b2c
+	.uaword	0x4b31
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_LPCR0"
 	.byte	0xc
 	.uahalf	0x263
-	.uaword	0x5f8d
+	.uaword	0x5f92
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x266
-	.uaword	0x600d
+	.uaword	0x6012
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x268
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x269
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x26a
-	.uaword	0x4b90
+	.uaword	0x4b95
 	.uleb128 0x11
 	.string	"B_P21"
 	.byte	0xc
 	.uahalf	0x26b
-	.uaword	0x4c1a
+	.uaword	0x4c1f
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_LPCR1"
 	.byte	0xc
 	.uahalf	0x26c
-	.uaword	0x5fd7
+	.uaword	0x5fdc
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x26f
-	.uaword	0x6057
+	.uaword	0x605c
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x271
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x272
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x273
-	.uaword	0x4c7e
+	.uaword	0x4c83
 	.uleb128 0x11
 	.string	"B_P21"
 	.byte	0xc
 	.uahalf	0x274
-	.uaword	0x4d51
+	.uaword	0x4d56
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_LPCR2"
 	.byte	0xc
 	.uahalf	0x275
-	.uaword	0x6021
+	.uaword	0x6026
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x278
-	.uaword	0x6093
+	.uaword	0x6098
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x27a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x27b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x27c
-	.uaword	0x4db5
+	.uaword	0x4dba
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_LPCR3"
 	.byte	0xc
 	.uahalf	0x27d
-	.uaword	0x606b
+	.uaword	0x6070
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x280
-	.uaword	0x60cf
+	.uaword	0x60d4
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x282
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x283
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x284
-	.uaword	0x516a
+	.uaword	0x516f
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMCR"
 	.byte	0xc
 	.uahalf	0x285
-	.uaword	0x60a7
+	.uaword	0x60ac
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x288
-	.uaword	0x610a
+	.uaword	0x610f
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x28a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x28b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x28c
-	.uaword	0x4e4d
+	.uaword	0x4e52
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMCR0"
 	.byte	0xc
 	.uahalf	0x28d
-	.uaword	0x60e2
+	.uaword	0x60e7
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x290
-	.uaword	0x6146
+	.uaword	0x614b
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x292
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x293
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x294
-	.uaword	0x4edb
+	.uaword	0x4ee0
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMCR12"
 	.byte	0xc
 	.uahalf	0x295
-	.uaword	0x611e
+	.uaword	0x6123
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x298
-	.uaword	0x6183
+	.uaword	0x6188
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x29a
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x29b
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x29c
-	.uaword	0x4f75
+	.uaword	0x4f7a
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMCR4"
 	.byte	0xc
 	.uahalf	0x29d
-	.uaword	0x615b
+	.uaword	0x6160
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2a0
-	.uaword	0x61bf
+	.uaword	0x61c4
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2a2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2a3
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2a4
-	.uaword	0x5010
+	.uaword	0x5015
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMCR8"
 	.byte	0xc
 	.uahalf	0x2a5
-	.uaword	0x6197
+	.uaword	0x619c
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2a8
-	.uaword	0x61fb
+	.uaword	0x6200
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2aa
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2ab
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2ac
-	.uaword	0x53b8
+	.uaword	0x53bd
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMR"
 	.byte	0xc
 	.uahalf	0x2ad
-	.uaword	0x61d3
+	.uaword	0x61d8
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2b0
-	.uaword	0x6235
+	.uaword	0x623a
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2b2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2b3
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2b4
-	.uaword	0x574c
+	.uaword	0x5751
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMSR"
 	.byte	0xc
 	.uahalf	0x2b5
-	.uaword	0x620d
+	.uaword	0x6212
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2b8
-	.uaword	0x6270
+	.uaword	0x6275
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2ba
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2bb
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2bc
-	.uaword	0x543b
+	.uaword	0x5440
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMSR0"
 	.byte	0xc
 	.uahalf	0x2bd
-	.uaword	0x6248
+	.uaword	0x624d
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2c0
-	.uaword	0x62ac
+	.uaword	0x62b1
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2c2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2c3
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2c4
-	.uaword	0x54d5
+	.uaword	0x54da
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMSR12"
 	.byte	0xc
 	.uahalf	0x2c5
-	.uaword	0x6284
+	.uaword	0x6289
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2c8
-	.uaword	0x62e9
+	.uaword	0x62ee
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2ca
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2cb
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2cc
-	.uaword	0x556b
+	.uaword	0x5570
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMSR4"
 	.byte	0xc
 	.uahalf	0x2cd
-	.uaword	0x62c1
+	.uaword	0x62c6
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2d0
-	.uaword	0x6325
+	.uaword	0x632a
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2d2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2d3
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2d4
-	.uaword	0x5602
+	.uaword	0x5607
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OMSR8"
 	.byte	0xc
 	.uahalf	0x2d5
-	.uaword	0x62fd
+	.uaword	0x6302
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2d8
-	.uaword	0x6361
+	.uaword	0x6366
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2da
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2db
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2dc
-	.uaword	0x5884
+	.uaword	0x5889
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_OUT"
 	.byte	0xc
 	.uahalf	0x2dd
-	.uaword	0x6339
+	.uaword	0x633e
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2e0
-	.uaword	0x639b
+	.uaword	0x63a0
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2e2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2e3
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2e4
-	.uaword	0x5981
+	.uaword	0x5986
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_PCSR"
 	.byte	0xc
 	.uahalf	0x2e5
-	.uaword	0x6373
+	.uaword	0x6378
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2e8
-	.uaword	0x63d6
+	.uaword	0x63db
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2ea
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2eb
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2ec
-	.uaword	0x5aeb
+	.uaword	0x5af0
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_PDISC"
 	.byte	0xc
 	.uahalf	0x2ed
-	.uaword	0x63ae
+	.uaword	0x63b3
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2f0
-	.uaword	0x6412
+	.uaword	0x6417
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2f2
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2f3
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2f4
-	.uaword	0x5c1f
+	.uaword	0x5c24
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_PDR0"
 	.byte	0xc
 	.uahalf	0x2f5
-	.uaword	0x63ea
+	.uaword	0x63ef
 	.uleb128 0x10
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x2f8
-	.uaword	0x644d
+	.uaword	0x6452
 	.uleb128 0x11
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x2fa
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.uleb128 0x11
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x2fb
-	.uaword	0x1d5
+	.uaword	0x1da
 	.uleb128 0x11
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x2fc
-	.uaword	0x5d5e
+	.uaword	0x5d63
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P_PDR1"
 	.byte	0xc
 	.uahalf	0x2fd
-	.uaword	0x6425
+	.uaword	0x642a
 	.uleb128 0x13
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0xc
 	.uahalf	0x308
-	.uaword	0x66a3
+	.uaword	0x66a8
 	.uleb128 0x12
 	.string	"OUT"
 	.byte	0xc
 	.uahalf	0x30a
-	.uaword	0x6361
+	.uaword	0x6366
 	.byte	0
 	.uleb128 0x12
 	.string	"OMR"
 	.byte	0xc
 	.uahalf	0x30b
-	.uaword	0x61fb
+	.uaword	0x6200
 	.byte	0x4
 	.uleb128 0x12
 	.string	"ID"
 	.byte	0xc
 	.uahalf	0x30c
-	.uaword	0x5e52
+	.uaword	0x5e57
 	.byte	0x8
 	.uleb128 0x14
 	.uaword	.LASF39
 	.byte	0xc
 	.uahalf	0x30d
-	.uaword	0x17ab
+	.uaword	0x17b0
 	.byte	0xc
 	.uleb128 0x12
 	.string	"IOCR0"
 	.byte	0xc
 	.uahalf	0x30e
-	.uaword	0x5ec4
+	.uaword	0x5ec9
 	.byte	0x10
 	.uleb128 0x12
 	.string	"IOCR4"
 	.byte	0xc
 	.uahalf	0x30f
-	.uaword	0x5f3d
+	.uaword	0x5f42
 	.byte	0x14
 	.uleb128 0x12
 	.string	"IOCR8"
 	.byte	0xc
 	.uahalf	0x310
-	.uaword	0x5f79
+	.uaword	0x5f7e
 	.byte	0x18
 	.uleb128 0x12
 	.string	"IOCR12"
 	.byte	0xc
 	.uahalf	0x311
-	.uaword	0x5f00
+	.uaword	0x5f05
 	.byte	0x1c
 	.uleb128 0x14
 	.uaword	.LASF8
 	.byte	0xc
 	.uahalf	0x312
-	.uaword	0x17ab
+	.uaword	0x17b0
 	.byte	0x20
 	.uleb128 0x12
 	.string	"IN"
 	.byte	0xc
 	.uahalf	0x313
-	.uaword	0x5e8b
+	.uaword	0x5e90
 	.byte	0x24
 	.uleb128 0x14
 	.uaword	.LASF6
 	.byte	0xc
 	.uahalf	0x314
-	.uaword	0x313e
+	.uaword	0x3143
 	.byte	0x28
 	.uleb128 0x12
 	.string	"PDR0"
 	.byte	0xc
 	.uahalf	0x315
-	.uaword	0x6412
+	.uaword	0x6417
 	.byte	0x40
 	.uleb128 0x12
 	.string	"PDR1"
 	.byte	0xc
 	.uahalf	0x316
-	.uaword	0x644d
+	.uaword	0x6452
 	.byte	0x44
 	.uleb128 0x12
 	.string	"reserved_48"
 	.byte	0xc
 	.uahalf	0x317
-	.uaword	0x1832
+	.uaword	0x1837
 	.byte	0x48
 	.uleb128 0x12
 	.string	"ESR"
 	.byte	0xc
 	.uahalf	0x318
-	.uaword	0x5e18
+	.uaword	0x5e1d
 	.byte	0x50
 	.uleb128 0x12
 	.string	"reserved_54"
 	.byte	0xc
 	.uahalf	0x319
-	.uaword	0x1842
+	.uaword	0x1847
 	.byte	0x54
 	.uleb128 0x12
 	.string	"PDISC"
 	.byte	0xc
 	.uahalf	0x31a
-	.uaword	0x63d6
+	.uaword	0x63db
 	.byte	0x60
 	.uleb128 0x12
 	.string	"PCSR"
 	.byte	0xc
 	.uahalf	0x31b
-	.uaword	0x639b
+	.uaword	0x63a0
 	.byte	0x64
 	.uleb128 0x12
 	.string	"reserved_68"
 	.byte	0xc
 	.uahalf	0x31c
-	.uaword	0x1832
+	.uaword	0x1837
 	.byte	0x68
 	.uleb128 0x12
 	.string	"OMSR0"
 	.byte	0xc
 	.uahalf	0x31d
-	.uaword	0x6270
+	.uaword	0x6275
 	.byte	0x70
 	.uleb128 0x12
 	.string	"OMSR4"
 	.byte	0xc
 	.uahalf	0x31e
-	.uaword	0x62e9
+	.uaword	0x62ee
 	.byte	0x74
 	.uleb128 0x12
 	.string	"OMSR8"
 	.byte	0xc
 	.uahalf	0x31f
-	.uaword	0x6325
+	.uaword	0x632a
 	.byte	0x78
 	.uleb128 0x12
 	.string	"OMSR12"
 	.byte	0xc
 	.uahalf	0x320
-	.uaword	0x62ac
+	.uaword	0x62b1
 	.byte	0x7c
 	.uleb128 0x12
 	.string	"OMCR0"
 	.byte	0xc
 	.uahalf	0x321
-	.uaword	0x610a
+	.uaword	0x610f
 	.byte	0x80
 	.uleb128 0x12
 	.string	"OMCR4"
 	.byte	0xc
 	.uahalf	0x322
-	.uaword	0x6183
+	.uaword	0x6188
 	.byte	0x84
 	.uleb128 0x12
 	.string	"OMCR8"
 	.byte	0xc
 	.uahalf	0x323
-	.uaword	0x61bf
+	.uaword	0x61c4
 	.byte	0x88
 	.uleb128 0x12
 	.string	"OMCR12"
 	.byte	0xc
 	.uahalf	0x324
-	.uaword	0x6146
+	.uaword	0x614b
 	.byte	0x8c
 	.uleb128 0x12
 	.string	"OMSR"
 	.byte	0xc
 	.uahalf	0x325
-	.uaword	0x6235
+	.uaword	0x623a
 	.byte	0x90
 	.uleb128 0x12
 	.string	"OMCR"
 	.byte	0xc
 	.uahalf	0x326
-	.uaword	0x60cf
+	.uaword	0x60d4
 	.byte	0x94
 	.uleb128 0x12
 	.string	"reserved_98"
 	.byte	0xc
 	.uahalf	0x327
-	.uaword	0x1832
+	.uaword	0x1837
 	.byte	0x98
 	.uleb128 0x12
 	.string	"LPCR0"
 	.byte	0xc
 	.uahalf	0x328
-	.uaword	0x5fc3
+	.uaword	0x5fc8
 	.byte	0xa0
 	.uleb128 0x12
 	.string	"LPCR1"
 	.byte	0xc
 	.uahalf	0x329
-	.uaword	0x600d
+	.uaword	0x6012
 	.byte	0xa4
 	.uleb128 0x12
 	.string	"LPCR2"
 	.byte	0xc
 	.uahalf	0x32a
-	.uaword	0x6057
+	.uaword	0x605c
 	.byte	0xa8
 	.uleb128 0x12
 	.string	"LPCR3"
 	.byte	0xc
 	.uahalf	0x32b
-	.uaword	0x6093
+	.uaword	0x6098
 	.byte	0xac
 	.uleb128 0x12
 	.string	"reserved_A4"
 	.byte	0xc
 	.uahalf	0x32c
-	.uaword	0x66a3
+	.uaword	0x66a8
 	.byte	0xb0
 	.uleb128 0x14
 	.uaword	.LASF11
 	.byte	0xc
 	.uahalf	0x32d
-	.uaword	0x5ddb
+	.uaword	0x5de0
 	.byte	0xf8
 	.uleb128 0x14
 	.uaword	.LASF10
 	.byte	0xc
 	.uahalf	0x32e
-	.uaword	0x5d9e
+	.uaword	0x5da3
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x1f8
-	.uaword	0x66b3
+	.uaword	0x1fd
+	.uaword	0x66b8
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x47
 	.byte	0
 	.uleb128 0xe
 	.string	"Ifx_P"
 	.byte	0xc
 	.uahalf	0x32f
-	.uaword	0x66c1
+	.uaword	0x66c6
 	.uleb128 0xa
-	.uaword	0x6460
+	.uaword	0x6465
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x66b3
+	.uaword	0x66b8
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0xd
 	.byte	0x4c
-	.uaword	0x696c
+	.uaword	0x6971
 	.uleb128 0x19
 	.string	"IfxPort_Mode_inputNoPullDevice"
 	.sleb128 0
@@ -10786,12 +10786,12 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxPort_Mode"
 	.byte	0xd
 	.byte	0x60
-	.uaword	0x66cc
+	.uaword	0x66d1
 	.uleb128 0x18
 	.byte	0x1
 	.byte	0xd
 	.byte	0x65
-	.uaword	0x6a5c
+	.uaword	0x6a61
 	.uleb128 0x19
 	.string	"IfxPort_OutputIdx_general"
 	.sleb128 128
@@ -10821,7 +10821,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x1
 	.byte	0xe
 	.byte	0x68
-	.uaword	0x6bb0
+	.uaword	0x6bb5
 	.uleb128 0x19
 	.string	"IfxEbu_Dram_SDRAMDevice_64Mx16bit"
 	.sleb128 0
@@ -10857,171 +10857,171 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"IfxEbu_Dram_SDRAMDevice"
 	.byte	0xe
 	.byte	0x73
-	.uaword	0x6a5c
+	.uaword	0x6a61
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0xe
 	.byte	0x7d
-	.uaword	0x6bfc
+	.uaword	0x6c01
 	.uleb128 0x7
 	.string	"ebu"
 	.byte	0xe
 	.byte	0x7f
-	.uaword	0x6bfc
+	.uaword	0x6c01
 	.byte	0
 	.uleb128 0x1e
 	.uaword	.LASF44
 	.byte	0xe
 	.byte	0x80
-	.uaword	0x189d
+	.uaword	0x18a2
 	.byte	0x4
 	.uleb128 0x1e
 	.uaword	.LASF12
 	.byte	0xe
 	.byte	0x81
-	.uaword	0x248
+	.uaword	0x24d
 	.byte	0x8
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x181d
+	.uaword	0x1822
 	.uleb128 0x3
 	.string	"IfxEbu_Dram"
 	.byte	0xe
 	.byte	0x82
-	.uaword	0x6bcf
+	.uaword	0x6bd4
 	.uleb128 0x6
 	.byte	0x90
 	.byte	0xe
 	.byte	0x84
-	.uaword	0x6dc9
+	.uaword	0x6dce
 	.uleb128 0x7
 	.string	"module"
 	.byte	0xe
 	.byte	0x86
-	.uaword	0x6bfc
+	.uaword	0x6c01
 	.byte	0
 	.uleb128 0x1e
 	.uaword	.LASF44
 	.byte	0xe
 	.byte	0x87
-	.uaword	0x189d
+	.uaword	0x18a2
 	.byte	0x4
 	.uleb128 0x7
 	.string	"syncReadConfig"
 	.byte	0xe
 	.byte	0x88
-	.uaword	0x2c22
+	.uaword	0x2c27
 	.byte	0x6
 	.uleb128 0x7
 	.string	"syncWriteConfig"
 	.byte	0xe
 	.byte	0x89
-	.uaword	0x3059
+	.uaword	0x305e
 	.byte	0x12
 	.uleb128 0x7
 	.string	"asyncReadConfig"
 	.byte	0xe
 	.byte	0x8a
-	.uaword	0x2c22
+	.uaword	0x2c27
 	.byte	0x1c
 	.uleb128 0x7
 	.string	"asyncWriteConfig"
 	.byte	0xe
 	.byte	0x8b
-	.uaword	0x3059
+	.uaword	0x305e
 	.byte	0x28
 	.uleb128 0x7
 	.string	"syncReadAccessParameter"
 	.byte	0xe
 	.byte	0x8c
-	.uaword	0x2b42
+	.uaword	0x2b47
 	.byte	0x32
 	.uleb128 0x7
 	.string	"syncWriteAccessParameter"
 	.byte	0xe
 	.byte	0x8d
-	.uaword	0x2fb6
+	.uaword	0x2fbb
 	.byte	0x3c
 	.uleb128 0x7
 	.string	"asyncReadAccessParameter"
 	.byte	0xe
 	.byte	0x8e
-	.uaword	0x2b42
+	.uaword	0x2b47
 	.byte	0x46
 	.uleb128 0x7
 	.string	"asyncWriteAccessParameter"
 	.byte	0xe
 	.byte	0x8f
-	.uaword	0x2fb6
+	.uaword	0x2fbb
 	.byte	0x50
 	.uleb128 0x7
 	.string	"sdramDevice"
 	.byte	0xe
 	.byte	0x90
-	.uaword	0x6bb0
+	.uaword	0x6bb5
 	.byte	0x5a
 	.uleb128 0x7
 	.string	"sdramModConfig"
 	.byte	0xe
 	.byte	0x91
-	.uaword	0x2e02
+	.uaword	0x2e07
 	.byte	0x5c
 	.uleb128 0x7
 	.string	"sdramRefreshConfig"
 	.byte	0xe
 	.byte	0x92
-	.uaword	0x2f15
+	.uaword	0x2f1a
 	.byte	0x64
 	.uleb128 0x7
 	.string	"sdramControlConfig"
 	.byte	0xe
 	.byte	0x93
-	.uaword	0x2d57
+	.uaword	0x2d5c
 	.byte	0x6e
 	.uleb128 0x7
 	.string	"memoryRegionConfig"
 	.byte	0xe
 	.byte	0x94
-	.uaword	0x29fd
+	.uaword	0x2a02
 	.byte	0x7c
 	.uleb128 0x7
 	.string	"externalClockRatio"
 	.byte	0xe
 	.byte	0x95
-	.uaword	0x1973
+	.uaword	0x1978
 	.byte	0x88
 	.uleb128 0x7
 	.string	"moduleConfig"
 	.byte	0xe
 	.byte	0x96
-	.uaword	0x2aa7
+	.uaword	0x2aac
 	.byte	0x8a
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxEbu_Dram_Config"
 	.byte	0xe
 	.byte	0x97
-	.uaword	0x6c15
+	.uaword	0x6c1a
 	.uleb128 0x1f
 	.string	"IfxCpu_areInterruptsEnabled"
 	.byte	0x2
 	.uahalf	0x275
 	.byte	0x1
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x3
-	.uaword	0x6e2a
+	.uaword	0x6e2f
 	.uleb128 0x20
 	.string	"reg"
 	.byte	0x2
 	.uahalf	0x277
-	.uaword	0x312a
+	.uaword	0x312f
 	.uleb128 0x21
 	.uleb128 0x20
 	.string	"__res"
 	.byte	0x2
 	.uahalf	0x278
-	.uaword	0x1a4
+	.uaword	0x1a9
 	.byte	0
 	.byte	0
 	.uleb128 0x22
@@ -11035,14 +11035,14 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x2
 	.uahalf	0x27d
 	.byte	0x1
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x3
-	.uaword	0x6e6a
+	.uaword	0x6e6f
 	.uleb128 0x23
 	.uaword	.LASF45
 	.byte	0x2
 	.uahalf	0x27f
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0
 	.uleb128 0x24
 	.string	"IfxCpu_restoreInterrupts"
@@ -11050,111 +11050,111 @@ IfxEbu_Dram_initMemoryConfig:
 	.uahalf	0x392
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x6e9a
+	.uaword	0x6e9f
 	.uleb128 0x25
 	.uaword	.LASF45
 	.byte	0x2
 	.uahalf	0x392
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0
 	.uleb128 0x26
 	.string	"disableInterrupts"
 	.byte	0x5
 	.byte	0x58
 	.byte	0x1
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x3
 	.uleb128 0x1f
 	.string	"IfxStm_get"
 	.byte	0x4
 	.uahalf	0x20e
 	.byte	0x1
-	.uaword	0x297
+	.uaword	0x29c
 	.byte	0x3
-	.uaword	0x6eea
+	.uaword	0x6eef
 	.uleb128 0x27
 	.string	"stm"
 	.byte	0x4
 	.uahalf	0x20e
-	.uaword	0x6eea
+	.uaword	0x6eef
 	.uleb128 0x20
 	.string	"result"
 	.byte	0x4
 	.uahalf	0x210
-	.uaword	0x297
+	.uaword	0x29c
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x426b
+	.uaword	0x4270
 	.uleb128 0x28
 	.string	"restoreInterrupts"
 	.byte	0x5
 	.byte	0x7a
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x6f17
+	.uaword	0x6f1c
 	.uleb128 0x29
 	.uaword	.LASF45
 	.byte	0x5
 	.byte	0x7a
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0
 	.uleb128 0x2a
 	.string	"now"
 	.byte	0x5
 	.byte	0xc9
 	.byte	0x1
-	.uaword	0x2b4
+	.uaword	0x2b9
 	.byte	0x3
-	.uaword	0x6f4d
+	.uaword	0x6f52
 	.uleb128 0x2b
 	.string	"stmNow"
 	.byte	0x5
 	.byte	0xcb
-	.uaword	0x2b4
+	.uaword	0x2b9
 	.uleb128 0x2b
 	.string	"interruptState"
 	.byte	0x5
 	.byte	0xcc
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0
 	.uleb128 0x1f
 	.string	"getDeadLine"
 	.byte	0x5
 	.uahalf	0x110
 	.byte	0x1
-	.uaword	0x2b4
+	.uaword	0x2b9
 	.byte	0x3
-	.uaword	0x6f84
+	.uaword	0x6f89
 	.uleb128 0x27
 	.string	"timeout"
 	.byte	0x5
 	.uahalf	0x110
-	.uaword	0x2b4
+	.uaword	0x2b9
 	.uleb128 0x23
 	.uaword	.LASF46
 	.byte	0x5
 	.uahalf	0x112
-	.uaword	0x2b4
+	.uaword	0x2b9
 	.byte	0
 	.uleb128 0x1f
 	.string	"isDeadLine"
 	.byte	0x5
 	.uahalf	0x13f
 	.byte	0x1
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0x3
-	.uaword	0x6fb9
+	.uaword	0x6fbe
 	.uleb128 0x25
 	.uaword	.LASF46
 	.byte	0x5
 	.uahalf	0x13f
-	.uaword	0x2b4
+	.uaword	0x2b9
 	.uleb128 0x20
 	.string	"result"
 	.byte	0x5
 	.uahalf	0x141
-	.uaword	0x269
+	.uaword	0x26e
 	.byte	0
 	.uleb128 0x24
 	.string	"wait"
@@ -11162,17 +11162,17 @@ IfxEbu_Dram_initMemoryConfig:
 	.uahalf	0x18f
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x6fe5
+	.uaword	0x6fea
 	.uleb128 0x27
 	.string	"timeout"
 	.byte	0x5
 	.uahalf	0x18f
-	.uaword	0x2b4
+	.uaword	0x2b9
 	.uleb128 0x23
 	.uaword	.LASF46
 	.byte	0x5
 	.uahalf	0x191
-	.uaword	0x2b4
+	.uaword	0x2b9
 	.byte	0
 	.uleb128 0x2c
 	.byte	0x1
@@ -11185,31 +11185,31 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x759b
+	.uaword	0x75a0
 	.uleb128 0x2d
 	.string	"dram"
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x759b
+	.uaword	0x75a0
 	.uaword	.LLST0
 	.uleb128 0x2d
 	.string	"config"
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x75a1
+	.uaword	0x75a6
 	.uaword	.LLST1
 	.uleb128 0x2e
 	.string	"ebu"
 	.byte	0x1
 	.byte	0x25
-	.uaword	0x6bfc
+	.uaword	0x6c01
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x2e
 	.string	"deviceAddressSelection"
 	.byte	0x1
 	.byte	0x2b
-	.uaword	0x75c2
+	.uaword	0x75c7
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -20
@@ -11217,37 +11217,37 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LASF24
 	.byte	0x1
 	.byte	0x73
-	.uaword	0x248
+	.uaword	0x24d
 	.uaword	.LLST2
 	.uleb128 0x2f
 	.uaword	.LASF32
 	.byte	0x1
 	.byte	0xd6
-	.uaword	0x248
+	.uaword	0x24d
 	.uaword	.LLST3
 	.uleb128 0x2f
 	.uaword	.LASF31
 	.byte	0x1
 	.byte	0xd7
-	.uaword	0x248
+	.uaword	0x24d
 	.uaword	.LLST4
 	.uleb128 0x30
 	.uaword	.LBB146
 	.uaword	.LBE146
-	.uaword	0x70ee
+	.uaword	0x70f3
 	.uleb128 0x31
 	.string	"passwd"
 	.byte	0x1
 	.byte	0x39
-	.uaword	0x216
+	.uaword	0x21b
 	.uaword	.LLST5
 	.uleb128 0x32
 	.uaword	.LVL3
-	.uaword	0x7651
+	.uaword	0x7656
 	.uleb128 0x33
 	.uaword	.LVL5
-	.uaword	0x767d
-	.uaword	0x70c9
+	.uaword	0x7682
+	.uaword	0x70ce
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x54
@@ -11257,8 +11257,8 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0
 	.uleb128 0x33
 	.uaword	.LVL6
-	.uaword	0x76a7
-	.uaword	0x70dd
+	.uaword	0x76ac
+	.uaword	0x70e2
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x64
@@ -11268,7 +11268,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0
 	.uleb128 0x35
 	.uaword	.LVL7
-	.uaword	0x76da
+	.uaword	0x76df
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x54
@@ -11280,17 +11280,17 @@ IfxEbu_Dram_initMemoryConfig:
 	.uleb128 0x30
 	.uaword	.LBB147
 	.uaword	.LBE147
-	.uaword	0x718f
+	.uaword	0x7194
 	.uleb128 0x31
 	.string	"pin"
 	.byte	0x1
 	.byte	0x44
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.uaword	.LLST6
 	.uleb128 0x33
 	.uaword	.LVL10
-	.uaword	0x7702
-	.uaword	0x7128
+	.uaword	0x7707
+	.uaword	0x712d
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x55
@@ -11306,8 +11306,8 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0
 	.uleb128 0x33
 	.uaword	.LVL14
-	.uaword	0x7702
-	.uaword	0x714c
+	.uaword	0x7707
+	.uaword	0x7151
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x55
@@ -11329,8 +11329,8 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0
 	.uleb128 0x33
 	.uaword	.LVL17
-	.uaword	0x7702
-	.uaword	0x716f
+	.uaword	0x7707
+	.uaword	0x7174
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x55
@@ -11351,7 +11351,7 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0
 	.uleb128 0x35
 	.uaword	.LVL18
-	.uaword	0x7702
+	.uaword	0x7707
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x55
@@ -11374,122 +11374,122 @@ IfxEbu_Dram_initMemoryConfig:
 	.uleb128 0x30
 	.uaword	.LBB148
 	.uaword	.LBE148
-	.uaword	0x71b0
+	.uaword	0x71b5
 	.uleb128 0x31
 	.string	"addrsel"
 	.byte	0x1
 	.byte	0x59
-	.uaword	0x129e
+	.uaword	0x12a3
 	.uaword	.LLST7
 	.byte	0
 	.uleb128 0x30
 	.uaword	.LBB149
 	.uaword	.LBE149
-	.uaword	0x71d0
+	.uaword	0x71d5
 	.uleb128 0x31
 	.string	"modcon"
 	.byte	0x1
 	.byte	0x68
-	.uaword	0x1493
+	.uaword	0x1498
 	.uaword	.LLST8
 	.byte	0
 	.uleb128 0x30
 	.uaword	.LBB150
 	.uaword	.LBE150
-	.uaword	0x71f1
+	.uaword	0x71f6
 	.uleb128 0x31
 	.string	"busrcon"
 	.byte	0x1
 	.byte	0x7c
-	.uaword	0x131d
+	.uaword	0x1322
 	.uaword	.LLST9
 	.byte	0
 	.uleb128 0x36
 	.uaword	.Ldebug_ranges0+0
-	.uaword	0x720e
+	.uaword	0x7213
 	.uleb128 0x31
 	.string	"busrcon"
 	.byte	0x1
 	.byte	0x85
-	.uaword	0x131d
+	.uaword	0x1322
 	.uaword	.LLST10
 	.byte	0
 	.uleb128 0x30
 	.uaword	.LBB152
 	.uaword	.LBE152
-	.uaword	0x722f
+	.uaword	0x7234
 	.uleb128 0x31
 	.string	"buswcon"
 	.byte	0x1
 	.byte	0x8f
-	.uaword	0x139c
+	.uaword	0x13a1
 	.uaword	.LLST11
 	.byte	0
 	.uleb128 0x36
 	.uaword	.Ldebug_ranges0+0x18
-	.uaword	0x724c
+	.uaword	0x7251
 	.uleb128 0x31
 	.string	"buswcon"
 	.byte	0x1
 	.byte	0x98
-	.uaword	0x139c
+	.uaword	0x13a1
 	.uaword	.LLST12
 	.byte	0
 	.uleb128 0x36
 	.uaword	.Ldebug_ranges0+0x30
-	.uaword	0x7268
+	.uaword	0x726d
 	.uleb128 0x31
 	.string	"busrap"
 	.byte	0x1
 	.byte	0xa3
-	.uaword	0x12de
+	.uaword	0x12e3
 	.uaword	.LLST13
 	.byte	0
 	.uleb128 0x36
 	.uaword	.Ldebug_ranges0+0x48
-	.uaword	0x7284
+	.uaword	0x7289
 	.uleb128 0x31
 	.string	"busrap"
 	.byte	0x1
 	.byte	0xaf
-	.uaword	0x12de
+	.uaword	0x12e3
 	.uaword	.LLST14
 	.byte	0
 	.uleb128 0x36
 	.uaword	.Ldebug_ranges0+0x60
-	.uaword	0x72a0
+	.uaword	0x72a5
 	.uleb128 0x31
 	.string	"buswap"
 	.byte	0x1
 	.byte	0xbc
-	.uaword	0x135d
+	.uaword	0x1362
 	.uaword	.LLST15
 	.byte	0
 	.uleb128 0x36
 	.uaword	.Ldebug_ranges0+0x78
-	.uaword	0x72bc
+	.uaword	0x72c1
 	.uleb128 0x31
 	.string	"buswap"
 	.byte	0x1
 	.byte	0xc8
-	.uaword	0x135d
+	.uaword	0x1362
 	.uaword	.LLST16
 	.byte	0
 	.uleb128 0x37
-	.uaword	0x6fb9
+	.uaword	0x6fbe
 	.uaword	.LBB161
 	.uaword	.LBE161
 	.byte	0x1
 	.byte	0xdc
-	.uaword	0x753b
+	.uaword	0x7540
 	.uleb128 0x38
-	.uaword	0x6fc8
+	.uaword	0x6fcd
 	.uaword	.LLST17
 	.uleb128 0x39
 	.uaword	.LBB162
 	.uaword	.LBE162
 	.uleb128 0x3a
-	.uaword	0x6fd8
+	.uaword	0x6fdd
 	.byte	0x6
 	.byte	0x55
 	.byte	0x93
@@ -11498,22 +11498,22 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x93
 	.uleb128 0x4
 	.uleb128 0x3b
-	.uaword	0x6f4d
+	.uaword	0x6f52
 	.uaword	.LBB163
 	.uaword	.Ldebug_ranges0+0x98
 	.byte	0x5
 	.uahalf	0x191
-	.uaword	0x7417
+	.uaword	0x741c
 	.uleb128 0x38
-	.uaword	0x6f67
+	.uaword	0x6f6c
 	.uaword	.LLST17
 	.uleb128 0x3c
 	.uaword	.Ldebug_ranges0+0x98
 	.uleb128 0x3d
-	.uaword	0x6f77
+	.uaword	0x6f7c
 	.uaword	.LLST19
 	.uleb128 0x3e
-	.uaword	0x6f17
+	.uaword	0x6f1c
 	.uaword	.LBB165
 	.uaword	.LBE165
 	.byte	0x5
@@ -11522,19 +11522,19 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LBB166
 	.uaword	.LBE166
 	.uleb128 0x3d
-	.uaword	0x6f28
+	.uaword	0x6f2d
 	.uaword	.LLST20
 	.uleb128 0x3f
-	.uaword	0x6f36
+	.uaword	0x6f3b
 	.uleb128 0x37
-	.uaword	0x6e9a
+	.uaword	0x6e9f
 	.uaword	.LBB167
 	.uaword	.LBE167
 	.byte	0x5
 	.byte	0xce
-	.uaword	0x73b9
+	.uaword	0x73be
 	.uleb128 0x40
-	.uaword	0x6e36
+	.uaword	0x6e3b
 	.uaword	.LBB168
 	.uaword	.LBE168
 	.byte	0x5
@@ -11543,30 +11543,30 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LBB169
 	.uaword	.LBE169
 	.uleb128 0x3f
-	.uaword	0x6e5d
+	.uaword	0x6e62
 	.uleb128 0x41
-	.uaword	0x6de3
+	.uaword	0x6de8
 	.uaword	.LBB170
 	.uaword	.LBE170
 	.byte	0x2
 	.uahalf	0x280
-	.uaword	0x73a6
+	.uaword	0x73ab
 	.uleb128 0x39
 	.uaword	.LBB171
 	.uaword	.LBE171
 	.uleb128 0x3f
-	.uaword	0x6e0d
+	.uaword	0x6e12
 	.uleb128 0x39
 	.uaword	.LBB172
 	.uaword	.LBE172
 	.uleb128 0x3d
-	.uaword	0x6e1a
+	.uaword	0x6e1f
 	.uaword	.LLST21
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x42
-	.uaword	0x6e2a
+	.uaword	0x6e2f
 	.uaword	.LBB173
 	.uaword	.LBE173
 	.byte	0x2
@@ -11575,39 +11575,39 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x37
-	.uaword	0x6eb5
+	.uaword	0x6eba
 	.uaword	.LBB175
 	.uaword	.LBE175
 	.byte	0x5
 	.byte	0xcf
-	.uaword	0x73e9
+	.uaword	0x73ee
 	.uleb128 0x38
-	.uaword	0x6ece
+	.uaword	0x6ed3
 	.uaword	.LLST22
 	.uleb128 0x39
 	.uaword	.LBB176
 	.uaword	.LBE176
 	.uleb128 0x3d
-	.uaword	0x6eda
+	.uaword	0x6edf
 	.uaword	.LLST23
 	.byte	0
 	.byte	0
 	.uleb128 0x40
-	.uaword	0x6ef0
+	.uaword	0x6ef5
 	.uaword	.LBB177
 	.uaword	.LBE177
 	.byte	0x5
 	.byte	0xd0
 	.uleb128 0x43
-	.uaword	0x6f0b
+	.uaword	0x6f10
 	.uleb128 0x40
-	.uaword	0x6e6a
+	.uaword	0x6e6f
 	.uaword	.LBB178
 	.uaword	.LBE178
 	.byte	0x5
 	.byte	0x7c
 	.uleb128 0x43
-	.uaword	0x6e8d
+	.uaword	0x6e92
 	.byte	0
 	.byte	0
 	.byte	0
@@ -11615,20 +11615,20 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x44
-	.uaword	0x6f84
+	.uaword	0x6f89
 	.uaword	.LBB181
 	.uaword	.Ldebug_ranges0+0xb0
 	.byte	0x5
 	.uahalf	0x193
 	.uleb128 0x38
-	.uaword	0x6f9d
+	.uaword	0x6fa2
 	.uaword	.LLST24
 	.uleb128 0x3c
 	.uaword	.Ldebug_ranges0+0xb0
 	.uleb128 0x3f
-	.uaword	0x6fa9
+	.uaword	0x6fae
 	.uleb128 0x3e
-	.uaword	0x6f17
+	.uaword	0x6f1c
 	.uaword	.LBB183
 	.uaword	.LBE183
 	.byte	0x5
@@ -11637,19 +11637,19 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LBB184
 	.uaword	.LBE184
 	.uleb128 0x3d
-	.uaword	0x6f28
+	.uaword	0x6f2d
 	.uaword	.LLST25
 	.uleb128 0x3f
-	.uaword	0x6f36
+	.uaword	0x6f3b
 	.uleb128 0x37
-	.uaword	0x6e9a
+	.uaword	0x6e9f
 	.uaword	.LBB185
 	.uaword	.LBE185
 	.byte	0x5
 	.byte	0xce
-	.uaword	0x74db
+	.uaword	0x74e0
 	.uleb128 0x40
-	.uaword	0x6e36
+	.uaword	0x6e3b
 	.uaword	.LBB186
 	.uaword	.LBE186
 	.byte	0x5
@@ -11658,30 +11658,30 @@ IfxEbu_Dram_initMemoryConfig:
 	.uaword	.LBB187
 	.uaword	.LBE187
 	.uleb128 0x3f
-	.uaword	0x6e5d
+	.uaword	0x6e62
 	.uleb128 0x41
-	.uaword	0x6de3
+	.uaword	0x6de8
 	.uaword	.LBB188
 	.uaword	.LBE188
 	.byte	0x2
 	.uahalf	0x280
-	.uaword	0x74c8
+	.uaword	0x74cd
 	.uleb128 0x39
 	.uaword	.LBB189
 	.uaword	.LBE189
 	.uleb128 0x3f
-	.uaword	0x6e0d
+	.uaword	0x6e12
 	.uleb128 0x39
 	.uaword	.LBB190
 	.uaword	.LBE190
 	.uleb128 0x3d
-	.uaword	0x6e1a
+	.uaword	0x6e1f
 	.uaword	.LLST26
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x42
-	.uaword	0x6e2a
+	.uaword	0x6e2f
 	.uaword	.LBB191
 	.uaword	.LBE191
 	.byte	0x2
@@ -11690,39 +11690,39 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x37
-	.uaword	0x6eb5
+	.uaword	0x6eba
 	.uaword	.LBB193
 	.uaword	.LBE193
 	.byte	0x5
 	.byte	0xcf
-	.uaword	0x750b
+	.uaword	0x7510
 	.uleb128 0x38
-	.uaword	0x6ece
+	.uaword	0x6ed3
 	.uaword	.LLST27
 	.uleb128 0x39
 	.uaword	.LBB194
 	.uaword	.LBE194
 	.uleb128 0x3d
-	.uaword	0x6eda
+	.uaword	0x6edf
 	.uaword	.LLST28
 	.byte	0
 	.byte	0
 	.uleb128 0x40
-	.uaword	0x6ef0
+	.uaword	0x6ef5
 	.uaword	.LBB195
 	.uaword	.LBE195
 	.byte	0x5
 	.byte	0xd0
 	.uleb128 0x43
-	.uaword	0x6f0b
+	.uaword	0x6f10
 	.uleb128 0x40
-	.uaword	0x6e6a
+	.uaword	0x6e6f
 	.uaword	.LBB196
 	.uaword	.LBE196
 	.byte	0x5
 	.byte	0x7c
 	.uleb128 0x43
-	.uaword	0x6e8d
+	.uaword	0x6e92
 	.byte	0
 	.byte	0
 	.byte	0
@@ -11734,23 +11734,23 @@ IfxEbu_Dram_initMemoryConfig:
 	.uleb128 0x30
 	.uaword	.LBB201
 	.uaword	.LBE201
-	.uaword	0x755c
+	.uaword	0x7561
 	.uleb128 0x31
 	.string	"sdrmcon"
 	.byte	0x1
 	.byte	0xdf
-	.uaword	0x14d2
+	.uaword	0x14d7
 	.uaword	.LLST29
 	.byte	0
 	.uleb128 0x30
 	.uaword	.LBB202
 	.uaword	.LBE202
-	.uaword	0x757d
+	.uaword	0x7582
 	.uleb128 0x31
 	.string	"sdrmmod"
 	.byte	0x1
 	.byte	0xf0
-	.uaword	0x1512
+	.uaword	0x1517
 	.uaword	.LLST30
 	.byte	0
 	.uleb128 0x39
@@ -11760,30 +11760,30 @@ IfxEbu_Dram_initMemoryConfig:
 	.string	"sdrmref"
 	.byte	0x1
 	.byte	0xfb
-	.uaword	0x1552
+	.uaword	0x1557
 	.uaword	.LLST31
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6c02
+	.uaword	0x6c07
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x75a7
+	.uaword	0x75ac
 	.uleb128 0x45
-	.uaword	0x6dc9
+	.uaword	0x6dce
 	.uleb128 0x15
-	.uaword	0x1eb
-	.uaword	0x75c2
+	.uaword	0x1f0
+	.uaword	0x75c7
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x9
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x1
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x75ac
+	.uaword	0x75b1
 	.uleb128 0x46
 	.byte	0x1
 	.string	"IfxEbu_Dram_initMemoryConfig"
@@ -11795,48 +11795,48 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7619
+	.uaword	0x761e
 	.uleb128 0x47
 	.string	"config"
 	.byte	0x1
 	.uahalf	0x111
-	.uaword	0x7619
+	.uaword	0x761e
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x47
 	.string	"ebu"
 	.byte	0x1
 	.uahalf	0x111
-	.uaword	0x6bfc
+	.uaword	0x6c01
 	.byte	0x1
 	.byte	0x65
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6dc9
+	.uaword	0x6dce
 	.uleb128 0x15
-	.uaword	0x2ee
-	.uaword	0x762f
+	.uaword	0x2f3
+	.uaword	0x7634
 	.uleb128 0x16
-	.uaword	0x17bb
+	.uaword	0x17c0
 	.byte	0x2
 	.byte	0
 	.uleb128 0x48
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x10
 	.byte	0x96
-	.uaword	0x764c
+	.uaword	0x7651
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x45
-	.uaword	0x761f
+	.uaword	0x7624
 	.uleb128 0x49
 	.byte	0x1
 	.string	"IfxScuWdt_getCpuWatchdogPassword"
 	.byte	0xf
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x216
+	.uaword	0x21b
 	.byte	0x1
 	.uleb128 0x4a
 	.byte	0x1
@@ -11845,9 +11845,9 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0xc5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x76a7
+	.uaword	0x76ac
 	.uleb128 0x4b
-	.uaword	0x216
+	.uaword	0x21b
 	.byte	0
 	.uleb128 0x4c
 	.byte	0x1
@@ -11856,11 +11856,11 @@ IfxEbu_Dram_initMemoryConfig:
 	.uahalf	0x1b8
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x76da
+	.uaword	0x76df
 	.uleb128 0x4b
-	.uaword	0x6bfc
+	.uaword	0x6c01
 	.uleb128 0x4b
-	.uaword	0x1973
+	.uaword	0x1978
 	.byte	0
 	.uleb128 0x4a
 	.byte	0x1
@@ -11869,9 +11869,9 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0xdb
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x7702
+	.uaword	0x7707
 	.uleb128 0x4b
-	.uaword	0x216
+	.uaword	0x21b
 	.byte	0
 	.uleb128 0x4d
 	.byte	0x1
@@ -11881,11 +11881,11 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x4b
-	.uaword	0x66c6
+	.uaword	0x66cb
 	.uleb128 0x4b
-	.uaword	0x1eb
+	.uaword	0x1f0
 	.uleb128 0x4b
-	.uaword	0x696c
+	.uaword	0x6971
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -13226,9 +13226,9 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x75
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1a4
+	.uleb128 0x1a9
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x9f
 	.uaword	.LVL48
 	.uaword	.LVL50
@@ -13236,20 +13236,20 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x74
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1a4
+	.uleb128 0x1a9
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x8
 	.byte	0x20
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x24
 	.byte	0x75
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1a4
+	.uleb128 0x1a9
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x21
 	.byte	0x9f
 	.uaword	.LVL50
@@ -13258,20 +13258,20 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x74
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1a4
+	.uleb128 0x1a9
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x8
 	.byte	0x20
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x24
 	.byte	0x7f
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1a4
+	.uleb128 0x1a9
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x21
 	.byte	0x9f
 	.uaword	0
@@ -13322,9 +13322,9 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x74
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1a4
+	.uleb128 0x1a9
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x9f
 	.uaword	.LVL57
 	.uaword	.LVL58
@@ -13332,20 +13332,20 @@ IfxEbu_Dram_initMemoryConfig:
 	.byte	0x73
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1a4
+	.uleb128 0x1a9
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x8
 	.byte	0x20
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x24
 	.byte	0x74
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1a4
+	.uleb128 0x1a9
 	.byte	0xf7
-	.uleb128 0x18a
+	.uleb128 0x18f
 	.byte	0x21
 	.byte	0x9f
 	.uaword	0

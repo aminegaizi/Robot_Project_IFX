@@ -1242,7 +1242,7 @@ IfxGpt12_resetModule:
 	.file 11 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxCpu_cfg.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x54d0
+	.uaword	0x54d5
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1250,7 +1250,7 @@ IfxGpt12_resetModule:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/iLLD/TC29B/Tricore/Gpt12/Std/IfxGpt12.c"
-	.string	"C:\\\\Aurix1G_Workspace_V1_0_1_7_0\\\\Copy of BaseFramework_TC29B"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
 	.uaword	.Ldebug_ranges0+0x48
 	.uaword	0
 	.uaword	0
@@ -1275,7 +1275,7 @@ IfxGpt12_resetModule:
 	.string	"uint8"
 	.byte	0x4
 	.byte	0x59
-	.uaword	0x1cc
+	.uaword	0x1d1
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -1288,7 +1288,7 @@ IfxGpt12_resetModule:
 	.string	"uint16"
 	.byte	0x4
 	.byte	0x5b
-	.uaword	0x1f8
+	.uaword	0x1fd
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -1297,12 +1297,12 @@ IfxGpt12_resetModule:
 	.string	"sint32"
 	.byte	0x4
 	.byte	0x5c
-	.uaword	0x188
+	.uaword	0x18d
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x4
 	.byte	0x5e
-	.uaword	0x22b
+	.uaword	0x230
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -1325,13 +1325,13 @@ IfxGpt12_resetModule:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x277
+	.uaword	0x27c
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x5
 	.byte	0x71
-	.uaword	0x2f1
+	.uaword	0x2f6
 	.uleb128 0x7
 	.string	"Ifx_RxSel_a"
 	.sleb128 0
@@ -1361,30 +1361,30 @@ IfxGpt12_resetModule:
 	.string	"Ifx_RxSel"
 	.byte	0x5
 	.byte	0x7a
-	.uaword	0x278
+	.uaword	0x27d
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x5
 	.byte	0x7d
-	.uaword	0x325
+	.uaword	0x32a
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x5
 	.byte	0x7f
-	.uaword	0x271
+	.uaword	0x276
 	.byte	0
 	.uleb128 0xa
 	.string	"index"
 	.byte	0x5
 	.byte	0x80
-	.uaword	0x20e
+	.uaword	0x213
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x5
 	.byte	0x81
-	.uaword	0x302
+	.uaword	0x307
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -1394,31 +1394,31 @@ IfxGpt12_resetModule:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0xb
-	.uaword	0x1cc
-	.uaword	0x36b
+	.uaword	0x1d1
+	.uaword	0x370
 	.uleb128 0xc
-	.uaword	0x34f
+	.uaword	0x354
 	.byte	0xb
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x1cc
-	.uaword	0x37b
+	.uaword	0x1d1
+	.uaword	0x380
 	.uleb128 0xc
-	.uaword	0x34f
+	.uaword	0x354
 	.byte	0x17
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x1cc
-	.uaword	0x38b
+	.uaword	0x1d1
+	.uaword	0x390
 	.uleb128 0xc
-	.uaword	0x34f
+	.uaword	0x354
 	.byte	0x3
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x1cc
-	.uaword	0x39b
+	.uaword	0x1d1
+	.uaword	0x3a0
 	.uleb128 0xc
-	.uaword	0x34f
+	.uaword	0x354
 	.byte	0x7
 	.byte	0
 	.uleb128 0xd
@@ -1426,12 +1426,12 @@ IfxGpt12_resetModule:
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2d
-	.uaword	0x5ad
+	.uaword	0x5b2
 	.uleb128 0xe
 	.string	"EN0"
 	.byte	0x6
 	.byte	0x2f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1440,7 +1440,7 @@ IfxGpt12_resetModule:
 	.string	"EN1"
 	.byte	0x6
 	.byte	0x30
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1449,7 +1449,7 @@ IfxGpt12_resetModule:
 	.string	"EN2"
 	.byte	0x6
 	.byte	0x31
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1458,7 +1458,7 @@ IfxGpt12_resetModule:
 	.string	"EN3"
 	.byte	0x6
 	.byte	0x32
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1467,7 +1467,7 @@ IfxGpt12_resetModule:
 	.string	"EN4"
 	.byte	0x6
 	.byte	0x33
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1476,7 +1476,7 @@ IfxGpt12_resetModule:
 	.string	"EN5"
 	.byte	0x6
 	.byte	0x34
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1485,7 +1485,7 @@ IfxGpt12_resetModule:
 	.string	"EN6"
 	.byte	0x6
 	.byte	0x35
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1494,7 +1494,7 @@ IfxGpt12_resetModule:
 	.string	"EN7"
 	.byte	0x6
 	.byte	0x36
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1503,7 +1503,7 @@ IfxGpt12_resetModule:
 	.string	"EN8"
 	.byte	0x6
 	.byte	0x37
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1512,7 +1512,7 @@ IfxGpt12_resetModule:
 	.string	"EN9"
 	.byte	0x6
 	.byte	0x38
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1521,7 +1521,7 @@ IfxGpt12_resetModule:
 	.string	"EN10"
 	.byte	0x6
 	.byte	0x39
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1530,7 +1530,7 @@ IfxGpt12_resetModule:
 	.string	"EN11"
 	.byte	0x6
 	.byte	0x3a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1539,7 +1539,7 @@ IfxGpt12_resetModule:
 	.string	"EN12"
 	.byte	0x6
 	.byte	0x3b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1548,7 +1548,7 @@ IfxGpt12_resetModule:
 	.string	"EN13"
 	.byte	0x6
 	.byte	0x3c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1557,7 +1557,7 @@ IfxGpt12_resetModule:
 	.string	"EN14"
 	.byte	0x6
 	.byte	0x3d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1566,7 +1566,7 @@ IfxGpt12_resetModule:
 	.string	"EN15"
 	.byte	0x6
 	.byte	0x3e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1575,7 +1575,7 @@ IfxGpt12_resetModule:
 	.string	"EN16"
 	.byte	0x6
 	.byte	0x3f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1584,7 +1584,7 @@ IfxGpt12_resetModule:
 	.string	"EN17"
 	.byte	0x6
 	.byte	0x40
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1593,7 +1593,7 @@ IfxGpt12_resetModule:
 	.string	"EN18"
 	.byte	0x6
 	.byte	0x41
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1602,7 +1602,7 @@ IfxGpt12_resetModule:
 	.string	"EN19"
 	.byte	0x6
 	.byte	0x42
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1611,7 +1611,7 @@ IfxGpt12_resetModule:
 	.string	"EN20"
 	.byte	0x6
 	.byte	0x43
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1620,7 +1620,7 @@ IfxGpt12_resetModule:
 	.string	"EN21"
 	.byte	0x6
 	.byte	0x44
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1629,7 +1629,7 @@ IfxGpt12_resetModule:
 	.string	"EN22"
 	.byte	0x6
 	.byte	0x45
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1638,7 +1638,7 @@ IfxGpt12_resetModule:
 	.string	"EN23"
 	.byte	0x6
 	.byte	0x46
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1647,7 +1647,7 @@ IfxGpt12_resetModule:
 	.string	"EN24"
 	.byte	0x6
 	.byte	0x47
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1656,7 +1656,7 @@ IfxGpt12_resetModule:
 	.string	"EN25"
 	.byte	0x6
 	.byte	0x48
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1665,7 +1665,7 @@ IfxGpt12_resetModule:
 	.string	"EN26"
 	.byte	0x6
 	.byte	0x49
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1674,7 +1674,7 @@ IfxGpt12_resetModule:
 	.string	"EN27"
 	.byte	0x6
 	.byte	0x4a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1683,7 +1683,7 @@ IfxGpt12_resetModule:
 	.string	"EN28"
 	.byte	0x6
 	.byte	0x4b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1692,7 +1692,7 @@ IfxGpt12_resetModule:
 	.string	"EN29"
 	.byte	0x6
 	.byte	0x4c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1701,7 +1701,7 @@ IfxGpt12_resetModule:
 	.string	"EN30"
 	.byte	0x6
 	.byte	0x4d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1710,7 +1710,7 @@ IfxGpt12_resetModule:
 	.string	"EN31"
 	.byte	0x6
 	.byte	0x4e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1720,18 +1720,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x6
 	.byte	0x4f
-	.uaword	0x39b
+	.uaword	0x3a0
 	.uleb128 0xd
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x52
-	.uaword	0x5f1
+	.uaword	0x5f6
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x54
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1741,18 +1741,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x6
 	.byte	0x55
-	.uaword	0x5c6
+	.uaword	0x5cb
 	.uleb128 0xd
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x58
-	.uaword	0x728
+	.uaword	0x72d
 	.uleb128 0xe
 	.string	"EN0"
 	.byte	0x6
 	.byte	0x5a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1761,7 +1761,7 @@ IfxGpt12_resetModule:
 	.string	"EN1"
 	.byte	0x6
 	.byte	0x5b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1770,7 +1770,7 @@ IfxGpt12_resetModule:
 	.string	"EN2"
 	.byte	0x6
 	.byte	0x5c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1779,7 +1779,7 @@ IfxGpt12_resetModule:
 	.string	"EN3"
 	.byte	0x6
 	.byte	0x5d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1788,7 +1788,7 @@ IfxGpt12_resetModule:
 	.string	"EN4"
 	.byte	0x6
 	.byte	0x5e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1797,7 +1797,7 @@ IfxGpt12_resetModule:
 	.string	"EN5"
 	.byte	0x6
 	.byte	0x5f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1806,7 +1806,7 @@ IfxGpt12_resetModule:
 	.string	"EN6"
 	.byte	0x6
 	.byte	0x60
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1815,7 +1815,7 @@ IfxGpt12_resetModule:
 	.string	"EN7"
 	.byte	0x6
 	.byte	0x61
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1824,7 +1824,7 @@ IfxGpt12_resetModule:
 	.string	"EN8"
 	.byte	0x6
 	.byte	0x62
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1833,7 +1833,7 @@ IfxGpt12_resetModule:
 	.string	"EN9"
 	.byte	0x6
 	.byte	0x63
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1842,7 +1842,7 @@ IfxGpt12_resetModule:
 	.string	"EN10"
 	.byte	0x6
 	.byte	0x64
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1851,7 +1851,7 @@ IfxGpt12_resetModule:
 	.string	"EN11"
 	.byte	0x6
 	.byte	0x65
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1860,7 +1860,7 @@ IfxGpt12_resetModule:
 	.string	"EN12"
 	.byte	0x6
 	.byte	0x66
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1869,7 +1869,7 @@ IfxGpt12_resetModule:
 	.string	"EN13"
 	.byte	0x6
 	.byte	0x67
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1878,7 +1878,7 @@ IfxGpt12_resetModule:
 	.string	"EN14"
 	.byte	0x6
 	.byte	0x68
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1887,7 +1887,7 @@ IfxGpt12_resetModule:
 	.string	"EN15"
 	.byte	0x6
 	.byte	0x69
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1896,7 +1896,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x6a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1906,18 +1906,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x6
 	.byte	0x6b
-	.uaword	0x60a
+	.uaword	0x60f
 	.uleb128 0xd
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x6e
-	.uaword	0x78a
+	.uaword	0x78f
 	.uleb128 0xe
 	.string	"MODREV"
 	.byte	0x6
 	.byte	0x70
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1926,7 +1926,7 @@ IfxGpt12_resetModule:
 	.string	"MODTYPE"
 	.byte	0x6
 	.byte	0x71
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1935,7 +1935,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF3
 	.byte	0x6
 	.byte	0x72
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1945,18 +1945,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x6
 	.byte	0x73
-	.uaword	0x73e
+	.uaword	0x743
 	.uleb128 0xd
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x76
-	.uaword	0x8ac
+	.uaword	0x8b1
 	.uleb128 0xe
 	.string	"P0"
 	.byte	0x6
 	.byte	0x78
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1965,7 +1965,7 @@ IfxGpt12_resetModule:
 	.string	"P1"
 	.byte	0x6
 	.byte	0x79
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1974,7 +1974,7 @@ IfxGpt12_resetModule:
 	.string	"P2"
 	.byte	0x6
 	.byte	0x7a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1983,7 +1983,7 @@ IfxGpt12_resetModule:
 	.string	"P3"
 	.byte	0x6
 	.byte	0x7b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1992,7 +1992,7 @@ IfxGpt12_resetModule:
 	.string	"P4"
 	.byte	0x6
 	.byte	0x7c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2001,7 +2001,7 @@ IfxGpt12_resetModule:
 	.string	"P5"
 	.byte	0x6
 	.byte	0x7d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2010,7 +2010,7 @@ IfxGpt12_resetModule:
 	.string	"P6"
 	.byte	0x6
 	.byte	0x7e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2019,7 +2019,7 @@ IfxGpt12_resetModule:
 	.string	"P7"
 	.byte	0x6
 	.byte	0x7f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2028,7 +2028,7 @@ IfxGpt12_resetModule:
 	.string	"P8"
 	.byte	0x6
 	.byte	0x80
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2037,7 +2037,7 @@ IfxGpt12_resetModule:
 	.string	"P9"
 	.byte	0x6
 	.byte	0x81
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2046,7 +2046,7 @@ IfxGpt12_resetModule:
 	.string	"P10"
 	.byte	0x6
 	.byte	0x82
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2055,7 +2055,7 @@ IfxGpt12_resetModule:
 	.string	"P11"
 	.byte	0x6
 	.byte	0x83
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2064,7 +2064,7 @@ IfxGpt12_resetModule:
 	.string	"P12"
 	.byte	0x6
 	.byte	0x84
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2073,7 +2073,7 @@ IfxGpt12_resetModule:
 	.string	"P13"
 	.byte	0x6
 	.byte	0x85
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2082,7 +2082,7 @@ IfxGpt12_resetModule:
 	.string	"P14"
 	.byte	0x6
 	.byte	0x86
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2091,7 +2091,7 @@ IfxGpt12_resetModule:
 	.string	"P15"
 	.byte	0x6
 	.byte	0x87
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2100,7 +2100,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x88
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2110,18 +2110,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x6
 	.byte	0x89
-	.uaword	0x79f
+	.uaword	0x7a4
 	.uleb128 0xd
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x8c
-	.uaword	0x954
+	.uaword	0x959
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x8e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2130,7 +2130,7 @@ IfxGpt12_resetModule:
 	.string	"PC0"
 	.byte	0x6
 	.byte	0x8f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2139,7 +2139,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0x90
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -2148,7 +2148,7 @@ IfxGpt12_resetModule:
 	.string	"PC1"
 	.byte	0x6
 	.byte	0x91
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2157,7 +2157,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x92
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2166,7 +2166,7 @@ IfxGpt12_resetModule:
 	.string	"PC2"
 	.byte	0x6
 	.byte	0x93
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -2175,7 +2175,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0x94
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2184,7 +2184,7 @@ IfxGpt12_resetModule:
 	.string	"PC3"
 	.byte	0x6
 	.byte	0x95
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2194,18 +2194,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x6
 	.byte	0x96
-	.uaword	0x8c1
+	.uaword	0x8c6
 	.uleb128 0xd
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x99
-	.uaword	0xa04
+	.uaword	0xa09
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x9b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2214,7 +2214,7 @@ IfxGpt12_resetModule:
 	.string	"PC12"
 	.byte	0x6
 	.byte	0x9c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2223,7 +2223,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0x9d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -2232,7 +2232,7 @@ IfxGpt12_resetModule:
 	.string	"PC13"
 	.byte	0x6
 	.byte	0x9e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2241,7 +2241,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x9f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2250,7 +2250,7 @@ IfxGpt12_resetModule:
 	.string	"PC14"
 	.byte	0x6
 	.byte	0xa0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -2259,7 +2259,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xa1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2268,7 +2268,7 @@ IfxGpt12_resetModule:
 	.string	"PC15"
 	.byte	0x6
 	.byte	0xa2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2278,18 +2278,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x6
 	.byte	0xa3
-	.uaword	0x96c
+	.uaword	0x971
 	.uleb128 0xd
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa6
-	.uaword	0xab0
+	.uaword	0xab5
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xa8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2298,7 +2298,7 @@ IfxGpt12_resetModule:
 	.string	"PC4"
 	.byte	0x6
 	.byte	0xa9
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2307,7 +2307,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xaa
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -2316,7 +2316,7 @@ IfxGpt12_resetModule:
 	.string	"PC5"
 	.byte	0x6
 	.byte	0xab
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2325,7 +2325,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0xac
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2334,7 +2334,7 @@ IfxGpt12_resetModule:
 	.string	"PC6"
 	.byte	0x6
 	.byte	0xad
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -2343,7 +2343,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xae
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2352,7 +2352,7 @@ IfxGpt12_resetModule:
 	.string	"PC7"
 	.byte	0x6
 	.byte	0xaf
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2362,18 +2362,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x6
 	.byte	0xb0
-	.uaword	0xa1d
+	.uaword	0xa22
 	.uleb128 0xd
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xb3
-	.uaword	0xb5d
+	.uaword	0xb62
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xb5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2382,7 +2382,7 @@ IfxGpt12_resetModule:
 	.string	"PC8"
 	.byte	0x6
 	.byte	0xb6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2391,7 +2391,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xb7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -2400,7 +2400,7 @@ IfxGpt12_resetModule:
 	.string	"PC9"
 	.byte	0x6
 	.byte	0xb8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2409,7 +2409,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0xb9
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2418,7 +2418,7 @@ IfxGpt12_resetModule:
 	.string	"PC10"
 	.byte	0x6
 	.byte	0xba
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -2427,7 +2427,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xbb
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2436,7 +2436,7 @@ IfxGpt12_resetModule:
 	.string	"PC11"
 	.byte	0x6
 	.byte	0xbc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2446,18 +2446,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x6
 	.byte	0xbd
-	.uaword	0xac8
+	.uaword	0xacd
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xc0
-	.uaword	0xbbd
+	.uaword	0xbc2
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xc2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2466,7 +2466,7 @@ IfxGpt12_resetModule:
 	.string	"PS1"
 	.byte	0x6
 	.byte	0xc3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2475,7 +2475,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xc4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2485,18 +2485,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x6
 	.byte	0xc5
-	.uaword	0xb75
+	.uaword	0xb7a
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR0_P21_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xc8
-	.uaword	0xc47
+	.uaword	0xc4c
 	.uleb128 0xf
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0xca
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2505,7 +2505,7 @@ IfxGpt12_resetModule:
 	.string	"RX_DIS"
 	.byte	0x6
 	.byte	0xcb
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2514,7 +2514,7 @@ IfxGpt12_resetModule:
 	.string	"TERM"
 	.byte	0x6
 	.byte	0xcc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2523,7 +2523,7 @@ IfxGpt12_resetModule:
 	.string	"LRXTERM"
 	.byte	0x6
 	.byte	0xcd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2532,7 +2532,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xce
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -2542,18 +2542,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_LPCR0_P21_Bits"
 	.byte	0x6
 	.byte	0xcf
-	.uaword	0xbd5
+	.uaword	0xbda
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xd2
-	.uaword	0xcab
+	.uaword	0xcb0
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xd4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2562,7 +2562,7 @@ IfxGpt12_resetModule:
 	.string	"PS1"
 	.byte	0x6
 	.byte	0xd5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2571,7 +2571,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xd6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2581,18 +2581,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x6
 	.byte	0xd7
-	.uaword	0xc63
+	.uaword	0xc68
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xda
-	.uaword	0xd35
+	.uaword	0xd3a
 	.uleb128 0xf
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0xdc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2601,7 +2601,7 @@ IfxGpt12_resetModule:
 	.string	"RX_DIS"
 	.byte	0x6
 	.byte	0xdd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2610,7 +2610,7 @@ IfxGpt12_resetModule:
 	.string	"TERM"
 	.byte	0x6
 	.byte	0xde
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2619,7 +2619,7 @@ IfxGpt12_resetModule:
 	.string	"LRXTERM"
 	.byte	0x6
 	.byte	0xdf
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2628,7 +2628,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xe0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -2638,18 +2638,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x6
 	.byte	0xe1
-	.uaword	0xcc3
+	.uaword	0xcc8
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xe4
-	.uaword	0xd99
+	.uaword	0xd9e
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xe6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2658,7 +2658,7 @@ IfxGpt12_resetModule:
 	.string	"PS1"
 	.byte	0x6
 	.byte	0xe7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2667,7 +2667,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xe8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2677,18 +2677,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x6
 	.byte	0xe9
-	.uaword	0xd51
+	.uaword	0xd56
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR2_P21_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xec
-	.uaword	0xe6c
+	.uaword	0xe71
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xee
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2697,7 +2697,7 @@ IfxGpt12_resetModule:
 	.string	"LVDSR"
 	.byte	0x6
 	.byte	0xef
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2706,7 +2706,7 @@ IfxGpt12_resetModule:
 	.string	"LVDSRL"
 	.byte	0x6
 	.byte	0xf0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2715,7 +2715,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF8
 	.byte	0x6
 	.byte	0xf1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -2724,7 +2724,7 @@ IfxGpt12_resetModule:
 	.string	"TDIS_CTRL"
 	.byte	0x6
 	.byte	0xf2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2733,7 +2733,7 @@ IfxGpt12_resetModule:
 	.string	"TX_DIS"
 	.byte	0x6
 	.byte	0xf3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2742,7 +2742,7 @@ IfxGpt12_resetModule:
 	.string	"TX_PD"
 	.byte	0x6
 	.byte	0xf4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2751,7 +2751,7 @@ IfxGpt12_resetModule:
 	.string	"TX_PWDPD"
 	.byte	0x6
 	.byte	0xf5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2760,7 +2760,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0xf6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2770,18 +2770,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_LPCR2_P21_Bits"
 	.byte	0x6
 	.byte	0xf7
-	.uaword	0xdb1
+	.uaword	0xdb6
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR3_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xfa
-	.uaword	0xed0
+	.uaword	0xed5
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xfc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2790,7 +2790,7 @@ IfxGpt12_resetModule:
 	.string	"PS1"
 	.byte	0x6
 	.byte	0xfd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2799,7 +2799,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xfe
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2809,18 +2809,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_LPCR3_Bits"
 	.byte	0x6
 	.byte	0xff
-	.uaword	0xe88
+	.uaword	0xe8d
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x102
-	.uaword	0xf68
+	.uaword	0xf6d
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x104
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2829,7 +2829,7 @@ IfxGpt12_resetModule:
 	.string	"PCL0"
 	.byte	0x6
 	.uahalf	0x105
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2838,7 +2838,7 @@ IfxGpt12_resetModule:
 	.string	"PCL1"
 	.byte	0x6
 	.uahalf	0x106
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2847,7 +2847,7 @@ IfxGpt12_resetModule:
 	.string	"PCL2"
 	.byte	0x6
 	.uahalf	0x107
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2856,7 +2856,7 @@ IfxGpt12_resetModule:
 	.string	"PCL3"
 	.byte	0x6
 	.uahalf	0x108
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2865,7 +2865,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF9
 	.byte	0x6
 	.uahalf	0x109
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -2875,18 +2875,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x6
 	.uahalf	0x10a
-	.uaword	0xee8
+	.uaword	0xeed
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x10d
-	.uaword	0xff6
+	.uaword	0xffb
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x10f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -2895,7 +2895,7 @@ IfxGpt12_resetModule:
 	.string	"PCL12"
 	.byte	0x6
 	.uahalf	0x110
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2904,7 +2904,7 @@ IfxGpt12_resetModule:
 	.string	"PCL13"
 	.byte	0x6
 	.uahalf	0x111
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2913,7 +2913,7 @@ IfxGpt12_resetModule:
 	.string	"PCL14"
 	.byte	0x6
 	.uahalf	0x112
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2922,7 +2922,7 @@ IfxGpt12_resetModule:
 	.string	"PCL15"
 	.byte	0x6
 	.uahalf	0x113
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2932,18 +2932,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x6
 	.uahalf	0x114
-	.uaword	0xf81
+	.uaword	0xf86
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x117
-	.uaword	0x1090
+	.uaword	0x1095
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x119
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -2952,7 +2952,7 @@ IfxGpt12_resetModule:
 	.string	"PCL4"
 	.byte	0x6
 	.uahalf	0x11a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2961,7 +2961,7 @@ IfxGpt12_resetModule:
 	.string	"PCL5"
 	.byte	0x6
 	.uahalf	0x11b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2970,7 +2970,7 @@ IfxGpt12_resetModule:
 	.string	"PCL6"
 	.byte	0x6
 	.uahalf	0x11c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2979,7 +2979,7 @@ IfxGpt12_resetModule:
 	.string	"PCL7"
 	.byte	0x6
 	.uahalf	0x11d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2988,7 +2988,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF5
 	.byte	0x6
 	.uahalf	0x11e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2998,18 +2998,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x6
 	.uahalf	0x11f
-	.uaword	0x1010
+	.uaword	0x1015
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x122
-	.uaword	0x112b
+	.uaword	0x1130
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x124
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -3018,7 +3018,7 @@ IfxGpt12_resetModule:
 	.string	"PCL8"
 	.byte	0x6
 	.uahalf	0x125
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3027,7 +3027,7 @@ IfxGpt12_resetModule:
 	.string	"PCL9"
 	.byte	0x6
 	.uahalf	0x126
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3036,7 +3036,7 @@ IfxGpt12_resetModule:
 	.string	"PCL10"
 	.byte	0x6
 	.uahalf	0x127
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3045,7 +3045,7 @@ IfxGpt12_resetModule:
 	.string	"PCL11"
 	.byte	0x6
 	.uahalf	0x128
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3054,7 +3054,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF10
 	.byte	0x6
 	.uahalf	0x129
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -3064,18 +3064,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x6
 	.uahalf	0x12a
-	.uaword	0x10a9
+	.uaword	0x10ae
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x12d
-	.uaword	0x1285
+	.uaword	0x128a
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x12f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -3084,7 +3084,7 @@ IfxGpt12_resetModule:
 	.string	"PCL0"
 	.byte	0x6
 	.uahalf	0x130
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3093,7 +3093,7 @@ IfxGpt12_resetModule:
 	.string	"PCL1"
 	.byte	0x6
 	.uahalf	0x131
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3102,7 +3102,7 @@ IfxGpt12_resetModule:
 	.string	"PCL2"
 	.byte	0x6
 	.uahalf	0x132
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3111,7 +3111,7 @@ IfxGpt12_resetModule:
 	.string	"PCL3"
 	.byte	0x6
 	.uahalf	0x133
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3120,7 +3120,7 @@ IfxGpt12_resetModule:
 	.string	"PCL4"
 	.byte	0x6
 	.uahalf	0x134
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3129,7 +3129,7 @@ IfxGpt12_resetModule:
 	.string	"PCL5"
 	.byte	0x6
 	.uahalf	0x135
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3138,7 +3138,7 @@ IfxGpt12_resetModule:
 	.string	"PCL6"
 	.byte	0x6
 	.uahalf	0x136
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3147,7 +3147,7 @@ IfxGpt12_resetModule:
 	.string	"PCL7"
 	.byte	0x6
 	.uahalf	0x137
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3156,7 +3156,7 @@ IfxGpt12_resetModule:
 	.string	"PCL8"
 	.byte	0x6
 	.uahalf	0x138
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3165,7 +3165,7 @@ IfxGpt12_resetModule:
 	.string	"PCL9"
 	.byte	0x6
 	.uahalf	0x139
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3174,7 +3174,7 @@ IfxGpt12_resetModule:
 	.string	"PCL10"
 	.byte	0x6
 	.uahalf	0x13a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3183,7 +3183,7 @@ IfxGpt12_resetModule:
 	.string	"PCL11"
 	.byte	0x6
 	.uahalf	0x13b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3192,7 +3192,7 @@ IfxGpt12_resetModule:
 	.string	"PCL12"
 	.byte	0x6
 	.uahalf	0x13c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3201,7 +3201,7 @@ IfxGpt12_resetModule:
 	.string	"PCL13"
 	.byte	0x6
 	.uahalf	0x13d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3210,7 +3210,7 @@ IfxGpt12_resetModule:
 	.string	"PCL14"
 	.byte	0x6
 	.uahalf	0x13e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3219,7 +3219,7 @@ IfxGpt12_resetModule:
 	.string	"PCL15"
 	.byte	0x6
 	.uahalf	0x13f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3229,18 +3229,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x6
 	.uahalf	0x140
-	.uaword	0x1144
+	.uaword	0x1149
 	.uleb128 0x10
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x143
-	.uaword	0x14d3
+	.uaword	0x14d8
 	.uleb128 0x12
 	.string	"PS0"
 	.byte	0x6
 	.uahalf	0x145
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3249,7 +3249,7 @@ IfxGpt12_resetModule:
 	.string	"PS1"
 	.byte	0x6
 	.uahalf	0x146
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3258,7 +3258,7 @@ IfxGpt12_resetModule:
 	.string	"PS2"
 	.byte	0x6
 	.uahalf	0x147
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3267,7 +3267,7 @@ IfxGpt12_resetModule:
 	.string	"PS3"
 	.byte	0x6
 	.uahalf	0x148
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3276,7 +3276,7 @@ IfxGpt12_resetModule:
 	.string	"PS4"
 	.byte	0x6
 	.uahalf	0x149
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3285,7 +3285,7 @@ IfxGpt12_resetModule:
 	.string	"PS5"
 	.byte	0x6
 	.uahalf	0x14a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3294,7 +3294,7 @@ IfxGpt12_resetModule:
 	.string	"PS6"
 	.byte	0x6
 	.uahalf	0x14b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3303,7 +3303,7 @@ IfxGpt12_resetModule:
 	.string	"PS7"
 	.byte	0x6
 	.uahalf	0x14c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3312,7 +3312,7 @@ IfxGpt12_resetModule:
 	.string	"PS8"
 	.byte	0x6
 	.uahalf	0x14d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3321,7 +3321,7 @@ IfxGpt12_resetModule:
 	.string	"PS9"
 	.byte	0x6
 	.uahalf	0x14e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3330,7 +3330,7 @@ IfxGpt12_resetModule:
 	.string	"PS10"
 	.byte	0x6
 	.uahalf	0x14f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3339,7 +3339,7 @@ IfxGpt12_resetModule:
 	.string	"PS11"
 	.byte	0x6
 	.uahalf	0x150
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3348,7 +3348,7 @@ IfxGpt12_resetModule:
 	.string	"PS12"
 	.byte	0x6
 	.uahalf	0x151
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3357,7 +3357,7 @@ IfxGpt12_resetModule:
 	.string	"PS13"
 	.byte	0x6
 	.uahalf	0x152
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3366,7 +3366,7 @@ IfxGpt12_resetModule:
 	.string	"PS14"
 	.byte	0x6
 	.uahalf	0x153
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3375,7 +3375,7 @@ IfxGpt12_resetModule:
 	.string	"PS15"
 	.byte	0x6
 	.uahalf	0x154
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3384,7 +3384,7 @@ IfxGpt12_resetModule:
 	.string	"PCL0"
 	.byte	0x6
 	.uahalf	0x155
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3393,7 +3393,7 @@ IfxGpt12_resetModule:
 	.string	"PCL1"
 	.byte	0x6
 	.uahalf	0x156
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3402,7 +3402,7 @@ IfxGpt12_resetModule:
 	.string	"PCL2"
 	.byte	0x6
 	.uahalf	0x157
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3411,7 +3411,7 @@ IfxGpt12_resetModule:
 	.string	"PCL3"
 	.byte	0x6
 	.uahalf	0x158
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3420,7 +3420,7 @@ IfxGpt12_resetModule:
 	.string	"PCL4"
 	.byte	0x6
 	.uahalf	0x159
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3429,7 +3429,7 @@ IfxGpt12_resetModule:
 	.string	"PCL5"
 	.byte	0x6
 	.uahalf	0x15a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3438,7 +3438,7 @@ IfxGpt12_resetModule:
 	.string	"PCL6"
 	.byte	0x6
 	.uahalf	0x15b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3447,7 +3447,7 @@ IfxGpt12_resetModule:
 	.string	"PCL7"
 	.byte	0x6
 	.uahalf	0x15c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3456,7 +3456,7 @@ IfxGpt12_resetModule:
 	.string	"PCL8"
 	.byte	0x6
 	.uahalf	0x15d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3465,7 +3465,7 @@ IfxGpt12_resetModule:
 	.string	"PCL9"
 	.byte	0x6
 	.uahalf	0x15e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3474,7 +3474,7 @@ IfxGpt12_resetModule:
 	.string	"PCL10"
 	.byte	0x6
 	.uahalf	0x15f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3483,7 +3483,7 @@ IfxGpt12_resetModule:
 	.string	"PCL11"
 	.byte	0x6
 	.uahalf	0x160
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3492,7 +3492,7 @@ IfxGpt12_resetModule:
 	.string	"PCL12"
 	.byte	0x6
 	.uahalf	0x161
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3501,7 +3501,7 @@ IfxGpt12_resetModule:
 	.string	"PCL13"
 	.byte	0x6
 	.uahalf	0x162
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3510,7 +3510,7 @@ IfxGpt12_resetModule:
 	.string	"PCL14"
 	.byte	0x6
 	.uahalf	0x163
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3519,7 +3519,7 @@ IfxGpt12_resetModule:
 	.string	"PCL15"
 	.byte	0x6
 	.uahalf	0x164
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3529,18 +3529,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x6
 	.uahalf	0x165
-	.uaword	0x129d
+	.uaword	0x12a2
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x168
-	.uaword	0x1556
+	.uaword	0x155b
 	.uleb128 0x12
 	.string	"PS0"
 	.byte	0x6
 	.uahalf	0x16a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3549,7 +3549,7 @@ IfxGpt12_resetModule:
 	.string	"PS1"
 	.byte	0x6
 	.uahalf	0x16b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3558,7 +3558,7 @@ IfxGpt12_resetModule:
 	.string	"PS2"
 	.byte	0x6
 	.uahalf	0x16c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3567,7 +3567,7 @@ IfxGpt12_resetModule:
 	.string	"PS3"
 	.byte	0x6
 	.uahalf	0x16d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3576,7 +3576,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF11
 	.byte	0x6
 	.uahalf	0x16e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -3586,18 +3586,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x6
 	.uahalf	0x16f
-	.uaword	0x14ea
+	.uaword	0x14ef
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x172
-	.uaword	0x15f0
+	.uaword	0x15f5
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x174
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -3606,7 +3606,7 @@ IfxGpt12_resetModule:
 	.string	"PS12"
 	.byte	0x6
 	.uahalf	0x175
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3615,7 +3615,7 @@ IfxGpt12_resetModule:
 	.string	"PS13"
 	.byte	0x6
 	.uahalf	0x176
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3624,7 +3624,7 @@ IfxGpt12_resetModule:
 	.string	"PS14"
 	.byte	0x6
 	.uahalf	0x177
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3633,7 +3633,7 @@ IfxGpt12_resetModule:
 	.string	"PS15"
 	.byte	0x6
 	.uahalf	0x178
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3642,7 +3642,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x179
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3652,18 +3652,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x6
 	.uahalf	0x17a
-	.uaword	0x156f
+	.uaword	0x1574
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x17d
-	.uaword	0x1686
+	.uaword	0x168b
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x17f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3672,7 +3672,7 @@ IfxGpt12_resetModule:
 	.string	"PS4"
 	.byte	0x6
 	.uahalf	0x180
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3681,7 +3681,7 @@ IfxGpt12_resetModule:
 	.string	"PS5"
 	.byte	0x6
 	.uahalf	0x181
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3690,7 +3690,7 @@ IfxGpt12_resetModule:
 	.string	"PS6"
 	.byte	0x6
 	.uahalf	0x182
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3699,7 +3699,7 @@ IfxGpt12_resetModule:
 	.string	"PS7"
 	.byte	0x6
 	.uahalf	0x183
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3708,7 +3708,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF4
 	.byte	0x6
 	.uahalf	0x184
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -3718,18 +3718,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x6
 	.uahalf	0x185
-	.uaword	0x160a
+	.uaword	0x160f
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x188
-	.uaword	0x171d
+	.uaword	0x1722
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x18a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3738,7 +3738,7 @@ IfxGpt12_resetModule:
 	.string	"PS8"
 	.byte	0x6
 	.uahalf	0x18b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3747,7 +3747,7 @@ IfxGpt12_resetModule:
 	.string	"PS9"
 	.byte	0x6
 	.uahalf	0x18c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3756,7 +3756,7 @@ IfxGpt12_resetModule:
 	.string	"PS10"
 	.byte	0x6
 	.uahalf	0x18d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3765,7 +3765,7 @@ IfxGpt12_resetModule:
 	.string	"PS11"
 	.byte	0x6
 	.uahalf	0x18e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3774,7 +3774,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF12
 	.byte	0x6
 	.uahalf	0x18f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -3784,18 +3784,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x6
 	.uahalf	0x190
-	.uaword	0x169f
+	.uaword	0x16a4
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x193
-	.uaword	0x1867
+	.uaword	0x186c
 	.uleb128 0x12
 	.string	"PS0"
 	.byte	0x6
 	.uahalf	0x195
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3804,7 +3804,7 @@ IfxGpt12_resetModule:
 	.string	"PS1"
 	.byte	0x6
 	.uahalf	0x196
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3813,7 +3813,7 @@ IfxGpt12_resetModule:
 	.string	"PS2"
 	.byte	0x6
 	.uahalf	0x197
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3822,7 +3822,7 @@ IfxGpt12_resetModule:
 	.string	"PS3"
 	.byte	0x6
 	.uahalf	0x198
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3831,7 +3831,7 @@ IfxGpt12_resetModule:
 	.string	"PS4"
 	.byte	0x6
 	.uahalf	0x199
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3840,7 +3840,7 @@ IfxGpt12_resetModule:
 	.string	"PS5"
 	.byte	0x6
 	.uahalf	0x19a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3849,7 +3849,7 @@ IfxGpt12_resetModule:
 	.string	"PS6"
 	.byte	0x6
 	.uahalf	0x19b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3858,7 +3858,7 @@ IfxGpt12_resetModule:
 	.string	"PS7"
 	.byte	0x6
 	.uahalf	0x19c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3867,7 +3867,7 @@ IfxGpt12_resetModule:
 	.string	"PS8"
 	.byte	0x6
 	.uahalf	0x19d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3876,7 +3876,7 @@ IfxGpt12_resetModule:
 	.string	"PS9"
 	.byte	0x6
 	.uahalf	0x19e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3885,7 +3885,7 @@ IfxGpt12_resetModule:
 	.string	"PS10"
 	.byte	0x6
 	.uahalf	0x19f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3894,7 +3894,7 @@ IfxGpt12_resetModule:
 	.string	"PS11"
 	.byte	0x6
 	.uahalf	0x1a0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3903,7 +3903,7 @@ IfxGpt12_resetModule:
 	.string	"PS12"
 	.byte	0x6
 	.uahalf	0x1a1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3912,7 +3912,7 @@ IfxGpt12_resetModule:
 	.string	"PS13"
 	.byte	0x6
 	.uahalf	0x1a2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3921,7 +3921,7 @@ IfxGpt12_resetModule:
 	.string	"PS14"
 	.byte	0x6
 	.uahalf	0x1a3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3930,7 +3930,7 @@ IfxGpt12_resetModule:
 	.string	"PS15"
 	.byte	0x6
 	.uahalf	0x1a4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3939,7 +3939,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x1a5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3949,18 +3949,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x6
 	.uahalf	0x1a6
-	.uaword	0x1736
+	.uaword	0x173b
 	.uleb128 0x10
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1a9
-	.uaword	0x199f
+	.uaword	0x19a4
 	.uleb128 0x12
 	.string	"P0"
 	.byte	0x6
 	.uahalf	0x1ab
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3969,7 +3969,7 @@ IfxGpt12_resetModule:
 	.string	"P1"
 	.byte	0x6
 	.uahalf	0x1ac
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3978,7 +3978,7 @@ IfxGpt12_resetModule:
 	.string	"P2"
 	.byte	0x6
 	.uahalf	0x1ad
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3987,7 +3987,7 @@ IfxGpt12_resetModule:
 	.string	"P3"
 	.byte	0x6
 	.uahalf	0x1ae
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3996,7 +3996,7 @@ IfxGpt12_resetModule:
 	.string	"P4"
 	.byte	0x6
 	.uahalf	0x1af
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4005,7 +4005,7 @@ IfxGpt12_resetModule:
 	.string	"P5"
 	.byte	0x6
 	.uahalf	0x1b0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4014,7 +4014,7 @@ IfxGpt12_resetModule:
 	.string	"P6"
 	.byte	0x6
 	.uahalf	0x1b1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4023,7 +4023,7 @@ IfxGpt12_resetModule:
 	.string	"P7"
 	.byte	0x6
 	.uahalf	0x1b2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4032,7 +4032,7 @@ IfxGpt12_resetModule:
 	.string	"P8"
 	.byte	0x6
 	.uahalf	0x1b3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4041,7 +4041,7 @@ IfxGpt12_resetModule:
 	.string	"P9"
 	.byte	0x6
 	.uahalf	0x1b4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4050,7 +4050,7 @@ IfxGpt12_resetModule:
 	.string	"P10"
 	.byte	0x6
 	.uahalf	0x1b5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4059,7 +4059,7 @@ IfxGpt12_resetModule:
 	.string	"P11"
 	.byte	0x6
 	.uahalf	0x1b6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4068,7 +4068,7 @@ IfxGpt12_resetModule:
 	.string	"P12"
 	.byte	0x6
 	.uahalf	0x1b7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4077,7 +4077,7 @@ IfxGpt12_resetModule:
 	.string	"P13"
 	.byte	0x6
 	.uahalf	0x1b8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4086,7 +4086,7 @@ IfxGpt12_resetModule:
 	.string	"P14"
 	.byte	0x6
 	.uahalf	0x1b9
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4095,7 +4095,7 @@ IfxGpt12_resetModule:
 	.string	"P15"
 	.byte	0x6
 	.uahalf	0x1ba
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4104,7 +4104,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x1bb
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4114,18 +4114,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x6
 	.uahalf	0x1bc
-	.uaword	0x187f
+	.uaword	0x1884
 	.uleb128 0x10
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1bf
-	.uaword	0x1aa3
+	.uaword	0x1aa8
 	.uleb128 0x12
 	.string	"SEL0"
 	.byte	0x6
 	.uahalf	0x1c1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4134,7 +4134,7 @@ IfxGpt12_resetModule:
 	.string	"SEL1"
 	.byte	0x6
 	.uahalf	0x1c2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4143,7 +4143,7 @@ IfxGpt12_resetModule:
 	.string	"SEL2"
 	.byte	0x6
 	.uahalf	0x1c3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4152,7 +4152,7 @@ IfxGpt12_resetModule:
 	.string	"SEL3"
 	.byte	0x6
 	.uahalf	0x1c4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4161,7 +4161,7 @@ IfxGpt12_resetModule:
 	.string	"SEL4"
 	.byte	0x6
 	.uahalf	0x1c5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4170,7 +4170,7 @@ IfxGpt12_resetModule:
 	.string	"SEL5"
 	.byte	0x6
 	.uahalf	0x1c6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4179,7 +4179,7 @@ IfxGpt12_resetModule:
 	.string	"SEL6"
 	.byte	0x6
 	.uahalf	0x1c7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4188,7 +4188,7 @@ IfxGpt12_resetModule:
 	.string	"reserved_7"
 	.byte	0x6
 	.uahalf	0x1c8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -4197,7 +4197,7 @@ IfxGpt12_resetModule:
 	.string	"SEL10"
 	.byte	0x6
 	.uahalf	0x1c9
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4206,7 +4206,7 @@ IfxGpt12_resetModule:
 	.string	"SEL11"
 	.byte	0x6
 	.uahalf	0x1ca
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4215,7 +4215,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF12
 	.byte	0x6
 	.uahalf	0x1cb
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -4224,7 +4224,7 @@ IfxGpt12_resetModule:
 	.string	"LCK"
 	.byte	0x6
 	.uahalf	0x1cc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4234,18 +4234,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x6
 	.uahalf	0x1cd
-	.uaword	0x19b6
+	.uaword	0x19bb
 	.uleb128 0x10
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1d0
-	.uaword	0x1c0d
+	.uaword	0x1c12
 	.uleb128 0x12
 	.string	"PDIS0"
 	.byte	0x6
 	.uahalf	0x1d2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4254,7 +4254,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS1"
 	.byte	0x6
 	.uahalf	0x1d3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4263,7 +4263,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS2"
 	.byte	0x6
 	.uahalf	0x1d4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4272,7 +4272,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS3"
 	.byte	0x6
 	.uahalf	0x1d5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4281,7 +4281,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS4"
 	.byte	0x6
 	.uahalf	0x1d6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4290,7 +4290,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS5"
 	.byte	0x6
 	.uahalf	0x1d7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4299,7 +4299,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS6"
 	.byte	0x6
 	.uahalf	0x1d8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4308,7 +4308,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS7"
 	.byte	0x6
 	.uahalf	0x1d9
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4317,7 +4317,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS8"
 	.byte	0x6
 	.uahalf	0x1da
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4326,7 +4326,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS9"
 	.byte	0x6
 	.uahalf	0x1db
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4335,7 +4335,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS10"
 	.byte	0x6
 	.uahalf	0x1dc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4344,7 +4344,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS11"
 	.byte	0x6
 	.uahalf	0x1dd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4353,7 +4353,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS12"
 	.byte	0x6
 	.uahalf	0x1de
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4362,7 +4362,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS13"
 	.byte	0x6
 	.uahalf	0x1df
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4371,7 +4371,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS14"
 	.byte	0x6
 	.uahalf	0x1e0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4380,7 +4380,7 @@ IfxGpt12_resetModule:
 	.string	"PDIS15"
 	.byte	0x6
 	.uahalf	0x1e1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4389,7 +4389,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x1e2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4399,18 +4399,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x6
 	.uahalf	0x1e3
-	.uaword	0x1abb
+	.uaword	0x1ac0
 	.uleb128 0x10
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1e6
-	.uaword	0x1d41
+	.uaword	0x1d46
 	.uleb128 0x12
 	.string	"PD0"
 	.byte	0x6
 	.uahalf	0x1e8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -4419,7 +4419,7 @@ IfxGpt12_resetModule:
 	.string	"PL0"
 	.byte	0x6
 	.uahalf	0x1e9
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4428,7 +4428,7 @@ IfxGpt12_resetModule:
 	.string	"PD1"
 	.byte	0x6
 	.uahalf	0x1ea
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -4437,7 +4437,7 @@ IfxGpt12_resetModule:
 	.string	"PL1"
 	.byte	0x6
 	.uahalf	0x1eb
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4446,7 +4446,7 @@ IfxGpt12_resetModule:
 	.string	"PD2"
 	.byte	0x6
 	.uahalf	0x1ec
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4455,7 +4455,7 @@ IfxGpt12_resetModule:
 	.string	"PL2"
 	.byte	0x6
 	.uahalf	0x1ed
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4464,7 +4464,7 @@ IfxGpt12_resetModule:
 	.string	"PD3"
 	.byte	0x6
 	.uahalf	0x1ee
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -4473,7 +4473,7 @@ IfxGpt12_resetModule:
 	.string	"PL3"
 	.byte	0x6
 	.uahalf	0x1ef
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4482,7 +4482,7 @@ IfxGpt12_resetModule:
 	.string	"PD4"
 	.byte	0x6
 	.uahalf	0x1f0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -4491,7 +4491,7 @@ IfxGpt12_resetModule:
 	.string	"PL4"
 	.byte	0x6
 	.uahalf	0x1f1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4500,7 +4500,7 @@ IfxGpt12_resetModule:
 	.string	"PD5"
 	.byte	0x6
 	.uahalf	0x1f2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -4509,7 +4509,7 @@ IfxGpt12_resetModule:
 	.string	"PL5"
 	.byte	0x6
 	.uahalf	0x1f3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4518,7 +4518,7 @@ IfxGpt12_resetModule:
 	.string	"PD6"
 	.byte	0x6
 	.uahalf	0x1f4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -4527,7 +4527,7 @@ IfxGpt12_resetModule:
 	.string	"PL6"
 	.byte	0x6
 	.uahalf	0x1f5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4536,7 +4536,7 @@ IfxGpt12_resetModule:
 	.string	"PD7"
 	.byte	0x6
 	.uahalf	0x1f6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -4545,7 +4545,7 @@ IfxGpt12_resetModule:
 	.string	"PL7"
 	.byte	0x6
 	.uahalf	0x1f7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4555,18 +4555,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x6
 	.uahalf	0x1f8
-	.uaword	0x1c26
+	.uaword	0x1c2b
 	.uleb128 0x10
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1fb
-	.uaword	0x1e80
+	.uaword	0x1e85
 	.uleb128 0x12
 	.string	"PD8"
 	.byte	0x6
 	.uahalf	0x1fd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -4575,7 +4575,7 @@ IfxGpt12_resetModule:
 	.string	"PL8"
 	.byte	0x6
 	.uahalf	0x1fe
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4584,7 +4584,7 @@ IfxGpt12_resetModule:
 	.string	"PD9"
 	.byte	0x6
 	.uahalf	0x1ff
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -4593,7 +4593,7 @@ IfxGpt12_resetModule:
 	.string	"PL9"
 	.byte	0x6
 	.uahalf	0x200
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4602,7 +4602,7 @@ IfxGpt12_resetModule:
 	.string	"PD10"
 	.byte	0x6
 	.uahalf	0x201
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4611,7 +4611,7 @@ IfxGpt12_resetModule:
 	.string	"PL10"
 	.byte	0x6
 	.uahalf	0x202
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4620,7 +4620,7 @@ IfxGpt12_resetModule:
 	.string	"PD11"
 	.byte	0x6
 	.uahalf	0x203
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -4629,7 +4629,7 @@ IfxGpt12_resetModule:
 	.string	"PL11"
 	.byte	0x6
 	.uahalf	0x204
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4638,7 +4638,7 @@ IfxGpt12_resetModule:
 	.string	"PD12"
 	.byte	0x6
 	.uahalf	0x205
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -4647,7 +4647,7 @@ IfxGpt12_resetModule:
 	.string	"PL12"
 	.byte	0x6
 	.uahalf	0x206
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4656,7 +4656,7 @@ IfxGpt12_resetModule:
 	.string	"PD13"
 	.byte	0x6
 	.uahalf	0x207
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -4665,7 +4665,7 @@ IfxGpt12_resetModule:
 	.string	"PL13"
 	.byte	0x6
 	.uahalf	0x208
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4674,7 +4674,7 @@ IfxGpt12_resetModule:
 	.string	"PD14"
 	.byte	0x6
 	.uahalf	0x209
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -4683,7 +4683,7 @@ IfxGpt12_resetModule:
 	.string	"PL14"
 	.byte	0x6
 	.uahalf	0x20a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4692,7 +4692,7 @@ IfxGpt12_resetModule:
 	.string	"PD15"
 	.byte	0x6
 	.uahalf	0x20b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -4701,7 +4701,7 @@ IfxGpt12_resetModule:
 	.string	"PL15"
 	.byte	0x6
 	.uahalf	0x20c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4711,1027 +4711,1027 @@ IfxGpt12_resetModule:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x6
 	.uahalf	0x20d
-	.uaword	0x1d59
+	.uaword	0x1d5e
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x215
-	.uaword	0x1ec0
+	.uaword	0x1ec5
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x217
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x218
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x219
-	.uaword	0x5ad
+	.uaword	0x5b2
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x6
 	.uahalf	0x21a
-	.uaword	0x1e98
+	.uaword	0x1e9d
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x21d
-	.uaword	0x1efd
+	.uaword	0x1f02
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x21f
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x220
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x221
-	.uaword	0x5f1
+	.uaword	0x5f6
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x6
 	.uahalf	0x222
-	.uaword	0x1ed5
+	.uaword	0x1eda
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x225
-	.uaword	0x1f3a
+	.uaword	0x1f3f
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x227
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x228
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x229
-	.uaword	0x728
+	.uaword	0x72d
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_ESR"
 	.byte	0x6
 	.uahalf	0x22a
-	.uaword	0x1f12
+	.uaword	0x1f17
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x22d
-	.uaword	0x1f74
+	.uaword	0x1f79
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x22f
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x230
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x231
-	.uaword	0x78a
+	.uaword	0x78f
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_ID"
 	.byte	0x6
 	.uahalf	0x232
-	.uaword	0x1f4c
+	.uaword	0x1f51
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x235
-	.uaword	0x1fad
+	.uaword	0x1fb2
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x237
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x238
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x239
-	.uaword	0x8ac
+	.uaword	0x8b1
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_IN"
 	.byte	0x6
 	.uahalf	0x23a
-	.uaword	0x1f85
+	.uaword	0x1f8a
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x23d
-	.uaword	0x1fe6
+	.uaword	0x1feb
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x23f
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x240
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x241
-	.uaword	0x954
+	.uaword	0x959
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_IOCR0"
 	.byte	0x6
 	.uahalf	0x242
-	.uaword	0x1fbe
+	.uaword	0x1fc3
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x245
-	.uaword	0x2022
+	.uaword	0x2027
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x247
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x248
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x249
-	.uaword	0xa04
+	.uaword	0xa09
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_IOCR12"
 	.byte	0x6
 	.uahalf	0x24a
-	.uaword	0x1ffa
+	.uaword	0x1fff
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x24d
-	.uaword	0x205f
+	.uaword	0x2064
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x24f
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x250
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x251
-	.uaword	0xab0
+	.uaword	0xab5
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_IOCR4"
 	.byte	0x6
 	.uahalf	0x252
-	.uaword	0x2037
+	.uaword	0x203c
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x255
-	.uaword	0x209b
+	.uaword	0x20a0
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x257
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x258
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x259
-	.uaword	0xb5d
+	.uaword	0xb62
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_IOCR8"
 	.byte	0x6
 	.uahalf	0x25a
-	.uaword	0x2073
+	.uaword	0x2078
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x25d
-	.uaword	0x20e5
+	.uaword	0x20ea
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x25f
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x260
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x261
-	.uaword	0xbbd
+	.uaword	0xbc2
 	.uleb128 0x15
 	.string	"B_P21"
 	.byte	0x6
 	.uahalf	0x262
-	.uaword	0xc47
+	.uaword	0xc4c
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_LPCR0"
 	.byte	0x6
 	.uahalf	0x263
-	.uaword	0x20af
+	.uaword	0x20b4
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x266
-	.uaword	0x212f
+	.uaword	0x2134
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x268
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x269
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x26a
-	.uaword	0xcab
+	.uaword	0xcb0
 	.uleb128 0x15
 	.string	"B_P21"
 	.byte	0x6
 	.uahalf	0x26b
-	.uaword	0xd35
+	.uaword	0xd3a
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_LPCR1"
 	.byte	0x6
 	.uahalf	0x26c
-	.uaword	0x20f9
+	.uaword	0x20fe
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x26f
-	.uaword	0x2179
+	.uaword	0x217e
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x271
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x272
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x273
-	.uaword	0xd99
+	.uaword	0xd9e
 	.uleb128 0x15
 	.string	"B_P21"
 	.byte	0x6
 	.uahalf	0x274
-	.uaword	0xe6c
+	.uaword	0xe71
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_LPCR2"
 	.byte	0x6
 	.uahalf	0x275
-	.uaword	0x2143
+	.uaword	0x2148
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x278
-	.uaword	0x21b5
+	.uaword	0x21ba
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x27a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x27b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x27c
-	.uaword	0xed0
+	.uaword	0xed5
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_LPCR3"
 	.byte	0x6
 	.uahalf	0x27d
-	.uaword	0x218d
+	.uaword	0x2192
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x280
-	.uaword	0x21f1
+	.uaword	0x21f6
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x282
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x283
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x284
-	.uaword	0x1285
+	.uaword	0x128a
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMCR"
 	.byte	0x6
 	.uahalf	0x285
-	.uaword	0x21c9
+	.uaword	0x21ce
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x288
-	.uaword	0x222c
+	.uaword	0x2231
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x28a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x28b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x28c
-	.uaword	0xf68
+	.uaword	0xf6d
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMCR0"
 	.byte	0x6
 	.uahalf	0x28d
-	.uaword	0x2204
+	.uaword	0x2209
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x290
-	.uaword	0x2268
+	.uaword	0x226d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x292
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x293
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x294
-	.uaword	0xff6
+	.uaword	0xffb
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMCR12"
 	.byte	0x6
 	.uahalf	0x295
-	.uaword	0x2240
+	.uaword	0x2245
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x298
-	.uaword	0x22a5
+	.uaword	0x22aa
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x29a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x29b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x29c
-	.uaword	0x1090
+	.uaword	0x1095
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMCR4"
 	.byte	0x6
 	.uahalf	0x29d
-	.uaword	0x227d
+	.uaword	0x2282
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2a0
-	.uaword	0x22e1
+	.uaword	0x22e6
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2a2
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2a3
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2a4
-	.uaword	0x112b
+	.uaword	0x1130
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMCR8"
 	.byte	0x6
 	.uahalf	0x2a5
-	.uaword	0x22b9
+	.uaword	0x22be
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2a8
-	.uaword	0x231d
+	.uaword	0x2322
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2aa
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2ab
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2ac
-	.uaword	0x14d3
+	.uaword	0x14d8
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMR"
 	.byte	0x6
 	.uahalf	0x2ad
-	.uaword	0x22f5
+	.uaword	0x22fa
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2b0
-	.uaword	0x2357
+	.uaword	0x235c
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2b2
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2b3
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2b4
-	.uaword	0x1867
+	.uaword	0x186c
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMSR"
 	.byte	0x6
 	.uahalf	0x2b5
-	.uaword	0x232f
+	.uaword	0x2334
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2b8
-	.uaword	0x2392
+	.uaword	0x2397
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2ba
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2bb
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2bc
-	.uaword	0x1556
+	.uaword	0x155b
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMSR0"
 	.byte	0x6
 	.uahalf	0x2bd
-	.uaword	0x236a
+	.uaword	0x236f
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2c0
-	.uaword	0x23ce
+	.uaword	0x23d3
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2c2
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2c3
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2c4
-	.uaword	0x15f0
+	.uaword	0x15f5
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMSR12"
 	.byte	0x6
 	.uahalf	0x2c5
-	.uaword	0x23a6
+	.uaword	0x23ab
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2c8
-	.uaword	0x240b
+	.uaword	0x2410
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2ca
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2cb
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2cc
-	.uaword	0x1686
+	.uaword	0x168b
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMSR4"
 	.byte	0x6
 	.uahalf	0x2cd
-	.uaword	0x23e3
+	.uaword	0x23e8
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2d0
-	.uaword	0x2447
+	.uaword	0x244c
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2d2
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2d3
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2d4
-	.uaword	0x171d
+	.uaword	0x1722
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OMSR8"
 	.byte	0x6
 	.uahalf	0x2d5
-	.uaword	0x241f
+	.uaword	0x2424
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2d8
-	.uaword	0x2483
+	.uaword	0x2488
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2da
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2db
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2dc
-	.uaword	0x199f
+	.uaword	0x19a4
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_OUT"
 	.byte	0x6
 	.uahalf	0x2dd
-	.uaword	0x245b
+	.uaword	0x2460
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2e0
-	.uaword	0x24bd
+	.uaword	0x24c2
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2e2
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2e3
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2e4
-	.uaword	0x1aa3
+	.uaword	0x1aa8
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_PCSR"
 	.byte	0x6
 	.uahalf	0x2e5
-	.uaword	0x2495
+	.uaword	0x249a
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2e8
-	.uaword	0x24f8
+	.uaword	0x24fd
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2ea
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2eb
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2ec
-	.uaword	0x1c0d
+	.uaword	0x1c12
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_PDISC"
 	.byte	0x6
 	.uahalf	0x2ed
-	.uaword	0x24d0
+	.uaword	0x24d5
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2f0
-	.uaword	0x2534
+	.uaword	0x2539
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2f2
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2f3
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2f4
-	.uaword	0x1d41
+	.uaword	0x1d46
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_PDR0"
 	.byte	0x6
 	.uahalf	0x2f5
-	.uaword	0x250c
+	.uaword	0x2511
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2f8
-	.uaword	0x256f
+	.uaword	0x2574
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2fa
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2fb
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2fc
-	.uaword	0x1e80
+	.uaword	0x1e85
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P_PDR1"
 	.byte	0x6
 	.uahalf	0x2fd
-	.uaword	0x2547
+	.uaword	0x254c
 	.uleb128 0x16
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x6
 	.uahalf	0x308
-	.uaword	0x27c3
+	.uaword	0x27c8
 	.uleb128 0x17
 	.string	"OUT"
 	.byte	0x6
 	.uahalf	0x30a
-	.uaword	0x2483
+	.uaword	0x2488
 	.byte	0
 	.uleb128 0x17
 	.string	"OMR"
 	.byte	0x6
 	.uahalf	0x30b
-	.uaword	0x231d
+	.uaword	0x2322
 	.byte	0x4
 	.uleb128 0x17
 	.string	"ID"
 	.byte	0x6
 	.uahalf	0x30c
-	.uaword	0x1f74
+	.uaword	0x1f79
 	.byte	0x8
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0x6
 	.uahalf	0x30d
-	.uaword	0x37b
+	.uaword	0x380
 	.byte	0xc
 	.uleb128 0x17
 	.string	"IOCR0"
 	.byte	0x6
 	.uahalf	0x30e
-	.uaword	0x1fe6
+	.uaword	0x1feb
 	.byte	0x10
 	.uleb128 0x17
 	.string	"IOCR4"
 	.byte	0x6
 	.uahalf	0x30f
-	.uaword	0x205f
+	.uaword	0x2064
 	.byte	0x14
 	.uleb128 0x17
 	.string	"IOCR8"
 	.byte	0x6
 	.uahalf	0x310
-	.uaword	0x209b
+	.uaword	0x20a0
 	.byte	0x18
 	.uleb128 0x17
 	.string	"IOCR12"
 	.byte	0x6
 	.uahalf	0x311
-	.uaword	0x2022
+	.uaword	0x2027
 	.byte	0x1c
 	.uleb128 0x18
 	.uaword	.LASF9
 	.byte	0x6
 	.uahalf	0x312
-	.uaword	0x37b
+	.uaword	0x380
 	.byte	0x20
 	.uleb128 0x17
 	.string	"IN"
 	.byte	0x6
 	.uahalf	0x313
-	.uaword	0x1fad
+	.uaword	0x1fb2
 	.byte	0x24
 	.uleb128 0x18
 	.uaword	.LASF10
 	.byte	0x6
 	.uahalf	0x314
-	.uaword	0x36b
+	.uaword	0x370
 	.byte	0x28
 	.uleb128 0x17
 	.string	"PDR0"
 	.byte	0x6
 	.uahalf	0x315
-	.uaword	0x2534
+	.uaword	0x2539
 	.byte	0x40
 	.uleb128 0x17
 	.string	"PDR1"
 	.byte	0x6
 	.uahalf	0x316
-	.uaword	0x256f
+	.uaword	0x2574
 	.byte	0x44
 	.uleb128 0x18
 	.uaword	.LASF14
 	.byte	0x6
 	.uahalf	0x317
-	.uaword	0x38b
+	.uaword	0x390
 	.byte	0x48
 	.uleb128 0x17
 	.string	"ESR"
 	.byte	0x6
 	.uahalf	0x318
-	.uaword	0x1f3a
+	.uaword	0x1f3f
 	.byte	0x50
 	.uleb128 0x17
 	.string	"reserved_54"
 	.byte	0x6
 	.uahalf	0x319
-	.uaword	0x35b
+	.uaword	0x360
 	.byte	0x54
 	.uleb128 0x17
 	.string	"PDISC"
 	.byte	0x6
 	.uahalf	0x31a
-	.uaword	0x24f8
+	.uaword	0x24fd
 	.byte	0x60
 	.uleb128 0x17
 	.string	"PCSR"
 	.byte	0x6
 	.uahalf	0x31b
-	.uaword	0x24bd
+	.uaword	0x24c2
 	.byte	0x64
 	.uleb128 0x17
 	.string	"reserved_68"
 	.byte	0x6
 	.uahalf	0x31c
-	.uaword	0x38b
+	.uaword	0x390
 	.byte	0x68
 	.uleb128 0x17
 	.string	"OMSR0"
 	.byte	0x6
 	.uahalf	0x31d
-	.uaword	0x2392
+	.uaword	0x2397
 	.byte	0x70
 	.uleb128 0x17
 	.string	"OMSR4"
 	.byte	0x6
 	.uahalf	0x31e
-	.uaword	0x240b
+	.uaword	0x2410
 	.byte	0x74
 	.uleb128 0x17
 	.string	"OMSR8"
 	.byte	0x6
 	.uahalf	0x31f
-	.uaword	0x2447
+	.uaword	0x244c
 	.byte	0x78
 	.uleb128 0x17
 	.string	"OMSR12"
 	.byte	0x6
 	.uahalf	0x320
-	.uaword	0x23ce
+	.uaword	0x23d3
 	.byte	0x7c
 	.uleb128 0x17
 	.string	"OMCR0"
 	.byte	0x6
 	.uahalf	0x321
-	.uaword	0x222c
+	.uaword	0x2231
 	.byte	0x80
 	.uleb128 0x17
 	.string	"OMCR4"
 	.byte	0x6
 	.uahalf	0x322
-	.uaword	0x22a5
+	.uaword	0x22aa
 	.byte	0x84
 	.uleb128 0x17
 	.string	"OMCR8"
 	.byte	0x6
 	.uahalf	0x323
-	.uaword	0x22e1
+	.uaword	0x22e6
 	.byte	0x88
 	.uleb128 0x17
 	.string	"OMCR12"
 	.byte	0x6
 	.uahalf	0x324
-	.uaword	0x2268
+	.uaword	0x226d
 	.byte	0x8c
 	.uleb128 0x17
 	.string	"OMSR"
 	.byte	0x6
 	.uahalf	0x325
-	.uaword	0x2357
+	.uaword	0x235c
 	.byte	0x90
 	.uleb128 0x17
 	.string	"OMCR"
 	.byte	0x6
 	.uahalf	0x326
-	.uaword	0x21f1
+	.uaword	0x21f6
 	.byte	0x94
 	.uleb128 0x17
 	.string	"reserved_98"
 	.byte	0x6
 	.uahalf	0x327
-	.uaword	0x38b
+	.uaword	0x390
 	.byte	0x98
 	.uleb128 0x17
 	.string	"LPCR0"
 	.byte	0x6
 	.uahalf	0x328
-	.uaword	0x20e5
+	.uaword	0x20ea
 	.byte	0xa0
 	.uleb128 0x17
 	.string	"LPCR1"
 	.byte	0x6
 	.uahalf	0x329
-	.uaword	0x212f
+	.uaword	0x2134
 	.byte	0xa4
 	.uleb128 0x17
 	.string	"LPCR2"
 	.byte	0x6
 	.uahalf	0x32a
-	.uaword	0x2179
+	.uaword	0x217e
 	.byte	0xa8
 	.uleb128 0x17
 	.string	"LPCR3"
 	.byte	0x6
 	.uahalf	0x32b
-	.uaword	0x21b5
+	.uaword	0x21ba
 	.byte	0xac
 	.uleb128 0x17
 	.string	"reserved_A4"
 	.byte	0x6
 	.uahalf	0x32c
-	.uaword	0x27c3
+	.uaword	0x27c8
 	.byte	0xb0
 	.uleb128 0x17
 	.string	"ACCEN1"
 	.byte	0x6
 	.uahalf	0x32d
-	.uaword	0x1efd
+	.uaword	0x1f02
 	.byte	0xf8
 	.uleb128 0x17
 	.string	"ACCEN0"
 	.byte	0x6
 	.uahalf	0x32e
-	.uaword	0x1ec0
+	.uaword	0x1ec5
 	.byte	0xfc
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x1cc
-	.uaword	0x27d3
+	.uaword	0x1d1
+	.uaword	0x27d8
 	.uleb128 0xc
-	.uaword	0x34f
+	.uaword	0x354
 	.byte	0x47
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_P"
 	.byte	0x6
 	.uahalf	0x32f
-	.uaword	0x27e1
+	.uaword	0x27e6
 	.uleb128 0x19
-	.uaword	0x2582
+	.uaword	0x2587
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x27d3
+	.uaword	0x27d8
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x286c
+	.uaword	0x2871
 	.uleb128 0x7
 	.string	"IfxPort_InputMode_undefined"
 	.sleb128 -1
@@ -5749,12 +5749,12 @@ IfxGpt12_resetModule:
 	.string	"IfxPort_InputMode"
 	.byte	0x3
 	.byte	0x45
-	.uaword	0x27ec
+	.uaword	0x27f1
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x3
 	.byte	0x4c
-	.uaword	0x2b25
+	.uaword	0x2b2a
 	.uleb128 0x7
 	.string	"IfxPort_Mode_inputNoPullDevice"
 	.sleb128 0
@@ -5817,12 +5817,12 @@ IfxGpt12_resetModule:
 	.string	"IfxPort_Mode"
 	.byte	0x3
 	.byte	0x60
-	.uaword	0x2885
+	.uaword	0x288a
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x3
 	.byte	0x7d
-	.uaword	0x2cda
+	.uaword	0x2cdf
 	.uleb128 0x7
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -5864,41 +5864,41 @@ IfxGpt12_resetModule:
 	.string	"IfxPort_PadDriver"
 	.byte	0x3
 	.byte	0x8a
-	.uaword	0x2b39
+	.uaword	0x2b3e
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x3
 	.byte	0xaa
-	.uaword	0x2d15
+	.uaword	0x2d1a
 	.uleb128 0xa
 	.string	"port"
 	.byte	0x3
 	.byte	0xac
-	.uaword	0x27e6
+	.uaword	0x27eb
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF15
 	.byte	0x3
 	.byte	0xad
-	.uaword	0x1bf
+	.uaword	0x1c4
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxPort_Pin"
 	.byte	0x3
 	.byte	0xae
-	.uaword	0x2cf3
+	.uaword	0x2cf8
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x2d
-	.uaword	0x2f3e
+	.uaword	0x2f43
 	.uleb128 0xe
 	.string	"EN0"
 	.byte	0x7
 	.byte	0x2f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5907,7 +5907,7 @@ IfxGpt12_resetModule:
 	.string	"EN1"
 	.byte	0x7
 	.byte	0x30
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5916,7 +5916,7 @@ IfxGpt12_resetModule:
 	.string	"EN2"
 	.byte	0x7
 	.byte	0x31
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5925,7 +5925,7 @@ IfxGpt12_resetModule:
 	.string	"EN3"
 	.byte	0x7
 	.byte	0x32
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5934,7 +5934,7 @@ IfxGpt12_resetModule:
 	.string	"EN4"
 	.byte	0x7
 	.byte	0x33
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5943,7 +5943,7 @@ IfxGpt12_resetModule:
 	.string	"EN5"
 	.byte	0x7
 	.byte	0x34
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5952,7 +5952,7 @@ IfxGpt12_resetModule:
 	.string	"EN6"
 	.byte	0x7
 	.byte	0x35
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5961,7 +5961,7 @@ IfxGpt12_resetModule:
 	.string	"EN7"
 	.byte	0x7
 	.byte	0x36
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5970,7 +5970,7 @@ IfxGpt12_resetModule:
 	.string	"EN8"
 	.byte	0x7
 	.byte	0x37
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5979,7 +5979,7 @@ IfxGpt12_resetModule:
 	.string	"EN9"
 	.byte	0x7
 	.byte	0x38
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5988,7 +5988,7 @@ IfxGpt12_resetModule:
 	.string	"EN10"
 	.byte	0x7
 	.byte	0x39
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5997,7 +5997,7 @@ IfxGpt12_resetModule:
 	.string	"EN11"
 	.byte	0x7
 	.byte	0x3a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6006,7 +6006,7 @@ IfxGpt12_resetModule:
 	.string	"EN12"
 	.byte	0x7
 	.byte	0x3b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6015,7 +6015,7 @@ IfxGpt12_resetModule:
 	.string	"EN13"
 	.byte	0x7
 	.byte	0x3c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6024,7 +6024,7 @@ IfxGpt12_resetModule:
 	.string	"EN14"
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6033,7 +6033,7 @@ IfxGpt12_resetModule:
 	.string	"EN15"
 	.byte	0x7
 	.byte	0x3e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6042,7 +6042,7 @@ IfxGpt12_resetModule:
 	.string	"EN16"
 	.byte	0x7
 	.byte	0x3f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6051,7 +6051,7 @@ IfxGpt12_resetModule:
 	.string	"EN17"
 	.byte	0x7
 	.byte	0x40
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6060,7 +6060,7 @@ IfxGpt12_resetModule:
 	.string	"EN18"
 	.byte	0x7
 	.byte	0x41
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6069,7 +6069,7 @@ IfxGpt12_resetModule:
 	.string	"EN19"
 	.byte	0x7
 	.byte	0x42
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6078,7 +6078,7 @@ IfxGpt12_resetModule:
 	.string	"EN20"
 	.byte	0x7
 	.byte	0x43
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6087,7 +6087,7 @@ IfxGpt12_resetModule:
 	.string	"EN21"
 	.byte	0x7
 	.byte	0x44
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6096,7 +6096,7 @@ IfxGpt12_resetModule:
 	.string	"EN22"
 	.byte	0x7
 	.byte	0x45
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6105,7 +6105,7 @@ IfxGpt12_resetModule:
 	.string	"EN23"
 	.byte	0x7
 	.byte	0x46
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6114,7 +6114,7 @@ IfxGpt12_resetModule:
 	.string	"EN24"
 	.byte	0x7
 	.byte	0x47
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6123,7 +6123,7 @@ IfxGpt12_resetModule:
 	.string	"EN25"
 	.byte	0x7
 	.byte	0x48
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6132,7 +6132,7 @@ IfxGpt12_resetModule:
 	.string	"EN26"
 	.byte	0x7
 	.byte	0x49
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -6141,7 +6141,7 @@ IfxGpt12_resetModule:
 	.string	"EN27"
 	.byte	0x7
 	.byte	0x4a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6150,7 +6150,7 @@ IfxGpt12_resetModule:
 	.string	"EN28"
 	.byte	0x7
 	.byte	0x4b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -6159,7 +6159,7 @@ IfxGpt12_resetModule:
 	.string	"EN29"
 	.byte	0x7
 	.byte	0x4c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6168,7 +6168,7 @@ IfxGpt12_resetModule:
 	.string	"EN30"
 	.byte	0x7
 	.byte	0x4d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6177,7 +6177,7 @@ IfxGpt12_resetModule:
 	.string	"EN31"
 	.byte	0x7
 	.byte	0x4e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6187,18 +6187,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_ACCEN0_Bits"
 	.byte	0x7
 	.byte	0x4f
-	.uaword	0x2d28
+	.uaword	0x2d2d
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x52
-	.uaword	0x2f8a
+	.uaword	0x2f8f
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0x54
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -6208,18 +6208,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_ACCEN1_Bits"
 	.byte	0x7
 	.byte	0x55
-	.uaword	0x2f5b
+	.uaword	0x2f60
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_CAPREL_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x58
-	.uaword	0x2fe8
+	.uaword	0x2fed
 	.uleb128 0xe
 	.string	"CAPREL"
 	.byte	0x7
 	.byte	0x5a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6228,7 +6228,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0x5b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6238,18 +6238,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_CAPREL_Bits"
 	.byte	0x7
 	.byte	0x5c
-	.uaword	0x2fa7
+	.uaword	0x2fac
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_CLC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x5f
-	.uaword	0x3070
+	.uaword	0x3075
 	.uleb128 0xe
 	.string	"DISR"
 	.byte	0x7
 	.byte	0x61
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6258,7 +6258,7 @@ IfxGpt12_resetModule:
 	.string	"DISS"
 	.byte	0x7
 	.byte	0x62
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6267,7 +6267,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF6
 	.byte	0x7
 	.byte	0x63
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6276,7 +6276,7 @@ IfxGpt12_resetModule:
 	.string	"EDIS"
 	.byte	0x7
 	.byte	0x64
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6285,7 +6285,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF11
 	.byte	0x7
 	.byte	0x65
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -6295,18 +6295,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_CLC_Bits"
 	.byte	0x7
 	.byte	0x66
-	.uaword	0x3005
+	.uaword	0x300a
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_ID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x69
-	.uaword	0x30da
+	.uaword	0x30df
 	.uleb128 0xe
 	.string	"MODREV"
 	.byte	0x7
 	.byte	0x6b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6315,7 +6315,7 @@ IfxGpt12_resetModule:
 	.string	"MODTYPE"
 	.byte	0x7
 	.byte	0x6c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -6324,7 +6324,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0x6d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6334,18 +6334,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_ID_Bits"
 	.byte	0x7
 	.byte	0x6e
-	.uaword	0x308a
+	.uaword	0x308f
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_KRST0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x71
-	.uaword	0x3143
+	.uaword	0x3148
 	.uleb128 0xe
 	.string	"RST"
 	.byte	0x7
 	.byte	0x73
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6354,7 +6354,7 @@ IfxGpt12_resetModule:
 	.string	"RSTSTAT"
 	.byte	0x7
 	.byte	0x74
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6363,7 +6363,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF6
 	.byte	0x7
 	.byte	0x75
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6373,18 +6373,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_KRST0_Bits"
 	.byte	0x7
 	.byte	0x76
-	.uaword	0x30f3
+	.uaword	0x30f8
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_KRST1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x79
-	.uaword	0x319c
+	.uaword	0x31a1
 	.uleb128 0xe
 	.string	"RST"
 	.byte	0x7
 	.byte	0x7b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6393,7 +6393,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF16
 	.byte	0x7
 	.byte	0x7c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -6403,18 +6403,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_KRST1_Bits"
 	.byte	0x7
 	.byte	0x7d
-	.uaword	0x315f
+	.uaword	0x3164
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x80
-	.uaword	0x31f7
+	.uaword	0x31fc
 	.uleb128 0xe
 	.string	"CLR"
 	.byte	0x7
 	.byte	0x82
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6423,7 +6423,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF16
 	.byte	0x7
 	.byte	0x83
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -6433,18 +6433,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_KRSTCLR_Bits"
 	.byte	0x7
 	.byte	0x84
-	.uaword	0x31b8
+	.uaword	0x31bd
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_OCS_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x87
-	.uaword	0x328a
+	.uaword	0x328f
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0x89
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -6453,7 +6453,7 @@ IfxGpt12_resetModule:
 	.string	"SUS"
 	.byte	0x7
 	.byte	0x8a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -6462,7 +6462,7 @@ IfxGpt12_resetModule:
 	.string	"SUS_P"
 	.byte	0x7
 	.byte	0x8b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -6471,7 +6471,7 @@ IfxGpt12_resetModule:
 	.string	"SUSSTA"
 	.byte	0x7
 	.byte	0x8c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6480,7 +6480,7 @@ IfxGpt12_resetModule:
 	.string	"reserved_30"
 	.byte	0x7
 	.byte	0x8d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -6490,18 +6490,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_OCS_Bits"
 	.byte	0x7
 	.byte	0x8e
-	.uaword	0x3215
+	.uaword	0x321a
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_PISEL_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x91
-	.uaword	0x339e
+	.uaword	0x33a3
 	.uleb128 0xe
 	.string	"IST2IN"
 	.byte	0x7
 	.byte	0x93
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6510,7 +6510,7 @@ IfxGpt12_resetModule:
 	.string	"IST2EUD"
 	.byte	0x7
 	.byte	0x94
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6519,7 +6519,7 @@ IfxGpt12_resetModule:
 	.string	"IST3IN"
 	.byte	0x7
 	.byte	0x95
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -6528,7 +6528,7 @@ IfxGpt12_resetModule:
 	.string	"IST3EUD"
 	.byte	0x7
 	.byte	0x96
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -6537,7 +6537,7 @@ IfxGpt12_resetModule:
 	.string	"IST4IN"
 	.byte	0x7
 	.byte	0x97
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -6546,7 +6546,7 @@ IfxGpt12_resetModule:
 	.string	"IST4EUD"
 	.byte	0x7
 	.byte	0x98
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -6555,7 +6555,7 @@ IfxGpt12_resetModule:
 	.string	"IST5IN"
 	.byte	0x7
 	.byte	0x99
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6564,7 +6564,7 @@ IfxGpt12_resetModule:
 	.string	"IST5EUD"
 	.byte	0x7
 	.byte	0x9a
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6573,7 +6573,7 @@ IfxGpt12_resetModule:
 	.string	"IST6IN"
 	.byte	0x7
 	.byte	0x9b
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6582,7 +6582,7 @@ IfxGpt12_resetModule:
 	.string	"IST6EUD"
 	.byte	0x7
 	.byte	0x9c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6591,7 +6591,7 @@ IfxGpt12_resetModule:
 	.string	"ISCAPIN"
 	.byte	0x7
 	.byte	0x9d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -6600,7 +6600,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0x9e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6610,18 +6610,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_PISEL_Bits"
 	.byte	0x7
 	.byte	0x9f
-	.uaword	0x32a4
+	.uaword	0x32a9
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_T2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xa2
-	.uaword	0x33f3
+	.uaword	0x33f8
 	.uleb128 0xe
 	.string	"T2"
 	.byte	0x7
 	.byte	0xa4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6630,7 +6630,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xa5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6640,18 +6640,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T2_Bits"
 	.byte	0x7
 	.byte	0xa6
-	.uaword	0x33ba
+	.uaword	0x33bf
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_T2CON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xa9
-	.uaword	0x34f1
+	.uaword	0x34f6
 	.uleb128 0xe
 	.string	"T2I"
 	.byte	0x7
 	.byte	0xab
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6660,7 +6660,7 @@ IfxGpt12_resetModule:
 	.string	"T2M"
 	.byte	0x7
 	.byte	0xac
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -6669,7 +6669,7 @@ IfxGpt12_resetModule:
 	.string	"T2R"
 	.byte	0x7
 	.byte	0xad
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6678,7 +6678,7 @@ IfxGpt12_resetModule:
 	.string	"T2UD"
 	.byte	0x7
 	.byte	0xae
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6687,7 +6687,7 @@ IfxGpt12_resetModule:
 	.string	"T2UDE"
 	.byte	0x7
 	.byte	0xaf
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6696,7 +6696,7 @@ IfxGpt12_resetModule:
 	.string	"T2RC"
 	.byte	0x7
 	.byte	0xb0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6705,7 +6705,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF8
 	.byte	0x7
 	.byte	0xb1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -6714,7 +6714,7 @@ IfxGpt12_resetModule:
 	.string	"T2IRDIS"
 	.byte	0x7
 	.byte	0xb2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6723,7 +6723,7 @@ IfxGpt12_resetModule:
 	.string	"T2EDGE"
 	.byte	0x7
 	.byte	0xb3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6732,7 +6732,7 @@ IfxGpt12_resetModule:
 	.string	"T2CHDIR"
 	.byte	0x7
 	.byte	0xb4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6741,7 +6741,7 @@ IfxGpt12_resetModule:
 	.string	"T2RDIR"
 	.byte	0x7
 	.byte	0xb5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6750,7 +6750,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xb6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6760,18 +6760,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T2CON_Bits"
 	.byte	0x7
 	.byte	0xb7
-	.uaword	0x340c
+	.uaword	0x3411
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_T3_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xba
-	.uaword	0x3546
+	.uaword	0x354b
 	.uleb128 0xe
 	.string	"T3"
 	.byte	0x7
 	.byte	0xbc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6780,7 +6780,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xbd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6790,18 +6790,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T3_Bits"
 	.byte	0x7
 	.byte	0xbe
-	.uaword	0x350d
+	.uaword	0x3512
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_T3CON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xc1
-	.uaword	0x3643
+	.uaword	0x3648
 	.uleb128 0xe
 	.string	"T3I"
 	.byte	0x7
 	.byte	0xc3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6810,7 +6810,7 @@ IfxGpt12_resetModule:
 	.string	"T3M"
 	.byte	0x7
 	.byte	0xc4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -6819,7 +6819,7 @@ IfxGpt12_resetModule:
 	.string	"T3R"
 	.byte	0x7
 	.byte	0xc5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6828,7 +6828,7 @@ IfxGpt12_resetModule:
 	.string	"T3UD"
 	.byte	0x7
 	.byte	0xc6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6837,7 +6837,7 @@ IfxGpt12_resetModule:
 	.string	"T3UDE"
 	.byte	0x7
 	.byte	0xc7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6846,7 +6846,7 @@ IfxGpt12_resetModule:
 	.string	"T3OE"
 	.byte	0x7
 	.byte	0xc8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6855,7 +6855,7 @@ IfxGpt12_resetModule:
 	.string	"T3OTL"
 	.byte	0x7
 	.byte	0xc9
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6864,7 +6864,7 @@ IfxGpt12_resetModule:
 	.string	"BPS1"
 	.byte	0x7
 	.byte	0xca
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -6873,7 +6873,7 @@ IfxGpt12_resetModule:
 	.string	"T3EDGE"
 	.byte	0x7
 	.byte	0xcb
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6882,7 +6882,7 @@ IfxGpt12_resetModule:
 	.string	"T3CHDIR"
 	.byte	0x7
 	.byte	0xcc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6891,7 +6891,7 @@ IfxGpt12_resetModule:
 	.string	"T3RDIR"
 	.byte	0x7
 	.byte	0xcd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6900,7 +6900,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xce
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6910,18 +6910,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T3CON_Bits"
 	.byte	0x7
 	.byte	0xcf
-	.uaword	0x355f
+	.uaword	0x3564
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_T4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xd2
-	.uaword	0x3698
+	.uaword	0x369d
 	.uleb128 0xe
 	.string	"T4"
 	.byte	0x7
 	.byte	0xd4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6930,7 +6930,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xd5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6940,18 +6940,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T4_Bits"
 	.byte	0x7
 	.byte	0xd6
-	.uaword	0x365f
+	.uaword	0x3664
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_T4CON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xd9
-	.uaword	0x37ad
+	.uaword	0x37b2
 	.uleb128 0xe
 	.string	"T4I"
 	.byte	0x7
 	.byte	0xdb
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6960,7 +6960,7 @@ IfxGpt12_resetModule:
 	.string	"T4M"
 	.byte	0x7
 	.byte	0xdc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -6969,7 +6969,7 @@ IfxGpt12_resetModule:
 	.string	"T4R"
 	.byte	0x7
 	.byte	0xdd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6978,7 +6978,7 @@ IfxGpt12_resetModule:
 	.string	"T4UD"
 	.byte	0x7
 	.byte	0xde
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6987,7 +6987,7 @@ IfxGpt12_resetModule:
 	.string	"T4UDE"
 	.byte	0x7
 	.byte	0xdf
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6996,7 +6996,7 @@ IfxGpt12_resetModule:
 	.string	"T4RC"
 	.byte	0x7
 	.byte	0xe0
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7005,7 +7005,7 @@ IfxGpt12_resetModule:
 	.string	"CLRT2EN"
 	.byte	0x7
 	.byte	0xe1
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7014,7 +7014,7 @@ IfxGpt12_resetModule:
 	.string	"CLRT3EN"
 	.byte	0x7
 	.byte	0xe2
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7023,7 +7023,7 @@ IfxGpt12_resetModule:
 	.string	"T4IRDIS"
 	.byte	0x7
 	.byte	0xe3
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7032,7 +7032,7 @@ IfxGpt12_resetModule:
 	.string	"T4EDGE"
 	.byte	0x7
 	.byte	0xe4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7041,7 +7041,7 @@ IfxGpt12_resetModule:
 	.string	"T4CHDIR"
 	.byte	0x7
 	.byte	0xe5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7050,7 +7050,7 @@ IfxGpt12_resetModule:
 	.string	"T4RDIR"
 	.byte	0x7
 	.byte	0xe6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7059,7 +7059,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xe7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7069,18 +7069,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T4CON_Bits"
 	.byte	0x7
 	.byte	0xe8
-	.uaword	0x36b1
+	.uaword	0x36b6
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_T5_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xeb
-	.uaword	0x3802
+	.uaword	0x3807
 	.uleb128 0xe
 	.string	"T5"
 	.byte	0x7
 	.byte	0xed
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -7089,7 +7089,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xee
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7099,18 +7099,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T5_Bits"
 	.byte	0x7
 	.byte	0xef
-	.uaword	0x37c9
+	.uaword	0x37ce
 	.uleb128 0xd
 	.string	"_Ifx_GPT12_T5CON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xf2
-	.uaword	0x38fc
+	.uaword	0x3901
 	.uleb128 0xe
 	.string	"T5I"
 	.byte	0x7
 	.byte	0xf4
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7119,7 +7119,7 @@ IfxGpt12_resetModule:
 	.string	"T5M"
 	.byte	0x7
 	.byte	0xf5
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -7128,7 +7128,7 @@ IfxGpt12_resetModule:
 	.string	"T5R"
 	.byte	0x7
 	.byte	0xf6
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7137,7 +7137,7 @@ IfxGpt12_resetModule:
 	.string	"T5UD"
 	.byte	0x7
 	.byte	0xf7
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7146,7 +7146,7 @@ IfxGpt12_resetModule:
 	.string	"T5UDE"
 	.byte	0x7
 	.byte	0xf8
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7155,7 +7155,7 @@ IfxGpt12_resetModule:
 	.string	"T5RC"
 	.byte	0x7
 	.byte	0xf9
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7164,7 +7164,7 @@ IfxGpt12_resetModule:
 	.string	"CT3"
 	.byte	0x7
 	.byte	0xfa
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7173,7 +7173,7 @@ IfxGpt12_resetModule:
 	.string	"reserved_11"
 	.byte	0x7
 	.byte	0xfb
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7182,7 +7182,7 @@ IfxGpt12_resetModule:
 	.string	"CI"
 	.byte	0x7
 	.byte	0xfc
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -7191,7 +7191,7 @@ IfxGpt12_resetModule:
 	.string	"T5CLR"
 	.byte	0x7
 	.byte	0xfd
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7200,7 +7200,7 @@ IfxGpt12_resetModule:
 	.string	"T5SC"
 	.byte	0x7
 	.byte	0xfe
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7209,7 +7209,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xff
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7219,18 +7219,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T5CON_Bits"
 	.byte	0x7
 	.uahalf	0x100
-	.uaword	0x381b
+	.uaword	0x3820
 	.uleb128 0x10
 	.string	"_Ifx_GPT12_T6_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x103
-	.uaword	0x3955
+	.uaword	0x395a
 	.uleb128 0x12
 	.string	"T6"
 	.byte	0x7
 	.uahalf	0x105
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -7239,7 +7239,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x106
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7249,18 +7249,18 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T6_Bits"
 	.byte	0x7
 	.uahalf	0x107
-	.uaword	0x3919
+	.uaword	0x391e
 	.uleb128 0x10
 	.string	"_Ifx_GPT12_T6CON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x10a
-	.uaword	0x3a61
+	.uaword	0x3a66
 	.uleb128 0x12
 	.string	"T6I"
 	.byte	0x7
 	.uahalf	0x10c
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7269,7 +7269,7 @@ IfxGpt12_resetModule:
 	.string	"T6M"
 	.byte	0x7
 	.uahalf	0x10d
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -7278,7 +7278,7 @@ IfxGpt12_resetModule:
 	.string	"T6R"
 	.byte	0x7
 	.uahalf	0x10e
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7287,7 +7287,7 @@ IfxGpt12_resetModule:
 	.string	"T6UD"
 	.byte	0x7
 	.uahalf	0x10f
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7296,7 +7296,7 @@ IfxGpt12_resetModule:
 	.string	"T6UDE"
 	.byte	0x7
 	.uahalf	0x110
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7305,7 +7305,7 @@ IfxGpt12_resetModule:
 	.string	"T6OE"
 	.byte	0x7
 	.uahalf	0x111
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7314,7 +7314,7 @@ IfxGpt12_resetModule:
 	.string	"T6OTL"
 	.byte	0x7
 	.uahalf	0x112
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7323,7 +7323,7 @@ IfxGpt12_resetModule:
 	.string	"BPS2"
 	.byte	0x7
 	.uahalf	0x113
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -7332,7 +7332,7 @@ IfxGpt12_resetModule:
 	.string	"reserved_13"
 	.byte	0x7
 	.uahalf	0x114
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7341,7 +7341,7 @@ IfxGpt12_resetModule:
 	.string	"T6CLR"
 	.byte	0x7
 	.uahalf	0x115
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7350,7 +7350,7 @@ IfxGpt12_resetModule:
 	.string	"T6SR"
 	.byte	0x7
 	.uahalf	0x116
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7359,7 +7359,7 @@ IfxGpt12_resetModule:
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x117
-	.uaword	0x33f
+	.uaword	0x344
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7369,768 +7369,768 @@ IfxGpt12_resetModule:
 	.string	"Ifx_GPT12_T6CON_Bits"
 	.byte	0x7
 	.uahalf	0x118
-	.uaword	0x396f
+	.uaword	0x3974
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x120
-	.uaword	0x3aa6
+	.uaword	0x3aab
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x122
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x123
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x124
-	.uaword	0x2f3e
+	.uaword	0x2f43
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_ACCEN0"
 	.byte	0x7
 	.uahalf	0x125
-	.uaword	0x3a7e
+	.uaword	0x3a83
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x128
-	.uaword	0x3ae7
+	.uaword	0x3aec
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x12a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x12b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x12c
-	.uaword	0x2f8a
+	.uaword	0x2f8f
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_ACCEN1"
 	.byte	0x7
 	.uahalf	0x12d
-	.uaword	0x3abf
+	.uaword	0x3ac4
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x130
-	.uaword	0x3b28
+	.uaword	0x3b2d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x132
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x133
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x134
-	.uaword	0x2fe8
+	.uaword	0x2fed
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_CAPREL"
 	.byte	0x7
 	.uahalf	0x135
-	.uaword	0x3b00
+	.uaword	0x3b05
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x138
-	.uaword	0x3b69
+	.uaword	0x3b6e
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x13a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x13b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x13c
-	.uaword	0x3070
+	.uaword	0x3075
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_CLC"
 	.byte	0x7
 	.uahalf	0x13d
-	.uaword	0x3b41
+	.uaword	0x3b46
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x140
-	.uaword	0x3ba7
+	.uaword	0x3bac
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x142
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x143
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x144
-	.uaword	0x30da
+	.uaword	0x30df
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_ID"
 	.byte	0x7
 	.uahalf	0x145
-	.uaword	0x3b7f
+	.uaword	0x3b84
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x148
-	.uaword	0x3be4
+	.uaword	0x3be9
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x14a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x14b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x14c
-	.uaword	0x3143
+	.uaword	0x3148
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_KRST0"
 	.byte	0x7
 	.uahalf	0x14d
-	.uaword	0x3bbc
+	.uaword	0x3bc1
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x150
-	.uaword	0x3c24
+	.uaword	0x3c29
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x152
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x153
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x154
-	.uaword	0x319c
+	.uaword	0x31a1
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_KRST1"
 	.byte	0x7
 	.uahalf	0x155
-	.uaword	0x3bfc
+	.uaword	0x3c01
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x158
-	.uaword	0x3c64
+	.uaword	0x3c69
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x15a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x15b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x15c
-	.uaword	0x31f7
+	.uaword	0x31fc
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_KRSTCLR"
 	.byte	0x7
 	.uahalf	0x15d
-	.uaword	0x3c3c
+	.uaword	0x3c41
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x160
-	.uaword	0x3ca6
+	.uaword	0x3cab
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x162
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x163
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x164
-	.uaword	0x328a
+	.uaword	0x328f
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_OCS"
 	.byte	0x7
 	.uahalf	0x165
-	.uaword	0x3c7e
+	.uaword	0x3c83
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x168
-	.uaword	0x3ce4
+	.uaword	0x3ce9
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x16a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x16b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x16c
-	.uaword	0x339e
+	.uaword	0x33a3
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_PISEL"
 	.byte	0x7
 	.uahalf	0x16d
-	.uaword	0x3cbc
+	.uaword	0x3cc1
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x170
-	.uaword	0x3d24
+	.uaword	0x3d29
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x172
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x173
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x174
-	.uaword	0x33f3
+	.uaword	0x33f8
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T2"
 	.byte	0x7
 	.uahalf	0x175
-	.uaword	0x3cfc
+	.uaword	0x3d01
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x178
-	.uaword	0x3d61
+	.uaword	0x3d66
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x17a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x17b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x17c
-	.uaword	0x34f1
+	.uaword	0x34f6
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T2CON"
 	.byte	0x7
 	.uahalf	0x17d
-	.uaword	0x3d39
+	.uaword	0x3d3e
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x180
-	.uaword	0x3da1
+	.uaword	0x3da6
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x182
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x183
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x184
-	.uaword	0x3546
+	.uaword	0x354b
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T3"
 	.byte	0x7
 	.uahalf	0x185
-	.uaword	0x3d79
+	.uaword	0x3d7e
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x188
-	.uaword	0x3dde
+	.uaword	0x3de3
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x18a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x18b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x18c
-	.uaword	0x3643
+	.uaword	0x3648
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T3CON"
 	.byte	0x7
 	.uahalf	0x18d
-	.uaword	0x3db6
+	.uaword	0x3dbb
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x190
-	.uaword	0x3e1e
+	.uaword	0x3e23
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x192
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x193
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x194
-	.uaword	0x3698
+	.uaword	0x369d
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T4"
 	.byte	0x7
 	.uahalf	0x195
-	.uaword	0x3df6
+	.uaword	0x3dfb
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x198
-	.uaword	0x3e5b
+	.uaword	0x3e60
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x19a
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x19b
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x19c
-	.uaword	0x37ad
+	.uaword	0x37b2
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T4CON"
 	.byte	0x7
 	.uahalf	0x19d
-	.uaword	0x3e33
+	.uaword	0x3e38
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1a0
-	.uaword	0x3e9b
+	.uaword	0x3ea0
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1a2
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1a3
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1a4
-	.uaword	0x3802
+	.uaword	0x3807
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T5"
 	.byte	0x7
 	.uahalf	0x1a5
-	.uaword	0x3e73
+	.uaword	0x3e78
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1a8
-	.uaword	0x3ed8
+	.uaword	0x3edd
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1aa
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1ab
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1ac
-	.uaword	0x38fc
+	.uaword	0x3901
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T5CON"
 	.byte	0x7
 	.uahalf	0x1ad
-	.uaword	0x3eb0
+	.uaword	0x3eb5
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1b0
-	.uaword	0x3f18
+	.uaword	0x3f1d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1b2
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1b3
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1b4
-	.uaword	0x3955
+	.uaword	0x395a
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T6"
 	.byte	0x7
 	.uahalf	0x1b5
-	.uaword	0x3ef0
+	.uaword	0x3ef5
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1b8
-	.uaword	0x3f55
+	.uaword	0x3f5a
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1ba
-	.uaword	0x33f
+	.uaword	0x344
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1bb
-	.uaword	0x1a9
+	.uaword	0x1ae
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1bc
-	.uaword	0x3a61
+	.uaword	0x3a66
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12_T6CON"
 	.byte	0x7
 	.uahalf	0x1bd
-	.uaword	0x3f2d
+	.uaword	0x3f32
 	.uleb128 0x16
 	.string	"_Ifx_GPT12"
 	.uahalf	0x100
 	.byte	0x7
 	.uahalf	0x1c8
-	.uaword	0x40c5
+	.uaword	0x40ca
 	.uleb128 0x17
 	.string	"CLC"
 	.byte	0x7
 	.uahalf	0x1ca
-	.uaword	0x3b69
+	.uaword	0x3b6e
 	.byte	0
 	.uleb128 0x17
 	.string	"PISEL"
 	.byte	0x7
 	.uahalf	0x1cb
-	.uaword	0x3ce4
+	.uaword	0x3ce9
 	.byte	0x4
 	.uleb128 0x17
 	.string	"ID"
 	.byte	0x7
 	.uahalf	0x1cc
-	.uaword	0x3ba7
+	.uaword	0x3bac
 	.byte	0x8
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x1cd
-	.uaword	0x37b
+	.uaword	0x380
 	.byte	0xc
 	.uleb128 0x17
 	.string	"T2CON"
 	.byte	0x7
 	.uahalf	0x1ce
-	.uaword	0x3d61
+	.uaword	0x3d66
 	.byte	0x10
 	.uleb128 0x17
 	.string	"T3CON"
 	.byte	0x7
 	.uahalf	0x1cf
-	.uaword	0x3dde
+	.uaword	0x3de3
 	.byte	0x14
 	.uleb128 0x17
 	.string	"T4CON"
 	.byte	0x7
 	.uahalf	0x1d0
-	.uaword	0x3e5b
+	.uaword	0x3e60
 	.byte	0x18
 	.uleb128 0x17
 	.string	"T5CON"
 	.byte	0x7
 	.uahalf	0x1d1
-	.uaword	0x3ed8
+	.uaword	0x3edd
 	.byte	0x1c
 	.uleb128 0x17
 	.string	"T6CON"
 	.byte	0x7
 	.uahalf	0x1d2
-	.uaword	0x3f55
+	.uaword	0x3f5a
 	.byte	0x20
 	.uleb128 0x18
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x1d3
-	.uaword	0x35b
+	.uaword	0x360
 	.byte	0x24
 	.uleb128 0x17
 	.string	"CAPREL"
 	.byte	0x7
 	.uahalf	0x1d4
-	.uaword	0x3b28
+	.uaword	0x3b2d
 	.byte	0x30
 	.uleb128 0x17
 	.string	"T2"
 	.byte	0x7
 	.uahalf	0x1d5
-	.uaword	0x3d24
+	.uaword	0x3d29
 	.byte	0x34
 	.uleb128 0x17
 	.string	"T3"
 	.byte	0x7
 	.uahalf	0x1d6
-	.uaword	0x3da1
+	.uaword	0x3da6
 	.byte	0x38
 	.uleb128 0x17
 	.string	"T4"
 	.byte	0x7
 	.uahalf	0x1d7
-	.uaword	0x3e1e
+	.uaword	0x3e23
 	.byte	0x3c
 	.uleb128 0x17
 	.string	"T5"
 	.byte	0x7
 	.uahalf	0x1d8
-	.uaword	0x3e9b
+	.uaword	0x3ea0
 	.byte	0x40
 	.uleb128 0x17
 	.string	"T6"
 	.byte	0x7
 	.uahalf	0x1d9
-	.uaword	0x3f18
+	.uaword	0x3f1d
 	.byte	0x44
 	.uleb128 0x18
 	.uaword	.LASF14
 	.byte	0x7
 	.uahalf	0x1da
-	.uaword	0x40c5
+	.uaword	0x40ca
 	.byte	0x48
 	.uleb128 0x17
 	.string	"OCS"
 	.byte	0x7
 	.uahalf	0x1db
-	.uaword	0x3ca6
+	.uaword	0x3cab
 	.byte	0xe8
 	.uleb128 0x17
 	.string	"KRSTCLR"
 	.byte	0x7
 	.uahalf	0x1dc
-	.uaword	0x3c64
+	.uaword	0x3c69
 	.byte	0xec
 	.uleb128 0x17
 	.string	"KRST1"
 	.byte	0x7
 	.uahalf	0x1dd
-	.uaword	0x3c24
+	.uaword	0x3c29
 	.byte	0xf0
 	.uleb128 0x17
 	.string	"KRST0"
 	.byte	0x7
 	.uahalf	0x1de
-	.uaword	0x3be4
+	.uaword	0x3be9
 	.byte	0xf4
 	.uleb128 0x17
 	.string	"ACCEN1"
 	.byte	0x7
 	.uahalf	0x1df
-	.uaword	0x3ae7
+	.uaword	0x3aec
 	.byte	0xf8
 	.uleb128 0x17
 	.string	"ACCEN0"
 	.byte	0x7
 	.uahalf	0x1e0
-	.uaword	0x3aa6
+	.uaword	0x3aab
 	.byte	0xfc
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x1cc
-	.uaword	0x40d5
+	.uaword	0x1d1
+	.uaword	0x40da
 	.uleb128 0xc
-	.uaword	0x34f
+	.uaword	0x354
 	.byte	0x9f
 	.byte	0
 	.uleb128 0x13
 	.string	"Ifx_GPT12"
 	.byte	0x7
 	.uahalf	0x1e1
-	.uaword	0x40e7
+	.uaword	0x40ec
 	.uleb128 0x19
-	.uaword	0x3f6d
+	.uaword	0x3f72
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x40d5
+	.uaword	0x40da
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0x8
 	.byte	0x2f
-	.uaword	0x4130
+	.uaword	0x4135
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x31
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.byte	0
 	.uleb128 0xa
 	.string	"timer"
 	.byte	0x8
 	.byte	0x32
-	.uaword	0x1bf
+	.uaword	0x1c4
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0x8
 	.byte	0x33
-	.uaword	0x2d15
+	.uaword	0x2d1a
 	.byte	0x8
 	.uleb128 0xa
 	.string	"select"
 	.byte	0x8
 	.byte	0x34
-	.uaword	0x2f1
+	.uaword	0x2f6
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxGpt12_TxEud_In"
 	.byte	0x8
 	.byte	0x35
-	.uaword	0x4149
+	.uaword	0x414e
 	.uleb128 0x1a
-	.uaword	0x40f2
+	.uaword	0x40f7
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0x8
 	.byte	0x38
-	.uaword	0x418c
+	.uaword	0x4191
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x3a
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.byte	0
 	.uleb128 0xa
 	.string	"timer"
 	.byte	0x8
 	.byte	0x3b
-	.uaword	0x1bf
+	.uaword	0x1c4
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0x8
 	.byte	0x3c
-	.uaword	0x2d15
+	.uaword	0x2d1a
 	.byte	0x8
 	.uleb128 0xa
 	.string	"select"
 	.byte	0x8
 	.byte	0x3d
-	.uaword	0x2f1
+	.uaword	0x2f6
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxGpt12_TxIn_In"
 	.byte	0x8
 	.byte	0x3e
-	.uaword	0x41a4
+	.uaword	0x41a9
 	.uleb128 0x1a
-	.uaword	0x414e
+	.uaword	0x4153
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x73
-	.uaword	0x420a
+	.uaword	0x420f
 	.uleb128 0x7
 	.string	"IfxGpt12_EudInput_A"
 	.sleb128 0
@@ -8148,12 +8148,12 @@ IfxGpt12_resetModule:
 	.string	"IfxGpt12_EudInput"
 	.byte	0x2
 	.byte	0x78
-	.uaword	0x41a9
+	.uaword	0x41ae
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x7e
-	.uaword	0x42ae
+	.uaword	0x42b3
 	.uleb128 0x7
 	.string	"IfxGpt12_Gpt1BlockPrescaler_8"
 	.sleb128 0
@@ -8171,12 +8171,12 @@ IfxGpt12_resetModule:
 	.string	"IfxGpt12_Gpt1BlockPrescaler"
 	.byte	0x2
 	.byte	0x83
-	.uaword	0x4223
+	.uaword	0x4228
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x89
-	.uaword	0x435b
+	.uaword	0x4360
 	.uleb128 0x7
 	.string	"IfxGpt12_Gpt2BlockPrescaler_4"
 	.sleb128 0
@@ -8194,12 +8194,12 @@ IfxGpt12_resetModule:
 	.string	"IfxGpt12_Gpt2BlockPrescaler"
 	.byte	0x2
 	.byte	0x8e
-	.uaword	0x42d1
+	.uaword	0x42d6
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x9f
-	.uaword	0x43d3
+	.uaword	0x43d8
 	.uleb128 0x7
 	.string	"IfxGpt12_Input_A"
 	.sleb128 0
@@ -8217,12 +8217,12 @@ IfxGpt12_resetModule:
 	.string	"IfxGpt12_Input"
 	.byte	0x2
 	.byte	0xa4
-	.uaword	0x437e
+	.uaword	0x4383
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xaa
-	.uaword	0x44f4
+	.uaword	0x44f9
 	.uleb128 0x7
 	.string	"IfxGpt12_Mode_timer"
 	.sleb128 0
@@ -8252,12 +8252,12 @@ IfxGpt12_resetModule:
 	.string	"IfxGpt12_Mode"
 	.byte	0x2
 	.byte	0xb3
-	.uaword	0x43e9
+	.uaword	0x43ee
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xeb
-	.uaword	0x461f
+	.uaword	0x4624
 	.uleb128 0x7
 	.string	"IfxGpt12_TimerInputPrescaler_1"
 	.sleb128 0
@@ -8287,34 +8287,34 @@ IfxGpt12_resetModule:
 	.string	"IfxGpt12_TimerInputPrescaler"
 	.byte	0x2
 	.byte	0xf4
-	.uaword	0x4509
+	.uaword	0x450e
 	.uleb128 0x1b
 	.string	"IfxGpt12_getModuleFrequency"
 	.byte	0x2
 	.uahalf	0x612
 	.byte	0x1
-	.uaword	0x21c
+	.uaword	0x221
 	.byte	0x3
-	.uaword	0x467a
+	.uaword	0x467f
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x612
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.byte	0
 	.uleb128 0x1b
 	.string	"IfxGpt12_T2_getMode"
 	.byte	0x2
 	.uahalf	0x41b
 	.byte	0x1
-	.uaword	0x44f4
+	.uaword	0x44f9
 	.byte	0x3
-	.uaword	0x46a9
+	.uaword	0x46ae
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x41b
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxPort_setPinModeInput"
@@ -8322,22 +8322,22 @@ IfxGpt12_resetModule:
 	.uahalf	0x230
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x46f1
+	.uaword	0x46f6
 	.uleb128 0x1e
 	.string	"port"
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x27e6
+	.uaword	0x27eb
 	.uleb128 0x1c
 	.uaword	.LASF15
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x1bf
+	.uaword	0x1c4
 	.uleb128 0x1c
 	.uaword	.LASF18
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x286c
+	.uaword	0x2871
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T2_setEudInput"
@@ -8345,17 +8345,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x445
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x472c
+	.uaword	0x4731
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x445
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x445
-	.uaword	0x420a
+	.uaword	0x420f
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T3_setEudInput"
@@ -8363,17 +8363,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x4ae
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x4767
+	.uaword	0x476c
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x4ae
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x4ae
-	.uaword	0x420a
+	.uaword	0x420f
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T4_setEudInput"
@@ -8381,17 +8381,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x50f
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x47a2
+	.uaword	0x47a7
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x50f
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x50f
-	.uaword	0x420a
+	.uaword	0x420f
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T5_setEudInput"
@@ -8399,17 +8399,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x587
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x47dd
+	.uaword	0x47e2
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x587
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x587
-	.uaword	0x420a
+	.uaword	0x420f
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T6_setEudInput"
@@ -8417,17 +8417,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x5df
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x4818
+	.uaword	0x481d
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x5df
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x5df
-	.uaword	0x420a
+	.uaword	0x420f
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T2_setInput"
@@ -8435,17 +8435,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x452
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x4850
+	.uaword	0x4855
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x452
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x452
-	.uaword	0x43d3
+	.uaword	0x43d8
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T3_setInput"
@@ -8453,17 +8453,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x4ba
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x4888
+	.uaword	0x488d
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x4ba
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x4ba
-	.uaword	0x43d3
+	.uaword	0x43d8
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T4_setInput"
@@ -8471,17 +8471,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x51b
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x48c0
+	.uaword	0x48c5
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x51b
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x51b
-	.uaword	0x43d3
+	.uaword	0x43d8
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T5_setInput"
@@ -8489,17 +8489,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x58e
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x48f8
+	.uaword	0x48fd
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x58e
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x58e
-	.uaword	0x43d3
+	.uaword	0x43d8
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxGpt12_T6_setInput"
@@ -8507,17 +8507,17 @@ IfxGpt12_resetModule:
 	.uahalf	0x5e6
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x4930
+	.uaword	0x4935
 	.uleb128 0x1c
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x5e6
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uleb128 0x1c
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x5e6
-	.uaword	0x43d3
+	.uaword	0x43d8
 	.byte	0
 	.uleb128 0x1f
 	.byte	0x1
@@ -8525,64 +8525,64 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x23
 	.byte	0x1
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LFB316
 	.uaword	.LFE316
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x49ea
+	.uaword	0x49ef
 	.uleb128 0x20
 	.uaword	.LASF17
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uaword	.LLST0
 	.uleb128 0x21
 	.string	"freq"
 	.byte	0x1
 	.byte	0x25
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LLST1
 	.uleb128 0x22
 	.uaword	.LASF18
 	.byte	0x1
 	.byte	0x27
-	.uaword	0x44f4
+	.uaword	0x44f9
 	.uleb128 0x23
 	.uaword	.LASF20
 	.byte	0x1
 	.byte	0x28
-	.uaword	0x461f
+	.uaword	0x4624
 	.uaword	.LLST2
 	.uleb128 0x21
 	.string	"bps1"
 	.byte	0x1
 	.byte	0x2a
-	.uaword	0x42ae
+	.uaword	0x42b3
 	.uaword	.LLST3
 	.uleb128 0x24
-	.uaword	0x4643
+	.uaword	0x4648
 	.uaword	.LBB62
 	.uaword	.LBE62
 	.byte	0x1
 	.byte	0x25
-	.uaword	0x49d0
+	.uaword	0x49d5
 	.uleb128 0x25
-	.uaword	0x466d
+	.uaword	0x4672
 	.uaword	.LLST0
 	.uleb128 0x26
 	.uaword	.LVL1
-	.uaword	0x53d3
+	.uaword	0x53d8
 	.byte	0
 	.uleb128 0x27
-	.uaword	0x467a
+	.uaword	0x467f
 	.uaword	.LBB64
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x3c
 	.uleb128 0x25
-	.uaword	0x469c
+	.uaword	0x46a1
 	.uaword	.LLST5
 	.byte	0
 	.byte	0
@@ -8592,55 +8592,55 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x4c
 	.byte	0x1
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LFB317
 	.uaword	.LFE317
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4a8b
+	.uaword	0x4a90
 	.uleb128 0x20
 	.uaword	.LASF17
 	.byte	0x1
 	.byte	0x4c
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uaword	.LLST6
 	.uleb128 0x21
 	.string	"freq"
 	.byte	0x1
 	.byte	0x4e
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LLST7
 	.uleb128 0x23
 	.uaword	.LASF18
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x44f4
+	.uaword	0x44f9
 	.uaword	.LLST8
 	.uleb128 0x23
 	.uaword	.LASF20
 	.byte	0x1
 	.byte	0x51
-	.uaword	0x461f
+	.uaword	0x4624
 	.uaword	.LLST9
 	.uleb128 0x21
 	.string	"bps1"
 	.byte	0x1
 	.byte	0x53
-	.uaword	0x42ae
+	.uaword	0x42b3
 	.uaword	.LLST10
 	.uleb128 0x28
-	.uaword	0x4643
+	.uaword	0x4648
 	.uaword	.LBB68
 	.uaword	.LBE68
 	.byte	0x1
 	.byte	0x4e
 	.uleb128 0x25
-	.uaword	0x466d
+	.uaword	0x4672
 	.uaword	.LLST6
 	.uleb128 0x26
 	.uaword	.LVL19
-	.uaword	0x53d3
+	.uaword	0x53d8
 	.byte	0
 	.byte	0
 	.uleb128 0x1f
@@ -8649,55 +8649,55 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x75
 	.byte	0x1
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LFB318
 	.uaword	.LFE318
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4b2c
+	.uaword	0x4b31
 	.uleb128 0x20
 	.uaword	.LASF17
 	.byte	0x1
 	.byte	0x75
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uaword	.LLST12
 	.uleb128 0x21
 	.string	"freq"
 	.byte	0x1
 	.byte	0x77
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LLST13
 	.uleb128 0x23
 	.uaword	.LASF18
 	.byte	0x1
 	.byte	0x79
-	.uaword	0x44f4
+	.uaword	0x44f9
 	.uaword	.LLST14
 	.uleb128 0x23
 	.uaword	.LASF20
 	.byte	0x1
 	.byte	0x7a
-	.uaword	0x461f
+	.uaword	0x4624
 	.uaword	.LLST15
 	.uleb128 0x21
 	.string	"bps1"
 	.byte	0x1
 	.byte	0x7c
-	.uaword	0x42ae
+	.uaword	0x42b3
 	.uaword	.LLST16
 	.uleb128 0x28
-	.uaword	0x4643
+	.uaword	0x4648
 	.uaword	.LBB70
 	.uaword	.LBE70
 	.byte	0x1
 	.byte	0x77
 	.uleb128 0x25
-	.uaword	0x466d
+	.uaword	0x4672
 	.uaword	.LLST12
 	.uleb128 0x26
 	.uaword	.LVL40
-	.uaword	0x53d3
+	.uaword	0x53d8
 	.byte	0
 	.byte	0
 	.uleb128 0x1f
@@ -8706,55 +8706,55 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x9e
 	.byte	0x1
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LFB319
 	.uaword	.LFE319
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4bcd
+	.uaword	0x4bd2
 	.uleb128 0x20
 	.uaword	.LASF17
 	.byte	0x1
 	.byte	0x9e
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uaword	.LLST18
 	.uleb128 0x21
 	.string	"freq"
 	.byte	0x1
 	.byte	0xa0
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LLST19
 	.uleb128 0x23
 	.uaword	.LASF18
 	.byte	0x1
 	.byte	0xa2
-	.uaword	0x44f4
+	.uaword	0x44f9
 	.uaword	.LLST20
 	.uleb128 0x23
 	.uaword	.LASF20
 	.byte	0x1
 	.byte	0xa3
-	.uaword	0x461f
+	.uaword	0x4624
 	.uaword	.LLST21
 	.uleb128 0x21
 	.string	"bps2"
 	.byte	0x1
 	.byte	0xa5
-	.uaword	0x435b
+	.uaword	0x4360
 	.uaword	.LLST22
 	.uleb128 0x28
-	.uaword	0x4643
+	.uaword	0x4648
 	.uaword	.LBB72
 	.uaword	.LBE72
 	.byte	0x1
 	.byte	0xa0
 	.uleb128 0x25
-	.uaword	0x466d
+	.uaword	0x4672
 	.uaword	.LLST18
 	.uleb128 0x26
 	.uaword	.LVL61
-	.uaword	0x53d3
+	.uaword	0x53d8
 	.byte	0
 	.byte	0
 	.uleb128 0x1f
@@ -8763,55 +8763,55 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0xc7
 	.byte	0x1
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LFB320
 	.uaword	.LFE320
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4c6e
+	.uaword	0x4c73
 	.uleb128 0x20
 	.uaword	.LASF17
 	.byte	0x1
 	.byte	0xc7
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uaword	.LLST24
 	.uleb128 0x21
 	.string	"freq"
 	.byte	0x1
 	.byte	0xc9
-	.uaword	0x21c
+	.uaword	0x221
 	.uaword	.LLST25
 	.uleb128 0x23
 	.uaword	.LASF18
 	.byte	0x1
 	.byte	0xcb
-	.uaword	0x44f4
+	.uaword	0x44f9
 	.uaword	.LLST26
 	.uleb128 0x23
 	.uaword	.LASF20
 	.byte	0x1
 	.byte	0xcc
-	.uaword	0x461f
+	.uaword	0x4624
 	.uaword	.LLST27
 	.uleb128 0x21
 	.string	"bps2"
 	.byte	0x1
 	.byte	0xce
-	.uaword	0x435b
+	.uaword	0x4360
 	.uaword	.LLST28
 	.uleb128 0x28
-	.uaword	0x4643
+	.uaword	0x4648
 	.uaword	.LBB74
 	.uaword	.LBE74
 	.byte	0x1
 	.byte	0xc9
 	.uleb128 0x25
-	.uaword	0x466d
+	.uaword	0x4672
 	.uaword	.LLST24
 	.uleb128 0x26
 	.uaword	.LVL82
-	.uaword	0x53d3
+	.uaword	0x53d8
 	.byte	0
 	.byte	0
 	.uleb128 0x29
@@ -8825,26 +8825,26 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4ce6
+	.uaword	0x4ceb
 	.uleb128 0x20
 	.uaword	.LASF17
 	.byte	0x1
 	.byte	0xf0
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uaword	.LLST30
 	.uleb128 0x21
 	.string	"psw"
 	.byte	0x1
 	.byte	0xf2
-	.uaword	0x1ea
+	.uaword	0x1ef
 	.uaword	.LLST31
 	.uleb128 0x26
 	.uaword	.LVL103
-	.uaword	0x53f8
+	.uaword	0x53fd
 	.uleb128 0x2a
 	.uaword	.LVL105
-	.uaword	0x5424
-	.uaword	0x4cd4
+	.uaword	0x5429
+	.uaword	0x4cd9
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x54
@@ -8855,7 +8855,7 @@ IfxGpt12_resetModule:
 	.uleb128 0x2c
 	.uaword	.LVL106
 	.byte	0x1
-	.uaword	0x544e
+	.uaword	0x5453
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x54
@@ -8875,26 +8875,26 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4d5d
+	.uaword	0x4d62
 	.uleb128 0x20
 	.uaword	.LASF17
 	.byte	0x1
 	.byte	0xf9
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uaword	.LLST32
 	.uleb128 0x21
 	.string	"psw"
 	.byte	0x1
 	.byte	0xfb
-	.uaword	0x1ea
+	.uaword	0x1ef
 	.uaword	.LLST33
 	.uleb128 0x26
 	.uaword	.LVL108
-	.uaword	0x53f8
+	.uaword	0x53fd
 	.uleb128 0x2a
 	.uaword	.LVL110
-	.uaword	0x5424
-	.uaword	0x4d4b
+	.uaword	0x5429
+	.uaword	0x4d50
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x54
@@ -8905,7 +8905,7 @@ IfxGpt12_resetModule:
 	.uleb128 0x2c
 	.uaword	.LVL111
 	.byte	0x1
-	.uaword	0x544e
+	.uaword	0x5453
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x54
@@ -8925,38 +8925,38 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4ead
+	.uaword	0x4eb2
 	.uleb128 0x2e
 	.string	"txEudIn"
 	.byte	0x1
 	.uahalf	0x102
-	.uaword	0x4ead
+	.uaword	0x4eb2
 	.uaword	.LLST34
 	.uleb128 0x2f
 	.uaword	.LASF21
 	.byte	0x1
 	.uahalf	0x102
-	.uaword	0x286c
+	.uaword	0x2871
 	.uaword	.LLST35
 	.uleb128 0x30
-	.uaword	0x46a9
+	.uaword	0x46ae
 	.uaword	.LBB76
 	.uaword	.LBE76
 	.byte	0x1
 	.uahalf	0x104
-	.uaword	0x4def
+	.uaword	0x4df4
 	.uleb128 0x25
-	.uaword	0x46e4
+	.uaword	0x46e9
 	.uaword	.LLST35
 	.uleb128 0x25
-	.uaword	0x46d8
+	.uaword	0x46dd
 	.uaword	.LLST37
 	.uleb128 0x25
-	.uaword	0x46cb
+	.uaword	0x46d0
 	.uaword	.LLST38
 	.uleb128 0x31
 	.uaword	.LVL115
-	.uaword	0x5476
+	.uaword	0x547b
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x55
@@ -8967,79 +8967,79 @@ IfxGpt12_resetModule:
 	.byte	0
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x47dd
+	.uaword	0x47e2
 	.uaword	.LBB78
 	.uaword	.LBE78
 	.byte	0x1
 	.uahalf	0x115
-	.uaword	0x4e16
+	.uaword	0x4e1b
 	.uleb128 0x25
-	.uaword	0x480b
+	.uaword	0x4810
 	.uaword	.LLST39
 	.uleb128 0x25
-	.uaword	0x47ff
+	.uaword	0x4804
 	.uaword	.LLST40
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x47a2
+	.uaword	0x47a7
 	.uaword	.LBB80
 	.uaword	.LBE80
 	.byte	0x1
 	.uahalf	0x112
-	.uaword	0x4e3d
+	.uaword	0x4e42
 	.uleb128 0x25
-	.uaword	0x47d0
+	.uaword	0x47d5
 	.uaword	.LLST41
 	.uleb128 0x25
-	.uaword	0x47c4
+	.uaword	0x47c9
 	.uaword	.LLST42
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x46f1
+	.uaword	0x46f6
 	.uaword	.LBB82
 	.uaword	.LBE82
 	.byte	0x1
 	.uahalf	0x109
-	.uaword	0x4e64
+	.uaword	0x4e69
 	.uleb128 0x25
-	.uaword	0x471f
+	.uaword	0x4724
 	.uaword	.LLST43
 	.uleb128 0x25
-	.uaword	0x4713
+	.uaword	0x4718
 	.uaword	.LLST44
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x472c
+	.uaword	0x4731
 	.uaword	.LBB84
 	.uaword	.LBE84
 	.byte	0x1
 	.uahalf	0x10c
-	.uaword	0x4e8b
+	.uaword	0x4e90
 	.uleb128 0x25
-	.uaword	0x475a
+	.uaword	0x475f
 	.uaword	.LLST45
 	.uleb128 0x25
-	.uaword	0x474e
+	.uaword	0x4753
 	.uaword	.LLST46
 	.byte	0
 	.uleb128 0x32
-	.uaword	0x4767
+	.uaword	0x476c
 	.uaword	.LBB86
 	.uaword	.LBE86
 	.byte	0x1
 	.uahalf	0x10f
 	.uleb128 0x25
-	.uaword	0x4795
+	.uaword	0x479a
 	.uaword	.LLST47
 	.uleb128 0x33
-	.uaword	0x4789
+	.uaword	0x478e
 	.byte	0x1
 	.byte	0x62
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4130
+	.uaword	0x4135
 	.uleb128 0x2d
 	.byte	0x1
 	.string	"IfxGpt12_initTxEudInPinWithPadLevel"
@@ -9051,44 +9051,44 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x5033
+	.uaword	0x5038
 	.uleb128 0x2e
 	.string	"txEudIn"
 	.byte	0x1
 	.uahalf	0x11d
-	.uaword	0x4ead
+	.uaword	0x4eb2
 	.uaword	.LLST48
 	.uleb128 0x2f
 	.uaword	.LASF21
 	.byte	0x1
 	.uahalf	0x11d
-	.uaword	0x286c
+	.uaword	0x2871
 	.uaword	.LLST49
 	.uleb128 0x2f
 	.uaword	.LASF22
 	.byte	0x1
 	.uahalf	0x11d
-	.uaword	0x2cda
+	.uaword	0x2cdf
 	.uaword	.LLST50
 	.uleb128 0x34
-	.uaword	0x46a9
+	.uaword	0x46ae
 	.uaword	.LBB88
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
 	.uahalf	0x11f
-	.uaword	0x4f61
+	.uaword	0x4f66
 	.uleb128 0x25
-	.uaword	0x46e4
+	.uaword	0x46e9
 	.uaword	.LLST49
 	.uleb128 0x25
-	.uaword	0x46d8
+	.uaword	0x46dd
 	.uaword	.LLST52
 	.uleb128 0x25
-	.uaword	0x46cb
+	.uaword	0x46d0
 	.uaword	.LLST53
 	.uleb128 0x31
 	.uaword	.LVL133
-	.uaword	0x5476
+	.uaword	0x547b
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x55
@@ -9099,79 +9099,79 @@ IfxGpt12_resetModule:
 	.byte	0
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x47dd
+	.uaword	0x47e2
 	.uaword	.LBB92
 	.uaword	.LBE92
 	.byte	0x1
 	.uahalf	0x131
-	.uaword	0x4f88
+	.uaword	0x4f8d
 	.uleb128 0x25
-	.uaword	0x480b
+	.uaword	0x4810
 	.uaword	.LLST54
 	.uleb128 0x25
-	.uaword	0x47ff
+	.uaword	0x4804
 	.uaword	.LLST55
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x47a2
+	.uaword	0x47a7
 	.uaword	.LBB94
 	.uaword	.LBE94
 	.byte	0x1
 	.uahalf	0x12e
-	.uaword	0x4faf
+	.uaword	0x4fb4
 	.uleb128 0x25
-	.uaword	0x47d0
+	.uaword	0x47d5
 	.uaword	.LLST56
 	.uleb128 0x25
-	.uaword	0x47c4
+	.uaword	0x47c9
 	.uaword	.LLST57
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x46f1
+	.uaword	0x46f6
 	.uaword	.LBB96
 	.uaword	.LBE96
 	.byte	0x1
 	.uahalf	0x125
-	.uaword	0x4fd6
+	.uaword	0x4fdb
 	.uleb128 0x25
-	.uaword	0x471f
+	.uaword	0x4724
 	.uaword	.LLST58
 	.uleb128 0x25
-	.uaword	0x4713
+	.uaword	0x4718
 	.uaword	.LLST59
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x472c
+	.uaword	0x4731
 	.uaword	.LBB98
 	.uaword	.LBE98
 	.byte	0x1
 	.uahalf	0x128
-	.uaword	0x4ffd
+	.uaword	0x5002
 	.uleb128 0x25
-	.uaword	0x475a
+	.uaword	0x475f
 	.uaword	.LLST60
 	.uleb128 0x25
-	.uaword	0x474e
+	.uaword	0x4753
 	.uaword	.LLST61
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x4767
+	.uaword	0x476c
 	.uaword	.LBB100
 	.uaword	.LBE100
 	.byte	0x1
 	.uahalf	0x12b
-	.uaword	0x5022
+	.uaword	0x5027
 	.uleb128 0x25
-	.uaword	0x4795
+	.uaword	0x479a
 	.uaword	.LLST62
 	.uleb128 0x33
-	.uaword	0x4789
+	.uaword	0x478e
 	.byte	0x1
 	.byte	0x62
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL134
-	.uaword	0x54a4
+	.uaword	0x54a9
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x55
@@ -9191,38 +9191,38 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x517d
+	.uaword	0x5182
 	.uleb128 0x2e
 	.string	"txIn"
 	.byte	0x1
 	.uahalf	0x139
-	.uaword	0x517d
+	.uaword	0x5182
 	.uaword	.LLST63
 	.uleb128 0x2f
 	.uaword	.LASF21
 	.byte	0x1
 	.uahalf	0x139
-	.uaword	0x286c
+	.uaword	0x2871
 	.uaword	.LLST64
 	.uleb128 0x30
-	.uaword	0x46a9
+	.uaword	0x46ae
 	.uaword	.LBB102
 	.uaword	.LBE102
 	.byte	0x1
 	.uahalf	0x13b
-	.uaword	0x50bf
+	.uaword	0x50c4
 	.uleb128 0x25
-	.uaword	0x46e4
+	.uaword	0x46e9
 	.uaword	.LLST64
 	.uleb128 0x25
-	.uaword	0x46d8
+	.uaword	0x46dd
 	.uaword	.LLST66
 	.uleb128 0x25
-	.uaword	0x46cb
+	.uaword	0x46d0
 	.uaword	.LLST67
 	.uleb128 0x31
 	.uaword	.LVL151
-	.uaword	0x5476
+	.uaword	0x547b
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x55
@@ -9233,79 +9233,79 @@ IfxGpt12_resetModule:
 	.byte	0
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x48f8
+	.uaword	0x48fd
 	.uaword	.LBB104
 	.uaword	.LBE104
 	.byte	0x1
 	.uahalf	0x14c
-	.uaword	0x50e6
+	.uaword	0x50eb
 	.uleb128 0x25
-	.uaword	0x4923
+	.uaword	0x4928
 	.uaword	.LLST68
 	.uleb128 0x25
-	.uaword	0x4917
+	.uaword	0x491c
 	.uaword	.LLST69
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x48c0
+	.uaword	0x48c5
 	.uaword	.LBB106
 	.uaword	.LBE106
 	.byte	0x1
 	.uahalf	0x149
-	.uaword	0x510d
+	.uaword	0x5112
 	.uleb128 0x25
-	.uaword	0x48eb
+	.uaword	0x48f0
 	.uaword	.LLST70
 	.uleb128 0x25
-	.uaword	0x48df
+	.uaword	0x48e4
 	.uaword	.LLST71
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x4818
+	.uaword	0x481d
 	.uaword	.LBB108
 	.uaword	.LBE108
 	.byte	0x1
 	.uahalf	0x140
-	.uaword	0x5134
+	.uaword	0x5139
 	.uleb128 0x25
-	.uaword	0x4843
+	.uaword	0x4848
 	.uaword	.LLST72
 	.uleb128 0x25
-	.uaword	0x4837
+	.uaword	0x483c
 	.uaword	.LLST73
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x4850
+	.uaword	0x4855
 	.uaword	.LBB110
 	.uaword	.LBE110
 	.byte	0x1
 	.uahalf	0x143
-	.uaword	0x515b
+	.uaword	0x5160
 	.uleb128 0x25
-	.uaword	0x487b
+	.uaword	0x4880
 	.uaword	.LLST74
 	.uleb128 0x25
-	.uaword	0x486f
+	.uaword	0x4874
 	.uaword	.LLST75
 	.byte	0
 	.uleb128 0x32
-	.uaword	0x4888
+	.uaword	0x488d
 	.uaword	.LBB112
 	.uaword	.LBE112
 	.byte	0x1
 	.uahalf	0x146
 	.uleb128 0x25
-	.uaword	0x48b3
+	.uaword	0x48b8
 	.uaword	.LLST76
 	.uleb128 0x33
-	.uaword	0x48a7
+	.uaword	0x48ac
 	.byte	0x1
 	.byte	0x62
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x418c
+	.uaword	0x4191
 	.uleb128 0x2d
 	.byte	0x1
 	.string	"IfxGpt12_initTxInPinWithPadLevel"
@@ -9317,44 +9317,44 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x52fd
+	.uaword	0x5302
 	.uleb128 0x2e
 	.string	"txIn"
 	.byte	0x1
 	.uahalf	0x154
-	.uaword	0x517d
+	.uaword	0x5182
 	.uaword	.LLST77
 	.uleb128 0x2f
 	.uaword	.LASF21
 	.byte	0x1
 	.uahalf	0x154
-	.uaword	0x286c
+	.uaword	0x2871
 	.uaword	.LLST78
 	.uleb128 0x2f
 	.uaword	.LASF22
 	.byte	0x1
 	.uahalf	0x154
-	.uaword	0x2cda
+	.uaword	0x2cdf
 	.uaword	.LLST79
 	.uleb128 0x34
-	.uaword	0x46a9
+	.uaword	0x46ae
 	.uaword	.LBB114
 	.uaword	.Ldebug_ranges0+0x30
 	.byte	0x1
 	.uahalf	0x156
-	.uaword	0x522b
+	.uaword	0x5230
 	.uleb128 0x25
-	.uaword	0x46e4
+	.uaword	0x46e9
 	.uaword	.LLST78
 	.uleb128 0x25
-	.uaword	0x46d8
+	.uaword	0x46dd
 	.uaword	.LLST81
 	.uleb128 0x25
-	.uaword	0x46cb
+	.uaword	0x46d0
 	.uaword	.LLST82
 	.uleb128 0x31
 	.uaword	.LVL169
-	.uaword	0x5476
+	.uaword	0x547b
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x55
@@ -9365,79 +9365,79 @@ IfxGpt12_resetModule:
 	.byte	0
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x48f8
+	.uaword	0x48fd
 	.uaword	.LBB118
 	.uaword	.LBE118
 	.byte	0x1
 	.uahalf	0x168
-	.uaword	0x5252
+	.uaword	0x5257
 	.uleb128 0x25
-	.uaword	0x4923
+	.uaword	0x4928
 	.uaword	.LLST83
 	.uleb128 0x25
-	.uaword	0x4917
+	.uaword	0x491c
 	.uaword	.LLST84
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x48c0
+	.uaword	0x48c5
 	.uaword	.LBB120
 	.uaword	.LBE120
 	.byte	0x1
 	.uahalf	0x165
-	.uaword	0x5279
+	.uaword	0x527e
 	.uleb128 0x25
-	.uaword	0x48eb
+	.uaword	0x48f0
 	.uaword	.LLST85
 	.uleb128 0x25
-	.uaword	0x48df
+	.uaword	0x48e4
 	.uaword	.LLST86
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x4818
+	.uaword	0x481d
 	.uaword	.LBB122
 	.uaword	.LBE122
 	.byte	0x1
 	.uahalf	0x15c
-	.uaword	0x52a0
+	.uaword	0x52a5
 	.uleb128 0x25
-	.uaword	0x4843
+	.uaword	0x4848
 	.uaword	.LLST87
 	.uleb128 0x25
-	.uaword	0x4837
+	.uaword	0x483c
 	.uaword	.LLST88
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x4850
+	.uaword	0x4855
 	.uaword	.LBB124
 	.uaword	.LBE124
 	.byte	0x1
 	.uahalf	0x15f
-	.uaword	0x52c7
+	.uaword	0x52cc
 	.uleb128 0x25
-	.uaword	0x487b
+	.uaword	0x4880
 	.uaword	.LLST89
 	.uleb128 0x25
-	.uaword	0x486f
+	.uaword	0x4874
 	.uaword	.LLST90
 	.byte	0
 	.uleb128 0x30
-	.uaword	0x4888
+	.uaword	0x488d
 	.uaword	.LBB126
 	.uaword	.LBE126
 	.byte	0x1
 	.uahalf	0x162
-	.uaword	0x52ec
+	.uaword	0x52f1
 	.uleb128 0x25
-	.uaword	0x48b3
+	.uaword	0x48b8
 	.uaword	.LLST91
 	.uleb128 0x33
-	.uaword	0x48a7
+	.uaword	0x48ac
 	.byte	0x1
 	.byte	0x62
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL170
-	.uaword	0x54a4
+	.uaword	0x54a9
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x55
@@ -9457,26 +9457,26 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x53a1
+	.uaword	0x53a6
 	.uleb128 0x2f
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x170
-	.uaword	0x40ec
+	.uaword	0x40f1
 	.uaword	.LLST92
 	.uleb128 0x35
 	.string	"passwd"
 	.byte	0x1
 	.uahalf	0x172
-	.uaword	0x1ea
+	.uaword	0x1ef
 	.uaword	.LLST93
 	.uleb128 0x26
 	.uaword	.LVL185
-	.uaword	0x53f8
+	.uaword	0x53fd
 	.uleb128 0x2a
 	.uaword	.LVL187
-	.uaword	0x5424
-	.uaword	0x5367
+	.uaword	0x5429
+	.uaword	0x536c
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x54
@@ -9486,8 +9486,8 @@ IfxGpt12_resetModule:
 	.byte	0
 	.uleb128 0x2a
 	.uaword	.LVL188
-	.uaword	0x544e
-	.uaword	0x537b
+	.uaword	0x5453
+	.uaword	0x5380
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x54
@@ -9497,8 +9497,8 @@ IfxGpt12_resetModule:
 	.byte	0
 	.uleb128 0x2a
 	.uaword	.LVL189
-	.uaword	0x5424
-	.uaword	0x538f
+	.uaword	0x5429
+	.uaword	0x5394
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x54
@@ -9509,7 +9509,7 @@ IfxGpt12_resetModule:
 	.uleb128 0x2c
 	.uaword	.LVL190
 	.byte	0x1
-	.uaword	0x544e
+	.uaword	0x5453
 	.uleb128 0x2b
 	.byte	0x1
 	.byte	0x54
@@ -9519,28 +9519,28 @@ IfxGpt12_resetModule:
 	.byte	0
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x325
-	.uaword	0x53b1
+	.uaword	0x32a
+	.uaword	0x53b6
 	.uleb128 0xc
-	.uaword	0x34f
+	.uaword	0x354
 	.byte	0x2
 	.byte	0
 	.uleb128 0x36
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xb
 	.byte	0x96
-	.uaword	0x53ce
+	.uaword	0x53d3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1a
-	.uaword	0x53a1
+	.uaword	0x53a6
 	.uleb128 0x37
 	.byte	0x1
 	.string	"IfxScuCcu_getSpbFrequency"
 	.byte	0x9
 	.uahalf	0x3a0
 	.byte	0x1
-	.uaword	0x21c
+	.uaword	0x221
 	.byte	0x1
 	.uleb128 0x37
 	.byte	0x1
@@ -9548,7 +9548,7 @@ IfxGpt12_resetModule:
 	.byte	0xa
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x1ea
+	.uaword	0x1ef
 	.byte	0x1
 	.uleb128 0x38
 	.byte	0x1
@@ -9557,9 +9557,9 @@ IfxGpt12_resetModule:
 	.byte	0xc5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x544e
+	.uaword	0x5453
 	.uleb128 0x39
-	.uaword	0x1ea
+	.uaword	0x1ef
 	.byte	0
 	.uleb128 0x38
 	.byte	0x1
@@ -9568,9 +9568,9 @@ IfxGpt12_resetModule:
 	.byte	0xdb
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x5476
+	.uaword	0x547b
 	.uleb128 0x39
-	.uaword	0x1ea
+	.uaword	0x1ef
 	.byte	0
 	.uleb128 0x3a
 	.byte	0x1
@@ -9579,13 +9579,13 @@ IfxGpt12_resetModule:
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x54a4
+	.uaword	0x54a9
 	.uleb128 0x39
-	.uaword	0x27e6
+	.uaword	0x27eb
 	.uleb128 0x39
-	.uaword	0x1bf
+	.uaword	0x1c4
 	.uleb128 0x39
-	.uaword	0x2b25
+	.uaword	0x2b2a
 	.byte	0
 	.uleb128 0x3b
 	.byte	0x1
@@ -9595,11 +9595,11 @@ IfxGpt12_resetModule:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x39
-	.uaword	0x27e6
+	.uaword	0x27eb
 	.uleb128 0x39
-	.uaword	0x1bf
+	.uaword	0x1c4
 	.uleb128 0x39
-	.uaword	0x2cda
+	.uaword	0x2cdf
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits

@@ -105,8 +105,8 @@ int core0_main (void)
 	uint8 duty1 = 50;
 	IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty1) * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
 	uint8 duty2 = 80;
-	/*PWM_config(IfxGtm_TOM2_0_TOUT48_P22_1_OUT);
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty2) * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	PWM_config(IfxGtm_TOM2_0_TOUT48_P22_1_OUT);
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty2) * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
 	/*IfxPort_setPinModeOutput(&MODULE_P13, 0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinLow(&MODULE_P13, 0);*/
     while (1)

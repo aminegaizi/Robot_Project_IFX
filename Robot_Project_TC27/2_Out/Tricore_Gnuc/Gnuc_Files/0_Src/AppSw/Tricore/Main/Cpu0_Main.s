@@ -74,9 +74,9 @@ core0_main:
 	movh.a	%a15, 61443
 	lea	%a15, [%a15] 25104
 	.loc 1 58 0
+	mov	%d5, 16
 	mov	%d4, 4
 	lea	%a4, [%a4] -19200
-	mov	%d5, 16
 	call	IfxPort_setPinMode
 .LVL6:
 	.loc 1 61 0
@@ -155,20 +155,38 @@ core0_main:
 .LVL12:
 	.loc 1 98 0
 	movh.a	%a4, hi:IfxGtm_TOM0_0_TOUT18_P00_9_OUT
+	.loc 1 106 0
+	movh.a	%a15, hi:Timer1
+	.loc 1 98 0
 	lea	%a4, [%a4] lo:IfxGtm_TOM0_0_TOUT18_P00_9_OUT
 	call	PWM_config
 .LVL13:
 	.loc 1 106 0
-	movh.a	%a4, hi:Timer1
-	ld.w	%d15, [%a4] lo:Timer1
+	ld.w	%d15, [%a15] lo:Timer1
 	movh	%d2, 20972
 	mul	%d15, %d15, 50
 	addi	%d2, %d2, -31457
-	lea	%a4, [%a4] lo:Timer1
+	lea	%a12, [%a15] lo:Timer1
 	mul.u	%e2, %d15, %d2
+	mov.aa	%a4, %a12
 	sh	%d4, %d3, -5
 	call	IfxGtm_Tom_Timer_setTrigger
 .LVL14:
+	.loc 1 108 0
+	movh.a	%a4, hi:IfxGtm_TOM2_0_TOUT48_P22_1_OUT
+	lea	%a4, [%a4] lo:IfxGtm_TOM2_0_TOUT48_P22_1_OUT
+	call	PWM_config
+.LVL15:
+	.loc 1 109 0
+	ld.w	%d2, [%a15] lo:Timer1
+	mov.aa	%a4, %a12
+	mul	%d15, %d2, 20
+	movh	%d2, 20972
+	addi	%d2, %d2, -31457
+	mul.u	%e2, %d15, %d2
+	sh	%d4, %d3, -5
+	call	IfxGtm_Tom_Timer_setTrigger
+.LVL16:
 .L2:
 	.loc 1 114 0 discriminator 1
 	j	.L2
@@ -255,7 +273,7 @@ cpuSyncEvent:
 	.file 19 "0_Src/AppSw/Tricore/PWM_config.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x1e577
+	.uaword	0x1e5c4
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -46629,7 +46647,7 @@ cpuSyncEvent:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1e2ec
+	.uaword	0x1e310
 	.uleb128 0x29
 	.string	"duty1"
 	.byte	0x1
@@ -46688,19 +46706,19 @@ cpuSyncEvent:
 	.byte	0
 	.uleb128 0x2f
 	.uaword	.LVL0
-	.uaword	0x1e3ac
+	.uaword	0x1e3f9
 	.uleb128 0x2f
 	.uaword	.LVL1
-	.uaword	0x1e3d8
+	.uaword	0x1e425
 	.uleb128 0x2f
 	.uaword	.LVL2
-	.uaword	0x1e406
+	.uaword	0x1e453
 	.uleb128 0x2f
 	.uaword	.LVL3
-	.uaword	0x1e435
+	.uaword	0x1e482
 	.uleb128 0x30
 	.uaword	.LVL4
-	.uaword	0x1e466
+	.uaword	0x1e4b3
 	.uaword	0x1e283
 	.uleb128 0x31
 	.byte	0x1
@@ -46711,7 +46729,7 @@ cpuSyncEvent:
 	.byte	0
 	.uleb128 0x30
 	.uaword	.LVL5
-	.uaword	0x1e48e
+	.uaword	0x1e4db
 	.uaword	0x1e29c
 	.uleb128 0x31
 	.byte	0x1
@@ -46727,7 +46745,7 @@ cpuSyncEvent:
 	.byte	0
 	.uleb128 0x30
 	.uaword	.LVL6
-	.uaword	0x1e4b9
+	.uaword	0x1e506
 	.uaword	0x1e2be
 	.uleb128 0x31
 	.byte	0x1
@@ -46748,21 +46766,42 @@ cpuSyncEvent:
 	.byte	0
 	.uleb128 0x2f
 	.uaword	.LVL10
-	.uaword	0x1e4e7
+	.uaword	0x1e534
 	.uleb128 0x2f
 	.uaword	.LVL11
-	.uaword	0x1e500
+	.uaword	0x1e54d
 	.uleb128 0x2f
 	.uaword	.LVL12
-	.uaword	0x1e51a
+	.uaword	0x1e567
 	.uleb128 0x2f
 	.uaword	.LVL13
-	.uaword	0x1e531
-	.uleb128 0x2f
+	.uaword	0x1e57e
+	.uleb128 0x30
 	.uaword	.LVL14
-	.uaword	0x1e54c
+	.uaword	0x1e599
+	.uaword	0x1e2f6
+	.uleb128 0x31
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8c
+	.sleb128 0
 	.byte	0
+	.uleb128 0x2f
+	.uaword	.LVL15
+	.uaword	0x1e57e
 	.uleb128 0x32
+	.uaword	.LVL16
+	.uaword	0x1e599
+	.uleb128 0x31
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8c
+	.sleb128 0
+	.byte	0
+	.byte	0
+	.uleb128 0x33
 	.byte	0x1
 	.string	"TEST"
 	.byte	0x1
@@ -46775,21 +46814,21 @@ cpuSyncEvent:
 	.byte	0x1
 	.uleb128 0x9
 	.uaword	0x2d8
-	.uaword	0x1e311
+	.uaword	0x1e335
 	.uleb128 0xa
 	.uaword	0x307
 	.byte	0x2
 	.byte	0
-	.uleb128 0x33
+	.uleb128 0x34
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x9
 	.byte	0x96
-	.uaword	0x1e32e
+	.uaword	0x1e352
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x24
-	.uaword	0x1e301
-	.uleb128 0x34
+	.uaword	0x1e325
+	.uleb128 0x35
 	.string	"IfxGtm_TOM0_0_TOUT18_P00_9_OUT"
 	.byte	0xe
 	.uahalf	0x26a
@@ -46797,6 +46836,13 @@ cpuSyncEvent:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x35
+	.string	"IfxGtm_TOM2_0_TOUT48_P22_1_OUT"
+	.byte	0xe
+	.uahalf	0x317
+	.uaword	0x1de85
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x36
 	.string	"cpuSyncEvent"
 	.byte	0x1
 	.byte	0x24
@@ -46805,25 +46851,25 @@ cpuSyncEvent:
 	.byte	0x5
 	.byte	0x3
 	.uaword	cpuSyncEvent
-	.uleb128 0x33
+	.uleb128 0x34
 	.string	"Timer1"
 	.byte	0x1
 	.byte	0x26
 	.uaword	0x1e0c2
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x35
+	.uleb128 0x36
 	.string	"interrupt_counter"
 	.byte	0x1
 	.byte	0x29
-	.uaword	0x1e3a7
+	.uaword	0x1e3f4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	interrupt_counter
 	.uleb128 0x8
 	.uaword	0x20f
-	.uleb128 0x36
+	.uleb128 0x37
 	.byte	0x1
 	.string	"IfxScuWdt_getCpuWatchdogPassword"
 	.byte	0x11
@@ -46831,18 +46877,18 @@ cpuSyncEvent:
 	.byte	0x1
 	.uaword	0x1dd
 	.byte	0x1
-	.uleb128 0x37
+	.uleb128 0x38
 	.byte	0x1
 	.string	"IfxScuWdt_disableCpuWatchdog"
 	.byte	0x11
 	.uahalf	0x146
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e406
-	.uleb128 0x38
+	.uaword	0x1e453
+	.uleb128 0x39
 	.uaword	0x1dd
 	.byte	0
-	.uleb128 0x36
+	.uleb128 0x37
 	.byte	0x1
 	.string	"IfxScuWdt_getSafetyWatchdogPassword"
 	.byte	0x11
@@ -46850,32 +46896,32 @@ cpuSyncEvent:
 	.byte	0x1
 	.uaword	0x1dd
 	.byte	0x1
-	.uleb128 0x37
+	.uleb128 0x38
 	.byte	0x1
 	.string	"IfxScuWdt_disableSafetyWatchdog"
 	.byte	0x11
 	.uahalf	0x150
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e466
-	.uleb128 0x38
+	.uaword	0x1e4b3
+	.uleb128 0x39
 	.uaword	0x1dd
 	.byte	0
-	.uleb128 0x37
+	.uleb128 0x38
 	.byte	0x1
 	.string	"IfxCpu_emitEvent"
 	.byte	0x2
 	.uahalf	0x26d
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e488
-	.uleb128 0x38
-	.uaword	0x1e488
+	.uaword	0x1e4d5
+	.uleb128 0x39
+	.uaword	0x1e4d5
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
 	.uaword	0x3069
-	.uleb128 0x39
+	.uleb128 0x3a
 	.byte	0x1
 	.string	"IfxCpu_waitEvent"
 	.byte	0x2
@@ -46883,75 +46929,75 @@ cpuSyncEvent:
 	.byte	0x1
 	.uaword	0x23f
 	.byte	0x1
-	.uaword	0x1e4b9
-	.uleb128 0x38
-	.uaword	0x1e488
-	.uleb128 0x38
+	.uaword	0x1e506
+	.uleb128 0x39
+	.uaword	0x1e4d5
+	.uleb128 0x39
 	.uaword	0x20f
 	.byte	0
-	.uleb128 0x37
+	.uleb128 0x38
 	.byte	0x1
 	.string	"IfxPort_setPinMode"
 	.byte	0xa
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e4e7
-	.uleb128 0x38
+	.uaword	0x1e534
+	.uleb128 0x39
 	.uaword	0x2c00
-	.uleb128 0x38
+	.uleb128 0x39
 	.uaword	0x1b2
-	.uleb128 0x38
+	.uleb128 0x39
 	.uaword	0x2f26
 	.byte	0
-	.uleb128 0x3a
+	.uleb128 0x3b
 	.byte	0x1
 	.string	"StopLeftMotor"
 	.byte	0x12
 	.byte	0x9
 	.byte	0x1
-	.uaword	0x1e500
-	.uleb128 0x3b
+	.uaword	0x1e54d
+	.uleb128 0x3c
 	.byte	0
-	.uleb128 0x3a
+	.uleb128 0x3b
 	.byte	0x1
 	.string	"StopRightMotor"
 	.byte	0x12
 	.byte	0xa
 	.byte	0x1
-	.uaword	0x1e51a
-	.uleb128 0x3b
+	.uaword	0x1e567
+	.uleb128 0x3c
 	.byte	0
-	.uleb128 0x3a
+	.uleb128 0x3b
 	.byte	0x1
 	.string	"ClockConfig"
 	.byte	0x13
 	.byte	0x17
 	.byte	0x1
-	.uaword	0x1e531
-	.uleb128 0x3b
-	.byte	0
+	.uaword	0x1e57e
 	.uleb128 0x3c
+	.byte	0
+	.uleb128 0x3d
 	.byte	0x1
 	.string	"PWM_config"
 	.byte	0x13
 	.byte	0x16
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1e54c
-	.uleb128 0x38
+	.uaword	0x1e599
+	.uleb128 0x39
 	.uaword	0x1de85
 	.byte	0
-	.uleb128 0x3d
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"IfxGtm_Tom_Timer_setTrigger"
 	.byte	0x10
 	.uahalf	0x14b
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x38
+	.uleb128 0x39
 	.uaword	0x1e0da
-	.uleb128 0x38
+	.uleb128 0x39
 	.uaword	0x29c
 	.byte	0
 	.byte	0
@@ -47617,6 +47663,15 @@ cpuSyncEvent:
 	.byte	0
 	.byte	0
 	.uleb128 0x32
+	.uleb128 0x4109
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x31
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x33
 	.uleb128 0x2e
 	.byte	0
 	.uleb128 0x3f
@@ -47639,23 +47694,6 @@ cpuSyncEvent:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x33
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.byte	0
-	.byte	0
 	.uleb128 0x34
 	.uleb128 0x34
 	.byte	0
@@ -47664,7 +47702,7 @@ cpuSyncEvent:
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0x5
+	.uleb128 0xb
 	.uleb128 0x49
 	.uleb128 0x13
 	.uleb128 0x3f
@@ -47681,6 +47719,23 @@ cpuSyncEvent:
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
+	.uleb128 0x5
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.byte	0
+	.byte	0
+	.uleb128 0x36
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
 	.uleb128 0xb
 	.uleb128 0x49
 	.uleb128 0x13
@@ -47690,7 +47745,7 @@ cpuSyncEvent:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x36
+	.uleb128 0x37
 	.uleb128 0x2e
 	.byte	0
 	.uleb128 0x3f
@@ -47709,7 +47764,7 @@ cpuSyncEvent:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x37
+	.uleb128 0x38
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -47725,17 +47780,17 @@ cpuSyncEvent:
 	.uleb128 0x3c
 	.uleb128 0xc
 	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x38
-	.uleb128 0x5
-	.byte	0
-	.uleb128 0x49
 	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x39
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x3a
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -47756,7 +47811,7 @@ cpuSyncEvent:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3a
+	.uleb128 0x3b
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -47773,12 +47828,12 @@ cpuSyncEvent:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3b
+	.uleb128 0x3c
 	.uleb128 0x18
 	.byte	0
 	.byte	0
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3d
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -47797,7 +47852,7 @@ cpuSyncEvent:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3d
+	.uleb128 0x3e
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -48250,9 +48305,10 @@ cpuSyncEvent:
 	.string	"CTRL"
 .LASF131:
 	.string	"DID_EN11"
+	.extern	IfxGtm_TOM2_0_TOUT48_P22_1_OUT,STT_OBJECT,20
 	.extern	IfxGtm_Tom_Timer_setTrigger,STT_FUNC,0
-	.extern	Timer1,STT_OBJECT,60
 	.extern	PWM_config,STT_FUNC,0
+	.extern	Timer1,STT_OBJECT,60
 	.extern	IfxGtm_TOM0_0_TOUT18_P00_9_OUT,STT_OBJECT,20
 	.extern	ClockConfig,STT_FUNC,0
 	.extern	StopRightMotor,STT_FUNC,0

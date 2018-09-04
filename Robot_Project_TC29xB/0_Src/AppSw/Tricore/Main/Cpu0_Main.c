@@ -37,7 +37,7 @@
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
 extern IfxGtm_Tom_Timer Timer1;
-
+extern IfxGtm_Tom_Timer Timer2;
 
 volatile uint32 interrupt_counter = 0;
 
@@ -97,17 +97,12 @@ int core0_main (void)
 	ClockConfig();
 
 	PWM_config(IfxGtm_TOM0_0_TOUT18_P00_9_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
-	//IfxGtm_TOM0_0_TOUT18_P00_9_OUT -- IfxGtm_TOM0_0_TOUT76_P15_5_OUT -- IfxGtm_TOM0_0_TOUT53_P21_2_OUT -- IfxGtm_TOM0_0_TOUT77_P15_6_OUT
-	//IfxGtm_TOM1_0_TOUT18_P00_9_OUT -- IfxGtm_TOM1_0_TOUT76_P15_5_OUT -- IfxGtm_TOM1_0_TOUT26_P33_4_OUT
-	//IfxGtm_TOM2_0_TOUT48_P22_1_OUT
-//	IfxGtm_TOM2_5_TOUT91_P13_0_OUT -----> This is the LED D107
-//	IfxGtm_TOM0_0_TOUT85_P14_5_OUT
-//	PWM_config(IfxGtm_TOM2_14_TOUT66_P20_10_OUT);
+
 	uint8 duty1 = 50;
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty1) * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
 	uint8 duty2 = 80;
-	PWM_config(IfxGtm_TOM2_0_TOUT48_P22_1_OUT);
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty2) * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	PWM2_config(IfxGtm_TOM2_0_TOUT48_P22_1_OUT);
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
 	/*IfxPort_setPinModeOutput(&MODULE_P13, 0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinLow(&MODULE_P13, 0);*/
     while (1)
@@ -120,4 +115,12 @@ int core0_main (void)
 IFX_INTERRUPT(TEST,0,25)
 {
 	interrupt_counter++;
+//	if (interrupt_counter == 10)
+//	{
+//		IfxGtm_Tom_Timer_stop(&Timer1);
+//		IfxGtm_Tom_Timer_stop(&Timer2);
+//	}
 }
+//IfxGtm_TOM0_0_TOUT18_P00_9_OUT -- IfxGtm_TOM0_0_TOUT76_P15_5_OUT -- IfxGtm_TOM0_0_TOUT53_P21_2_OUT -- IfxGtm_TOM0_0_TOUT77_P15_6_OUT
+//IfxGtm_TOM1_0_TOUT18_P00_9_OUT -- IfxGtm_TOM1_0_TOUT76_P15_5_OUT -- IfxGtm_TOM1_0_TOUT26_P33_4_OUT
+//IfxGtm_TOM2_0_TOUT48_P22_1_OUT

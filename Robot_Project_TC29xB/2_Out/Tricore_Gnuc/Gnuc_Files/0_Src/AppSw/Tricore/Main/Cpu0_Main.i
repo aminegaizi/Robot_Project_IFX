@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
-# 1 "C:\\Aurix1G_Workspace_V1_0_1_7_0\\Copy of BaseFramework_TC29B//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
@@ -22769,13 +22769,14 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 
 
 void PWM_config(IfxGtm_Tom_ToutMap Output);
+void PWM2_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
 # 36 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
 extern IfxGtm_Tom_Timer Timer1;
-
+extern IfxGtm_Tom_Timer Timer2;
 
 volatile uint32 interrupt_counter = 0;
 
@@ -22836,16 +22837,11 @@ int core0_main (void)
 
  PWM_config(IfxGtm_TOM0_0_TOUT18_P00_9_OUT);
 
-
-
-
-
-
  uint8 duty1 = 50;
- IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty1) * Timer1.base.period) / 100);
+ IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100);
  uint8 duty2 = 80;
- PWM_config(IfxGtm_TOM2_0_TOUT48_P22_1_OUT);
- IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-duty2) * Timer1.base.period) / 100);
+ PWM2_config(IfxGtm_TOM2_0_TOUT48_P22_1_OUT);
+ IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100);
 
 
     while (1)
@@ -22858,4 +22854,9 @@ int core0_main (void)
 __asm__ (".ifndef .intr.entry.include                        \n" ".altmacro                                           \n" ".macro .int_entry.2 intEntryLabel, name # define the section and inttab entry code \n" "	.pushsection .\\intEntryLabel,\"ax\",@progbits   \n" "	__\\intEntryLabel :                              \n" "		svlcx                                        \n" "		movh.a  %a14, hi:\\name                      \n" "		lea     %a14, [%a14]lo:\\name                \n" "		ji      %a14                                 \n" "	.popsection                                      \n" ".endm                                               \n" ".macro .int_entry.1 prio,vectabNum,u,name           \n" ".int_entry.2 intvec_tc\\vectabNum\\u\\prio,(name) # build the unique name \n" ".endm                                               \n" "                                                    \n" ".macro .intr.entry name,vectabNum,prio              \n" ".int_entry.1 %(prio),%(vectabNum),_,name # evaluate the priority and the cpu number \n" ".endm                                               \n" ".intr.entry.include:                                \n" ".endif                                              \n" ".intr.entry ""TEST"",""0"",""25" );extern void __attribute__ ((interrupt_handler)) TEST(); void TEST (void)
 {
  interrupt_counter++;
+ if (interrupt_counter == 10)
+ {
+  IfxGtm_Tom_Timer_stop(&Timer1);
+  IfxGtm_Tom_Timer_stop(&Timer2);
+ }
 }

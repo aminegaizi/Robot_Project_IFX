@@ -20,4 +20,5 @@
 
 
 void PWM_config(IfxGtm_Tom_ToutMap Output);
+void PWM2_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
