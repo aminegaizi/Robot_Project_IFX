@@ -22286,6 +22286,11 @@ IfxGtm_Tom_Timer_Config Timer2Config;
 
 Ifx_GTM *gtm = &(*(Ifx_GTM*)0xF0100000u);
 
+
+
+
+
+
 void PWM_config(IfxGtm_Tom_ToutMap Output)
 {
  IfxGtm_Tom_Timer_initConfig(&TimerConfig, gtm);
@@ -22317,6 +22322,11 @@ void PWM_config(IfxGtm_Tom_ToutMap Output)
 
 
 }
+
+
+
+
+
 
 void PWM2_config(IfxGtm_Tom_ToutMap Output)
 {

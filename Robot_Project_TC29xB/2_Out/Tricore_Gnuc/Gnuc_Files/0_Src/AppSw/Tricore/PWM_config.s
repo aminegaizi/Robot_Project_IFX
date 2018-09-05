@@ -8,10 +8,10 @@
 PWM_config:
 .LFB275:
 	.file 1 "0_Src/AppSw/Tricore/PWM_config.c"
-	.loc 1 20 0
+	.loc 1 25 0
 	sub.a	%SP, 24
 .LCFI0:
-	.loc 1 19 0
+	.loc 1 24 0
 	lea	%a12, [%SP] 4
 	mov.aa	%a2, %a12
 		# #chunks=2, chunksize=8, remains=4
@@ -21,7 +21,7 @@ PWM_config:
 	st.d	[%a2+]8, %e2
 	ld.w	%d2, [%a4+]4
 	st.w	[%a2+]4, %d2
-	.loc 1 21 0
+	.loc 1 26 0
 	movh.a	%a2, hi:gtm
 	ld.a	%a5, [%a2] lo:gtm
 	movh.a	%a13, hi:TimerConfig
@@ -29,68 +29,68 @@ PWM_config:
 	mov.aa	%a4, %a15
 	call	IfxGtm_Tom_Timer_initConfig
 .LVL0:
-	.loc 1 31 0
+	.loc 1 36 0
 	movh	%d3, 18076
 	addi	%d3, %d3, 16384
-	.loc 1 23 0
+	.loc 1 28 0
 	ld.bu	%d15, [%SP] 4
 	st.b	[%a15] 40, %d15
-	.loc 1 24 0
+	.loc 1 29 0
 	ld.bu	%d15, [%SP] 5
 	st.b	[%a15] 41, %d15
-	.loc 1 25 0
+	.loc 1 30 0
 	mov	%d2, 0
-	.loc 1 26 0
-	mov	%d15, 1
 	.loc 1 31 0
-	st.w	[%a13] lo:TimerConfig, %d3
-	.loc 1 32 0
-	mov	%d3, 0
-	.loc 1 25 0
-	st.b	[%a15] 48, %d2
-	.loc 1 26 0
-	st.b	[%a15] 49, %d15
-	.loc 1 27 0
-	st.b	[%a15] 50, %d15
-	.loc 1 32 0
-	st.w	[%a15] 8, %d3
-	.loc 1 33 0
-	st.b	[%a15] 12, %d15
-	.loc 1 34 0
-	st.b	[%a15] 26, %d15
-	.loc 1 35 0
-	mov	%d3, -128
+	mov	%d15, 1
 	.loc 1 36 0
-	st.b	[%a15] 24, %d2
-	.loc 1 38 0
-	st.b	[%a15] 25, %d15
+	st.w	[%a13] lo:TimerConfig, %d3
 	.loc 1 37 0
+	mov	%d3, 0
+	.loc 1 30 0
+	st.b	[%a15] 48, %d2
+	.loc 1 31 0
+	st.b	[%a15] 49, %d15
+	.loc 1 32 0
+	st.b	[%a15] 50, %d15
+	.loc 1 37 0
+	st.w	[%a15] 8, %d3
+	.loc 1 38 0
+	st.b	[%a15] 12, %d15
+	.loc 1 39 0
+	st.b	[%a15] 26, %d15
+	.loc 1 40 0
+	mov	%d3, -128
+	.loc 1 41 0
+	st.b	[%a15] 24, %d2
+	.loc 1 43 0
+	st.b	[%a15] 25, %d15
+	.loc 1 42 0
 	mov.u	%d2, 65535
-	.loc 1 40 0
+	.loc 1 45 0
 	mov	%d15, 0
-	.loc 1 29 0
+	.loc 1 34 0
 	st.a	[%a15] 44, %a12
-	.loc 1 42 0
+	.loc 1 47 0
 	movh.a	%a12, hi:Timer1
-	.loc 1 35 0
-	st.b	[%a15] 23, %d3
 	.loc 1 40 0
+	st.b	[%a15] 23, %d3
+	.loc 1 45 0
 	st.h	[%a15] 4, %d15
-	.loc 1 42 0
+	.loc 1 47 0
 	lea	%a12, [%a12] lo:Timer1
 	mov.aa	%a5, %a15
-	.loc 1 37 0
+	.loc 1 42 0
 	st.w	[%a15] 16, %d2
-	.loc 1 43 0
+	.loc 1 48 0
 	movh.a	%a15, hi:IfxGtm_TOM0_0_TOUT85_P14_5_OUT
-	.loc 1 42 0
+	.loc 1 47 0
 	mov.aa	%a4, %a12
-	.loc 1 43 0
+	.loc 1 48 0
 	lea	%a15, [%a15] lo:IfxGtm_TOM0_0_TOUT85_P14_5_OUT
-	.loc 1 42 0
+	.loc 1 47 0
 	call	IfxGtm_Tom_Timer_init
 .LVL1:
-	.loc 1 43 0
+	.loc 1 48 0
 	ld.b	%d15, [%a15] 1
 	ld.a	%a2, [%a12] 20
 	mov	%d4, 1
@@ -100,7 +100,7 @@ PWM_config:
 	mov	%d5, 0
 	call	IfxGtm_Tom_Tgc_enableChannelsUpdate
 .LVL2:
-	.loc 1 45 0
+	.loc 1 50 0
 	mov.aa	%a4, %a12
 	j	IfxGtm_Tom_Timer_run
 .LVL3:
@@ -112,10 +112,10 @@ PWM_config:
 	.type	PWM2_config, @function
 PWM2_config:
 .LFB276:
-	.loc 1 52 0
+	.loc 1 62 0
 	sub.a	%SP, 24
 .LCFI1:
-	.loc 1 51 0
+	.loc 1 61 0
 	lea	%a12, [%SP] 4
 	mov.aa	%a2, %a12
 		# #chunks=2, chunksize=8, remains=4
@@ -125,7 +125,7 @@ PWM2_config:
 	st.d	[%a2+]8, %e2
 	ld.w	%d2, [%a4+]4
 	st.w	[%a2+]4, %d2
-	.loc 1 53 0
+	.loc 1 63 0
 	movh.a	%a2, hi:gtm
 	ld.a	%a5, [%a2] lo:gtm
 	movh.a	%a13, hi:Timer2Config
@@ -133,64 +133,64 @@ PWM2_config:
 	mov.aa	%a4, %a15
 	call	IfxGtm_Tom_Timer_initConfig
 .LVL4:
-	.loc 1 62 0
+	.loc 1 72 0
 	movh	%d3, 17530
-	.loc 1 54 0
+	.loc 1 64 0
 	ld.bu	%d15, [%SP] 4
 	st.b	[%a15] 40, %d15
-	.loc 1 55 0
+	.loc 1 65 0
 	ld.bu	%d15, [%SP] 5
-	.loc 1 56 0
+	.loc 1 66 0
 	mov	%d2, 0
-	.loc 1 55 0
+	.loc 1 65 0
 	st.b	[%a15] 41, %d15
-	.loc 1 62 0
+	.loc 1 72 0
 	st.w	[%a13] lo:Timer2Config, %d3
-	.loc 1 57 0
+	.loc 1 67 0
 	mov	%d15, 1
-	.loc 1 63 0
+	.loc 1 73 0
 	mov	%d3, 0
-	.loc 1 56 0
+	.loc 1 66 0
 	movh.a	%a2, hi:TimerConfig
 	lea	%a2, [%a2] lo:TimerConfig
 	st.b	[%a2] 48, %d2
-	.loc 1 57 0
-	st.b	[%a15] 49, %d15
-	.loc 1 58 0
-	st.b	[%a15] 50, %d15
-	.loc 1 60 0
-	st.a	[%a15] 44, %a12
-	.loc 1 63 0
-	st.w	[%a15] 8, %d3
-	.loc 1 64 0
-	st.b	[%a15] 12, %d15
-	.loc 1 66 0
-	mov	%d3, -128
-	.loc 1 65 0
-	st.b	[%a15] 26, %d15
 	.loc 1 67 0
-	st.b	[%a15] 24, %d2
-	.loc 1 69 0
-	st.b	[%a15] 25, %d15
+	st.b	[%a15] 49, %d15
 	.loc 1 68 0
-	mov.u	%d2, 65535
+	st.b	[%a15] 50, %d15
 	.loc 1 70 0
+	st.a	[%a15] 44, %a12
+	.loc 1 73 0
+	st.w	[%a15] 8, %d3
+	.loc 1 74 0
+	st.b	[%a15] 12, %d15
+	.loc 1 76 0
+	mov	%d3, -128
+	.loc 1 75 0
+	st.b	[%a15] 26, %d15
+	.loc 1 77 0
+	st.b	[%a15] 24, %d2
+	.loc 1 79 0
+	st.b	[%a15] 25, %d15
+	.loc 1 78 0
+	mov.u	%d2, 65535
+	.loc 1 80 0
 	mov	%d15, 0
-	.loc 1 72 0
+	.loc 1 82 0
 	movh.a	%a12, hi:Timer2
 	lea	%a12, [%a12] lo:Timer2
 	mov.aa	%a4, %a12
 	mov.aa	%a5, %a15
-	.loc 1 66 0
+	.loc 1 76 0
 	st.b	[%a15] 23, %d3
-	.loc 1 68 0
+	.loc 1 78 0
 	st.w	[%a2] 16, %d2
-	.loc 1 70 0
+	.loc 1 80 0
 	st.h	[%a15] 4, %d15
-	.loc 1 72 0
+	.loc 1 82 0
 	call	IfxGtm_Tom_Timer_init
 .LVL5:
-	.loc 1 73 0
+	.loc 1 83 0
 	ld.b	%d15, [%SP] 5
 	ld.a	%a2, [%a12] 20
 	mov	%d4, 1
@@ -200,7 +200,7 @@ PWM2_config:
 	mov	%d5, 0
 	call	IfxGtm_Tom_Tgc_enableChannelsUpdate
 .LVL6:
-	.loc 1 75 0
+	.loc 1 85 0
 	mov.aa	%a4, %a12
 	j	IfxGtm_Tom_Timer_run
 .LVL7:
@@ -212,32 +212,32 @@ PWM2_config:
 	.type	ClockConfig, @function
 ClockConfig:
 .LFB277:
-	.loc 1 82 0
-	.loc 1 83 0
+	.loc 1 92 0
+	.loc 1 93 0
 	movh.a	%a4, 61456
-	.loc 1 85 0
+	.loc 1 95 0
 	movh	%d15, 19647
-	.loc 1 83 0
+	.loc 1 93 0
 	call	IfxGtm_enable
 .LVL8:
-	.loc 1 85 0
+	.loc 1 95 0
 	addi	%d15, %d15, -17376
 	movh.a	%a4, 61456
 	mov	%d4, %d15
 	call	IfxGtm_Cmu_setGclkFrequency
 .LVL9:
-	.loc 1 87 0
+	.loc 1 97 0
 	movh.a	%a4, 61456
 	mov	%d4, 0
 	mov	%d5, %d15
 	call	IfxGtm_Cmu_setClkFrequency
 .LVL10:
-	.loc 1 89 0
+	.loc 1 99 0
 	movh.a	%a4, 61456
 	mov	%d4, 2
 	call	IfxGtm_Cmu_enableClocks
 .LVL11:
-	.loc 1 91 0
+	.loc 1 101 0
 	movh.a	%a4, 61456
 	movh	%d4, 128
 	j	IfxGtm_Cmu_enableClocks
@@ -49101,7 +49101,7 @@ Timer1:
 	.byte	0x1
 	.string	"PWM_config"
 	.byte	0x1
-	.byte	0x13
+	.byte	0x18
 	.byte	0x1
 	.uaword	.LFB275
 	.uaword	.LFE275
@@ -49112,7 +49112,7 @@ Timer1:
 	.uleb128 0x25
 	.string	"Output"
 	.byte	0x1
-	.byte	0x13
+	.byte	0x18
 	.uaword	0x1f869
 	.byte	0x2
 	.byte	0x84
@@ -49179,7 +49179,7 @@ Timer1:
 	.byte	0x1
 	.string	"PWM2_config"
 	.byte	0x1
-	.byte	0x33
+	.byte	0x3d
 	.byte	0x1
 	.uaword	.LFB276
 	.uaword	.LFE276
@@ -49190,7 +49190,7 @@ Timer1:
 	.uleb128 0x25
 	.string	"Output"
 	.byte	0x1
-	.byte	0x33
+	.byte	0x3d
 	.uaword	0x1f869
 	.byte	0x2
 	.byte	0x84
@@ -49257,7 +49257,7 @@ Timer1:
 	.byte	0x1
 	.string	"ClockConfig"
 	.byte	0x1
-	.byte	0x51
+	.byte	0x5b
 	.uaword	.LFB277
 	.uaword	.LFE277
 	.byte	0x1

@@ -33,6 +33,7 @@
 
 #include "Motors_func.h"
 #include "PWM_config.h"
+#include "Encoders_config.h"
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
@@ -56,42 +57,9 @@ int core0_main (void)
 	IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
 
-    IfxPort_setPinMode(&MODULE_P15, 4, IfxPort_InputMode_pullUp);
-
-    //input 0 is selected
-    SCU_EICR0.B.EXIS0 = 0x0;
-
-    //INTF is set on a rising edge
-    SCU_EICR0.B.REN0 = 1;
-
-    //a falling edge event will reset INTF
-    SCU_EICR0.B.LDEN0 = 1;
-
-    //trigger event enabled
-    SCU_EICR0.B.EIEN0 = 1;
-
-    //event triggered output to OGU0
-    SCU_EICR0.B.INP0 = 0x0;
-
-    /*The trigger generation at a change of the
-    pattern detection result is enabled
-    */
-    SCU_IGCR0.B.GEEN0 = 1;
-
-    /*The detected pattern is considered. IOUT(2j) is
-	activated if a trigger event occurs while the
-	pattern is present
-     */
-    SCU_IGCR0.B.IGP0 = 0x1;
-
-    IfxSrc_init(&(SRC_SCU_SCU_ERU0),0,25);
-	IfxSrc_enable(&(SRC_SCU_SCU_ERU0));
-
-	// ++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 	StopLeftMotor();
 	StopRightMotor();
-
+	Encoders_config();
 	//GoAhead(500);
 
 	ClockConfig();
@@ -103,8 +71,7 @@ int core0_main (void)
 	uint8 duty2 = 80;
 	PWM2_config(IfxGtm_TOM2_0_TOUT48_P22_1_OUT);
 	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
-	/*IfxPort_setPinModeOutput(&MODULE_P13, 0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-	IfxPort_setPinLow(&MODULE_P13, 0);*/
+
     while (1)
     {
     }
@@ -112,15 +79,4 @@ int core0_main (void)
 }
 
 
-IFX_INTERRUPT(TEST,0,25)
-{
-	interrupt_counter++;
-//	if (interrupt_counter == 10)
-//	{
-//		IfxGtm_Tom_Timer_stop(&Timer1);
-//		IfxGtm_Tom_Timer_stop(&Timer2);
-//	}
-}
-//IfxGtm_TOM0_0_TOUT18_P00_9_OUT -- IfxGtm_TOM0_0_TOUT76_P15_5_OUT -- IfxGtm_TOM0_0_TOUT53_P21_2_OUT -- IfxGtm_TOM0_0_TOUT77_P15_6_OUT
-//IfxGtm_TOM1_0_TOUT18_P00_9_OUT -- IfxGtm_TOM1_0_TOUT76_P15_5_OUT -- IfxGtm_TOM1_0_TOUT26_P33_4_OUT
-//IfxGtm_TOM2_0_TOUT48_P22_1_OUT
+

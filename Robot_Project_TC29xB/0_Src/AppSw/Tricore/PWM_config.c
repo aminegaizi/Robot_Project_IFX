@@ -16,6 +16,11 @@ IfxGtm_Tom_Timer_Config Timer2Config;
 
 Ifx_GTM *gtm = &MODULE_GTM;
 
+/* This function configures the PWM in a first output, here is a list of possible outputs
+ * IfxGtm_TOM0_0_TOUT18_P00_9_OUT -- IfxGtm_TOM0_0_TOUT76_P15_5_OUT -- IfxGtm_TOM0_0_TOUT53_P21_2_OUT -- IfxGtm_TOM0_0_TOUT77_P15_6_OUT
+	IfxGtm_TOM1_0_TOUT18_P00_9_OUT -- IfxGtm_TOM1_0_TOUT76_P15_5_OUT -- IfxGtm_TOM1_0_TOUT26_P33_4_OUT
+	IfxGtm_TOM2_0_TOUT48_P22_1_OUT
+ */
 void PWM_config(IfxGtm_Tom_ToutMap Output)
 {
 	IfxGtm_Tom_Timer_initConfig(&TimerConfig, gtm);
@@ -48,6 +53,11 @@ void PWM_config(IfxGtm_Tom_ToutMap Output)
 
 }
 
+/* This function configures the PWM in a second output, here is a list of possible outputs
+ * IfxGtm_TOM0_0_TOUT18_P00_9_OUT -- IfxGtm_TOM0_0_TOUT76_P15_5_OUT -- IfxGtm_TOM0_0_TOUT53_P21_2_OUT -- IfxGtm_TOM0_0_TOUT77_P15_6_OUT
+	IfxGtm_TOM1_0_TOUT18_P00_9_OUT -- IfxGtm_TOM1_0_TOUT76_P15_5_OUT -- IfxGtm_TOM1_0_TOUT26_P33_4_OUT
+	IfxGtm_TOM2_0_TOUT48_P22_1_OUT
+ */
 void PWM2_config(IfxGtm_Tom_ToutMap Output)
 {
 	IfxGtm_Tom_Timer_initConfig(&Timer2Config, gtm);
@@ -77,7 +87,7 @@ void PWM2_config(IfxGtm_Tom_ToutMap Output)
     //IfxGtm_Tom_Timer_setTrigger(&Timer2, ((100-50) * Timer2.base.period) / 100);
 
 }
-
+/* This function sets the clocks needed for the GTM and TOM to run*/
 void ClockConfig()
 {
 	IfxGtm_enable(&MODULE_GTM);
