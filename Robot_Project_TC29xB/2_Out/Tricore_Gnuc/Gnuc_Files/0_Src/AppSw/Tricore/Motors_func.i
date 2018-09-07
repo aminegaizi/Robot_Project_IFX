@@ -10749,71 +10749,53 @@ Ifx_P *port13 = &(*(Ifx_P*)0xF003B300u);
 Ifx_P *port2 = &(*(Ifx_P*)0xF003A200u);
 Ifx_P *port0 = &(*(Ifx_P*)0xF003A000u);
 Ifx_P *port14 = &(*(Ifx_P*)0xF003B400u);
+Ifx_P *port33 = &(*(Ifx_P*)0xF003D300u);
 uint8 pin0 = 0;
 uint8 pin1 = 1;
 uint8 pin2 = 2;
 uint8 pin3 = 3;
 uint8 pin4 = 4;
+uint8 pin6 = 6;
 int cycles = 0;
 
 
 
 void GoAhead(int Time)
 {
-# 43 "0_Src/AppSw/Tricore/Motors_func.c"
+# 45 "0_Src/AppSw/Tricore/Motors_func.c"
  PWM(port2, pin0, 20, 0.20, Time);
  PWM(port2, pin1, 50, 0.40, Time);
 
 
  StopLeftMotor();
  StopRightMotor();
-# 67 "0_Src/AppSw/Tricore/Motors_func.c"
+# 69 "0_Src/AppSw/Tricore/Motors_func.c"
 }
 
 void StartRightMotor()
 {
+# 84 "0_Src/AppSw/Tricore/Motors_func.c"
+ IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinHigh(port0, pin6);
 
 
 
 
-
- IfxPort_setPinModeOutput(port2, pin0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinHigh(port2, pin0);
-
-
-
-
- IfxPort_setPinModeOutput(port0, pin0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinHigh(port0, pin0);
-
-
-
-
-    IfxPort_setPinModeOutput(port0, pin1, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinLow(port0, pin1);
+    IfxPort_setPinModeOutput(port0, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinLow(port0, pin4);
 }
 
 void StartLeftMotor()
 {
+# 107 "0_Src/AppSw/Tricore/Motors_func.c"
+ IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinHigh(port33, pin4);
 
 
 
 
- IfxPort_setPinModeOutput(port2, pin1, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinHigh(port2, pin1);
-
-
-
-
-
- IfxPort_setPinModeOutput(port0, pin2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinHigh(port0, pin2);
-
-
-
-
- IfxPort_setPinModeOutput(port0, pin3, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinLow(port0, pin3);
+ IfxPort_setPinModeOutput(port33, pin2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinLow(port33, pin2);
 }
 
 void StopRightMotor()
@@ -10823,13 +10805,13 @@ void StopRightMotor()
 
 
 
- IfxPort_setPinModeOutput(port2, pin0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+ IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
     IfxPort_setPinLow(port2, pin0);
 
 
 
- IfxPort_setPinModeOutput(port0, pin0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinLow(port0, pin0);
+ IfxPort_setPinModeOutput(port0, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinLow(port0, pin4);
 }
 
 void StopLeftMotor()
@@ -10838,13 +10820,13 @@ void StopLeftMotor()
 
 
 
- IfxPort_setPinModeOutput(port2, pin1, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinLow(port2, pin1);
+ IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinLow(port33, pin4);
 
 
 
- IfxPort_setPinModeOutput(port0, pin2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinLow(port0, pin2);
+ IfxPort_setPinModeOutput(port33, pin2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinLow(port33, pin2);
 
 }
 

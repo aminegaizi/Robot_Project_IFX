@@ -123,8 +123,8 @@ Encoders_config:
 .LBB50:
 	.file 5 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
 	.loc 5 332 0
-	movh.a	%a15, hi:IfxScu_REQ6_P02_0_IN
-	lea	%a15, [%a15] lo:IfxScu_REQ6_P02_0_IN
+	movh.a	%a15, hi:IfxScu_REQ4_P10_7_IN
+	lea	%a15, [%a15] lo:IfxScu_REQ4_P10_7_IN
 .LBB49:
 .LBB48:
 	.loc 4 562 0
@@ -225,8 +225,8 @@ Encoders_config:
 .LBB73:
 .LBB69:
 	.loc 5 332 0
-	movh.a	%a15, hi:IfxScu_REQ7_P00_4_IN
-	lea	%a15, [%a15] lo:IfxScu_REQ7_P00_4_IN
+	movh.a	%a15, hi:IfxScu_REQ11_P20_9_IN
+	lea	%a15, [%a15] lo:IfxScu_REQ11_P20_9_IN
 .LBB68:
 .LBB67:
 	.loc 4 562 0
@@ -363,7 +363,7 @@ interrupt2_counter:
 	.file 15 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0xc057
+	.uaword	0xc058
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -19165,7 +19165,7 @@ interrupt2_counter:
 	.uaword	0xb9e5
 	.uleb128 0x39
 	.uaword	.LVL6
-	.uaword	0xbf33
+	.uaword	0xbf34
 	.uleb128 0x3a
 	.byte	0x1
 	.byte	0x55
@@ -19190,7 +19190,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x39
 	.uaword	.LVL7
-	.uaword	0xbf61
+	.uaword	0xbf62
 	.uleb128 0x3a
 	.byte	0x1
 	.byte	0x55
@@ -19294,7 +19294,7 @@ interrupt2_counter:
 	.uaword	0xb9e5
 	.uleb128 0x39
 	.uaword	.LVL17
-	.uaword	0xbf33
+	.uaword	0xbf34
 	.uleb128 0x3a
 	.byte	0x1
 	.byte	0x55
@@ -19319,7 +19319,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x39
 	.uaword	.LVL18
-	.uaword	0xbf61
+	.uaword	0xbf62
 	.uleb128 0x3a
 	.byte	0x1
 	.byte	0x55
@@ -19349,7 +19349,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL8
-	.uaword	0xbf94
+	.uaword	0xbf95
 	.uaword	0xbda6
 	.uleb128 0x3a
 	.byte	0x1
@@ -19360,7 +19360,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL9
-	.uaword	0xbfc8
+	.uaword	0xbfc9
 	.uaword	0xbdbf
 	.uleb128 0x3a
 	.byte	0x1
@@ -19376,7 +19376,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL10
-	.uaword	0xbff6
+	.uaword	0xbff7
 	.uaword	0xbdd3
 	.uleb128 0x3a
 	.byte	0x1
@@ -19387,7 +19387,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL11
-	.uaword	0xc024
+	.uaword	0xc025
 	.uaword	0xbdeb
 	.uleb128 0x3a
 	.byte	0x1
@@ -19402,7 +19402,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL19
-	.uaword	0xbf94
+	.uaword	0xbf95
 	.uaword	0xbdff
 	.uleb128 0x3a
 	.byte	0x1
@@ -19413,7 +19413,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL20
-	.uaword	0xbfc8
+	.uaword	0xbfc9
 	.uaword	0xbe18
 	.uleb128 0x3a
 	.byte	0x1
@@ -19429,7 +19429,7 @@ interrupt2_counter:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL21
-	.uaword	0xbff6
+	.uaword	0xbff7
 	.uaword	0xbe2c
 	.uleb128 0x3a
 	.byte	0x1
@@ -19441,7 +19441,7 @@ interrupt2_counter:
 	.uleb128 0x3c
 	.uaword	.LVL22
 	.byte	0x1
-	.uaword	0xc024
+	.uaword	0xc025
 	.uleb128 0x3a
 	.byte	0x1
 	.byte	0x55
@@ -19493,16 +19493,16 @@ interrupt2_counter:
 	.uleb128 0x22
 	.uaword	0xbe7e
 	.uleb128 0x3e
-	.string	"IfxScu_REQ6_P02_0_IN"
+	.string	"IfxScu_REQ11_P20_9_IN"
 	.byte	0xd
-	.byte	0x7d
+	.byte	0x72
 	.uaword	0xb43c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3e
-	.string	"IfxScu_REQ7_P00_4_IN"
+	.string	"IfxScu_REQ4_P10_7_IN"
 	.byte	0xd
-	.byte	0x7e
+	.byte	0x7b
 	.uaword	0xb43c
 	.byte	0x1
 	.byte	0x1
@@ -19510,7 +19510,7 @@ interrupt2_counter:
 	.string	"interrupt2_counter"
 	.byte	0x1
 	.byte	0x10
-	.uaword	0xbf0d
+	.uaword	0xbf0e
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -19521,7 +19521,7 @@ interrupt2_counter:
 	.string	"interrupt3_counter"
 	.byte	0x1
 	.byte	0x11
-	.uaword	0xbf0d
+	.uaword	0xbf0e
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -19533,7 +19533,7 @@ interrupt2_counter:
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xbf61
+	.uaword	0xbf62
 	.uleb128 0x41
 	.uaword	0xb069
 	.uleb128 0x41
@@ -19548,7 +19548,7 @@ interrupt2_counter:
 	.byte	0x95
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xbf94
+	.uaword	0xbf95
 	.uleb128 0x41
 	.uaword	0xb65e
 	.uleb128 0x41
@@ -19561,7 +19561,7 @@ interrupt2_counter:
 	.byte	0xd3
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xbfc8
+	.uaword	0xbfc9
 	.uleb128 0x41
 	.uaword	0xb65e
 	.byte	0
@@ -19572,7 +19572,7 @@ interrupt2_counter:
 	.byte	0xfa
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xbff6
+	.uaword	0xbff7
 	.uleb128 0x41
 	.uaword	0xb65e
 	.uleb128 0x41
@@ -19585,7 +19585,7 @@ interrupt2_counter:
 	.uahalf	0x106
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xc024
+	.uaword	0xc025
 	.uleb128 0x41
 	.uaword	0xb65e
 	.byte	0
@@ -20717,12 +20717,12 @@ interrupt2_counter:
 	.string	"CERBERUS"
 .LASF36:
 	.string	"ESR1WKEN"
-	.extern	IfxScu_REQ7_P00_4_IN,STT_OBJECT,20
+	.extern	IfxScu_REQ11_P20_9_IN,STT_OBJECT,20
 	.extern	IfxScuEru_setInterruptGatingPattern,STT_FUNC,0
 	.extern	IfxScuEru_enableTriggerPulse,STT_FUNC,0
 	.extern	IfxScuEru_connectTrigger,STT_FUNC,0
 	.extern	IfxScuEru_enableRisingEdgeDetection,STT_FUNC,0
 	.extern	IfxScuEru_selectExternalInput,STT_FUNC,0
 	.extern	IfxPort_setPinMode,STT_FUNC,0
-	.extern	IfxScu_REQ6_P02_0_IN,STT_OBJECT,20
+	.extern	IfxScu_REQ4_P10_7_IN,STT_OBJECT,20
 	.ident	"GCC: (HighTec Release HDP-v4.9.1.0-infineon-2.0-df254e8) 4.9.4 build on 2018-04-18"

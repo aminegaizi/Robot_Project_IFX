@@ -22547,11 +22547,11 @@ void Encoders_config()
  IfxSrc_init(src, IfxCpu_Irq_getTos(IfxCpu_getCoreId()), 1);
  IfxSrc_enable(src);
 
- IfxScuEru_initReqPin(&IfxScu_REQ6_P02_0_IN, IfxPort_InputMode_noPullDevice);
- IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ6_P02_0_IN.channelId);
+ IfxScuEru_initReqPin(&IfxScu_REQ4_P10_7_IN, IfxPort_InputMode_noPullDevice);
+ IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
 
- IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ6_P02_0_IN.channelId, IfxScuEru_InputNodePointer_0);
- IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ6_P02_0_IN.channelId);
+ IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId, IfxScuEru_InputNodePointer_0);
+ IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
  IfxScuEru_setInterruptGatingPattern(IfxScuEru_OutputChannel_0, IfxScuEru_InterruptGatingPattern_alwaysActive);
 
  src1 = &(*(Ifx_SRC*)0xF0038000u).SCU.SCU.ERU[1];
@@ -22559,11 +22559,11 @@ void Encoders_config()
  IfxSrc_init(src1, IfxCpu_Irq_getTos(IfxCpu_getCoreId()), 2);
  IfxSrc_enable(src1);
 
- IfxScuEru_initReqPin(&IfxScu_REQ7_P00_4_IN, IfxPort_InputMode_noPullDevice);
- IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ7_P00_4_IN.channelId);
+ IfxScuEru_initReqPin(&IfxScu_REQ11_P20_9_IN, IfxPort_InputMode_noPullDevice);
+ IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId);
 
- IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ7_P00_4_IN.channelId, IfxScuEru_InputNodePointer_1);
- IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ7_P00_4_IN.channelId);
+ IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId, IfxScuEru_InputNodePointer_1);
+ IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId);
  IfxScuEru_setInterruptGatingPattern(IfxScuEru_OutputChannel_1, IfxScuEru_InterruptGatingPattern_alwaysActive);
 
 }

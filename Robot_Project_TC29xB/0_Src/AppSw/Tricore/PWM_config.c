@@ -45,7 +45,7 @@ void PWM_config(IfxGtm_Tom_ToutMap Output)
 	TimerConfig.base.isrPriority = 0;
 
 	IfxGtm_Tom_Timer_init(&Timer1, &TimerConfig);
-    IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer1.tom->TGC0_GLB_CTRL, 1 << IfxGtm_TOM0_0_TOUT85_P14_5_OUT.channel, 0);
+    IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer1.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
 
     IfxGtm_Tom_Timer_run(&Timer1);
 

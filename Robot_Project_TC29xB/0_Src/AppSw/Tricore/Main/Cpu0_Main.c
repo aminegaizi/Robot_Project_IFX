@@ -64,12 +64,12 @@ int core0_main (void)
 
 	ClockConfig();
 
-	PWM_config(IfxGtm_TOM0_0_TOUT18_P00_9_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
+	PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
 
 	uint8 duty1 = 50;
 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
-	uint8 duty2 = 80;
-	PWM2_config(IfxGtm_TOM2_0_TOUT48_P22_1_OUT);
+	uint8 duty2 = 73;
+	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
 	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
 
     while (1)
