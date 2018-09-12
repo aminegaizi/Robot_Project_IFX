@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
-# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
+# 1 "C:\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
@@ -23005,15 +23005,328 @@ void ClockConfig();
 void Encoders_config();
 # 37 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
+
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h" 1
+# 37 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h"
+extern IfxPort_Pin IfxPort_P00_0;
+extern IfxPort_Pin IfxPort_P00_1;
+extern IfxPort_Pin IfxPort_P00_10;
+extern IfxPort_Pin IfxPort_P00_11;
+extern IfxPort_Pin IfxPort_P00_12;
+extern IfxPort_Pin IfxPort_P00_13;
+extern IfxPort_Pin IfxPort_P00_14;
+extern IfxPort_Pin IfxPort_P00_15;
+extern IfxPort_Pin IfxPort_P00_2;
+extern IfxPort_Pin IfxPort_P00_3;
+extern IfxPort_Pin IfxPort_P00_4;
+extern IfxPort_Pin IfxPort_P00_5;
+extern IfxPort_Pin IfxPort_P00_6;
+extern IfxPort_Pin IfxPort_P00_7;
+extern IfxPort_Pin IfxPort_P00_8;
+extern IfxPort_Pin IfxPort_P00_9;
+extern IfxPort_Pin IfxPort_P01_0;
+extern IfxPort_Pin IfxPort_P01_1;
+extern IfxPort_Pin IfxPort_P01_10;
+extern IfxPort_Pin IfxPort_P01_11;
+extern IfxPort_Pin IfxPort_P01_12;
+extern IfxPort_Pin IfxPort_P01_13;
+extern IfxPort_Pin IfxPort_P01_14;
+extern IfxPort_Pin IfxPort_P01_15;
+extern IfxPort_Pin IfxPort_P01_2;
+extern IfxPort_Pin IfxPort_P01_3;
+extern IfxPort_Pin IfxPort_P01_4;
+extern IfxPort_Pin IfxPort_P01_5;
+extern IfxPort_Pin IfxPort_P01_6;
+extern IfxPort_Pin IfxPort_P01_7;
+extern IfxPort_Pin IfxPort_P01_8;
+extern IfxPort_Pin IfxPort_P01_9;
+extern IfxPort_Pin IfxPort_P02_0;
+extern IfxPort_Pin IfxPort_P02_1;
+extern IfxPort_Pin IfxPort_P02_10;
+extern IfxPort_Pin IfxPort_P02_11;
+extern IfxPort_Pin IfxPort_P02_12;
+extern IfxPort_Pin IfxPort_P02_13;
+extern IfxPort_Pin IfxPort_P02_14;
+extern IfxPort_Pin IfxPort_P02_15;
+extern IfxPort_Pin IfxPort_P02_2;
+extern IfxPort_Pin IfxPort_P02_3;
+extern IfxPort_Pin IfxPort_P02_4;
+extern IfxPort_Pin IfxPort_P02_5;
+extern IfxPort_Pin IfxPort_P02_6;
+extern IfxPort_Pin IfxPort_P02_7;
+extern IfxPort_Pin IfxPort_P02_8;
+extern IfxPort_Pin IfxPort_P02_9;
+extern IfxPort_Pin IfxPort_P10_0;
+extern IfxPort_Pin IfxPort_P10_1;
+extern IfxPort_Pin IfxPort_P10_10;
+extern IfxPort_Pin IfxPort_P10_11;
+extern IfxPort_Pin IfxPort_P10_13;
+extern IfxPort_Pin IfxPort_P10_14;
+extern IfxPort_Pin IfxPort_P10_15;
+extern IfxPort_Pin IfxPort_P10_2;
+extern IfxPort_Pin IfxPort_P10_3;
+extern IfxPort_Pin IfxPort_P10_4;
+extern IfxPort_Pin IfxPort_P10_5;
+extern IfxPort_Pin IfxPort_P10_6;
+extern IfxPort_Pin IfxPort_P10_7;
+extern IfxPort_Pin IfxPort_P10_8;
+extern IfxPort_Pin IfxPort_P10_9;
+extern IfxPort_Pin IfxPort_P11_0;
+extern IfxPort_Pin IfxPort_P11_1;
+extern IfxPort_Pin IfxPort_P11_10;
+extern IfxPort_Pin IfxPort_P11_11;
+extern IfxPort_Pin IfxPort_P11_12;
+extern IfxPort_Pin IfxPort_P11_13;
+extern IfxPort_Pin IfxPort_P11_14;
+extern IfxPort_Pin IfxPort_P11_15;
+extern IfxPort_Pin IfxPort_P11_2;
+extern IfxPort_Pin IfxPort_P11_3;
+extern IfxPort_Pin IfxPort_P11_4;
+extern IfxPort_Pin IfxPort_P11_5;
+extern IfxPort_Pin IfxPort_P11_6;
+extern IfxPort_Pin IfxPort_P11_7;
+extern IfxPort_Pin IfxPort_P11_8;
+extern IfxPort_Pin IfxPort_P11_9;
+extern IfxPort_Pin IfxPort_P12_0;
+extern IfxPort_Pin IfxPort_P12_1;
+extern IfxPort_Pin IfxPort_P13_0;
+extern IfxPort_Pin IfxPort_P13_1;
+extern IfxPort_Pin IfxPort_P13_10;
+extern IfxPort_Pin IfxPort_P13_11;
+extern IfxPort_Pin IfxPort_P13_12;
+extern IfxPort_Pin IfxPort_P13_13;
+extern IfxPort_Pin IfxPort_P13_14;
+extern IfxPort_Pin IfxPort_P13_15;
+extern IfxPort_Pin IfxPort_P13_2;
+extern IfxPort_Pin IfxPort_P13_3;
+extern IfxPort_Pin IfxPort_P13_4;
+extern IfxPort_Pin IfxPort_P13_5;
+extern IfxPort_Pin IfxPort_P13_6;
+extern IfxPort_Pin IfxPort_P13_7;
+extern IfxPort_Pin IfxPort_P13_9;
+extern IfxPort_Pin IfxPort_P14_0;
+extern IfxPort_Pin IfxPort_P14_1;
+extern IfxPort_Pin IfxPort_P14_10;
+extern IfxPort_Pin IfxPort_P14_11;
+extern IfxPort_Pin IfxPort_P14_12;
+extern IfxPort_Pin IfxPort_P14_13;
+extern IfxPort_Pin IfxPort_P14_14;
+extern IfxPort_Pin IfxPort_P14_15;
+extern IfxPort_Pin IfxPort_P14_2;
+extern IfxPort_Pin IfxPort_P14_3;
+extern IfxPort_Pin IfxPort_P14_4;
+extern IfxPort_Pin IfxPort_P14_5;
+extern IfxPort_Pin IfxPort_P14_6;
+extern IfxPort_Pin IfxPort_P14_7;
+extern IfxPort_Pin IfxPort_P14_8;
+extern IfxPort_Pin IfxPort_P14_9;
+extern IfxPort_Pin IfxPort_P15_0;
+extern IfxPort_Pin IfxPort_P15_1;
+extern IfxPort_Pin IfxPort_P15_10;
+extern IfxPort_Pin IfxPort_P15_11;
+extern IfxPort_Pin IfxPort_P15_12;
+extern IfxPort_Pin IfxPort_P15_13;
+extern IfxPort_Pin IfxPort_P15_14;
+extern IfxPort_Pin IfxPort_P15_15;
+extern IfxPort_Pin IfxPort_P15_2;
+extern IfxPort_Pin IfxPort_P15_3;
+extern IfxPort_Pin IfxPort_P15_4;
+extern IfxPort_Pin IfxPort_P15_5;
+extern IfxPort_Pin IfxPort_P15_6;
+extern IfxPort_Pin IfxPort_P15_7;
+extern IfxPort_Pin IfxPort_P15_8;
+extern IfxPort_Pin IfxPort_P20_0;
+extern IfxPort_Pin IfxPort_P20_1;
+extern IfxPort_Pin IfxPort_P20_10;
+extern IfxPort_Pin IfxPort_P20_11;
+extern IfxPort_Pin IfxPort_P20_12;
+extern IfxPort_Pin IfxPort_P20_13;
+extern IfxPort_Pin IfxPort_P20_14;
+extern IfxPort_Pin IfxPort_P20_3;
+extern IfxPort_Pin IfxPort_P20_6;
+extern IfxPort_Pin IfxPort_P20_7;
+extern IfxPort_Pin IfxPort_P20_8;
+extern IfxPort_Pin IfxPort_P20_9;
+extern IfxPort_Pin IfxPort_P21_0;
+extern IfxPort_Pin IfxPort_P21_1;
+extern IfxPort_Pin IfxPort_P21_2;
+extern IfxPort_Pin IfxPort_P21_3;
+extern IfxPort_Pin IfxPort_P21_4;
+extern IfxPort_Pin IfxPort_P21_5;
+extern IfxPort_Pin IfxPort_P21_6;
+extern IfxPort_Pin IfxPort_P21_7;
+extern IfxPort_Pin IfxPort_P22_0;
+extern IfxPort_Pin IfxPort_P22_1;
+extern IfxPort_Pin IfxPort_P22_10;
+extern IfxPort_Pin IfxPort_P22_11;
+extern IfxPort_Pin IfxPort_P22_2;
+extern IfxPort_Pin IfxPort_P22_3;
+extern IfxPort_Pin IfxPort_P22_4;
+extern IfxPort_Pin IfxPort_P22_5;
+extern IfxPort_Pin IfxPort_P22_6;
+extern IfxPort_Pin IfxPort_P22_7;
+extern IfxPort_Pin IfxPort_P22_8;
+extern IfxPort_Pin IfxPort_P22_9;
+extern IfxPort_Pin IfxPort_P23_0;
+extern IfxPort_Pin IfxPort_P23_1;
+extern IfxPort_Pin IfxPort_P23_2;
+extern IfxPort_Pin IfxPort_P23_3;
+extern IfxPort_Pin IfxPort_P23_4;
+extern IfxPort_Pin IfxPort_P23_5;
+extern IfxPort_Pin IfxPort_P23_6;
+extern IfxPort_Pin IfxPort_P23_7;
+extern IfxPort_Pin IfxPort_P24_0;
+extern IfxPort_Pin IfxPort_P24_1;
+extern IfxPort_Pin IfxPort_P24_10;
+extern IfxPort_Pin IfxPort_P24_11;
+extern IfxPort_Pin IfxPort_P24_12;
+extern IfxPort_Pin IfxPort_P24_13;
+extern IfxPort_Pin IfxPort_P24_14;
+extern IfxPort_Pin IfxPort_P24_15;
+extern IfxPort_Pin IfxPort_P24_2;
+extern IfxPort_Pin IfxPort_P24_3;
+extern IfxPort_Pin IfxPort_P24_4;
+extern IfxPort_Pin IfxPort_P24_5;
+extern IfxPort_Pin IfxPort_P24_6;
+extern IfxPort_Pin IfxPort_P24_7;
+extern IfxPort_Pin IfxPort_P24_8;
+extern IfxPort_Pin IfxPort_P24_9;
+extern IfxPort_Pin IfxPort_P25_0;
+extern IfxPort_Pin IfxPort_P25_1;
+extern IfxPort_Pin IfxPort_P25_10;
+extern IfxPort_Pin IfxPort_P25_11;
+extern IfxPort_Pin IfxPort_P25_12;
+extern IfxPort_Pin IfxPort_P25_13;
+extern IfxPort_Pin IfxPort_P25_14;
+extern IfxPort_Pin IfxPort_P25_15;
+extern IfxPort_Pin IfxPort_P25_2;
+extern IfxPort_Pin IfxPort_P25_3;
+extern IfxPort_Pin IfxPort_P25_4;
+extern IfxPort_Pin IfxPort_P25_5;
+extern IfxPort_Pin IfxPort_P25_6;
+extern IfxPort_Pin IfxPort_P25_7;
+extern IfxPort_Pin IfxPort_P25_8;
+extern IfxPort_Pin IfxPort_P25_9;
+extern IfxPort_Pin IfxPort_P26_0;
+extern IfxPort_Pin IfxPort_P30_0;
+extern IfxPort_Pin IfxPort_P30_1;
+extern IfxPort_Pin IfxPort_P30_10;
+extern IfxPort_Pin IfxPort_P30_11;
+extern IfxPort_Pin IfxPort_P30_12;
+extern IfxPort_Pin IfxPort_P30_13;
+extern IfxPort_Pin IfxPort_P30_14;
+extern IfxPort_Pin IfxPort_P30_15;
+extern IfxPort_Pin IfxPort_P30_2;
+extern IfxPort_Pin IfxPort_P30_3;
+extern IfxPort_Pin IfxPort_P30_4;
+extern IfxPort_Pin IfxPort_P30_5;
+extern IfxPort_Pin IfxPort_P30_6;
+extern IfxPort_Pin IfxPort_P30_7;
+extern IfxPort_Pin IfxPort_P30_8;
+extern IfxPort_Pin IfxPort_P30_9;
+extern IfxPort_Pin IfxPort_P31_0;
+extern IfxPort_Pin IfxPort_P31_1;
+extern IfxPort_Pin IfxPort_P31_10;
+extern IfxPort_Pin IfxPort_P31_11;
+extern IfxPort_Pin IfxPort_P31_12;
+extern IfxPort_Pin IfxPort_P31_13;
+extern IfxPort_Pin IfxPort_P31_14;
+extern IfxPort_Pin IfxPort_P31_15;
+extern IfxPort_Pin IfxPort_P31_2;
+extern IfxPort_Pin IfxPort_P31_3;
+extern IfxPort_Pin IfxPort_P31_4;
+extern IfxPort_Pin IfxPort_P31_5;
+extern IfxPort_Pin IfxPort_P31_6;
+extern IfxPort_Pin IfxPort_P31_7;
+extern IfxPort_Pin IfxPort_P31_8;
+extern IfxPort_Pin IfxPort_P31_9;
+extern IfxPort_Pin IfxPort_P32_0;
+extern IfxPort_Pin IfxPort_P32_2;
+extern IfxPort_Pin IfxPort_P32_3;
+extern IfxPort_Pin IfxPort_P32_4;
+extern IfxPort_Pin IfxPort_P32_5;
+extern IfxPort_Pin IfxPort_P32_6;
+extern IfxPort_Pin IfxPort_P32_7;
+extern IfxPort_Pin IfxPort_P33_0;
+extern IfxPort_Pin IfxPort_P33_1;
+extern IfxPort_Pin IfxPort_P33_10;
+extern IfxPort_Pin IfxPort_P33_11;
+extern IfxPort_Pin IfxPort_P33_12;
+extern IfxPort_Pin IfxPort_P33_13;
+extern IfxPort_Pin IfxPort_P33_14;
+extern IfxPort_Pin IfxPort_P33_15;
+extern IfxPort_Pin IfxPort_P33_2;
+extern IfxPort_Pin IfxPort_P33_3;
+extern IfxPort_Pin IfxPort_P33_4;
+extern IfxPort_Pin IfxPort_P33_5;
+extern IfxPort_Pin IfxPort_P33_6;
+extern IfxPort_Pin IfxPort_P33_7;
+extern IfxPort_Pin IfxPort_P33_8;
+extern IfxPort_Pin IfxPort_P33_9;
+extern IfxPort_Pin IfxPort_P34_1;
+extern IfxPort_Pin IfxPort_P34_2;
+extern IfxPort_Pin IfxPort_P34_3;
+extern IfxPort_Pin IfxPort_P34_4;
+extern IfxPort_Pin IfxPort_P34_5;
+extern IfxPort_Pin IfxPort_P40_0;
+extern IfxPort_Pin IfxPort_P40_1;
+extern IfxPort_Pin IfxPort_P40_10;
+extern IfxPort_Pin IfxPort_P40_11;
+extern IfxPort_Pin IfxPort_P40_12;
+extern IfxPort_Pin IfxPort_P40_13;
+extern IfxPort_Pin IfxPort_P40_14;
+extern IfxPort_Pin IfxPort_P40_2;
+extern IfxPort_Pin IfxPort_P40_3;
+extern IfxPort_Pin IfxPort_P40_4;
+extern IfxPort_Pin IfxPort_P40_5;
+extern IfxPort_Pin IfxPort_P40_6;
+extern IfxPort_Pin IfxPort_P40_7;
+extern IfxPort_Pin IfxPort_P40_8;
+extern IfxPort_Pin IfxPort_P40_9;
+
+
+
+
+
+
+
+extern const IfxPort_Pin *IfxPort_Pin_pinTable[41][16];
+# 40 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 1 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h" 1
+# 19 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h"
+void configUltrasonicSensor(void);
+
+
+void sendTrig(IfxPort_Pin port_pin);
+
+
+
+
+
+void isrGetDistance(void);
+
+
+
+
+
+
+float64 returnDistance(void);
+# 41 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+
+
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
 extern IfxGtm_Tom_Timer Timer1;
 extern IfxGtm_Tom_Timer Timer2;
 
 volatile uint32 interrupt_counter = 0;
+volatile float64 distance_obstacle = 0;
 
 int core0_main (void)
 {
+ float64 temp = 0;
+ Ifx_STM *stm_sfr = &(*(Ifx_STM*)0xF0000000u);
+
     IfxCpu_enableInterrupts();
 
 
@@ -23025,6 +23338,7 @@ int core0_main (void)
 
  IfxCpu_emitEvent(&cpuSyncEvent);
  IfxCpu_waitEvent(&cpuSyncEvent, 1);
+
 
 
  StopLeftMotor();
@@ -23042,8 +23356,23 @@ int core0_main (void)
  PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
  IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100);
 
+
+ configUltrasonicSensor();
+ sendTrig(IfxPort_P14_4);
+
+
     while (1)
     {
+     temp = returnDistance();
+
+  if(temp < 1e+06)
+  {
+   distance_obstacle = temp ;
+  }
+
+  IfxStm_waitTicks(stm_sfr,IfxStm_getTicksFromMilliseconds(stm_sfr, 1));
+
+  sendTrig(IfxPort_P14_4);
     }
     return (1);
 }

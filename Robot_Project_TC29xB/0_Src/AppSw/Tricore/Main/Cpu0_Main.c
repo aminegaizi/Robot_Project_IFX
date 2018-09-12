@@ -35,15 +35,24 @@
 #include "PWM_config.h"
 #include "Encoders_config.h"
 
+#include <Stm/Std/IfxStm.h>
+#include <_PinMap/IfxPort_pinMap.h>
+#include <Ultrasonic_sensor/ultrasonic_sensor.h>
+
+
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
 extern IfxGtm_Tom_Timer Timer1;
 extern IfxGtm_Tom_Timer Timer2;
 
 volatile uint32 interrupt_counter = 0;
+volatile float64 distance_obstacle = 0;
 
 int core0_main (void)
 {
+	float64 temp = 0;
+	Ifx_STM *stm_sfr = &MODULE_STM0;
+
     IfxCpu_enableInterrupts();
     /*
      * !!WATCHDOG0 AND SAFETY WATCHDOG ARE DISABLED HERE!!
@@ -55,6 +64,7 @@ int core0_main (void)
     /* Cpu sync event wait*/
 	IfxCpu_emitEvent(&cpuSyncEvent);
 	IfxCpu_waitEvent(&cpuSyncEvent, 1);
+
 
 
 	StopLeftMotor();
@@ -72,8 +82,23 @@ int core0_main (void)
 	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
 	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
 
+	//ultrasonic sensor config
+	configUltrasonicSensor();
+	sendTrig(IfxPort_P14_4);
+
+
     while (1)
     {
+    	temp = returnDistance();
+		//check for absurd results
+		if(temp < 1e+06)
+		{
+			distance_obstacle = temp ;
+		}
+		//wait 1 ms so that the results are more accurate
+		IfxStm_waitTicks(stm_sfr,IfxStm_getTicksFromMilliseconds(stm_sfr, 1));
+		//next detection
+		sendTrig(IfxPort_P14_4);
     }
     return (1);
 }

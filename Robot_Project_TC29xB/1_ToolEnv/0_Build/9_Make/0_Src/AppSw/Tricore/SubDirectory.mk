@@ -37,6 +37,7 @@
 
 # Include sub folder make files
 include 1_ToolEnv/0_Build/9_Make/0_Src/AppSw/Tricore/Main/SubDirectory.mk
+include 1_ToolEnv/0_Build/9_Make/0_Src/AppSw/Tricore/Ultrasonic_sensor/SubDirectory.mk
 
 # Make-Rules:
 # Make-rules for architecture: Tricore

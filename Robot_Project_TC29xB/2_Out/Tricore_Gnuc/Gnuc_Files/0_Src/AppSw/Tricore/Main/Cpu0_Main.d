@@ -73,4 +73,6 @@
  0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h \
  0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxSrc_regdef.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h \
- 0_Src/AppSw/Tricore/PWM_config.h
+ 0_Src/AppSw/Tricore/PWM_config.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h \
+ 0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h

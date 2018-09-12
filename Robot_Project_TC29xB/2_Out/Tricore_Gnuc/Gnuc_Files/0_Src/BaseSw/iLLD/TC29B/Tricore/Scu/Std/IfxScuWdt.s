@@ -1430,7 +1430,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.file 9 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxCpu_cfg.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x789c
+	.uaword	0x7885
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1438,7 +1438,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuWdt.c"
-	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
+	.string	"C:\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
 	.uaword	.Ldebug_ranges0+0x60
 	.uaword	0
 	.uaword	0
@@ -1447,7 +1447,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x4
 	.uahalf	0x596
-	.uaword	0x1ee
+	.uaword	0x1d7
 	.uleb128 0x3
 	.string	"IfxScu_WDTCON1_IR_divBy16384"
 	.sleb128 0
@@ -1462,7 +1462,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IfxScu_WDTCON1_IR"
 	.byte	0x4
 	.uahalf	0x59a
-	.uaword	0x18c
+	.uaword	0x175
 	.uleb128 0x5
 	.byte	0x4
 	.byte	0x5
@@ -1491,7 +1491,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"uint16"
 	.byte	0x5
 	.byte	0x5b
-	.uaword	0x26b
+	.uaword	0x254
 	.uleb128 0x5
 	.byte	0x2
 	.byte	0x7
@@ -1500,12 +1500,12 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"sint32"
 	.byte	0x5
 	.byte	0x5c
-	.uaword	0x208
+	.uaword	0x1f1
 	.uleb128 0x6
 	.string	"uint32"
 	.byte	0x5
 	.byte	0x5d
-	.uaword	0x214
+	.uaword	0x1fd
 	.uleb128 0x5
 	.byte	0x4
 	.byte	0x4
@@ -1518,7 +1518,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"boolean"
 	.byte	0x5
 	.byte	0x68
-	.uaword	0x23f
+	.uaword	0x228
 	.uleb128 0x5
 	.byte	0x8
 	.byte	0x5
@@ -1533,42 +1533,42 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"char"
 	.uleb128 0x7
 	.byte	0x4
-	.uaword	0x2f8
+	.uaword	0x2e1
 	.uleb128 0x8
 	.uleb128 0x9
 	.byte	0x8
 	.byte	0x6
 	.byte	0x7d
-	.uaword	0x31f
+	.uaword	0x308
 	.uleb128 0xa
 	.string	"module"
 	.byte	0x6
 	.byte	0x7f
-	.uaword	0x2f2
+	.uaword	0x2db
 	.byte	0
 	.uleb128 0xa
 	.string	"index"
 	.byte	0x6
 	.byte	0x80
-	.uaword	0x281
+	.uaword	0x26a
 	.byte	0x4
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxModule_IndexMap"
 	.byte	0x6
 	.byte	0x81
-	.uaword	0x2f9
+	.uaword	0x2e2
 	.uleb128 0xb
 	.string	"_Ifx_SCU_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x2d
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x7
 	.byte	0x2f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1577,7 +1577,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN1"
 	.byte	0x7
 	.byte	0x30
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1586,7 +1586,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN2"
 	.byte	0x7
 	.byte	0x31
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1595,7 +1595,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN3"
 	.byte	0x7
 	.byte	0x32
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1604,7 +1604,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN4"
 	.byte	0x7
 	.byte	0x33
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1613,7 +1613,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN5"
 	.byte	0x7
 	.byte	0x34
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1622,7 +1622,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN6"
 	.byte	0x7
 	.byte	0x35
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1631,7 +1631,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN7"
 	.byte	0x7
 	.byte	0x36
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1640,7 +1640,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN8"
 	.byte	0x7
 	.byte	0x37
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1649,7 +1649,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN9"
 	.byte	0x7
 	.byte	0x38
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1658,7 +1658,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN10"
 	.byte	0x7
 	.byte	0x39
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1667,7 +1667,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN11"
 	.byte	0x7
 	.byte	0x3a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1676,7 +1676,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN12"
 	.byte	0x7
 	.byte	0x3b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1685,7 +1685,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN13"
 	.byte	0x7
 	.byte	0x3c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1694,7 +1694,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN14"
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1703,7 +1703,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN15"
 	.byte	0x7
 	.byte	0x3e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1712,7 +1712,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN16"
 	.byte	0x7
 	.byte	0x3f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1721,7 +1721,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN17"
 	.byte	0x7
 	.byte	0x40
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1730,7 +1730,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN18"
 	.byte	0x7
 	.byte	0x41
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1739,7 +1739,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN19"
 	.byte	0x7
 	.byte	0x42
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1748,7 +1748,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN20"
 	.byte	0x7
 	.byte	0x43
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1757,7 +1757,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN21"
 	.byte	0x7
 	.byte	0x44
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1766,7 +1766,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN22"
 	.byte	0x7
 	.byte	0x45
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1775,7 +1775,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN23"
 	.byte	0x7
 	.byte	0x46
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1784,7 +1784,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN24"
 	.byte	0x7
 	.byte	0x47
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1793,7 +1793,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN25"
 	.byte	0x7
 	.byte	0x48
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1802,7 +1802,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN26"
 	.byte	0x7
 	.byte	0x49
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1811,7 +1811,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN27"
 	.byte	0x7
 	.byte	0x4a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1820,7 +1820,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN28"
 	.byte	0x7
 	.byte	0x4b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1829,7 +1829,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN29"
 	.byte	0x7
 	.byte	0x4c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1838,7 +1838,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN30"
 	.byte	0x7
 	.byte	0x4d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1847,7 +1847,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN31"
 	.byte	0x7
 	.byte	0x4e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1861,18 +1861,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_ACCEN0_Bits"
 	.byte	0x7
 	.byte	0x4f
-	.uaword	0x339
+	.uaword	0x322
 	.uleb128 0xb
 	.string	"_Ifx_SCU_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x52
-	.uaword	0x5a5
+	.uaword	0x58e
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0x54
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1882,18 +1882,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_ACCEN1_Bits"
 	.byte	0x7
 	.byte	0x55
-	.uaword	0x578
+	.uaword	0x561
 	.uleb128 0xb
 	.string	"_Ifx_SCU_ARSTDIS_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x58
-	.uaword	0x627
+	.uaword	0x610
 	.uleb128 0xc
 	.string	"STM0DIS"
 	.byte	0x7
 	.byte	0x5a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1902,7 +1902,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STM1DIS"
 	.byte	0x7
 	.byte	0x5b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1911,7 +1911,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STM2DIS"
 	.byte	0x7
 	.byte	0x5c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1920,7 +1920,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0x5d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -1930,18 +1930,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_ARSTDIS_Bits"
 	.byte	0x7
 	.byte	0x5e
-	.uaword	0x5c0
+	.uaword	0x5a9
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x61
-	.uaword	0x737
+	.uaword	0x720
 	.uleb128 0xc
 	.string	"BAUD1DIV"
 	.byte	0x7
 	.byte	0x63
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1950,7 +1950,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BAUD2DIV"
 	.byte	0x7
 	.byte	0x64
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -1959,7 +1959,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SRIDIV"
 	.byte	0x7
 	.byte	0x65
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -1968,7 +1968,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LPDIV"
 	.byte	0x7
 	.byte	0x66
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -1977,7 +1977,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SPBDIV"
 	.byte	0x7
 	.byte	0x67
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -1986,7 +1986,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FSI2DIV"
 	.byte	0x7
 	.byte	0x68
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -1995,7 +1995,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0x69
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -2004,7 +2004,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FSIDIV"
 	.byte	0x7
 	.byte	0x6a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -2013,7 +2013,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ADCCLKSEL"
 	.byte	0x7
 	.byte	0x6b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -2022,7 +2022,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CLKSEL"
 	.byte	0x7
 	.byte	0x6c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2031,7 +2031,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UP"
 	.byte	0x7
 	.byte	0x6d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2040,7 +2040,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.byte	0x6e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2050,18 +2050,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON0_Bits"
 	.byte	0x7
 	.byte	0x6f
-	.uaword	0x643
+	.uaword	0x62c
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x72
-	.uaword	0x827
+	.uaword	0x810
 	.uleb128 0xc
 	.string	"CANDIV"
 	.byte	0x7
 	.byte	0x74
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2070,7 +2070,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ERAYDIV"
 	.byte	0x7
 	.byte	0x75
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2079,7 +2079,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STMDIV"
 	.byte	0x7
 	.byte	0x76
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2088,7 +2088,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"GTMDIV"
 	.byte	0x7
 	.byte	0x77
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -2097,7 +2097,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ETHDIV"
 	.byte	0x7
 	.byte	0x78
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -2106,7 +2106,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ASCLINFDIV"
 	.byte	0x7
 	.byte	0x79
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -2115,7 +2115,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ASCLINSDIV"
 	.byte	0x7
 	.byte	0x7a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -2124,7 +2124,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INSEL"
 	.byte	0x7
 	.byte	0x7b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2133,7 +2133,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UP"
 	.byte	0x7
 	.byte	0x7c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2142,7 +2142,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.byte	0x7d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2152,18 +2152,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON1_Bits"
 	.byte	0x7
 	.byte	0x7e
-	.uaword	0x753
+	.uaword	0x73c
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x81
-	.uaword	0x8a0
+	.uaword	0x889
 	.uleb128 0xc
 	.string	"BBBDIV"
 	.byte	0x7
 	.byte	0x83
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2172,7 +2172,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0x84
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1a
 	.byte	0x2
@@ -2181,7 +2181,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UP"
 	.byte	0x7
 	.byte	0x85
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2190,7 +2190,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.byte	0x86
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2200,18 +2200,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON2_Bits"
 	.byte	0x7
 	.byte	0x87
-	.uaword	0x843
+	.uaword	0x82c
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON3_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8a
-	.uaword	0x98a
+	.uaword	0x973
 	.uleb128 0xc
 	.string	"PLLDIV"
 	.byte	0x7
 	.byte	0x8c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2220,7 +2220,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PLLSEL"
 	.byte	0x7
 	.byte	0x8d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2229,7 +2229,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PLLERAYDIV"
 	.byte	0x7
 	.byte	0x8e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -2238,7 +2238,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PLLERAYSEL"
 	.byte	0x7
 	.byte	0x8f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -2247,7 +2247,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SRIDIV"
 	.byte	0x7
 	.byte	0x90
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -2256,7 +2256,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SRISEL"
 	.byte	0x7
 	.byte	0x91
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -2265,7 +2265,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.byte	0x92
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -2274,7 +2274,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0x93
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2283,7 +2283,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UP"
 	.byte	0x7
 	.byte	0x94
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2292,7 +2292,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.byte	0x95
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2302,18 +2302,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON3_Bits"
 	.byte	0x7
 	.byte	0x96
-	.uaword	0x8bc
+	.uaword	0x8a5
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x99
-	.uaword	0xa6c
+	.uaword	0xa55
 	.uleb128 0xc
 	.string	"SPBDIV"
 	.byte	0x7
 	.byte	0x9b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2322,7 +2322,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SPBSEL"
 	.byte	0x7
 	.byte	0x9c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2331,7 +2331,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"GTMDIV"
 	.byte	0x7
 	.byte	0x9d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -2340,7 +2340,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"GTMSEL"
 	.byte	0x7
 	.byte	0x9e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -2349,7 +2349,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STMDIV"
 	.byte	0x7
 	.byte	0x9f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -2358,7 +2358,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STMSEL"
 	.byte	0x7
 	.byte	0xa0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -2367,7 +2367,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.byte	0xa1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -2376,7 +2376,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0xa2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2385,7 +2385,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UP"
 	.byte	0x7
 	.byte	0xa3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2394,7 +2394,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.byte	0xa4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2404,18 +2404,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON4_Bits"
 	.byte	0x7
 	.byte	0xa5
-	.uaword	0x9a6
+	.uaword	0x98f
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON5_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xa8
-	.uaword	0xaf7
+	.uaword	0xae0
 	.uleb128 0xc
 	.string	"MAXDIV"
 	.byte	0x7
 	.byte	0xaa
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2424,7 +2424,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EBUDIV"
 	.byte	0x7
 	.byte	0xab
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2433,7 +2433,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.byte	0xac
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x16
 	.byte	0x2
@@ -2442,7 +2442,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UP"
 	.byte	0x7
 	.byte	0xad
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2451,7 +2451,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.byte	0xae
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2461,18 +2461,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON5_Bits"
 	.byte	0x7
 	.byte	0xaf
-	.uaword	0xa88
+	.uaword	0xa71
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON6_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xb2
-	.uaword	0xb54
+	.uaword	0xb3d
 	.uleb128 0xc
 	.string	"CPU0DIV"
 	.byte	0x7
 	.byte	0xb4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2481,7 +2481,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF7
 	.byte	0x7
 	.byte	0xb5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2491,18 +2491,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON6_Bits"
 	.byte	0x7
 	.byte	0xb6
-	.uaword	0xb13
+	.uaword	0xafc
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON7_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xb9
-	.uaword	0xbb1
+	.uaword	0xb9a
 	.uleb128 0xc
 	.string	"CPU1DIV"
 	.byte	0x7
 	.byte	0xbb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2511,7 +2511,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF7
 	.byte	0x7
 	.byte	0xbc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2521,18 +2521,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON7_Bits"
 	.byte	0x7
 	.byte	0xbd
-	.uaword	0xb70
+	.uaword	0xb59
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON8_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xc0
-	.uaword	0xc0e
+	.uaword	0xbf7
 	.uleb128 0xc
 	.string	"CPU2DIV"
 	.byte	0x7
 	.byte	0xc2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2541,7 +2541,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF7
 	.byte	0x7
 	.byte	0xc3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2551,18 +2551,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON8_Bits"
 	.byte	0x7
 	.byte	0xc4
-	.uaword	0xbcd
+	.uaword	0xbb6
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON9_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xc7
-	.uaword	0xca8
+	.uaword	0xc91
 	.uleb128 0xc
 	.string	"ADCDIV"
 	.byte	0x7
 	.byte	0xc9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2571,7 +2571,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ADCSEL"
 	.byte	0x7
 	.byte	0xca
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2580,7 +2580,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.byte	0xcb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x15
 	.byte	0x3
@@ -2589,7 +2589,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0xcc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2598,7 +2598,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UP"
 	.byte	0x7
 	.byte	0xcd
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2607,7 +2607,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.byte	0xce
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2617,18 +2617,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CCUCON9_Bits"
 	.byte	0x7
 	.byte	0xcf
-	.uaword	0xc2a
+	.uaword	0xc13
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CHIPID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xd2
-	.uaword	0xd71
+	.uaword	0xd5a
 	.uleb128 0xc
 	.string	"CHREV"
 	.byte	0x7
 	.byte	0xd4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2637,7 +2637,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CHTEC"
 	.byte	0x7
 	.byte	0xd5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2646,7 +2646,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CHID"
 	.byte	0x7
 	.byte	0xd6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2655,7 +2655,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EEA"
 	.byte	0x7
 	.byte	0xd7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2664,7 +2664,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UCODE"
 	.byte	0x7
 	.byte	0xd8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8
@@ -2673,7 +2673,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FSIZE"
 	.byte	0x7
 	.byte	0xd9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -2682,7 +2682,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SP"
 	.byte	0x7
 	.byte	0xda
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2691,7 +2691,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SEC"
 	.byte	0x7
 	.byte	0xdb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2700,7 +2700,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF8
 	.byte	0x7
 	.byte	0xdc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2710,18 +2710,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_CHIPID_Bits"
 	.byte	0x7
 	.byte	0xdd
-	.uaword	0xcc4
+	.uaword	0xcad
 	.uleb128 0xb
 	.string	"_Ifx_SCU_DTSCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xe0
-	.uaword	0xe06
+	.uaword	0xdef
 	.uleb128 0xc
 	.string	"PWD"
 	.byte	0x7
 	.byte	0xe2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2730,7 +2730,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"START"
 	.byte	0x7
 	.byte	0xe3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2739,7 +2739,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.byte	0xe4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -2748,7 +2748,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CAL"
 	.byte	0x7
 	.byte	0xe5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x16
 	.byte	0x6
@@ -2757,7 +2757,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF10
 	.byte	0x7
 	.byte	0xe6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1
@@ -2766,7 +2766,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0xe7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2776,18 +2776,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_DTSCON_Bits"
 	.byte	0x7
 	.byte	0xe8
-	.uaword	0xd8c
+	.uaword	0xd75
 	.uleb128 0xb
 	.string	"_Ifx_SCU_DTSLIM_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xeb
-	.uaword	0xeac
+	.uaword	0xe95
 	.uleb128 0xc
 	.string	"LOWER"
 	.byte	0x7
 	.byte	0xed
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -2796,7 +2796,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF11
 	.byte	0x7
 	.byte	0xee
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x11
@@ -2805,7 +2805,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LLU"
 	.byte	0x7
 	.byte	0xef
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2814,7 +2814,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UPPER"
 	.byte	0x7
 	.byte	0xf0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -2823,7 +2823,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF10
 	.byte	0x7
 	.byte	0xf1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x2
@@ -2832,7 +2832,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0xf2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2841,7 +2841,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UOF"
 	.byte	0x7
 	.byte	0xf3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2851,18 +2851,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_DTSLIM_Bits"
 	.byte	0x7
 	.byte	0xf4
-	.uaword	0xe21
+	.uaword	0xe0a
 	.uleb128 0xb
 	.string	"_Ifx_SCU_DTSSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xf7
-	.uaword	0xf35
+	.uaword	0xf1e
 	.uleb128 0xc
 	.string	"RESULT"
 	.byte	0x7
 	.byte	0xf9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -2871,7 +2871,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF11
 	.byte	0x7
 	.byte	0xfa
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -2880,7 +2880,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RDY"
 	.byte	0x7
 	.byte	0xfb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2889,7 +2889,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BUSY"
 	.byte	0x7
 	.byte	0xfc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2898,7 +2898,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.byte	0xfd
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2908,18 +2908,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_DTSSTAT_Bits"
 	.byte	0x7
 	.byte	0xfe
-	.uaword	0xec7
+	.uaword	0xeb0
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EICR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x101
-	.uaword	0x1090
+	.uaword	0x1079
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x103
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2928,7 +2928,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EXIS0"
 	.byte	0x7
 	.uahalf	0x104
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -2937,7 +2937,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x105
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2946,7 +2946,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FEN0"
 	.byte	0x7
 	.uahalf	0x106
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2955,7 +2955,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"REN0"
 	.byte	0x7
 	.uahalf	0x107
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2964,7 +2964,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LDEN0"
 	.byte	0x7
 	.uahalf	0x108
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2973,7 +2973,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EIEN0"
 	.byte	0x7
 	.uahalf	0x109
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2982,7 +2982,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INP0"
 	.byte	0x7
 	.uahalf	0x10a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -2991,7 +2991,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF14
 	.byte	0x7
 	.uahalf	0x10b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc
@@ -3000,7 +3000,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EXIS1"
 	.byte	0x7
 	.uahalf	0x10c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -3009,7 +3009,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x10d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3018,7 +3018,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FEN1"
 	.byte	0x7
 	.uahalf	0x10e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3027,7 +3027,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"REN1"
 	.byte	0x7
 	.uahalf	0x10f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3036,7 +3036,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LDEN1"
 	.byte	0x7
 	.uahalf	0x110
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3045,7 +3045,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EIEN1"
 	.byte	0x7
 	.uahalf	0x111
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3054,7 +3054,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INP1"
 	.byte	0x7
 	.uahalf	0x112
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3063,7 +3063,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x113
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3073,18 +3073,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EICR_Bits"
 	.byte	0x7
 	.uahalf	0x114
-	.uaword	0xf51
+	.uaword	0xf3a
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EIFR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x117
-	.uaword	0x1167
+	.uaword	0x1150
 	.uleb128 0x10
 	.string	"INTF0"
 	.byte	0x7
 	.uahalf	0x119
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3093,7 +3093,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INTF1"
 	.byte	0x7
 	.uahalf	0x11a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3102,7 +3102,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INTF2"
 	.byte	0x7
 	.uahalf	0x11b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3111,7 +3111,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INTF3"
 	.byte	0x7
 	.uahalf	0x11c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3120,7 +3120,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INTF4"
 	.byte	0x7
 	.uahalf	0x11d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3129,7 +3129,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INTF5"
 	.byte	0x7
 	.uahalf	0x11e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3138,7 +3138,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INTF6"
 	.byte	0x7
 	.uahalf	0x11f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3147,7 +3147,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"INTF7"
 	.byte	0x7
 	.uahalf	0x120
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3156,7 +3156,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x121
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -3166,18 +3166,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EIFR_Bits"
 	.byte	0x7
 	.uahalf	0x122
-	.uaword	0x10aa
+	.uaword	0x1093
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EMSR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x125
-	.uaword	0x1259
+	.uaword	0x1242
 	.uleb128 0x10
 	.string	"POL"
 	.byte	0x7
 	.uahalf	0x127
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3186,7 +3186,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"MODE"
 	.byte	0x7
 	.uahalf	0x128
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3195,7 +3195,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ENON"
 	.byte	0x7
 	.uahalf	0x129
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3204,7 +3204,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PSEL"
 	.byte	0x7
 	.uahalf	0x12a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3213,7 +3213,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x12b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xc
 	.byte	0x10
@@ -3222,7 +3222,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EMSF"
 	.byte	0x7
 	.uahalf	0x12c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3231,7 +3231,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SEMSF"
 	.byte	0x7
 	.uahalf	0x12d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3240,7 +3240,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x12e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x8
@@ -3249,7 +3249,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EMSFM"
 	.byte	0x7
 	.uahalf	0x12f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -3258,7 +3258,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SEMSFM"
 	.byte	0x7
 	.uahalf	0x130
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -3267,7 +3267,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x131
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -3277,18 +3277,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EMSR_Bits"
 	.byte	0x7
 	.uahalf	0x132
-	.uaword	0x1181
+	.uaword	0x116a
 	.uleb128 0xe
 	.string	"_Ifx_SCU_ESRCFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x135
-	.uaword	0x12c4
+	.uaword	0x12ad
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x137
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -3297,7 +3297,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EDCON"
 	.byte	0x7
 	.uahalf	0x138
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -3306,7 +3306,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x139
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -3316,18 +3316,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_ESRCFG_Bits"
 	.byte	0x7
 	.uahalf	0x13a
-	.uaword	0x1273
+	.uaword	0x125c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_ESROCFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x13d
-	.uaword	0x1330
+	.uaword	0x1319
 	.uleb128 0x10
 	.string	"ARI"
 	.byte	0x7
 	.uahalf	0x13f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3336,7 +3336,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ARC"
 	.byte	0x7
 	.uahalf	0x140
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3345,7 +3345,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x141
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -3355,18 +3355,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_ESROCFG_Bits"
 	.byte	0x7
 	.uahalf	0x142
-	.uaword	0x12e0
+	.uaword	0x12c9
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVR13CON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x145
-	.uaword	0x13ca
+	.uaword	0x13b3
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x147
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -3375,7 +3375,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR13OFF"
 	.byte	0x7
 	.uahalf	0x148
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3384,7 +3384,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BPEVR13OFF"
 	.byte	0x7
 	.uahalf	0x149
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3393,7 +3393,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF19
 	.byte	0x7
 	.uahalf	0x14a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3402,7 +3402,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x14b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3412,18 +3412,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVR13CON_Bits"
 	.byte	0x7
 	.uahalf	0x14c
-	.uaword	0x134d
+	.uaword	0x1336
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVR33CON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x14f
-	.uaword	0x1465
+	.uaword	0x144e
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x151
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -3432,7 +3432,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR33OFF"
 	.byte	0x7
 	.uahalf	0x152
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3441,7 +3441,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BPEVR33OFF"
 	.byte	0x7
 	.uahalf	0x153
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3450,7 +3450,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF19
 	.byte	0x7
 	.uahalf	0x154
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3459,7 +3459,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x155
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3469,18 +3469,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVR33CON_Bits"
 	.byte	0x7
 	.uahalf	0x156
-	.uaword	0x13e8
+	.uaword	0x13d1
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRADCSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x159
-	.uaword	0x1500
+	.uaword	0x14e9
 	.uleb128 0x10
 	.string	"ADC13V"
 	.byte	0x7
 	.uahalf	0x15b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3489,7 +3489,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ADC33V"
 	.byte	0x7
 	.uahalf	0x15c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3498,7 +3498,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ADCSWDV"
 	.byte	0x7
 	.uahalf	0x15d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3507,7 +3507,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x15e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -3516,7 +3516,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"VAL"
 	.byte	0x7
 	.uahalf	0x15f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3526,18 +3526,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRADCSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x160
-	.uaword	0x1483
+	.uaword	0x146c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRDVSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x163
-	.uaword	0x159e
+	.uaword	0x1587
 	.uleb128 0x10
 	.string	"DVS13TRIM"
 	.byte	0x7
 	.uahalf	0x165
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3546,7 +3546,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x166
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3555,7 +3555,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DVS33TRIM"
 	.byte	0x7
 	.uahalf	0x167
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3564,7 +3564,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x168
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -3573,7 +3573,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"VAL"
 	.byte	0x7
 	.uahalf	0x169
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3583,18 +3583,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRDVSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x16a
-	.uaword	0x1520
+	.uaword	0x1509
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRMONCTRL_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x16d
-	.uaword	0x16e6
+	.uaword	0x16cf
 	.uleb128 0x10
 	.string	"EVR13OVMOD"
 	.byte	0x7
 	.uahalf	0x16f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -3603,7 +3603,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x170
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -3612,7 +3612,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR13UVMOD"
 	.byte	0x7
 	.uahalf	0x171
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -3621,7 +3621,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF7
 	.byte	0x7
 	.uahalf	0x172
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -3630,7 +3630,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR33OVMOD"
 	.byte	0x7
 	.uahalf	0x173
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -3639,7 +3639,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF11
 	.byte	0x7
 	.uahalf	0x174
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -3648,7 +3648,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR33UVMOD"
 	.byte	0x7
 	.uahalf	0x175
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -3657,7 +3657,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF20
 	.byte	0x7
 	.uahalf	0x176
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -3666,7 +3666,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SWDOVMOD"
 	.byte	0x7
 	.uahalf	0x177
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -3675,7 +3675,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x178
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -3684,7 +3684,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SWDUVMOD"
 	.byte	0x7
 	.uahalf	0x179
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -3693,7 +3693,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x17a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x2
@@ -3702,7 +3702,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x17b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3711,7 +3711,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x17c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3721,18 +3721,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRMONCTRL_Bits"
 	.byte	0x7
 	.uahalf	0x17d
-	.uaword	0x15bd
+	.uaword	0x15a6
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVROVMON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x180
-	.uaword	0x179a
+	.uaword	0x1783
 	.uleb128 0x10
 	.string	"EVR13OVVAL"
 	.byte	0x7
 	.uahalf	0x182
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3741,7 +3741,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR33OVVAL"
 	.byte	0x7
 	.uahalf	0x183
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3750,7 +3750,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SWDOVVAL"
 	.byte	0x7
 	.uahalf	0x184
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3759,7 +3759,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x185
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -3768,7 +3768,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x186
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3777,7 +3777,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x187
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3787,18 +3787,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVROVMON_Bits"
 	.byte	0x7
 	.uahalf	0x188
-	.uaword	0x1706
+	.uaword	0x16ef
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRRSTCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x18b
-	.uaword	0x18a6
+	.uaword	0x188f
 	.uleb128 0x10
 	.string	"RST13TRIM"
 	.byte	0x7
 	.uahalf	0x18d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3807,7 +3807,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x18e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0x8
@@ -3816,7 +3816,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RST13OFF"
 	.byte	0x7
 	.uahalf	0x18f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3825,7 +3825,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BPRST13OFF"
 	.byte	0x7
 	.uahalf	0x190
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3834,7 +3834,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RST33OFF"
 	.byte	0x7
 	.uahalf	0x191
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3843,7 +3843,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BPRST33OFF"
 	.byte	0x7
 	.uahalf	0x192
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3852,7 +3852,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RSTSWDOFF"
 	.byte	0x7
 	.uahalf	0x193
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3861,7 +3861,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BPRSTSWDOFF"
 	.byte	0x7
 	.uahalf	0x194
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3870,7 +3870,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x195
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3879,7 +3879,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x196
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3889,18 +3889,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRRSTCON_Bits"
 	.byte	0x7
 	.uahalf	0x197
-	.uaword	0x17b8
+	.uaword	0x17a1
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x19a
-	.uaword	0x193c
+	.uaword	0x1925
 	.uleb128 0x10
 	.string	"SD5P"
 	.byte	0x7
 	.uahalf	0x19c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3909,7 +3909,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SD5I"
 	.byte	0x7
 	.uahalf	0x19d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3918,7 +3918,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SD5D"
 	.byte	0x7
 	.uahalf	0x19e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3927,7 +3927,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x19f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -3936,7 +3936,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1a0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3946,18 +3946,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCOEFF1_Bits"
 	.byte	0x7
 	.uahalf	0x1a1
-	.uaword	0x18c5
+	.uaword	0x18ae
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1a4
-	.uaword	0x19d7
+	.uaword	0x19c0
 	.uleb128 0x10
 	.string	"SD33P"
 	.byte	0x7
 	.uahalf	0x1a6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3966,7 +3966,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SD33I"
 	.byte	0x7
 	.uahalf	0x1a7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3975,7 +3975,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SD33D"
 	.byte	0x7
 	.uahalf	0x1a8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3984,7 +3984,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x1a9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -3993,7 +3993,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1aa
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4003,18 +4003,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCOEFF2_Bits"
 	.byte	0x7
 	.uahalf	0x1ab
-	.uaword	0x195d
+	.uaword	0x1946
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF3_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1ae
-	.uaword	0x1a78
+	.uaword	0x1a61
 	.uleb128 0x10
 	.string	"CT5REG0"
 	.byte	0x7
 	.uahalf	0x1b0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4023,7 +4023,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CT5REG1"
 	.byte	0x7
 	.uahalf	0x1b1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4032,7 +4032,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CT5REG2"
 	.byte	0x7
 	.uahalf	0x1b2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4041,7 +4041,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x1b3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4050,7 +4050,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1b4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4060,18 +4060,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCOEFF3_Bits"
 	.byte	0x7
 	.uahalf	0x1b5
-	.uaword	0x19f8
+	.uaword	0x19e1
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1b8
-	.uaword	0x1b05
+	.uaword	0x1aee
 	.uleb128 0x10
 	.string	"CT5REG3"
 	.byte	0x7
 	.uahalf	0x1ba
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4080,7 +4080,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CT5REG4"
 	.byte	0x7
 	.uahalf	0x1bb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4089,7 +4089,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x1bc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xf
 	.byte	0x1
@@ -4098,7 +4098,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1bd
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4108,18 +4108,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCOEFF4_Bits"
 	.byte	0x7
 	.uahalf	0x1be
-	.uaword	0x1a99
+	.uaword	0x1a82
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF5_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1c1
-	.uaword	0x1ba9
+	.uaword	0x1b92
 	.uleb128 0x10
 	.string	"CT33REG0"
 	.byte	0x7
 	.uahalf	0x1c3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4128,7 +4128,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CT33REG1"
 	.byte	0x7
 	.uahalf	0x1c4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4137,7 +4137,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CT33REG2"
 	.byte	0x7
 	.uahalf	0x1c5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4146,7 +4146,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x1c6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4155,7 +4155,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1c7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4165,18 +4165,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCOEFF5_Bits"
 	.byte	0x7
 	.uahalf	0x1c8
-	.uaword	0x1b26
+	.uaword	0x1b0f
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF6_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1cb
-	.uaword	0x1c38
+	.uaword	0x1c21
 	.uleb128 0x10
 	.string	"CT33REG3"
 	.byte	0x7
 	.uahalf	0x1cd
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4185,7 +4185,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CT33REG4"
 	.byte	0x7
 	.uahalf	0x1ce
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4194,7 +4194,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x1cf
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xf
 	.byte	0x1
@@ -4203,7 +4203,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1d0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4213,18 +4213,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCOEFF6_Bits"
 	.byte	0x7
 	.uahalf	0x1d1
-	.uaword	0x1bca
+	.uaword	0x1bb3
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCTRL1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1d4
-	.uaword	0x1cee
+	.uaword	0x1cd7
 	.uleb128 0x10
 	.string	"SDFREQSPRD"
 	.byte	0x7
 	.uahalf	0x1d6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -4233,7 +4233,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SDFREQ"
 	.byte	0x7
 	.uahalf	0x1d7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4242,7 +4242,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SDSTEP"
 	.byte	0x7
 	.uahalf	0x1d8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -4251,7 +4251,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x1d9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -4260,7 +4260,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SDSAMPLE"
 	.byte	0x7
 	.uahalf	0x1da
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4269,7 +4269,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1db
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4279,18 +4279,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCTRL1_Bits"
 	.byte	0x7
 	.uahalf	0x1dc
-	.uaword	0x1c59
+	.uaword	0x1c42
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCTRL2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1df
-	.uaword	0x1d9c
+	.uaword	0x1d85
 	.uleb128 0x10
 	.string	"DRVP"
 	.byte	0x7
 	.uahalf	0x1e1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4299,7 +4299,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SDMINMAXDC"
 	.byte	0x7
 	.uahalf	0x1e2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4308,7 +4308,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DRVN"
 	.byte	0x7
 	.uahalf	0x1e3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4317,7 +4317,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SDLUT"
 	.byte	0x7
 	.uahalf	0x1e4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -4326,7 +4326,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF19
 	.byte	0x7
 	.uahalf	0x1e5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4335,7 +4335,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1e6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4345,18 +4345,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCTRL2_Bits"
 	.byte	0x7
 	.uahalf	0x1e7
-	.uaword	0x1d0e
+	.uaword	0x1cf7
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCTRL3_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1ea
-	.uaword	0x1e3b
+	.uaword	0x1e24
 	.uleb128 0x10
 	.string	"SDPWMPRE"
 	.byte	0x7
 	.uahalf	0x1ec
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4365,7 +4365,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SDPID"
 	.byte	0x7
 	.uahalf	0x1ed
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4374,7 +4374,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SDVOKLVL"
 	.byte	0x7
 	.uahalf	0x1ee
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4383,7 +4383,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x1ef
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4392,7 +4392,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1f0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4402,18 +4402,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCTRL3_Bits"
 	.byte	0x7
 	.uahalf	0x1f1
-	.uaword	0x1dbc
+	.uaword	0x1da5
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCTRL4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1f4
-	.uaword	0x1ec2
+	.uaword	0x1eab
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x1f6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4422,7 +4422,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SYNCDIV"
 	.byte	0x7
 	.uahalf	0x1f7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4431,7 +4431,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF21
 	.byte	0x7
 	.uahalf	0x1f8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x14
 	.byte	0x1
@@ -4440,7 +4440,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1f9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4450,18 +4450,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSDCTRL4_Bits"
 	.byte	0x7
 	.uahalf	0x1fa
-	.uaword	0x1e5b
+	.uaword	0x1e44
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1fd
-	.uaword	0x1fdd
+	.uaword	0x1fc6
 	.uleb128 0x10
 	.string	"EVR13"
 	.byte	0x7
 	.uahalf	0x1ff
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4470,7 +4470,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OV13"
 	.byte	0x7
 	.uahalf	0x200
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4479,7 +4479,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR33"
 	.byte	0x7
 	.uahalf	0x201
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4488,7 +4488,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OV33"
 	.byte	0x7
 	.uahalf	0x202
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4497,7 +4497,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OVSWD"
 	.byte	0x7
 	.uahalf	0x203
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4506,7 +4506,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UV13"
 	.byte	0x7
 	.uahalf	0x204
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4515,7 +4515,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UV33"
 	.byte	0x7
 	.uahalf	0x205
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4524,7 +4524,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UVSWD"
 	.byte	0x7
 	.uahalf	0x206
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4533,7 +4533,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EXTPASS13"
 	.byte	0x7
 	.uahalf	0x207
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4542,7 +4542,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EXTPASS33"
 	.byte	0x7
 	.uahalf	0x208
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4551,7 +4551,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BGPROK"
 	.byte	0x7
 	.uahalf	0x209
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4560,7 +4560,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF21
 	.byte	0x7
 	.uahalf	0x20a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x15
 	.byte	0
@@ -4570,18 +4570,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x20b
-	.uaword	0x1ee2
+	.uaword	0x1ecb
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRTRIM_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x20e
-	.uaword	0x2076
+	.uaword	0x205f
 	.uleb128 0x10
 	.string	"EVR13TRIM"
 	.byte	0x7
 	.uahalf	0x210
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4590,7 +4590,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SDVOUTSEL"
 	.byte	0x7
 	.uahalf	0x211
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4599,7 +4599,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x212
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xe
 	.byte	0x2
@@ -4608,7 +4608,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x213
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4617,7 +4617,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x214
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4627,18 +4627,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRTRIM_Bits"
 	.byte	0x7
 	.uahalf	0x215
-	.uaword	0x1ffa
+	.uaword	0x1fe3
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRUVMON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x218
-	.uaword	0x2127
+	.uaword	0x2110
 	.uleb128 0x10
 	.string	"EVR13UVVAL"
 	.byte	0x7
 	.uahalf	0x21a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4647,7 +4647,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR33UVVAL"
 	.byte	0x7
 	.uahalf	0x21b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4656,7 +4656,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SWDUVVAL"
 	.byte	0x7
 	.uahalf	0x21c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4665,7 +4665,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x21d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -4674,7 +4674,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x21e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4683,7 +4683,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x21f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4693,18 +4693,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EVRUVMON_Bits"
 	.byte	0x7
 	.uahalf	0x220
-	.uaword	0x2093
+	.uaword	0x207c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EXTCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x223
-	.uaword	0x21f8
+	.uaword	0x21e1
 	.uleb128 0x10
 	.string	"EN0"
 	.byte	0x7
 	.uahalf	0x225
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4713,7 +4713,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x226
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4722,7 +4722,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SEL0"
 	.byte	0x7
 	.uahalf	0x227
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1a
@@ -4731,7 +4731,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF7
 	.byte	0x7
 	.uahalf	0x228
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xa
 	.byte	0x10
@@ -4740,7 +4740,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EN1"
 	.byte	0x7
 	.uahalf	0x229
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4749,7 +4749,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"NSEL"
 	.byte	0x7
 	.uahalf	0x22a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4758,7 +4758,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SEL1"
 	.byte	0x7
 	.uahalf	0x22b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0xa
@@ -4767,7 +4767,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x22c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -4776,7 +4776,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DIV1"
 	.byte	0x7
 	.uahalf	0x22d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -4786,18 +4786,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_EXTCON_Bits"
 	.byte	0x7
 	.uahalf	0x22e
-	.uaword	0x2145
+	.uaword	0x212e
 	.uleb128 0xe
 	.string	"_Ifx_SCU_FDR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x231
-	.uaword	0x2296
+	.uaword	0x227f
 	.uleb128 0x10
 	.string	"STEP"
 	.byte	0x7
 	.uahalf	0x233
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -4806,7 +4806,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF11
 	.byte	0x7
 	.uahalf	0x234
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -4815,7 +4815,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DM"
 	.byte	0x7
 	.uahalf	0x235
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -4824,7 +4824,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RESULT"
 	.byte	0x7
 	.uahalf	0x236
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -4833,7 +4833,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF10
 	.byte	0x7
 	.uahalf	0x237
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1
@@ -4842,7 +4842,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DISCLK"
 	.byte	0x7
 	.uahalf	0x238
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4852,18 +4852,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_FDR_Bits"
 	.byte	0x7
 	.uahalf	0x239
-	.uaword	0x2214
+	.uaword	0x21fd
 	.uleb128 0xe
 	.string	"_Ifx_SCU_FMR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x23c
-	.uaword	0x23eb
+	.uaword	0x23d4
 	.uleb128 0x10
 	.string	"FS0"
 	.byte	0x7
 	.uahalf	0x23e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4872,7 +4872,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FS1"
 	.byte	0x7
 	.uahalf	0x23f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4881,7 +4881,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FS2"
 	.byte	0x7
 	.uahalf	0x240
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4890,7 +4890,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FS3"
 	.byte	0x7
 	.uahalf	0x241
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4899,7 +4899,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FS4"
 	.byte	0x7
 	.uahalf	0x242
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4908,7 +4908,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FS5"
 	.byte	0x7
 	.uahalf	0x243
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4917,7 +4917,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FS6"
 	.byte	0x7
 	.uahalf	0x244
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4926,7 +4926,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FS7"
 	.byte	0x7
 	.uahalf	0x245
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4935,7 +4935,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x246
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4944,7 +4944,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FC0"
 	.byte	0x7
 	.uahalf	0x247
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4953,7 +4953,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FC1"
 	.byte	0x7
 	.uahalf	0x248
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4962,7 +4962,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FC2"
 	.byte	0x7
 	.uahalf	0x249
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4971,7 +4971,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FC3"
 	.byte	0x7
 	.uahalf	0x24a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4980,7 +4980,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FC4"
 	.byte	0x7
 	.uahalf	0x24b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4989,7 +4989,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FC5"
 	.byte	0x7
 	.uahalf	0x24c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4998,7 +4998,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FC6"
 	.byte	0x7
 	.uahalf	0x24d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5007,7 +5007,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FC7"
 	.byte	0x7
 	.uahalf	0x24e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5016,7 +5016,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x24f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5026,18 +5026,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_FMR_Bits"
 	.byte	0x7
 	.uahalf	0x250
-	.uaword	0x22af
+	.uaword	0x2298
 	.uleb128 0xe
 	.string	"_Ifx_SCU_ID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x253
-	.uaword	0x245c
+	.uaword	0x2445
 	.uleb128 0x10
 	.string	"MODREV"
 	.byte	0x7
 	.uahalf	0x255
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5046,7 +5046,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"MODTYPE"
 	.byte	0x7
 	.uahalf	0x256
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5055,7 +5055,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"MODNUMBER"
 	.byte	0x7
 	.uahalf	0x257
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5065,18 +5065,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_ID_Bits"
 	.byte	0x7
 	.uahalf	0x258
-	.uaword	0x2404
+	.uaword	0x23ed
 	.uleb128 0xe
 	.string	"_Ifx_SCU_IGCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x25b
-	.uaword	0x2627
+	.uaword	0x2610
 	.uleb128 0x10
 	.string	"IPEN00"
 	.byte	0x7
 	.uahalf	0x25d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5085,7 +5085,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN01"
 	.byte	0x7
 	.uahalf	0x25e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5094,7 +5094,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN02"
 	.byte	0x7
 	.uahalf	0x25f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5103,7 +5103,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN03"
 	.byte	0x7
 	.uahalf	0x260
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5112,7 +5112,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN04"
 	.byte	0x7
 	.uahalf	0x261
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5121,7 +5121,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN05"
 	.byte	0x7
 	.uahalf	0x262
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5130,7 +5130,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN06"
 	.byte	0x7
 	.uahalf	0x263
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5139,7 +5139,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN07"
 	.byte	0x7
 	.uahalf	0x264
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5148,7 +5148,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x265
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -5157,7 +5157,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"GEEN0"
 	.byte	0x7
 	.uahalf	0x266
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5166,7 +5166,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IGP0"
 	.byte	0x7
 	.uahalf	0x267
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -5175,7 +5175,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN10"
 	.byte	0x7
 	.uahalf	0x268
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5184,7 +5184,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN11"
 	.byte	0x7
 	.uahalf	0x269
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5193,7 +5193,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN12"
 	.byte	0x7
 	.uahalf	0x26a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5202,7 +5202,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN13"
 	.byte	0x7
 	.uahalf	0x26b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5211,7 +5211,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN14"
 	.byte	0x7
 	.uahalf	0x26c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5220,7 +5220,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN15"
 	.byte	0x7
 	.uahalf	0x26d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5229,7 +5229,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN16"
 	.byte	0x7
 	.uahalf	0x26e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5238,7 +5238,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IPEN17"
 	.byte	0x7
 	.uahalf	0x26f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5247,7 +5247,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x270
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -5256,7 +5256,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"GEEN1"
 	.byte	0x7
 	.uahalf	0x271
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -5265,7 +5265,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IGP1"
 	.byte	0x7
 	.uahalf	0x272
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -5275,18 +5275,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_IGCR_Bits"
 	.byte	0x7
 	.uahalf	0x273
-	.uaword	0x2474
+	.uaword	0x245d
 	.uleb128 0xe
 	.string	"_Ifx_SCU_IN_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x276
-	.uaword	0x268a
+	.uaword	0x2673
 	.uleb128 0x10
 	.string	"P0"
 	.byte	0x7
 	.uahalf	0x278
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5295,7 +5295,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"P1"
 	.byte	0x7
 	.uahalf	0x279
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5304,7 +5304,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x27a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -5314,18 +5314,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_IN_Bits"
 	.byte	0x7
 	.uahalf	0x27b
-	.uaword	0x2641
+	.uaword	0x262a
 	.uleb128 0xe
 	.string	"_Ifx_SCU_IOCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x27e
-	.uaword	0x270f
+	.uaword	0x26f8
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x280
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -5334,7 +5334,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PC0"
 	.byte	0x7
 	.uahalf	0x281
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -5343,7 +5343,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x282
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -5352,7 +5352,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PC1"
 	.byte	0x7
 	.uahalf	0x283
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -5361,7 +5361,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x284
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5371,18 +5371,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_IOCR_Bits"
 	.byte	0x7
 	.uahalf	0x285
-	.uaword	0x26a2
+	.uaword	0x268b
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LBISTCTRL0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x288
-	.uaword	0x279c
+	.uaword	0x2785
 	.uleb128 0x10
 	.string	"LBISTREQ"
 	.byte	0x7
 	.uahalf	0x28a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5391,7 +5391,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LBISTREQP"
 	.byte	0x7
 	.uahalf	0x28b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5400,7 +5400,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PATTERNS"
 	.byte	0x7
 	.uahalf	0x28c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -5409,7 +5409,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x28d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5419,18 +5419,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_LBISTCTRL0_Bits"
 	.byte	0x7
 	.uahalf	0x28e
-	.uaword	0x2729
+	.uaword	0x2712
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LBISTCTRL1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x291
-	.uaword	0x283c
+	.uaword	0x2825
 	.uleb128 0x10
 	.string	"SEED"
 	.byte	0x7
 	.uahalf	0x293
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x17
 	.byte	0x9
@@ -5439,7 +5439,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x294
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5448,7 +5448,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SPLITSH"
 	.byte	0x7
 	.uahalf	0x295
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -5457,7 +5457,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BODY"
 	.byte	0x7
 	.uahalf	0x296
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -5466,7 +5466,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LBISTFREQU"
 	.byte	0x7
 	.uahalf	0x297
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -5476,18 +5476,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_LBISTCTRL1_Bits"
 	.byte	0x7
 	.uahalf	0x298
-	.uaword	0x27bc
+	.uaword	0x27a5
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LBISTCTRL2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x29b
-	.uaword	0x28bb
+	.uaword	0x28a4
 	.uleb128 0x10
 	.string	"SIGNATURE"
 	.byte	0x7
 	.uahalf	0x29d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -5496,7 +5496,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x29e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -5505,7 +5505,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LBISTDONE"
 	.byte	0x7
 	.uahalf	0x29f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5515,18 +5515,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_LBISTCTRL2_Bits"
 	.byte	0x7
 	.uahalf	0x2a0
-	.uaword	0x285c
+	.uaword	0x2845
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LCLCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2a3
-	.uaword	0x293a
+	.uaword	0x2923
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x2a5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -5535,7 +5535,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LS"
 	.byte	0x7
 	.uahalf	0x2a6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5544,7 +5544,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF23
 	.byte	0x7
 	.uahalf	0x2a7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xe
 	.byte	0x1
@@ -5553,7 +5553,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LSEN"
 	.byte	0x7
 	.uahalf	0x2a8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5563,18 +5563,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_LCLCON_Bits"
 	.byte	0x7
 	.uahalf	0x2a9
-	.uaword	0x28db
+	.uaword	0x28c4
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LCLTEST_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2ac
-	.uaword	0x29aa
+	.uaword	0x2993
 	.uleb128 0x10
 	.string	"LCLT0"
 	.byte	0x7
 	.uahalf	0x2ae
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5583,7 +5583,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCLT1"
 	.byte	0x7
 	.uahalf	0x2af
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5592,7 +5592,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x2b0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -5602,18 +5602,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_LCLTEST_Bits"
 	.byte	0x7
 	.uahalf	0x2b1
-	.uaword	0x2956
+	.uaword	0x293f
 	.uleb128 0xe
 	.string	"_Ifx_SCU_MANID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2b4
-	.uaword	0x2a18
+	.uaword	0x2a01
 	.uleb128 0x10
 	.string	"DEPT"
 	.byte	0x7
 	.uahalf	0x2b6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -5622,7 +5622,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"MANUF"
 	.byte	0x7
 	.uahalf	0x2b7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xb
 	.byte	0x10
@@ -5631,7 +5631,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x2b8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5641,18 +5641,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_MANID_Bits"
 	.byte	0x7
 	.uahalf	0x2b9
-	.uaword	0x29c7
+	.uaword	0x29b0
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OMR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2bc
-	.uaword	0x2ab1
+	.uaword	0x2a9a
 	.uleb128 0x10
 	.string	"PS0"
 	.byte	0x7
 	.uahalf	0x2be
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5661,7 +5661,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PS1"
 	.byte	0x7
 	.uahalf	0x2bf
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5670,7 +5670,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x2c0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -5679,7 +5679,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PCL0"
 	.byte	0x7
 	.uahalf	0x2c1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5688,7 +5688,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PCL1"
 	.byte	0x7
 	.uahalf	0x2c2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5697,7 +5697,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x2c3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -5707,18 +5707,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_OMR_Bits"
 	.byte	0x7
 	.uahalf	0x2c4
-	.uaword	0x2a33
+	.uaword	0x2a1c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OSCCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2c7
-	.uaword	0x2c39
+	.uaword	0x2c22
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x2c9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5727,7 +5727,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PLLLV"
 	.byte	0x7
 	.uahalf	0x2ca
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5736,7 +5736,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OSCRES"
 	.byte	0x7
 	.uahalf	0x2cb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5745,7 +5745,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"GAINSEL"
 	.byte	0x7
 	.uahalf	0x2cc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1b
@@ -5754,7 +5754,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"MODE"
 	.byte	0x7
 	.uahalf	0x2cd
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x19
@@ -5763,7 +5763,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SHBY"
 	.byte	0x7
 	.uahalf	0x2ce
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5772,7 +5772,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PLLHV"
 	.byte	0x7
 	.uahalf	0x2cf
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5781,7 +5781,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x2d0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5790,7 +5790,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"X1D"
 	.byte	0x7
 	.uahalf	0x2d1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5799,7 +5799,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"X1DEN"
 	.byte	0x7
 	.uahalf	0x2d2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5808,7 +5808,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF24
 	.byte	0x7
 	.uahalf	0x2d3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -5817,7 +5817,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OSCVAL"
 	.byte	0x7
 	.uahalf	0x2d4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -5826,7 +5826,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF25
 	.byte	0x7
 	.uahalf	0x2d5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -5835,7 +5835,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"APREN"
 	.byte	0x7
 	.uahalf	0x2d6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5844,7 +5844,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CAP0EN"
 	.byte	0x7
 	.uahalf	0x2d7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -5853,7 +5853,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CAP1EN"
 	.byte	0x7
 	.uahalf	0x2d8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -5862,7 +5862,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CAP2EN"
 	.byte	0x7
 	.uahalf	0x2d9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -5871,7 +5871,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CAP3EN"
 	.byte	0x7
 	.uahalf	0x2da
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -5880,7 +5880,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x2db
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -5890,18 +5890,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_OSCCON_Bits"
 	.byte	0x7
 	.uahalf	0x2dc
-	.uaword	0x2aca
+	.uaword	0x2ab3
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OUT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2df
-	.uaword	0x2c9f
+	.uaword	0x2c88
 	.uleb128 0x10
 	.string	"P0"
 	.byte	0x7
 	.uahalf	0x2e1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5910,7 +5910,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"P1"
 	.byte	0x7
 	.uahalf	0x2e2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5919,7 +5919,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x2e3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -5929,18 +5929,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_OUT_Bits"
 	.byte	0x7
 	.uahalf	0x2e4
-	.uaword	0x2c55
+	.uaword	0x2c3e
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OVCCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2e7
-	.uaword	0x2d9d
+	.uaword	0x2d86
 	.uleb128 0x10
 	.string	"CSEL0"
 	.byte	0x7
 	.uahalf	0x2e9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5949,7 +5949,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CSEL1"
 	.byte	0x7
 	.uahalf	0x2ea
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5958,7 +5958,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CSEL2"
 	.byte	0x7
 	.uahalf	0x2eb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5967,7 +5967,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x2ec
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xd
 	.byte	0x10
@@ -5976,7 +5976,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OVSTRT"
 	.byte	0x7
 	.uahalf	0x2ed
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5985,7 +5985,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OVSTP"
 	.byte	0x7
 	.uahalf	0x2ee
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5994,7 +5994,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DCINVAL"
 	.byte	0x7
 	.uahalf	0x2ef
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6003,7 +6003,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF26
 	.byte	0x7
 	.uahalf	0x2f0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -6012,7 +6012,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OVCONF"
 	.byte	0x7
 	.uahalf	0x2f1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6021,7 +6021,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"POVCONF"
 	.byte	0x7
 	.uahalf	0x2f2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6030,7 +6030,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF10
 	.byte	0x7
 	.uahalf	0x2f3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -6040,18 +6040,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_OVCCON_Bits"
 	.byte	0x7
 	.uahalf	0x2f4
-	.uaword	0x2cb8
+	.uaword	0x2ca1
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OVCENABLE_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2f7
-	.uaword	0x2e21
+	.uaword	0x2e0a
 	.uleb128 0x10
 	.string	"OVEN0"
 	.byte	0x7
 	.uahalf	0x2f9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6060,7 +6060,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OVEN1"
 	.byte	0x7
 	.uahalf	0x2fa
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6069,7 +6069,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OVEN2"
 	.byte	0x7
 	.uahalf	0x2fb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6078,7 +6078,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x2fc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -6088,18 +6088,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_OVCENABLE_Bits"
 	.byte	0x7
 	.uahalf	0x2fd
-	.uaword	0x2db9
+	.uaword	0x2da2
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PDISC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x300
-	.uaword	0x2e92
+	.uaword	0x2e7b
 	.uleb128 0x10
 	.string	"PDIS0"
 	.byte	0x7
 	.uahalf	0x302
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6108,7 +6108,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDIS1"
 	.byte	0x7
 	.uahalf	0x303
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6117,7 +6117,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x304
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6127,18 +6127,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PDISC_Bits"
 	.byte	0x7
 	.uahalf	0x305
-	.uaword	0x2e40
+	.uaword	0x2e29
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PDR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x308
-	.uaword	0x2f19
+	.uaword	0x2f02
 	.uleb128 0x10
 	.string	"PD0"
 	.byte	0x7
 	.uahalf	0x30a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6147,7 +6147,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PL0"
 	.byte	0x7
 	.uahalf	0x30b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6156,7 +6156,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PD1"
 	.byte	0x7
 	.uahalf	0x30c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -6165,7 +6165,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PL1"
 	.byte	0x7
 	.uahalf	0x30d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6174,7 +6174,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x30e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -6184,18 +6184,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PDR_Bits"
 	.byte	0x7
 	.uahalf	0x30f
-	.uaword	0x2ead
+	.uaword	0x2e96
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PDRR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x312
-	.uaword	0x2fe7
+	.uaword	0x2fd0
 	.uleb128 0x10
 	.string	"PDR0"
 	.byte	0x7
 	.uahalf	0x314
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6204,7 +6204,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDR1"
 	.byte	0x7
 	.uahalf	0x315
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6213,7 +6213,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDR2"
 	.byte	0x7
 	.uahalf	0x316
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6222,7 +6222,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDR3"
 	.byte	0x7
 	.uahalf	0x317
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6231,7 +6231,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDR4"
 	.byte	0x7
 	.uahalf	0x318
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6240,7 +6240,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDR5"
 	.byte	0x7
 	.uahalf	0x319
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6249,7 +6249,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDR6"
 	.byte	0x7
 	.uahalf	0x31a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6258,7 +6258,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDR7"
 	.byte	0x7
 	.uahalf	0x31b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6267,7 +6267,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x31c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -6277,18 +6277,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PDRR_Bits"
 	.byte	0x7
 	.uahalf	0x31d
-	.uaword	0x2f32
+	.uaword	0x2f1b
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLCON0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x320
-	.uaword	0x3120
+	.uaword	0x3109
 	.uleb128 0x10
 	.string	"VCOBYP"
 	.byte	0x7
 	.uahalf	0x322
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6297,7 +6297,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"VCOPWD"
 	.byte	0x7
 	.uahalf	0x323
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6306,7 +6306,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"MODEN"
 	.byte	0x7
 	.uahalf	0x324
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6315,7 +6315,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x325
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6324,7 +6324,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF27
 	.byte	0x7
 	.uahalf	0x326
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6333,7 +6333,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF28
 	.byte	0x7
 	.uahalf	0x327
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6342,7 +6342,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF29
 	.byte	0x7
 	.uahalf	0x328
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6351,7 +6351,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x329
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -6360,7 +6360,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"NDIV"
 	.byte	0x7
 	.uahalf	0x32a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -6369,7 +6369,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PLLPWD"
 	.byte	0x7
 	.uahalf	0x32b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6378,7 +6378,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF23
 	.byte	0x7
 	.uahalf	0x32c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6387,7 +6387,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RESLD"
 	.byte	0x7
 	.uahalf	0x32d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6396,7 +6396,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF26
 	.byte	0x7
 	.uahalf	0x32e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -6405,7 +6405,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDIV"
 	.byte	0x7
 	.uahalf	0x32f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -6414,7 +6414,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x330
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6424,18 +6424,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PLLCON0_Bits"
 	.byte	0x7
 	.uahalf	0x331
-	.uaword	0x3001
+	.uaword	0x2fea
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLCON1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x334
-	.uaword	0x31c3
+	.uaword	0x31ac
 	.uleb128 0x10
 	.string	"K2DIV"
 	.byte	0x7
 	.uahalf	0x336
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -6444,7 +6444,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x337
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6453,7 +6453,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"K3DIV"
 	.byte	0x7
 	.uahalf	0x338
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -6462,7 +6462,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF14
 	.byte	0x7
 	.uahalf	0x339
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6471,7 +6471,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"K1DIV"
 	.byte	0x7
 	.uahalf	0x33a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x9
@@ -6480,7 +6480,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x33b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -6490,18 +6490,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PLLCON1_Bits"
 	.byte	0x7
 	.uahalf	0x33c
-	.uaword	0x313d
+	.uaword	0x3126
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLCON2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x33f
-	.uaword	0x3223
+	.uaword	0x320c
 	.uleb128 0x10
 	.string	"MODCFG"
 	.byte	0x7
 	.uahalf	0x341
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6510,7 +6510,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x342
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6520,18 +6520,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PLLCON2_Bits"
 	.byte	0x7
 	.uahalf	0x343
-	.uaword	0x31e0
+	.uaword	0x31c9
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLERAYCON0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x346
-	.uaword	0x3361
+	.uaword	0x334a
 	.uleb128 0x10
 	.string	"VCOBYP"
 	.byte	0x7
 	.uahalf	0x348
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6540,7 +6540,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"VCOPWD"
 	.byte	0x7
 	.uahalf	0x349
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6549,7 +6549,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x34a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -6558,7 +6558,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF27
 	.byte	0x7
 	.uahalf	0x34b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6567,7 +6567,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF28
 	.byte	0x7
 	.uahalf	0x34c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6576,7 +6576,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF29
 	.byte	0x7
 	.uahalf	0x34d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6585,7 +6585,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x34e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -6594,7 +6594,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"NDIV"
 	.byte	0x7
 	.uahalf	0x34f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x12
@@ -6603,7 +6603,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF20
 	.byte	0x7
 	.uahalf	0x350
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -6612,7 +6612,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PLLPWD"
 	.byte	0x7
 	.uahalf	0x351
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6621,7 +6621,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF23
 	.byte	0x7
 	.uahalf	0x352
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6630,7 +6630,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RESLD"
 	.byte	0x7
 	.uahalf	0x353
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6639,7 +6639,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF26
 	.byte	0x7
 	.uahalf	0x354
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -6648,7 +6648,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PDIV"
 	.byte	0x7
 	.uahalf	0x355
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -6657,7 +6657,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x356
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6667,18 +6667,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PLLERAYCON0_Bits"
 	.byte	0x7
 	.uahalf	0x357
-	.uaword	0x3240
+	.uaword	0x3229
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLERAYCON1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x35a
-	.uaword	0x340c
+	.uaword	0x33f5
 	.uleb128 0x10
 	.string	"K2DIV"
 	.byte	0x7
 	.uahalf	0x35c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -6687,7 +6687,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x35d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6696,7 +6696,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"K3DIV"
 	.byte	0x7
 	.uahalf	0x35e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6705,7 +6705,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF24
 	.byte	0x7
 	.uahalf	0x35f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6714,7 +6714,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"K1DIV"
 	.byte	0x7
 	.uahalf	0x360
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x9
@@ -6723,7 +6723,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x361
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -6733,18 +6733,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PLLERAYCON1_Bits"
 	.byte	0x7
 	.uahalf	0x362
-	.uaword	0x3382
+	.uaword	0x336b
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLERAYSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x365
-	.uaword	0x34d4
+	.uaword	0x34bd
 	.uleb128 0x10
 	.string	"VCOBYST"
 	.byte	0x7
 	.uahalf	0x367
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6753,7 +6753,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PWDSTAT"
 	.byte	0x7
 	.uahalf	0x368
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6762,7 +6762,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"VCOLOCK"
 	.byte	0x7
 	.uahalf	0x369
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6771,7 +6771,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FINDIS"
 	.byte	0x7
 	.uahalf	0x36a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6780,7 +6780,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"K1RDY"
 	.byte	0x7
 	.uahalf	0x36b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6789,7 +6789,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"K2RDY"
 	.byte	0x7
 	.uahalf	0x36c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6798,7 +6798,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF7
 	.byte	0x7
 	.uahalf	0x36d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -6808,18 +6808,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PLLERAYSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x36e
-	.uaword	0x342d
+	.uaword	0x3416
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x371
-	.uaword	0x35b7
+	.uaword	0x35a0
 	.uleb128 0x10
 	.string	"VCOBYST"
 	.byte	0x7
 	.uahalf	0x373
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6828,7 +6828,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x374
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6837,7 +6837,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"VCOLOCK"
 	.byte	0x7
 	.uahalf	0x375
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6846,7 +6846,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FINDIS"
 	.byte	0x7
 	.uahalf	0x376
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6855,7 +6855,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"K1RDY"
 	.byte	0x7
 	.uahalf	0x377
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6864,7 +6864,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"K2RDY"
 	.byte	0x7
 	.uahalf	0x378
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6873,7 +6873,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF7
 	.byte	0x7
 	.uahalf	0x379
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6882,7 +6882,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"MODRUN"
 	.byte	0x7
 	.uahalf	0x37a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6891,7 +6891,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x37b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -6901,18 +6901,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PLLSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x37c
-	.uaword	0x34f5
+	.uaword	0x34de
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMCSR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x37f
-	.uaword	0x3649
+	.uaword	0x3632
 	.uleb128 0x10
 	.string	"REQSLP"
 	.byte	0x7
 	.uahalf	0x381
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -6921,7 +6921,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SMUSLP"
 	.byte	0x7
 	.uahalf	0x382
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6930,7 +6930,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x383
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -6939,7 +6939,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PMST"
 	.byte	0x7
 	.uahalf	0x384
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -6948,7 +6948,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF21
 	.byte	0x7
 	.uahalf	0x385
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x15
 	.byte	0
@@ -6958,18 +6958,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PMCSR_Bits"
 	.byte	0x7
 	.uahalf	0x386
-	.uaword	0x35d4
+	.uaword	0x35bd
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMSWCR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x389
-	.uaword	0x3851
+	.uaword	0x383a
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x38b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6978,7 +6978,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF30
 	.byte	0x7
 	.uahalf	0x38c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6987,7 +6987,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF31
 	.byte	0x7
 	.uahalf	0x38d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6996,7 +6996,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF32
 	.byte	0x7
 	.uahalf	0x38e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7005,7 +7005,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR0DFEN"
 	.byte	0x7
 	.uahalf	0x38f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7014,7 +7014,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR0EDCON"
 	.byte	0x7
 	.uahalf	0x390
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x19
@@ -7023,7 +7023,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR1DFEN"
 	.byte	0x7
 	.uahalf	0x391
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7032,7 +7032,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR1EDCON"
 	.byte	0x7
 	.uahalf	0x392
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -7041,7 +7041,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINADFEN"
 	.byte	0x7
 	.uahalf	0x393
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7050,7 +7050,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINAEDCON"
 	.byte	0x7
 	.uahalf	0x394
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -7059,7 +7059,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINBDFEN"
 	.byte	0x7
 	.uahalf	0x395
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7068,7 +7068,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINBEDCON"
 	.byte	0x7
 	.uahalf	0x396
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -7077,7 +7077,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x397
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7086,7 +7086,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STBYRAMSEL"
 	.byte	0x7
 	.uahalf	0x398
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0xd
@@ -7095,7 +7095,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF26
 	.byte	0x7
 	.uahalf	0x399
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb
@@ -7104,7 +7104,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TRISTEN"
 	.byte	0x7
 	.uahalf	0x39a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7113,7 +7113,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TRISTREQ"
 	.byte	0x7
 	.uahalf	0x39b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7122,7 +7122,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PORSTDF"
 	.byte	0x7
 	.uahalf	0x39c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7131,7 +7131,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PWRWKEN"
 	.byte	0x7
 	.uahalf	0x39d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7140,7 +7140,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DCDCSYNC"
 	.byte	0x7
 	.uahalf	0x39e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7149,7 +7149,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BLNKFIL"
 	.byte	0x7
 	.uahalf	0x39f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x3
@@ -7158,7 +7158,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF33
 	.byte	0x7
 	.uahalf	0x3a0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7167,7 +7167,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF19
 	.byte	0x7
 	.uahalf	0x3a1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7176,7 +7176,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x3a2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7186,18 +7186,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PMSWCR0_Bits"
 	.byte	0x7
 	.uahalf	0x3a3
-	.uaword	0x3664
+	.uaword	0x364d
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMSWCR1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3a6
-	.uaword	0x393a
+	.uaword	0x3923
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x3a8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -7206,7 +7206,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CPUIDLSEL"
 	.byte	0x7
 	.uahalf	0x3a9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7215,7 +7215,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF21
 	.byte	0x7
 	.uahalf	0x3aa
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7224,7 +7224,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IRADIS"
 	.byte	0x7
 	.uahalf	0x3ab
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7233,7 +7233,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"reserved_13"
 	.byte	0x7
 	.uahalf	0x3ac
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xb
 	.byte	0x8
@@ -7242,7 +7242,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CPUSEL"
 	.byte	0x7
 	.uahalf	0x3ad
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -7251,7 +7251,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STBYEVEN"
 	.byte	0x7
 	.uahalf	0x3ae
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7260,7 +7260,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STBYEV"
 	.byte	0x7
 	.uahalf	0x3af
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -7269,7 +7269,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x3b0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7279,18 +7279,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PMSWCR1_Bits"
 	.byte	0x7
 	.uahalf	0x3b1
-	.uaword	0x386e
+	.uaword	0x3857
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMSWSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3b4
-	.uaword	0x3af0
+	.uaword	0x3ad9
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x3b6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -7299,7 +7299,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR1WKP"
 	.byte	0x7
 	.uahalf	0x3b7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7308,7 +7308,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR1OVRUN"
 	.byte	0x7
 	.uahalf	0x3b8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7317,7 +7317,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINAWKP"
 	.byte	0x7
 	.uahalf	0x3b9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7326,7 +7326,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINAOVRUN"
 	.byte	0x7
 	.uahalf	0x3ba
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7335,7 +7335,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINBWKP"
 	.byte	0x7
 	.uahalf	0x3bb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7344,7 +7344,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINBOVRUN"
 	.byte	0x7
 	.uahalf	0x3bc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7353,7 +7353,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PWRWKP"
 	.byte	0x7
 	.uahalf	0x3bd
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7362,7 +7362,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PORSTDF"
 	.byte	0x7
 	.uahalf	0x3be
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7371,7 +7371,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"HWCFGEVR"
 	.byte	0x7
 	.uahalf	0x3bf
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x13
@@ -7380,7 +7380,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STBYRAM"
 	.byte	0x7
 	.uahalf	0x3c0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -7389,7 +7389,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TRIST"
 	.byte	0x7
 	.uahalf	0x3c1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7398,7 +7398,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x3c2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -7407,7 +7407,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF30
 	.byte	0x7
 	.uahalf	0x3c3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7416,7 +7416,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF31
 	.byte	0x7
 	.uahalf	0x3c4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7425,7 +7425,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF32
 	.byte	0x7
 	.uahalf	0x3c5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7434,7 +7434,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PWRWKEN"
 	.byte	0x7
 	.uahalf	0x3c6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7443,7 +7443,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"BLNKFIL"
 	.byte	0x7
 	.uahalf	0x3c7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -7452,7 +7452,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF33
 	.byte	0x7
 	.uahalf	0x3c8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7461,7 +7461,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x3c9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -7471,18 +7471,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PMSWSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x3ca
-	.uaword	0x3957
+	.uaword	0x3940
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMSWSTATCLR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3cd
-	.uaword	0x3bf8
+	.uaword	0x3be1
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x3cf
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -7491,7 +7491,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR1WKPCLR"
 	.byte	0x7
 	.uahalf	0x3d0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7500,7 +7500,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR1OVRUNCLR"
 	.byte	0x7
 	.uahalf	0x3d1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7509,7 +7509,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINAWKPCLR"
 	.byte	0x7
 	.uahalf	0x3d2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7518,7 +7518,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINAOVRUNCLR"
 	.byte	0x7
 	.uahalf	0x3d3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7527,7 +7527,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINBWKPCLR"
 	.byte	0x7
 	.uahalf	0x3d4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7536,7 +7536,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PINBOVRUNCLR"
 	.byte	0x7
 	.uahalf	0x3d5
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7545,7 +7545,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PWRWKPCLR"
 	.byte	0x7
 	.uahalf	0x3d6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7554,7 +7554,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x3d7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -7564,18 +7564,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_PMSWSTATCLR_Bits"
 	.byte	0x7
 	.uahalf	0x3d8
-	.uaword	0x3b0e
+	.uaword	0x3af7
 	.uleb128 0xe
 	.string	"_Ifx_SCU_RSTCON2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3db
-	.uaword	0x3cc1
+	.uaword	0x3caa
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x3dd
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7584,7 +7584,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CLRC"
 	.byte	0x7
 	.uahalf	0x3de
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7593,7 +7593,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x3df
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0xa
 	.byte	0x14
@@ -7602,7 +7602,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CSS0"
 	.byte	0x7
 	.uahalf	0x3e0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7611,7 +7611,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CSS1"
 	.byte	0x7
 	.uahalf	0x3e1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7620,7 +7620,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CSS2"
 	.byte	0x7
 	.uahalf	0x3e2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7629,7 +7629,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF14
 	.byte	0x7
 	.uahalf	0x3e3
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7638,7 +7638,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"USRINFO"
 	.byte	0x7
 	.uahalf	0x3e4
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7648,18 +7648,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_RSTCON2_Bits"
 	.byte	0x7
 	.uahalf	0x3e5
-	.uaword	0x3c19
+	.uaword	0x3c02
 	.uleb128 0xe
 	.string	"_Ifx_SCU_RSTCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3e8
-	.uaword	0x3d91
+	.uaword	0x3d7a
 	.uleb128 0x10
 	.string	"ESR0"
 	.byte	0x7
 	.uahalf	0x3ea
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -7668,7 +7668,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR1"
 	.byte	0x7
 	.uahalf	0x3eb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -7677,7 +7677,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x3ec
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -7686,7 +7686,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SMU"
 	.byte	0x7
 	.uahalf	0x3ed
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -7695,7 +7695,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SW"
 	.byte	0x7
 	.uahalf	0x3ee
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -7704,7 +7704,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STM0"
 	.byte	0x7
 	.uahalf	0x3ef
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -7713,7 +7713,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STM1"
 	.byte	0x7
 	.uahalf	0x3f0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -7722,7 +7722,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STM2"
 	.byte	0x7
 	.uahalf	0x3f1
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -7731,7 +7731,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x3f2
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7741,18 +7741,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_RSTCON_Bits"
 	.byte	0x7
 	.uahalf	0x3f3
-	.uaword	0x3cde
+	.uaword	0x3cc7
 	.uleb128 0xe
 	.string	"_Ifx_SCU_RSTSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3f6
-	.uaword	0x3f31
+	.uaword	0x3f1a
 	.uleb128 0x10
 	.string	"ESR0"
 	.byte	0x7
 	.uahalf	0x3f8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7761,7 +7761,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"ESR1"
 	.byte	0x7
 	.uahalf	0x3f9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7770,7 +7770,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x3fa
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7779,7 +7779,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SMU"
 	.byte	0x7
 	.uahalf	0x3fb
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7788,7 +7788,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SW"
 	.byte	0x7
 	.uahalf	0x3fc
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7797,7 +7797,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STM0"
 	.byte	0x7
 	.uahalf	0x3fd
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7806,7 +7806,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STM1"
 	.byte	0x7
 	.uahalf	0x3fe
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7815,7 +7815,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STM2"
 	.byte	0x7
 	.uahalf	0x3ff
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7824,7 +7824,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x400
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -7833,7 +7833,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PORST"
 	.byte	0x7
 	.uahalf	0x401
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7842,7 +7842,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF23
 	.byte	0x7
 	.uahalf	0x402
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7851,7 +7851,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CB0"
 	.byte	0x7
 	.uahalf	0x403
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7860,7 +7860,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CB1"
 	.byte	0x7
 	.uahalf	0x404
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7869,7 +7869,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"CB3"
 	.byte	0x7
 	.uahalf	0x405
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7878,7 +7878,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF25
 	.byte	0x7
 	.uahalf	0x406
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -7887,7 +7887,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR13"
 	.byte	0x7
 	.uahalf	0x407
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7896,7 +7896,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"EVR33"
 	.byte	0x7
 	.uahalf	0x408
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7905,7 +7905,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SWD"
 	.byte	0x7
 	.uahalf	0x409
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7914,7 +7914,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF10
 	.byte	0x7
 	.uahalf	0x40a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -7923,7 +7923,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"STBYR"
 	.byte	0x7
 	.uahalf	0x40b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7932,7 +7932,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"reserved_29"
 	.byte	0x7
 	.uahalf	0x40c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -7942,18 +7942,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_RSTSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x40d
-	.uaword	0x3dad
+	.uaword	0x3d96
 	.uleb128 0xe
 	.string	"_Ifx_SCU_SAFECON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x410
-	.uaword	0x3f8e
+	.uaword	0x3f77
 	.uleb128 0x10
 	.string	"HBT"
 	.byte	0x7
 	.uahalf	0x412
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7962,7 +7962,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x413
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -7972,18 +7972,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_SAFECON_Bits"
 	.byte	0x7
 	.uahalf	0x414
-	.uaword	0x3f4e
+	.uaword	0x3f37
 	.uleb128 0xe
 	.string	"_Ifx_SCU_STSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x417
-	.uaword	0x4090
+	.uaword	0x4079
 	.uleb128 0x10
 	.string	"HWCFG"
 	.byte	0x7
 	.uahalf	0x419
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -7992,7 +7992,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FTM"
 	.byte	0x7
 	.uahalf	0x41a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -8001,7 +8001,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"MODE"
 	.byte	0x7
 	.uahalf	0x41b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8010,7 +8010,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"FCBAE"
 	.byte	0x7
 	.uahalf	0x41c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8019,7 +8019,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LUDIS"
 	.byte	0x7
 	.uahalf	0x41d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8028,7 +8028,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x41e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8037,7 +8037,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TRSTL"
 	.byte	0x7
 	.uahalf	0x41f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8046,7 +8046,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SPDEN"
 	.byte	0x7
 	.uahalf	0x420
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8055,7 +8055,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF25
 	.byte	0x7
 	.uahalf	0x421
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -8064,7 +8064,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RAMINT"
 	.byte	0x7
 	.uahalf	0x422
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8073,7 +8073,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"reserved_25"
 	.byte	0x7
 	.uahalf	0x423
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -8083,18 +8083,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_STSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x424
-	.uaword	0x3fab
+	.uaword	0x3f94
 	.uleb128 0xe
 	.string	"_Ifx_SCU_SWRSTCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x427
-	.uaword	0x4102
+	.uaword	0x40eb
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x429
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8103,7 +8103,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SWRSTREQ"
 	.byte	0x7
 	.uahalf	0x42a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8112,7 +8112,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x42b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -8122,18 +8122,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_SWRSTCON_Bits"
 	.byte	0x7
 	.uahalf	0x42c
-	.uaword	0x40ac
+	.uaword	0x4095
 	.uleb128 0xe
 	.string	"_Ifx_SCU_SYSCON_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x42f
-	.uaword	0x41c4
+	.uaword	0x41ad
 	.uleb128 0x10
 	.string	"CCTRIG0"
 	.byte	0x7
 	.uahalf	0x431
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8142,7 +8142,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x432
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8151,7 +8151,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"RAMINTM"
 	.byte	0x7
 	.uahalf	0x433
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -8160,7 +8160,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SETLUDIS"
 	.byte	0x7
 	.uahalf	0x434
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8169,7 +8169,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"reserved_5"
 	.byte	0x7
 	.uahalf	0x435
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -8178,7 +8178,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DATM"
 	.byte	0x7
 	.uahalf	0x436
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8187,7 +8187,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x437
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -8197,18 +8197,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_SYSCON_Bits"
 	.byte	0x7
 	.uahalf	0x438
-	.uaword	0x4120
+	.uaword	0x4109
 	.uleb128 0xe
 	.string	"_Ifx_SCU_TRAPCLR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x43b
-	.uaword	0x4251
+	.uaword	0x423a
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x7
 	.uahalf	0x43d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8217,7 +8217,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF35
 	.byte	0x7
 	.uahalf	0x43e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8226,7 +8226,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x43f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8235,7 +8235,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SMUT"
 	.byte	0x7
 	.uahalf	0x440
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8244,7 +8244,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x441
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -8254,18 +8254,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_TRAPCLR_Bits"
 	.byte	0x7
 	.uahalf	0x442
-	.uaword	0x41e0
+	.uaword	0x41c9
 	.uleb128 0xe
 	.string	"_Ifx_SCU_TRAPDIS_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x445
-	.uaword	0x42df
+	.uaword	0x42c8
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x7
 	.uahalf	0x447
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8274,7 +8274,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF35
 	.byte	0x7
 	.uahalf	0x448
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8283,7 +8283,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x449
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8292,7 +8292,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SMUT"
 	.byte	0x7
 	.uahalf	0x44a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8301,7 +8301,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x44b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -8311,18 +8311,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_TRAPDIS_Bits"
 	.byte	0x7
 	.uahalf	0x44c
-	.uaword	0x426e
+	.uaword	0x4257
 	.uleb128 0xe
 	.string	"_Ifx_SCU_TRAPSET_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x44f
-	.uaword	0x436d
+	.uaword	0x4356
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x7
 	.uahalf	0x451
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8331,7 +8331,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF35
 	.byte	0x7
 	.uahalf	0x452
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8340,7 +8340,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x453
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8349,7 +8349,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SMUT"
 	.byte	0x7
 	.uahalf	0x454
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8358,7 +8358,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x455
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -8368,18 +8368,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_TRAPSET_Bits"
 	.byte	0x7
 	.uahalf	0x456
-	.uaword	0x42fc
+	.uaword	0x42e5
 	.uleb128 0xe
 	.string	"_Ifx_SCU_TRAPSTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x459
-	.uaword	0x43fc
+	.uaword	0x43e5
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x7
 	.uahalf	0x45b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8388,7 +8388,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF35
 	.byte	0x7
 	.uahalf	0x45c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8397,7 +8397,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x45d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8406,7 +8406,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"SMUT"
 	.byte	0x7
 	.uahalf	0x45e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8415,7 +8415,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x45f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -8425,18 +8425,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_TRAPSTAT_Bits"
 	.byte	0x7
 	.uahalf	0x460
-	.uaword	0x438a
+	.uaword	0x4373
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTCPU_CON0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x463
-	.uaword	0x4481
+	.uaword	0x446a
 	.uleb128 0x10
 	.string	"ENDINIT"
 	.byte	0x7
 	.uahalf	0x465
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8445,7 +8445,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x466
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8454,7 +8454,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PW"
 	.byte	0x7
 	.uahalf	0x467
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -8463,30 +8463,30 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"REL"
 	.byte	0x7
 	.uahalf	0x468
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x11
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTCPU_CON0_Bits"
 	.byte	0x7
 	.uahalf	0x469
-	.uaword	0x441a
+	.uaword	0x4403
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTCPU_CON1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x46c
-	.uaword	0x456a
+	.uaword	0x4553
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x46e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -8495,7 +8495,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IR0"
 	.byte	0x7
 	.uahalf	0x46f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8504,7 +8504,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DR"
 	.byte	0x7
 	.uahalf	0x470
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8513,7 +8513,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x471
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8522,7 +8522,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IR1"
 	.byte	0x7
 	.uahalf	0x472
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8531,7 +8531,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UR"
 	.byte	0x7
 	.uahalf	0x473
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8540,7 +8540,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PAR"
 	.byte	0x7
 	.uahalf	0x474
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8549,7 +8549,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TCR"
 	.byte	0x7
 	.uahalf	0x475
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8558,7 +8558,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TCTR"
 	.byte	0x7
 	.uahalf	0x476
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -8567,7 +8567,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x477
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8577,18 +8577,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_WDTCPU_CON1_Bits"
 	.byte	0x7
 	.uahalf	0x478
-	.uaword	0x44a7
+	.uaword	0x4490
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTCPU_SR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x47b
-	.uaword	0x4658
+	.uaword	0x4641
 	.uleb128 0x10
 	.string	"AE"
 	.byte	0x7
 	.uahalf	0x47d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8597,7 +8597,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OE"
 	.byte	0x7
 	.uahalf	0x47e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8606,7 +8606,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IS0"
 	.byte	0x7
 	.uahalf	0x47f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8615,7 +8615,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DS"
 	.byte	0x7
 	.uahalf	0x480
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8624,7 +8624,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TO"
 	.byte	0x7
 	.uahalf	0x481
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8633,7 +8633,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IS1"
 	.byte	0x7
 	.uahalf	0x482
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8642,7 +8642,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"US"
 	.byte	0x7
 	.uahalf	0x483
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8651,7 +8651,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PAS"
 	.byte	0x7
 	.uahalf	0x484
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8660,7 +8660,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TCS"
 	.byte	0x7
 	.uahalf	0x485
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8669,7 +8669,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TCT"
 	.byte	0x7
 	.uahalf	0x486
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -8678,7 +8678,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TIM"
 	.byte	0x7
 	.uahalf	0x487
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8688,18 +8688,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_WDTCPU_SR_Bits"
 	.byte	0x7
 	.uahalf	0x488
-	.uaword	0x458b
+	.uaword	0x4574
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTS_CON0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x48b
-	.uaword	0x46dc
+	.uaword	0x46c5
 	.uleb128 0x10
 	.string	"ENDINIT"
 	.byte	0x7
 	.uahalf	0x48d
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8708,7 +8708,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x48e
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8717,7 +8717,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PW"
 	.byte	0x7
 	.uahalf	0x48f
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -8726,7 +8726,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"REL"
 	.byte	0x7
 	.uahalf	0x490
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8736,18 +8736,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_WDTS_CON0_Bits"
 	.byte	0x7
 	.uahalf	0x491
-	.uaword	0x4677
+	.uaword	0x4660
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTS_CON1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x494
-	.uaword	0x47cf
+	.uaword	0x47b8
 	.uleb128 0x10
 	.string	"CLRIRF"
 	.byte	0x7
 	.uahalf	0x496
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8756,7 +8756,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x497
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8765,7 +8765,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IR0"
 	.byte	0x7
 	.uahalf	0x498
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8774,7 +8774,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DR"
 	.byte	0x7
 	.uahalf	0x499
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8783,7 +8783,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x49a
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8792,7 +8792,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IR1"
 	.byte	0x7
 	.uahalf	0x49b
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8801,7 +8801,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"UR"
 	.byte	0x7
 	.uahalf	0x49c
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8810,7 +8810,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PAR"
 	.byte	0x7
 	.uahalf	0x49d
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8819,7 +8819,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TCR"
 	.byte	0x7
 	.uahalf	0x49e
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8828,7 +8828,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TCTR"
 	.byte	0x7
 	.uahalf	0x49f
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -8837,7 +8837,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x4a0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8847,18 +8847,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_WDTS_CON1_Bits"
 	.byte	0x7
 	.uahalf	0x4a1
-	.uaword	0x46fb
+	.uaword	0x46e4
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTS_SR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4a4
-	.uaword	0x48b9
+	.uaword	0x48a2
 	.uleb128 0x10
 	.string	"AE"
 	.byte	0x7
 	.uahalf	0x4a6
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8867,7 +8867,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"OE"
 	.byte	0x7
 	.uahalf	0x4a7
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8876,7 +8876,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IS0"
 	.byte	0x7
 	.uahalf	0x4a8
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8885,7 +8885,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"DS"
 	.byte	0x7
 	.uahalf	0x4a9
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8894,7 +8894,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TO"
 	.byte	0x7
 	.uahalf	0x4aa
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8903,7 +8903,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IS1"
 	.byte	0x7
 	.uahalf	0x4ab
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8912,7 +8912,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"US"
 	.byte	0x7
 	.uahalf	0x4ac
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8921,7 +8921,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"PAS"
 	.byte	0x7
 	.uahalf	0x4ad
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8930,7 +8930,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TCS"
 	.byte	0x7
 	.uahalf	0x4ae
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8939,7 +8939,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TCT"
 	.byte	0x7
 	.uahalf	0x4af
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -8948,7 +8948,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"TIM"
 	.byte	0x7
 	.uahalf	0x4b0
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8958,3105 +8958,3105 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_SCU_WDTS_SR_Bits"
 	.byte	0x7
 	.uahalf	0x4b1
-	.uaword	0x47ee
+	.uaword	0x47d7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4b9
-	.uaword	0x48fe
+	.uaword	0x48e7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4bb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4bc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4bd
-	.uaword	0x55d
+	.uaword	0x546
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_ACCEN0"
 	.byte	0x7
 	.uahalf	0x4be
-	.uaword	0x48d6
+	.uaword	0x48bf
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4c1
-	.uaword	0x493d
+	.uaword	0x4926
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4c3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4c4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4c5
-	.uaword	0x5a5
+	.uaword	0x58e
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_ACCEN1"
 	.byte	0x7
 	.uahalf	0x4c6
-	.uaword	0x4915
+	.uaword	0x48fe
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4c9
-	.uaword	0x497c
+	.uaword	0x4965
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4cb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4cc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4cd
-	.uaword	0x627
+	.uaword	0x610
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_ARSTDIS"
 	.byte	0x7
 	.uahalf	0x4ce
-	.uaword	0x4954
+	.uaword	0x493d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4d1
-	.uaword	0x49bc
+	.uaword	0x49a5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4d3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4d4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4d5
-	.uaword	0x737
+	.uaword	0x720
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON0"
 	.byte	0x7
 	.uahalf	0x4d6
-	.uaword	0x4994
+	.uaword	0x497d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4d9
-	.uaword	0x49fc
+	.uaword	0x49e5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4db
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4dc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4dd
-	.uaword	0x827
+	.uaword	0x810
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON1"
 	.byte	0x7
 	.uahalf	0x4de
-	.uaword	0x49d4
+	.uaword	0x49bd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4e1
-	.uaword	0x4a3c
+	.uaword	0x4a25
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4e3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4e4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4e5
-	.uaword	0x8a0
+	.uaword	0x889
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON2"
 	.byte	0x7
 	.uahalf	0x4e6
-	.uaword	0x4a14
+	.uaword	0x49fd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4e9
-	.uaword	0x4a7c
+	.uaword	0x4a65
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4eb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4ec
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4ed
-	.uaword	0x98a
+	.uaword	0x973
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON3"
 	.byte	0x7
 	.uahalf	0x4ee
-	.uaword	0x4a54
+	.uaword	0x4a3d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4f1
-	.uaword	0x4abc
+	.uaword	0x4aa5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4f3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4f4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4f5
-	.uaword	0xa6c
+	.uaword	0xa55
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON4"
 	.byte	0x7
 	.uahalf	0x4f6
-	.uaword	0x4a94
+	.uaword	0x4a7d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x4f9
-	.uaword	0x4afc
+	.uaword	0x4ae5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x4fb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x4fc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x4fd
-	.uaword	0xaf7
+	.uaword	0xae0
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON5"
 	.byte	0x7
 	.uahalf	0x4fe
-	.uaword	0x4ad4
+	.uaword	0x4abd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x501
-	.uaword	0x4b3c
+	.uaword	0x4b25
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x503
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x504
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x505
-	.uaword	0xb54
+	.uaword	0xb3d
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON6"
 	.byte	0x7
 	.uahalf	0x506
-	.uaword	0x4b14
+	.uaword	0x4afd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x509
-	.uaword	0x4b7c
+	.uaword	0x4b65
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x50b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x50c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x50d
-	.uaword	0xbb1
+	.uaword	0xb9a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON7"
 	.byte	0x7
 	.uahalf	0x50e
-	.uaword	0x4b54
+	.uaword	0x4b3d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x511
-	.uaword	0x4bbc
+	.uaword	0x4ba5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x513
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x514
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x515
-	.uaword	0xc0e
+	.uaword	0xbf7
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON8"
 	.byte	0x7
 	.uahalf	0x516
-	.uaword	0x4b94
+	.uaword	0x4b7d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x519
-	.uaword	0x4bfc
+	.uaword	0x4be5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x51b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x51c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x51d
-	.uaword	0xca8
+	.uaword	0xc91
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CCUCON9"
 	.byte	0x7
 	.uahalf	0x51e
-	.uaword	0x4bd4
+	.uaword	0x4bbd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x521
-	.uaword	0x4c3c
+	.uaword	0x4c25
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x523
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x524
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x525
-	.uaword	0xd71
+	.uaword	0xd5a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_CHIPID"
 	.byte	0x7
 	.uahalf	0x526
-	.uaword	0x4c14
+	.uaword	0x4bfd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x529
-	.uaword	0x4c7b
+	.uaword	0x4c64
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x52b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x52c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x52d
-	.uaword	0xe06
+	.uaword	0xdef
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_DTSCON"
 	.byte	0x7
 	.uahalf	0x52e
-	.uaword	0x4c53
+	.uaword	0x4c3c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x531
-	.uaword	0x4cba
+	.uaword	0x4ca3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x533
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x534
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x535
-	.uaword	0xeac
+	.uaword	0xe95
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_DTSLIM"
 	.byte	0x7
 	.uahalf	0x536
-	.uaword	0x4c92
+	.uaword	0x4c7b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x539
-	.uaword	0x4cf9
+	.uaword	0x4ce2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x53b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x53c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x53d
-	.uaword	0xf35
+	.uaword	0xf1e
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_DTSSTAT"
 	.byte	0x7
 	.uahalf	0x53e
-	.uaword	0x4cd1
+	.uaword	0x4cba
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x541
-	.uaword	0x4d39
+	.uaword	0x4d22
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x543
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x544
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x545
-	.uaword	0x1090
+	.uaword	0x1079
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EICR"
 	.byte	0x7
 	.uahalf	0x546
-	.uaword	0x4d11
+	.uaword	0x4cfa
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x549
-	.uaword	0x4d76
+	.uaword	0x4d5f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x54b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x54c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x54d
-	.uaword	0x1167
+	.uaword	0x1150
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EIFR"
 	.byte	0x7
 	.uahalf	0x54e
-	.uaword	0x4d4e
+	.uaword	0x4d37
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x551
-	.uaword	0x4db3
+	.uaword	0x4d9c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x553
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x554
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x555
-	.uaword	0x1259
+	.uaword	0x1242
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EMSR"
 	.byte	0x7
 	.uahalf	0x556
-	.uaword	0x4d8b
+	.uaword	0x4d74
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x559
-	.uaword	0x4df0
+	.uaword	0x4dd9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x55b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x55c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x55d
-	.uaword	0x12c4
+	.uaword	0x12ad
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_ESRCFG"
 	.byte	0x7
 	.uahalf	0x55e
-	.uaword	0x4dc8
+	.uaword	0x4db1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x561
-	.uaword	0x4e2f
+	.uaword	0x4e18
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x563
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x564
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x565
-	.uaword	0x1330
+	.uaword	0x1319
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_ESROCFG"
 	.byte	0x7
 	.uahalf	0x566
-	.uaword	0x4e07
+	.uaword	0x4df0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x569
-	.uaword	0x4e6f
+	.uaword	0x4e58
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x56b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x56c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x56d
-	.uaword	0x13ca
+	.uaword	0x13b3
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVR13CON"
 	.byte	0x7
 	.uahalf	0x56e
-	.uaword	0x4e47
+	.uaword	0x4e30
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x571
-	.uaword	0x4eb0
+	.uaword	0x4e99
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x573
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x574
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x575
-	.uaword	0x1465
+	.uaword	0x144e
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVR33CON"
 	.byte	0x7
 	.uahalf	0x576
-	.uaword	0x4e88
+	.uaword	0x4e71
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x579
-	.uaword	0x4ef1
+	.uaword	0x4eda
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x57b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x57c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x57d
-	.uaword	0x1500
+	.uaword	0x14e9
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRADCSTAT"
 	.byte	0x7
 	.uahalf	0x57e
-	.uaword	0x4ec9
+	.uaword	0x4eb2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x581
-	.uaword	0x4f34
+	.uaword	0x4f1d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x583
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x584
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x585
-	.uaword	0x159e
+	.uaword	0x1587
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRDVSTAT"
 	.byte	0x7
 	.uahalf	0x586
-	.uaword	0x4f0c
+	.uaword	0x4ef5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x589
-	.uaword	0x4f76
+	.uaword	0x4f5f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x58b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x58c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x58d
-	.uaword	0x16e6
+	.uaword	0x16cf
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRMONCTRL"
 	.byte	0x7
 	.uahalf	0x58e
-	.uaword	0x4f4e
+	.uaword	0x4f37
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x591
-	.uaword	0x4fb9
+	.uaword	0x4fa2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x593
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x594
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x595
-	.uaword	0x179a
+	.uaword	0x1783
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVROVMON"
 	.byte	0x7
 	.uahalf	0x596
-	.uaword	0x4f91
+	.uaword	0x4f7a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x599
-	.uaword	0x4ffa
+	.uaword	0x4fe3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x59b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x59c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x59d
-	.uaword	0x18a6
+	.uaword	0x188f
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRRSTCON"
 	.byte	0x7
 	.uahalf	0x59e
-	.uaword	0x4fd2
+	.uaword	0x4fbb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5a1
-	.uaword	0x503c
+	.uaword	0x5025
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5a3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5a4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5a5
-	.uaword	0x193c
+	.uaword	0x1925
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCOEFF1"
 	.byte	0x7
 	.uahalf	0x5a6
-	.uaword	0x5014
+	.uaword	0x4ffd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5a9
-	.uaword	0x5080
+	.uaword	0x5069
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5ab
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5ac
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5ad
-	.uaword	0x19d7
+	.uaword	0x19c0
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCOEFF2"
 	.byte	0x7
 	.uahalf	0x5ae
-	.uaword	0x5058
+	.uaword	0x5041
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5b1
-	.uaword	0x50c4
+	.uaword	0x50ad
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5b3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5b4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5b5
-	.uaword	0x1a78
+	.uaword	0x1a61
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCOEFF3"
 	.byte	0x7
 	.uahalf	0x5b6
-	.uaword	0x509c
+	.uaword	0x5085
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5b9
-	.uaword	0x5108
+	.uaword	0x50f1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5bb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5bc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5bd
-	.uaword	0x1b05
+	.uaword	0x1aee
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCOEFF4"
 	.byte	0x7
 	.uahalf	0x5be
-	.uaword	0x50e0
+	.uaword	0x50c9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5c1
-	.uaword	0x514c
+	.uaword	0x5135
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5c3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5c4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5c5
-	.uaword	0x1ba9
+	.uaword	0x1b92
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCOEFF5"
 	.byte	0x7
 	.uahalf	0x5c6
-	.uaword	0x5124
+	.uaword	0x510d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5c9
-	.uaword	0x5190
+	.uaword	0x5179
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5cb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5cc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5cd
-	.uaword	0x1c38
+	.uaword	0x1c21
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCOEFF6"
 	.byte	0x7
 	.uahalf	0x5ce
-	.uaword	0x5168
+	.uaword	0x5151
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5d1
-	.uaword	0x51d4
+	.uaword	0x51bd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5d3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5d4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5d5
-	.uaword	0x1cee
+	.uaword	0x1cd7
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCTRL1"
 	.byte	0x7
 	.uahalf	0x5d6
-	.uaword	0x51ac
+	.uaword	0x5195
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5d9
-	.uaword	0x5217
+	.uaword	0x5200
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5db
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5dc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5dd
-	.uaword	0x1d9c
+	.uaword	0x1d85
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCTRL2"
 	.byte	0x7
 	.uahalf	0x5de
-	.uaword	0x51ef
+	.uaword	0x51d8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5e1
-	.uaword	0x525a
+	.uaword	0x5243
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5e3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5e4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5e5
-	.uaword	0x1e3b
+	.uaword	0x1e24
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCTRL3"
 	.byte	0x7
 	.uahalf	0x5e6
-	.uaword	0x5232
+	.uaword	0x521b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5e9
-	.uaword	0x529d
+	.uaword	0x5286
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5eb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5ec
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5ed
-	.uaword	0x1ec2
+	.uaword	0x1eab
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSDCTRL4"
 	.byte	0x7
 	.uahalf	0x5ee
-	.uaword	0x5275
+	.uaword	0x525e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5f1
-	.uaword	0x52e0
+	.uaword	0x52c9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5f3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5f4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5f5
-	.uaword	0x1fdd
+	.uaword	0x1fc6
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRSTAT"
 	.byte	0x7
 	.uahalf	0x5f6
-	.uaword	0x52b8
+	.uaword	0x52a1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x5f9
-	.uaword	0x5320
+	.uaword	0x5309
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x5fb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x5fc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x5fd
-	.uaword	0x2076
+	.uaword	0x205f
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRTRIM"
 	.byte	0x7
 	.uahalf	0x5fe
-	.uaword	0x52f8
+	.uaword	0x52e1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x601
-	.uaword	0x5360
+	.uaword	0x5349
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x603
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x604
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x605
-	.uaword	0x2127
+	.uaword	0x2110
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EVRUVMON"
 	.byte	0x7
 	.uahalf	0x606
-	.uaword	0x5338
+	.uaword	0x5321
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x609
-	.uaword	0x53a1
+	.uaword	0x538a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x60b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x60c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x60d
-	.uaword	0x21f8
+	.uaword	0x21e1
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_EXTCON"
 	.byte	0x7
 	.uahalf	0x60e
-	.uaword	0x5379
+	.uaword	0x5362
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x611
-	.uaword	0x53e0
+	.uaword	0x53c9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x613
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x614
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x615
-	.uaword	0x2296
+	.uaword	0x227f
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_FDR"
 	.byte	0x7
 	.uahalf	0x616
-	.uaword	0x53b8
+	.uaword	0x53a1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x619
-	.uaword	0x541c
+	.uaword	0x5405
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x61b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x61c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x61d
-	.uaword	0x23eb
+	.uaword	0x23d4
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_FMR"
 	.byte	0x7
 	.uahalf	0x61e
-	.uaword	0x53f4
+	.uaword	0x53dd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x621
-	.uaword	0x5458
+	.uaword	0x5441
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x623
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x624
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x625
-	.uaword	0x245c
+	.uaword	0x2445
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_ID"
 	.byte	0x7
 	.uahalf	0x626
-	.uaword	0x5430
+	.uaword	0x5419
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x629
-	.uaword	0x5493
+	.uaword	0x547c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x62b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x62c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x62d
-	.uaword	0x2627
+	.uaword	0x2610
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_IGCR"
 	.byte	0x7
 	.uahalf	0x62e
-	.uaword	0x546b
+	.uaword	0x5454
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x631
-	.uaword	0x54d0
+	.uaword	0x54b9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x633
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x634
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x635
-	.uaword	0x268a
+	.uaword	0x2673
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_IN"
 	.byte	0x7
 	.uahalf	0x636
-	.uaword	0x54a8
+	.uaword	0x5491
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x639
-	.uaword	0x550b
+	.uaword	0x54f4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x63b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x63c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x63d
-	.uaword	0x270f
+	.uaword	0x26f8
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_IOCR"
 	.byte	0x7
 	.uahalf	0x63e
-	.uaword	0x54e3
+	.uaword	0x54cc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x641
-	.uaword	0x5548
+	.uaword	0x5531
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x643
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x644
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x645
-	.uaword	0x279c
+	.uaword	0x2785
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_LBISTCTRL0"
 	.byte	0x7
 	.uahalf	0x646
-	.uaword	0x5520
+	.uaword	0x5509
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x649
-	.uaword	0x558b
+	.uaword	0x5574
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x64b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x64c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x64d
-	.uaword	0x283c
+	.uaword	0x2825
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_LBISTCTRL1"
 	.byte	0x7
 	.uahalf	0x64e
-	.uaword	0x5563
+	.uaword	0x554c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x651
-	.uaword	0x55ce
+	.uaword	0x55b7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x653
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x654
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x655
-	.uaword	0x28bb
+	.uaword	0x28a4
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_LBISTCTRL2"
 	.byte	0x7
 	.uahalf	0x656
-	.uaword	0x55a6
+	.uaword	0x558f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x659
-	.uaword	0x5611
+	.uaword	0x55fa
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x65b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x65c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x65d
-	.uaword	0x293a
+	.uaword	0x2923
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_LCLCON"
 	.byte	0x7
 	.uahalf	0x65e
-	.uaword	0x55e9
+	.uaword	0x55d2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x661
-	.uaword	0x5650
+	.uaword	0x5639
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x663
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x664
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x665
-	.uaword	0x29aa
+	.uaword	0x2993
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_LCLTEST"
 	.byte	0x7
 	.uahalf	0x666
-	.uaword	0x5628
+	.uaword	0x5611
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x669
-	.uaword	0x5690
+	.uaword	0x5679
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x66b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x66c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x66d
-	.uaword	0x2a18
+	.uaword	0x2a01
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_MANID"
 	.byte	0x7
 	.uahalf	0x66e
-	.uaword	0x5668
+	.uaword	0x5651
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x671
-	.uaword	0x56ce
+	.uaword	0x56b7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x673
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x674
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x675
-	.uaword	0x2ab1
+	.uaword	0x2a9a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_OMR"
 	.byte	0x7
 	.uahalf	0x676
-	.uaword	0x56a6
+	.uaword	0x568f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x679
-	.uaword	0x570a
+	.uaword	0x56f3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x67b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x67c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x67d
-	.uaword	0x2c39
+	.uaword	0x2c22
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_OSCCON"
 	.byte	0x7
 	.uahalf	0x67e
-	.uaword	0x56e2
+	.uaword	0x56cb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x681
-	.uaword	0x5749
+	.uaword	0x5732
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x683
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x684
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x685
-	.uaword	0x2c9f
+	.uaword	0x2c88
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_OUT"
 	.byte	0x7
 	.uahalf	0x686
-	.uaword	0x5721
+	.uaword	0x570a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x689
-	.uaword	0x5785
+	.uaword	0x576e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x68b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x68c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x68d
-	.uaword	0x2d9d
+	.uaword	0x2d86
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_OVCCON"
 	.byte	0x7
 	.uahalf	0x68e
-	.uaword	0x575d
+	.uaword	0x5746
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x691
-	.uaword	0x57c4
+	.uaword	0x57ad
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x693
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x694
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x695
-	.uaword	0x2e21
+	.uaword	0x2e0a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_OVCENABLE"
 	.byte	0x7
 	.uahalf	0x696
-	.uaword	0x579c
+	.uaword	0x5785
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x699
-	.uaword	0x5806
+	.uaword	0x57ef
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x69b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x69c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x69d
-	.uaword	0x2e92
+	.uaword	0x2e7b
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PDISC"
 	.byte	0x7
 	.uahalf	0x69e
-	.uaword	0x57de
+	.uaword	0x57c7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6a1
-	.uaword	0x5844
+	.uaword	0x582d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6a3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6a4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6a5
-	.uaword	0x2f19
+	.uaword	0x2f02
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PDR"
 	.byte	0x7
 	.uahalf	0x6a6
-	.uaword	0x581c
+	.uaword	0x5805
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6a9
-	.uaword	0x5880
+	.uaword	0x5869
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6ab
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6ac
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6ad
-	.uaword	0x2fe7
+	.uaword	0x2fd0
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PDRR"
 	.byte	0x7
 	.uahalf	0x6ae
-	.uaword	0x5858
+	.uaword	0x5841
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6b1
-	.uaword	0x58bd
+	.uaword	0x58a6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6b3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6b4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6b5
-	.uaword	0x3120
+	.uaword	0x3109
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PLLCON0"
 	.byte	0x7
 	.uahalf	0x6b6
-	.uaword	0x5895
+	.uaword	0x587e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6b9
-	.uaword	0x58fd
+	.uaword	0x58e6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6bb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6bc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6bd
-	.uaword	0x31c3
+	.uaword	0x31ac
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PLLCON1"
 	.byte	0x7
 	.uahalf	0x6be
-	.uaword	0x58d5
+	.uaword	0x58be
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6c1
-	.uaword	0x593d
+	.uaword	0x5926
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6c3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6c4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6c5
-	.uaword	0x3223
+	.uaword	0x320c
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PLLCON2"
 	.byte	0x7
 	.uahalf	0x6c6
-	.uaword	0x5915
+	.uaword	0x58fe
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6c9
-	.uaword	0x597d
+	.uaword	0x5966
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6cb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6cc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6cd
-	.uaword	0x3361
+	.uaword	0x334a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PLLERAYCON0"
 	.byte	0x7
 	.uahalf	0x6ce
-	.uaword	0x5955
+	.uaword	0x593e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6d1
-	.uaword	0x59c1
+	.uaword	0x59aa
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6d3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6d4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6d5
-	.uaword	0x340c
+	.uaword	0x33f5
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PLLERAYCON1"
 	.byte	0x7
 	.uahalf	0x6d6
-	.uaword	0x5999
+	.uaword	0x5982
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6d9
-	.uaword	0x5a05
+	.uaword	0x59ee
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6db
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6dc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6dd
-	.uaword	0x34d4
+	.uaword	0x34bd
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PLLERAYSTAT"
 	.byte	0x7
 	.uahalf	0x6de
-	.uaword	0x59dd
+	.uaword	0x59c6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6e1
-	.uaword	0x5a49
+	.uaword	0x5a32
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6e3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6e4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6e5
-	.uaword	0x35b7
+	.uaword	0x35a0
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PLLSTAT"
 	.byte	0x7
 	.uahalf	0x6e6
-	.uaword	0x5a21
+	.uaword	0x5a0a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6e9
-	.uaword	0x5a89
+	.uaword	0x5a72
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6eb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6ec
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6ed
-	.uaword	0x3649
+	.uaword	0x3632
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PMCSR"
 	.byte	0x7
 	.uahalf	0x6ee
-	.uaword	0x5a61
+	.uaword	0x5a4a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6f1
-	.uaword	0x5ac7
+	.uaword	0x5ab0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6f3
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6f4
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6f5
-	.uaword	0x3851
+	.uaword	0x383a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PMSWCR0"
 	.byte	0x7
 	.uahalf	0x6f6
-	.uaword	0x5a9f
+	.uaword	0x5a88
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x6f9
-	.uaword	0x5b07
+	.uaword	0x5af0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x6fb
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x6fc
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x6fd
-	.uaword	0x393a
+	.uaword	0x3923
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PMSWCR1"
 	.byte	0x7
 	.uahalf	0x6fe
-	.uaword	0x5adf
+	.uaword	0x5ac8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x701
-	.uaword	0x5b47
+	.uaword	0x5b30
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x703
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x704
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x705
-	.uaword	0x3af0
+	.uaword	0x3ad9
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PMSWSTAT"
 	.byte	0x7
 	.uahalf	0x706
-	.uaword	0x5b1f
+	.uaword	0x5b08
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x709
-	.uaword	0x5b88
+	.uaword	0x5b71
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x70b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x70c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x70d
-	.uaword	0x3bf8
+	.uaword	0x3be1
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_PMSWSTATCLR"
 	.byte	0x7
 	.uahalf	0x70e
-	.uaword	0x5b60
+	.uaword	0x5b49
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x711
-	.uaword	0x5bcc
+	.uaword	0x5bb5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x713
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x714
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x715
-	.uaword	0x3d91
+	.uaword	0x3d7a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_RSTCON"
 	.byte	0x7
 	.uahalf	0x716
-	.uaword	0x5ba4
+	.uaword	0x5b8d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x719
-	.uaword	0x5c0b
+	.uaword	0x5bf4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x71b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x71c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x71d
-	.uaword	0x3cc1
+	.uaword	0x3caa
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_RSTCON2"
 	.byte	0x7
 	.uahalf	0x71e
-	.uaword	0x5be3
+	.uaword	0x5bcc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x721
-	.uaword	0x5c4b
+	.uaword	0x5c34
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x723
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x724
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x725
-	.uaword	0x3f31
+	.uaword	0x3f1a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_RSTSTAT"
 	.byte	0x7
 	.uahalf	0x726
-	.uaword	0x5c23
+	.uaword	0x5c0c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x729
-	.uaword	0x5c8b
+	.uaword	0x5c74
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x72b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x72c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x72d
-	.uaword	0x3f8e
+	.uaword	0x3f77
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_SAFECON"
 	.byte	0x7
 	.uahalf	0x72e
-	.uaword	0x5c63
+	.uaword	0x5c4c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x731
-	.uaword	0x5ccb
+	.uaword	0x5cb4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x733
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x734
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x735
-	.uaword	0x4090
+	.uaword	0x4079
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_STSTAT"
 	.byte	0x7
 	.uahalf	0x736
-	.uaword	0x5ca3
+	.uaword	0x5c8c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x739
-	.uaword	0x5d0a
+	.uaword	0x5cf3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x73b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x73c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x73d
-	.uaword	0x4102
+	.uaword	0x40eb
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_SWRSTCON"
 	.byte	0x7
 	.uahalf	0x73e
-	.uaword	0x5ce2
+	.uaword	0x5ccb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x741
-	.uaword	0x5d4b
+	.uaword	0x5d34
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x743
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x744
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x745
-	.uaword	0x41c4
+	.uaword	0x41ad
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_SYSCON"
 	.byte	0x7
 	.uahalf	0x746
-	.uaword	0x5d23
+	.uaword	0x5d0c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x749
-	.uaword	0x5d8a
+	.uaword	0x5d73
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x74b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x74c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x74d
-	.uaword	0x4251
+	.uaword	0x423a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_TRAPCLR"
 	.byte	0x7
 	.uahalf	0x74e
-	.uaword	0x5d62
+	.uaword	0x5d4b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x751
-	.uaword	0x5dca
+	.uaword	0x5db3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x753
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x754
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x755
-	.uaword	0x42df
+	.uaword	0x42c8
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_TRAPDIS"
 	.byte	0x7
 	.uahalf	0x756
-	.uaword	0x5da2
+	.uaword	0x5d8b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x759
-	.uaword	0x5e0a
+	.uaword	0x5df3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x75b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x75c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x75d
-	.uaword	0x436d
+	.uaword	0x4356
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_TRAPSET"
 	.byte	0x7
 	.uahalf	0x75e
-	.uaword	0x5de2
+	.uaword	0x5dcb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x761
-	.uaword	0x5e4a
+	.uaword	0x5e33
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x763
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x764
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x765
-	.uaword	0x43fc
+	.uaword	0x43e5
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_TRAPSTAT"
 	.byte	0x7
 	.uahalf	0x766
-	.uaword	0x5e22
+	.uaword	0x5e0b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x769
-	.uaword	0x5e8b
+	.uaword	0x5e74
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x76b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x76c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x76d
-	.uaword	0x4486
+	.uaword	0x446f
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTCPU_CON0"
 	.byte	0x7
 	.uahalf	0x76e
-	.uaword	0x5e63
+	.uaword	0x5e4c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x771
-	.uaword	0x5ecf
+	.uaword	0x5eb8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x773
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x774
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x775
-	.uaword	0x456a
+	.uaword	0x4553
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTCPU_CON1"
 	.byte	0x7
 	.uahalf	0x776
-	.uaword	0x5ea7
+	.uaword	0x5e90
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x779
-	.uaword	0x5f13
+	.uaword	0x5efc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x77b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x77c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x77d
-	.uaword	0x4658
+	.uaword	0x4641
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTCPU_SR"
 	.byte	0x7
 	.uahalf	0x77e
-	.uaword	0x5eeb
+	.uaword	0x5ed4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x781
-	.uaword	0x5f55
+	.uaword	0x5f3e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x783
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x784
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x785
-	.uaword	0x46dc
+	.uaword	0x46c5
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTS_CON0"
 	.byte	0x7
 	.uahalf	0x786
-	.uaword	0x5f2d
+	.uaword	0x5f16
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x789
-	.uaword	0x5f97
+	.uaword	0x5f80
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x78b
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x78c
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x78d
-	.uaword	0x47cf
+	.uaword	0x47b8
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTS_CON1"
 	.byte	0x7
 	.uahalf	0x78e
-	.uaword	0x5f6f
+	.uaword	0x5f58
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x791
-	.uaword	0x5fd9
+	.uaword	0x5fc2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x793
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x794
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x795
-	.uaword	0x48b9
+	.uaword	0x48a2
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTS_SR"
 	.byte	0x7
 	.uahalf	0x796
-	.uaword	0x5fb1
+	.uaword	0x5f9a
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTCPU"
 	.byte	0xc
 	.byte	0x7
 	.uahalf	0x7a1
-	.uaword	0x6033
+	.uaword	0x601c
 	.uleb128 0x14
 	.string	"CON0"
 	.byte	0x7
 	.uahalf	0x7a3
-	.uaword	0x5e8b
+	.uaword	0x5e74
 	.byte	0
 	.uleb128 0x14
 	.string	"CON1"
 	.byte	0x7
 	.uahalf	0x7a4
-	.uaword	0x5ecf
+	.uaword	0x5eb8
 	.byte	0x4
 	.uleb128 0x14
 	.string	"SR"
 	.byte	0x7
 	.uahalf	0x7a5
-	.uaword	0x5f13
+	.uaword	0x5efc
 	.byte	0x8
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTCPU"
 	.byte	0x7
 	.uahalf	0x7a6
-	.uaword	0x604a
+	.uaword	0x6033
 	.uleb128 0x11
-	.uaword	0x5ff1
+	.uaword	0x5fda
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTS"
 	.byte	0xc
 	.byte	0x7
 	.uahalf	0x7a9
-	.uaword	0x608f
+	.uaword	0x6078
 	.uleb128 0x14
 	.string	"CON0"
 	.byte	0x7
 	.uahalf	0x7ab
-	.uaword	0x5f55
+	.uaword	0x5f3e
 	.byte	0
 	.uleb128 0x14
 	.string	"CON1"
 	.byte	0x7
 	.uahalf	0x7ac
-	.uaword	0x5f97
+	.uaword	0x5f80
 	.byte	0x4
 	.uleb128 0x14
 	.string	"SR"
 	.byte	0x7
 	.uahalf	0x7ad
-	.uaword	0x5fd9
+	.uaword	0x5fc2
 	.byte	0x8
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU_WDTS"
 	.byte	0x7
 	.uahalf	0x7ae
-	.uaword	0x60a4
+	.uaword	0x608d
 	.uleb128 0x11
-	.uaword	0x604f
+	.uaword	0x6038
 	.uleb128 0x15
 	.string	"_Ifx_SCU"
 	.uahalf	0x400
 	.byte	0x7
 	.uahalf	0x7bb
-	.uaword	0x6836
+	.uaword	0x681f
 	.uleb128 0x16
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x7bd
-	.uaword	0x6836
+	.uaword	0x681f
 	.byte	0
 	.uleb128 0x14
 	.string	"ID"
 	.byte	0x7
 	.uahalf	0x7be
-	.uaword	0x5458
+	.uaword	0x5441
 	.byte	0x8
 	.uleb128 0x14
 	.string	"reserved_C"
 	.byte	0x7
 	.uahalf	0x7bf
-	.uaword	0x6852
+	.uaword	0x683b
 	.byte	0xc
 	.uleb128 0x14
 	.string	"OSCCON"
 	.byte	0x7
 	.uahalf	0x7c0
-	.uaword	0x570a
+	.uaword	0x56f3
 	.byte	0x10
 	.uleb128 0x14
 	.string	"PLLSTAT"
 	.byte	0x7
 	.uahalf	0x7c1
-	.uaword	0x5a49
+	.uaword	0x5a32
 	.byte	0x14
 	.uleb128 0x14
 	.string	"PLLCON0"
 	.byte	0x7
 	.uahalf	0x7c2
-	.uaword	0x58bd
+	.uaword	0x58a6
 	.byte	0x18
 	.uleb128 0x14
 	.string	"PLLCON1"
 	.byte	0x7
 	.uahalf	0x7c3
-	.uaword	0x58fd
+	.uaword	0x58e6
 	.byte	0x1c
 	.uleb128 0x14
 	.string	"PLLCON2"
 	.byte	0x7
 	.uahalf	0x7c4
-	.uaword	0x593d
+	.uaword	0x5926
 	.byte	0x20
 	.uleb128 0x14
 	.string	"PLLERAYSTAT"
 	.byte	0x7
 	.uahalf	0x7c5
-	.uaword	0x5a05
+	.uaword	0x59ee
 	.byte	0x24
 	.uleb128 0x14
 	.string	"PLLERAYCON0"
 	.byte	0x7
 	.uahalf	0x7c6
-	.uaword	0x597d
+	.uaword	0x5966
 	.byte	0x28
 	.uleb128 0x14
 	.string	"PLLERAYCON1"
 	.byte	0x7
 	.uahalf	0x7c7
-	.uaword	0x59c1
+	.uaword	0x59aa
 	.byte	0x2c
 	.uleb128 0x14
 	.string	"CCUCON0"
 	.byte	0x7
 	.uahalf	0x7c8
-	.uaword	0x49bc
+	.uaword	0x49a5
 	.byte	0x30
 	.uleb128 0x14
 	.string	"CCUCON1"
 	.byte	0x7
 	.uahalf	0x7c9
-	.uaword	0x49fc
+	.uaword	0x49e5
 	.byte	0x34
 	.uleb128 0x14
 	.string	"FDR"
 	.byte	0x7
 	.uahalf	0x7ca
-	.uaword	0x53e0
+	.uaword	0x53c9
 	.byte	0x38
 	.uleb128 0x14
 	.string	"EXTCON"
 	.byte	0x7
 	.uahalf	0x7cb
-	.uaword	0x53a1
+	.uaword	0x538a
 	.byte	0x3c
 	.uleb128 0x14
 	.string	"CCUCON2"
 	.byte	0x7
 	.uahalf	0x7cc
-	.uaword	0x4a3c
+	.uaword	0x4a25
 	.byte	0x40
 	.uleb128 0x14
 	.string	"CCUCON3"
 	.byte	0x7
 	.uahalf	0x7cd
-	.uaword	0x4a7c
+	.uaword	0x4a65
 	.byte	0x44
 	.uleb128 0x14
 	.string	"CCUCON4"
 	.byte	0x7
 	.uahalf	0x7ce
-	.uaword	0x4abc
+	.uaword	0x4aa5
 	.byte	0x48
 	.uleb128 0x14
 	.string	"CCUCON5"
 	.byte	0x7
 	.uahalf	0x7cf
-	.uaword	0x4afc
+	.uaword	0x4ae5
 	.byte	0x4c
 	.uleb128 0x14
 	.string	"RSTSTAT"
 	.byte	0x7
 	.uahalf	0x7d0
-	.uaword	0x5c4b
+	.uaword	0x5c34
 	.byte	0x50
 	.uleb128 0x14
 	.string	"reserved_54"
 	.byte	0x7
 	.uahalf	0x7d1
-	.uaword	0x6852
+	.uaword	0x683b
 	.byte	0x54
 	.uleb128 0x14
 	.string	"RSTCON"
 	.byte	0x7
 	.uahalf	0x7d2
-	.uaword	0x5bcc
+	.uaword	0x5bb5
 	.byte	0x58
 	.uleb128 0x14
 	.string	"ARSTDIS"
 	.byte	0x7
 	.uahalf	0x7d3
-	.uaword	0x497c
+	.uaword	0x4965
 	.byte	0x5c
 	.uleb128 0x14
 	.string	"SWRSTCON"
 	.byte	0x7
 	.uahalf	0x7d4
-	.uaword	0x5d0a
+	.uaword	0x5cf3
 	.byte	0x60
 	.uleb128 0x14
 	.string	"RSTCON2"
 	.byte	0x7
 	.uahalf	0x7d5
-	.uaword	0x5c0b
+	.uaword	0x5bf4
 	.byte	0x64
 	.uleb128 0x14
 	.string	"reserved_68"
 	.byte	0x7
 	.uahalf	0x7d6
-	.uaword	0x6852
+	.uaword	0x683b
 	.byte	0x68
 	.uleb128 0x14
 	.string	"EVRRSTCON"
 	.byte	0x7
 	.uahalf	0x7d7
-	.uaword	0x4ffa
+	.uaword	0x4fe3
 	.byte	0x6c
 	.uleb128 0x14
 	.string	"ESRCFG"
 	.byte	0x7
 	.uahalf	0x7d8
-	.uaword	0x6862
+	.uaword	0x684b
 	.byte	0x70
 	.uleb128 0x14
 	.string	"ESROCFG"
 	.byte	0x7
 	.uahalf	0x7d9
-	.uaword	0x4e2f
+	.uaword	0x4e18
 	.byte	0x78
 	.uleb128 0x14
 	.string	"SYSCON"
 	.byte	0x7
 	.uahalf	0x7da
-	.uaword	0x5d4b
+	.uaword	0x5d34
 	.byte	0x7c
 	.uleb128 0x14
 	.string	"CCUCON6"
 	.byte	0x7
 	.uahalf	0x7db
-	.uaword	0x4b3c
+	.uaword	0x4b25
 	.byte	0x80
 	.uleb128 0x14
 	.string	"CCUCON7"
 	.byte	0x7
 	.uahalf	0x7dc
-	.uaword	0x4b7c
+	.uaword	0x4b65
 	.byte	0x84
 	.uleb128 0x14
 	.string	"CCUCON8"
 	.byte	0x7
 	.uahalf	0x7dd
-	.uaword	0x4bbc
+	.uaword	0x4ba5
 	.byte	0x88
 	.uleb128 0x14
 	.string	"CCUCON9"
 	.byte	0x7
 	.uahalf	0x7de
-	.uaword	0x4bfc
+	.uaword	0x4be5
 	.byte	0x8c
 	.uleb128 0x14
 	.string	"reserved_90"
 	.byte	0x7
 	.uahalf	0x7df
-	.uaword	0x6872
+	.uaword	0x685b
 	.byte	0x90
 	.uleb128 0x14
 	.string	"PDR"
 	.byte	0x7
 	.uahalf	0x7e0
-	.uaword	0x5844
+	.uaword	0x582d
 	.byte	0x9c
 	.uleb128 0x14
 	.string	"IOCR"
 	.byte	0x7
 	.uahalf	0x7e1
-	.uaword	0x550b
+	.uaword	0x54f4
 	.byte	0xa0
 	.uleb128 0x14
 	.string	"OUT"
 	.byte	0x7
 	.uahalf	0x7e2
-	.uaword	0x5749
+	.uaword	0x5732
 	.byte	0xa4
 	.uleb128 0x14
 	.string	"OMR"
 	.byte	0x7
 	.uahalf	0x7e3
-	.uaword	0x56ce
+	.uaword	0x56b7
 	.byte	0xa8
 	.uleb128 0x14
 	.string	"IN"
 	.byte	0x7
 	.uahalf	0x7e4
-	.uaword	0x54d0
+	.uaword	0x54b9
 	.byte	0xac
 	.uleb128 0x14
 	.string	"EVRSTAT"
 	.byte	0x7
 	.uahalf	0x7e5
-	.uaword	0x52e0
+	.uaword	0x52c9
 	.byte	0xb0
 	.uleb128 0x14
 	.string	"EVRDVSTAT"
 	.byte	0x7
 	.uahalf	0x7e6
-	.uaword	0x4f34
+	.uaword	0x4f1d
 	.byte	0xb4
 	.uleb128 0x14
 	.string	"EVR13CON"
 	.byte	0x7
 	.uahalf	0x7e7
-	.uaword	0x4e6f
+	.uaword	0x4e58
 	.byte	0xb8
 	.uleb128 0x14
 	.string	"EVR33CON"
 	.byte	0x7
 	.uahalf	0x7e8
-	.uaword	0x4eb0
+	.uaword	0x4e99
 	.byte	0xbc
 	.uleb128 0x14
 	.string	"STSTAT"
 	.byte	0x7
 	.uahalf	0x7e9
-	.uaword	0x5ccb
+	.uaword	0x5cb4
 	.byte	0xc0
 	.uleb128 0x14
 	.string	"reserved_C4"
 	.byte	0x7
 	.uahalf	0x7ea
-	.uaword	0x6852
+	.uaword	0x683b
 	.byte	0xc4
 	.uleb128 0x14
 	.string	"PMSWCR0"
 	.byte	0x7
 	.uahalf	0x7eb
-	.uaword	0x5ac7
+	.uaword	0x5ab0
 	.byte	0xc8
 	.uleb128 0x14
 	.string	"PMSWSTAT"
 	.byte	0x7
 	.uahalf	0x7ec
-	.uaword	0x5b47
+	.uaword	0x5b30
 	.byte	0xcc
 	.uleb128 0x14
 	.string	"PMSWSTATCLR"
 	.byte	0x7
 	.uahalf	0x7ed
-	.uaword	0x5b88
+	.uaword	0x5b71
 	.byte	0xd0
 	.uleb128 0x14
 	.string	"PMCSR"
 	.byte	0x7
 	.uahalf	0x7ee
-	.uaword	0x6882
+	.uaword	0x686b
 	.byte	0xd4
 	.uleb128 0x14
 	.string	"DTSSTAT"
 	.byte	0x7
 	.uahalf	0x7ef
-	.uaword	0x4cf9
+	.uaword	0x4ce2
 	.byte	0xe0
 	.uleb128 0x14
 	.string	"DTSCON"
 	.byte	0x7
 	.uahalf	0x7f0
-	.uaword	0x4c7b
+	.uaword	0x4c64
 	.byte	0xe4
 	.uleb128 0x14
 	.string	"PMSWCR1"
 	.byte	0x7
 	.uahalf	0x7f1
-	.uaword	0x5b07
+	.uaword	0x5af0
 	.byte	0xe8
 	.uleb128 0x14
 	.string	"reserved_EC"
 	.byte	0x7
 	.uahalf	0x7f2
-	.uaword	0x6852
+	.uaword	0x683b
 	.byte	0xec
 	.uleb128 0x14
 	.string	"WDTS"
 	.byte	0x7
 	.uahalf	0x7f3
-	.uaword	0x608f
+	.uaword	0x6078
 	.byte	0xf0
 	.uleb128 0x14
 	.string	"EMSR"
 	.byte	0x7
 	.uahalf	0x7f4
-	.uaword	0x4db3
+	.uaword	0x4d9c
 	.byte	0xfc
 	.uleb128 0x17
 	.string	"WDTCPU"
 	.byte	0x7
 	.uahalf	0x7f5
-	.uaword	0x68a2
+	.uaword	0x688b
 	.uahalf	0x100
 	.uleb128 0x17
 	.string	"TRAPSTAT"
 	.byte	0x7
 	.uahalf	0x7f6
-	.uaword	0x5e4a
+	.uaword	0x5e33
 	.uahalf	0x124
 	.uleb128 0x17
 	.string	"TRAPSET"
 	.byte	0x7
 	.uahalf	0x7f7
-	.uaword	0x5e0a
+	.uaword	0x5df3
 	.uahalf	0x128
 	.uleb128 0x17
 	.string	"TRAPCLR"
 	.byte	0x7
 	.uahalf	0x7f8
-	.uaword	0x5d8a
+	.uaword	0x5d73
 	.uahalf	0x12c
 	.uleb128 0x17
 	.string	"TRAPDIS"
 	.byte	0x7
 	.uahalf	0x7f9
-	.uaword	0x5dca
+	.uaword	0x5db3
 	.uahalf	0x130
 	.uleb128 0x17
 	.string	"reserved_134"
 	.byte	0x7
 	.uahalf	0x7fa
-	.uaword	0x6852
+	.uaword	0x683b
 	.uahalf	0x134
 	.uleb128 0x17
 	.string	"LCLCON1"
 	.byte	0x7
 	.uahalf	0x7fb
-	.uaword	0x5611
+	.uaword	0x55fa
 	.uahalf	0x138
 	.uleb128 0x17
 	.string	"LCLTEST"
 	.byte	0x7
 	.uahalf	0x7fc
-	.uaword	0x5650
+	.uaword	0x5639
 	.uahalf	0x13c
 	.uleb128 0x17
 	.string	"CHIPID"
 	.byte	0x7
 	.uahalf	0x7fd
-	.uaword	0x4c3c
+	.uaword	0x4c25
 	.uahalf	0x140
 	.uleb128 0x17
 	.string	"MANID"
 	.byte	0x7
 	.uahalf	0x7fe
-	.uaword	0x5690
+	.uaword	0x5679
 	.uahalf	0x144
 	.uleb128 0x17
 	.string	"reserved_148"
 	.byte	0x7
 	.uahalf	0x7ff
-	.uaword	0x6836
+	.uaword	0x681f
 	.uahalf	0x148
 	.uleb128 0x17
 	.string	"SAFECON"
 	.byte	0x7
 	.uahalf	0x800
-	.uaword	0x5c8b
+	.uaword	0x5c74
 	.uahalf	0x150
 	.uleb128 0x17
 	.string	"reserved_154"
 	.byte	0x7
 	.uahalf	0x801
-	.uaword	0x68a7
+	.uaword	0x6890
 	.uahalf	0x154
 	.uleb128 0x17
 	.string	"LBISTCTRL0"
 	.byte	0x7
 	.uahalf	0x802
-	.uaword	0x5548
+	.uaword	0x5531
 	.uahalf	0x164
 	.uleb128 0x17
 	.string	"LBISTCTRL1"
 	.byte	0x7
 	.uahalf	0x803
-	.uaword	0x558b
+	.uaword	0x5574
 	.uahalf	0x168
 	.uleb128 0x17
 	.string	"LBISTCTRL2"
 	.byte	0x7
 	.uahalf	0x804
-	.uaword	0x55ce
+	.uaword	0x55b7
 	.uahalf	0x16c
 	.uleb128 0x17
 	.string	"reserved_170"
 	.byte	0x7
 	.uahalf	0x805
-	.uaword	0x68b7
+	.uaword	0x68a0
 	.uahalf	0x170
 	.uleb128 0x17
 	.string	"PDISC"
 	.byte	0x7
 	.uahalf	0x806
-	.uaword	0x5806
+	.uaword	0x57ef
 	.uahalf	0x18c
 	.uleb128 0x17
 	.string	"reserved_190"
 	.byte	0x7
 	.uahalf	0x807
-	.uaword	0x6836
+	.uaword	0x681f
 	.uahalf	0x190
 	.uleb128 0x17
 	.string	"EVRTRIM"
 	.byte	0x7
 	.uahalf	0x808
-	.uaword	0x5320
+	.uaword	0x5309
 	.uahalf	0x198
 	.uleb128 0x17
 	.string	"EVRADCSTAT"
 	.byte	0x7
 	.uahalf	0x809
-	.uaword	0x4ef1
+	.uaword	0x4eda
 	.uahalf	0x19c
 	.uleb128 0x17
 	.string	"EVRUVMON"
 	.byte	0x7
 	.uahalf	0x80a
-	.uaword	0x5360
+	.uaword	0x5349
 	.uahalf	0x1a0
 	.uleb128 0x17
 	.string	"EVROVMON"
 	.byte	0x7
 	.uahalf	0x80b
-	.uaword	0x4fb9
+	.uaword	0x4fa2
 	.uahalf	0x1a4
 	.uleb128 0x17
 	.string	"EVRMONCTRL"
 	.byte	0x7
 	.uahalf	0x80c
-	.uaword	0x4f76
+	.uaword	0x4f5f
 	.uahalf	0x1a8
 	.uleb128 0x17
 	.string	"reserved_1AC"
 	.byte	0x7
 	.uahalf	0x80d
-	.uaword	0x6852
+	.uaword	0x683b
 	.uahalf	0x1ac
 	.uleb128 0x17
 	.string	"EVRSDCTRL1"
 	.byte	0x7
 	.uahalf	0x80e
-	.uaword	0x51d4
+	.uaword	0x51bd
 	.uahalf	0x1b0
 	.uleb128 0x17
 	.string	"EVRSDCTRL2"
 	.byte	0x7
 	.uahalf	0x80f
-	.uaword	0x5217
+	.uaword	0x5200
 	.uahalf	0x1b4
 	.uleb128 0x17
 	.string	"EVRSDCTRL3"
 	.byte	0x7
 	.uahalf	0x810
-	.uaword	0x525a
+	.uaword	0x5243
 	.uahalf	0x1b8
 	.uleb128 0x17
 	.string	"EVRSDCTRL4"
 	.byte	0x7
 	.uahalf	0x811
-	.uaword	0x529d
+	.uaword	0x5286
 	.uahalf	0x1bc
 	.uleb128 0x17
 	.string	"EVRSDCOEFF1"
 	.byte	0x7
 	.uahalf	0x812
-	.uaword	0x503c
+	.uaword	0x5025
 	.uahalf	0x1c0
 	.uleb128 0x17
 	.string	"EVRSDCOEFF2"
 	.byte	0x7
 	.uahalf	0x813
-	.uaword	0x5080
+	.uaword	0x5069
 	.uahalf	0x1c4
 	.uleb128 0x17
 	.string	"EVRSDCOEFF3"
 	.byte	0x7
 	.uahalf	0x814
-	.uaword	0x50c4
+	.uaword	0x50ad
 	.uahalf	0x1c8
 	.uleb128 0x17
 	.string	"EVRSDCOEFF4"
 	.byte	0x7
 	.uahalf	0x815
-	.uaword	0x5108
+	.uaword	0x50f1
 	.uahalf	0x1cc
 	.uleb128 0x17
 	.string	"EVRSDCOEFF5"
 	.byte	0x7
 	.uahalf	0x816
-	.uaword	0x514c
+	.uaword	0x5135
 	.uahalf	0x1d0
 	.uleb128 0x17
 	.string	"EVRSDCOEFF6"
 	.byte	0x7
 	.uahalf	0x817
-	.uaword	0x5190
+	.uaword	0x5179
 	.uahalf	0x1d4
 	.uleb128 0x17
 	.string	"reserved_1D8"
 	.byte	0x7
 	.uahalf	0x818
-	.uaword	0x6836
+	.uaword	0x681f
 	.uahalf	0x1d8
 	.uleb128 0x17
 	.string	"OVCENABLE"
 	.byte	0x7
 	.uahalf	0x819
-	.uaword	0x57c4
+	.uaword	0x57ad
 	.uahalf	0x1e0
 	.uleb128 0x17
 	.string	"OVCCON"
 	.byte	0x7
 	.uahalf	0x81a
-	.uaword	0x5785
+	.uaword	0x576e
 	.uahalf	0x1e4
 	.uleb128 0x17
 	.string	"reserved_1E8"
 	.byte	0x7
 	.uahalf	0x81b
-	.uaword	0x68c7
+	.uaword	0x68b0
 	.uahalf	0x1e8
 	.uleb128 0x17
 	.string	"EICR"
 	.byte	0x7
 	.uahalf	0x81c
-	.uaword	0x68d7
+	.uaword	0x68c0
 	.uahalf	0x210
 	.uleb128 0x17
 	.string	"EIFR"
 	.byte	0x7
 	.uahalf	0x81d
-	.uaword	0x4d76
+	.uaword	0x4d5f
 	.uahalf	0x220
 	.uleb128 0x17
 	.string	"FMR"
 	.byte	0x7
 	.uahalf	0x81e
-	.uaword	0x541c
+	.uaword	0x5405
 	.uahalf	0x224
 	.uleb128 0x17
 	.string	"PDRR"
 	.byte	0x7
 	.uahalf	0x81f
-	.uaword	0x5880
+	.uaword	0x5869
 	.uahalf	0x228
 	.uleb128 0x17
 	.string	"IGCR"
 	.byte	0x7
 	.uahalf	0x820
-	.uaword	0x68e7
+	.uaword	0x68d0
 	.uahalf	0x22c
 	.uleb128 0x17
 	.string	"reserved_23C"
 	.byte	0x7
 	.uahalf	0x821
-	.uaword	0x6852
+	.uaword	0x683b
 	.uahalf	0x23c
 	.uleb128 0x17
 	.string	"DTSLIM"
 	.byte	0x7
 	.uahalf	0x822
-	.uaword	0x4cba
+	.uaword	0x4ca3
 	.uahalf	0x240
 	.uleb128 0x17
 	.string	"reserved_244"
 	.byte	0x7
 	.uahalf	0x823
-	.uaword	0x68f7
+	.uaword	0x68e0
 	.uahalf	0x244
 	.uleb128 0x17
 	.string	"ACCEN1"
 	.byte	0x7
 	.uahalf	0x824
-	.uaword	0x493d
+	.uaword	0x4926
 	.uahalf	0x3f8
 	.uleb128 0x17
 	.string	"ACCEN0"
 	.byte	0x7
 	.uahalf	0x825
-	.uaword	0x48fe
+	.uaword	0x48e7
 	.uahalf	0x3fc
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x23f
-	.uaword	0x6846
+	.uaword	0x228
+	.uaword	0x682f
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x7
 	.byte	0
 	.uleb128 0x5
@@ -12064,167 +12064,167 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x18
-	.uaword	0x23f
-	.uaword	0x6862
+	.uaword	0x228
+	.uaword	0x684b
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x3
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x4df0
-	.uaword	0x6872
+	.uaword	0x4dd9
+	.uaword	0x685b
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x1
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x23f
-	.uaword	0x6882
+	.uaword	0x228
+	.uaword	0x686b
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0xb
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x5a89
-	.uaword	0x6892
+	.uaword	0x5a72
+	.uaword	0x687b
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x2
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x6033
-	.uaword	0x68a2
+	.uaword	0x601c
+	.uaword	0x688b
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x2
 	.byte	0
 	.uleb128 0x11
-	.uaword	0x6892
+	.uaword	0x687b
 	.uleb128 0x18
-	.uaword	0x23f
-	.uaword	0x68b7
+	.uaword	0x228
+	.uaword	0x68a0
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0xf
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x23f
-	.uaword	0x68c7
+	.uaword	0x228
+	.uaword	0x68b0
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x1b
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x23f
-	.uaword	0x68d7
+	.uaword	0x228
+	.uaword	0x68c0
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x27
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x4d39
-	.uaword	0x68e7
+	.uaword	0x4d22
+	.uaword	0x68d0
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x3
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x5493
-	.uaword	0x68f7
+	.uaword	0x547c
+	.uaword	0x68e0
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x3
 	.byte	0
 	.uleb128 0x18
-	.uaword	0x23f
-	.uaword	0x6908
+	.uaword	0x228
+	.uaword	0x68f1
 	.uleb128 0x1a
-	.uaword	0x6846
+	.uaword	0x682f
 	.uahalf	0x1b3
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_SCU"
 	.byte	0x7
 	.uahalf	0x826
-	.uaword	0x6918
+	.uaword	0x6901
 	.uleb128 0x11
-	.uaword	0x60a9
+	.uaword	0x6092
 	.uleb128 0x9
 	.byte	0xc
 	.byte	0x3
 	.byte	0x45
-	.uaword	0x6a08
+	.uaword	0x69f1
 	.uleb128 0x1b
 	.uaword	.LASF36
 	.byte	0x3
 	.byte	0x47
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0
 	.uleb128 0x1b
 	.uaword	.LASF37
 	.byte	0x3
 	.byte	0x48
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x2
 	.uleb128 0xa
 	.string	"inputFrequency"
 	.byte	0x3
 	.byte	0x49
-	.uaword	0x1ee
+	.uaword	0x1d7
 	.byte	0x4
 	.uleb128 0xa
 	.string	"disableWatchdog"
 	.byte	0x3
 	.byte	0x4a
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0x5
 	.uleb128 0xa
 	.string	"enableSmuRestriction"
 	.byte	0x3
 	.byte	0x4b
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0x6
 	.uleb128 0xa
 	.string	"enableAutomaticPasswordChange"
 	.byte	0x3
 	.byte	0x4c
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0x7
 	.uleb128 0xa
 	.string	"enableTimerCheck"
 	.byte	0x3
 	.byte	0x4d
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0x8
 	.uleb128 0xa
 	.string	"enableTimerCheckTolerance"
 	.byte	0x3
 	.byte	0x4e
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0x9
 	.uleb128 0xa
 	.string	"clrInternalResetFlag"
 	.byte	0x3
 	.byte	0x4f
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0xa
 	.byte	0
 	.uleb128 0x6
 	.string	"IfxScuWdt_Config"
 	.byte	0x3
 	.byte	0x50
-	.uaword	0x691d
+	.uaword	0x6906
 	.uleb128 0xb
 	.string	"_Ifx_CPU_CORE_ID_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x5c
-	.uaword	0x6a61
+	.uaword	0x6a4a
 	.uleb128 0xc
 	.string	"CORE_ID"
 	.byte	0x8
 	.byte	0x5e
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -12233,7 +12233,7 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LASF1
 	.byte	0x8
 	.byte	0x5f
-	.uaword	0x4481
+	.uaword	0x446a
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -12243,38 +12243,38 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"Ifx_CPU_CORE_ID_Bits"
 	.byte	0x8
 	.byte	0x60
-	.uaword	0x6a20
+	.uaword	0x6a09
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2df
-	.uaword	0x6aa5
+	.uaword	0x6a8e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x2e1
-	.uaword	0x54d
+	.uaword	0x536
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x2e2
-	.uaword	0x229
+	.uaword	0x212
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x2e3
-	.uaword	0x6a61
+	.uaword	0x6a4a
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_CPU_CORE_ID"
 	.byte	0x8
 	.uahalf	0x2e4
-	.uaword	0x6a7d
+	.uaword	0x6a66
 	.uleb128 0x1c
 	.byte	0x1
 	.byte	0x9
 	.byte	0x8b
-	.uaword	0x6b25
+	.uaword	0x6b0e
 	.uleb128 0x3
 	.string	"IfxCpu_ResourceCpu_0"
 	.sleb128 0
@@ -12292,26 +12292,26 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.string	"IfxCpu_ResourceCpu"
 	.byte	0x9
 	.byte	0x90
-	.uaword	0x6abd
+	.uaword	0x6aa6
 	.uleb128 0x1d
 	.string	"IfxCpu_getCoreIndex"
 	.byte	0x2
 	.uahalf	0x2f7
 	.byte	0x1
-	.uaword	0x6b25
+	.uaword	0x6b0e
 	.byte	0x3
-	.uaword	0x6b7e
+	.uaword	0x6b67
 	.uleb128 0x1e
 	.string	"reg"
 	.byte	0x2
 	.uahalf	0x2f9
-	.uaword	0x6aa5
+	.uaword	0x6a8e
 	.uleb128 0x1f
 	.uleb128 0x1e
 	.string	"__res"
 	.byte	0x2
 	.uahalf	0x2fa
-	.uaword	0x54d
+	.uaword	0x536
 	.byte	0
 	.byte	0
 	.uleb128 0x20
@@ -12320,33 +12320,33 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uahalf	0x1a1
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.uleb128 0x21
 	.uaword	.LASF38
 	.byte	0x3
 	.uahalf	0x1a1
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x3
 	.uahalf	0x1a1
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0
 	.uleb128 0x7
 	.byte	0x4
-	.uaword	0x6033
+	.uaword	0x601c
 	.uleb128 0x20
 	.string	"IfxScuWdt_clearSafetyEndinitInline"
 	.byte	0x3
 	.uahalf	0x1b8
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x6c01
+	.uaword	0x6bea
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x3
 	.uahalf	0x1b8
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0
 	.uleb128 0x20
 	.string	"IfxScuWdt_setCpuEndinitInline"
@@ -12354,17 +12354,17 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uahalf	0x1f8
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x6c42
+	.uaword	0x6c2b
 	.uleb128 0x21
 	.uaword	.LASF38
 	.byte	0x3
 	.uahalf	0x1f8
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x3
 	.uahalf	0x1f8
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0
 	.uleb128 0x20
 	.string	"IfxScuWdt_setSafetyEndinitInline"
@@ -12372,68 +12372,68 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uahalf	0x211
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x6c7a
+	.uaword	0x6c63
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x3
 	.uahalf	0x211
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxScuWdt_getCpuWatchdogPasswordInline"
 	.byte	0x3
 	.uahalf	0x1cf
 	.byte	0x1
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x3
-	.uaword	0x6cc8
+	.uaword	0x6cb1
 	.uleb128 0x21
 	.uaword	.LASF38
 	.byte	0x3
 	.uahalf	0x1cf
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.uleb128 0x22
 	.uaword	.LASF36
 	.byte	0x3
 	.uahalf	0x1d1
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxScuWdt_getCpuWatchdogEndInitInline"
 	.byte	0x3
 	.uahalf	0x1dd
 	.byte	0x1
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0x3
-	.uaword	0x6d09
+	.uaword	0x6cf2
 	.uleb128 0x21
 	.uaword	.LASF38
 	.byte	0x3
 	.uahalf	0x1dd
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxScuWdt_getSafetyWatchdogPasswordInline"
 	.byte	0x3
 	.uahalf	0x1e9
 	.byte	0x1
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x3
-	.uaword	0x6d5a
+	.uaword	0x6d43
 	.uleb128 0x22
 	.uaword	.LASF36
 	.byte	0x3
 	.uahalf	0x1eb
-	.uaword	0x25d
+	.uaword	0x246
 	.uleb128 0x22
 	.uaword	.LASF38
 	.byte	0x3
 	.uahalf	0x1ec
-	.uaword	0x6d5a
+	.uaword	0x6d43
 	.byte	0
 	.uleb128 0x7
 	.byte	0x4
-	.uaword	0x608f
+	.uaword	0x6078
 	.uleb128 0x23
 	.byte	0x1
 	.string	"IfxScuWdt_changeCpuWatchdogPassword"
@@ -12445,36 +12445,36 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x6e01
+	.uaword	0x6dea
 	.uleb128 0x24
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x2d
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x24
 	.uaword	.LASF39
 	.byte	0x1
 	.byte	0x2d
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0x25
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x2f
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x26
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x32
-	.uaword	0x5e8b
+	.uaword	0x5e74
 	.uaword	.LLST0
 	.uleb128 0x27
-	.uaword	0x6b3f
+	.uaword	0x6b28
 	.uaword	.LBB56
 	.uaword	.LBE56
 	.byte	0x1
@@ -12483,12 +12483,12 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LBB57
 	.uaword	.LBE57
 	.uleb128 0x29
-	.uaword	0x6b61
+	.uaword	0x6b4a
 	.uleb128 0x28
 	.uaword	.LBB58
 	.uaword	.LBE58
 	.uleb128 0x2a
-	.uaword	0x6b6e
+	.uaword	0x6b57
 	.uaword	.LLST1
 	.byte	0
 	.byte	0
@@ -12505,41 +12505,41 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x6eab
+	.uaword	0x6e94
 	.uleb128 0x24
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x4c
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x4c
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0x2b
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0x4f
-	.uaword	0x28f
+	.uaword	0x278
 	.uleb128 0x2c
 	.string	"wdt"
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x26
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x53
-	.uaword	0x5e8b
+	.uaword	0x5e74
 	.uaword	.LLST2
 	.uleb128 0x27
-	.uaword	0x6b3f
+	.uaword	0x6b28
 	.uaword	.LBB59
 	.uaword	.LBE59
 	.byte	0x1
@@ -12548,12 +12548,12 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LBB60
 	.uaword	.LBE60
 	.uleb128 0x29
-	.uaword	0x6b61
+	.uaword	0x6b4a
 	.uleb128 0x28
 	.uaword	.LBB61
 	.uaword	.LBE61
 	.uleb128 0x2a
-	.uaword	0x6b6e
+	.uaword	0x6b57
 	.uaword	.LLST3
 	.byte	0
 	.byte	0
@@ -12570,32 +12570,32 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x6f20
+	.uaword	0x6f09
 	.uleb128 0x24
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x6d
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x24
 	.uaword	.LASF39
 	.byte	0x1
 	.byte	0x6d
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0x2d
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x6f
-	.uaword	0x6d5a
+	.uaword	0x6d43
 	.sleb128 -268214032
 	.uleb128 0x26
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x72
-	.uaword	0x5f55
+	.uaword	0x5f3e
 	.uaword	.LLST4
 	.byte	0
 	.uleb128 0x23
@@ -12609,32 +12609,32 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x6f93
+	.uaword	0x6f7c
 	.uleb128 0x24
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x8c
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x8c
-	.uaword	0x25d
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0x2e
 	.string	"wdt"
 	.byte	0x1
 	.byte	0x8f
-	.uaword	0x6d5a
+	.uaword	0x6d43
 	.sleb128 -268214032
 	.uleb128 0x26
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x92
-	.uaword	0x5f55
+	.uaword	0x5f3e
 	.uaword	.LLST5
 	.byte	0
 	.uleb128 0x23
@@ -12648,44 +12648,44 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7023
+	.uaword	0x700c
 	.uleb128 0x2f
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xac
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST6
 	.uleb128 0x30
-	.uaword	0x6b3f
+	.uaword	0x6b28
 	.uaword	.LBB62
 	.uaword	.LBE62
 	.byte	0x1
 	.byte	0xae
-	.uaword	0x7006
+	.uaword	0x6fef
 	.uleb128 0x28
 	.uaword	.LBB63
 	.uaword	.LBE63
 	.uleb128 0x29
-	.uaword	0x6b61
+	.uaword	0x6b4a
 	.uleb128 0x28
 	.uaword	.LBB64
 	.uaword	.LBE64
 	.uleb128 0x2a
-	.uaword	0x6b6e
+	.uaword	0x6b57
 	.uaword	.LLST7
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x31
-	.uaword	0x6b7e
+	.uaword	0x6b67
 	.uaword	.LBB65
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0xae
 	.uleb128 0x32
-	.uaword	0x6bb4
+	.uaword	0x6b9d
 	.uleb128 0x33
-	.uaword	0x6ba8
+	.uaword	0x6b91
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -12701,21 +12701,21 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x707d
+	.uaword	0x7066
 	.uleb128 0x2f
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xb2
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST8
 	.uleb128 0x27
-	.uaword	0x6bc7
+	.uaword	0x6bb0
 	.uaword	.LBB69
 	.uaword	.LBE69
 	.byte	0x1
 	.byte	0xb4
 	.uleb128 0x34
-	.uaword	0x6bf4
+	.uaword	0x6bdd
 	.uaword	.LLST9
 	.byte	0
 	.byte	0
@@ -12730,70 +12730,70 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7148
+	.uaword	0x7131
 	.uleb128 0x2f
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xb8
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST10
 	.uleb128 0x2b
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0xbb
-	.uaword	0x28f
+	.uaword	0x278
 	.uleb128 0x2c
 	.string	"wdt"
 	.byte	0x1
 	.byte	0xbc
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x30
-	.uaword	0x6b3f
+	.uaword	0x6b28
 	.uaword	.LBB71
 	.uaword	.LBE71
 	.byte	0x1
 	.byte	0xbb
-	.uaword	0x710b
+	.uaword	0x70f4
 	.uleb128 0x28
 	.uaword	.LBB72
 	.uaword	.LBE72
 	.uleb128 0x29
-	.uaword	0x6b61
+	.uaword	0x6b4a
 	.uleb128 0x28
 	.uaword	.LBB73
 	.uaword	.LBE73
 	.uleb128 0x2a
-	.uaword	0x6b6e
+	.uaword	0x6b57
 	.uaword	.LLST11
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x6b7e
+	.uaword	0x6b67
 	.uaword	.LBB74
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
 	.byte	0xbe
-	.uaword	0x712b
+	.uaword	0x7114
 	.uleb128 0x32
-	.uaword	0x6bb4
+	.uaword	0x6b9d
 	.uleb128 0x33
-	.uaword	0x6ba8
+	.uaword	0x6b91
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
 	.uleb128 0x27
-	.uaword	0x6c01
+	.uaword	0x6bea
 	.uaword	.LBB78
 	.uaword	.LBE78
 	.byte	0x1
 	.byte	0xc0
 	.uleb128 0x32
-	.uaword	0x6c35
+	.uaword	0x6c1e
 	.uleb128 0x33
-	.uaword	0x6c29
+	.uaword	0x6c12
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -12809,32 +12809,32 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x71be
+	.uaword	0x71a7
 	.uleb128 0x2f
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xc4
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST12
 	.uleb128 0x30
-	.uaword	0x6bc7
+	.uaword	0x6bb0
 	.uaword	.LBB80
 	.uaword	.LBE80
 	.byte	0x1
 	.byte	0xc6
-	.uaword	0x71a8
+	.uaword	0x7191
 	.uleb128 0x34
-	.uaword	0x6bf4
+	.uaword	0x6bdd
 	.uaword	.LLST13
 	.byte	0
 	.uleb128 0x27
-	.uaword	0x6c42
+	.uaword	0x6c2b
 	.uaword	.LBB82
 	.uaword	.LBE82
 	.byte	0x1
 	.byte	0xc8
 	.uleb128 0x32
-	.uaword	0x6c6d
+	.uaword	0x6c56
 	.byte	0
 	.byte	0
 	.uleb128 0x23
@@ -12848,70 +12848,70 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7288
+	.uaword	0x7271
 	.uleb128 0x2f
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xcc
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST14
 	.uleb128 0x2b
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0xcf
-	.uaword	0x28f
+	.uaword	0x278
 	.uleb128 0x2c
 	.string	"wdt"
 	.byte	0x1
 	.byte	0xd0
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x30
-	.uaword	0x6b3f
+	.uaword	0x6b28
 	.uaword	.LBB84
 	.uaword	.LBE84
 	.byte	0x1
 	.byte	0xcf
-	.uaword	0x724b
+	.uaword	0x7234
 	.uleb128 0x28
 	.uaword	.LBB85
 	.uaword	.LBE85
 	.uleb128 0x29
-	.uaword	0x6b61
+	.uaword	0x6b4a
 	.uleb128 0x28
 	.uaword	.LBB86
 	.uaword	.LBE86
 	.uleb128 0x2a
-	.uaword	0x6b6e
+	.uaword	0x6b57
 	.uaword	.LLST15
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x6b7e
+	.uaword	0x6b67
 	.uaword	.LBB87
 	.uaword	.Ldebug_ranges0+0x30
 	.byte	0x1
 	.byte	0xd2
-	.uaword	0x726b
+	.uaword	0x7254
 	.uleb128 0x32
-	.uaword	0x6bb4
+	.uaword	0x6b9d
 	.uleb128 0x33
-	.uaword	0x6ba8
+	.uaword	0x6b91
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
 	.uleb128 0x27
-	.uaword	0x6c01
+	.uaword	0x6bea
 	.uaword	.LBB91
 	.uaword	.LBE91
 	.byte	0x1
 	.byte	0xd4
 	.uleb128 0x32
-	.uaword	0x6c35
+	.uaword	0x6c1e
 	.uleb128 0x33
-	.uaword	0x6c29
+	.uaword	0x6c12
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -12927,32 +12927,32 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x72fd
+	.uaword	0x72e6
 	.uleb128 0x2f
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xd8
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST16
 	.uleb128 0x30
-	.uaword	0x6bc7
+	.uaword	0x6bb0
 	.uaword	.LBB93
 	.uaword	.LBE93
 	.byte	0x1
 	.byte	0xda
-	.uaword	0x72e7
+	.uaword	0x72d0
 	.uleb128 0x34
-	.uaword	0x6bf4
+	.uaword	0x6bdd
 	.uaword	.LLST17
 	.byte	0
 	.uleb128 0x27
-	.uaword	0x6c42
+	.uaword	0x6c2b
 	.uaword	.LBB95
 	.uaword	.LBE95
 	.byte	0x1
 	.byte	0xdc
 	.uleb128 0x32
-	.uaword	0x6c6d
+	.uaword	0x6c56
 	.byte	0
 	.byte	0
 	.uleb128 0x36
@@ -12961,49 +12961,49 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0xe0
 	.byte	0x1
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LFB224
 	.uaword	.LFE224
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7397
+	.uaword	0x7380
 	.uleb128 0x30
-	.uaword	0x6b3f
+	.uaword	0x6b28
 	.uaword	.LBB97
 	.uaword	.LBE97
 	.byte	0x1
 	.byte	0xe2
-	.uaword	0x736c
+	.uaword	0x7355
 	.uleb128 0x28
 	.uaword	.LBB98
 	.uaword	.LBE98
 	.uleb128 0x29
-	.uaword	0x6b61
+	.uaword	0x6b4a
 	.uleb128 0x28
 	.uaword	.LBB99
 	.uaword	.LBE99
 	.uleb128 0x2a
-	.uaword	0x6b6e
+	.uaword	0x6b57
 	.uaword	.LLST18
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x27
-	.uaword	0x6c7a
+	.uaword	0x6c63
 	.uaword	.LBB100
 	.uaword	.LBE100
 	.byte	0x1
 	.byte	0xe2
 	.uleb128 0x33
-	.uaword	0x6caf
+	.uaword	0x6c98
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x28
 	.uaword	.LBB101
 	.uaword	.LBE101
 	.uleb128 0x2a
-	.uaword	0x6cbb
+	.uaword	0x6ca4
 	.uaword	.LLST19
 	.byte	0
 	.byte	0
@@ -13014,42 +13014,42 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0xe6
 	.byte	0x1
-	.uaword	0x2b0
+	.uaword	0x299
 	.uaword	.LFB225
 	.uaword	.LFE225
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x741d
+	.uaword	0x7406
 	.uleb128 0x30
-	.uaword	0x6b3f
+	.uaword	0x6b28
 	.uaword	.LBB102
 	.uaword	.LBE102
 	.byte	0x1
 	.byte	0xe8
-	.uaword	0x7405
+	.uaword	0x73ee
 	.uleb128 0x28
 	.uaword	.LBB103
 	.uaword	.LBE103
 	.uleb128 0x29
-	.uaword	0x6b61
+	.uaword	0x6b4a
 	.uleb128 0x28
 	.uaword	.LBB104
 	.uaword	.LBE104
 	.uleb128 0x2a
-	.uaword	0x6b6e
+	.uaword	0x6b57
 	.uaword	.LLST20
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x27
-	.uaword	0x6cc8
+	.uaword	0x6cb1
 	.uaword	.LBB105
 	.uaword	.LBE105
 	.byte	0x1
 	.byte	0xe8
 	.uleb128 0x33
-	.uaword	0x6cfc
+	.uaword	0x6ce5
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -13060,15 +13060,15 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0xec
 	.byte	0x1
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LFB226
 	.uaword	.LFE226
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7487
+	.uaword	0x7470
 	.uleb128 0x27
-	.uaword	0x6d09
+	.uaword	0x6cf2
 	.uaword	.LBB107
 	.uaword	.LBE107
 	.byte	0x1
@@ -13077,10 +13077,10 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.uaword	.LBB108
 	.uaword	.LBE108
 	.uleb128 0x2a
-	.uaword	0x6d41
+	.uaword	0x6d2a
 	.uaword	.LLST21
 	.uleb128 0x37
-	.uaword	0x6d4d
+	.uaword	0x6d36
 	.sleb128 -268214032
 	.byte	0
 	.byte	0
@@ -13096,18 +13096,18 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x74be
+	.uaword	0x74a7
 	.uleb128 0x24
 	.uaword	.LASF42
 	.byte	0x1
 	.byte	0xf2
-	.uaword	0x74be
+	.uaword	0x74a7
 	.byte	0x1
 	.byte	0x64
 	.byte	0
 	.uleb128 0x7
 	.byte	0x4
-	.uaword	0x6a08
+	.uaword	0x69f1
 	.uleb128 0x38
 	.byte	0x1
 	.string	"IfxScuWdt_setCpuEndinit"
@@ -13119,44 +13119,44 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7556
+	.uaword	0x753f
 	.uleb128 0x39
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x191
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST22
 	.uleb128 0x3a
-	.uaword	0x6b3f
+	.uaword	0x6b28
 	.uaword	.LBB109
 	.uaword	.LBE109
 	.byte	0x1
 	.uahalf	0x193
-	.uaword	0x7538
+	.uaword	0x7521
 	.uleb128 0x28
 	.uaword	.LBB110
 	.uaword	.LBE110
 	.uleb128 0x29
-	.uaword	0x6b61
+	.uaword	0x6b4a
 	.uleb128 0x28
 	.uaword	.LBB111
 	.uaword	.LBE111
 	.uleb128 0x2a
-	.uaword	0x6b6e
+	.uaword	0x6b57
 	.uaword	.LLST23
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x6c01
+	.uaword	0x6bea
 	.uaword	.LBB112
 	.uaword	.Ldebug_ranges0+0x48
 	.byte	0x1
 	.uahalf	0x193
 	.uleb128 0x32
-	.uaword	0x6c35
+	.uaword	0x6c1e
 	.uleb128 0x33
-	.uaword	0x6c29
+	.uaword	0x6c12
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -13172,41 +13172,41 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x75d0
+	.uaword	0x75b9
 	.uleb128 0x3c
 	.string	"wdt"
 	.byte	0x1
 	.uahalf	0x100
-	.uaword	0x6bc1
+	.uaword	0x6baa
 	.uaword	.LLST24
 	.uleb128 0x39
 	.uaword	.LASF42
 	.byte	0x1
 	.uahalf	0x100
-	.uaword	0x75d0
+	.uaword	0x75b9
 	.uaword	.LLST25
 	.uleb128 0x3d
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x102
-	.uaword	0x5e8b
+	.uaword	0x5e74
 	.uaword	.LLST26
 	.uleb128 0x3d
 	.uaword	.LASF43
 	.byte	0x1
 	.uahalf	0x103
-	.uaword	0x5ecf
+	.uaword	0x5eb8
 	.uaword	.LLST27
 	.uleb128 0x3e
 	.uaword	.LVL72
 	.byte	0x1
-	.uaword	0x74c4
+	.uaword	0x74ad
 	.byte	0
 	.uleb128 0x7
 	.byte	0x4
-	.uaword	0x75d6
+	.uaword	0x75bf
 	.uleb128 0x3f
-	.uaword	0x6a08
+	.uaword	0x69f1
 	.uleb128 0x38
 	.byte	0x1
 	.string	"IfxScuWdt_serviceCpuWatchdog"
@@ -13218,17 +13218,17 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7628
+	.uaword	0x7611
 	.uleb128 0x39
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x185
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST28
 	.uleb128 0x3e
 	.uaword	.LVL76
 	.byte	0x1
-	.uaword	0x74c4
+	.uaword	0x74ad
 	.byte	0
 	.uleb128 0x38
 	.byte	0x1
@@ -13241,21 +13241,21 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7683
+	.uaword	0x766c
 	.uleb128 0x39
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x197
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST29
 	.uleb128 0x40
-	.uaword	0x6c42
+	.uaword	0x6c2b
 	.uaword	.LBB116
 	.uaword	.LBE116
 	.byte	0x1
 	.uahalf	0x199
 	.uleb128 0x34
-	.uaword	0x6c6d
+	.uaword	0x6c56
 	.uaword	.LLST30
 	.byte	0
 	.byte	0
@@ -13270,35 +13270,35 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7700
+	.uaword	0x76e9
 	.uleb128 0x3c
 	.string	"wdt"
 	.byte	0x1
 	.uahalf	0x142
-	.uaword	0x6d5a
+	.uaword	0x6d43
 	.uaword	.LLST31
 	.uleb128 0x39
 	.uaword	.LASF42
 	.byte	0x1
 	.uahalf	0x142
-	.uaword	0x75d0
+	.uaword	0x75b9
 	.uaword	.LLST32
 	.uleb128 0x3d
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x144
-	.uaword	0x5f55
+	.uaword	0x5f3e
 	.uaword	.LLST33
 	.uleb128 0x3d
 	.uaword	.LASF43
 	.byte	0x1
 	.uahalf	0x145
-	.uaword	0x5f97
+	.uaword	0x5f80
 	.uaword	.LLST34
 	.uleb128 0x3e
 	.uaword	.LVL89
 	.byte	0x1
-	.uaword	0x7628
+	.uaword	0x7611
 	.byte	0
 	.uleb128 0x38
 	.byte	0x1
@@ -13311,17 +13311,17 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7750
+	.uaword	0x7739
 	.uleb128 0x39
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x18b
-	.uaword	0x25d
+	.uaword	0x246
 	.uaword	.LLST35
 	.uleb128 0x3e
 	.uaword	.LVL93
 	.byte	0x1
-	.uaword	0x7628
+	.uaword	0x7611
 	.byte	0
 	.uleb128 0x41
 	.byte	0x1
@@ -13329,89 +13329,89 @@ IfxScuWdt_enableWatchdogWithDebugger:
 	.byte	0x1
 	.uahalf	0x19d
 	.byte	0x1
-	.uaword	0x2b0
+	.uaword	0x299
 	.uaword	.LFB234
 	.uaword	.LFE234
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7862
+	.uaword	0x784b
 	.uleb128 0x42
 	.string	"status"
 	.byte	0x1
 	.uahalf	0x19f
-	.uaword	0x2b0
+	.uaword	0x299
 	.uaword	.LLST36
 	.uleb128 0x42
 	.string	"oenEnabled"
 	.byte	0x1
 	.uahalf	0x19f
-	.uaword	0x2b0
+	.uaword	0x299
 	.uaword	.LLST37
 	.uleb128 0x42
 	.string	"watchdogEnabled"
 	.byte	0x1
 	.uahalf	0x19f
-	.uaword	0x2b0
+	.uaword	0x299
 	.uaword	.LLST38
 	.uleb128 0x43
 	.string	"oenNotEnabled"
 	.byte	0x1
 	.uahalf	0x1a0
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0x1
 	.uleb128 0x43
 	.string	"watchdogNotEnabled"
 	.byte	0x1
 	.uahalf	0x1a0
-	.uaword	0x2b0
+	.uaword	0x299
 	.byte	0x1
 	.uleb128 0x42
 	.string	"ostateValue"
 	.byte	0x1
 	.uahalf	0x1a1
-	.uaword	0x28f
+	.uaword	0x278
 	.uaword	.LLST39
 	.uleb128 0x44
 	.string	"oecPtr"
 	.byte	0x1
 	.uahalf	0x1a3
-	.uaword	0x7862
+	.uaword	0x784b
 	.sleb128 -268434312
 	.uleb128 0x44
 	.string	"ostatePtr"
 	.byte	0x1
 	.uahalf	0x1a4
-	.uaword	0x7862
+	.uaword	0x784b
 	.sleb128 -268434304
 	.uleb128 0x44
 	.string	"ocntrlPtr"
 	.byte	0x1
 	.uahalf	0x1a5
-	.uaword	0x7862
+	.uaword	0x784b
 	.sleb128 -268434308
 	.byte	0
 	.uleb128 0x7
 	.byte	0x4
-	.uaword	0x7868
+	.uaword	0x7851
 	.uleb128 0x11
-	.uaword	0x28f
+	.uaword	0x278
 	.uleb128 0x18
-	.uaword	0x31f
-	.uaword	0x787d
+	.uaword	0x308
+	.uaword	0x7866
 	.uleb128 0x19
-	.uaword	0x6846
+	.uaword	0x682f
 	.byte	0x2
 	.byte	0
 	.uleb128 0x45
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x9
 	.byte	0x96
-	.uaword	0x789a
+	.uaword	0x7883
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3f
-	.uaword	0x786d
+	.uaword	0x7856
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
