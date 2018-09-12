@@ -15,7 +15,9 @@
 #include "IfxSrc_reg.h"
 #include "IfxSrc_regdef.h"
 #include <Scu/Std/IfxScuEru.h>
+#include "Motors_func.h"
 
 #include "PWM_config.h"
 
 void Encoders_config();
+

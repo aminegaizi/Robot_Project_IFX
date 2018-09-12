@@ -1302,7 +1302,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.file 11 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuWdt.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x32d3
+	.uaword	0x32ea
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1310,7 +1310,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/iLLD/TC29B/Tricore/Qspi/Std/IfxQspi.c"
-	.string	"C:\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
 	.uaword	.Ldebug_ranges0+0x50
 	.uaword	0
 	.uaword	0
@@ -1343,7 +1343,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"uint8"
 	.byte	0x4
 	.byte	0x59
-	.uaword	0x1d1
+	.uaword	0x1e8
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -1352,7 +1352,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"sint16"
 	.byte	0x4
 	.byte	0x5a
-	.uaword	0x1f0
+	.uaword	0x207
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x5
@@ -1361,7 +1361,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"uint16"
 	.byte	0x4
 	.byte	0x5b
-	.uaword	0x20b
+	.uaword	0x222
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -1370,17 +1370,17 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"sint32"
 	.byte	0x4
 	.byte	0x5c
-	.uaword	0x194
+	.uaword	0x1ab
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x4
 	.byte	0x5d
-	.uaword	0x1a0
+	.uaword	0x1b7
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x4
 	.byte	0x5e
-	.uaword	0x174
+	.uaword	0x18b
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -1389,7 +1389,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"boolean"
 	.byte	0x4
 	.byte	0x68
-	.uaword	0x1d1
+	.uaword	0x1e8
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -1406,23 +1406,23 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"pvoid"
 	.byte	0x5
 	.byte	0x28
-	.uaword	0x2a5
+	.uaword	0x2bc
 	.uleb128 0x4
 	.byte	0x4
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x2ad
+	.uaword	0x2c4
 	.uleb128 0x6
 	.uleb128 0x3
 	.string	"Ifx_SizeT"
 	.byte	0x5
 	.byte	0x4a
-	.uaword	0x1e2
+	.uaword	0x1f9
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x5
 	.byte	0x69
-	.uaword	0x2f3
+	.uaword	0x30a
 	.uleb128 0x8
 	.string	"Ifx_ParityMode_even"
 	.sleb128 0
@@ -1434,36 +1434,36 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x8
 	.byte	0x5
 	.byte	0x7d
-	.uaword	0x319
+	.uaword	0x330
 	.uleb128 0xa
 	.string	"module"
 	.byte	0x5
 	.byte	0x7f
-	.uaword	0x2a7
+	.uaword	0x2be
 	.byte	0
 	.uleb128 0xa
 	.string	"index"
 	.byte	0x5
 	.byte	0x80
-	.uaword	0x221
+	.uaword	0x238
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x5
 	.byte	0x81
-	.uaword	0x2f3
+	.uaword	0x30a
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2d
-	.uaword	0x548
+	.uaword	0x55f
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x6
 	.byte	0x2f
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1472,7 +1472,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN1"
 	.byte	0x6
 	.byte	0x30
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1481,7 +1481,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN2"
 	.byte	0x6
 	.byte	0x31
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1490,7 +1490,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN3"
 	.byte	0x6
 	.byte	0x32
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1499,7 +1499,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN4"
 	.byte	0x6
 	.byte	0x33
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1508,7 +1508,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN5"
 	.byte	0x6
 	.byte	0x34
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1517,7 +1517,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN6"
 	.byte	0x6
 	.byte	0x35
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1526,7 +1526,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN7"
 	.byte	0x6
 	.byte	0x36
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1535,7 +1535,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN8"
 	.byte	0x6
 	.byte	0x37
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1544,7 +1544,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN9"
 	.byte	0x6
 	.byte	0x38
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1553,7 +1553,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN10"
 	.byte	0x6
 	.byte	0x39
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1562,7 +1562,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN11"
 	.byte	0x6
 	.byte	0x3a
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1571,7 +1571,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN12"
 	.byte	0x6
 	.byte	0x3b
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1580,7 +1580,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN13"
 	.byte	0x6
 	.byte	0x3c
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1589,7 +1589,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN14"
 	.byte	0x6
 	.byte	0x3d
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1598,7 +1598,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN15"
 	.byte	0x6
 	.byte	0x3e
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1607,7 +1607,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN16"
 	.byte	0x6
 	.byte	0x3f
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1616,7 +1616,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN17"
 	.byte	0x6
 	.byte	0x40
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1625,7 +1625,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN18"
 	.byte	0x6
 	.byte	0x41
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1634,7 +1634,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN19"
 	.byte	0x6
 	.byte	0x42
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1643,7 +1643,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN20"
 	.byte	0x6
 	.byte	0x43
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1652,7 +1652,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN21"
 	.byte	0x6
 	.byte	0x44
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1661,7 +1661,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN22"
 	.byte	0x6
 	.byte	0x45
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1670,7 +1670,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN23"
 	.byte	0x6
 	.byte	0x46
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1679,7 +1679,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN24"
 	.byte	0x6
 	.byte	0x47
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1688,7 +1688,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN25"
 	.byte	0x6
 	.byte	0x48
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1697,7 +1697,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN26"
 	.byte	0x6
 	.byte	0x49
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1706,7 +1706,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN27"
 	.byte	0x6
 	.byte	0x4a
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1715,7 +1715,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN28"
 	.byte	0x6
 	.byte	0x4b
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1724,7 +1724,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN29"
 	.byte	0x6
 	.byte	0x4c
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1733,7 +1733,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN30"
 	.byte	0x6
 	.byte	0x4d
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1742,7 +1742,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN31"
 	.byte	0x6
 	.byte	0x4e
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1752,18 +1752,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_ACCEN0_Bits"
 	.byte	0x6
 	.byte	0x4f
-	.uaword	0x333
+	.uaword	0x34a
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x52
-	.uaword	0x592
+	.uaword	0x5a9
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x6
 	.byte	0x54
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1773,18 +1773,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_ACCEN1_Bits"
 	.byte	0x6
 	.byte	0x55
-	.uaword	0x564
+	.uaword	0x57b
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_BACON_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x58
-	.uaword	0x69a
+	.uaword	0x6b1
 	.uleb128 0xc
 	.string	"LAST"
 	.byte	0x6
 	.byte	0x5a
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1793,7 +1793,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"IPRE"
 	.byte	0x6
 	.byte	0x5b
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -1802,7 +1802,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"IDLE"
 	.byte	0x6
 	.byte	0x5c
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -1811,7 +1811,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"LPRE"
 	.byte	0x6
 	.byte	0x5d
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -1820,7 +1820,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"LEAD"
 	.byte	0x6
 	.byte	0x5e
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x13
@@ -1829,7 +1829,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TPRE"
 	.byte	0x6
 	.byte	0x5f
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -1838,7 +1838,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TRAIL"
 	.byte	0x6
 	.byte	0x60
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1847,7 +1847,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PARTYP"
 	.byte	0x6
 	.byte	0x61
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1856,7 +1856,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"UINT"
 	.byte	0x6
 	.byte	0x62
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1865,7 +1865,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"MSB"
 	.byte	0x6
 	.byte	0x63
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1874,7 +1874,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"BYTE"
 	.byte	0x6
 	.byte	0x64
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1883,7 +1883,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"DL"
 	.byte	0x6
 	.byte	0x65
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x4
@@ -1892,7 +1892,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"CS"
 	.byte	0x6
 	.byte	0x66
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1902,18 +1902,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_BACON_Bits"
 	.byte	0x6
 	.byte	0x67
-	.uaword	0x5ae
+	.uaword	0x5c5
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_BACONENTRY_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x6a
-	.uaword	0x6e5
+	.uaword	0x6fc
 	.uleb128 0xc
 	.string	"E"
 	.byte	0x6
 	.byte	0x6c
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1923,18 +1923,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_BACONENTRY_Bits"
 	.byte	0x6
 	.byte	0x6d
-	.uaword	0x6b5
+	.uaword	0x6cc
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_CAPCON_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x70
-	.uaword	0x7cb
+	.uaword	0x7e2
 	.uleb128 0xc
 	.string	"CAP"
 	.byte	0x6
 	.byte	0x72
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0xf
 	.byte	0x11
@@ -1943,7 +1943,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"OVF"
 	.byte	0x6
 	.byte	0x73
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1952,7 +1952,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EDGECON"
 	.byte	0x6
 	.byte	0x74
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -1961,7 +1961,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"INS"
 	.byte	0x6
 	.byte	0x75
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -1970,7 +1970,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN"
 	.byte	0x6
 	.byte	0x76
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1979,7 +1979,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"reserved_21"
 	.byte	0x6
 	.byte	0x77
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x7
 	.byte	0x4
@@ -1988,7 +1988,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"CAPC"
 	.byte	0x6
 	.byte	0x78
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1997,7 +1997,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"CAPS"
 	.byte	0x6
 	.byte	0x79
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2006,7 +2006,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"CAPF"
 	.byte	0x6
 	.byte	0x7a
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2015,7 +2015,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"CAPSEL"
 	.byte	0x6
 	.byte	0x7b
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2025,18 +2025,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_CAPCON_Bits"
 	.byte	0x6
 	.byte	0x7c
-	.uaword	0x705
+	.uaword	0x71c
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_CLC_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x7f
-	.uaword	0x858
+	.uaword	0x86f
 	.uleb128 0xc
 	.string	"DISR"
 	.byte	0x6
 	.byte	0x81
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2045,7 +2045,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"DISS"
 	.byte	0x6
 	.byte	0x82
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2054,7 +2054,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x83
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2063,7 +2063,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EDIS"
 	.byte	0x6
 	.byte	0x84
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2072,7 +2072,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"reserved_4"
 	.byte	0x6
 	.byte	0x85
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2082,18 +2082,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_CLC_Bits"
 	.byte	0x6
 	.byte	0x86
-	.uaword	0x7e7
+	.uaword	0x7fe
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_DATAENTRY_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x89
-	.uaword	0x8a0
+	.uaword	0x8b7
 	.uleb128 0xc
 	.string	"E"
 	.byte	0x6
 	.byte	0x8b
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2103,18 +2103,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_DATAENTRY_Bits"
 	.byte	0x6
 	.byte	0x8c
-	.uaword	0x871
+	.uaword	0x888
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_ECON_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x8f
-	.uaword	0x95d
+	.uaword	0x974
 	.uleb128 0xc
 	.string	"Q"
 	.byte	0x6
 	.byte	0x91
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2123,7 +2123,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"A"
 	.byte	0x6
 	.byte	0x92
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2132,7 +2132,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"B"
 	.byte	0x6
 	.byte	0x93
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -2141,7 +2141,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"C"
 	.byte	0x6
 	.byte	0x94
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -2150,7 +2150,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"CPH"
 	.byte	0x6
 	.byte	0x95
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2159,7 +2159,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"CPOL"
 	.byte	0x6
 	.byte	0x96
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2168,7 +2168,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PAREN"
 	.byte	0x6
 	.byte	0x97
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2177,7 +2177,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x98
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0xf
 	.byte	0x2
@@ -2186,7 +2186,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"BE"
 	.byte	0x6
 	.byte	0x99
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -2196,18 +2196,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_ECON_Bits"
 	.byte	0x6
 	.byte	0x9a
-	.uaword	0x8bf
+	.uaword	0x8d6
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_FLAGSCLEAR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x9d
-	.uaword	0xa25
+	.uaword	0xa3c
 	.uleb128 0xc
 	.string	"ERRORCLEARS"
 	.byte	0x6
 	.byte	0x9f
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -2216,7 +2216,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TXC"
 	.byte	0x6
 	.byte	0xa0
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2225,7 +2225,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RXC"
 	.byte	0x6
 	.byte	0xa1
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2234,7 +2234,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PT1C"
 	.byte	0x6
 	.byte	0xa2
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2243,7 +2243,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PT2C"
 	.byte	0x6
 	.byte	0xa3
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2252,7 +2252,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF3
 	.byte	0x6
 	.byte	0xa4
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -2261,7 +2261,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"USRC"
 	.byte	0x6
 	.byte	0xa5
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2270,7 +2270,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"reserved_16"
 	.byte	0x6
 	.byte	0xa6
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2280,18 +2280,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_FLAGSCLEAR_Bits"
 	.byte	0x6
 	.byte	0xa7
-	.uaword	0x977
+	.uaword	0x98e
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_GLOBALCON1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xaa
-	.uaword	0xb55
+	.uaword	0xb6c
 	.uleb128 0xc
 	.string	"ERRORENS"
 	.byte	0x6
 	.byte	0xac
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -2300,7 +2300,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TXEN"
 	.byte	0x6
 	.byte	0xad
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2309,7 +2309,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RXEN"
 	.byte	0x6
 	.byte	0xae
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2318,7 +2318,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PT1EN"
 	.byte	0x6
 	.byte	0xaf
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2327,7 +2327,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PT2EN"
 	.byte	0x6
 	.byte	0xb0
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2336,7 +2336,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF3
 	.byte	0x6
 	.byte	0xb1
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -2345,7 +2345,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"USREN"
 	.byte	0x6
 	.byte	0xb2
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2354,7 +2354,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TXFIFOINT"
 	.byte	0x6
 	.byte	0xb3
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -2363,7 +2363,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RXFIFOINT"
 	.byte	0x6
 	.byte	0xb4
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -2372,7 +2372,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PT1"
 	.byte	0x6
 	.byte	0xb5
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -2381,7 +2381,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PT2"
 	.byte	0x6
 	.byte	0xb6
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x6
@@ -2390,7 +2390,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TXFM"
 	.byte	0x6
 	.byte	0xb7
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -2399,7 +2399,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RXFM"
 	.byte	0x6
 	.byte	0xb8
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2408,7 +2408,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xb9
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -2418,18 +2418,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_GLOBALCON1_Bits"
 	.byte	0x6
 	.byte	0xba
-	.uaword	0xa45
+	.uaword	0xa5c
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_GLOBALCON_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xbd
-	.uaword	0xc78
+	.uaword	0xc8f
 	.uleb128 0xc
 	.string	"TQ"
 	.byte	0x6
 	.byte	0xbf
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2438,7 +2438,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xc0
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2447,7 +2447,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SI"
 	.byte	0x6
 	.byte	0xc1
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2456,7 +2456,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EXPECT"
 	.byte	0x6
 	.byte	0xc2
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -2465,7 +2465,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"LB"
 	.byte	0x6
 	.byte	0xc3
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2474,7 +2474,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"DEL0"
 	.byte	0x6
 	.byte	0xc4
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2483,7 +2483,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"STROBE"
 	.byte	0x6
 	.byte	0xc5
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -2492,7 +2492,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SRF"
 	.byte	0x6
 	.byte	0xc6
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2501,7 +2501,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"STIP"
 	.byte	0x6
 	.byte	0xc7
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2510,7 +2510,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"reserved_23"
 	.byte	0x6
 	.byte	0xc8
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2519,7 +2519,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"EN"
 	.byte	0x6
 	.byte	0xc9
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2528,7 +2528,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"MS"
 	.byte	0x6
 	.byte	0xca
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x5
@@ -2537,7 +2537,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"AREN"
 	.byte	0x6
 	.byte	0xcb
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2546,7 +2546,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RESETS"
 	.byte	0x6
 	.byte	0xcc
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -2556,18 +2556,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_GLOBALCON_Bits"
 	.byte	0x6
 	.byte	0xcd
-	.uaword	0xb75
+	.uaword	0xb8c
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_ID_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xd0
-	.uaword	0xcec
+	.uaword	0xd03
 	.uleb128 0xc
 	.string	"MODREV"
 	.byte	0x6
 	.byte	0xd2
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2576,7 +2576,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"MODTYPE"
 	.byte	0x6
 	.byte	0xd3
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2585,7 +2585,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"MODNUMBER"
 	.byte	0x6
 	.byte	0xd4
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2595,18 +2595,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_ID_Bits"
 	.byte	0x6
 	.byte	0xd5
-	.uaword	0xc97
+	.uaword	0xcae
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_KRST0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xd8
-	.uaword	0xd53
+	.uaword	0xd6a
 	.uleb128 0xc
 	.string	"RST"
 	.byte	0x6
 	.byte	0xda
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2615,7 +2615,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RSTSTAT"
 	.byte	0x6
 	.byte	0xdb
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2624,7 +2624,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xdc
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2634,18 +2634,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_KRST0_Bits"
 	.byte	0x6
 	.byte	0xdd
-	.uaword	0xd04
+	.uaword	0xd1b
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_KRST1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xe0
-	.uaword	0xdaa
+	.uaword	0xdc1
 	.uleb128 0xc
 	.string	"RST"
 	.byte	0x6
 	.byte	0xe2
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2654,7 +2654,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xe3
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -2664,18 +2664,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_KRST1_Bits"
 	.byte	0x6
 	.byte	0xe4
-	.uaword	0xd6e
+	.uaword	0xd85
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xe7
-	.uaword	0xe03
+	.uaword	0xe1a
 	.uleb128 0xc
 	.string	"CLR"
 	.byte	0x6
 	.byte	0xe9
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2684,7 +2684,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xea
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -2694,18 +2694,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_KRSTCLR_Bits"
 	.byte	0x6
 	.byte	0xeb
-	.uaword	0xdc5
+	.uaword	0xddc
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_MIXENTRY_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xee
-	.uaword	0xe4e
+	.uaword	0xe65
 	.uleb128 0xc
 	.string	"E"
 	.byte	0x6
 	.byte	0xf0
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2715,18 +2715,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_MIXENTRY_Bits"
 	.byte	0x6
 	.byte	0xf1
-	.uaword	0xe20
+	.uaword	0xe37
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_OCS_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xf4
-	.uaword	0xed8
+	.uaword	0xeef
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x6
 	.byte	0xf6
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -2735,7 +2735,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SUS"
 	.byte	0x6
 	.byte	0xf7
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -2744,7 +2744,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SUS_P"
 	.byte	0x6
 	.byte	0xf8
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2753,7 +2753,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SUSSTA"
 	.byte	0x6
 	.byte	0xf9
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2762,7 +2762,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xfa
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -2772,18 +2772,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_OCS_Bits"
 	.byte	0x6
 	.byte	0xfb
-	.uaword	0xe6c
+	.uaword	0xe83
 	.uleb128 0xb
 	.string	"_Ifx_QSPI_PISEL_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xfe
-	.uaword	0xfaa
+	.uaword	0xfc1
 	.uleb128 0xe
 	.string	"MRIS"
 	.byte	0x6
 	.uahalf	0x100
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2792,7 +2792,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"reserved_3"
 	.byte	0x6
 	.uahalf	0x101
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2801,7 +2801,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SRIS"
 	.byte	0x6
 	.uahalf	0x102
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -2810,7 +2810,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"reserved_7"
 	.byte	0x6
 	.uahalf	0x103
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2819,7 +2819,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SCIS"
 	.byte	0x6
 	.uahalf	0x104
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -2828,7 +2828,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"reserved_11"
 	.byte	0x6
 	.uahalf	0x105
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2837,7 +2837,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SLSIS"
 	.byte	0x6
 	.uahalf	0x106
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -2846,7 +2846,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x107
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x11
 	.byte	0
@@ -2856,18 +2856,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_PISEL_Bits"
 	.byte	0x6
 	.uahalf	0x108
-	.uaword	0xef1
+	.uaword	0xf08
 	.uleb128 0x11
 	.string	"_Ifx_QSPI_RXEXIT_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x10b
-	.uaword	0xff4
+	.uaword	0x100b
 	.uleb128 0xe
 	.string	"E"
 	.byte	0x6
 	.uahalf	0x10d
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2877,18 +2877,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_RXEXIT_Bits"
 	.byte	0x6
 	.uahalf	0x10e
-	.uaword	0xfc6
+	.uaword	0xfdd
 	.uleb128 0x11
 	.string	"_Ifx_QSPI_RXEXITD_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x111
-	.uaword	0x1040
+	.uaword	0x1057
 	.uleb128 0xe
 	.string	"E"
 	.byte	0x6
 	.uahalf	0x113
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2898,18 +2898,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_RXEXITD_Bits"
 	.byte	0x6
 	.uahalf	0x114
-	.uaword	0x1011
+	.uaword	0x1028
 	.uleb128 0x11
 	.string	"_Ifx_QSPI_SSOC_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x117
-	.uaword	0x109c
+	.uaword	0x10b3
 	.uleb128 0xe
 	.string	"AOL"
 	.byte	0x6
 	.uahalf	0x119
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2918,7 +2918,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"OEN"
 	.byte	0x6
 	.uahalf	0x11a
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2928,18 +2928,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_SSOC_Bits"
 	.byte	0x6
 	.uahalf	0x11b
-	.uaword	0x105e
+	.uaword	0x1075
 	.uleb128 0x11
 	.string	"_Ifx_QSPI_STATUS1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x11e
-	.uaword	0x1141
+	.uaword	0x1158
 	.uleb128 0xe
 	.string	"BITCOUNT"
 	.byte	0x6
 	.uahalf	0x120
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2948,7 +2948,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF5
 	.byte	0x6
 	.uahalf	0x121
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x14
 	.byte	0x4
@@ -2957,7 +2957,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"BRDEN"
 	.byte	0x6
 	.uahalf	0x122
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2966,7 +2966,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"BRD"
 	.byte	0x6
 	.uahalf	0x123
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2975,7 +2975,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SPDEN"
 	.byte	0x6
 	.uahalf	0x124
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2984,7 +2984,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SPD"
 	.byte	0x6
 	.uahalf	0x125
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2994,18 +2994,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_STATUS1_Bits"
 	.byte	0x6
 	.uahalf	0x126
-	.uaword	0x10b7
+	.uaword	0x10ce
 	.uleb128 0x11
 	.string	"_Ifx_QSPI_STATUS_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x129
-	.uaword	0x1270
+	.uaword	0x1287
 	.uleb128 0xe
 	.string	"ERRORFLAGS"
 	.byte	0x6
 	.uahalf	0x12b
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -3014,7 +3014,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TXF"
 	.byte	0x6
 	.uahalf	0x12c
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3023,7 +3023,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RXF"
 	.byte	0x6
 	.uahalf	0x12d
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3032,7 +3032,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PT1F"
 	.byte	0x6
 	.uahalf	0x12e
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3041,7 +3041,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PT2F"
 	.byte	0x6
 	.uahalf	0x12f
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3050,7 +3050,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LASF3
 	.byte	0x6
 	.uahalf	0x130
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -3059,7 +3059,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"USRF"
 	.byte	0x6
 	.uahalf	0x131
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3068,7 +3068,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TXFIFOLEVEL"
 	.byte	0x6
 	.uahalf	0x132
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3077,7 +3077,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RXFIFOLEVEL"
 	.byte	0x6
 	.uahalf	0x133
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xa
@@ -3086,7 +3086,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SLAVESEL"
 	.byte	0x6
 	.uahalf	0x134
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x6
@@ -3095,7 +3095,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"RPV"
 	.byte	0x6
 	.uahalf	0x135
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3104,7 +3104,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"TPV"
 	.byte	0x6
 	.uahalf	0x136
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3113,7 +3113,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"PHASE"
 	.byte	0x6
 	.uahalf	0x137
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -3123,18 +3123,18 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_STATUS_Bits"
 	.byte	0x6
 	.uahalf	0x138
-	.uaword	0x115f
+	.uaword	0x1176
 	.uleb128 0x11
 	.string	"_Ifx_QSPI_XXLCON_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x13b
-	.uaword	0x12d3
+	.uaword	0x12ea
 	.uleb128 0xe
 	.string	"XDL"
 	.byte	0x6
 	.uahalf	0x13d
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -3143,7 +3143,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"BYTECOUNT"
 	.byte	0x6
 	.uahalf	0x13e
-	.uaword	0x184
+	.uaword	0x19b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3153,823 +3153,823 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Ifx_QSPI_XXLCON_Bits"
 	.byte	0x6
 	.uahalf	0x13f
-	.uaword	0x128d
+	.uaword	0x12a4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x147
-	.uaword	0x1318
+	.uaword	0x132f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x149
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x14a
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x14b
-	.uaword	0x548
+	.uaword	0x55f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_ACCEN0"
 	.byte	0x6
 	.uahalf	0x14c
-	.uaword	0x12f0
+	.uaword	0x1307
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x14f
-	.uaword	0x1358
+	.uaword	0x136f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x151
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x152
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x153
-	.uaword	0x592
+	.uaword	0x5a9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_ACCEN1"
 	.byte	0x6
 	.uahalf	0x154
-	.uaword	0x1330
+	.uaword	0x1347
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x157
-	.uaword	0x1398
+	.uaword	0x13af
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x159
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x15a
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x15b
-	.uaword	0x69a
+	.uaword	0x6b1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_BACON"
 	.byte	0x6
 	.uahalf	0x15c
-	.uaword	0x1370
+	.uaword	0x1387
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x15f
-	.uaword	0x13d7
+	.uaword	0x13ee
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x161
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x162
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x163
-	.uaword	0x6e5
+	.uaword	0x6fc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_BACONENTRY"
 	.byte	0x6
 	.uahalf	0x164
-	.uaword	0x13af
+	.uaword	0x13c6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x167
-	.uaword	0x141b
+	.uaword	0x1432
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x169
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x16a
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x16b
-	.uaword	0x7cb
+	.uaword	0x7e2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_CAPCON"
 	.byte	0x6
 	.uahalf	0x16c
-	.uaword	0x13f3
+	.uaword	0x140a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x16f
-	.uaword	0x145b
+	.uaword	0x1472
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x171
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x172
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x173
-	.uaword	0x858
+	.uaword	0x86f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_CLC"
 	.byte	0x6
 	.uahalf	0x174
-	.uaword	0x1433
+	.uaword	0x144a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x177
-	.uaword	0x1498
+	.uaword	0x14af
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x179
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x17a
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x17b
-	.uaword	0x8a0
+	.uaword	0x8b7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_DATAENTRY"
 	.byte	0x6
 	.uahalf	0x17c
-	.uaword	0x1470
+	.uaword	0x1487
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x17f
-	.uaword	0x14db
+	.uaword	0x14f2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x181
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x182
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x183
-	.uaword	0x95d
+	.uaword	0x974
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_ECON"
 	.byte	0x6
 	.uahalf	0x184
-	.uaword	0x14b3
+	.uaword	0x14ca
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x187
-	.uaword	0x1519
+	.uaword	0x1530
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x189
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x18a
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x18b
-	.uaword	0xa25
+	.uaword	0xa3c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_FLAGSCLEAR"
 	.byte	0x6
 	.uahalf	0x18c
-	.uaword	0x14f1
+	.uaword	0x1508
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x18f
-	.uaword	0x155d
+	.uaword	0x1574
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x191
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x192
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x193
-	.uaword	0xc78
+	.uaword	0xc8f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_GLOBALCON"
 	.byte	0x6
 	.uahalf	0x194
-	.uaword	0x1535
+	.uaword	0x154c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x197
-	.uaword	0x15a0
+	.uaword	0x15b7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x199
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x19a
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x19b
-	.uaword	0xb55
+	.uaword	0xb6c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_GLOBALCON1"
 	.byte	0x6
 	.uahalf	0x19c
-	.uaword	0x1578
+	.uaword	0x158f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x19f
-	.uaword	0x15e4
+	.uaword	0x15fb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1a1
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1a2
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1a3
-	.uaword	0xcec
+	.uaword	0xd03
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_ID"
 	.byte	0x6
 	.uahalf	0x1a4
-	.uaword	0x15bc
+	.uaword	0x15d3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1a7
-	.uaword	0x1620
+	.uaword	0x1637
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1a9
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1aa
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1ab
-	.uaword	0xd53
+	.uaword	0xd6a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_KRST0"
 	.byte	0x6
 	.uahalf	0x1ac
-	.uaword	0x15f8
+	.uaword	0x160f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1af
-	.uaword	0x165f
+	.uaword	0x1676
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1b1
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1b2
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1b3
-	.uaword	0xdaa
+	.uaword	0xdc1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_KRST1"
 	.byte	0x6
 	.uahalf	0x1b4
-	.uaword	0x1637
+	.uaword	0x164e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1b7
-	.uaword	0x169e
+	.uaword	0x16b5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1b9
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1ba
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1bb
-	.uaword	0xe03
+	.uaword	0xe1a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_KRSTCLR"
 	.byte	0x6
 	.uahalf	0x1bc
-	.uaword	0x1676
+	.uaword	0x168d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1bf
-	.uaword	0x16df
+	.uaword	0x16f6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1c1
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1c2
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1c3
-	.uaword	0xe4e
+	.uaword	0xe65
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_MIXENTRY"
 	.byte	0x6
 	.uahalf	0x1c4
-	.uaword	0x16b7
+	.uaword	0x16ce
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1c7
-	.uaword	0x1721
+	.uaword	0x1738
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1c9
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1ca
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1cb
-	.uaword	0xed8
+	.uaword	0xeef
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_OCS"
 	.byte	0x6
 	.uahalf	0x1cc
-	.uaword	0x16f9
+	.uaword	0x1710
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1cf
-	.uaword	0x175e
+	.uaword	0x1775
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1d1
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1d2
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1d3
-	.uaword	0xfaa
+	.uaword	0xfc1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_PISEL"
 	.byte	0x6
 	.uahalf	0x1d4
-	.uaword	0x1736
+	.uaword	0x174d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1d7
-	.uaword	0x179d
+	.uaword	0x17b4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1d9
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1da
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1db
-	.uaword	0xff4
+	.uaword	0x100b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_RXEXIT"
 	.byte	0x6
 	.uahalf	0x1dc
-	.uaword	0x1775
+	.uaword	0x178c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1df
-	.uaword	0x17dd
+	.uaword	0x17f4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1e1
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1e2
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1e3
-	.uaword	0x1040
+	.uaword	0x1057
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_RXEXITD"
 	.byte	0x6
 	.uahalf	0x1e4
-	.uaword	0x17b5
+	.uaword	0x17cc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1e7
-	.uaword	0x181e
+	.uaword	0x1835
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1e9
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1ea
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1eb
-	.uaword	0x109c
+	.uaword	0x10b3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_SSOC"
 	.byte	0x6
 	.uahalf	0x1ec
-	.uaword	0x17f6
+	.uaword	0x180d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1ef
-	.uaword	0x185c
+	.uaword	0x1873
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1f1
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1f2
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1f3
-	.uaword	0x1270
+	.uaword	0x1287
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_STATUS"
 	.byte	0x6
 	.uahalf	0x1f4
-	.uaword	0x1834
+	.uaword	0x184b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1f7
-	.uaword	0x189c
+	.uaword	0x18b3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1f9
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1fa
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1fb
-	.uaword	0x1141
+	.uaword	0x1158
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_STATUS1"
 	.byte	0x6
 	.uahalf	0x1fc
-	.uaword	0x1874
+	.uaword	0x188b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1ff
-	.uaword	0x18dd
+	.uaword	0x18f4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x201
-	.uaword	0x184
+	.uaword	0x19b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x202
-	.uaword	0x17d
+	.uaword	0x194
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x203
-	.uaword	0x12d3
+	.uaword	0x12ea
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI_XXLCON"
 	.byte	0x6
 	.uahalf	0x204
-	.uaword	0x18b5
+	.uaword	0x18cc
 	.uleb128 0x14
 	.string	"_Ifx_QSPI"
 	.uahalf	0x100
 	.byte	0x6
 	.uahalf	0x20f
-	.uaword	0x1b0c
+	.uaword	0x1b23
 	.uleb128 0x15
 	.string	"CLC"
 	.byte	0x6
 	.uahalf	0x211
-	.uaword	0x145b
+	.uaword	0x1472
 	.byte	0
 	.uleb128 0x15
 	.string	"PISEL"
 	.byte	0x6
 	.uahalf	0x212
-	.uaword	0x175e
+	.uaword	0x1775
 	.byte	0x4
 	.uleb128 0x15
 	.string	"ID"
 	.byte	0x6
 	.uahalf	0x213
-	.uaword	0x15e4
+	.uaword	0x15fb
 	.byte	0x8
 	.uleb128 0x15
 	.string	"reserved_C"
 	.byte	0x6
 	.uahalf	0x214
-	.uaword	0x1b0c
+	.uaword	0x1b23
 	.byte	0xc
 	.uleb128 0x15
 	.string	"GLOBALCON"
 	.byte	0x6
 	.uahalf	0x215
-	.uaword	0x155d
+	.uaword	0x1574
 	.byte	0x10
 	.uleb128 0x15
 	.string	"GLOBALCON1"
 	.byte	0x6
 	.uahalf	0x216
-	.uaword	0x15a0
+	.uaword	0x15b7
 	.byte	0x14
 	.uleb128 0x15
 	.string	"BACON"
 	.byte	0x6
 	.uahalf	0x217
-	.uaword	0x1398
+	.uaword	0x13af
 	.byte	0x18
 	.uleb128 0x15
 	.string	"reserved_1C"
 	.byte	0x6
 	.uahalf	0x218
-	.uaword	0x1b0c
+	.uaword	0x1b23
 	.byte	0x1c
 	.uleb128 0x15
 	.string	"ECON"
 	.byte	0x6
 	.uahalf	0x219
-	.uaword	0x1b28
+	.uaword	0x1b3f
 	.byte	0x20
 	.uleb128 0x15
 	.string	"STATUS"
 	.byte	0x6
 	.uahalf	0x21a
-	.uaword	0x185c
+	.uaword	0x1873
 	.byte	0x40
 	.uleb128 0x15
 	.string	"STATUS1"
 	.byte	0x6
 	.uahalf	0x21b
-	.uaword	0x189c
+	.uaword	0x18b3
 	.byte	0x44
 	.uleb128 0x15
 	.string	"SSOC"
 	.byte	0x6
 	.uahalf	0x21c
-	.uaword	0x181e
+	.uaword	0x1835
 	.byte	0x48
 	.uleb128 0x15
 	.string	"reserved_4C"
 	.byte	0x6
 	.uahalf	0x21d
-	.uaword	0x1b38
+	.uaword	0x1b4f
 	.byte	0x4c
 	.uleb128 0x15
 	.string	"FLAGSCLEAR"
 	.byte	0x6
 	.uahalf	0x21e
-	.uaword	0x1519
+	.uaword	0x1530
 	.byte	0x54
 	.uleb128 0x15
 	.string	"XXLCON"
 	.byte	0x6
 	.uahalf	0x21f
-	.uaword	0x18dd
+	.uaword	0x18f4
 	.byte	0x58
 	.uleb128 0x15
 	.string	"MIXENTRY"
 	.byte	0x6
 	.uahalf	0x220
-	.uaword	0x16df
+	.uaword	0x16f6
 	.byte	0x5c
 	.uleb128 0x15
 	.string	"BACONENTRY"
 	.byte	0x6
 	.uahalf	0x221
-	.uaword	0x13d7
+	.uaword	0x13ee
 	.byte	0x60
 	.uleb128 0x15
 	.string	"DATAENTRY"
 	.byte	0x6
 	.uahalf	0x222
-	.uaword	0x1b48
+	.uaword	0x1b5f
 	.byte	0x64
 	.uleb128 0x15
 	.string	"reserved_84"
 	.byte	0x6
 	.uahalf	0x223
-	.uaword	0x1b58
+	.uaword	0x1b6f
 	.byte	0x84
 	.uleb128 0x15
 	.string	"RXEXIT"
 	.byte	0x6
 	.uahalf	0x224
-	.uaword	0x179d
+	.uaword	0x17b4
 	.byte	0x90
 	.uleb128 0x15
 	.string	"RXEXITD"
 	.byte	0x6
 	.uahalf	0x225
-	.uaword	0x17dd
+	.uaword	0x17f4
 	.byte	0x94
 	.uleb128 0x15
 	.string	"reserved_98"
 	.byte	0x6
 	.uahalf	0x226
-	.uaword	0x1b38
+	.uaword	0x1b4f
 	.byte	0x98
 	.uleb128 0x15
 	.string	"CAPCON"
 	.byte	0x6
 	.uahalf	0x227
-	.uaword	0x141b
+	.uaword	0x1432
 	.byte	0xa0
 	.uleb128 0x15
 	.string	"reserved_A4"
 	.byte	0x6
 	.uahalf	0x228
-	.uaword	0x1b68
+	.uaword	0x1b7f
 	.byte	0xa4
 	.uleb128 0x15
 	.string	"OCS"
 	.byte	0x6
 	.uahalf	0x229
-	.uaword	0x1721
+	.uaword	0x1738
 	.byte	0xe8
 	.uleb128 0x15
 	.string	"KRSTCLR"
 	.byte	0x6
 	.uahalf	0x22a
-	.uaword	0x169e
+	.uaword	0x16b5
 	.byte	0xec
 	.uleb128 0x15
 	.string	"KRST1"
 	.byte	0x6
 	.uahalf	0x22b
-	.uaword	0x165f
+	.uaword	0x1676
 	.byte	0xf0
 	.uleb128 0x15
 	.string	"KRST0"
 	.byte	0x6
 	.uahalf	0x22c
-	.uaword	0x1620
+	.uaword	0x1637
 	.byte	0xf4
 	.uleb128 0x15
 	.string	"ACCEN1"
 	.byte	0x6
 	.uahalf	0x22d
-	.uaword	0x1358
+	.uaword	0x136f
 	.byte	0xf8
 	.uleb128 0x15
 	.string	"ACCEN0"
 	.byte	0x6
 	.uahalf	0x22e
-	.uaword	0x1318
+	.uaword	0x132f
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1d1
-	.uaword	0x1b1c
+	.uaword	0x1e8
+	.uaword	0x1b33
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -3977,52 +3977,52 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x16
-	.uaword	0x14db
-	.uaword	0x1b38
+	.uaword	0x14f2
+	.uaword	0x1b4f
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0x7
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1d1
-	.uaword	0x1b48
+	.uaword	0x1e8
+	.uaword	0x1b5f
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0x7
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1498
-	.uaword	0x1b58
+	.uaword	0x14af
+	.uaword	0x1b6f
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0x7
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1d1
-	.uaword	0x1b68
+	.uaword	0x1e8
+	.uaword	0x1b7f
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0xb
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1d1
-	.uaword	0x1b78
+	.uaword	0x1e8
+	.uaword	0x1b8f
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0x43
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_QSPI"
 	.byte	0x6
 	.uahalf	0x22f
-	.uaword	0x1b89
+	.uaword	0x1ba0
 	.uleb128 0x18
-	.uaword	0x18f5
+	.uaword	0x190c
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x1c18
+	.uaword	0x1c2f
 	.uleb128 0x8
 	.string	"IfxQspi_Index_none"
 	.sleb128 -1
@@ -4049,12 +4049,12 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"IfxQspi_Index"
 	.byte	0x7
 	.byte	0x45
-	.uaword	0x1b8e
+	.uaword	0x1ba5
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x8
 	.byte	0x32
-	.uaword	0x1c73
+	.uaword	0x1c8a
 	.uleb128 0x8
 	.string	"SpiIf_Status_ok"
 	.sleb128 0
@@ -4069,12 +4069,12 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SpiIf_Status"
 	.byte	0x8
 	.byte	0x36
-	.uaword	0x1c2d
+	.uaword	0x1c44
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x8
 	.byte	0x47
-	.uaword	0x1cca
+	.uaword	0x1ce1
 	.uleb128 0x8
 	.string	"SpiIf_DataHeading_lsbFirst"
 	.sleb128 0
@@ -4086,7 +4086,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x8
 	.byte	0x4e
-	.uaword	0x1d38
+	.uaword	0x1d4f
 	.uleb128 0x8
 	.string	"SpiIf_ShiftClock_shiftTransmitDataOnLeadingEdge"
 	.sleb128 0
@@ -4098,7 +4098,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x8
 	.byte	0x55
-	.uaword	0x1d7e
+	.uaword	0x1d95
 	.uleb128 0x8
 	.string	"SpiIf_ClockPolarity_idleLow"
 	.sleb128 0
@@ -4110,168 +4110,168 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SpiIf_Ch"
 	.byte	0x8
 	.byte	0x5e
-	.uaword	0x1d8e
+	.uaword	0x1da5
 	.uleb128 0xb
 	.string	"SpiIf_Ch_"
 	.byte	0x30
 	.byte	0x8
 	.byte	0xc2
-	.uaword	0x1e38
+	.uaword	0x1e4f
 	.uleb128 0x19
 	.uaword	.LASF7
 	.byte	0x8
 	.byte	0xc4
-	.uaword	0x203a
+	.uaword	0x2051
 	.byte	0
 	.uleb128 0xa
 	.string	"flags"
 	.byte	0x8
 	.byte	0xc5
-	.uaword	0x1f4e
+	.uaword	0x1f65
 	.byte	0x4
 	.uleb128 0x19
 	.uaword	.LASF8
 	.byte	0x8
 	.byte	0xc6
-	.uaword	0x212f
+	.uaword	0x2146
 	.byte	0x8
 	.uleb128 0x19
 	.uaword	.LASF9
 	.byte	0x8
 	.byte	0xc7
-	.uaword	0x221
+	.uaword	0x238
 	.byte	0xc
 	.uleb128 0xa
 	.string	"tx"
 	.byte	0x8
 	.byte	0xc8
-	.uaword	0x1f8d
+	.uaword	0x1fa4
 	.byte	0x10
 	.uleb128 0xa
 	.string	"rx"
 	.byte	0x8
 	.byte	0xc9
-	.uaword	0x1f8d
+	.uaword	0x1fa4
 	.byte	0x18
 	.uleb128 0xa
 	.string	"onExchangeEnd"
 	.byte	0x8
 	.byte	0xca
-	.uaword	0x227e
+	.uaword	0x2295
 	.byte	0x20
 	.uleb128 0xa
 	.string	"callbackData"
 	.byte	0x8
 	.byte	0xcb
-	.uaword	0x2a5
+	.uaword	0x2bc
 	.byte	0x24
 	.uleb128 0xa
 	.string	"txHandler"
 	.byte	0x8
 	.byte	0xcc
-	.uaword	0x22a1
+	.uaword	0x22b8
 	.byte	0x28
 	.uleb128 0xa
 	.string	"rxHandler"
 	.byte	0x8
 	.byte	0xcd
-	.uaword	0x22a1
+	.uaword	0x22b8
 	.byte	0x2c
 	.byte	0
 	.uleb128 0x3
 	.string	"SpiIf_ChConfig"
 	.byte	0x8
 	.byte	0x5f
-	.uaword	0x1e4e
+	.uaword	0x1e65
 	.uleb128 0xb
 	.string	"SpiIf_ChConfig_"
 	.byte	0x1c
 	.byte	0x8
 	.byte	0xd0
-	.uaword	0x1e98
+	.uaword	0x1eaf
 	.uleb128 0x19
 	.uaword	.LASF7
 	.byte	0x8
 	.byte	0xd2
-	.uaword	0x203a
+	.uaword	0x2051
 	.byte	0
 	.uleb128 0x19
 	.uaword	.LASF9
 	.byte	0x8
 	.byte	0xd3
-	.uaword	0x23d
+	.uaword	0x254
 	.byte	0x4
 	.uleb128 0xa
 	.string	"mode"
 	.byte	0x8
 	.byte	0xd4
-	.uaword	0x226a
+	.uaword	0x2281
 	.byte	0x8
 	.uleb128 0x19
 	.uaword	.LASF8
 	.byte	0x8
 	.byte	0xd5
-	.uaword	0x212f
+	.uaword	0x2146
 	.byte	0x18
 	.byte	0
 	.uleb128 0x3
 	.string	"SpiIf"
 	.byte	0x8
 	.byte	0x60
-	.uaword	0x1ea5
+	.uaword	0x1ebc
 	.uleb128 0xb
 	.string	"SpiIf_"
 	.byte	0x28
 	.byte	0x8
 	.byte	0x85
-	.uaword	0x1f19
+	.uaword	0x1f30
 	.uleb128 0x19
 	.uaword	.LASF7
 	.byte	0x8
 	.byte	0x87
-	.uaword	0x298
+	.uaword	0x2af
 	.byte	0
 	.uleb128 0xa
 	.string	"sending"
 	.byte	0x8
 	.byte	0x88
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.uleb128 0xa
 	.string	"activeChannel"
 	.byte	0x8
 	.byte	0x89
-	.uaword	0x1fd9
+	.uaword	0x1ff0
 	.byte	0x8
 	.uleb128 0xa
 	.string	"txCount"
 	.byte	0x8
 	.byte	0x8a
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0xc
 	.uleb128 0xa
 	.string	"rxCount"
 	.byte	0x8
 	.byte	0x8b
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x10
 	.uleb128 0xa
 	.string	"functions"
 	.byte	0x8
 	.byte	0x8c
-	.uaword	0x20b8
+	.uaword	0x20cf
 	.byte	0x14
 	.byte	0
 	.uleb128 0x9
 	.byte	0x1
 	.byte	0x8
 	.byte	0x62
-	.uaword	0x1f4e
+	.uaword	0x1f65
 	.uleb128 0xc
 	.string	"onTransfer"
 	.byte	0x8
 	.byte	0x64
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4280,7 +4280,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"byteAccess"
 	.byte	0x8
 	.byte	0x65
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4290,148 +4290,148 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"SpiIf_Flags"
 	.byte	0x8
 	.byte	0x66
-	.uaword	0x1f61
+	.uaword	0x1f78
 	.uleb128 0x18
-	.uaword	0x1f19
+	.uaword	0x1f30
 	.uleb128 0x9
 	.byte	0x8
 	.byte	0x8
 	.byte	0x68
-	.uaword	0x1f8d
+	.uaword	0x1fa4
 	.uleb128 0x19
 	.uaword	.LASF10
 	.byte	0x8
 	.byte	0x6a
-	.uaword	0x2a5
+	.uaword	0x2bc
 	.byte	0
 	.uleb128 0xa
 	.string	"remaining"
 	.byte	0x8
 	.byte	0x6b
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"SpiIf_Job"
 	.byte	0x8
 	.byte	0x6c
-	.uaword	0x1f66
+	.uaword	0x1f7d
 	.uleb128 0x3
 	.string	"SpiIf_Exchange"
 	.byte	0x8
 	.byte	0x76
-	.uaword	0x1fb4
+	.uaword	0x1fcb
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x1fba
+	.uaword	0x1fd1
 	.uleb128 0x1a
 	.byte	0x1
-	.uaword	0x1c73
-	.uaword	0x1fd9
+	.uaword	0x1c8a
+	.uaword	0x1ff0
 	.uleb128 0x1b
-	.uaword	0x1fd9
+	.uaword	0x1ff0
 	.uleb128 0x1b
-	.uaword	0x1fdf
+	.uaword	0x1ff6
 	.uleb128 0x1b
-	.uaword	0x2a5
+	.uaword	0x2bc
 	.uleb128 0x1b
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x1d7e
+	.uaword	0x1d95
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x1fe5
+	.uaword	0x1ffc
 	.uleb128 0x1c
 	.uleb128 0x3
 	.string	"SpiIf_GetStatus"
 	.byte	0x8
 	.byte	0x77
-	.uaword	0x1ffd
+	.uaword	0x2014
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x2003
+	.uaword	0x201a
 	.uleb128 0x1a
 	.byte	0x1
-	.uaword	0x1c73
-	.uaword	0x2013
+	.uaword	0x1c8a
+	.uaword	0x202a
 	.uleb128 0x1b
-	.uaword	0x1fd9
+	.uaword	0x1ff0
 	.byte	0
 	.uleb128 0x3
 	.string	"SpiIf_OnEvent"
 	.byte	0x8
 	.byte	0x78
-	.uaword	0x2028
+	.uaword	0x203f
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x202e
+	.uaword	0x2045
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x203a
+	.uaword	0x2051
 	.uleb128 0x1b
-	.uaword	0x203a
+	.uaword	0x2051
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x1e98
+	.uaword	0x1eaf
 	.uleb128 0x3
 	.string	"SpiIf_SlsoTiming_HalfTsclk"
 	.byte	0x8
 	.byte	0x79
-	.uaword	0x22f
+	.uaword	0x246
 	.uleb128 0x9
 	.byte	0x14
 	.byte	0x8
 	.byte	0x7c
-	.uaword	0x20b8
+	.uaword	0x20cf
 	.uleb128 0xa
 	.string	"exchange"
 	.byte	0x8
 	.byte	0x7e
-	.uaword	0x1f9e
+	.uaword	0x1fb5
 	.byte	0
 	.uleb128 0xa
 	.string	"getStatus"
 	.byte	0x8
 	.byte	0x7f
-	.uaword	0x1fe6
+	.uaword	0x1ffd
 	.byte	0x4
 	.uleb128 0xa
 	.string	"onTx"
 	.byte	0x8
 	.byte	0x80
-	.uaword	0x2013
+	.uaword	0x202a
 	.byte	0x8
 	.uleb128 0xa
 	.string	"onRx"
 	.byte	0x8
 	.byte	0x81
-	.uaword	0x2013
+	.uaword	0x202a
 	.byte	0xc
 	.uleb128 0xa
 	.string	"onError"
 	.byte	0x8
 	.byte	0x82
-	.uaword	0x2013
+	.uaword	0x202a
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"SpiIf_funcs"
 	.byte	0x8
 	.byte	0x83
-	.uaword	0x2062
+	.uaword	0x2079
 	.uleb128 0x9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x9f
-	.uaword	0x212f
+	.uaword	0x2146
 	.uleb128 0xd
 	.uaword	.LASF9
 	.byte	0x8
 	.byte	0xa1
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4440,7 +4440,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"phase"
 	.byte	0x8
 	.byte	0xa2
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4449,7 +4449,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"receive"
 	.byte	0x8
 	.byte	0xa3
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4458,7 +4458,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"transmit"
 	.byte	0x8
 	.byte	0xa4
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4467,7 +4467,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"reserved"
 	.byte	0x8
 	.byte	0xa5
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -4477,17 +4477,17 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"Spi_ErrorChecks"
 	.byte	0x8
 	.byte	0xa6
-	.uaword	0x20cb
+	.uaword	0x20e2
 	.uleb128 0x9
 	.byte	0x10
 	.byte	0x8
 	.byte	0xa9
-	.uaword	0x226a
+	.uaword	0x2281
 	.uleb128 0xc
 	.string	"enabled"
 	.byte	0x8
 	.byte	0xab
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4496,7 +4496,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"autoCS"
 	.byte	0x8
 	.byte	0xac
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4505,7 +4505,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"loopback"
 	.byte	0x8
 	.byte	0xad
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4514,7 +4514,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"clockPolarity"
 	.byte	0x8
 	.byte	0xae
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4523,7 +4523,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"shiftClock"
 	.byte	0x8
 	.byte	0xaf
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4532,7 +4532,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"dataHeading"
 	.byte	0x8
 	.byte	0xb0
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4541,7 +4541,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"dataWidth"
 	.byte	0x8
 	.byte	0xb1
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x6
 	.byte	0x14
@@ -4550,7 +4550,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"csActiveLevel"
 	.byte	0x8
 	.byte	0xb3
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4559,7 +4559,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"parityCheck"
 	.byte	0x8
 	.byte	0xb5
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4568,7 +4568,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"parityMode"
 	.byte	0x8
 	.byte	0xb6
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4577,62 +4577,62 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"csInactiveDelay"
 	.byte	0x8
 	.byte	0xb8
-	.uaword	0x2040
+	.uaword	0x2057
 	.byte	0x4
 	.uleb128 0xa
 	.string	"csLeadDelay"
 	.byte	0x8
 	.byte	0xb9
-	.uaword	0x2040
+	.uaword	0x2057
 	.byte	0x8
 	.uleb128 0xa
 	.string	"csTrailDelay"
 	.byte	0x8
 	.byte	0xba
-	.uaword	0x2040
+	.uaword	0x2057
 	.byte	0xc
 	.byte	0
 	.uleb128 0x3
 	.string	"SpiIf_ChMode"
 	.byte	0x8
 	.byte	0xbc
-	.uaword	0x2146
+	.uaword	0x215d
 	.uleb128 0x3
 	.string	"SpiIf_Cbk"
 	.byte	0x8
 	.byte	0xbf
-	.uaword	0x228f
+	.uaword	0x22a6
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x2295
+	.uaword	0x22ac
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x22a1
+	.uaword	0x22b8
 	.uleb128 0x1b
-	.uaword	0x2a5
+	.uaword	0x2bc
 	.byte	0
 	.uleb128 0x3
 	.string	"TxRxHandler"
 	.byte	0x8
 	.byte	0xc0
-	.uaword	0x22b4
+	.uaword	0x22cb
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x22ba
+	.uaword	0x22d1
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uleb128 0x1b
-	.uaword	0x1fd9
+	.uaword	0x1ff0
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x1b78
+	.uaword	0x1b8f
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x2
 	.byte	0x48
-	.uaword	0x2424
+	.uaword	0x243b
 	.uleb128 0x8
 	.string	"IfxQspi_ChannelId_0"
 	.sleb128 0
@@ -4683,105 +4683,105 @@ IfxQspi_calculateBasicConfigurationValue:
 	.string	"IfxQspi_ChannelId"
 	.byte	0x2
 	.byte	0x58
-	.uaword	0x22cc
+	.uaword	0x22e3
 	.uleb128 0x1e
 	.byte	0x2
 	.byte	0x2
 	.uahalf	0x11d
-	.uaword	0x2463
+	.uaword	0x247a
 	.uleb128 0x15
 	.string	"pre"
 	.byte	0x2
 	.uahalf	0x11f
-	.uaword	0x1c4
+	.uaword	0x1db
 	.byte	0
 	.uleb128 0x15
 	.string	"delay"
 	.byte	0x2
 	.uahalf	0x120
-	.uaword	0x1c4
+	.uaword	0x1db
 	.byte	0x1
 	.byte	0
 	.uleb128 0x10
 	.string	"IfxQspi_DelayConst"
 	.byte	0x2
 	.uahalf	0x121
-	.uaword	0x243d
+	.uaword	0x2454
 	.uleb128 0x1f
 	.string	"IfxQspi_getModuleFrequency"
 	.byte	0x2
 	.uahalf	0x3b8
 	.byte	0x1
-	.uaword	0x174
+	.uaword	0x18b
 	.byte	0x3
-	.uaword	0x24b4
+	.uaword	0x24cb
 	.uleb128 0x20
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x3b8
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxQspi_getTimeQuantaFrequency"
 	.byte	0x2
 	.uahalf	0x3d7
 	.byte	0x1
-	.uaword	0x174
+	.uaword	0x18b
 	.byte	0x3
-	.uaword	0x24ee
+	.uaword	0x2505
 	.uleb128 0x20
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x3d7
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.byte	0
 	.uleb128 0x21
 	.string	"__min"
 	.byte	0x3
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x221
+	.uaword	0x238
 	.byte	0x3
-	.uaword	0x251f
+	.uaword	0x2536
 	.uleb128 0x22
 	.string	"a"
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x221
+	.uaword	0x238
 	.uleb128 0x22
 	.string	"b"
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x221
+	.uaword	0x238
 	.uleb128 0x23
 	.string	"res"
 	.byte	0x3
 	.byte	0x9e
-	.uaword	0x221
+	.uaword	0x238
 	.byte	0
 	.uleb128 0x21
 	.string	"__max"
 	.byte	0x3
 	.byte	0x82
 	.byte	0x1
-	.uaword	0x221
+	.uaword	0x238
 	.byte	0x3
-	.uaword	0x2550
+	.uaword	0x2567
 	.uleb128 0x22
 	.string	"a"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x221
+	.uaword	0x238
 	.uleb128 0x22
 	.string	"b"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x221
+	.uaword	0x238
 	.uleb128 0x23
 	.string	"res"
 	.byte	0x3
 	.byte	0x84
-	.uaword	0x221
+	.uaword	0x238
 	.byte	0
 	.uleb128 0x24
 	.byte	0x1
@@ -4789,49 +4789,49 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x23
 	.byte	0x1
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LFB284
 	.uaword	.LFE284
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x25d5
+	.uaword	0x25ec
 	.uleb128 0x25
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST0
 	.uleb128 0x25
 	.uaword	.LASF12
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x2424
+	.uaword	0x243b
 	.uaword	.LLST1
 	.uleb128 0x26
 	.string	"cs"
 	.byte	0x1
 	.byte	0x25
-	.uaword	0x17d
+	.uaword	0x194
 	.byte	0x1
 	.byte	0x58
 	.uleb128 0x27
 	.string	"fQspi"
 	.byte	0x1
 	.byte	0x26
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST2
 	.uleb128 0x26
 	.string	"econ"
 	.byte	0x1
 	.byte	0x27
-	.uaword	0x1b28
+	.uaword	0x1b3f
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -32
 	.uleb128 0x28
 	.uaword	.LVL2
-	.uaword	0x3237
+	.uaword	0x324e
 	.byte	0
 	.uleb128 0x29
 	.byte	0x1
@@ -4839,257 +4839,257 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x4b
 	.byte	0x1
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LFB286
 	.uaword	.LFE286
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x27ac
+	.uaword	0x27c3
 	.uleb128 0x25
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0x4b
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST3
 	.uleb128 0x2a
 	.string	"cs"
 	.byte	0x1
 	.byte	0x4b
-	.uaword	0x27ac
+	.uaword	0x27c3
 	.uaword	.LLST4
 	.uleb128 0x2a
 	.string	"chConfig"
 	.byte	0x1
 	.byte	0x4b
-	.uaword	0x27b1
+	.uaword	0x27c8
 	.uaword	.LLST5
 	.uleb128 0x27
 	.string	"econ"
 	.byte	0x1
 	.byte	0x4d
-	.uaword	0x14db
+	.uaword	0x14f2
 	.uaword	.LLST6
 	.uleb128 0x27
 	.string	"tQspi"
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x23d
+	.uaword	0x254
 	.uaword	.LLST7
 	.uleb128 0x27
 	.string	"fBaud"
 	.byte	0x1
 	.byte	0x51
-	.uaword	0x23d
+	.uaword	0x254
 	.uaword	.LLST8
 	.uleb128 0x2b
 	.string	"abcMin"
 	.byte	0x1
 	.byte	0x52
-	.uaword	0x17d
+	.uaword	0x194
 	.byte	0x2
 	.uleb128 0x2b
 	.string	"abcMax"
 	.byte	0x1
 	.byte	0x53
-	.uaword	0x17d
+	.uaword	0x194
 	.byte	0x8
 	.uleb128 0x27
 	.string	"q"
 	.byte	0x1
 	.byte	0x54
-	.uaword	0x17d
+	.uaword	0x194
 	.uaword	.LLST9
 	.uleb128 0x27
 	.string	"bestQ"
 	.byte	0x1
 	.byte	0x54
-	.uaword	0x17d
+	.uaword	0x194
 	.uaword	.LLST10
 	.uleb128 0x27
 	.string	"abc"
 	.byte	0x1
 	.byte	0x54
-	.uaword	0x17d
+	.uaword	0x194
 	.uaword	.LLST11
 	.uleb128 0x27
 	.string	"bestAbc"
 	.byte	0x1
 	.byte	0x54
-	.uaword	0x17d
+	.uaword	0x194
 	.uaword	.LLST12
 	.uleb128 0x27
 	.string	"error"
 	.byte	0x1
 	.byte	0x55
-	.uaword	0x23d
+	.uaword	0x254
 	.uaword	.LLST13
 	.uleb128 0x2c
 	.uaword	.LASF13
 	.byte	0x1
 	.byte	0x55
-	.uaword	0x23d
+	.uaword	0x254
 	.uaword	.LLST14
 	.uleb128 0x27
 	.string	"tTmp"
 	.byte	0x1
 	.byte	0x56
-	.uaword	0x23d
+	.uaword	0x254
 	.uaword	.LLST15
 	.uleb128 0x27
 	.string	"tBaudTmp"
 	.byte	0x1
 	.byte	0x56
-	.uaword	0x23d
+	.uaword	0x254
 	.uaword	.LLST16
 	.uleb128 0x27
 	.string	"done"
 	.byte	0x1
 	.byte	0x57
-	.uaword	0x256
+	.uaword	0x26d
 	.uaword	.LLST17
 	.uleb128 0x26
 	.string	"tBaud"
 	.byte	0x1
 	.byte	0x5f
-	.uaword	0x23d
+	.uaword	0x254
 	.byte	0x1
 	.byte	0x5a
 	.uleb128 0x2d
-	.uaword	0x24b4
+	.uaword	0x24cb
 	.uaword	.LBB21
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x2779
+	.uaword	0x2790
 	.uleb128 0x2e
-	.uaword	0x24e1
+	.uaword	0x24f8
 	.uaword	.LLST18
 	.uleb128 0x2f
-	.uaword	0x247e
+	.uaword	0x2495
 	.uaword	.LBB23
 	.uaword	.LBE23
 	.byte	0x2
 	.uahalf	0x3d9
 	.uleb128 0x30
-	.uaword	0x24a7
+	.uaword	0x24be
 	.uleb128 0x28
 	.uaword	.LVL8
-	.uaword	0x3237
+	.uaword	0x324e
 	.byte	0
 	.byte	0
 	.uleb128 0x31
-	.uaword	0x24ee
+	.uaword	0x2505
 	.uaword	.LBB29
 	.uaword	.LBE29
 	.byte	0x1
 	.byte	0x8e
 	.uleb128 0x32
-	.uaword	0x250a
+	.uaword	0x2521
 	.byte	0x3
 	.uleb128 0x2e
-	.uaword	0x2501
+	.uaword	0x2518
 	.uaword	.LLST19
 	.uleb128 0x33
 	.uaword	.LBB30
 	.uaword	.LBE30
 	.uleb128 0x34
-	.uaword	0x2513
+	.uaword	0x252a
 	.uaword	.LLST20
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x1c4
+	.uaword	0x1db
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x27b7
+	.uaword	0x27ce
 	.uleb128 0x35
-	.uaword	0x1e38
+	.uaword	0x1e4f
 	.uleb128 0x24
 	.byte	0x1
 	.string	"IfxQspi_calculatePrescaler"
 	.byte	0x1
 	.byte	0x98
 	.byte	0x1
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LFB287
 	.uaword	.LFE287
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x28b1
+	.uaword	0x28c8
 	.uleb128 0x25
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0x98
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST21
 	.uleb128 0x25
 	.uaword	.LASF9
 	.byte	0x1
 	.byte	0x98
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST22
 	.uleb128 0x26
 	.string	"error"
 	.byte	0x1
 	.byte	0x9a
-	.uaword	0x174
+	.uaword	0x18b
 	.byte	0x1
 	.byte	0x5f
 	.uleb128 0x2c
 	.uaword	.LASF13
 	.byte	0x1
 	.byte	0x9a
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST23
 	.uleb128 0x26
 	.string	"halfBaud"
 	.byte	0x1
 	.byte	0x9b
-	.uaword	0x174
+	.uaword	0x18b
 	.byte	0x1
 	.byte	0x58
 	.uleb128 0x23
 	.string	"fQspiIn"
 	.byte	0x1
 	.byte	0x9c
-	.uaword	0x174
+	.uaword	0x18b
 	.uleb128 0x27
 	.string	"i"
 	.byte	0x1
 	.byte	0x9e
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LLST24
 	.uleb128 0x27
 	.string	"bestPre"
 	.byte	0x1
 	.byte	0x9e
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LLST25
 	.uleb128 0x36
 	.uaword	.Ldebug_ranges0+0x20
-	.uaword	0x288e
+	.uaword	0x28a5
 	.uleb128 0x27
 	.string	"tempHalfBaud"
 	.byte	0x1
 	.byte	0xa2
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST26
 	.byte	0
 	.uleb128 0x37
-	.uaword	0x247e
+	.uaword	0x2495
 	.uaword	.LBB32
 	.uaword	.Ldebug_ranges0+0x38
 	.byte	0x1
 	.byte	0x9c
 	.uleb128 0x2e
-	.uaword	0x24a7
+	.uaword	0x24be
 	.uaword	.LLST27
 	.uleb128 0x28
 	.uaword	.LVL39
-	.uaword	0x3237
+	.uaword	0x324e
 	.byte	0
 	.byte	0
 	.uleb128 0x29
@@ -5098,76 +5098,76 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0xb0
 	.byte	0x1
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LFB288
 	.uaword	.LFE288
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x29af
+	.uaword	0x29c6
 	.uleb128 0x25
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST28
 	.uleb128 0x2a
 	.string	"maxBaudrate"
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST29
 	.uleb128 0x27
 	.string	"abcq"
 	.byte	0x1
 	.byte	0xb5
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LLST30
 	.uleb128 0x27
 	.string	"tq"
 	.byte	0x1
 	.byte	0xb5
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LLST31
 	.uleb128 0x27
 	.string	"bestTq"
 	.byte	0x1
 	.byte	0xb5
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LLST32
 	.uleb128 0x27
 	.string	"realTQ"
 	.byte	0x1
 	.byte	0xb6
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST33
 	.uleb128 0x27
 	.string	"deltaMax"
 	.byte	0x1
 	.byte	0xb6
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST34
 	.uleb128 0x27
 	.string	"bestDelta"
 	.byte	0x1
 	.byte	0xb6
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST35
 	.uleb128 0x27
 	.string	"achievedMax"
 	.byte	0x1
 	.byte	0xb6
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST36
 	.uleb128 0x27
 	.string	"fQspi"
 	.byte	0x1
 	.byte	0xb7
-	.uaword	0x174
+	.uaword	0x18b
 	.uaword	.LLST37
 	.uleb128 0x28
 	.uaword	.LVL49
-	.uaword	0x3237
+	.uaword	0x324e
 	.byte	0
 	.uleb128 0x24
 	.byte	0x1
@@ -5175,25 +5175,25 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0xd9
 	.byte	0x1
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LFB289
 	.uaword	.LFE289
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x29f8
+	.uaword	0x2a0f
 	.uleb128 0x38
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0xd9
-	.uaword	0x1c18
+	.uaword	0x1c2f
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x26
 	.string	"module"
 	.byte	0x1
 	.byte	0xdb
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.byte	0x1
 	.byte	0x62
 	.byte	0
@@ -5203,31 +5203,31 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0xea
 	.byte	0x1
-	.uaword	0x1c18
+	.uaword	0x1c2f
 	.uaword	.LFB290
 	.uaword	.LFE290
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2a52
+	.uaword	0x2a69
 	.uleb128 0x38
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0xea
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x27
 	.string	"index"
 	.byte	0x1
 	.byte	0xec
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LLST38
 	.uleb128 0x27
 	.string	"result"
 	.byte	0x1
 	.byte	0xed
-	.uaword	0x1c18
+	.uaword	0x1c2f
 	.uaword	.LLST39
 	.byte	0
 	.uleb128 0x39
@@ -5241,31 +5241,31 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2ab2
+	.uaword	0x2ac9
 	.uleb128 0x38
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0xfe
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x25
 	.uaword	.LASF10
 	.byte	0x1
 	.byte	0xfe
-	.uaword	0x2ab2
+	.uaword	0x2ac9
 	.uaword	.LLST40
 	.uleb128 0x25
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0xfe
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.uaword	.LLST41
 	.uleb128 0x3a
 	.uaword	.LASF15
 	.byte	0x1
 	.uahalf	0x100
-	.uaword	0x2ab8
+	.uaword	0x2acf
 	.byte	0x4
 	.byte	0x84
 	.sleb128 144
@@ -5273,12 +5273,12 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x1fd
+	.uaword	0x214
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x2abe
+	.uaword	0x2ad5
 	.uleb128 0x18
-	.uaword	0x179d
+	.uaword	0x17b4
 	.uleb128 0x3b
 	.byte	0x1
 	.string	"IfxQspi_read32"
@@ -5290,31 +5290,31 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2b27
+	.uaword	0x2b3e
 	.uleb128 0x3c
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x10a
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3d
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x10a
-	.uaword	0x2b27
+	.uaword	0x2b3e
 	.uaword	.LLST42
 	.uleb128 0x3d
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x10a
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.uaword	.LLST43
 	.uleb128 0x3a
 	.uaword	.LASF15
 	.byte	0x1
 	.uahalf	0x10c
-	.uaword	0x2ab8
+	.uaword	0x2acf
 	.byte	0x4
 	.byte	0x84
 	.sleb128 144
@@ -5322,7 +5322,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x22f
+	.uaword	0x246
 	.uleb128 0x3b
 	.byte	0x1
 	.string	"IfxQspi_read8"
@@ -5334,31 +5334,31 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2b90
+	.uaword	0x2ba7
 	.uleb128 0x3c
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x116
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3d
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x116
-	.uaword	0x2b90
+	.uaword	0x2ba7
 	.uaword	.LLST44
 	.uleb128 0x3d
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x116
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.uaword	.LLST45
 	.uleb128 0x3a
 	.uaword	.LASF15
 	.byte	0x1
 	.uahalf	0x118
-	.uaword	0x2ab8
+	.uaword	0x2acf
 	.byte	0x4
 	.byte	0x84
 	.sleb128 144
@@ -5366,52 +5366,52 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x1c4
+	.uaword	0x1db
 	.uleb128 0x3e
 	.byte	0x1
 	.string	"IfxQspi_recalcBasicConfiguration"
 	.byte	0x1
 	.uahalf	0x122
 	.byte	0x1
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LFB294
 	.uaword	.LFE294
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2c31
+	.uaword	0x2c48
 	.uleb128 0x3f
 	.string	"oldBACON"
 	.byte	0x1
 	.uahalf	0x122
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LLST46
 	.uleb128 0x40
 	.string	"numOfData"
 	.byte	0x1
 	.uahalf	0x122
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0x40
 	.string	"shortData"
 	.byte	0x1
 	.uahalf	0x122
-	.uaword	0x256
+	.uaword	0x26d
 	.byte	0x1
 	.byte	0x56
 	.uleb128 0x40
 	.string	"lastData"
 	.byte	0x1
 	.uahalf	0x122
-	.uaword	0x256
+	.uaword	0x26d
 	.byte	0x1
 	.byte	0x57
 	.uleb128 0x41
 	.string	"bacon"
 	.byte	0x1
 	.uahalf	0x124
-	.uaword	0x1398
+	.uaword	0x13af
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -5426,26 +5426,26 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2cd4
+	.uaword	0x2ceb
 	.uleb128 0x3d
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST47
 	.uleb128 0x42
 	.string	"passwd"
 	.byte	0x1
 	.uahalf	0x134
-	.uaword	0x1fd
+	.uaword	0x214
 	.uaword	.LLST48
 	.uleb128 0x28
 	.uaword	.LVL106
-	.uaword	0x325c
+	.uaword	0x3273
 	.uleb128 0x43
 	.uaword	.LVL108
-	.uaword	0x3288
-	.uaword	0x2c9a
+	.uaword	0x329f
+	.uaword	0x2cb1
 	.uleb128 0x44
 	.byte	0x1
 	.byte	0x54
@@ -5455,8 +5455,8 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0
 	.uleb128 0x43
 	.uaword	.LVL109
-	.uaword	0x32b2
-	.uaword	0x2cae
+	.uaword	0x32c9
+	.uaword	0x2cc5
 	.uleb128 0x44
 	.byte	0x1
 	.byte	0x54
@@ -5466,8 +5466,8 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0
 	.uleb128 0x43
 	.uaword	.LVL110
-	.uaword	0x3288
-	.uaword	0x2cc2
+	.uaword	0x329f
+	.uaword	0x2cd9
 	.uleb128 0x44
 	.byte	0x1
 	.byte	0x54
@@ -5478,7 +5478,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uleb128 0x45
 	.uaword	.LVL111
 	.byte	0x1
-	.uaword	0x32b2
+	.uaword	0x32c9
 	.uleb128 0x44
 	.byte	0x1
 	.byte	0x54
@@ -5498,45 +5498,45 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2d7b
+	.uaword	0x2d92
 	.uleb128 0x3c
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x144
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3d
 	.uaword	.LASF12
 	.byte	0x1
 	.uahalf	0x144
-	.uaword	0x2424
+	.uaword	0x243b
 	.uaword	.LLST49
 	.uleb128 0x40
 	.string	"outputEnable"
 	.byte	0x1
 	.uahalf	0x144
-	.uaword	0x256
+	.uaword	0x26d
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0x40
 	.string	"activeLevel"
 	.byte	0x1
 	.uahalf	0x144
-	.uaword	0x256
+	.uaword	0x26d
 	.byte	0x1
 	.byte	0x56
 	.uleb128 0x42
 	.string	"mask"
 	.byte	0x1
 	.uahalf	0x146
-	.uaword	0x1fd
+	.uaword	0x214
 	.uaword	.LLST50
 	.uleb128 0x42
 	.string	"ssoc"
 	.byte	0x1
 	.uahalf	0x148
-	.uaword	0x181e
+	.uaword	0x1835
 	.uaword	.LLST51
 	.byte	0
 	.uleb128 0x3b
@@ -5550,49 +5550,49 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2e00
+	.uaword	0x2e17
 	.uleb128 0x3d
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x161
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST52
 	.uleb128 0x3d
 	.uaword	.LASF12
 	.byte	0x1
 	.uahalf	0x161
-	.uaword	0x2424
+	.uaword	0x243b
 	.uaword	.LLST53
 	.uleb128 0x3d
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x161
-	.uaword	0x2ab2
+	.uaword	0x2ac9
 	.uaword	.LLST54
 	.uleb128 0x3d
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x161
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.uaword	.LLST55
 	.uleb128 0x42
 	.string	"cs"
 	.byte	0x1
 	.uahalf	0x163
-	.uaword	0x17d
+	.uaword	0x194
 	.uaword	.LLST56
 	.uleb128 0x46
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x164
-	.uaword	0x2e00
+	.uaword	0x2e17
 	.uaword	.LLST57
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x2e06
+	.uaword	0x2e1d
 	.uleb128 0x18
-	.uaword	0x1498
+	.uaword	0x14af
 	.uleb128 0x3b
 	.byte	0x1
 	.string	"IfxQspi_write32"
@@ -5604,42 +5604,42 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2e90
+	.uaword	0x2ea7
 	.uleb128 0x3d
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x16e
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST58
 	.uleb128 0x3d
 	.uaword	.LASF12
 	.byte	0x1
 	.uahalf	0x16e
-	.uaword	0x2424
+	.uaword	0x243b
 	.uaword	.LLST59
 	.uleb128 0x3d
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x16e
-	.uaword	0x2b27
+	.uaword	0x2b3e
 	.uaword	.LLST60
 	.uleb128 0x3d
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x16e
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.uaword	.LLST61
 	.uleb128 0x42
 	.string	"cs"
 	.byte	0x1
 	.uahalf	0x170
-	.uaword	0x17d
+	.uaword	0x194
 	.uaword	.LLST62
 	.uleb128 0x46
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x171
-	.uaword	0x2e00
+	.uaword	0x2e17
 	.uaword	.LLST63
 	.byte	0
 	.uleb128 0x3b
@@ -5653,42 +5653,42 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2f14
+	.uaword	0x2f2b
 	.uleb128 0x3d
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x17b
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST64
 	.uleb128 0x3d
 	.uaword	.LASF12
 	.byte	0x1
 	.uahalf	0x17b
-	.uaword	0x2424
+	.uaword	0x243b
 	.uaword	.LLST65
 	.uleb128 0x3d
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x17b
-	.uaword	0x2b90
+	.uaword	0x2ba7
 	.uaword	.LLST66
 	.uleb128 0x3d
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x17b
-	.uaword	0x2ae
+	.uaword	0x2c5
 	.uaword	.LLST67
 	.uleb128 0x42
 	.string	"cs"
 	.byte	0x1
 	.uahalf	0x17d
-	.uaword	0x17d
+	.uaword	0x194
 	.uaword	.LLST68
 	.uleb128 0x46
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x17e
-	.uaword	0x2e00
+	.uaword	0x2e17
 	.uaword	.LLST69
 	.byte	0
 	.uleb128 0x47
@@ -5702,125 +5702,125 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x30ce
+	.uaword	0x30e5
 	.uleb128 0x3d
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x188
-	.uaword	0x30ce
+	.uaword	0x30e5
 	.uaword	.LLST70
 	.uleb128 0x3d
 	.uaword	.LASF12
 	.byte	0x1
 	.uahalf	0x188
-	.uaword	0x30d9
+	.uaword	0x30f0
 	.uaword	.LLST71
 	.uleb128 0x3f
 	.string	"chMode"
 	.byte	0x1
 	.uahalf	0x188
-	.uaword	0x30de
+	.uaword	0x30f5
 	.uaword	.LLST72
 	.uleb128 0x3d
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x188
-	.uaword	0x30e9
+	.uaword	0x3100
 	.uaword	.LLST73
 	.uleb128 0x41
 	.string	"divFactor"
 	.byte	0x1
 	.uahalf	0x18a
-	.uaword	0x22f
+	.uaword	0x246
 	.byte	0x1
 	.byte	0x5c
 	.uleb128 0x42
 	.string	"dlyFactorPtr"
 	.byte	0x1
 	.uahalf	0x18b
-	.uaword	0x30ef
+	.uaword	0x3106
 	.uaword	.LLST74
 	.uleb128 0x41
 	.string	"scaleTemp"
 	.byte	0x1
 	.uahalf	0x18c
-	.uaword	0x23d
+	.uaword	0x254
 	.byte	0x1
 	.byte	0x59
 	.uleb128 0x42
 	.string	"preTemp"
 	.byte	0x1
 	.uahalf	0x18d
-	.uaword	0x1c4
+	.uaword	0x1db
 	.uaword	.LLST75
 	.uleb128 0x42
 	.string	"preFinal"
 	.byte	0x1
 	.uahalf	0x18e
-	.uaword	0x1c4
+	.uaword	0x1db
 	.uaword	.LLST76
 	.uleb128 0x42
 	.string	"delayTemp"
 	.byte	0x1
 	.uahalf	0x18f
-	.uaword	0x1c4
+	.uaword	0x1db
 	.uaword	.LLST77
 	.uleb128 0x42
 	.string	"delayFinal"
 	.byte	0x1
 	.uahalf	0x190
-	.uaword	0x1c4
+	.uaword	0x1db
 	.uaword	.LLST78
 	.uleb128 0x42
 	.string	"matchFound"
 	.byte	0x1
 	.uahalf	0x191
-	.uaword	0x256
+	.uaword	0x26d
 	.uaword	.LLST79
 	.uleb128 0x42
 	.string	"index"
 	.byte	0x1
 	.uahalf	0x192
-	.uaword	0x1c4
+	.uaword	0x1db
 	.uaword	.LLST80
 	.uleb128 0x42
 	.string	"cs"
 	.byte	0x1
 	.uahalf	0x193
-	.uaword	0x1c4
+	.uaword	0x1db
 	.uaword	.LLST81
 	.uleb128 0x48
-	.uaword	0x251f
+	.uaword	0x2536
 	.uaword	.LBB37
 	.uaword	.LBE37
 	.byte	0x1
 	.uahalf	0x1ab
-	.uaword	0x3095
+	.uaword	0x30ac
 	.uleb128 0x2e
-	.uaword	0x253b
+	.uaword	0x2552
 	.uaword	.LLST82
 	.uleb128 0x2e
-	.uaword	0x2532
+	.uaword	0x2549
 	.uaword	.LLST83
 	.uleb128 0x33
 	.uaword	.LBB38
 	.uaword	.LBE38
 	.uleb128 0x34
-	.uaword	0x2544
+	.uaword	0x255b
 	.uaword	.LLST84
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uaword	0x251f
+	.uaword	0x2536
 	.uaword	.LBB39
 	.uaword	.LBE39
 	.byte	0x1
 	.uahalf	0x1b3
 	.uleb128 0x32
-	.uaword	0x253b
+	.uaword	0x2552
 	.byte	0
 	.uleb128 0x49
-	.uaword	0x2532
+	.uaword	0x2549
 	.byte	0x8
 	.byte	0x72
 	.sleb128 1
@@ -5834,85 +5834,85 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uaword	.LBB40
 	.uaword	.LBE40
 	.uleb128 0x34
-	.uaword	0x2544
+	.uaword	0x255b
 	.uaword	.LLST85
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x30d4
+	.uaword	0x30eb
 	.uleb128 0x35
-	.uaword	0x1b78
+	.uaword	0x1b8f
 	.uleb128 0x35
-	.uaword	0x2424
+	.uaword	0x243b
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x30e4
+	.uaword	0x30fb
 	.uleb128 0x35
-	.uaword	0x226a
+	.uaword	0x2281
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x2463
+	.uaword	0x247a
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x30f5
+	.uaword	0x310c
 	.uleb128 0x35
-	.uaword	0x2040
+	.uaword	0x2057
 	.uleb128 0x24
 	.byte	0x1
 	.string	"IfxQspi_calculateBasicConfigurationValue"
 	.byte	0x1
 	.byte	0x30
 	.byte	0x1
-	.uaword	0x22f
+	.uaword	0x246
 	.uaword	.LFB285
 	.uaword	.LFE285
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x31bd
+	.uaword	0x31d4
 	.uleb128 0x25
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0x30
-	.uaword	0x22c6
+	.uaword	0x22dd
 	.uaword	.LLST86
 	.uleb128 0x25
 	.uaword	.LASF12
 	.byte	0x1
 	.byte	0x30
-	.uaword	0x30d9
+	.uaword	0x30f0
 	.uaword	.LLST87
 	.uleb128 0x2a
 	.string	"chMode"
 	.byte	0x1
 	.byte	0x30
-	.uaword	0x30de
+	.uaword	0x30f5
 	.uaword	.LLST88
 	.uleb128 0x25
 	.uaword	.LASF9
 	.byte	0x1
 	.byte	0x30
-	.uaword	0x31bd
+	.uaword	0x31d4
 	.uaword	.LLST89
 	.uleb128 0x27
 	.string	"bacon"
 	.byte	0x1
 	.byte	0x32
-	.uaword	0x1398
+	.uaword	0x13af
 	.uaword	.LLST90
 	.uleb128 0x4a
 	.uaword	.LASF17
 	.byte	0x1
 	.byte	0x33
-	.uaword	0x31c2
+	.uaword	0x31d9
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -6
 	.uleb128 0x4b
 	.uaword	.LVL174
-	.uaword	0x2f14
+	.uaword	0x2f2b
 	.uleb128 0x44
 	.byte	0x1
 	.byte	0x66
@@ -5941,53 +5941,53 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x174
+	.uaword	0x18b
 	.uleb128 0x16
-	.uaword	0x2463
-	.uaword	0x31d2
+	.uaword	0x247a
+	.uaword	0x31e9
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0x2
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x319
-	.uaword	0x31e2
+	.uaword	0x330
+	.uaword	0x31f9
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0x5
 	.byte	0
 	.uleb128 0x4c
 	.string	"IfxQspi_cfg_indexMap"
 	.byte	0x7
 	.byte	0x4b
-	.uaword	0x3200
+	.uaword	0x3217
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x35
-	.uaword	0x31d2
+	.uaword	0x31e9
 	.uleb128 0x16
-	.uaword	0x319
-	.uaword	0x3215
+	.uaword	0x330
+	.uaword	0x322c
 	.uleb128 0x17
-	.uaword	0x1b1c
+	.uaword	0x1b33
 	.byte	0x2
 	.byte	0
 	.uleb128 0x4c
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x9
 	.byte	0x96
-	.uaword	0x3232
+	.uaword	0x3249
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x35
-	.uaword	0x3205
+	.uaword	0x321c
 	.uleb128 0x4d
 	.byte	0x1
 	.string	"IfxScuCcu_getMaxFrequency"
 	.byte	0xa
 	.uahalf	0x36a
 	.byte	0x1
-	.uaword	0x23d
+	.uaword	0x254
 	.byte	0x1
 	.uleb128 0x4d
 	.byte	0x1
@@ -5995,7 +5995,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0xb
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x1fd
+	.uaword	0x214
 	.byte	0x1
 	.uleb128 0x4e
 	.byte	0x1
@@ -6004,9 +6004,9 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0xc5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x32b2
+	.uaword	0x32c9
 	.uleb128 0x1b
-	.uaword	0x1fd
+	.uaword	0x214
 	.byte	0
 	.uleb128 0x4f
 	.byte	0x1
@@ -6016,7 +6016,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1b
-	.uaword	0x1fd
+	.uaword	0x214
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -7184,10 +7184,10 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0xf5
 	.uleb128 0xf
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL6
@@ -7389,10 +7389,10 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0xb
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0xf5
 	.uleb128 0xf
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1e
 	.byte	0x9f
 	.uaword	.LVL15
@@ -7476,7 +7476,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -7527,7 +7527,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x12
 	.byte	0xf5
 	.uleb128 0
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x31
 	.byte	0x76
 	.sleb128 0
@@ -7535,9 +7535,9 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x24
 	.byte	0x24
 	.byte	0xf7
-	.uleb128 0x17d
+	.uleb128 0x194
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL42
@@ -7549,7 +7549,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x12
 	.byte	0xf5
 	.uleb128 0
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x31
 	.byte	0x76
 	.sleb128 0
@@ -7557,9 +7557,9 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x24
 	.byte	0x24
 	.byte	0xf7
-	.uleb128 0x17d
+	.uleb128 0x194
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL47
@@ -7567,7 +7567,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x12
 	.byte	0xf5
 	.uleb128 0
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x31
 	.byte	0x76
 	.sleb128 -1
@@ -7575,9 +7575,9 @@ IfxQspi_calculateBasicConfigurationValue:
 	.byte	0x24
 	.byte	0x24
 	.byte	0xf7
-	.uleb128 0x17d
+	.uleb128 0x194
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
@@ -7677,16 +7677,16 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x13
 	.byte	0xf5
 	.uleb128 0xb
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x78
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x17d
+	.uleb128 0x194
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0xf5
 	.uleb128 0xa
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1e
 	.byte	0x1b
 	.byte	0x9f
@@ -7699,16 +7699,16 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x13
 	.byte	0xf5
 	.uleb128 0xb
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x78
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x17d
+	.uleb128 0x194
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0xf5
 	.uleb128 0xa
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1e
 	.byte	0x1b
 	.byte	0x9f
@@ -7717,16 +7717,16 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x13
 	.byte	0xf5
 	.uleb128 0xb
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x78
 	.sleb128 -1
 	.byte	0xf7
-	.uleb128 0x17d
+	.uleb128 0x194
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0xf5
 	.uleb128 0xa
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1e
 	.byte	0x1b
 	.byte	0x9f
@@ -7760,16 +7760,16 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x11
 	.byte	0xf5
 	.uleb128 0xb
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x72
 	.sleb128 0
 	.byte	0x78
 	.sleb128 0
 	.byte	0x1e
 	.byte	0xf7
-	.uleb128 0x184
+	.uleb128 0x19b
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL65
@@ -7781,16 +7781,16 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x11
 	.byte	0xf5
 	.uleb128 0xb
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x72
 	.sleb128 0
 	.byte	0x78
 	.sleb128 0
 	.byte	0x1e
 	.byte	0xf7
-	.uleb128 0x184
+	.uleb128 0x19b
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL71
@@ -7798,16 +7798,16 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x11
 	.byte	0xf5
 	.uleb128 0xb
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x72
 	.sleb128 0
 	.byte	0x78
 	.sleb128 0
 	.byte	0x1e
 	.byte	0xf7
-	.uleb128 0x184
+	.uleb128 0x19b
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL75
@@ -7815,16 +7815,16 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uahalf	0x11
 	.byte	0xf5
 	.uleb128 0xb
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x78
 	.sleb128 -1
 	.byte	0x72
 	.sleb128 0
 	.byte	0x1e
 	.byte	0xf7
-	.uleb128 0x184
+	.uleb128 0x19b
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
@@ -8672,7 +8672,7 @@ IfxQspi_calculateBasicConfigurationValue:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x174
+	.uleb128 0x18b
 	.byte	0x9f
 	.uaword	0
 	.uaword	0

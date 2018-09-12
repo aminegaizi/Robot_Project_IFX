@@ -4,12 +4,19 @@
 #include <Stm/Std/IfxStm.h>*/
 #include "Motors_func.h"
 #include "IfxPort.h"
-
+#include "PWM_config.h"
 
 /*---System Timer Declaration---*/
 volatile Ifx_STM_TIM0 *TIM0 = &STM0_TIM0;
 Ifx_STM *stm0 = &MODULE_STM0;
 //Fsys = IfxStm_getFrequency(stm0);
+
+extern IfxGtm_Tom_Timer Timer1;
+extern IfxGtm_Tom_Timer Timer2;
+
+extern volatile uint32 interruptRight_counter;
+extern volatile uint32 interruptLeft_counter;
+
 
 /*---Port and Pin Declaration---*/
 Ifx_P *port13 = &MODULE_P13;
@@ -23,50 +30,7 @@ uint8 pin2 = 2;
 uint8 pin3 = 3;
 uint8 pin4 = 4;
 uint8 pin6 = 6;
-int cycles = 0;
 
-
-
-void GoAhead(int Time)
-{
-
-	//uint32 NbTicks = IfxStm_getTicksFromMilliseconds(stm0, Time);
-
-	/*IfxPort_setPinModeOutput(port2, pin1, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinHigh(port2, pin1);
-
-	IfxPort_setPinModeOutput(port2, pin0, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinHigh(port2, pin0);*/
-
-	//StartRightMotor();
-	//StartLeftMotor();
-
-
-	PWM(port2, pin0, 20, 0.20, Time);
-	PWM(port2, pin1, 50, 0.40, Time);
-
-
-	StopLeftMotor();
-	StopRightMotor();
-
-	/*IfxPort_setPinLow(port2, pin1);
-	IfxPort_setPinLow(port2, pin0);*/
-
-	/*min 30 ms 0.18 Duty or 25ms 0.24 Duty
-	 Minimum is 5.4 ms in high state*/
-
-	//IfxPort_setPinModeInput(port14, pin4, IfxPort_InputMode_pullDown);
-	/*StartRightMotor();
-	StartLeftMotor();
-
-	IfxStm_waitTicks(stm0,NbTicks);
-
-	StopLeftMotor();
-	StopRightMotor();*/
-
-	/*IfxPort_setPinLow(port2, pin1);
-	IfxPort_setPinLow(port2, pin0);*/
-}
 
 void StartRightMotor()	//Sets the H Bridge and activates right motor
 {
@@ -146,25 +110,135 @@ void StopLeftMotor()	//Sets the H Bridge and turns off left motor
 
 }
 
-void PWM(Ifx_P *port, uint8 pin, int period, float duty_cycle, int total_time)
+/*
+ * Input distance in cm
+ */
+void Forward(float distance)
 {
-	cycles = (total_time/period)+1;
-	int counter = 0;
-	do {
-		float UpTime = period*(1-duty_cycle);
-		float DownTime = duty_cycle*period;
-		uint32 UpTicks = IfxStm_getTicksFromMilliseconds(stm0, UpTime);
-		uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, DownTime);
+	interruptLeft_counter = 0;
+	interruptRight_counter = 0;
+	float ticks = (20*distance)/22.9;
+	uint8 duty1 = 45;
+	uint8 duty2 = 80;
 
-		IfxPort_setPinModeOutput(port, pin, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
 
-		IfxPort_setPinHigh(port, pin);
-		IfxStm_waitTicks(stm0,UpTicks);
+	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	do
+	{
+		StartLeftMotor();
+		StartRightMotor();
 
-		IfxPort_setPinLow(port, pin);
-		IfxStm_waitTicks(stm0, DownTicks);
+	}while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
 
-		counter+=1;
-	}while(counter<cycles);
-	//IfxPort_setPinLow(port, pin);
+	StopRightMotor();
+	StopLeftMotor();
+
+	IfxGtm_Tom_Timer_stop(&Timer1);
+	IfxGtm_Tom_Timer_stop(&Timer2);
+}
+
+void Backward (float distance)
+{
+	interruptLeft_counter = 0;
+	interruptRight_counter = 0;
+	float ticks = (20*distance)/22.9;
+	uint8 duty1 = 45;
+	uint8 duty2 = 66;
+
+	IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port0, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port33, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+
+	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
+
+	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	do
+	{
+	    IfxPort_setPinHigh(port0, pin6);//En A
+	    IfxPort_setPinHigh(port33, pin4);//En B
+	    IfxPort_setPinLow(port0, 12);//IN1
+	    IfxPort_setPinLow(port33, 12);//IN4
+
+	}while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
+
+    IfxPort_setPinLow(port0, pin6);
+    IfxPort_setPinLow(port33, pin4);
+
+	IfxGtm_Tom_Timer_stop(&Timer1);
+	IfxGtm_Tom_Timer_stop(&Timer2);
+}
+
+void Right (float angle)
+{
+	interruptLeft_counter = 0;
+	interruptRight_counter = 0;
+	float ticks = (32*angle)/360;
+	uint8 duty1 = 25;
+	uint8 duty2 = 25;
+
+	IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port0, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port33, 2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+
+	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
+
+	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	do
+	{
+	    IfxPort_setPinHigh(port0, pin6);//En A
+	    IfxPort_setPinHigh(port33, pin4);//En B
+	    IfxPort_setPinLow(port0, 12);//IN1
+	    IfxPort_setPinLow(port33, 2);//IN4
+
+	}while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
+
+    IfxPort_setPinLow(port0, pin6);
+    IfxPort_setPinLow(port33, pin4);
+
+    IfxGtm_Tom_Timer_stop(&Timer1);
+	IfxGtm_Tom_Timer_stop(&Timer2);
+
+}
+
+void Left (float angle)
+{
+	interruptLeft_counter = 0;
+	interruptRight_counter = 0;
+	float ticks = (32*angle)/360;
+	uint8 duty1 = 25;
+	uint8 duty2 = 25;
+
+	IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port0, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port33, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+
+	PWM_config(IfxGtm_TOM1_3_TOUT21_P00_12_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
+
+	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	do
+	{
+	    IfxPort_setPinHigh(port0, pin6);//En A
+	    IfxPort_setPinHigh(port33, pin4);//En B
+	    IfxPort_setPinLow(port0, pin4);//IN2
+	    IfxPort_setPinLow(port33, 12);//IN3
+
+	}while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
+
+    IfxPort_setPinLow(port0, pin6);
+    IfxPort_setPinLow(port33, pin4);
+
+    IfxGtm_Tom_Timer_stop(&Timer1);
+	IfxGtm_Tom_Timer_stop(&Timer2);
 }

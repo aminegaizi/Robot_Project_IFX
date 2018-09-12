@@ -26,11 +26,14 @@
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
 
+#include "IfxCpu_Irq.h"
 #include <Port/Io/IfxPort_Io.h>
 #include <_Reg\IfxPort_regdef.h>
 #include <Src/std/IfxSrc.h>
 #include "IfxSrc_reg.h"
 
+#include <Scu/Std/IfxScuEru.h>
+#include "IfxStm.h"
 #include "Motors_func.h"
 #include "PWM_config.h"
 #include "Encoders_config.h"
@@ -42,10 +45,14 @@
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
-extern IfxGtm_Tom_Timer Timer1;
-extern IfxGtm_Tom_Timer Timer2;
+//extern IfxGtm_Tom_Timer Timer1;
+//extern IfxGtm_Tom_Timer Timer2;
 
-volatile uint32 interrupt_counter = 0;
+extern Ifx_STM *stm0;
+
+//extern volatile uint32 interruptRight_counter;
+//extern volatile uint32 interruptLeft_counter;
+
 volatile float64 distance_obstacle = 0;
 
 int core0_main (void)
@@ -65,22 +72,22 @@ int core0_main (void)
 	IfxCpu_emitEvent(&cpuSyncEvent);
 	IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
-
-
-	StopLeftMotor();
-	StopRightMotor();
 	Encoders_config();
-	//GoAhead(500);
 
 	ClockConfig();
 
-	PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
-
-	uint8 duty1 = 50;
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
-	uint8 duty2 = 73;
-	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
-	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
+	Forward(100);
+	IfxStm_waitTicks(stm0, DownTicks);
+	Right(90);
+	IfxStm_waitTicks(stm0, DownTicks);
+	Forward(100);
+	IfxStm_waitTicks(stm0, DownTicks);
+	Backward(100);
+	IfxStm_waitTicks(stm0, DownTicks);
+	Left(90);
+	IfxStm_waitTicks(stm0, DownTicks);
+	Backward(100);
 
 	//ultrasonic sensor config
 	configUltrasonicSensor();

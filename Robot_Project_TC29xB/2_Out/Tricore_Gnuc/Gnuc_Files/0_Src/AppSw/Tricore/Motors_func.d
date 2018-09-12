@@ -41,4 +41,28 @@
  0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxStm_cfg.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h \
- 0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxSrc_cfg.h
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxSrc_cfg.h \
+ 0_Src/AppSw/Tricore/PWM_config.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Cmu.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxGtm_cfg.h \
+ 0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxGtm_reg.h \
+ 0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxGtm_regdef.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxGtm_PinMap.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Atom.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Tbu.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Cmu.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Tom.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Tim.h \
+ 0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxGtm_bf.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Cmu.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/PwmHl/IfxGtm_Tom_PwmHl.h \
+ 0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.h \
+ 0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf.h \
+ 0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_Timer.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h \
+ 0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_Timer.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxGtm_PinMap.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h

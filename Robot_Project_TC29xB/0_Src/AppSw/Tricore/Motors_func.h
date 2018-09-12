@@ -8,5 +8,9 @@ void StartRightMotor();
 void StartLeftMotor();
 void StopLeftMotor();
 void StopRightMotor();
-void GoAhead(int Time);
-void PWM(Ifx_P *port, uint8 pin, int period, float duty_cycle, int total_time);
+
+
+void Forward(float distance);
+void Backward (float distance);
+void Right (float angle);
+void Left (float angle);

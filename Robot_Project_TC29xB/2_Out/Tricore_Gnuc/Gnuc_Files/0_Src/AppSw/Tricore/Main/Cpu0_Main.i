@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
-# 1 "C:\\Robot_Project_IFX\\Robot_Project_TC29xB//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
@@ -10164,31 +10164,10 @@ static inline __attribute__ ((always_inline)) void IfxCpu_updatePerformanceCount
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuWdt.h" 1
 # 28 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
-# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h" 1
-# 159 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h"
-typedef struct
-{
-    const IfxPort_Pin *pin;
-    IfxPort_Mode mode;
-    IfxPort_PadDriver padDriver;
-} IfxPort_Io_ConfigPin;
-
-
-
-
-
-typedef struct
-{
-    uint32 size;
-    IfxPort_Io_ConfigPin *pinTable;
-} IfxPort_Io_Config;
-# 188 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h"
-extern void IfxPort_Io_initModule(const IfxPort_Io_Config *config);
-# 30 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
-# 1 "0_Src/BaseSw/Infra/Sfr/TC29B/_Reg\\IfxPort_regdef.h" 1
-# 31 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
-# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h" 1
-# 95 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h" 1
+# 43 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h"
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h" 1
+# 95 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxSrc_cfg.h" 1
 # 49 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxSrc_cfg.h"
 typedef enum
@@ -10198,24 +10177,24 @@ typedef enum
     IfxSrc_Tos_cpu2 = 2,
     IfxSrc_Tos_dma = 3
 } IfxSrc_Tos;
-# 96 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h" 2
-# 112 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 96 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h" 2
+# 112 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_clearOverrun(volatile Ifx_SRC_SRCR *src);
-# 121 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 121 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_clearRequest(volatile Ifx_SRC_SRCR *src);
-# 130 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 130 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) boolean IfxSrc_isOverrun(volatile Ifx_SRC_SRCR *src);
-# 139 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 139 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) boolean IfxSrc_isRequested(volatile Ifx_SRC_SRCR *src);
-# 148 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 148 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_setRequest(volatile Ifx_SRC_SRCR *src);
-# 166 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 166 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_deinit(volatile Ifx_SRC_SRCR *src);
-# 175 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 175 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_disable(volatile Ifx_SRC_SRCR *src);
-# 184 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 184 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_enable(volatile Ifx_SRC_SRCR *src);
-# 216 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h"
+# 216 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h"
 static inline __attribute__ ((always_inline)) void IfxSrc_init(volatile Ifx_SRC_SRCR *src, IfxSrc_Tos typOfService, Ifx_Priority priority);
 
 
@@ -10278,15 +10257,247 @@ static inline __attribute__ ((always_inline)) void IfxSrc_setRequest(volatile If
 {
     src->B.SETR = 1;
 }
+# 44 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h" 2
+# 84 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h"
+static inline __attribute__ ((always_inline)) IfxSrc_Tos IfxCpu_Irq_getTos(IfxCpu_ResourceCpu coreId)
+{
+    return (IfxSrc_Tos)coreId;
+}
+# 30 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h" 1
+# 159 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h"
+typedef struct
+{
+    const IfxPort_Pin *pin;
+    IfxPort_Mode mode;
+    IfxPort_PadDriver padDriver;
+} IfxPort_Io_ConfigPin;
+
+
+
+
+
+typedef struct
+{
+    uint32 size;
+    IfxPort_Io_ConfigPin *pinTable;
+} IfxPort_Io_Config;
+# 188 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h"
+extern void IfxPort_Io_initModule(const IfxPort_Io_Config *config);
+# 31 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 1 "0_Src/BaseSw/Infra/Sfr/TC29B/_Reg\\IfxPort_regdef.h" 1
 # 32 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h" 1
+# 33 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
 
-# 1 "0_Src/AppSw/Tricore/Motors_func.h" 1
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h" 1
+# 62 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
+typedef enum
+{
+    IfxScuEru_ExternalInputSelection_0 = 0,
+    IfxScuEru_ExternalInputSelection_1,
+    IfxScuEru_ExternalInputSelection_2,
+    IfxScuEru_ExternalInputSelection_3
+} IfxScuEru_ExternalInputSelection;
 
 
 
-# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Std/IfxPort.h" 1
-# 5 "0_Src/AppSw/Tricore/Motors_func.h" 2
+typedef enum
+{
+    IfxScuEru_InputChannel_0 = 0,
+    IfxScuEru_InputChannel_1,
+    IfxScuEru_InputChannel_2,
+    IfxScuEru_InputChannel_3,
+    IfxScuEru_InputChannel_4,
+    IfxScuEru_InputChannel_5,
+    IfxScuEru_InputChannel_6,
+    IfxScuEru_InputChannel_7
+} IfxScuEru_InputChannel;
+
+
+
+
+typedef enum
+{
+    IfxScuEru_InputNodePointer_0 = 0,
+    IfxScuEru_InputNodePointer_1,
+    IfxScuEru_InputNodePointer_2,
+    IfxScuEru_InputNodePointer_3,
+    IfxScuEru_InputNodePointer_4,
+    IfxScuEru_InputNodePointer_5,
+    IfxScuEru_InputNodePointer_6,
+    IfxScuEru_InputNodePointer_7
+} IfxScuEru_InputNodePointer;
+
+
+
+
+typedef enum
+{
+    IfxScuEru_InterruptGatingPattern_none = 0,
+    IfxScuEru_InterruptGatingPattern_alwaysActive = 1,
+    IfxScuEru_InterruptGatingPattern_patternMatch = 2,
+    IfxScuEru_InterruptGatingPattern_patternMiss = 3
+} IfxScuEru_InterruptGatingPattern;
+
+
+
+typedef enum
+{
+    IfxScuEru_OutputChannel_0 = 0,
+    IfxScuEru_OutputChannel_1,
+    IfxScuEru_OutputChannel_2,
+    IfxScuEru_OutputChannel_3,
+    IfxScuEru_OutputChannel_4,
+    IfxScuEru_OutputChannel_5,
+    IfxScuEru_OutputChannel_6,
+    IfxScuEru_OutputChannel_7
+} IfxScuEru_OutputChannel;
+# 138 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
+static inline __attribute__ ((always_inline)) void IfxScuEru_initReqPin(IfxScu_Req_In *req, IfxPort_InputMode inputMode);
+# 149 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
+extern void IfxScuEru_selectExternalInput(IfxScuEru_InputChannel inputChannel, IfxScuEru_ExternalInputSelection inputSignal);
+# 163 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
+extern void IfxScuEru_clearAllEventFlags(void);
+
+
+
+
+
+extern void IfxScuEru_clearEventFlag(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_clearInputChannelConfiguration(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_disableAutoClear(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_disableFallingEdgeDetection(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_disableRisingEdgeDetection(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_enableAutoClear(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_enableFallingEdgeDetection(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_enableRisingEdgeDetection(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+extern uint32 IfxScuEru_getAllEventFlagsStatus(void);
+
+
+
+
+
+extern boolean IfxScuEru_getEventFlagStatus(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern uint32 IfxScuEru_getInputChannelConfiguration(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_setEventFlag(IfxScuEru_InputChannel inputChannel);
+# 250 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
+extern void IfxScuEru_connectTrigger(IfxScuEru_InputChannel inputChannel, IfxScuEru_InputNodePointer triggerSelect);
+
+
+
+
+
+extern void IfxScuEru_disableTriggerPulse(IfxScuEru_InputChannel inputChannel);
+
+
+
+
+
+extern void IfxScuEru_enableTriggerPulse(IfxScuEru_InputChannel inputChannel);
+# 271 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
+extern void IfxScuEru_setFlagPatternDetection(IfxScuEru_OutputChannel outputChannel, IfxScuEru_InputChannel inputChannel, boolean state);
+# 286 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
+extern void IfxScuEru_clearOutputChannelConfiguration(IfxScuEru_OutputChannel outputChannel);
+
+
+
+
+
+extern void IfxScuEru_disablePatternDetectionTrigger(IfxScuEru_OutputChannel outputChannel);
+
+
+
+
+
+extern void IfxScuEru_enablePatternDetectionTrigger(IfxScuEru_OutputChannel outputChannel);
+
+
+
+
+
+extern uint32 IfxScuEru_getOutputChannelConfiguration(IfxScuEru_OutputChannel outputChannel);
+
+
+
+
+
+extern boolean IfxScuEru_getPatternDetectionResult(IfxScuEru_OutputChannel outputChannel);
+
+
+
+
+extern uint32 IfxScuEru_getWholePatternDetectionResult(void);
+
+
+
+
+
+
+extern void IfxScuEru_setInterruptGatingPattern(IfxScuEru_OutputChannel outputChannel, IfxScuEru_InterruptGatingPattern gatingPattern);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxScuEru_initReqPin(IfxScu_Req_In *req, IfxPort_InputMode inputMode)
+{
+    IfxPort_setPinModeInput(req->pin.port, req->pin.pinIndex, inputMode);
+    IfxScuEru_selectExternalInput((IfxScuEru_InputChannel)req->channelId, (IfxScuEru_ExternalInputSelection)req->select);
+}
+# 36 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 1
 # 119 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxStm_cfg.h" 1
@@ -10301,9 +10512,6 @@ typedef enum
 # 84 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxStm_cfg.h"
 extern const IfxModule_IndexMap IfxStm_cfg_indexMap[3];
 # 120 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 2
-
-# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/Std/IfxSrc.h" 1
-# 122 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 2
 # 131 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
 typedef enum
 {
@@ -10755,15 +10963,27 @@ static inline __attribute__ ((always_inline)) void IfxStm_waitTicks(Ifx_STM *stm
     while ((IfxStm_getLower(stm) - beginTime) < ticks)
     {}
 }
+# 37 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 1 "0_Src/AppSw/Tricore/Motors_func.h" 1
+
+
+
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Std/IfxPort.h" 1
+# 5 "0_Src/AppSw/Tricore/Motors_func.h" 2
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 1
 # 6 "0_Src/AppSw/Tricore/Motors_func.h" 2
 
 void StartRightMotor();
 void StartLeftMotor();
 void StopLeftMotor();
 void StopRightMotor();
-void GoAhead(int Time);
-void PWM(Ifx_P *port, uint8 pin, int period, float duty_cycle, int total_time);
-# 35 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+
+
+void Forward(float distance);
+void Backward (float distance);
+void Right (float angle);
+void Left (float angle);
+# 38 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 # 1 "0_Src/AppSw/Tricore/PWM_config.h" 1
 # 12 "0_Src/AppSw/Tricore/PWM_config.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Cmu.h" 1
@@ -22771,239 +22991,40 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 void PWM_config(IfxGtm_Tom_ToutMap Output);
 void PWM2_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
-# 36 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 39 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 # 1 "0_Src/AppSw/Tricore/Encoders_config.h" 1
-# 11 "0_Src/AppSw/Tricore/Encoders_config.h"
-# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h" 1
-# 84 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h"
-static inline __attribute__ ((always_inline)) IfxSrc_Tos IfxCpu_Irq_getTos(IfxCpu_ResourceCpu coreId)
-{
-    return (IfxSrc_Tos)coreId;
-}
-# 12 "0_Src/AppSw/Tricore/Encoders_config.h" 2
-
-
-
-
+# 16 "0_Src/AppSw/Tricore/Encoders_config.h"
 # 1 "0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxSrc_regdef.h" 1
 # 17 "0_Src/AppSw/Tricore/Encoders_config.h" 2
-# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h" 1
-# 62 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
-typedef enum
-{
-    IfxScuEru_ExternalInputSelection_0 = 0,
-    IfxScuEru_ExternalInputSelection_1,
-    IfxScuEru_ExternalInputSelection_2,
-    IfxScuEru_ExternalInputSelection_3
-} IfxScuEru_ExternalInputSelection;
 
+# 1 "0_Src/AppSw/Tricore/Motors_func.h" 1
 
 
-typedef enum
-{
-    IfxScuEru_InputChannel_0 = 0,
-    IfxScuEru_InputChannel_1,
-    IfxScuEru_InputChannel_2,
-    IfxScuEru_InputChannel_3,
-    IfxScuEru_InputChannel_4,
-    IfxScuEru_InputChannel_5,
-    IfxScuEru_InputChannel_6,
-    IfxScuEru_InputChannel_7
-} IfxScuEru_InputChannel;
 
 
 
 
-typedef enum
-{
-    IfxScuEru_InputNodePointer_0 = 0,
-    IfxScuEru_InputNodePointer_1,
-    IfxScuEru_InputNodePointer_2,
-    IfxScuEru_InputNodePointer_3,
-    IfxScuEru_InputNodePointer_4,
-    IfxScuEru_InputNodePointer_5,
-    IfxScuEru_InputNodePointer_6,
-    IfxScuEru_InputNodePointer_7
-} IfxScuEru_InputNodePointer;
+void StartRightMotor();
+void StartLeftMotor();
+void StopLeftMotor();
+void StopRightMotor();
 
 
-
-
-typedef enum
-{
-    IfxScuEru_InterruptGatingPattern_none = 0,
-    IfxScuEru_InterruptGatingPattern_alwaysActive = 1,
-    IfxScuEru_InterruptGatingPattern_patternMatch = 2,
-    IfxScuEru_InterruptGatingPattern_patternMiss = 3
-} IfxScuEru_InterruptGatingPattern;
-
-
-
-typedef enum
-{
-    IfxScuEru_OutputChannel_0 = 0,
-    IfxScuEru_OutputChannel_1,
-    IfxScuEru_OutputChannel_2,
-    IfxScuEru_OutputChannel_3,
-    IfxScuEru_OutputChannel_4,
-    IfxScuEru_OutputChannel_5,
-    IfxScuEru_OutputChannel_6,
-    IfxScuEru_OutputChannel_7
-} IfxScuEru_OutputChannel;
-# 138 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
-static inline __attribute__ ((always_inline)) void IfxScuEru_initReqPin(IfxScu_Req_In *req, IfxPort_InputMode inputMode);
-# 149 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
-extern void IfxScuEru_selectExternalInput(IfxScuEru_InputChannel inputChannel, IfxScuEru_ExternalInputSelection inputSignal);
-# 163 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
-extern void IfxScuEru_clearAllEventFlags(void);
-
-
-
-
-
-extern void IfxScuEru_clearEventFlag(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_clearInputChannelConfiguration(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_disableAutoClear(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_disableFallingEdgeDetection(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_disableRisingEdgeDetection(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_enableAutoClear(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_enableFallingEdgeDetection(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_enableRisingEdgeDetection(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-extern uint32 IfxScuEru_getAllEventFlagsStatus(void);
-
-
-
-
-
-extern boolean IfxScuEru_getEventFlagStatus(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern uint32 IfxScuEru_getInputChannelConfiguration(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_setEventFlag(IfxScuEru_InputChannel inputChannel);
-# 250 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
-extern void IfxScuEru_connectTrigger(IfxScuEru_InputChannel inputChannel, IfxScuEru_InputNodePointer triggerSelect);
-
-
-
-
-
-extern void IfxScuEru_disableTriggerPulse(IfxScuEru_InputChannel inputChannel);
-
-
-
-
-
-extern void IfxScuEru_enableTriggerPulse(IfxScuEru_InputChannel inputChannel);
-# 271 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
-extern void IfxScuEru_setFlagPatternDetection(IfxScuEru_OutputChannel outputChannel, IfxScuEru_InputChannel inputChannel, boolean state);
-# 286 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h"
-extern void IfxScuEru_clearOutputChannelConfiguration(IfxScuEru_OutputChannel outputChannel);
-
-
-
-
-
-extern void IfxScuEru_disablePatternDetectionTrigger(IfxScuEru_OutputChannel outputChannel);
-
-
-
-
-
-extern void IfxScuEru_enablePatternDetectionTrigger(IfxScuEru_OutputChannel outputChannel);
-
-
-
-
-
-extern uint32 IfxScuEru_getOutputChannelConfiguration(IfxScuEru_OutputChannel outputChannel);
-
-
-
-
-
-extern boolean IfxScuEru_getPatternDetectionResult(IfxScuEru_OutputChannel outputChannel);
-
-
-
-
-extern uint32 IfxScuEru_getWholePatternDetectionResult(void);
-
-
-
-
-
-
-extern void IfxScuEru_setInterruptGatingPattern(IfxScuEru_OutputChannel outputChannel, IfxScuEru_InterruptGatingPattern gatingPattern);
-
-
-
-
-
-
-
-static inline __attribute__ ((always_inline)) void IfxScuEru_initReqPin(IfxScu_Req_In *req, IfxPort_InputMode inputMode)
-{
-    IfxPort_setPinModeInput(req->pin.port, req->pin.pinIndex, inputMode);
-    IfxScuEru_selectExternalInput((IfxScuEru_InputChannel)req->channelId, (IfxScuEru_ExternalInputSelection)req->select);
-}
-# 18 "0_Src/AppSw/Tricore/Encoders_config.h" 2
+void Forward(float distance);
+void Backward (float distance);
+void Right (float angle);
+void Left (float angle);
+# 19 "0_Src/AppSw/Tricore/Encoders_config.h" 2
 
 # 1 "0_Src/AppSw/Tricore/PWM_config.h" 1
 # 22 "0_Src/AppSw/Tricore/PWM_config.h"
 void PWM_config(IfxGtm_Tom_ToutMap Output);
 void PWM2_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
-# 20 "0_Src/AppSw/Tricore/Encoders_config.h" 2
+# 21 "0_Src/AppSw/Tricore/Encoders_config.h" 2
 
 void Encoders_config();
-# 37 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 40 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
 
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h" 1
@@ -23291,7 +23312,7 @@ extern IfxPort_Pin IfxPort_P40_9;
 
 
 extern const IfxPort_Pin *IfxPort_Pin_pinTable[41][16];
-# 40 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 43 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 # 1 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h" 1
 # 19 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h"
 void configUltrasonicSensor(void);
@@ -23311,15 +23332,19 @@ void isrGetDistance(void);
 
 
 float64 returnDistance(void);
-# 41 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 44 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
-extern IfxGtm_Tom_Timer Timer1;
-extern IfxGtm_Tom_Timer Timer2;
 
-volatile uint32 interrupt_counter = 0;
+
+
+extern Ifx_STM *stm0;
+
+
+
+
 volatile float64 distance_obstacle = 0;
 
 int core0_main (void)
@@ -23339,22 +23364,22 @@ int core0_main (void)
  IfxCpu_emitEvent(&cpuSyncEvent);
  IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
-
-
- StopLeftMotor();
- StopRightMotor();
  Encoders_config();
-
 
  ClockConfig();
 
- PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT);
-
- uint8 duty1 = 50;
- IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100);
- uint8 duty2 = 73;
- PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
- IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100);
+ uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
+ Forward(100);
+ IfxStm_waitTicks(stm0, DownTicks);
+ Right(90);
+ IfxStm_waitTicks(stm0, DownTicks);
+ Forward(100);
+ IfxStm_waitTicks(stm0, DownTicks);
+ Backward(100);
+ IfxStm_waitTicks(stm0, DownTicks);
+ Left(90);
+ IfxStm_waitTicks(stm0, DownTicks);
+ Backward(100);
 
 
  configUltrasonicSensor();

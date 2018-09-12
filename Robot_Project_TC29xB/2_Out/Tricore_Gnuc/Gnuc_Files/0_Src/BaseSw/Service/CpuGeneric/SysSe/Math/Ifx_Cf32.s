@@ -954,7 +954,7 @@ VecWin_f32:
 	.file 5 "c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\tricore\\include\\math.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0xb0f
+	.uaword	0xb26
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -962,7 +962,7 @@ VecWin_f32:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_Cf32.c"
-	.string	"C:\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
 	.uaword	.Ldebug_ranges0+0x18
 	.uaword	0
 	.uaword	0
@@ -991,7 +991,7 @@ VecWin_f32:
 	.string	"sint16"
 	.byte	0x3
 	.byte	0x5a
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x5
@@ -1004,7 +1004,7 @@ VecWin_f32:
 	.string	"float32"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x1ff
+	.uaword	0x216
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -1029,25 +1029,25 @@ VecWin_f32:
 	.byte	0x8
 	.byte	0x4
 	.byte	0x2b
-	.uaword	0x268
+	.uaword	0x27f
 	.uleb128 0x5
 	.string	"real"
 	.byte	0x4
 	.byte	0x2d
-	.uaword	0x1f0
+	.uaword	0x207
 	.byte	0
 	.uleb128 0x5
 	.string	"imag"
 	.byte	0x4
 	.byte	0x2e
-	.uaword	0x1f0
+	.uaword	0x207
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"cfloat32"
 	.byte	0x4
 	.byte	0x2f
-	.uaword	0x245
+	.uaword	0x25c
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -1065,57 +1065,57 @@ VecWin_f32:
 	.byte	0x2
 	.byte	0x41
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x207
 	.byte	0x3
-	.uaword	0x2c7
+	.uaword	0x2de
 	.uleb128 0x7
 	.string	"b"
 	.byte	0x2
 	.byte	0x41
-	.uaword	0x2c7
+	.uaword	0x2de
 	.byte	0
 	.uleb128 0x8
 	.byte	0x4
-	.uaword	0x2cd
+	.uaword	0x2e4
 	.uleb128 0x9
-	.uaword	0x268
+	.uaword	0x27f
 	.uleb128 0x6
 	.string	"IFX_Cf32_mag"
 	.byte	0x2
 	.byte	0x47
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x207
 	.byte	0x3
-	.uaword	0x2f6
+	.uaword	0x30d
 	.uleb128 0x7
 	.string	"c"
 	.byte	0x2
 	.byte	0x47
-	.uaword	0x2c7
+	.uaword	0x2de
 	.byte	0
 	.uleb128 0x6
 	.string	"IFX_Cf32_mul"
 	.byte	0x2
 	.byte	0x2f
 	.byte	0x1
-	.uaword	0x268
+	.uaword	0x27f
 	.byte	0x3
-	.uaword	0x32c
+	.uaword	0x343
 	.uleb128 0x7
 	.string	"a"
 	.byte	0x2
 	.byte	0x2f
-	.uaword	0x2c7
+	.uaword	0x2de
 	.uleb128 0x7
 	.string	"b"
 	.byte	0x2
 	.byte	0x2f
-	.uaword	0x2c7
+	.uaword	0x2de
 	.uleb128 0xa
 	.string	"R"
 	.byte	0x2
 	.byte	0x31
-	.uaword	0x268
+	.uaword	0x27f
 	.byte	0
 	.uleb128 0xb
 	.byte	0x1
@@ -1123,33 +1123,33 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0xc8
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x207
 	.byte	0x1
-	.uaword	0x36e
+	.uaword	0x385
 	.uleb128 0x7
 	.string	"X"
 	.byte	0x1
 	.byte	0xc8
-	.uaword	0x36e
+	.uaword	0x385
 	.uleb128 0x7
 	.string	"nX"
 	.byte	0x1
 	.byte	0xc8
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uleb128 0xa
 	.string	"sumX"
 	.byte	0x1
 	.byte	0xca
-	.uaword	0x1f0
+	.uaword	0x207
 	.uleb128 0xa
 	.string	"i"
 	.byte	0x1
 	.byte	0xcb
-	.uaword	0x1da
+	.uaword	0x1f1
 	.byte	0
 	.uleb128 0x8
 	.byte	0x4
-	.uaword	0x1f0
+	.uaword	0x207
 	.uleb128 0xc
 	.byte	0x1
 	.string	"CplxVecRst_f32"
@@ -1161,23 +1161,23 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3b3
+	.uaword	0x3ca
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x1f
-	.uaword	0x3b3
+	.uaword	0x3ca
 	.uaword	.LLST0
 	.uleb128 0xd
 	.string	"nX"
 	.byte	0x1
 	.byte	0x1f
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST1
 	.byte	0
 	.uleb128 0x8
 	.byte	0x4
-	.uaword	0x268
+	.uaword	0x27f
 	.uleb128 0xc
 	.byte	0x1
 	.string	"CplxVecCpy_f32S"
@@ -1189,35 +1189,35 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x417
+	.uaword	0x42e
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x29
-	.uaword	0x3b3
+	.uaword	0x3ca
 	.uaword	.LLST2
 	.uleb128 0xd
 	.string	"S"
 	.byte	0x1
 	.byte	0x29
-	.uaword	0x417
+	.uaword	0x42e
 	.uaword	.LLST3
 	.uleb128 0xd
 	.string	"nS"
 	.byte	0x1
 	.byte	0x29
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST4
 	.uleb128 0xd
 	.string	"incrS"
 	.byte	0x1
 	.byte	0x29
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST5
 	.byte	0
 	.uleb128 0x8
 	.byte	0x4
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uleb128 0xc
 	.byte	0x1
 	.string	"CplxVecCpy_f32"
@@ -1229,24 +1229,24 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x469
+	.uaword	0x480
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x34
-	.uaword	0x3b3
+	.uaword	0x3ca
 	.uaword	.LLST6
 	.uleb128 0xd
 	.string	"S"
 	.byte	0x1
 	.byte	0x34
-	.uaword	0x3b3
+	.uaword	0x3ca
 	.uaword	.LLST7
 	.uleb128 0xd
 	.string	"nS"
 	.byte	0x1
 	.byte	0x34
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST8
 	.byte	0
 	.uleb128 0xe
@@ -1255,46 +1255,46 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x3e
 	.byte	0x1
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LFB174
 	.uaword	.LFE174
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4dd
+	.uaword	0x4f4
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x3e
-	.uaword	0x3b3
+	.uaword	0x3ca
 	.uaword	.LLST9
 	.uleb128 0xd
 	.string	"nX"
 	.byte	0x1
 	.byte	0x3e
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST10
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0x40
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST11
 	.uleb128 0x10
 	.string	"r"
 	.byte	0x1
 	.byte	0x41
-	.uaword	0x36e
+	.uaword	0x385
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x11
-	.uaword	0x2a3
+	.uaword	0x2ba
 	.uaword	.LBB14
 	.uaword	.LBE14
 	.byte	0x1
 	.byte	0x45
 	.uleb128 0x12
-	.uaword	0x2bd
+	.uaword	0x2d4
 	.uaword	.LLST12
 	.byte	0
 	.byte	0
@@ -1304,60 +1304,60 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x4d
 	.byte	0x1
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LFB175
 	.uaword	.LFE175
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x579
+	.uaword	0x590
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x4d
-	.uaword	0x3b3
+	.uaword	0x3ca
 	.uaword	.LLST13
 	.uleb128 0xd
 	.string	"nX"
 	.byte	0x1
 	.byte	0x4d
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST14
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0x4f
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST15
 	.uleb128 0xf
 	.string	"r"
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST16
 	.uleb128 0x13
-	.uaword	0x2d2
+	.uaword	0x2e9
 	.uaword	.LBB16
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x12
-	.uaword	0x2ec
+	.uaword	0x303
 	.uaword	.LLST17
 	.uleb128 0x14
-	.uaword	0x2a3
+	.uaword	0x2ba
 	.uaword	.LBB18
 	.uaword	.LBE18
 	.byte	0x2
 	.byte	0x49
-	.uaword	0x56e
+	.uaword	0x585
 	.uleb128 0x12
-	.uaword	0x2bd
+	.uaword	0x2d4
 	.uaword	.LLST17
 	.byte	0
 	.uleb128 0x15
 	.uaword	.LVL29
-	.uaword	0xadf
+	.uaword	0xaf6
 	.byte	0
 	.byte	0
 	.uleb128 0xc
@@ -1371,43 +1371,43 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x5f6
+	.uaword	0x60d
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x5c
-	.uaword	0x3b3
+	.uaword	0x3ca
 	.uaword	.LLST19
 	.uleb128 0x16
 	.string	"mul"
 	.byte	0x1
 	.byte	0x5c
-	.uaword	0x2c7
+	.uaword	0x2de
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0xd
 	.string	"nX"
 	.byte	0x1
 	.byte	0x5c
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST20
 	.uleb128 0x11
-	.uaword	0x2f6
+	.uaword	0x30d
 	.uaword	.LBB22
 	.uaword	.LBE22
 	.byte	0x1
 	.byte	0x60
 	.uleb128 0x12
-	.uaword	0x319
+	.uaword	0x330
 	.uaword	.LLST21
 	.uleb128 0x12
-	.uaword	0x310
+	.uaword	0x327
 	.uaword	.LLST22
 	.uleb128 0x17
 	.uaword	.LBB23
 	.uaword	.LBE23
 	.uleb128 0x18
-	.uaword	0x322
+	.uaword	0x339
 	.byte	0
 	.byte	0
 	.byte	0
@@ -1422,28 +1422,28 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x649
+	.uaword	0x660
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x66
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST23
 	.uleb128 0xd
 	.string	"nX"
 	.byte	0x1
 	.byte	0x66
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST24
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0x68
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST25
 	.uleb128 0x15
 	.uaword	.LVL46
-	.uaword	0xafa
+	.uaword	0xb11
 	.byte	0
 	.uleb128 0x19
 	.byte	0x1
@@ -1456,89 +1456,89 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x6a8
+	.uaword	0x6bf
 	.uleb128 0xd
 	.string	"R"
 	.byte	0x1
 	.byte	0x72
-	.uaword	0x6a8
+	.uaword	0x6bf
 	.uaword	.LLST26
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x72
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST27
 	.uleb128 0xd
 	.string	"nX"
 	.byte	0x1
 	.byte	0x72
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST28
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0x74
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST29
 	.uleb128 0x15
 	.uaword	.LVL52
-	.uaword	0xafa
+	.uaword	0xb11
 	.byte	0
 	.uleb128 0x8
 	.byte	0x4
-	.uaword	0x1bf
+	.uaword	0x1d6
 	.uleb128 0xe
 	.byte	0x1
 	.string	"VecMaxIdx_f32"
 	.byte	0x1
 	.byte	0x7e
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LFB179
 	.uaword	.LFE179
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x72e
+	.uaword	0x745
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x7e
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST30
 	.uleb128 0x16
 	.string	"nX"
 	.byte	0x1
 	.byte	0x7e
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x16
 	.string	"minIdx"
 	.byte	0x1
 	.byte	0x7e
-	.uaword	0x6a8
+	.uaword	0x6bf
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x16
 	.string	"maxIdx"
 	.byte	0x1
 	.byte	0x7e
-	.uaword	0x6a8
+	.uaword	0x6bf
 	.byte	0x1
 	.byte	0x66
 	.uleb128 0xf
 	.string	"maxPeak"
 	.byte	0x1
 	.byte	0x80
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LLST31
 	.uleb128 0xf
 	.string	"m"
 	.byte	0x1
 	.byte	0x81
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST32
 	.byte	0
 	.uleb128 0xe
@@ -1547,51 +1547,51 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x97
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LFB180
 	.uaword	.LFE180
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7ae
+	.uaword	0x7c5
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST33
 	.uleb128 0x16
 	.string	"nX"
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x16
 	.string	"minIdx"
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x6a8
+	.uaword	0x6bf
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x16
 	.string	"maxIdx"
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x6a8
+	.uaword	0x6bf
 	.byte	0x1
 	.byte	0x66
 	.uleb128 0xf
 	.string	"minPeak"
 	.byte	0x1
 	.byte	0x99
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LLST34
 	.uleb128 0xf
 	.string	"m"
 	.byte	0x1
 	.byte	0x9a
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST35
 	.byte	0
 	.uleb128 0xc
@@ -1605,32 +1605,32 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x804
+	.uaword	0x81b
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST36
 	.uleb128 0x16
 	.string	"offset"
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x1f0
+	.uaword	0x207
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x16
 	.string	"nX"
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0xb2
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST37
 	.byte	0
 	.uleb128 0xc
@@ -1644,54 +1644,54 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x859
+	.uaword	0x870
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0xbc
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST38
 	.uleb128 0x16
 	.string	"gain"
 	.byte	0x1
 	.byte	0xbc
-	.uaword	0x1f0
+	.uaword	0x207
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x16
 	.string	"nX"
 	.byte	0x1
 	.byte	0xbc
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0xbe
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST39
 	.byte	0
 	.uleb128 0x1a
-	.uaword	0x32c
+	.uaword	0x343
 	.uaword	.LFB183
 	.uaword	.LFE183
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x890
+	.uaword	0x8a7
 	.uleb128 0x12
-	.uaword	0x345
+	.uaword	0x35c
 	.uaword	.LLST40
 	.uleb128 0x1b
-	.uaword	0x34e
+	.uaword	0x365
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x1c
-	.uaword	0x358
+	.uaword	0x36f
 	.uaword	.LLST41
 	.uleb128 0x1c
-	.uaword	0x364
+	.uaword	0x37b
 	.uaword	.LLST42
 	.byte	0
 	.uleb128 0xe
@@ -1700,47 +1700,47 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0xd7
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LFB184
 	.uaword	.LFE184
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x909
+	.uaword	0x920
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0xd7
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST43
 	.uleb128 0x16
 	.string	"nX"
 	.byte	0x1
 	.byte	0xd7
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x11
-	.uaword	0x32c
+	.uaword	0x343
 	.uaword	.LBB24
 	.uaword	.LBE24
 	.byte	0x1
 	.byte	0xd9
 	.uleb128 0x1b
-	.uaword	0x34e
+	.uaword	0x365
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x12
-	.uaword	0x345
+	.uaword	0x35c
 	.uaword	.LLST44
 	.uleb128 0x17
 	.uaword	.LBB25
 	.uaword	.LBE25
 	.uleb128 0x1c
-	.uaword	0x358
+	.uaword	0x36f
 	.uaword	.LLST45
 	.uleb128 0x1c
-	.uaword	0x364
+	.uaword	0x37b
 	.uaword	.LLST46
 	.byte	0
 	.byte	0
@@ -1751,37 +1751,37 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0xdd
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LFB185
 	.uaword	.LFE185
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x960
+	.uaword	0x977
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0xdd
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST47
 	.uleb128 0x16
 	.string	"nX"
 	.byte	0x1
 	.byte	0xdd
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0xdf
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST48
 	.uleb128 0xf
 	.string	"r"
 	.byte	0x1
 	.byte	0xe0
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LLST49
 	.byte	0
 	.uleb128 0xe
@@ -1790,37 +1790,37 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0xec
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LFB186
 	.uaword	.LFE186
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9b7
+	.uaword	0x9ce
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0xec
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST50
 	.uleb128 0x16
 	.string	"nX"
 	.byte	0x1
 	.byte	0xec
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0xee
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST51
 	.uleb128 0xf
 	.string	"r"
 	.byte	0x1
 	.byte	0xef
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LLST52
 	.byte	0
 	.uleb128 0xc
@@ -1834,37 +1834,37 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xa39
+	.uaword	0xa50
 	.uleb128 0xd
 	.string	"X"
 	.byte	0x1
 	.byte	0xfb
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST53
 	.uleb128 0xd
 	.string	"nX"
 	.byte	0x1
 	.byte	0xfb
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST54
 	.uleb128 0xf
 	.string	"i"
 	.byte	0x1
 	.byte	0xfd
-	.uaword	0x1da
+	.uaword	0x1f1
 	.uaword	.LLST55
 	.uleb128 0x10
 	.string	"half"
 	.byte	0x1
 	.byte	0xfe
-	.uaword	0x1da
+	.uaword	0x1f1
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0xf
 	.string	"F"
 	.byte	0x1
 	.byte	0xff
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST56
 	.uleb128 0x17
 	.uaword	.LBB26
@@ -1873,7 +1873,7 @@ VecWin_f32:
 	.string	"tmp"
 	.byte	0x1
 	.uahalf	0x103
-	.uaword	0x1f0
+	.uaword	0x207
 	.uaword	.LLST57
 	.byte	0
 	.byte	0
@@ -1888,73 +1888,73 @@ VecWin_f32:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xad4
+	.uaword	0xaeb
 	.uleb128 0x1f
 	.string	"X"
 	.byte	0x1
 	.uahalf	0x10e
-	.uaword	0x36e
+	.uaword	0x385
 	.uaword	.LLST58
 	.uleb128 0x1f
 	.string	"W"
 	.byte	0x1
 	.uahalf	0x10e
-	.uaword	0xad4
+	.uaword	0xaeb
 	.uaword	.LLST59
 	.uleb128 0x20
 	.string	"nX"
 	.byte	0x1
 	.uahalf	0x10e
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x1f
 	.string	"nW"
 	.byte	0x1
 	.uahalf	0x10e
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST60
 	.uleb128 0x1f
 	.string	"incrX"
 	.byte	0x1
 	.uahalf	0x10e
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST61
 	.uleb128 0x1f
 	.string	"symW"
 	.byte	0x1
 	.uahalf	0x10e
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST62
 	.uleb128 0x1d
 	.string	"step"
 	.byte	0x1
 	.uahalf	0x110
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST63
 	.uleb128 0x1d
 	.string	"i"
 	.byte	0x1
 	.uahalf	0x111
-	.uaword	0x1cd
+	.uaword	0x1e4
 	.uaword	.LLST64
 	.byte	0
 	.uleb128 0x8
 	.byte	0x4
-	.uaword	0xada
+	.uaword	0xaf1
 	.uleb128 0x9
-	.uaword	0x1f0
+	.uaword	0x207
 	.uleb128 0x21
 	.byte	0x1
 	.string	"sqrtf"
 	.byte	0x5
 	.uahalf	0x136
 	.byte	0x1
-	.uaword	0x1ff
+	.uaword	0x216
 	.byte	0x1
-	.uaword	0xafa
+	.uaword	0xb11
 	.uleb128 0x22
-	.uaword	0x1ff
+	.uaword	0x216
 	.byte	0
 	.uleb128 0x23
 	.byte	0x1
@@ -1962,10 +1962,10 @@ VecWin_f32:
 	.byte	0x5
 	.uahalf	0x134
 	.byte	0x1
-	.uaword	0x1ff
+	.uaword	0x216
 	.byte	0x1
 	.uleb128 0x22
-	.uaword	0x1ff
+	.uaword	0x216
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits

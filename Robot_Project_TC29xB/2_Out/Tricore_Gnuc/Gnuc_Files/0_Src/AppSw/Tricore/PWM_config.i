@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/PWM_config.c"
-# 1 "C:\\Robot_Project_IFX\\Robot_Project_TC29xB//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/PWM_config.c"
@@ -22286,34 +22286,31 @@ IfxGtm_Tom_Timer_Config Timer2Config;
 
 Ifx_GTM *gtm = &(*(Ifx_GTM*)0xF0100000u);
 
-
-
-
-
-
 void PWM_config(IfxGtm_Tom_ToutMap Output)
 {
  IfxGtm_Tom_Timer_initConfig(&TimerConfig, gtm);
 
  TimerConfig.tom = Output.tom;
  TimerConfig.timerChannel = Output.channel;
- TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0;
+
+ TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk2;
  TimerConfig.irqModeTimer = IfxGtm_IrqMode_pulse;
  TimerConfig.irqModeTrigger = IfxGtm_IrqMode_pulse;
 
  TimerConfig.triggerOut = &Output;
 
- TimerConfig.base.frequency = 20000;
+ TimerConfig.base.frequency = 1000;
  TimerConfig.base.minResolution = 0;
  TimerConfig.base.trigger.enabled = 1;
  TimerConfig.base.trigger.outputEnabled = 1;
  TimerConfig.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
  TimerConfig.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
- TimerConfig.base.trigger.triggerPoint = 0xffff;
+
+ TimerConfig.base.trigger.triggerPoint = 0x00ff;
  TimerConfig.base.trigger.risingEdgeAtPeriod = 1;
 
  TimerConfig.base.isrPriority = 0;
-
+# 51 "0_Src/AppSw/Tricore/PWM_config.c"
  IfxGtm_Tom_Timer_init(&Timer1, &TimerConfig);
     IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer1.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
 
@@ -22323,17 +22320,14 @@ void PWM_config(IfxGtm_Tom_ToutMap Output)
 
 }
 
-
-
-
-
-
 void PWM2_config(IfxGtm_Tom_ToutMap Output)
 {
  IfxGtm_Tom_Timer_initConfig(&Timer2Config, gtm);
+
  Timer2Config.tom = Output.tom;
  Timer2Config.timerChannel = Output.channel;
- TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0;
+
+ Timer2Config.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk2;
  Timer2Config.irqModeTimer = IfxGtm_IrqMode_pulse;
  Timer2Config.irqModeTrigger = IfxGtm_IrqMode_pulse;
 
@@ -22345,9 +22339,12 @@ void PWM2_config(IfxGtm_Tom_ToutMap Output)
  Timer2Config.base.trigger.outputEnabled = 1;
  Timer2Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
  Timer2Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
- TimerConfig.base.trigger.triggerPoint = 0xffff;
+
+ Timer2Config.base.trigger.triggerPoint = 0x00ff;
  Timer2Config.base.trigger.risingEdgeAtPeriod = 1;
+
  Timer2Config.base.isrPriority = 0;
+
 
  IfxGtm_Tom_Timer_init(&Timer2, &Timer2Config);
     IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer2.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);

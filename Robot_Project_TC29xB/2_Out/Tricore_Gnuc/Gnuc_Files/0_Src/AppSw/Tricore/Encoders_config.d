@@ -46,8 +46,11 @@
  0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h \
  0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxSrc_regdef.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h \
- 0_Src/AppSw/Tricore/PWM_config.h \
+ 0_Src/AppSw/Tricore/Motors_func.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Std/IfxPort.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxStm_cfg.h \
+ 0_Src/AppSw/Tricore/PWM_config.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Cmu.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxGtm_cfg.h \
  0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxGtm_reg.h \

@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Encoders_config.c"
-# 1 "C:\\Robot_Project_IFX\\Robot_Project_TC29xB//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Encoders_config.c"
@@ -10512,12 +10512,493 @@ static inline __attribute__ ((always_inline)) void IfxScuEru_initReqPin(IfxScu_R
     IfxScuEru_selectExternalInput((IfxScuEru_InputChannel)req->channelId, (IfxScuEru_ExternalInputSelection)req->select);
 }
 # 18 "0_Src/AppSw/Tricore/Encoders_config.h" 2
+# 1 "0_Src/AppSw/Tricore/Motors_func.h" 1
+
+
+
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Std/IfxPort.h" 1
+# 5 "0_Src/AppSw/Tricore/Motors_func.h" 2
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 1
+# 119 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxStm_cfg.h" 1
+# 67 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxStm_cfg.h"
+typedef enum
+{
+    IfxStm_Index_none = -1,
+    IfxStm_Index_0 = 0,
+    IfxStm_Index_1,
+    IfxStm_Index_2
+} IfxStm_Index;
+# 84 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxStm_cfg.h"
+extern const IfxModule_IndexMap IfxStm_cfg_indexMap[3];
+# 120 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 2
+# 131 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+typedef enum
+{
+    IfxStm_Comparator_0 = 0,
+    IfxStm_Comparator_1
+} IfxStm_Comparator;
+
+
+
+typedef enum
+{
+    IfxStm_ComparatorInterrupt_ir0 = 0,
+    IfxStm_ComparatorInterrupt_ir1 = 1
+} IfxStm_ComparatorInterrupt;
+
+
+
+typedef enum
+{
+    IfxStm_ComparatorOffset_0 = 0,
+    IfxStm_ComparatorOffset_1,
+    IfxStm_ComparatorOffset_2,
+    IfxStm_ComparatorOffset_3,
+    IfxStm_ComparatorOffset_4,
+    IfxStm_ComparatorOffset_5,
+    IfxStm_ComparatorOffset_6,
+    IfxStm_ComparatorOffset_7,
+    IfxStm_ComparatorOffset_8,
+    IfxStm_ComparatorOffset_9,
+    IfxStm_ComparatorOffset_10,
+    IfxStm_ComparatorOffset_11,
+    IfxStm_ComparatorOffset_12,
+    IfxStm_ComparatorOffset_13,
+    IfxStm_ComparatorOffset_14,
+    IfxStm_ComparatorOffset_15,
+    IfxStm_ComparatorOffset_16,
+    IfxStm_ComparatorOffset_17,
+    IfxStm_ComparatorOffset_18,
+    IfxStm_ComparatorOffset_19,
+    IfxStm_ComparatorOffset_20,
+    IfxStm_ComparatorOffset_21,
+    IfxStm_ComparatorOffset_22,
+    IfxStm_ComparatorOffset_23,
+    IfxStm_ComparatorOffset_24,
+    IfxStm_ComparatorOffset_25,
+    IfxStm_ComparatorOffset_26,
+    IfxStm_ComparatorOffset_27,
+    IfxStm_ComparatorOffset_28,
+    IfxStm_ComparatorOffset_29,
+    IfxStm_ComparatorOffset_30,
+    IfxStm_ComparatorOffset_31
+} IfxStm_ComparatorOffset;
+
+
+
+typedef enum
+{
+    IfxStm_ComparatorSize_1Bit = 0,
+    IfxStm_ComparatorSize_2Bits = 1,
+    IfxStm_ComparatorSize_3Bits = 2,
+    IfxStm_ComparatorSize_4Bits = 3,
+    IfxStm_ComparatorSize_5Bits = 4,
+    IfxStm_ComparatorSize_6Bits = 5,
+    IfxStm_ComparatorSize_7Bits = 6,
+    IfxStm_ComparatorSize_8Bits = 7,
+    IfxStm_ComparatorSize_9Bits = 8,
+    IfxStm_ComparatorSize_10Bits = 9,
+    IfxStm_ComparatorSize_11Bits = 10,
+    IfxStm_ComparatorSize_12Bits = 11,
+    IfxStm_ComparatorSize_13Bits = 12,
+    IfxStm_ComparatorSize_14Bits = 13,
+    IfxStm_ComparatorSize_15Bits = 14,
+    IfxStm_ComparatorSize_16Bits = 15,
+    IfxStm_ComparatorSize_17Bits = 16,
+    IfxStm_ComparatorSize_18Bits = 17,
+    IfxStm_ComparatorSize_19Bits = 18,
+    IfxStm_ComparatorSize_20Bits = 19,
+    IfxStm_ComparatorSize_21Bits = 20,
+    IfxStm_ComparatorSize_22Bits = 21,
+    IfxStm_ComparatorSize_23Bits = 22,
+    IfxStm_ComparatorSize_24Bits = 23,
+    IfxStm_ComparatorSize_25Bits = 24,
+    IfxStm_ComparatorSize_26Bits = 25,
+    IfxStm_ComparatorSize_27Bits = 26,
+    IfxStm_ComparatorSize_28Bits = 27,
+    IfxStm_ComparatorSize_29Bits = 28,
+    IfxStm_ComparatorSize_30Bits = 29,
+    IfxStm_ComparatorSize_31Bits = 30,
+    IfxStm_ComparatorSize_32Bits = 31
+} IfxStm_ComparatorSize;
+
+
+
+
+typedef enum
+{
+    IfxStm_SleepMode_enable = 0,
+    IfxStm_SleepMode_disable = 1
+} IfxStm_SleepMode;
+
+
+
+typedef enum
+{
+    IfxStm_SuspendMode_none = 0,
+    IfxStm_SuspendMode_hard = 1,
+    IfxStm_SuspendMode_soft = 2
+} IfxStm_SuspendMode;
+# 249 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+typedef struct
+{
+    IfxStm_Comparator comparator;
+    IfxStm_ComparatorInterrupt comparatorInterrupt;
+    IfxStm_ComparatorOffset compareOffset;
+    IfxStm_ComparatorSize compareSize;
+    uint32 ticks;
+    Ifx_Priority triggerPriority;
+    IfxSrc_Tos typeOfService;
+} IfxStm_CompareConfig;
+# 273 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+static inline __attribute__ ((always_inline)) uint64 IfxStm_get(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) float32 IfxStm_getFrequency(Ifx_STM *stm);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) boolean IfxStm_isModuleSuspended(Ifx_STM *stm);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_setSuspendMode(Ifx_STM *stm, IfxStm_SuspendMode mode);
+# 305 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+extern void IfxStm_disableModule(Ifx_STM *stm);
+
+
+
+
+
+extern void IfxStm_enableOcdsSuspend(Ifx_STM *stm);
+
+
+
+
+
+extern Ifx_STM *IfxStm_getAddress(IfxStm_Index stm);
+
+
+
+
+
+extern IfxStm_Index IfxStm_getIndex(Ifx_STM *stm);
+# 338 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getLower(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset12Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset16Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset20Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset32Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset4Timer(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset8Timer(Ifx_STM *stm);
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffsetTimer(Ifx_STM *stm, uint8 offset);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_waitTicks(Ifx_STM *stm, uint32 ticks);
+# 405 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getCompare(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) sint32 IfxStm_getTicksFromMicroseconds(Ifx_STM *stm, uint32 microSeconds);
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) sint32 IfxStm_getTicksFromMilliseconds(Ifx_STM *stm, uint32 milliSeconds);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_increaseCompare(Ifx_STM *stm, IfxStm_Comparator comparator, uint32 ticks);
+
+
+
+
+
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_updateCompare(Ifx_STM *stm, IfxStm_Comparator comparator, uint32 ticks);
+# 446 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+extern void IfxStm_clearCompareFlag(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+extern void IfxStm_disableComparatorInterrupt(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+extern void IfxStm_enableComparatorInterrupt(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+extern volatile Ifx_SRC_SRCR *IfxStm_getSrcPointer(Ifx_STM *stm, IfxStm_Comparator comparator);
+
+
+
+
+
+
+extern boolean IfxStm_initCompare(Ifx_STM *stm, const IfxStm_CompareConfig *config);
+
+
+
+
+
+extern void IfxStm_initCompareConfig(IfxStm_CompareConfig *config);
+
+
+
+
+
+
+extern boolean IfxStm_isCompareFlagSet(Ifx_STM *stm, IfxStm_Comparator comparator);
+# 497 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+extern void IfxStm_setCompareControl(Ifx_STM *stm, IfxStm_Comparator comparator, IfxStm_ComparatorOffset offset, IfxStm_ComparatorSize size, IfxStm_ComparatorInterrupt interrupt);
+# 510 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+static inline __attribute__ ((always_inline)) void IfxStm_setSleepMode(Ifx_STM *stm, IfxStm_SleepMode mode);
+# 520 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
+extern void IfxStm_resetModule(Ifx_STM *stm);
+
+
+
+
+
+static inline __attribute__ ((always_inline)) uint64 IfxStm_get(Ifx_STM *stm)
+{
+    uint64 result;
+
+    result = stm->TIM0.U;
+    result |= ((uint64)stm->CAP.U) << 32;
+
+    return result;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getCompare(Ifx_STM *stm, IfxStm_Comparator comparator)
+{
+    return stm->CMP[comparator].B.CMPVAL;
+}
+
+
+static inline __attribute__ ((always_inline)) float32 IfxStm_getFrequency(Ifx_STM *stm)
+{
+    float32 result;
+
+    result = IfxScuCcu_getStmFrequency();
+
+    return result;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getLower(Ifx_STM *stm)
+{
+    return stm->TIM0.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset12Timer(Ifx_STM *stm)
+{
+    return stm->TIM3.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset16Timer(Ifx_STM *stm)
+{
+    return stm->TIM4.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset20Timer(Ifx_STM *stm)
+{
+    return stm->TIM5.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset32Timer(Ifx_STM *stm)
+{
+    return stm->TIM6.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset4Timer(Ifx_STM *stm)
+{
+    return stm->TIM1.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffset8Timer(Ifx_STM *stm)
+{
+    return stm->TIM2.U;
+}
+
+
+static inline __attribute__ ((always_inline)) uint32 IfxStm_getOffsetTimer(Ifx_STM *stm, uint8 offset)
+{
+    uint64 now;
+
+    now = IfxStm_get(stm);
+
+    return (uint32)(now >> offset);
+}
+
+
+static inline __attribute__ ((always_inline)) sint32 IfxStm_getTicksFromMicroseconds(Ifx_STM *stm, uint32 microSeconds)
+{
+    sint32 freq = (sint32)IfxStm_getFrequency(stm);
+    return (freq / (1000000)) * microSeconds;
+}
+
+
+static inline __attribute__ ((always_inline)) sint32 IfxStm_getTicksFromMilliseconds(Ifx_STM *stm, uint32 milliSeconds)
+{
+    sint32 freq = (sint32)IfxStm_getFrequency(stm);
+    return (freq / (1000)) * milliSeconds;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_increaseCompare(Ifx_STM *stm, IfxStm_Comparator comparator, uint32 ticks)
+{
+    stm->CMP[comparator].B.CMPVAL = stm->CMP[comparator].B.CMPVAL + ticks;
+}
+
+
+static inline __attribute__ ((always_inline)) boolean IfxStm_isModuleSuspended(Ifx_STM *stm)
+{
+    Ifx_STM_OCS ocs;
+
+
+    ocs.U = stm->OCS.U;
+
+
+    return ocs.B.SUSSTA;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_setSleepMode(Ifx_STM *stm, IfxStm_SleepMode mode)
+{
+    uint16 passwd = IfxScuWdt_getCpuWatchdogPassword();
+    IfxScuWdt_clearCpuEndinit(passwd);
+    stm->CLC.B.EDIS = mode;
+    IfxScuWdt_setCpuEndinit(passwd);
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_setSuspendMode(Ifx_STM *stm, IfxStm_SuspendMode mode)
+{
+    Ifx_STM_OCS ocs;
+
+
+    ocs.B.SUS_P = 1;
+    ocs.B.SUS = mode;
+    stm->OCS.U = ocs.U;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_updateCompare(Ifx_STM *stm, IfxStm_Comparator comparator, uint32 ticks)
+{
+    stm->CMP[comparator].B.CMPVAL = ticks;
+}
+
+
+static inline __attribute__ ((always_inline)) void IfxStm_waitTicks(Ifx_STM *stm, uint32 ticks)
+{
+    uint32 beginTime;
+
+    beginTime = IfxStm_getLower(stm);
+
+
+
+
+    while ((IfxStm_getLower(stm) - beginTime) < ticks)
+    {}
+}
+# 6 "0_Src/AppSw/Tricore/Motors_func.h" 2
+
+void StartRightMotor();
+void StartLeftMotor();
+void StopLeftMotor();
+void StopRightMotor();
+
+
+void Forward(float distance);
+void Backward (float distance);
+void Right (float angle);
+void Left (float angle);
+# 19 "0_Src/AppSw/Tricore/Encoders_config.h" 2
 
 # 1 "0_Src/AppSw/Tricore/PWM_config.h" 1
-# 10 "0_Src/AppSw/Tricore/PWM_config.h"
-# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Std/IfxPort.h" 1
-# 11 "0_Src/AppSw/Tricore/PWM_config.h" 2
-
+# 12 "0_Src/AppSw/Tricore/PWM_config.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Cmu.h" 1
 # 39 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Std/IfxGtm_Cmu.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxGtm_cfg.h" 1
@@ -22523,7 +23004,7 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 void PWM_config(IfxGtm_Tom_ToutMap Output);
 void PWM2_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
-# 20 "0_Src/AppSw/Tricore/Encoders_config.h" 2
+# 21 "0_Src/AppSw/Tricore/Encoders_config.h" 2
 
 void Encoders_config();
 # 9 "0_Src/AppSw/Tricore/Encoders_config.c" 2
@@ -22534,8 +23015,8 @@ extern IfxGtm_Tom_Timer Timer2;
 __asm__ (".ifndef .intr.entry.include                        \n" ".altmacro                                           \n" ".macro .int_entry.2 intEntryLabel, name # define the section and inttab entry code \n" "	.pushsection .\\intEntryLabel,\"ax\",@progbits   \n" "	__\\intEntryLabel :                              \n" "		svlcx                                        \n" "		movh.a  %a14, hi:\\name                      \n" "		lea     %a14, [%a14]lo:\\name                \n" "		ji      %a14                                 \n" "	.popsection                                      \n" ".endm                                               \n" ".macro .int_entry.1 prio,vectabNum,u,name           \n" ".int_entry.2 intvec_tc\\vectabNum\\u\\prio,(name) # build the unique name \n" ".endm                                               \n" "                                                    \n" ".macro .intr.entry name,vectabNum,prio              \n" ".int_entry.1 %(prio),%(vectabNum),_,name # evaluate the priority and the cpu number \n" ".endm                                               \n" ".intr.entry.include:                                \n" ".endif                                              \n" ".intr.entry ""ISR_ENCODER_L"",""0"",""1" );extern void __attribute__ ((interrupt_handler)) ISR_ENCODER_L(); void ISR_ENCODER_L (void);
 __asm__ (".ifndef .intr.entry.include                        \n" ".altmacro                                           \n" ".macro .int_entry.2 intEntryLabel, name # define the section and inttab entry code \n" "	.pushsection .\\intEntryLabel,\"ax\",@progbits   \n" "	__\\intEntryLabel :                              \n" "		svlcx                                        \n" "		movh.a  %a14, hi:\\name                      \n" "		lea     %a14, [%a14]lo:\\name                \n" "		ji      %a14                                 \n" "	.popsection                                      \n" ".endm                                               \n" ".macro .int_entry.1 prio,vectabNum,u,name           \n" ".int_entry.2 intvec_tc\\vectabNum\\u\\prio,(name) # build the unique name \n" ".endm                                               \n" "                                                    \n" ".macro .intr.entry name,vectabNum,prio              \n" ".int_entry.1 %(prio),%(vectabNum),_,name # evaluate the priority and the cpu number \n" ".endm                                               \n" ".intr.entry.include:                                \n" ".endif                                              \n" ".intr.entry ""ISR_ENCODER_R"",""0"",""2" );extern void __attribute__ ((interrupt_handler)) ISR_ENCODER_R(); void ISR_ENCODER_R (void);
 
-volatile uint32 interrupt2_counter = 0;
-volatile uint32 interrupt3_counter = 0;
+volatile uint32 interruptLeft_counter = 0;
+volatile uint32 interruptRight_counter = 0;
 
 void Encoders_config()
 {
@@ -22559,30 +23040,22 @@ void Encoders_config()
  IfxSrc_init(src1, IfxCpu_Irq_getTos(IfxCpu_getCoreId()), 2);
  IfxSrc_enable(src1);
 
- IfxScuEru_initReqPin(&IfxScu_REQ11_P20_9_IN, IfxPort_InputMode_noPullDevice);
- IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId);
+ IfxScuEru_initReqPin(&IfxScu_REQ13_P15_5_IN, IfxPort_InputMode_noPullDevice);
+ IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
 
- IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId, IfxScuEru_InputNodePointer_1);
- IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId);
+ IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId, IfxScuEru_InputNodePointer_1);
+ IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
  IfxScuEru_setInterruptGatingPattern(IfxScuEru_OutputChannel_1, IfxScuEru_InterruptGatingPattern_alwaysActive);
 
 }
 
 void ISR_ENCODER_L()
 {
- interrupt2_counter++;
-
-
-
-
+ interruptLeft_counter++;
 
 }
 
 void ISR_ENCODER_R()
 {
- interrupt3_counter++;
-
-
-
-
+ interruptRight_counter++;
 }

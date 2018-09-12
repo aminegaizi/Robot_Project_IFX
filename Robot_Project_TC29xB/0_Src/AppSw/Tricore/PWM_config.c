@@ -16,33 +16,37 @@ IfxGtm_Tom_Timer_Config Timer2Config;
 
 Ifx_GTM *gtm = &MODULE_GTM;
 
-/* This function configures the PWM in a first output, here is a list of possible outputs
- * IfxGtm_TOM0_0_TOUT18_P00_9_OUT -- IfxGtm_TOM0_0_TOUT76_P15_5_OUT -- IfxGtm_TOM0_0_TOUT53_P21_2_OUT -- IfxGtm_TOM0_0_TOUT77_P15_6_OUT
-	IfxGtm_TOM1_0_TOUT18_P00_9_OUT -- IfxGtm_TOM1_0_TOUT76_P15_5_OUT -- IfxGtm_TOM1_0_TOUT26_P33_4_OUT
-	IfxGtm_TOM2_0_TOUT48_P22_1_OUT
- */
 void PWM_config(IfxGtm_Tom_ToutMap Output)
 {
 	IfxGtm_Tom_Timer_initConfig(&TimerConfig, gtm);
-
+	//TimerConfig.gtm = gtm;
 	TimerConfig.tom = Output.tom;
 	TimerConfig.timerChannel = Output.channel;
-	TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0; //divided by 1
+	//TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0; //divided by 1
+	TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk2;
 	TimerConfig.irqModeTimer = IfxGtm_IrqMode_pulse;
 	TimerConfig.irqModeTrigger = IfxGtm_IrqMode_pulse;
 
 	TimerConfig.triggerOut = &Output;
-
-	TimerConfig.base.frequency = 20000;
+	//IfxGtm_TOM0_0_TOUT85_P14_5_OUT
+	TimerConfig.base.frequency = 1000;
 	TimerConfig.base.minResolution = 0;
 	TimerConfig.base.trigger.enabled = TRUE;
 	TimerConfig.base.trigger.outputEnabled = TRUE;
 	TimerConfig.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
 	TimerConfig.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
-	TimerConfig.base.trigger.triggerPoint = 0xffff;
+	//TimerConfig.base.trigger.triggerPoint = 0xffff;
+	TimerConfig.base.trigger.triggerPoint = 0x00ff;
 	TimerConfig.base.trigger.risingEdgeAtPeriod = TRUE;
 
 	TimerConfig.base.isrPriority = 0;
+	/*Ifx_GTM_TOM_CH CH0;
+	Timer1.gtm = gtm;
+	Timer1.tom = &CH0;
+	Timer1.timerChannel = IfxGtm_TOM0_7_TOUT84_P14_4_OUT.channel;*/
+	//Timer1.
+
+	//IfxGtm_Tom_Ch_setClockSource(&TimerConfig.tom, TimerConfig.timerChannel, TimerConfig.clock);
 
 	IfxGtm_Tom_Timer_init(&Timer1, &TimerConfig);
     IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer1.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
@@ -53,41 +57,41 @@ void PWM_config(IfxGtm_Tom_ToutMap Output)
 
 }
 
-/* This function configures the PWM in a second output, here is a list of possible outputs
- * IfxGtm_TOM0_0_TOUT18_P00_9_OUT -- IfxGtm_TOM0_0_TOUT76_P15_5_OUT -- IfxGtm_TOM0_0_TOUT53_P21_2_OUT -- IfxGtm_TOM0_0_TOUT77_P15_6_OUT
-	IfxGtm_TOM1_0_TOUT18_P00_9_OUT -- IfxGtm_TOM1_0_TOUT76_P15_5_OUT -- IfxGtm_TOM1_0_TOUT26_P33_4_OUT
-	IfxGtm_TOM2_0_TOUT48_P22_1_OUT
- */
 void PWM2_config(IfxGtm_Tom_ToutMap Output)
 {
 	IfxGtm_Tom_Timer_initConfig(&Timer2Config, gtm);
+	//TimerConfig.gtm = gtm;
 	Timer2Config.tom = Output.tom;
 	Timer2Config.timerChannel = Output.channel;
-	TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0; //divided by 1
+	//TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0; //divided by 1
+	Timer2Config.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk2;
 	Timer2Config.irqModeTimer = IfxGtm_IrqMode_pulse;
 	Timer2Config.irqModeTrigger = IfxGtm_IrqMode_pulse;
 
 	Timer2Config.triggerOut = &Output;
-
+	//IfxGtm_TOM0_0_TOUT85_P14_5_OUT
 	Timer2Config.base.frequency = 1000;
 	Timer2Config.base.minResolution = 0;
 	Timer2Config.base.trigger.enabled = TRUE;
 	Timer2Config.base.trigger.outputEnabled = TRUE;
 	Timer2Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
 	Timer2Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
-	TimerConfig.base.trigger.triggerPoint = 0xffff;
+	//TimerConfig.base.trigger.triggerPoint = 0xffff;
+	Timer2Config.base.trigger.triggerPoint = 0x00ff;
 	Timer2Config.base.trigger.risingEdgeAtPeriod = TRUE;
+
 	Timer2Config.base.isrPriority = 0;
+	//IfxGtm_Tom_Ch_setClockSource(&TimerConfig.tom, TimerConfig.timerChannel, TimerConfig.clock);
 
 	IfxGtm_Tom_Timer_init(&Timer2, &Timer2Config);
     IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer2.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
 
     IfxGtm_Tom_Timer_run(&Timer2);
 
-    //IfxGtm_Tom_Timer_setTrigger(&Timer2, ((100-50) * Timer2.base.period) / 100);
+    //IfxGtm_Tom_Timer_setTrigger(&Timer1, ((100-50) * Timer1.base.period) / 100);
 
 }
-/* This function sets the clocks needed for the GTM and TOM to run*/
+
 void ClockConfig()
 {
 	IfxGtm_enable(&MODULE_GTM);

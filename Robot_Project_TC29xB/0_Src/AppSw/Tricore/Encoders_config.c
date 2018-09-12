@@ -13,8 +13,8 @@ extern IfxGtm_Tom_Timer Timer2;
 IFX_INTERRUPT(ISR_ENCODER_L, 0, 1);
 IFX_INTERRUPT(ISR_ENCODER_R, 0, 2);
 
-volatile uint32 interrupt2_counter = 0;
-volatile uint32 interrupt3_counter = 0;
+volatile uint32 interruptLeft_counter = 0;
+volatile uint32 interruptRight_counter = 0;
 
 void Encoders_config()
 {
@@ -38,30 +38,22 @@ void Encoders_config()
 	IfxSrc_init(src1, IfxCpu_Irq_getTos(IfxCpu_getCoreId()), 2);
 	IfxSrc_enable(src1);
 	// initialization of ERU
-	IfxScuEru_initReqPin(&IfxScu_REQ11_P20_9_IN, IfxPort_InputMode_noPullDevice);
-	IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId);
+	IfxScuEru_initReqPin(&IfxScu_REQ13_P15_5_IN, IfxPort_InputMode_noPullDevice);
+	IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
 	// we use the OGU1
-	IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId, IfxScuEru_InputNodePointer_1);
-	IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ11_P20_9_IN.channelId);
+	IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId, IfxScuEru_InputNodePointer_1);
+	IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
 	IfxScuEru_setInterruptGatingPattern(IfxScuEru_OutputChannel_1, IfxScuEru_InterruptGatingPattern_alwaysActive);
 
 }
 
 void ISR_ENCODER_L()
 {
-	interrupt2_counter++;
-//	if (interrupt2_counter == 150)
-//	{
-//		IfxGtm_Tom_Timer_stop(&Timer1);
-//	}
+	interruptLeft_counter++;
 
 }
 
 void ISR_ENCODER_R()
 {
-	interrupt3_counter++;
-//	if (interrupt3_counter == 150)
-//	{
-//		IfxGtm_Tom_Timer_stop(&Timer2);
-//	}
+	interruptRight_counter++;
 }
