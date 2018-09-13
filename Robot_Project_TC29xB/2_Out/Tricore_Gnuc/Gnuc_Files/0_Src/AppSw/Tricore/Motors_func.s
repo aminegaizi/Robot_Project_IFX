@@ -398,7 +398,7 @@ Forward:
 	movh.a	%a2, hi:Timer1
 	ld.w	%d2, [%a2] lo:Timer1
 	lea	%a14, [%a2] lo:Timer1
-	mul	%d15, %d2, 45
+	mul	%d15, %d2, 46
 	movh	%d2, 20972
 	addi	%d2, %d2, -31457
 	mul.u	%e2, %d15, %d2
@@ -52338,7 +52338,7 @@ TIM0:
 	.byte	0x1
 	.byte	0x79
 	.uaword	0x1ba
-	.byte	0x2d
+	.byte	0x2e
 	.uleb128 0x39
 	.uaword	.LASF212
 	.byte	0x1

@@ -22843,7 +22843,7 @@ void Forward(float distance)
  interruptLeft_counter = 0;
  interruptRight_counter = 0;
  float ticks = (20*distance)/22.9;
- uint8 duty1 = 45;
+ uint8 duty1 = 46;
  uint8 duty2 = 80;
 
  PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT);
