@@ -23009,8 +23009,8 @@ void ClockConfig();
 void Encoders_config();
 # 9 "0_Src/AppSw/Tricore/Encoders_config.c" 2
 
-extern IfxGtm_Tom_Timer Timer1;
-extern IfxGtm_Tom_Timer Timer2;
+
+
 
 __asm__ (".ifndef .intr.entry.include                        \n" ".altmacro                                           \n" ".macro .int_entry.2 intEntryLabel, name # define the section and inttab entry code \n" "	.pushsection .\\intEntryLabel,\"ax\",@progbits   \n" "	__\\intEntryLabel :                              \n" "		svlcx                                        \n" "		movh.a  %a14, hi:\\name                      \n" "		lea     %a14, [%a14]lo:\\name                \n" "		ji      %a14                                 \n" "	.popsection                                      \n" ".endm                                               \n" ".macro .int_entry.1 prio,vectabNum,u,name           \n" ".int_entry.2 intvec_tc\\vectabNum\\u\\prio,(name) # build the unique name \n" ".endm                                               \n" "                                                    \n" ".macro .intr.entry name,vectabNum,prio              \n" ".int_entry.1 %(prio),%(vectabNum),_,name # evaluate the priority and the cpu number \n" ".endm                                               \n" ".intr.entry.include:                                \n" ".endif                                              \n" ".intr.entry ""ISR_ENCODER_L"",""0"",""1" );extern void __attribute__ ((interrupt_handler)) ISR_ENCODER_L(); void ISR_ENCODER_L (void);
 __asm__ (".ifndef .intr.entry.include                        \n" ".altmacro                                           \n" ".macro .int_entry.2 intEntryLabel, name # define the section and inttab entry code \n" "	.pushsection .\\intEntryLabel,\"ax\",@progbits   \n" "	__\\intEntryLabel :                              \n" "		svlcx                                        \n" "		movh.a  %a14, hi:\\name                      \n" "		lea     %a14, [%a14]lo:\\name                \n" "		ji      %a14                                 \n" "	.popsection                                      \n" ".endm                                               \n" ".macro .int_entry.1 prio,vectabNum,u,name           \n" ".int_entry.2 intvec_tc\\vectabNum\\u\\prio,(name) # build the unique name \n" ".endm                                               \n" "                                                    \n" ".macro .intr.entry name,vectabNum,prio              \n" ".int_entry.1 %(prio),%(vectabNum),_,name # evaluate the priority and the cpu number \n" ".endm                                               \n" ".intr.entry.include:                                \n" ".endif                                              \n" ".intr.entry ""ISR_ENCODER_R"",""0"",""2" );extern void __attribute__ ((interrupt_handler)) ISR_ENCODER_R(); void ISR_ENCODER_R (void);
@@ -23018,10 +23018,15 @@ __asm__ (".ifndef .intr.entry.include                        \n" ".altmacro     
 volatile uint32 interruptLeft_counter = 0;
 volatile uint32 interruptRight_counter = 0;
 
+
+
+
+
 void Encoders_config()
 {
  volatile Ifx_SRC_SRCR *src;
  volatile Ifx_SRC_SRCR *src1;
+
 
  src = &(*(Ifx_SRC*)0xF0038000u).SCU.SCU.ERU[0];
 
@@ -23034,6 +23039,7 @@ void Encoders_config()
  IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId, IfxScuEru_InputNodePointer_0);
  IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
  IfxScuEru_setInterruptGatingPattern(IfxScuEru_OutputChannel_0, IfxScuEru_InterruptGatingPattern_alwaysActive);
+
 
  src1 = &(*(Ifx_SRC*)0xF0038000u).SCU.SCU.ERU[1];
 

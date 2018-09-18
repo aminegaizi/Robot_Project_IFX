@@ -77,17 +77,17 @@ int core0_main (void)
 	ClockConfig();
 
 	uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
-	Forward(100);
-	IfxStm_waitTicks(stm0, DownTicks);
-	Right(90);
-	IfxStm_waitTicks(stm0, DownTicks);
-	Forward(100);
-	IfxStm_waitTicks(stm0, DownTicks);
-	Backward(100);
-	IfxStm_waitTicks(stm0, DownTicks);
-	Left(90);
-	IfxStm_waitTicks(stm0, DownTicks);
-	Backward(100);
+//	Forward(100);
+//	IfxStm_waitTicks(stm0, DownTicks);
+//	Right(90);
+//	IfxStm_waitTicks(stm0, DownTicks);
+//	Forward(100);
+//	IfxStm_waitTicks(stm0, DownTicks);
+//	Backward(100);
+//	IfxStm_waitTicks(stm0, DownTicks);
+//	Left(90);
+//	IfxStm_waitTicks(stm0, DownTicks);
+//	Backward(100);
 
 	//ultrasonic sensor config
 	configUltrasonicSensor();

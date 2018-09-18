@@ -52,7 +52,7 @@
 Encoders_config:
 .LFB296:
 	.file 1 "0_Src/AppSw/Tricore/Encoders_config.c"
-	.loc 1 20 0
+	.loc 1 24 0
 .LVL0:
 .LBB36:
 .LBB37:
@@ -142,20 +142,20 @@ Encoders_config:
 .LVL7:
 .LBE50:
 .LBE54:
-	.loc 1 30 0
+	.loc 1 35 0
 	mov	%d4, %d15
 	call	IfxScuEru_enableRisingEdgeDetection
 .LVL8:
-	.loc 1 32 0
+	.loc 1 37 0
 	mov	%d4, %d15
 	mov	%d5, 0
 	call	IfxScuEru_connectTrigger
 .LVL9:
-	.loc 1 33 0
+	.loc 1 38 0
 	mov	%d4, %d15
 	call	IfxScuEru_enableTriggerPulse
 .LVL10:
-	.loc 1 34 0
+	.loc 1 39 0
 	mov	%d4, 0
 	mov	%d5, 1
 	call	IfxScuEru_setInterruptGatingPattern
@@ -244,20 +244,20 @@ Encoders_config:
 .LVL18:
 .LBE69:
 .LBE73:
-	.loc 1 42 0
+	.loc 1 48 0
 	mov	%d4, %d15
 	call	IfxScuEru_enableRisingEdgeDetection
 .LVL19:
-	.loc 1 44 0
+	.loc 1 50 0
 	mov	%d5, 1
 	mov	%d4, %d15
 	call	IfxScuEru_connectTrigger
 .LVL20:
-	.loc 1 45 0
+	.loc 1 51 0
 	mov	%d4, %d15
 	call	IfxScuEru_enableTriggerPulse
 .LVL21:
-	.loc 1 46 0
+	.loc 1 52 0
 	mov	%d4, 1
 	mov	%d5, 1
 	j	IfxScuEru_setInterruptGatingPattern
@@ -270,8 +270,8 @@ Encoders_config:
 	.type	ISR_ENCODER_L, @function
 ISR_ENCODER_L:
 .LFB297:
-	.loc 1 51 0
-	.loc 1 52 0
+	.loc 1 57 0
+	.loc 1 58 0
 	movh.a	%a15, hi:interruptLeft_counter
 	ld.w	%d15, [%a15] lo:interruptLeft_counter
 	add	%d15, 1
@@ -286,8 +286,8 @@ ISR_ENCODER_L:
 	.type	ISR_ENCODER_R, @function
 ISR_ENCODER_R:
 .LFB298:
-	.loc 1 57 0
-	.loc 1 58 0
+	.loc 1 63 0
+	.loc 1 64 0
 	movh.a	%a15, hi:interruptRight_counter
 	ld.w	%d15, [%a15] lo:interruptRight_counter
 	add	%d15, 1
@@ -19070,7 +19070,7 @@ interruptLeft_counter:
 	.byte	0x1
 	.string	"Encoders_config"
 	.byte	0x1
-	.byte	0x13
+	.byte	0x17
 	.uaword	.LFB296
 	.uaword	.LFE296
 	.byte	0x1
@@ -19080,13 +19080,13 @@ interruptLeft_counter:
 	.uleb128 0x2d
 	.string	"src"
 	.byte	0x1
-	.byte	0x15
+	.byte	0x19
 	.uaword	0xb9b8
 	.sleb128 -268202796
 	.uleb128 0x2d
 	.string	"src1"
 	.byte	0x1
-	.byte	0x16
+	.byte	0x1a
 	.uaword	0xb9b8
 	.sleb128 -268202792
 	.uleb128 0x2e
@@ -19094,7 +19094,7 @@ interruptLeft_counter:
 	.uaword	.LBB36
 	.uaword	.LBE36
 	.byte	0x1
-	.byte	0x1a
+	.byte	0x1f
 	.uaword	0xbb9c
 	.uleb128 0x2f
 	.uaword	.LBB37
@@ -19115,7 +19115,7 @@ interruptLeft_counter:
 	.uaword	.LBB39
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
-	.byte	0x1a
+	.byte	0x1f
 	.uaword	0xbbe4
 	.uleb128 0x33
 	.uaword	0xbaaa
@@ -19142,7 +19142,7 @@ interruptLeft_counter:
 	.uaword	.LBB44
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
-	.byte	0x1d
+	.byte	0x22
 	.uaword	0xbc5e
 	.uleb128 0x33
 	.uaword	0xbb09
@@ -19212,7 +19212,7 @@ interruptLeft_counter:
 	.uaword	.LBB52
 	.uaword	.LBE52
 	.byte	0x1
-	.byte	0x1b
+	.byte	0x20
 	.uaword	0xbc7c
 	.uleb128 0x35
 	.uaword	0xbad2
@@ -19223,7 +19223,7 @@ interruptLeft_counter:
 	.uaword	.LBB55
 	.uaword	.LBE55
 	.byte	0x1
-	.byte	0x26
+	.byte	0x2c
 	.uaword	0xbcb2
 	.uleb128 0x2f
 	.uaword	.LBB56
@@ -19244,7 +19244,7 @@ interruptLeft_counter:
 	.uaword	.LBB58
 	.uaword	.Ldebug_ranges0+0x48
 	.byte	0x1
-	.byte	0x26
+	.byte	0x2c
 	.uaword	0xbcfa
 	.uleb128 0x33
 	.uaword	0xbaaa
@@ -19271,7 +19271,7 @@ interruptLeft_counter:
 	.uaword	.LBB63
 	.uaword	.Ldebug_ranges0+0x60
 	.byte	0x1
-	.byte	0x29
+	.byte	0x2f
 	.uaword	0xbd74
 	.uleb128 0x33
 	.uaword	0xbb09
@@ -19341,7 +19341,7 @@ interruptLeft_counter:
 	.uaword	.LBB71
 	.uaword	.LBE71
 	.byte	0x1
-	.byte	0x27
+	.byte	0x2d
 	.uaword	0xbd92
 	.uleb128 0x35
 	.uaword	0xbad2
@@ -19458,7 +19458,7 @@ interruptLeft_counter:
 	.byte	0x1
 	.string	"ISR_ENCODER_L"
 	.byte	0x1
-	.byte	0x32
+	.byte	0x38
 	.byte	0x1
 	.uaword	.LFB297
 	.uaword	.LFE297
@@ -19469,7 +19469,7 @@ interruptLeft_counter:
 	.byte	0x1
 	.string	"ISR_ENCODER_R"
 	.byte	0x1
-	.byte	0x38
+	.byte	0x3e
 	.byte	0x1
 	.uaword	.LFB298
 	.uaword	.LFE298
