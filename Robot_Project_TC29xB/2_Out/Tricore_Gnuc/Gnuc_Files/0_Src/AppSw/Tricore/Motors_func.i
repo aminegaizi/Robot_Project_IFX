@@ -22811,7 +22811,7 @@ void StopRightMotor()
 
 
  IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinLow(port2, pin0);
+    IfxPort_setPinLow(port0, pin6);
 
 
 
@@ -22838,13 +22838,22 @@ void StopLeftMotor()
 
 
 
+
 void Forward(float distance)
 {
+
  interruptLeft_counter = 0;
  interruptRight_counter = 0;
+
  float ticks = (20*distance)/22.9;
  uint8 duty1 = 46;
  uint8 duty2 = 80;
+
+
+ IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+ IfxPort_setPinModeOutput(port0, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+ IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+ IfxPort_setPinModeOutput(port33, pin2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
  PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT);
  IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100);
@@ -22853,25 +22862,35 @@ void Forward(float distance)
  IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100);
  do
  {
-  StartLeftMotor();
-  StartRightMotor();
+     IfxPort_setPinHigh(port0, pin6);
+     IfxPort_setPinLow(port0, pin4);
+
+     IfxPort_setPinHigh(port33, pin4);
+     IfxPort_setPinLow(port33, pin2);
 
  }while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
 
- StopRightMotor();
- StopLeftMotor();
+    IfxPort_setPinLow(port0, pin6);
+    IfxPort_setPinLow(port33, pin4);
+
 
  IfxGtm_Tom_Timer_stop(&Timer1);
  IfxGtm_Tom_Timer_stop(&Timer2);
 }
 
+
+
+
 void Backward (float distance)
 {
+
  interruptLeft_counter = 0;
  interruptRight_counter = 0;
+
  float ticks = (20*distance)/22.9;
  uint8 duty1 = 45;
  uint8 duty2 = 66;
+
 
  IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
  IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
@@ -22886,8 +22905,9 @@ void Backward (float distance)
  do
  {
      IfxPort_setPinHigh(port0, pin6);
-     IfxPort_setPinHigh(port33, pin4);
      IfxPort_setPinLow(port0, 12);
+
+     IfxPort_setPinHigh(port33, pin4);
      IfxPort_setPinLow(port33, 12);
 
  }while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
@@ -22899,11 +22919,18 @@ void Backward (float distance)
  IfxGtm_Tom_Timer_stop(&Timer2);
 }
 
+
+
+
 void Right (float angle)
 {
+
  interruptLeft_counter = 0;
  interruptRight_counter = 0;
- float ticks = (32*angle)/360;
+
+ float TurningDistance = (2*3.14*22.9)/(360/angle);
+ float TicksDistance = (TurningDistance*20)/229;
+ float ticks = (TicksDistance*angle)/360;
  uint8 duty1 = 25;
  uint8 duty2 = 25;
 
@@ -22934,10 +22961,15 @@ void Right (float angle)
 
 }
 
+
+
+
 void Left (float angle)
 {
+
  interruptLeft_counter = 0;
  interruptRight_counter = 0;
+
  float ticks = (32*angle)/360;
  uint8 duty1 = 25;
  uint8 duty2 = 25;
@@ -22946,6 +22978,7 @@ void Left (float angle)
  IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
  IfxPort_setPinModeOutput(port0, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
  IfxPort_setPinModeOutput(port33, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+
 
  PWM_config(IfxGtm_TOM1_3_TOUT21_P00_12_OUT);
  IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100);

@@ -86,7 +86,7 @@ void StopRightMotor()	//Sets the H Bridge and turns off right motor
     //P02_IOCR0.B.PC0 = 0x10; // P02.0 as general purpose output
     //P02_OUT.B.P0 = 0; ; //Low state on P02.0
 	IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinLow(port2, pin0);
+    IfxPort_setPinLow(port0, pin6);
 
     //P00_IOCR0.B.PC0 = 0x10; // P00.0 as general purpose output
     //P00_OUT.B.P0 = 0; // Low state on P00.0
@@ -111,134 +111,167 @@ void StopLeftMotor()	//Sets the H Bridge and turns off left motor
 }
 
 /*
- * Input distance in cm
+ * Input parameter distance in cm
+ * This function make the robot go forward (The little white direction wheel is at the back of the robot)
  */
 void Forward(float distance)
 {
+	/*Reset the Value of the encoder interrupt counter*/
 	interruptLeft_counter = 0;
 	interruptRight_counter = 0;
-	float ticks = (20*distance)/22.9;
+
+	float ticks = (20*distance)/22.9; //Wheels diameter is 22.9cm and a full rotation of the wheel is 20 ticks
 	uint8 duty1 = 46;
 	uint8 duty2 = 80;
 
-	PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
+	/*Config of the General Purpose Outputs for the H-Bridge*/
+	IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port0, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	IfxPort_setPinModeOutput(port33, pin2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
-	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
-	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT); //In1 PWM signal configuration
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty1
+
+	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT); //In3 PWM signal configuration
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty2
 	do
 	{
-		StartLeftMotor();
-		StartRightMotor();
+	    IfxPort_setPinHigh(port0, pin6); //EnA = 1;
+	    IfxPort_setPinLow(port0, pin4);  //In2 = 0;
+
+	    IfxPort_setPinHigh(port33, pin4); //EnB = 1;
+	    IfxPort_setPinLow(port33, pin2);  //In4 = 0;
 
 	}while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
 
-	StopRightMotor();
-	StopLeftMotor();
+    IfxPort_setPinLow(port0, pin6); //EN A = 0;
+    IfxPort_setPinLow(port33, pin4); //EN B = 0;
 
-	IfxGtm_Tom_Timer_stop(&Timer1);
-	IfxGtm_Tom_Timer_stop(&Timer2);
+
+	IfxGtm_Tom_Timer_stop(&Timer1); //Stops Timer1 PWM signal (In1 = 0)
+	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer1 PWM signal (In3 = 0)
 }
-
+/*
+ * Input parameter distance in cm
+ * This function make the robot go backward (The little white direction wheel is at the back of the robot)
+ */
 void Backward (float distance)
 {
+	/*Reset the Value of the encoder interrupt counter*/
 	interruptLeft_counter = 0;
 	interruptRight_counter = 0;
-	float ticks = (20*distance)/22.9;
+
+	float ticks = (20*distance)/22.9; //Wheels diameter is 22.9cm and a full rotation of the wheel is 20 ticks
 	uint8 duty1 = 45;
 	uint8 duty2 = 66;
 
+	/*Config of the General Purpose Outputs for the H-Bridge*/
 	IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port0, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port33, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
-	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
+	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //In2 PWM signal configuration
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty1
 
-	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);
-	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);//In4 PWM signal configuration
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty2
 	do
 	{
-	    IfxPort_setPinHigh(port0, pin6);//En A
-	    IfxPort_setPinHigh(port33, pin4);//En B
-	    IfxPort_setPinLow(port0, 12);//IN1
-	    IfxPort_setPinLow(port33, 12);//IN4
+	    IfxPort_setPinHigh(port0, pin6);//EnA = 1
+	    IfxPort_setPinLow(port0, 12);//In1 = 0
+
+	    IfxPort_setPinHigh(port33, pin4);//EnB = 1
+	    IfxPort_setPinLow(port33, 12);//In4 = 0
 
 	}while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
 
-    IfxPort_setPinLow(port0, pin6);
-    IfxPort_setPinLow(port33, pin4);
+    IfxPort_setPinLow(port0, pin6); //EnA = 0
+    IfxPort_setPinLow(port33, pin4); //EnB = 0
 
-	IfxGtm_Tom_Timer_stop(&Timer1);
-	IfxGtm_Tom_Timer_stop(&Timer2);
+	IfxGtm_Tom_Timer_stop(&Timer1); //Stops Timer1 PWM signal (In2 = 0)
+	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer1 PWM signal (In4 = 0)
 }
-
+/*
+ * Input parameter angle in degrees
+ * this function makes one wheel go forward and the other one go backward so the robot turns to the specified angle
+ */
 void Right (float angle)
 {
+	/*Reset the Value of the encoder interrupt counter*/
 	interruptLeft_counter = 0;
 	interruptRight_counter = 0;
-	float ticks = (32*angle)/360;
+
+	float TurningDistance = (2*3.14*22.9)/(360/angle);
+	float TicksDistance = (TurningDistance*20)/229;
+	float ticks = (TicksDistance*angle)/360; //Distance a wheel travel for a 90 degree angle is equal to 32 ticks
 	uint8 duty1 = 25;
 	uint8 duty2 = 25;
-
+	/*Config of the General Purpose Outputs for the H-Bridge*/
 	IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port0, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port33, 2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
-	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
+	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //In2 PWM signal configuration
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty1
 
-	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT);
-	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	PWM2_config(IfxGtm_TOM2_12_TOUT34_P33_12_OUT); //In3 PWM signal configuration
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty2
 	do
 	{
-	    IfxPort_setPinHigh(port0, pin6);//En A
-	    IfxPort_setPinHigh(port33, pin4);//En B
-	    IfxPort_setPinLow(port0, 12);//IN1
-	    IfxPort_setPinLow(port33, 2);//IN4
+	    IfxPort_setPinHigh(port0, pin6);//EnA = 1
+	    IfxPort_setPinHigh(port33, pin4);//EnB= 1
+	    IfxPort_setPinLow(port0, 12);//In1 = 0
+	    IfxPort_setPinLow(port33, 2);//In4 = 0
 
 	}while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
 
-    IfxPort_setPinLow(port0, pin6);
-    IfxPort_setPinLow(port33, pin4);
+    IfxPort_setPinLow(port0, pin6); //EnA = 0
+    IfxPort_setPinLow(port33, pin4); //EnB = 0
 
-    IfxGtm_Tom_Timer_stop(&Timer1);
-	IfxGtm_Tom_Timer_stop(&Timer2);
+    IfxGtm_Tom_Timer_stop(&Timer1);//Stops Timer1 PWM signal (In2 = 0)
+	IfxGtm_Tom_Timer_stop(&Timer2);//Stops Timer1 PWM signal (In3 = 0)
 
 }
-
+/*
+ * Input parameter angle in degrees
+ * this function makes one wheel go forward and the other one go backward so the robot turns to the specified angle
+ */
 void Left (float angle)
 {
+	/*Reset the Value of the encoder interrupt counter*/
 	interruptLeft_counter = 0;
 	interruptRight_counter = 0;
-	float ticks = (32*angle)/360;
+
+	float ticks = (32*angle)/360; //Wheels diameter is 22.9cm and a full rotation of the wheel is 20 ticks
 	uint8 duty1 = 25;
 	uint8 duty2 = 25;
-
+	/*Config of the General Purpose Outputs for the H-Bridge*/
 	IfxPort_setPinModeOutput(port0, pin6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port33, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port0, pin4, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	IfxPort_setPinModeOutput(port33, 12, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
-	PWM_config(IfxGtm_TOM1_3_TOUT21_P00_12_OUT); //Only ports IfxGtm_TOMi_0_TOUT_etc ---> it has to be 0  after TOMi
-	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Change to duty cycle by changing the value of duty
 
-	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);
-	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Change to duty cycle by changing the value of duty*/
+	PWM_config(IfxGtm_TOM1_3_TOUT21_P00_12_OUT); //In1 PWM signal configuration
+	IfxGtm_Tom_Timer_setTrigger(&Timer1, (duty1 * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty1
+
+	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT); //In4 PWM signal configuration
+	IfxGtm_Tom_Timer_setTrigger(&Timer2, (duty2 * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty2
 	do
 	{
-	    IfxPort_setPinHigh(port0, pin6);//En A
-	    IfxPort_setPinHigh(port33, pin4);//En B
-	    IfxPort_setPinLow(port0, pin4);//IN2
-	    IfxPort_setPinLow(port33, 12);//IN3
+	    IfxPort_setPinHigh(port0, pin6);//EnA = 1
+	    IfxPort_setPinHigh(port33, pin4);//EnB = 1
+	    IfxPort_setPinLow(port0, pin4);//In2 = 0
+	    IfxPort_setPinLow(port33, 12);//In3 = 0
 
 	}while(interruptLeft_counter <= ticks && interruptRight_counter <= ticks);
 
-    IfxPort_setPinLow(port0, pin6);
-    IfxPort_setPinLow(port33, pin4);
+    IfxPort_setPinLow(port0, pin6); //EnA = 0
+    IfxPort_setPinLow(port33, pin4); //EnB = 0
 
-    IfxGtm_Tom_Timer_stop(&Timer1);
-	IfxGtm_Tom_Timer_stop(&Timer2);
+    IfxGtm_Tom_Timer_stop(&Timer1); //Stops Timer1 PWM signal (In1 = 0)
+	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer1 PWM signal (In4 = 0)
 }
