@@ -22845,7 +22845,7 @@ void Forward(float distance)
  interruptLeft_counter = 0;
  interruptRight_counter = 0;
 
- float ticks = (20*distance)/22.9;
+ float ticks = (40*distance)/22.9;
  uint8 duty1 = 46;
  uint8 duty2 = 80;
 
@@ -22887,7 +22887,7 @@ void Backward (float distance)
  interruptLeft_counter = 0;
  interruptRight_counter = 0;
 
- float ticks = (20*distance)/22.9;
+ float ticks = (40*distance)/22.9;
  uint8 duty1 = 45;
  uint8 duty2 = 66;
 
@@ -22929,7 +22929,7 @@ void Right (float angle)
  interruptRight_counter = 0;
 
  float TurningDistance = (2*3.14*22.9)/(360/angle);
- float TicksDistance = (TurningDistance*20)/229;
+ float TicksDistance = (TurningDistance*40)/229;
  float ticks = (TicksDistance*angle)/360;
  uint8 duty1 = 25;
  uint8 duty2 = 25;

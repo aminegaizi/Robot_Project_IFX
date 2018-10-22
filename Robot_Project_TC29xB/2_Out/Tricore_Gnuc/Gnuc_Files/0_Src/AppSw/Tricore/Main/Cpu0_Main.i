@@ -23369,7 +23369,29 @@ int core0_main (void)
  ClockConfig();
 
  uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
-# 93 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
+ Forward(100);
+
+
+
+
+
+
+
+ Left(90);
+
+
+
+
+
+ uint32 UpTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
+ IfxPort_setPinModeOutput(&(*(Ifx_P*)0xF003D300u), 6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+
+ IfxPort_setPinLow(&(*(Ifx_P*)0xF003D300u), 6);
+ IfxStm_waitTicks(stm0,UpTicks);
+ IfxPort_setPinHigh(&(*(Ifx_P*)0xF003D300u), 6);
+ IfxStm_waitTicks(stm0,UpTicks);
+ IfxPort_setPinLow(&(*(Ifx_P*)0xF003D300u), 6);
+
  configUltrasonicSensor();
  sendTrig(IfxPort_P14_4);
 

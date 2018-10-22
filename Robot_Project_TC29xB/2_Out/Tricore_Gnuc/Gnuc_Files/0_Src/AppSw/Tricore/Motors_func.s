@@ -351,7 +351,7 @@ Forward:
 	.loc 1 121 0
 	movh	%d11, hi:interruptRight_counter
 	.loc 1 123 0
-	movh	%d15, 16800
+	movh	%d15, 16928
 	mul.f	%d4, %d4, %d15
 .LVL25:
 	.loc 1 120 0
@@ -590,7 +590,7 @@ Backward:
 	.loc 1 163 0
 	movh	%d10, hi:interruptRight_counter
 	.loc 1 165 0
-	movh	%d15, 16800
+	movh	%d15, 16928
 	mul.f	%d4, %d4, %d15
 .LVL48:
 	.loc 1 162 0
@@ -852,7 +852,7 @@ Right:
 	.loc 1 204 0
 	mov.a	%a2, %d10
 	.loc 1 207 0
-	movh	%d8, 16800
+	movh	%d8, 16928
 	.loc 1 204 0
 	st.w	[%a2] lo:interruptRight_counter, %d3
 .LVL72:

@@ -30,9 +30,10 @@ void Encoders_config()
 	//We setup the ERU0 interrupt
 	IfxSrc_init(src, IfxCpu_Irq_getTos(IfxCpu_getCoreId()), 1);
 	IfxSrc_enable(src);
-	//Initialization of ERU
+	//Initialization of ERU + Rising edge and Falling Edge detection config
 	IfxScuEru_initReqPin(&IfxScu_REQ4_P10_7_IN, IfxPort_InputMode_noPullDevice);
 	IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
+	IfxScuEru_enableFallingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
 	//We use the OGU0
 	IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId, IfxScuEru_InputNodePointer_0);
 	IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
@@ -43,9 +44,10 @@ void Encoders_config()
 	//We setup the ERU1 interrupt
 	IfxSrc_init(src1, IfxCpu_Irq_getTos(IfxCpu_getCoreId()), 2);
 	IfxSrc_enable(src1);
-	//Initialization of ERU
+	//Initialization of ERU + Rising edge and Falling Edge detection config
 	IfxScuEru_initReqPin(&IfxScu_REQ13_P15_5_IN, IfxPort_InputMode_noPullDevice);
 	IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
+	IfxScuEru_enableFallingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
 	//We use the OGU1
 	IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId, IfxScuEru_InputNodePointer_1);
 	IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);

@@ -77,7 +77,7 @@ int core0_main (void)
 	ClockConfig();
 
 	uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
-//	Forward(100);
+	Forward(100);
 //	IfxStm_waitTicks(stm0, DownTicks);
 //	Right(90);
 //	IfxStm_waitTicks(stm0, DownTicks);
@@ -85,11 +85,21 @@ int core0_main (void)
 //	IfxStm_waitTicks(stm0, DownTicks);
 //	Backward(100);
 //	IfxStm_waitTicks(stm0, DownTicks);
-//	Left(90);
+	Left(90);
 //	IfxStm_waitTicks(stm0, DownTicks);
 //	Backward(100);
 
 	//ultrasonic sensor config
+
+	uint32 UpTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
+	IfxPort_setPinModeOutput(&MODULE_P33, 6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+
+	IfxPort_setPinLow(&MODULE_P33, 6);
+	IfxStm_waitTicks(stm0,UpTicks);
+	IfxPort_setPinHigh(&MODULE_P33, 6);
+	IfxStm_waitTicks(stm0,UpTicks);
+	IfxPort_setPinLow(&MODULE_P33, 6);
+
 	configUltrasonicSensor();
 	sendTrig(IfxPort_P14_4);
 

@@ -172,7 +172,7 @@ PWM2_config:
 	.loc 1 82 0
 	st.b	[%a15] 25, %d15
 	.loc 1 81 0
-	mov.u	%d2, 65535
+	mov	%d2, 255
 	.loc 1 84 0
 	mov	%d15, 0
 	.loc 1 86 0

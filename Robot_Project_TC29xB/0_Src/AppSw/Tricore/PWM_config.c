@@ -78,7 +78,7 @@ void PWM2_config(IfxGtm_Tom_ToutMap Output)
 	Timer2Config.base.trigger.outputEnabled = TRUE;
 	Timer2Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
 	Timer2Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
-	Timer2Config.base.trigger.triggerPoint = 0xffff;
+	Timer2Config.base.trigger.triggerPoint = 0xff;
 	Timer2Config.base.trigger.risingEdgeAtPeriod = TRUE;
 
 	Timer2Config.base.isrPriority = 0;

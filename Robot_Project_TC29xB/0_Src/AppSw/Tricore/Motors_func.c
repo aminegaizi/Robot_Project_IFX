@@ -120,7 +120,7 @@ void Forward(float distance)
 	interruptLeft_counter = 0;
 	interruptRight_counter = 0;
 
-	float ticks = (20*distance)/22.9; //Wheels diameter is 22.9cm and a full rotation of the wheel is 20 ticks
+	float ticks = (40*distance)/22.9; //Wheels diameter is 22.9cm and a full rotation of the wheel is 20 ticks
 	uint8 duty1 = 46;
 	uint8 duty2 = 80;
 
@@ -150,7 +150,7 @@ void Forward(float distance)
 
 
 	IfxGtm_Tom_Timer_stop(&Timer1); //Stops Timer1 PWM signal (In1 = 0)
-	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer1 PWM signal (In3 = 0)
+	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer2 PWM signal (In3 = 0)
 }
 /*
  * Input parameter distance in cm
@@ -162,7 +162,7 @@ void Backward (float distance)
 	interruptLeft_counter = 0;
 	interruptRight_counter = 0;
 
-	float ticks = (20*distance)/22.9; //Wheels diameter is 22.9cm and a full rotation of the wheel is 20 ticks
+	float ticks = (40*distance)/22.9; //Wheels diameter is 22.9cm and a full rotation of the wheel is 20 ticks
 	uint8 duty1 = 45;
 	uint8 duty2 = 66;
 
@@ -191,7 +191,7 @@ void Backward (float distance)
     IfxPort_setPinLow(port33, pin4); //EnB = 0
 
 	IfxGtm_Tom_Timer_stop(&Timer1); //Stops Timer1 PWM signal (In2 = 0)
-	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer1 PWM signal (In4 = 0)
+	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer2 PWM signal (In4 = 0)
 }
 /*
  * Input parameter angle in degrees
@@ -203,8 +203,8 @@ void Right (float angle)
 	interruptLeft_counter = 0;
 	interruptRight_counter = 0;
 
-	float TurningDistance = (2*3.14*22.9)/(360/angle);
-	float TicksDistance = (TurningDistance*20)/229;
+	float TurningDistance = (2*3.14*22.9)/(360/angle); // For a specified angle, we traverl a fraction of the perimeter of a 22.9cm raduis circle
+	float TicksDistance = (TurningDistance*40)/229; //The distance traveled converted in ticks
 	float ticks = (TicksDistance*angle)/360; //Distance a wheel travel for a 90 degree angle is equal to 32 ticks
 	uint8 duty1 = 25;
 	uint8 duty2 = 25;
@@ -232,7 +232,7 @@ void Right (float angle)
     IfxPort_setPinLow(port33, pin4); //EnB = 0
 
     IfxGtm_Tom_Timer_stop(&Timer1);//Stops Timer1 PWM signal (In2 = 0)
-	IfxGtm_Tom_Timer_stop(&Timer2);//Stops Timer1 PWM signal (In3 = 0)
+	IfxGtm_Tom_Timer_stop(&Timer2);//Stops Timer2 PWM signal (In3 = 0)
 
 }
 /*
@@ -273,5 +273,5 @@ void Left (float angle)
     IfxPort_setPinLow(port33, pin4); //EnB = 0
 
     IfxGtm_Tom_Timer_stop(&Timer1); //Stops Timer1 PWM signal (In1 = 0)
-	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer1 PWM signal (In4 = 0)
+	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer2 PWM signal (In4 = 0)
 }

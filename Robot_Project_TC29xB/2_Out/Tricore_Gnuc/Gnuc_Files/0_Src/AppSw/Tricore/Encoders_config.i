@@ -23035,6 +23035,7 @@ void Encoders_config()
 
  IfxScuEru_initReqPin(&IfxScu_REQ4_P10_7_IN, IfxPort_InputMode_noPullDevice);
  IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
+ IfxScuEru_enableFallingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
 
  IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId, IfxScuEru_InputNodePointer_0);
  IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ4_P10_7_IN.channelId);
@@ -23048,6 +23049,7 @@ void Encoders_config()
 
  IfxScuEru_initReqPin(&IfxScu_REQ13_P15_5_IN, IfxPort_InputMode_noPullDevice);
  IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
+ IfxScuEru_enableFallingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
 
  IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId, IfxScuEru_InputNodePointer_1);
  IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
