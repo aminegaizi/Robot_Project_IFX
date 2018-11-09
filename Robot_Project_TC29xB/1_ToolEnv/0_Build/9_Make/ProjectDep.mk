@@ -9,6 +9,7 @@
  0_Src/BaseSw/Service \
  0_Src/AppSw/CpuGeneric/Config \
  0_Src/AppSw/Tricore/Main \
+ 0_Src/AppSw/Tricore/Servomotor \
  0_Src/AppSw/Tricore/Ultrasonic_sensor \
  0_Src/BaseSw/iLLD/TC29B \
  0_Src/BaseSw/Infra/Platform \
@@ -170,6 +171,8 @@
 0_Src/AppSw/CpuGeneric/Config:
 
 0_Src/AppSw/Tricore/Main:
+
+0_Src/AppSw/Tricore/Servomotor:
 
 0_Src/AppSw/Tricore/Ultrasonic_sensor:
 

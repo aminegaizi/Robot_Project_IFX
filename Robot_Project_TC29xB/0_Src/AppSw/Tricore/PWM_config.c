@@ -10,9 +10,14 @@
 
 IfxGtm_Tom_Timer Timer1;
 IfxGtm_Tom_Timer Timer2;
+IfxGtm_Tom_Timer Timer3;
+IfxGtm_Tom_Timer Timer4;
+
 
 IfxGtm_Tom_Timer_Config TimerConfig;
 IfxGtm_Tom_Timer_Config Timer2Config;
+IfxGtm_Tom_Timer_Config Timer3Config;
+IfxGtm_Tom_Timer_Config Timer4Config;
 
 Ifx_GTM *gtm = &MODULE_GTM;
 
@@ -78,7 +83,7 @@ void PWM2_config(IfxGtm_Tom_ToutMap Output)
 	Timer2Config.base.trigger.outputEnabled = TRUE;
 	Timer2Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
 	Timer2Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
-	Timer2Config.base.trigger.triggerPoint = 0xff;
+	Timer2Config.base.trigger.triggerPoint = 0xffff;
 	Timer2Config.base.trigger.risingEdgeAtPeriod = TRUE;
 
 	Timer2Config.base.isrPriority = 0;
@@ -87,6 +92,68 @@ void PWM2_config(IfxGtm_Tom_ToutMap Output)
     IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer2.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
 
     IfxGtm_Tom_Timer_run(&Timer2);
+    //uint8 DutyCycle = 50;
+    //IfxGtm_Tom_Timer_setTrigger(&Timer1, (DutyCycle * Timer1.base.period) / 100); //This function allows you to trigger the PWM and adjust the duty cycle
+
+}
+
+void PWM3_config(IfxGtm_Tom_ToutMap Output)
+{
+	IfxGtm_Tom_Timer_initConfig(&Timer3Config, gtm);
+	Timer3Config.tom = Output.tom;
+	Timer3Config.timerChannel = Output.channel;
+	//TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0; //divided by 1
+	Timer3Config.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk2;
+	Timer3Config.irqModeTimer = IfxGtm_IrqMode_pulse;
+	Timer3Config.irqModeTrigger = IfxGtm_IrqMode_pulse;
+
+	Timer3Config.triggerOut = &Output;
+	Timer3Config.base.frequency = 50;
+	Timer3Config.base.minResolution = 0;
+	Timer3Config.base.trigger.enabled = TRUE;
+	Timer3Config.base.trigger.outputEnabled = TRUE;
+	Timer3Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
+	Timer3Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
+	Timer3Config.base.trigger.triggerPoint = 0xff;
+	Timer3Config.base.trigger.risingEdgeAtPeriod = TRUE;
+
+	Timer3Config.base.isrPriority = 0;
+
+	IfxGtm_Tom_Timer_init(&Timer3, &Timer3Config);
+    IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer3.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
+
+    IfxGtm_Tom_Timer_run(&Timer3);
+    //uint8 DutyCycle = 50;
+    //IfxGtm_Tom_Timer_setTrigger(&Timer1, (DutyCycle * Timer1.base.period) / 100); //This function allows you to trigger the PWM and adjust the duty cycle
+
+}
+
+void PWM4_config(IfxGtm_Tom_ToutMap Output)
+{
+	IfxGtm_Tom_Timer_initConfig(&Timer4Config, gtm);
+	Timer4Config.tom = Output.tom;
+	Timer4Config.timerChannel = Output.channel;
+	//TimerConfig.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk0; //divided by 1
+	Timer4Config.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk2;
+	Timer4Config.irqModeTimer = IfxGtm_IrqMode_pulse;
+	Timer4Config.irqModeTrigger = IfxGtm_IrqMode_pulse;
+
+	Timer4Config.triggerOut = &Output;
+	Timer4Config.base.frequency = 50;
+	Timer4Config.base.minResolution = 0;
+	Timer4Config.base.trigger.enabled = TRUE;
+	Timer4Config.base.trigger.outputEnabled = TRUE;
+	Timer4Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
+	Timer4Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
+	Timer4Config.base.trigger.triggerPoint = 0xff;
+	Timer4Config.base.trigger.risingEdgeAtPeriod = TRUE;
+
+	Timer4Config.base.isrPriority = 0;
+
+	IfxGtm_Tom_Timer_init(&Timer4, &Timer4Config);
+    IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer4.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
+
+    IfxGtm_Tom_Timer_run(&Timer4);
     //uint8 DutyCycle = 50;
     //IfxGtm_Tom_Timer_setTrigger(&Timer1, (DutyCycle * Timer1.base.period) / 100); //This function allows you to trigger the PWM and adjust the duty cycle
 

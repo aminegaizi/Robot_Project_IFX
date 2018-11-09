@@ -5,6 +5,7 @@
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Main/Cpu0_Main.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Main/Cpu1_Main.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Main/Cpu2_Main.o"
+"2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Servomotor/servomotor.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/BaseSw/Service/CpuGeneric/If/SpiIf.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.o"

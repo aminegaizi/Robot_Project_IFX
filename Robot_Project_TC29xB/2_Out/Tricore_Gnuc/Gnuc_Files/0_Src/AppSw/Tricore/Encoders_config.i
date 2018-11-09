@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Encoders_config.c"
-# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
+# 1 "C:\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Encoders_config.c"
@@ -23003,6 +23003,8 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 
 void PWM_config(IfxGtm_Tom_ToutMap Output);
 void PWM2_config(IfxGtm_Tom_ToutMap Output);
+void PWM3_config(IfxGtm_Tom_ToutMap Output);
+void PWM4_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
 # 21 "0_Src/AppSw/Tricore/Encoders_config.h" 2
 

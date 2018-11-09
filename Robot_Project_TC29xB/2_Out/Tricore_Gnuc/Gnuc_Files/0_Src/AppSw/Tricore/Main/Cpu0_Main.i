@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
-# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
+# 1 "C:\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
@@ -22990,6 +22990,8 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 
 void PWM_config(IfxGtm_Tom_ToutMap Output);
 void PWM2_config(IfxGtm_Tom_ToutMap Output);
+void PWM3_config(IfxGtm_Tom_ToutMap Output);
+void PWM4_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
 # 39 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 # 1 "0_Src/AppSw/Tricore/Encoders_config.h" 1
@@ -23020,11 +23022,27 @@ void Left (float angle);
 # 22 "0_Src/AppSw/Tricore/PWM_config.h"
 void PWM_config(IfxGtm_Tom_ToutMap Output);
 void PWM2_config(IfxGtm_Tom_ToutMap Output);
+void PWM3_config(IfxGtm_Tom_ToutMap Output);
+void PWM4_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
 # 21 "0_Src/AppSw/Tricore/Encoders_config.h" 2
 
 void Encoders_config();
 # 40 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 1 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 1
+# 22 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void config_servomotor(void);
+# 31 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void move_servo(unsigned char angle);
+# 42 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void sweep_servo_config(void);
+# 51 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void sweep_servo(void);
+# 60 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void timer_compare_config(void);
+# 69 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void STM_INTERRUPT(void);
+# 41 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
 
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h" 1
@@ -23312,7 +23330,7 @@ extern IfxPort_Pin IfxPort_P40_9;
 
 
 extern const IfxPort_Pin *IfxPort_Pin_pinTable[41][16];
-# 43 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 44 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 # 1 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h" 1
 # 19 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h"
 void configUltrasonicSensor(void);
@@ -23332,7 +23350,7 @@ void isrGetDistance(void);
 
 
 float64 returnDistance(void);
-# 44 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 45 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
@@ -23367,22 +23385,7 @@ int core0_main (void)
  Encoders_config();
 
  ClockConfig();
-
- uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
- Forward(100);
-
-
-
-
-
-
-
- Left(90);
-
-
-
-
-
+# 95 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
  uint32 UpTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
  IfxPort_setPinModeOutput(&(*(Ifx_P*)0xF003D300u), 6, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
@@ -23396,8 +23399,17 @@ int core0_main (void)
  sendTrig(IfxPort_P14_4);
 
 
+
+ config_servomotor();
+ timer_compare_config();
+ sweep_servo_config();
+
+
+ move_servo(45);
+
     while (1)
     {
+  sweep_servo();
      temp = returnDistance();
 
   if(temp < 1e+06)

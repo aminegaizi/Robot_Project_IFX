@@ -37,6 +37,7 @@
 #include "Motors_func.h"
 #include "PWM_config.h"
 #include "Encoders_config.h"
+#include "servomotor.h"
 
 #include <Stm/Std/IfxStm.h>
 #include <_PinMap/IfxPort_pinMap.h>
@@ -76,8 +77,8 @@ int core0_main (void)
 
 	ClockConfig();
 
-	uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
-	Forward(100);
+//	uint32 DownTicks = IfxStm_getTicksFromMilliseconds(stm0, 1000);
+//	Forward(100);
 //	IfxStm_waitTicks(stm0, DownTicks);
 //	Right(90);
 //	IfxStm_waitTicks(stm0, DownTicks);
@@ -85,7 +86,7 @@ int core0_main (void)
 //	IfxStm_waitTicks(stm0, DownTicks);
 //	Backward(100);
 //	IfxStm_waitTicks(stm0, DownTicks);
-	Left(90);
+//	Left(90);
 //	IfxStm_waitTicks(stm0, DownTicks);
 //	Backward(100);
 
@@ -103,9 +104,20 @@ int core0_main (void)
 	configUltrasonicSensor();
 	sendTrig(IfxPort_P14_4);
 
+	//servomotor config
+	
+	config_servomotor();
+	timer_compare_config();
+	sweep_servo_config();
+	
+	
+	move_servo(45);
 
     while (1)
     {
+		sweep_servo();
+
+
     	temp = returnDistance();
 		//check for absurd results
 		if(temp < 1e+06)

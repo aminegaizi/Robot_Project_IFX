@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/PWM_config.c"
-# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC29xB//"
+# 1 "C:\\Robot_Project_IFX\\Robot_Project_TC29xB//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/PWM_config.c"
@@ -22274,18 +22274,25 @@ extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom
 
 void PWM_config(IfxGtm_Tom_ToutMap Output);
 void PWM2_config(IfxGtm_Tom_ToutMap Output);
+void PWM3_config(IfxGtm_Tom_ToutMap Output);
+void PWM4_config(IfxGtm_Tom_ToutMap Output);
 void ClockConfig();
 # 9 "0_Src/AppSw/Tricore/PWM_config.c" 2
 
 
 IfxGtm_Tom_Timer Timer1;
 IfxGtm_Tom_Timer Timer2;
+IfxGtm_Tom_Timer Timer3;
+IfxGtm_Tom_Timer Timer4;
+
 
 IfxGtm_Tom_Timer_Config TimerConfig;
 IfxGtm_Tom_Timer_Config Timer2Config;
+IfxGtm_Tom_Timer_Config Timer3Config;
+IfxGtm_Tom_Timer_Config Timer4Config;
 
 Ifx_GTM *gtm = &(*(Ifx_GTM*)0xF0100000u);
-# 26 "0_Src/AppSw/Tricore/PWM_config.c"
+# 31 "0_Src/AppSw/Tricore/PWM_config.c"
 void PWM_config(IfxGtm_Tom_ToutMap Output)
 {
  IfxGtm_Tom_Timer_initConfig(&TimerConfig, gtm);
@@ -22316,7 +22323,7 @@ void PWM_config(IfxGtm_Tom_ToutMap Output)
 
 
 }
-# 64 "0_Src/AppSw/Tricore/PWM_config.c"
+# 69 "0_Src/AppSw/Tricore/PWM_config.c"
 void PWM2_config(IfxGtm_Tom_ToutMap Output)
 {
  IfxGtm_Tom_Timer_initConfig(&Timer2Config, gtm);
@@ -22334,7 +22341,7 @@ void PWM2_config(IfxGtm_Tom_ToutMap Output)
  Timer2Config.base.trigger.outputEnabled = 1;
  Timer2Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
  Timer2Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
- Timer2Config.base.trigger.triggerPoint = 0xff;
+ Timer2Config.base.trigger.triggerPoint = 0xffff;
  Timer2Config.base.trigger.risingEdgeAtPeriod = 1;
 
  Timer2Config.base.isrPriority = 0;
@@ -22343,6 +22350,68 @@ void PWM2_config(IfxGtm_Tom_ToutMap Output)
     IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer2.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
 
     IfxGtm_Tom_Timer_run(&Timer2);
+
+
+
+}
+
+void PWM3_config(IfxGtm_Tom_ToutMap Output)
+{
+ IfxGtm_Tom_Timer_initConfig(&Timer3Config, gtm);
+ Timer3Config.tom = Output.tom;
+ Timer3Config.timerChannel = Output.channel;
+
+ Timer3Config.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk2;
+ Timer3Config.irqModeTimer = IfxGtm_IrqMode_pulse;
+ Timer3Config.irqModeTrigger = IfxGtm_IrqMode_pulse;
+
+ Timer3Config.triggerOut = &Output;
+ Timer3Config.base.frequency = 50;
+ Timer3Config.base.minResolution = 0;
+ Timer3Config.base.trigger.enabled = 1;
+ Timer3Config.base.trigger.outputEnabled = 1;
+ Timer3Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
+ Timer3Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
+ Timer3Config.base.trigger.triggerPoint = 0xff;
+ Timer3Config.base.trigger.risingEdgeAtPeriod = 1;
+
+ Timer3Config.base.isrPriority = 0;
+
+ IfxGtm_Tom_Timer_init(&Timer3, &Timer3Config);
+    IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer3.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
+
+    IfxGtm_Tom_Timer_run(&Timer3);
+
+
+
+}
+
+void PWM4_config(IfxGtm_Tom_ToutMap Output)
+{
+ IfxGtm_Tom_Timer_initConfig(&Timer4Config, gtm);
+ Timer4Config.tom = Output.tom;
+ Timer4Config.timerChannel = Output.channel;
+
+ Timer4Config.clock = IfxGtm_Tom_Ch_ClkSrc_cmuFxclk2;
+ Timer4Config.irqModeTimer = IfxGtm_IrqMode_pulse;
+ Timer4Config.irqModeTrigger = IfxGtm_IrqMode_pulse;
+
+ Timer4Config.triggerOut = &Output;
+ Timer4Config.base.frequency = 50;
+ Timer4Config.base.minResolution = 0;
+ Timer4Config.base.trigger.enabled = 1;
+ Timer4Config.base.trigger.outputEnabled = 1;
+ Timer4Config.base.trigger.outputMode = IfxPort_OutputMode_pushPull;
+ Timer4Config.base.trigger.outputDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1;
+ Timer4Config.base.trigger.triggerPoint = 0xff;
+ Timer4Config.base.trigger.risingEdgeAtPeriod = 1;
+
+ Timer4Config.base.isrPriority = 0;
+
+ IfxGtm_Tom_Timer_init(&Timer4, &Timer4Config);
+    IfxGtm_Tom_Tgc_enableChannelsUpdate((Ifx_GTM_TOM_TGC *) &Timer4.tom->TGC0_GLB_CTRL, 1 << Output.channel, 0);
+
+    IfxGtm_Tom_Timer_run(&Timer4);
 
 
 

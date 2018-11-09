@@ -75,5 +75,6 @@
  0_Src/AppSw/Tricore/Encoders_config.h \
  0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxSrc_regdef.h \
  0_Src/AppSw/Tricore/Motors_func.h 0_Src/AppSw/Tricore/PWM_config.h \
+ 0_Src/AppSw/Tricore/Servomotor/servomotor.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h \
  0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h

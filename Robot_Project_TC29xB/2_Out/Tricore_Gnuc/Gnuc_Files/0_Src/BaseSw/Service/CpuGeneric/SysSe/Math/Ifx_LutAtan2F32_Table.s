@@ -2070,7 +2070,7 @@ Ifx_g_LutAtan2F32_FxpAngle_table:
 	.file 3 "0_Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32_Table.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x300
+	.uaword	0x2e9
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -2078,7 +2078,7 @@ Ifx_g_LutAtan2F32_FxpAngle_table:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32_Table.c"
-	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
+	.string	"C:\\\\Robot_Project_IFX\\\\Robot_Project_TC29xB"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -2112,12 +2112,12 @@ Ifx_g_LutAtan2F32_FxpAngle_table:
 	.string	"sint32"
 	.byte	0x1
 	.byte	0x5c
-	.uaword	0x18f
+	.uaword	0x178
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x1
 	.byte	0x5e
-	.uaword	0x217
+	.uaword	0x200
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -2142,12 +2142,12 @@ Ifx_g_LutAtan2F32_FxpAngle_table:
 	.string	"Ifx_Lut_FxpAngle"
 	.byte	0x2
 	.byte	0x40
-	.uaword	0x1fa
+	.uaword	0x1e3
 	.uleb128 0x4
-	.uaword	0x25d
-	.uaword	0x286
+	.uaword	0x246
+	.uaword	0x26f
 	.uleb128 0x5
-	.uaword	0x286
+	.uaword	0x26f
 	.uahalf	0x400
 	.byte	0
 	.uleb128 0x2
@@ -2158,31 +2158,31 @@ Ifx_g_LutAtan2F32_FxpAngle_table:
 	.string	"Ifx_g_LutAtan2F32_FxpAngle_table"
 	.byte	0x3
 	.byte	0x25
-	.uaword	0x2c1
+	.uaword	0x2aa
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	Ifx_g_LutAtan2F32_FxpAngle_table
 	.uleb128 0x7
-	.uaword	0x275
+	.uaword	0x25e
 	.uleb128 0x4
-	.uaword	0x208
-	.uaword	0x2d7
+	.uaword	0x1f1
+	.uaword	0x2c0
 	.uleb128 0x5
-	.uaword	0x286
+	.uaword	0x26f
 	.uahalf	0x400
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_g_LutAtan2F32_table"
 	.byte	0x3
 	.uahalf	0x42a
-	.uaword	0x2fe
+	.uaword	0x2e7
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	Ifx_g_LutAtan2F32_table
 	.uleb128 0x7
-	.uaword	0x2c6
+	.uaword	0x2af
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
