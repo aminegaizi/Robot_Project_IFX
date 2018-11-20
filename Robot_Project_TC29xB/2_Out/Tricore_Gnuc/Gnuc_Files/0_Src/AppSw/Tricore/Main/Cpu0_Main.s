@@ -310,7 +310,7 @@ core0_main:
 	call	sweep_servo_config
 .LVL26:
 	.loc 1 114 0
-	mov	%d4, 45
+	mov	%d4, 0
 .LBB144:
 .LBB145:
 .LBB146:
@@ -348,22 +348,22 @@ core0_main:
 	.loc 1 118 0
 	call	sweep_servo
 .LVL29:
-	.loc 1 119 0
+	.loc 1 121 0
 	call	returnDistance
 .LVL30:
-	.loc 1 121 0
+	.loc 1 123 0
 	movh	%d7, 16687
 	mov	%e4, %d3, %d2
 	mov	%d6, 0
 	addi	%d7, %d7, -31616
-	.loc 1 119 0
+	.loc 1 121 0
 	mov	%e8, %d3, %d2
 .LVL31:
-	.loc 1 121 0
+	.loc 1 123 0
 	call	__ltdf2
 .LVL32:
 	jgez	%d2, .L4
-	.loc 1 123 0
+	.loc 1 125 0
 	st.d	[%a13]0, %e8
 .L4:
 .LVL33:
@@ -427,11 +427,11 @@ core0_main:
 	jlt.u	%d15, %d3, .L6
 .LBE169:
 .LBE171:
-	.loc 1 128 0
+	.loc 1 130 0
 	ld.d	%e4, [%a15]0
 	call	sendTrig
 .LVL38:
-	.loc 1 129 0
+	.loc 1 131 0
 	j	.L7
 .LFE296:
 	.size	core0_main, .-core0_main
@@ -488,7 +488,7 @@ cpuSyncEvent:
 	.file 17 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x48f2
+	.uaword	0x48f1
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -7250,7 +7250,7 @@ cpuSyncEvent:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4601
+	.uaword	0x4600
 	.uleb128 0x24
 	.string	"temp"
 	.byte	0x1
@@ -7314,7 +7314,7 @@ cpuSyncEvent:
 	.uahalf	0x223
 	.uleb128 0x2e
 	.uaword	.LVL9
-	.uaword	0x4698
+	.uaword	0x4697
 	.byte	0
 	.byte	0
 	.byte	0
@@ -7341,7 +7341,7 @@ cpuSyncEvent:
 	.sleb128 -268184832
 	.uleb128 0x31
 	.uaword	.LVL13
-	.uaword	0x46c0
+	.uaword	0x46bf
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x55
@@ -7538,7 +7538,7 @@ cpuSyncEvent:
 	.uaword	.LBB144
 	.uaword	.Ldebug_ranges0+0xc8
 	.byte	0x1
-	.byte	0x7e
+	.byte	0x80
 	.uaword	0x44d5
 	.uleb128 0x2f
 	.uaword	0x3ff2
@@ -7572,7 +7572,7 @@ cpuSyncEvent:
 	.uahalf	0x223
 	.uleb128 0x2e
 	.uaword	.LVL34
-	.uaword	0x4698
+	.uaword	0x4697
 	.byte	0
 	.byte	0
 	.byte	0
@@ -7583,7 +7583,7 @@ cpuSyncEvent:
 	.uaword	.LBB163
 	.uaword	.Ldebug_ranges0+0x110
 	.byte	0x1
-	.byte	0x7e
+	.byte	0x80
 	.uaword	0x4541
 	.uleb128 0x28
 	.uaword	0x411f
@@ -7620,19 +7620,19 @@ cpuSyncEvent:
 	.byte	0
 	.uleb128 0x2e
 	.uaword	.LVL1
-	.uaword	0x46ee
+	.uaword	0x46ed
 	.uleb128 0x2e
 	.uaword	.LVL2
-	.uaword	0x471a
+	.uaword	0x4719
 	.uleb128 0x2e
 	.uaword	.LVL3
-	.uaword	0x4748
+	.uaword	0x4747
 	.uleb128 0x2e
 	.uaword	.LVL4
-	.uaword	0x4777
+	.uaword	0x4776
 	.uleb128 0x38
 	.uaword	.LVL5
-	.uaword	0x47a8
+	.uaword	0x47a7
 	.uaword	0x4579
 	.uleb128 0x32
 	.byte	0x1
@@ -7643,7 +7643,7 @@ cpuSyncEvent:
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL6
-	.uaword	0x47d0
+	.uaword	0x47cf
 	.uaword	0x4592
 	.uleb128 0x32
 	.byte	0x1
@@ -7659,49 +7659,48 @@ cpuSyncEvent:
 	.byte	0
 	.uleb128 0x2e
 	.uaword	.LVL7
-	.uaword	0x47fb
+	.uaword	0x47fa
 	.uleb128 0x2e
 	.uaword	.LVL8
-	.uaword	0x4816
+	.uaword	0x4815
 	.uleb128 0x2e
 	.uaword	.LVL22
-	.uaword	0x482d
+	.uaword	0x482c
 	.uleb128 0x2e
 	.uaword	.LVL23
-	.uaword	0x484a
+	.uaword	0x4849
 	.uleb128 0x2e
 	.uaword	.LVL24
-	.uaword	0x4863
+	.uaword	0x4862
 	.uleb128 0x2e
 	.uaword	.LVL25
-	.uaword	0x487b
+	.uaword	0x487a
 	.uleb128 0x2e
 	.uaword	.LVL26
-	.uaword	0x4896
+	.uaword	0x4895
 	.uleb128 0x38
 	.uaword	.LVL27
-	.uaword	0x48af
-	.uaword	0x45e5
+	.uaword	0x48ae
+	.uaword	0x45e4
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
-	.byte	0x2
-	.byte	0x8
-	.byte	0x2d
+	.byte	0x1
+	.byte	0x30
 	.byte	0
 	.uleb128 0x2e
 	.uaword	.LVL29
-	.uaword	0x48ca
+	.uaword	0x48c9
 	.uleb128 0x2e
 	.uaword	.LVL30
-	.uaword	0x48dc
+	.uaword	0x48db
 	.uleb128 0x2e
 	.uaword	.LVL38
-	.uaword	0x484a
+	.uaword	0x4849
 	.byte	0
 	.uleb128 0x8
 	.uaword	0x2a8
-	.uaword	0x4611
+	.uaword	0x4610
 	.uleb128 0x9
 	.uaword	0x2d2
 	.byte	0x2
@@ -7710,11 +7709,11 @@ cpuSyncEvent:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xb
 	.byte	0x96
-	.uaword	0x462e
+	.uaword	0x462d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3a
-	.uaword	0x4601
+	.uaword	0x4600
 	.uleb128 0x39
 	.string	"IfxPort_P14_4"
 	.byte	0xc
@@ -7742,7 +7741,7 @@ cpuSyncEvent:
 	.string	"distance_obstacle"
 	.byte	0x1
 	.byte	0x39
-	.uaword	0x4693
+	.uaword	0x4692
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -7764,7 +7763,7 @@ cpuSyncEvent:
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x46ee
+	.uaword	0x46ed
 	.uleb128 0x3e
 	.uaword	0x3a39
 	.uleb128 0x3e
@@ -7787,7 +7786,7 @@ cpuSyncEvent:
 	.uahalf	0x146
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4748
+	.uaword	0x4747
 	.uleb128 0x3e
 	.uaword	0x1d1
 	.byte	0
@@ -7806,7 +7805,7 @@ cpuSyncEvent:
 	.uahalf	0x150
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x47a8
+	.uaword	0x47a7
 	.uleb128 0x3e
 	.uaword	0x1d1
 	.byte	0
@@ -7817,9 +7816,9 @@ cpuSyncEvent:
 	.uahalf	0x26d
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x47ca
+	.uaword	0x47c9
 	.uleb128 0x3e
-	.uaword	0x47ca
+	.uaword	0x47c9
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
@@ -7832,9 +7831,9 @@ cpuSyncEvent:
 	.byte	0x1
 	.uaword	0x239
 	.byte	0x1
-	.uaword	0x47fb
+	.uaword	0x47fa
 	.uleb128 0x3e
-	.uaword	0x47ca
+	.uaword	0x47c9
 	.uleb128 0x3e
 	.uaword	0x203
 	.byte	0
@@ -7844,7 +7843,7 @@ cpuSyncEvent:
 	.byte	0xe
 	.byte	0x16
 	.byte	0x1
-	.uaword	0x4816
+	.uaword	0x4815
 	.uleb128 0x41
 	.byte	0
 	.uleb128 0x40
@@ -7853,7 +7852,7 @@ cpuSyncEvent:
 	.byte	0xf
 	.byte	0x1a
 	.byte	0x1
-	.uaword	0x482d
+	.uaword	0x482c
 	.uleb128 0x41
 	.byte	0
 	.uleb128 0x42
@@ -7870,7 +7869,7 @@ cpuSyncEvent:
 	.byte	0x16
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4863
+	.uaword	0x4862
 	.uleb128 0x3e
 	.uaword	0x3eea
 	.byte	0
@@ -7878,31 +7877,31 @@ cpuSyncEvent:
 	.byte	0x1
 	.string	"config_servomotor"
 	.byte	0x11
-	.byte	0x16
+	.byte	0x1f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x42
 	.byte	0x1
 	.string	"timer_compare_config"
 	.byte	0x11
-	.byte	0x3c
+	.byte	0x45
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x42
 	.byte	0x1
 	.string	"sweep_servo_config"
 	.byte	0x11
-	.byte	0x2a
+	.byte	0x33
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x43
 	.byte	0x1
 	.string	"move_servo"
 	.byte	0x11
-	.byte	0x1f
+	.byte	0x28
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x48ca
+	.uaword	0x48c9
 	.uleb128 0x3e
 	.uaword	0x1b3
 	.byte	0
@@ -7910,7 +7909,7 @@ cpuSyncEvent:
 	.byte	0x1
 	.string	"sweep_servo"
 	.byte	0x11
-	.byte	0x33
+	.byte	0x3c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x44

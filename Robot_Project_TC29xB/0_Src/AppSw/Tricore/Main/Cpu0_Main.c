@@ -111,7 +111,7 @@ int core0_main (void)
 	sweep_servo_config();
 	
 	
-	move_servo(45);
+	move_servo(0);
 
     while (1)
     {

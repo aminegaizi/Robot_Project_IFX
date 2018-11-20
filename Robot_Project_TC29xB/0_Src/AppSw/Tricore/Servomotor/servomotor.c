@@ -12,10 +12,6 @@
 #include "servomotor.h"
 #include <Stm/Std/IfxStm.h>
 
-#define PRIO_SERVO 6
-#define DUTY_MIN 3.5
-#define DUTY_MAX 13.25
-#define STEP 0.125
 
 extern Ifx_STM *stm_sfr;
 extern IfxGtm_Tom_Timer Timer3;
@@ -66,8 +62,9 @@ void sweep_servo_config()
 	global_step = STEP;
 
 	duty3 = global_duty_start;
+	//allows the definition of the functions related to the sweep_servo functionality
 	#define SWEEP_SERVO
-//	duty3 = global_duty_end;
+
 }
 
 void sweep_servo()
@@ -126,18 +123,19 @@ void STM_INTERRUPT()
 }
 
 void timer_compare_config()
-{
+{		//interrupt every 1 /4s
+    	//change value of frequency to change frequency
        frequency_servo = IfxStm_getFrequency(stm_sfr)/4;
        boolean interruptState = IfxCpu_disableInterrupts();
 
        IfxStm_initCompareConfig(&config_servo);
        config_servo.triggerPriority = PRIO_SERVO;
        config_servo.typeOfService = IfxSrc_Tos_cpu0;
-       //interrupt every 1/4s
-       //change value of frequency to change frequency
+
        config_servo.ticks = frequency_servo;
        IfxStm_initCompare(stm_sfr, &config_servo);
        IfxStm_enableComparatorInterrupt(stm_sfr, config_servo.comparator);
        IfxCpu_restoreInterrupts(interruptState);
 }
+
 #endif

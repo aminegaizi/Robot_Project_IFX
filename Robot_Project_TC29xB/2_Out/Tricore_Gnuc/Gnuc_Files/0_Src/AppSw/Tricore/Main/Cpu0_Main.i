@@ -23030,17 +23030,17 @@ void ClockConfig();
 void Encoders_config();
 # 40 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 # 1 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 1
-# 22 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
-void config_servomotor(void);
 # 31 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void config_servomotor(void);
+# 40 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
 void move_servo(unsigned char angle);
-# 42 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
-void sweep_servo_config(void);
 # 51 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
-void sweep_servo(void);
+void sweep_servo_config(void);
 # 60 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
-void timer_compare_config(void);
+void sweep_servo(void);
 # 69 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void timer_compare_config(void);
+# 78 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
 void STM_INTERRUPT(void);
 # 41 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
@@ -23405,11 +23405,13 @@ int core0_main (void)
  sweep_servo_config();
 
 
- move_servo(45);
+ move_servo(0);
 
     while (1)
     {
   sweep_servo();
+
+
      temp = returnDistance();
 
   if(temp < 1e+06)

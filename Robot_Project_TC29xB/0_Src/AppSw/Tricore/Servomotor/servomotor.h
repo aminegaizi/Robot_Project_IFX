@@ -14,6 +14,15 @@
 //
 //#endif /* 0_SRC_APPSW_TRICORE_SERVOMOTOR_SERVOMOTOR_H_ */
 
+#define PRIO_SERVO 6
+//if modification are needed here put duty that is >
+#define DUTY_MIN 3.5
+//if modification are needed here put duty that is <
+#define DUTY_MAX 13.25
+//to modify if smoother but slower movement needed
+#define STEP 0.125
+
+
 /*	input: none
 	output: none
 	function: configure 2 PMWs for the servos

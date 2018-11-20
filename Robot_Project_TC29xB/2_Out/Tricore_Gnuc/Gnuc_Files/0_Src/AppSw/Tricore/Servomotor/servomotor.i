@@ -22592,17 +22592,17 @@ void ClockConfig();
 # 11 "0_Src/AppSw/Tricore/Servomotor/servomotor.c" 2
 
 # 1 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 1
-# 22 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
-void config_servomotor(void);
 # 31 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void config_servomotor(void);
+# 40 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
 void move_servo(unsigned char angle);
-# 42 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
-void sweep_servo_config(void);
 # 51 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
-void sweep_servo(void);
+void sweep_servo_config(void);
 # 60 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
-void timer_compare_config(void);
+void sweep_servo(void);
 # 69 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void timer_compare_config(void);
+# 78 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
 void STM_INTERRUPT(void);
 # 13 "0_Src/AppSw/Tricore/Servomotor/servomotor.c" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 1
@@ -23073,10 +23073,6 @@ static inline __attribute__ ((always_inline)) void IfxStm_waitTicks(Ifx_STM *stm
 # 14 "0_Src/AppSw/Tricore/Servomotor/servomotor.c" 2
 
 
-
-
-
-
 extern Ifx_STM *stm_sfr;
 extern IfxGtm_Tom_Timer Timer3;
 extern IfxGtm_Tom_Timer Timer4;
@@ -23126,6 +23122,7 @@ void sweep_servo_config()
  global_step = 0.125;
 
  duty3 = global_duty_start;
+
 
 
 }
@@ -23187,13 +23184,13 @@ void STM_INTERRUPT()
 
 void timer_compare_config()
 {
+
        frequency_servo = IfxStm_getFrequency(stm_sfr)/4;
        boolean interruptState = IfxCpu_disableInterrupts();
 
        IfxStm_initCompareConfig(&config_servo);
        config_servo.triggerPriority = 6;
        config_servo.typeOfService = IfxSrc_Tos_cpu0;
-
 
        config_servo.ticks = frequency_servo;
        IfxStm_initCompare(stm_sfr, &config_servo);

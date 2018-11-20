@@ -31,7 +31,7 @@
 config_servomotor:
 .LFB294:
 	.file 1 "0_Src/AppSw/Tricore/Servomotor/servomotor.c"
-	.loc 1 36 0
+	.loc 1 32 0
 .LVL0:
 .LBB54:
 .LBB55:
@@ -45,7 +45,7 @@ config_servomotor:
 .LVL1:
 .LBE55:
 .LBE54:
-	.loc 1 40 0
+	.loc 1 36 0
 	movh.a	%a4, hi:IfxGtm_TOM0_0_TOUT32_P33_10_OUT
 	lea	%a4, [%a4] lo:IfxGtm_TOM0_0_TOUT32_P33_10_OUT
 	call	PWM3_config
@@ -61,7 +61,7 @@ config_servomotor:
 .LVL3:
 .LBE57:
 .LBE56:
-	.loc 1 43 0
+	.loc 1 39 0
 	movh.a	%a4, hi:IfxGtm_TOM0_1_TOUT27_P33_5_OUT
 	lea	%a4, [%a4] lo:IfxGtm_TOM0_1_TOUT27_P33_5_OUT
 	j	PWM4_config
@@ -78,9 +78,9 @@ config_servomotor:
 	.type	move_servo, @function
 move_servo:
 .LFB295:
-	.loc 1 49 0
+	.loc 1 45 0
 .LVL5:
-	.loc 1 52 0
+	.loc 1 48 0
 	ge.u	%d15, %d4, 181
 	movh	%d2, 16646
 	jnz	%d15, .L3
@@ -102,7 +102,7 @@ move_servo:
 	call	__truncdfsf2
 .LVL9:
 .L3:
-	.loc 1 57 0
+	.loc 1 53 0
 	movh.a	%a4, hi:Timer4
 	ld.w	%d4, [%a4] lo:Timer4
 	movh	%d15, 17096
@@ -122,22 +122,22 @@ move_servo:
 	.type	sweep_servo_config, @function
 sweep_servo_config:
 .LFB296:
-	.loc 1 63 0
-	.loc 1 64 0
+	.loc 1 59 0
+	.loc 1 60 0
 	movh	%d15, 16480
 	movh.a	%a15, hi:global_duty_start
-	.loc 1 65 0
+	.loc 1 61 0
 	movh.a	%a2, hi:global_duty_end
-	.loc 1 64 0
+	.loc 1 60 0
 	st.w	[%a15] lo:global_duty_start, %d15
-	.loc 1 65 0
+	.loc 1 61 0
 	movh	%d15, 16724
 	st.w	[%a2] lo:global_duty_end, %d15
-	.loc 1 66 0
+	.loc 1 62 0
 	movh	%d15, 15872
 	movh.a	%a2, hi:global_step
 	st.w	[%a2] lo:global_step, %d15
-	.loc 1 68 0
+	.loc 1 64 0
 	ld.w	%d15, [%a15] lo:global_duty_start
 	movh.a	%a15, hi:duty3
 	st.w	[%a15] lo:duty3, %d15
@@ -150,12 +150,12 @@ sweep_servo_config:
 	.type	sweep_servo, @function
 sweep_servo:
 .LFB297:
-	.loc 1 74 0
-	.loc 1 76 0
+	.loc 1 71 0
+	.loc 1 73 0
 	movh.a	%a12, hi:flag_limit
 	ld.bu	%d15, [%a12] lo:flag_limit
 	jz	%d15, .L8
-	.loc 1 78 0
+	.loc 1 75 0
 	movh.a	%a15, hi:stm_sfr
 	ld.a	%a15, [%a15] lo:stm_sfr
 .LVL12:
@@ -252,13 +252,13 @@ sweep_servo:
 	jlt.u	%d15, %d2, .L9
 .LBE83:
 .LBE85:
-	.loc 1 79 0
+	.loc 1 76 0
 	mov	%d15, 0
 	st.b	[%a12] lo:flag_limit, %d15
 	ret
 .LVL17:
 .L8:
-	.loc 1 85 0
+	.loc 1 82 0
 	movh.a	%a4, hi:Timer3
 	ld.w	%d4, [%a4] lo:Timer3
 	movh.a	%a15, hi:duty3
@@ -279,61 +279,61 @@ sweep_servo:
 	.type	STM_INTERRUPT, @function
 STM_INTERRUPT:
 .LFB298:
-	.loc 1 93 0
-	.loc 1 95 0
+	.loc 1 90 0
+	.loc 1 92 0
 	movh.a	%a12, hi:stm_sfr
 	ld.a	%a4, [%a12] lo:stm_sfr
 	movh.a	%a13, hi:config_servo
 	ld.bu	%d4, [%a13] lo:config_servo
-	.loc 1 97 0
+	.loc 1 94 0
 	movh.a	%a15, hi:duty3
-	.loc 1 95 0
+	.loc 1 92 0
 	call	IfxStm_clearCompareFlag
 .LVL19:
-	.loc 1 97 0
+	.loc 1 94 0
 	movh.a	%a2, hi:global_step
 	ld.w	%d2, [%a2] lo:global_step
 	ld.w	%d15, [%a15] lo:duty3
-	.loc 1 99 0
+	.loc 1 96 0
 	movh.a	%a3, hi:flag_limit
-	.loc 1 97 0
+	.loc 1 94 0
 	add.f	%d15, %d2, %d15
-	.loc 1 102 0
-	movh.a	%a4, hi:global_duty_end
-	.loc 1 97 0
-	st.w	[%a15] lo:duty3, %d15
 	.loc 1 99 0
+	movh.a	%a4, hi:global_duty_end
+	.loc 1 94 0
+	st.w	[%a15] lo:duty3, %d15
+	.loc 1 96 0
 	mov	%d15, 0
 	st.b	[%a3] lo:flag_limit, %d15
-	.loc 1 102 0
+	.loc 1 99 0
 	ld.w	%d15, [%a15] lo:duty3
 	ld.w	%d2, [%a4] lo:global_duty_end
 	cmp.f	%d15, %d15, %d2
 	jnz.t	%d15, 2, .L22
-	.loc 1 114 0
+	.loc 1 111 0
 	movh.a	%a4, hi:global_duty_start
 	ld.w	%d15, [%a15] lo:duty3
 	ld.w	%d2, [%a4] lo:global_duty_start
 	cmp.f	%d15, %d15, %d2
 	jz.t	%d15, 0, .L16
-	.loc 1 117 0
+	.loc 1 114 0
 	movh	%d15, 16480
 .L21:
 	st.w	[%a15] lo:duty3, %d15
-	.loc 1 119 0
+	.loc 1 116 0
 	ld.w	%d15, [%a2] lo:global_step
 	addih	%d15, %d15, 0x8000
 	st.w	[%a2] lo:global_step, %d15
-	.loc 1 120 0
+	.loc 1 117 0
 	ld.w	%d2, [%a2] lo:global_step
 	ld.w	%d15, [%a15] lo:duty3
 	add.f	%d15, %d2, %d15
 	st.w	[%a15] lo:duty3, %d15
-	.loc 1 122 0
+	.loc 1 119 0
 	mov	%d15, 1
 	st.b	[%a3] lo:flag_limit, %d15
 .L16:
-	.loc 1 125 0
+	.loc 1 122 0
 	movh.a	%a15, hi:frequency_servo
 	ld.w	%d15, [%a15] lo:frequency_servo
 .LVL20:
@@ -355,7 +355,7 @@ STM_INTERRUPT:
 .L22:
 .LBE87:
 .LBE86:
-	.loc 1 105 0
+	.loc 1 102 0
 	movh	%d15, 16724
 	j	.L21
 .LFE298:
@@ -366,7 +366,7 @@ STM_INTERRUPT:
 	.type	timer_compare_config, @function
 timer_compare_config:
 .LFB299:
-	.loc 1 129 0
+	.loc 1 126 0
 .LVL24:
 .LBB88:
 .LBB89:
@@ -382,7 +382,7 @@ timer_compare_config:
 .LBE90:
 .LBE89:
 .LBE88:
-	.loc 1 130 0
+	.loc 1 128 0
 	movh.a	%a12, hi:frequency_servo
 .LBB95:
 .LBB94:
@@ -396,7 +396,7 @@ timer_compare_config:
 .LBE93:
 .LBE94:
 .LBE95:
-	.loc 1 130 0
+	.loc 1 128 0
 	movh	%d15, 16000
 	mul.f	%d2, %d2, %d15
 	st.w	[%a12] lo:frequency_servo, %d2
@@ -438,35 +438,35 @@ timer_compare_config:
 .LBE101:
 .LBE97:
 .LBE96:
-	.loc 1 133 0
+	.loc 1 131 0
 	movh.a	%a13, hi:config_servo
 	lea	%a15, [%a13] lo:config_servo
 	mov.aa	%a4, %a15
 	call	IfxStm_initCompareConfig
 .LVL28:
-	.loc 1 134 0
+	.loc 1 132 0
 	mov	%d2, 6
-	.loc 1 139 0
+	.loc 1 136 0
 	mov.aa	%a5, %a15
-	.loc 1 134 0
+	.loc 1 132 0
 	st.h	[%a15] 8, %d2
-	.loc 1 135 0
+	.loc 1 133 0
 	mov	%d2, 0
 	st.b	[%a15] 10, %d2
-	.loc 1 138 0
+	.loc 1 135 0
 	ld.w	%d2, [%a12] lo:frequency_servo
-	.loc 1 139 0
+	.loc 1 136 0
 	movh.a	%a12, hi:stm_sfr
-	.loc 1 138 0
+	.loc 1 135 0
 	ftouz	%d2, %d2
-	.loc 1 139 0
+	.loc 1 136 0
 	ld.a	%a4, [%a12] lo:stm_sfr
-	.loc 1 138 0
+	.loc 1 135 0
 	st.w	[%a15] 4, %d2
-	.loc 1 139 0
+	.loc 1 136 0
 	call	IfxStm_initCompare
 .LVL29:
-	.loc 1 140 0
+	.loc 1 137 0
 	ld.a	%a4, [%a12] lo:stm_sfr
 	ld.bu	%d4, [%a13] lo:config_servo
 	call	IfxStm_enableComparatorInterrupt
@@ -51617,7 +51617,7 @@ config_servo:
 	.byte	0x1
 	.string	"config_servomotor"
 	.byte	0x1
-	.byte	0x23
+	.byte	0x1f
 	.byte	0x1
 	.uaword	.LFB294
 	.uaword	.LFE294
@@ -51630,7 +51630,7 @@ config_servo:
 	.uaword	.LBB54
 	.uaword	.LBE54
 	.byte	0x1
-	.byte	0x26
+	.byte	0x22
 	.uaword	0x21893
 	.uleb128 0x31
 	.uaword	0x21711
@@ -51671,7 +51671,7 @@ config_servo:
 	.uaword	.LBB56
 	.uaword	.LBE56
 	.byte	0x1
-	.byte	0x2a
+	.byte	0x26
 	.uaword	0x218e4
 	.uleb128 0x31
 	.uaword	0x21711
@@ -51719,7 +51719,7 @@ config_servo:
 	.byte	0x1
 	.string	"move_servo"
 	.byte	0x1
-	.byte	0x30
+	.byte	0x2c
 	.byte	0x1
 	.uaword	.LFB295
 	.uaword	.LFE295
@@ -51730,13 +51730,13 @@ config_servo:
 	.uleb128 0x38
 	.string	"angle"
 	.byte	0x1
-	.byte	0x30
+	.byte	0x2c
 	.uaword	0x1ca
 	.uaword	.LLST0
 	.uleb128 0x39
 	.string	"duty_position"
 	.byte	0x1
-	.byte	0x33
+	.byte	0x2f
 	.uaword	0x16d
 	.uaword	.LLST1
 	.uleb128 0x36
@@ -51748,7 +51748,7 @@ config_servo:
 	.byte	0x1
 	.string	"sweep_servo_config"
 	.byte	0x1
-	.byte	0x3e
+	.byte	0x3a
 	.byte	0x1
 	.uaword	.LFB296
 	.uaword	.LFE296
@@ -51759,7 +51759,7 @@ config_servo:
 	.byte	0x1
 	.string	"sweep_servo"
 	.byte	0x1
-	.byte	0x49
+	.byte	0x46
 	.byte	0x1
 	.uaword	.LFB297
 	.uaword	.LFE297
@@ -51772,7 +51772,7 @@ config_servo:
 	.uaword	.LBB58
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
-	.byte	0x4e
+	.byte	0x4b
 	.uaword	0x21a03
 	.uleb128 0x3c
 	.uaword	0x2166e
@@ -51817,7 +51817,7 @@ config_servo:
 	.uaword	.LBB77
 	.uaword	.Ldebug_ranges0+0x40
 	.byte	0x1
-	.byte	0x4e
+	.byte	0x4b
 	.uaword	0x21a6c
 	.uleb128 0x3c
 	.uaword	0x21747
@@ -51861,7 +51861,7 @@ config_servo:
 	.byte	0x1
 	.string	"STM_INTERRUPT"
 	.byte	0x1
-	.byte	0x5c
+	.byte	0x59
 	.byte	0x1
 	.uaword	.LFB298
 	.uaword	.LFE298
@@ -51874,7 +51874,7 @@ config_servo:
 	.uaword	.LBB86
 	.uaword	.LBE86
 	.byte	0x1
-	.byte	0x7d
+	.byte	0x7a
 	.uaword	0x21ac4
 	.uleb128 0x3c
 	.uaword	0x217a1
@@ -51893,7 +51893,7 @@ config_servo:
 	.byte	0x1
 	.string	"timer_compare_config"
 	.byte	0x1
-	.byte	0x80
+	.byte	0x7d
 	.byte	0x1
 	.uaword	.LFB299
 	.uaword	.LFE299
@@ -51904,14 +51904,14 @@ config_servo:
 	.uleb128 0x44
 	.string	"interruptState"
 	.byte	0x1
-	.byte	0x83
+	.byte	0x81
 	.uaword	0x241
 	.uleb128 0x3b
 	.uaword	0x215fc
 	.uaword	.LBB88
 	.uaword	.Ldebug_ranges0+0x58
 	.byte	0x1
-	.byte	0x82
+	.byte	0x80
 	.uaword	0x21b4b
 	.uleb128 0x43
 	.uaword	0x2161e
@@ -51936,7 +51936,7 @@ config_servo:
 	.uaword	.LBB96
 	.uaword	.LBE96
 	.byte	0x1
-	.byte	0x83
+	.byte	0x81
 	.uaword	0x21bb5
 	.uleb128 0x45
 	.uaword	.LBB97
@@ -51977,7 +51977,7 @@ config_servo:
 	.uaword	.LBB103
 	.uaword	.LBE103
 	.byte	0x1
-	.byte	0x8d
+	.byte	0x8a
 	.uaword	0x21bce
 	.uleb128 0x43
 	.uaword	0x2180b
@@ -52041,28 +52041,28 @@ config_servo:
 	.uleb128 0x48
 	.string	"stm_sfr"
 	.byte	0x1
-	.byte	0x14
+	.byte	0x10
 	.uaword	0x2163a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x48
 	.string	"Timer3"
 	.byte	0x1
-	.byte	0x15
+	.byte	0x11
 	.uaword	0x20c3c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x48
 	.string	"Timer4"
 	.byte	0x1
-	.byte	0x16
+	.byte	0x12
 	.uaword	0x20c3c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x4a
 	.string	"config_servo"
 	.byte	0x1
-	.byte	0x18
+	.byte	0x14
 	.uaword	0x21568
 	.byte	0x1
 	.byte	0x5
@@ -52071,7 +52071,7 @@ config_servo:
 	.uleb128 0x4a
 	.string	"duty3"
 	.byte	0x1
-	.byte	0x1a
+	.byte	0x16
 	.uaword	0x21ce5
 	.byte	0x1
 	.byte	0x5
@@ -52082,7 +52082,7 @@ config_servo:
 	.uleb128 0x4a
 	.string	"global_duty_start"
 	.byte	0x1
-	.byte	0x1b
+	.byte	0x17
 	.uaword	0x21ce5
 	.byte	0x1
 	.byte	0x5
@@ -52091,7 +52091,7 @@ config_servo:
 	.uleb128 0x4a
 	.string	"global_duty_end"
 	.byte	0x1
-	.byte	0x1c
+	.byte	0x18
 	.uaword	0x21ce5
 	.byte	0x1
 	.byte	0x5
@@ -52100,7 +52100,7 @@ config_servo:
 	.uleb128 0x4a
 	.string	"global_step"
 	.byte	0x1
-	.byte	0x1d
+	.byte	0x19
 	.uaword	0x21ce5
 	.byte	0x1
 	.byte	0x5
@@ -52109,7 +52109,7 @@ config_servo:
 	.uleb128 0x4a
 	.string	"frequency_servo"
 	.byte	0x1
-	.byte	0x1e
+	.byte	0x1a
 	.uaword	0x21ce5
 	.byte	0x1
 	.byte	0x5
@@ -52118,7 +52118,7 @@ config_servo:
 	.uleb128 0x4a
 	.string	"flag_limit"
 	.byte	0x1
-	.byte	0x1f
+	.byte	0x1b
 	.uaword	0x21d79
 	.byte	0x1
 	.byte	0x5
