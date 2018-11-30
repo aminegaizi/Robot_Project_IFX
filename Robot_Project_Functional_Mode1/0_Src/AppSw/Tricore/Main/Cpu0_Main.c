@@ -40,6 +40,7 @@
 #include "servomotor.h"
 
 #include "serial.h"
+#include "serial_Raspberry.h"
 #include <Stm/Std/IfxStm.h>
 #include <_PinMap/IfxPort_pinMap.h>
 #include "ultrasonic_sensor.h"
@@ -54,6 +55,7 @@ IfxCpu_syncEvent cpuSyncEvent= 0;
 //extern volatile uint32 interruptRight_counter;
 //extern volatile uint32 interruptLeft_counter;
 volatile float64 distance_obstacle = 0;
+char object_detect = '0';
 
 int core0_main (void)
 {
@@ -75,6 +77,7 @@ int core0_main (void)
 	Motors_initialization();
 	Encoders_config();
 	serial_config();
+    serial_config_Raspberry(); //Configuration of the UART between the Aurix Master and the Raspberry
 	ClockConfig();
 
 	//ultrasonic sensor config
@@ -129,5 +132,35 @@ void command(char recv)
 			break;
 
 		}
+}
+
+void Raspberry_rcv(char recv)
+{
+	switch(recv){
+		case 'S': //Case START
+			object_detect = 'S';
+			break;
+		case '1':
+			object_detect = '1';
+			break;
+		case '2':
+			object_detect = '2';
+			break;
+		case '3':
+			object_detect = '3';
+			break;
+		case '4':
+			object_detect = '4';
+			break;
+		case '5':
+			object_detect = '5';
+			break;
+		case 'E': //Case END
+			object_detect = 'E';
+			break;
+		default: //Case nothing
+			object_detect = '0';
+			break;
+	}
 }
 

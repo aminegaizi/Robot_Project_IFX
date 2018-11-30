@@ -5,3 +5,4 @@
  *      Author: Gaizi
  */
 void command(char);
+void Raspberry_rcv(char);

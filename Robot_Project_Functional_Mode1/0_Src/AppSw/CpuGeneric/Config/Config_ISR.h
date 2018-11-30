@@ -17,19 +17,18 @@
 
 //---SPI bluetooth priorities---
 #define PRIORITY_ISR_SERIAL_RX		5
-
 #define PRIORITY_ISR_SERIAL_TX		6
-
 #define PRIORITY_ISR_SERIAL_ER		7
 
 //---Ultrasonic sensor priority
-
 #define PRIORITY_ISR_ULTRASONIC 27
 
 //---Servomotor priority
-
 #define PRIORITY_ISR_SERVOMOTOR 8
 
-
+//---UART bluetooth priorities (Raspberry communication)
+#define ISR_PRIORITY_SERIAL_TX		9
+#define ISR_PRIORITY_SERIAL_RX		10
+#define ISR_PRIORITY_SERIAL_ER		11
 
 
