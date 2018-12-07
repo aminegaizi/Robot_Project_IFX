@@ -19,10 +19,19 @@ App_I2C I2C_Masters_Slaves;
 MPU_9265 Mpu;
 YawPitchRoll YPR;
 
+IfxStm_CompareConfig Timerconfig;
+IFX_INTERRUPT(STM_INTERRUPT, 0, 4);
+extern Ifx_STM *stm0;
+
+volatile float frequency;
 
 volatile uint8 Data[32];
 
 volatile Ifx_SizeT size;
+
+volatile float Faccelx=0;
+volatile float Faccely=0;
+volatile float Faccelz=0;
 
 
 
@@ -129,6 +138,20 @@ void Init_MPU9265(){
 	YPR.roll_offset=0;
 }
 
+void timer_compare()
+{
+       frequency = IfxStm_getFrequency(stm0);
+       boolean interruptState = IfxCpu_disableInterrupts();
+
+       IfxStm_initCompareConfig(&Timerconfig);
+       Timerconfig.triggerPriority = 4;
+       Timerconfig.typeOfService = IfxSrc_Tos_cpu0;
+       Timerconfig.ticks = frequency;
+       IfxStm_initCompare(stm0, &Timerconfig);
+       IfxStm_enableComparatorInterrupt(stm0, Timerconfig.comparator);
+       IfxCpu_restoreInterrupts(interruptState);
+}
+
 
 void Read_I2C_Register(IfxI2c_I2c_Device * Device_I2C,uint8 Register_Address,int Number_Received)
 {
@@ -195,9 +218,9 @@ void GetMag()
 			data[i] = (float)bit_data;
 		}
 
-	Mpu.Magnetometer.mag_x=data[0]/Mpu.mag_scale_factor;
-	Mpu.Magnetometer.mag_y=data[1]/Mpu.mag_scale_factor;
-	Mpu.Magnetometer.mag_z=data[2]/Mpu.mag_scale_factor;
+	Mpu.Magnetometer.mag_x=(data[0]*0,000001)/Mpu.mag_scale_factor;
+	Mpu.Magnetometer.mag_y=(data[1]*0,000001)/Mpu.mag_scale_factor;
+	Mpu.Magnetometer.mag_z=(data[2]*0,000001)/Mpu.mag_scale_factor;
 
 }
 
@@ -231,36 +254,68 @@ void GetGravity()
 void GetYawPitchRoll()
 {
 
-	float pitch;
-	float yaw;
-	float roll;
+	volatile float pitch=0;
+	volatile float yaw=0;
+	volatile float roll=0;
 
-	GetGyro();
+	GetAccel();
 	GetMag();
 
-	float gyrox=Mpu.Gyroscope.gyro_x/57.3;
-	float gyroy=Mpu.Gyroscope.gyro_y/57.3;
-	float gyroz=Mpu.Gyroscope.gyro_y/57.3;
+	volatile float accelx=Mpu.Acceleration.acc_x/57.3;
+	volatile float accely=Mpu.Acceleration.acc_y/57.3;
+	volatile float accelz=Mpu.Acceleration.acc_y/57.3;
 
-	pitch=atan2(gyroy,(sqrt((gyrox*gyrox)+(gyroz*gyroz))));
-	roll=atan2(-gyrox,(sqrt((gyroy*gyroy)+(gyroz*gyroz))));
+	Faccelx=accelx * 0.5 + (Faccelx * (1.0 - 0.5));
+	Faccely=accely * 0.5 + (Faccely * (1.0 - 0.5));
+	Faccelz=accelz * 0.5 + (Faccelz * (1.0 - 0.5));
 
 
-	float Yh = (Mpu.Magnetometer.mag_y * cos(roll)) - (Mpu.Magnetometer.mag_z * sin(roll));
-	float Xh = (Mpu.Magnetometer.mag_x * cos(pitch))+(Mpu.Magnetometer.mag_y * sin(roll)*sin(pitch)) + (Mpu.Magnetometer.mag_z * cos(roll) * sin(pitch));
+	pitch=atan2(Faccely,(sqrt((Faccelx*Faccelx)+(Faccelz*Faccelz))));
+	roll=atan2(-Faccelx,(sqrt((Faccely*Faccely)+(Faccelz*Faccelz))));
+	//roll  = atan2(-Faccely, Faccelz);
 
-	yaw =  atan2(Yh, Xh);
+	//pitch=atan2(gyroy,(sqrt((gyrox*gyrox)+(gyroz*gyroz))));
+		//roll=atan2(-Fgyrox,(sqrt((Fgyroy*Fgyroy)+(Fgyroz*Fgyroz))));
+	//roll  = atan2(-gyroy, gyroz);
+
+
+	float Yh = (Mpu.Magnetometer.mag_y * cos(roll)) + (Mpu.Magnetometer.mag_z * sin(roll));
+	float Xh = (Mpu.Magnetometer.mag_x * cos(pitch))+(Mpu.Magnetometer.mag_y * sin(roll)*sin(pitch)) + (Mpu.Magnetometer.mag_z * sin(roll) * sin(pitch));
+
+	yaw =  atan2(-Yh, Xh);
 
 
 	YPR.roll = roll*57.3;
 	YPR.pitch = pitch*57.3;
 	YPR.yaw = yaw*57.3;
 }
-
-
-void Init_gyro(void)
+void STM_INTERRUPT()
 {
+//
+
+
+	   GetYawPitchRoll();
+       IfxStm_clearCompareFlag(stm0, Timerconfig.comparator);
+//       I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[0] = 0x3B;     //address of SECONDS register
+//
+//       // write data to device as soon as it is ready
+//       while(IfxI2c_I2c_write(&I2C_Masters_Slaves.drivers.i2cDev_Gyro_Accel, &I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[0], 1) == IfxI2c_I2c_Status_nak);
+//
+//       // read the time registers
+//       while(IfxI2c_I2c_read(&I2C_Masters_Slaves.drivers.i2cDev_Gyro_Accel, &I2C_Masters_Slaves.i2cBuffer.i2cRxBuffer[0], 2) == IfxI2c_I2c_Status_nak);
+//
+
+       IfxPort_togglePin(&MODULE_P13, 2);
+       IfxStm_increaseCompare(stm0, Timerconfig.comparator, frequency/2);
+}
+
+void Demo(void)
+{
+	timer_compare();
 	Init_I2C();
 	Init_MPU9265();
+	IfxPort_setPinMode(&MODULE_P13, 2,IfxPort_Mode_outputPushPullGeneral);
+	while(1)
+	{}
 
 }
