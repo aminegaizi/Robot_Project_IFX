@@ -119,13 +119,9 @@ typedef struct
 
 typedef struct
 {
-	Gravity Gravity;
 	volatile float yaw;
 	volatile float pitch;
 	volatile float roll;
-	volatile float yaw_offset;
-	volatile float pitch_offset;
-	volatile float roll_offset;
 } YawPitchRoll;
 
 
