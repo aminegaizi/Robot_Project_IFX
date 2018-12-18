@@ -20,16 +20,17 @@ volatile float global_step;
 volatile float frequency_servo;
 volatile boolean flag_limit = FALSE;
 
+extern PWM_Timers Timers;
 
 void config_servomotor()
 {
 	//set P33.10 as output for the PWM
 	IfxPort_setPinModeOutput(&MODULE_P33, 10, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 	//look up in IfxGtm_PinMap.h to find which IfxGtm to use depending on the port used
-	PWM3_config(IfxGtm_TOM0_0_TOUT32_P33_10_OUT); //PWM3 signal configuration
+	PWM_init(PWM1_SERVOMOTOR, &Timers.PWM1_Servo, 50);
 
 	IfxPort_setPinModeOutput(&MODULE_P33, 5, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-	PWM4_config(IfxGtm_TOM0_1_TOUT27_P33_5_OUT); // PWM4 signal configuration
+	PWM_init(PWM2_SERVOMOTOR, &Timers.PWM2_Servo, 50);
 }
 
 
@@ -42,7 +43,8 @@ void move_servo(unsigned char angle)
 	duty_position = angle * (9.75/ 180)+ DUTY_MIN;
 
 	//generation of the PWM of duty cycle equal to duty_position
-	IfxGtm_Tom_Timer_setTrigger(&Timer4, (duty_position * Timer4.base.period) / 100);
+	//IfxGtm_Tom_Timer_setTrigger(&Timers.PWM2_Servo, (duty_position * Timers.PWM2_Servo.base.period) / 100);
+	PWM_setDuty(Timers.PWM2_Servo, duty_position);
 }
 
 
@@ -69,7 +71,8 @@ void sweep_servo()
 	//generates PWM in other cases
 	else
 	{
-		IfxGtm_Tom_Timer_setTrigger(&Timer3, (duty3 * Timer3.base.period) / 100);
+		//IfxGtm_Tom_Timer_setTrigger(&Timer3, (duty3 * Timer3.base.period) / 100);
+		PWM_setDuty(Timers.PWM1_Servo, duty3);
 	}
 }
 

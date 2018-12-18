@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Position/position.c"
-# 1 "C:\\Robot_Project\\Robot_Project_TC297-B-Ongoing//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC297B-Ongoing//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Position/position.c"
@@ -10734,7 +10734,7 @@ static inline __attribute__ ((always_inline)) void IfxStm_waitTicks(Ifx_STM *stm
 }
 # 16 "0_Src/AppSw/Tricore/Position/position.h" 2
 # 1 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 1
-# 9 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
+# 13 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h" 1
 # 106 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxGtm_PinMap.h" 1
@@ -21825,7 +21825,7 @@ extern void IfxGtm_Tom_Pwm_start(IfxGtm_Tom_Pwm_Driver *driver, boolean immediat
 
 
 extern void IfxGtm_Tom_Pwm_stop(IfxGtm_Tom_Pwm_Driver *driver, boolean immediate);
-# 10 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+# 14 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
 
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h" 1
 # 119 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h"
@@ -22360,17 +22360,31 @@ extern void IfxGtm_Tom_Timer_stop(IfxGtm_Tom_Timer *driver);
 
 
 extern void IfxGtm_Tom_Timer_updateInputFrequency(IfxGtm_Tom_Timer *driver);
-# 12 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+# 16 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_PWM.h" 1
+# 18 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
 
 
 
 
 
-void PWM_config(IfxGtm_Tom_ToutMap Output);
-void PWM2_config(IfxGtm_Tom_ToutMap Output);
-void PWM3_config(IfxGtm_Tom_ToutMap Output);
-void PWM4_config(IfxGtm_Tom_ToutMap Output);
+
+
 void ClockConfig();
+
+
+void PWM_init(IfxGtm_Tom_ToutMap Output, IfxGtm_Tom_Timer *Timer, float32 frequency);
+void PWM_setDuty(IfxGtm_Tom_Timer Timer, uint8 DutyCycle);
+
+typedef struct
+{
+    IfxGtm_Tom_Timer PWM1_Bridge;
+    IfxGtm_Tom_Timer PWM2_Bridge;
+    IfxGtm_Tom_Timer PWM1_Servo;
+    IfxGtm_Tom_Timer PWM2_Servo;
+    IfxGtm_Tom_Timer Beeper;
+}PWM_Timers;
 # 17 "0_Src/AppSw/Tricore/Position/position.h" 2
 # 1 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h" 1
 # 11 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h"

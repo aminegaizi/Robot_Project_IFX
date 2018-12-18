@@ -22,29 +22,6 @@
  *
  */
 
-#include "Ifx_Types.h"
-#include "IfxCpu.h"
-#include "IfxScuWdt.h"
-
-#include "IfxCpu_Irq.h"
-#include <Port/Io/IfxPort_Io.h>
-#include <_Reg\IfxPort_regdef.h>
-#include <Src/std/IfxSrc.h>
-#include "IfxSrc_reg.h"
-
-#include <Scu/Std/IfxScuEru.h>
-#include "IfxStm.h"
-#include "Motors.h"
-#include "PWM_config.h"
-#include "Encoders_config.h"
-#include "servomotor.h"
-
-#include "serial.h"
-#include <Stm/Std/IfxStm.h>
-#include <_PinMap/IfxPort_pinMap.h>
-#include "ultrasonic_sensor.h"
-#include "Gyroscope_i2c.h"
-
 #include "Cpu0_Main.h"
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
@@ -73,11 +50,13 @@ int core0_main (void)
 	IfxCpu_emitEvent(&cpuSyncEvent);
 	IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
+	ClockConfig();
+	//beep();
+
 	Motors_initialization();
-	Init_gyro();
+	Init_gyro(); //Uncomment MPU init
 	Encoders_config();
 	serial_config();
-	ClockConfig();
 
 	//ultrasonic sensor config
 	configUltrasonicSensor();
@@ -129,7 +108,6 @@ void command(char recv)
 			break;
 		default:
 			break;
-
 		}
 }
 

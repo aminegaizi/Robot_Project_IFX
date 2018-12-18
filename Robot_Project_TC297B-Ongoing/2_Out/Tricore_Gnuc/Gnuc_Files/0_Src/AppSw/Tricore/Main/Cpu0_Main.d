@@ -1,5 +1,6 @@
 2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Main/Cpu0_Main.o: \
  0_Src/AppSw/Tricore/Main/Cpu0_Main.c \
+ 0_Src/AppSw/Tricore/Main/Cpu0_Main.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/Ifx_Types.h \
  0_Src/BaseSw/Infra/Platform/Tricore/Compilers/Compilers.h \
  0_Src/AppSw/CpuGeneric/Config/Ifx_Cfg.h \
@@ -67,6 +68,7 @@
  0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h \
  0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_Timer.h \
  0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf.h \
+ 0_Src/AppSw/CpuGeneric/Config/Config_PWM.h \
  0_Src/AppSw/Tricore/Position/position.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Std/IfxPort.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h \
@@ -95,4 +97,5 @@
  0_Src/AppSw/Tricore/Servomotor/servomotor.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h \
  0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h \
- 0_Src/AppSw/Tricore/Main/Cpu0_Main.h
+ 0_Src/AppSw/Tricore/Beeper/Beeper.h \
+ 0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h

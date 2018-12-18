@@ -63,6 +63,7 @@
  0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h \
  0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_Timer.h \
  0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf.h \
+ 0_Src/AppSw/CpuGeneric/Config/Config_PWM.h \
  0_Src/AppSw/Tricore/Position/position.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/Ifx_Types.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/IfxCpu.h \
@@ -80,6 +81,11 @@
  0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h \
  0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.h \
  0_Src/AppSw/Tricore/Main/Cpu0_Main.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h \
+ 0_Src/AppSw/Tricore/Motors/Motors.h \
+ 0_Src/AppSw/Tricore/Servomotor/servomotor.h \
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h \
+ 0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h \
  0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/I2c/I2c/IfxI2c_I2c.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/I2c/Std/IfxI2c.h \
@@ -89,4 +95,6 @@
  0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxI2c_bf.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxI2c_PinMap.h \
  0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxI2c_regdef.h \
- 0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuCcu.h
+ 0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuCcu.h \
+ 0_Src/AppSw/Tricore/Beeper/Beeper.h \
+ 0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h

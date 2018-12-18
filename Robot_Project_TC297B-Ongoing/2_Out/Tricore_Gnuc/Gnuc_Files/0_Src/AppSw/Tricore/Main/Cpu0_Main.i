@@ -1,9 +1,11 @@
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
-# 1 "C:\\Robot_Project\\Robot_Project_TC297-B-Ongoing//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC297B-Ongoing//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
 # 25 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
+# 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 1
+# 13 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/Ifx_Types.h" 1
 # 29 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/Ifx_Types.h"
 # 1 "0_Src/BaseSw/Infra/Platform/Tricore/Compilers/Compilers.h" 1
@@ -215,7 +217,7 @@ typedef struct
     sfract real;
     sfract imag;
 } csfract;
-# 26 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 14 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/IfxCpu.h" 1
 # 50 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/IfxCpu.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxCpu_cfg.h" 1
@@ -10160,9 +10162,9 @@ static inline __attribute__ ((always_inline)) void IfxCpu_updatePerformanceCount
     cctrl.B.CE = enableBit;
     do { unsigned __newval = (unsigned) (cctrl.U); __asm__ volatile ("mtcr LO:" "0xFC00" ", %0" :: "d" (__newval) : "memory"); } while (0);
 }
-# 27 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 15 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuWdt.h" 1
-# 28 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 16 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h" 1
 # 43 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Irq/IfxCpu_Irq.h"
@@ -10263,7 +10265,7 @@ static inline __attribute__ ((always_inline)) IfxSrc_Tos IfxCpu_Irq_getTos(IfxCp
 {
     return (IfxSrc_Tos)coreId;
 }
-# 30 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 18 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h" 1
 # 159 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h"
 typedef struct
@@ -10284,11 +10286,11 @@ typedef struct
 } IfxPort_Io_Config;
 # 188 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Io/IfxPort_Io.h"
 extern void IfxPort_Io_initModule(const IfxPort_Io_Config *config);
-# 31 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 19 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/BaseSw/Infra/Sfr/TC29B/_Reg\\IfxPort_regdef.h" 1
-# 32 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 20 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h" 1
-# 33 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 21 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 
 
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuEru.h" 1
@@ -10497,7 +10499,7 @@ static inline __attribute__ ((always_inline)) void IfxScuEru_initReqPin(IfxScu_R
     IfxPort_setPinModeInput(req->pin.port, req->pin.pinIndex, inputMode);
     IfxScuEru_selectExternalInput((IfxScuEru_InputChannel)req->channelId, (IfxScuEru_ExternalInputSelection)req->select);
 }
-# 36 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 24 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 1
 # 119 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxStm_cfg.h" 1
@@ -10963,7 +10965,7 @@ static inline __attribute__ ((always_inline)) void IfxStm_waitTicks(Ifx_STM *stm
     while ((IfxStm_getLower(stm) - beginTime) < ticks)
     {}
 }
-# 37 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 25 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/AppSw/Tricore/Motors/Motors.h" 1
 # 12 "0_Src/AppSw/Tricore/Motors/Motors.h"
 # 1 "0_Src/AppSw/Tricore/Encoders/encoders_config.h" 1
@@ -10979,7 +10981,7 @@ void Encoders_config();
 # 13 "0_Src/AppSw/Tricore/Motors/Motors.h" 2
 
 # 1 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 1
-# 9 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
+# 13 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h" 1
 # 106 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxGtm_PinMap.h" 1
@@ -22070,7 +22072,7 @@ extern void IfxGtm_Tom_Pwm_start(IfxGtm_Tom_Pwm_Driver *driver, boolean immediat
 
 
 extern void IfxGtm_Tom_Pwm_stop(IfxGtm_Tom_Pwm_Driver *driver, boolean immediate);
-# 10 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+# 14 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
 
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h" 1
 # 119 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h"
@@ -22605,17 +22607,31 @@ extern void IfxGtm_Tom_Timer_stop(IfxGtm_Tom_Timer *driver);
 
 
 extern void IfxGtm_Tom_Timer_updateInputFrequency(IfxGtm_Tom_Timer *driver);
-# 12 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+# 16 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_PWM.h" 1
+# 18 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
 
 
 
 
 
-void PWM_config(IfxGtm_Tom_ToutMap Output);
-void PWM2_config(IfxGtm_Tom_ToutMap Output);
-void PWM3_config(IfxGtm_Tom_ToutMap Output);
-void PWM4_config(IfxGtm_Tom_ToutMap Output);
+
+
 void ClockConfig();
+
+
+void PWM_init(IfxGtm_Tom_ToutMap Output, IfxGtm_Tom_Timer *Timer, float32 frequency);
+void PWM_setDuty(IfxGtm_Tom_Timer Timer, uint8 DutyCycle);
+
+typedef struct
+{
+    IfxGtm_Tom_Timer PWM1_Bridge;
+    IfxGtm_Tom_Timer PWM2_Bridge;
+    IfxGtm_Tom_Timer PWM1_Servo;
+    IfxGtm_Tom_Timer PWM2_Servo;
+    IfxGtm_Tom_Timer Beeper;
+}PWM_Timers;
 # 15 "0_Src/AppSw/Tricore/Motors/Motors.h" 2
 # 1 "0_Src/AppSw/Tricore/Position/position.h" 1
 # 14 "0_Src/AppSw/Tricore/Position/position.h"
@@ -22623,14 +22639,7 @@ void ClockConfig();
 # 15 "0_Src/AppSw/Tricore/Position/position.h" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 1
 # 16 "0_Src/AppSw/Tricore/Position/position.h" 2
-# 1 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 1
-# 17 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
-void PWM_config(IfxGtm_Tom_ToutMap Output);
-void PWM2_config(IfxGtm_Tom_ToutMap Output);
-void PWM3_config(IfxGtm_Tom_ToutMap Output);
-void PWM4_config(IfxGtm_Tom_ToutMap Output);
-void ClockConfig();
-# 17 "0_Src/AppSw/Tricore/Position/position.h" 2
+
 # 1 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h" 1
 # 21 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h"
 # 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
@@ -27185,13 +27194,6 @@ extern boolean IfxAsclin_Asc_stdIfDPipeInit(IfxStdIf_DPipe *stdif, IfxAsclin_Asc
 # 7 "0_Src/AppSw/Tricore/Serial/serial.h" 2
 
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 1
-
-
-
-
-
-
-void command(char);
 # 9 "0_Src/AppSw/Tricore/Serial/serial.h" 2
 
 
@@ -29320,25 +29322,20 @@ typedef struct
 
 typedef struct
 {
- Gravity Gravity;
  volatile float yaw;
  volatile float pitch;
  volatile float roll;
- volatile float yaw_offset;
- volatile float pitch_offset;
- volatile float roll_offset;
 } YawPitchRoll;
 
 
 void Init_gyro(void);
 void Init_I2C(void);
-
-
 void Init_MPU9265(void);
 void Init_MPU9250(uint8,uint8);
 void Init_Mag_AK8963(uint8);
 void Read_I2C_Register(IfxI2c_I2c_Device *,uint8,int);
 void GetAccel();
+void GetYawPitchRoll();
 # 18 "0_Src/AppSw/Tricore/Motors/Motors.h" 2
 # 27 "0_Src/AppSw/Tricore/Motors/Motors.h"
  void STM_INTERRUPT_CORRECTION();
@@ -29390,22 +29387,15 @@ void GetAccel();
   float stable;
   float deceleration;
  }P_coefficient;
-# 38 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
-# 1 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 1
-# 17 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
-void PWM_config(IfxGtm_Tom_ToutMap Output);
-void PWM2_config(IfxGtm_Tom_ToutMap Output);
-void PWM3_config(IfxGtm_Tom_ToutMap Output);
-void PWM4_config(IfxGtm_Tom_ToutMap Output);
-void ClockConfig();
-# 39 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 26 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+
 # 1 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h" 1
 # 21 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h"
 # 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
 # 22 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h" 2
 
 void Encoders_config();
-# 40 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 28 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 1
 # 18 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h" 1
@@ -29694,14 +29684,7 @@ extern IfxPort_Pin IfxPort_P40_9;
 
 extern const IfxPort_Pin *IfxPort_Pin_pinTable[41][16];
 # 19 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 2
-# 1 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 1
-# 17 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
-void PWM_config(IfxGtm_Tom_ToutMap Output);
-void PWM2_config(IfxGtm_Tom_ToutMap Output);
-void PWM3_config(IfxGtm_Tom_ToutMap Output);
-void PWM4_config(IfxGtm_Tom_ToutMap Output);
-void ClockConfig();
-# 20 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 2
+
 
 # 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
 # 22 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 2
@@ -29717,7 +29700,7 @@ void sweep_servo(void);
 void timer_compare_config(void);
 # 81 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
 void STM_INTERRUPT_SERVO(void);
-# 41 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 29 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 
 
 
@@ -29749,18 +29732,21 @@ void isrGetDistance(void);
 
 
 float64 returnDistance(void);
-# 46 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 34 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+
+# 1 "0_Src/AppSw/Tricore/Beeper/Beeper.h" 1
+# 12 "0_Src/AppSw/Tricore/Beeper/Beeper.h"
+# 1 "0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h" 1
+# 13 "0_Src/AppSw/Tricore/Beeper/Beeper.h" 2
 
 
-# 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 1
 
-
-
-
+void beep(void);
+# 36 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 
 
 void command(char);
-# 49 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
+# 26 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c" 2
 
 IfxCpu_syncEvent cpuSyncEvent= 0;
 
@@ -29788,11 +29774,13 @@ int core0_main (void)
  IfxCpu_emitEvent(&cpuSyncEvent);
  IfxCpu_waitEvent(&cpuSyncEvent, 1);
 
+ ClockConfig();
+
+
  Motors_initialization();
  Init_gyro();
  Encoders_config();
  serial_config();
- ClockConfig();
 
 
  configUltrasonicSensor();
@@ -29844,6 +29832,5 @@ void command(char recv)
    break;
   default:
    break;
-
   }
 }

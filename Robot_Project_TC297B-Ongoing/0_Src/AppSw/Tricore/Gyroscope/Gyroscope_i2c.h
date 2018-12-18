@@ -132,5 +132,6 @@ void Init_MPU9250(uint8,uint8);
 void Init_Mag_AK8963(uint8);
 void Read_I2C_Register(IfxI2c_I2c_Device *,uint8,int);
 void GetAccel();
+void GetYawPitchRoll();
 
 #endif //GYRO_H_

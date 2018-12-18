@@ -255,5 +255,5 @@ void GetYawPitchRoll()
 void Init_gyro(void)
 {
 	Init_I2C();//Initialisation of the I2C communcitation
-	Init_MPU9265();//Initialisation of the device
+	//Init_MPU9265();//Initialisation of the device
 }

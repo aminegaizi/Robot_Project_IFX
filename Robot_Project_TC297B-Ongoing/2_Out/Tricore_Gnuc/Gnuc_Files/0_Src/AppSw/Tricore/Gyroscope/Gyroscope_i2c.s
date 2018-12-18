@@ -15,14 +15,14 @@
 Init_I2C:
 .LFB292:
 	.file 1 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c"
-	.loc 1 32 0
+	.loc 1 44 0
 	sub.a	%SP, 32
 .LCFI0:
+.LBB17:
+.LBB18:
 .LBB19:
 .LBB20:
 .LBB21:
-.LBB22:
-.LBB23:
 	.file 2 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/IfxCpu.h"
 	.loc 2 632 0
 #APP
@@ -31,20 +31,20 @@ Init_I2C:
 	# 0 "" 2
 .LVL0:
 #NO_APP
-.LBE23:
+.LBE21:
 	.loc 2 633 0
 	extr.u	%d8, %d8, 15, 1
 .LVL1:
-.LBE22:
-.LBE21:
+.LBE20:
+.LBE19:
 	.loc 2 641 0
 #APP
 	# 641 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/IfxCpu.h" 1
 	disable
 	# 0 "" 2
 #NO_APP
-.LBB24:
-.LBB25:
+.LBB22:
+.LBB23:
 	.file 3 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/IfxCpu_IntrinsicsGnuc.h"
 	.loc 3 1405 0
 #APP
@@ -52,84 +52,84 @@ Init_I2C:
 	nop
 	# 0 "" 2
 #NO_APP
-.LBE25:
-.LBE24:
-.LBE20:
-.LBE19:
-	.loc 1 39 0
+.LBE23:
+.LBE22:
+.LBE18:
+.LBE17:
+	.loc 1 51 0
 	movh.a	%a5, 61452
 	lea	%a4, [%SP] 8
 	call	IfxI2c_I2c_initConfig
 .LVL2:
-	.loc 1 41 0
+	.loc 1 53 0
 	movh	%d2, hi:.LC0
 	mov.a	%a3, %d2
-	.loc 1 43 0
+	.loc 1 55 0
 	movh	%d15, 18627
-	.loc 1 41 0
+	.loc 1 53 0
 	lea	%a15, [%SP] 20
-	.loc 1 43 0
+	.loc 1 55 0
 	addi	%d15, %d15, 20480
-	.loc 1 41 0
+	.loc 1 53 0
 	lea	%a2, [%a3] lo:.LC0
 	mov.aa	%a4, %a15
-	.loc 1 42 0
+	.loc 1 54 0
 	st.a	[%SP] 16, %a15
-	.loc 1 45 0
+	.loc 1 57 0
 	movh.a	%a15, hi:I2C_Masters_Slaves+64
 	lea	%a15, [%a15] lo:I2C_Masters_Slaves+64
-	.loc 1 41 0
+	.loc 1 53 0
 		# #chunks=1, chunksize=8, remains=4
 	ld.d	%e2, [%a2+]8
 	st.d	[%a4+]8, %e2
 	ld.w	%d2, [%a2+]4
 	st.w	[%a4+]4, %d2
-	.loc 1 43 0
+	.loc 1 55 0
 	st.w	[%SP] 12, %d15
-	.loc 1 45 0
+	.loc 1 57 0
 	mov.aa	%a4, %a15
 	lea	%a5, [%SP] 8
-.LBB26:
-	.loc 1 55 0
+.LBB24:
+	.loc 1 67 0
 	mov	%d15, -48
-.LBE26:
-	.loc 1 45 0
+.LBE24:
+	.loc 1 57 0
 	call	IfxI2c_I2c_initModule
 .LVL3:
-.LBB27:
-	.loc 1 51 0
+.LBB25:
+	.loc 1 64 0
 	mov.aa	%a4, %SP
 	mov.aa	%a5, %a15
 	call	IfxI2c_I2c_initDeviceConfig
 .LVL4:
-	.loc 1 55 0
+	.loc 1 67 0
 	st.b	[%SP] 4, %d15
-	.loc 1 59 0
+	.loc 1 71 0
 	mov	%d15, 24
-	.loc 1 57 0
+	.loc 1 69 0
 	lea	%a4, [%a15] 12
 	mov.aa	%a5, %SP
 	call	IfxI2c_I2c_initDevice
 .LVL5:
-	.loc 1 59 0
+	.loc 1 71 0
 	st.b	[%SP] 4, %d15
-.LBE27:
-	.loc 1 66 0
+.LBE25:
+	.loc 1 78 0
 	mov	%d15, 0
-.LBB28:
-	.loc 1 61 0
+.LBB26:
+	.loc 1 73 0
 	lea	%a4, [%a15] 20
 	mov.aa	%a5, %SP
 	call	IfxI2c_I2c_initDevice
 .LVL6:
-.LBE28:
-	.loc 1 66 0
+.LBE26:
+	.loc 1 78 0
 	st.b	[%a15] -64, %d15
-	.loc 1 67 0
+	.loc 1 79 0
 	st.b	[%a15] -32, %d15
 .LVL7:
-.LBB29:
-.LBB30:
+.LBB27:
+.LBB28:
 	.loc 2 916 0
 	jz	%d8, .L1
 	.loc 2 918 0
@@ -140,8 +140,8 @@ Init_I2C:
 #NO_APP
 .L1:
 	ret
-.LBE30:
-.LBE29:
+.LBE28:
+.LBE27:
 .LFE292:
 	.size	Init_I2C, .-Init_I2C
 .section .text.Init_MPU9250,"ax",@progbits
@@ -150,82 +150,82 @@ Init_I2C:
 	.type	Init_MPU9250, @function
 Init_MPU9250:
 .LFB293:
-	.loc 1 73 0
+	.loc 1 85 0
 .LVL8:
-	.loc 1 78 0
+	.loc 1 89 0
 	ge.u	%d2, %d4, 25
-	.loc 1 73 0
+	.loc 1 85 0
 	mov	%d15, %d5
-	.loc 1 78 0
+	.loc 1 89 0
 	jz	%d2, .L31
 .L8:
-	.loc 1 83 0
+	.loc 1 94 0
 	movh	%d2, 17155
 	movh.a	%a15, hi:Mpu
 	lea	%a15, [%a15] lo:Mpu
 	st.w	[%a15] 36, %d2
 .L14:
-	.loc 1 86 0
+	.loc 1 97 0
 	ge.u	%d2, %d15, 25
 	jz	%d2, .L32
 .L15:
-	.loc 1 91 0
+	.loc 1 102 0
 	movh	%d2, 18048
 	st.w	[%a15] 40, %d2
 .L21:
-	.loc 1 93 0
+	.loc 1 107 0
 	mov	%d2, 27
 	movh.a	%a15, hi:I2C_Masters_Slaves
 	lea	%a12, [%a15] lo:I2C_Masters_Slaves
 	st.b	[%a15] lo:I2C_Masters_Slaves, %d2
-	.loc 1 94 0
+	.loc 1 108 0
 	st.b	[%a12] 1, %d4
 	lea	%a15, [%a12] 76
-	.loc 1 95 0
+	.loc 1 109 0
 	mov.aa	%a13, %a12
 .LVL9:
 .L22:
-	.loc 1 95 0 is_stmt 0 discriminator 1
+	.loc 1 109 0 is_stmt 0 discriminator 1
 	mov.aa	%a4, %a15
 	mov.aa	%a5, %a13
 	mov	%d4, 2
 	call	IfxI2c_I2c_write
 .LVL10:
 	jeq	%d2, 1, .L22
-	.loc 1 97 0 is_stmt 1
+	.loc 1 112 0 is_stmt 1
 	mov	%d2, 28
 	st.b	[%a13]0, %d2
-	.loc 1 98 0
+	.loc 1 113 0
 	st.b	[%a13] 1, %d15
-	.loc 1 99 0
+	.loc 1 114 0
 	mov.aa	%a13, %a12
 .L23:
-	.loc 1 99 0 is_stmt 0 discriminator 1
+	.loc 1 114 0 is_stmt 0 discriminator 1
 	mov.aa	%a4, %a15
 	mov.aa	%a5, %a13
 	mov	%d4, 2
 	call	IfxI2c_I2c_write
 .LVL11:
 	jeq	%d2, 1, .L23
-	.loc 1 101 0 is_stmt 1
+	.loc 1 117 0 is_stmt 1
 	mov	%d15, 55
 	st.b	[%a13]0, %d15
-	.loc 1 102 0
+	.loc 1 118 0
 	mov	%d15, 2
 	st.b	[%a13] 1, %d15
 .L24:
-	.loc 1 103 0 discriminator 1
+	.loc 1 119 0 discriminator 1
 	mov.aa	%a4, %a15
 	mov.aa	%a5, %a12
 	mov	%d4, 2
 	call	IfxI2c_I2c_write
 .LVL12:
 	jeq	%d2, 1, .L24
-	.loc 1 106 0
+	.loc 1 122 0
 	ret
 .LVL13:
 .L32:
-	.loc 1 86 0
+	.loc 1 97 0
 	movh.a	%a2, hi:.L17
 	lea	%a2, [%a2] lo:.L17
 	addsc.a	%a2, %a2, %d15, 2
@@ -284,7 +284,7 @@ Init_MPU9250:
 	.code32
 	j	.L20
 .L31:
-	.loc 1 78 0
+	.loc 1 89 0
 	movh.a	%a15, hi:.L10
 	lea	%a15, [%a15] lo:.L10
 	addsc.a	%a15, %a15, %d4, 2
@@ -343,7 +343,7 @@ Init_MPU9250:
 	.code32
 	j	.L13
 .L12:
-	.loc 1 81 0
+	.loc 1 92 0
 	movh	%d2, 16899
 	addi	%d2, %d2, 13107
 	movh.a	%a15, hi:Mpu
@@ -351,14 +351,14 @@ Init_MPU9250:
 	st.w	[%a15] 36, %d2
 	j	.L14
 .L11:
-	.loc 1 80 0
+	.loc 1 91 0
 	movh	%d2, 17027
 	movh.a	%a15, hi:Mpu
 	lea	%a15, [%a15] lo:Mpu
 	st.w	[%a15] 36, %d2
 	j	.L14
 .L13:
-	.loc 1 82 0
+	.loc 1 93 0
 	movh	%d2, 16771
 	addi	%d2, %d2, 13107
 	movh.a	%a15, hi:Mpu
@@ -366,17 +366,17 @@ Init_MPU9250:
 	st.w	[%a15] 36, %d2
 	j	.L14
 .L19:
-	.loc 1 89 0
+	.loc 1 100 0
 	movh	%d2, 17792
 	st.w	[%a15] 40, %d2
 	j	.L21
 .L18:
-	.loc 1 88 0
+	.loc 1 99 0
 	movh	%d2, 17920
 	st.w	[%a15] 40, %d2
 	j	.L21
 .L20:
-	.loc 1 90 0
+	.loc 1 101 0
 	movh	%d2, 17664
 	st.w	[%a15] 40, %d2
 	j	.L21
@@ -388,50 +388,50 @@ Init_MPU9250:
 	.type	Init_Mag_AK8963, @function
 Init_Mag_AK8963:
 .LFB294:
-	.loc 1 108 0
+	.loc 1 124 0
 .LVL14:
-	.loc 1 111 0
+	.loc 1 127 0
 	mov	%d2, 10
 	movh.a	%a2, hi:I2C_Masters_Slaves
 	lea	%a15, [%a2] lo:I2C_Masters_Slaves
 	st.b	[%a2] lo:I2C_Masters_Slaves, %d2
-	.loc 1 108 0
+	.loc 1 124 0
 	mov	%d15, %d4
-	.loc 1 112 0
+	.loc 1 128 0
 	st.b	[%a15] 1, %d4
 	lea	%a12, [%a15] 84
 .LVL15:
 .L34:
-	.loc 1 113 0 discriminator 1
+	.loc 1 129 0 discriminator 1
 	mov.aa	%a4, %a12
 	mov.aa	%a5, %a15
 	mov	%d4, 2
 	call	IfxI2c_I2c_write
 .LVL16:
 	jeq	%d2, 1, .L34
-	.loc 1 116 0
+	.loc 1 132 0
 	movh.a	%a15, hi:Mpu
 	lea	%a15, [%a15] lo:Mpu
-	.loc 1 115 0
+	.loc 1 131 0
 	jeq	%d15, 6, .L36
 	eq	%d15, %d15, 22
 	jz	%d15, .L35
-	.loc 1 117 0
+	.loc 1 133 0
 	movh	%d15, 16602
 	addi	%d15, %d15, 29780
 	st.w	[%a15] 44, %d15
 .L35:
-	.loc 1 120 0
+	.loc 1 136 0
 	movh	%d15, 17319
 	addi	%d15, %d15, -4260
 	st.w	[%a15] 48, %d15
 	ret
 .L36:
-	.loc 1 116 0
+	.loc 1 132 0
 	movh	%d15, 16346
 	addi	%d15, %d15, 29989
 	st.w	[%a15] 44, %d15
-	.loc 1 120 0
+	.loc 1 136 0
 	movh	%d15, 17319
 	addi	%d15, %d15, -4260
 	st.w	[%a15] 48, %d15
@@ -444,28 +444,15 @@ Init_Mag_AK8963:
 	.type	Init_MPU9265, @function
 Init_MPU9265:
 .LFB295:
-	.loc 1 123 0
-	.loc 1 125 0
+	.loc 1 139 0
+	.loc 1 141 0
 	mov	%e4, 8
-	.loc 1 127 0
-	mov	%d15, 0
-	.loc 1 125 0
 	call	Init_MPU9250
 .LVL17:
-	.loc 1 127 0
-	movh.a	%a15, hi:YPR
-	lea	%a15, [%a15] lo:YPR
-	.loc 1 126 0
+	.loc 1 142 0
 	mov	%d4, 22
-	call	Init_Mag_AK8963
+	j	Init_Mag_AK8963
 .LVL18:
-	.loc 1 127 0
-	st.w	[%a15] 24, %d15
-	.loc 1 128 0
-	st.w	[%a15] 28, %d15
-	.loc 1 129 0
-	st.w	[%a15] 32, %d15
-	ret
 .LFE295:
 	.size	Init_MPU9265, .-Init_MPU9265
 .section .text.Read_I2C_Register,"ax",@progbits
@@ -474,36 +461,36 @@ Init_MPU9265:
 	.type	Read_I2C_Register, @function
 Read_I2C_Register:
 .LFB296:
-	.loc 1 134 0
+	.loc 1 147 0
 .LVL19:
 	movh.a	%a12, hi:I2C_Masters_Slaves
 	lea	%a12, [%a12] lo:I2C_Masters_Slaves
-	.loc 1 134 0
+	.loc 1 147 0
 	mov.aa	%a13, %a4
 	mov	%d8, %d5
 	mov	%d2, 0
-	.loc 1 140 0
+	.loc 1 153 0
 	mov.aa	%a3, %a12
 	mov	%d15, 0
 	lea	%a15, 32
 .LVL20:
 .L42:
-	.loc 1 140 0 is_stmt 0 discriminator 3
+	.loc 1 153 0 is_stmt 0 discriminator 3
 	addsc.a	%a2, %a12, %d2, 0
-	.loc 1 138 0 is_stmt 1 discriminator 3
+	.loc 1 151 0 is_stmt 1 discriminator 3
 	add	%d2, 1
 .LVL21:
-	.loc 1 140 0 discriminator 3
+	.loc 1 153 0 discriminator 3
 	st.b	[%a2]0, %d15
-	.loc 1 141 0 discriminator 3
+	.loc 1 154 0 discriminator 3
 	st.b	[%a2] 32, %d15
-	.loc 1 138 0 discriminator 3
+	.loc 1 151 0 discriminator 3
 	loop	%a15, .L42
-	.loc 1 143 0
+	.loc 1 156 0
 	st.b	[%a3]0, %d4
 .LVL22:
 .L43:
-	.loc 1 146 0 discriminator 1
+	.loc 1 159 0 discriminator 1
 	mov.aa	%a4, %a13
 	mov.aa	%a5, %a12
 	mov	%d4, 1
@@ -513,14 +500,14 @@ Read_I2C_Register:
 	extr	%d15, %d8, 0, 16
 	lea	%a12, [%a12] 32
 .L44:
-	.loc 1 149 0 discriminator 1
+	.loc 1 162 0 discriminator 1
 	mov.aa	%a4, %a13
 	mov.aa	%a5, %a12
 	mov	%d4, %d15
 	call	IfxI2c_I2c_read
 .LVL24:
 	jeq	%d2, 1, .L44
-	.loc 1 151 0
+	.loc 1 164 0
 	ret
 .LFE296:
 	.size	Read_I2C_Register, .-Read_I2C_Register
@@ -530,63 +517,63 @@ Read_I2C_Register:
 	.type	GetGyro, @function
 GetGyro:
 .LFB297:
-	.loc 1 154 0
+	.loc 1 167 0
 .LVL25:
 	movh.a	%a12, hi:I2C_Masters_Slaves+76
 	lea	%a12, [%a12] lo:I2C_Masters_Slaves+76
 	sub.a	%SP, 16
 .LCFI1:
-	.loc 1 158 0
+	.loc 1 172 0
 	mov	%d15, 0
 	lea	%a15, [%a12] -76
 .LVL26:
 .L51:
 	sh	%d4, %d15, 1
 	addi	%d4, %d4, 67
-	.loc 1 159 0 discriminator 3
+	.loc 1 173 0 discriminator 3
 	mov.aa	%a4, %a12
 	and	%d4, %d4, 255
 	mov	%d5, 2
 	call	Read_I2C_Register
 .LVL27:
-	.loc 1 160 0 discriminator 3
+	.loc 1 174 0 discriminator 3
 	ld.bu	%d2, [%a15] 32
 	ld.bu	%d3, [%a15] 33
 .LVL28:
 	sh	%d2, %d2, 8
 .LVL29:
 	or	%d2, %d3
-	.loc 1 161 0 discriminator 3
+	.loc 1 175 0 discriminator 3
 	extr	%d2, %d2, 0, 16
 	lea	%a3, [%SP] 16
 	itof	%d2, %d2
 	addsc.a	%a2, %a3, %d15, 2
-	.loc 1 158 0 discriminator 3
+	.loc 1 172 0 discriminator 3
 	add	%d15, 1
 .LVL30:
-	.loc 1 161 0 discriminator 3
+	.loc 1 175 0 discriminator 3
 	st.w	[%a2] -12, %d2
-	.loc 1 158 0 discriminator 3
+	.loc 1 172 0 discriminator 3
 	jne	%d15, 3, .L51
-	.loc 1 164 0
+	.loc 1 179 0
 	movh.a	%a2, hi:Mpu
 	lea	%a15, [%a2] lo:Mpu
 	ld.w	%d15, [%a15] 36
 .LVL31:
 	ld.w	%d2, [%SP] 4
 	div.f	%d15, %d2, %d15
-	.loc 1 165 0
+	.loc 1 180 0
 	ld.w	%d2, [%SP] 8
-	.loc 1 164 0
+	.loc 1 179 0
 	st.w	[%a2] lo:Mpu, %d15
-	.loc 1 165 0
+	.loc 1 180 0
 	ld.w	%d15, [%a15] 36
 	div.f	%d15, %d2, %d15
-	.loc 1 166 0
+	.loc 1 181 0
 	ld.w	%d2, [%SP] 12
-	.loc 1 165 0
+	.loc 1 180 0
 	st.w	[%a15] 4, %d15
-	.loc 1 166 0
+	.loc 1 181 0
 	ld.w	%d15, [%a15] 36
 	div.f	%d15, %d2, %d15
 	st.w	[%a15] 8, %d15
@@ -599,543 +586,651 @@ GetGyro:
 	.type	GetAccel, @function
 GetAccel:
 .LFB298:
-	.loc 1 171 0
+	.loc 1 186 0
 .LVL32:
 	movh.a	%a12, hi:I2C_Masters_Slaves+76
 	lea	%a12, [%a12] lo:I2C_Masters_Slaves+76
 	sub.a	%SP, 16
 .LCFI2:
-	.loc 1 175 0
+	.loc 1 191 0
 	mov	%d15, 0
 	lea	%a15, [%a12] -76
 .LVL33:
 .L54:
 	sh	%d4, %d15, 1
 	addi	%d4, %d4, 59
-	.loc 1 176 0 discriminator 3
+	.loc 1 192 0 discriminator 3
 	mov.aa	%a4, %a12
 	and	%d4, %d4, 255
 	mov	%d5, 2
 	call	Read_I2C_Register
 .LVL34:
-	.loc 1 177 0 discriminator 3
+	.loc 1 193 0 discriminator 3
 	ld.bu	%d2, [%a15] 32
 	ld.bu	%d3, [%a15] 33
 .LVL35:
 	sh	%d2, %d2, 8
 .LVL36:
 	or	%d2, %d3
-	.loc 1 178 0 discriminator 3
+	.loc 1 194 0 discriminator 3
 	extr	%d2, %d2, 0, 16
 	lea	%a3, [%SP] 16
 	itof	%d2, %d2
 	addsc.a	%a2, %a3, %d15, 2
-	.loc 1 175 0 discriminator 3
+	.loc 1 191 0 discriminator 3
 	add	%d15, 1
 .LVL37:
-	.loc 1 178 0 discriminator 3
+	.loc 1 194 0 discriminator 3
 	st.w	[%a2] -12, %d2
-	.loc 1 175 0 discriminator 3
+	.loc 1 191 0 discriminator 3
 	jne	%d15, 3, .L54
-	.loc 1 181 0
+	.loc 1 198 0
 	movh.a	%a15, hi:Mpu
 	lea	%a15, [%a15] lo:Mpu
 	ld.w	%d15, [%a15] 40
 .LVL38:
 	ld.w	%d2, [%SP] 4
 	div.f	%d15, %d2, %d15
-	.loc 1 182 0
+	.loc 1 199 0
 	ld.w	%d2, [%SP] 8
-	.loc 1 181 0
+	.loc 1 198 0
 	st.w	[%a15] 12, %d15
-	.loc 1 182 0
+	.loc 1 199 0
 	ld.w	%d15, [%a15] 40
 	div.f	%d15, %d2, %d15
-	.loc 1 183 0
+	.loc 1 200 0
 	ld.w	%d2, [%SP] 12
-	.loc 1 182 0
+	.loc 1 199 0
 	st.w	[%a15] 16, %d15
-	.loc 1 183 0
+	.loc 1 200 0
 	ld.w	%d15, [%a15] 40
 	div.f	%d15, %d2, %d15
 	st.w	[%a15] 20, %d15
 	ret
 .LFE298:
 	.size	GetAccel, .-GetAccel
+	.global	__extendsfdf2
+	.global	__muldf3
+	.global	__divdf3
+	.global	__truncdfsf2
 .section .text.GetMag,"ax",@progbits
 	.align 1
 	.global	GetMag
 	.type	GetMag, @function
 GetMag:
 .LFB299:
-	.loc 1 188 0
+	.loc 1 205 0
 .LVL39:
 	movh.a	%a12, hi:I2C_Masters_Slaves+84
 	lea	%a12, [%a12] lo:I2C_Masters_Slaves+84
 	sub.a	%SP, 16
 .LCFI3:
-	.loc 1 192 0
+	.loc 1 210 0
 	mov	%d15, 0
 	lea	%a15, [%a12] -84
 .LVL40:
 .L57:
 	sh	%d4, %d15, 1
 	add	%d4, 3
-	.loc 1 193 0 discriminator 3
+	.loc 1 211 0 discriminator 3
 	mov.aa	%a4, %a12
 	and	%d4, %d4, 255
 	mov	%d5, 2
 	call	Read_I2C_Register
 .LVL41:
-	.loc 1 194 0 discriminator 3
+	.loc 1 212 0 discriminator 3
 	ld.bu	%d2, [%a15] 32
 	ld.bu	%d3, [%a15] 33
 .LVL42:
 	sh	%d2, %d2, 8
 .LVL43:
 	or	%d2, %d3
-	.loc 1 195 0 discriminator 3
+	.loc 1 213 0 discriminator 3
 	extr	%d2, %d2, 0, 16
 	lea	%a3, [%SP] 16
 	itof	%d2, %d2
 	addsc.a	%a2, %a3, %d15, 2
-	.loc 1 192 0 discriminator 3
+	.loc 1 210 0 discriminator 3
 	add	%d15, 1
 .LVL44:
-	.loc 1 195 0 discriminator 3
+	.loc 1 213 0 discriminator 3
 	st.w	[%a2] -12, %d2
-	.loc 1 192 0 discriminator 3
+	.loc 1 210 0 discriminator 3
 	jne	%d15, 3, .L57
-	.loc 1 198 0
+	.loc 1 217 0
+	ld.w	%d4, [%SP] 4
 	movh.a	%a15, hi:Mpu
-	lea	%a15, [%a15] lo:Mpu
-	ld.w	%d15, [%a15] 44
+	call	__extendsfdf2
 .LVL45:
-	ld.w	%d2, [%SP] 4
-	div.f	%d15, %d2, %d15
-	.loc 1 199 0
-	ld.w	%d2, [%SP] 8
-	.loc 1 198 0
-	st.w	[%a15] 24, %d15
-	.loc 1 199 0
+	lea	%a15, [%a15] lo:Mpu
+	mov	%e4, %d3, %d2
+	movh	%d7, 16049
+	movh	%d6, 41142
 	ld.w	%d15, [%a15] 44
-	div.f	%d15, %d2, %d15
-	.loc 1 200 0
-	ld.w	%d2, [%SP] 12
-	.loc 1 199 0
-	st.w	[%a15] 28, %d15
-	.loc 1 200 0
+.LVL46:
+	addi	%d7, %d7, -14601
+	addi	%d6, %d6, -4723
+	call	__muldf3
+.LVL47:
+	mov	%e8, %d3, %d2
+	mov	%d4, %d15
+	call	__extendsfdf2
+.LVL48:
+	mov	%e6, %d3, %d2
+	mov	%e4, %d9, %d8
+	call	__divdf3
+.LVL49:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL50:
+	.loc 1 218 0
+	ld.w	%d4, [%SP] 8
+	.loc 1 217 0
+	st.w	[%a15] 24, %d2
+	.loc 1 218 0
+	call	__extendsfdf2
+.LVL51:
+	mov	%e4, %d3, %d2
+	movh	%d7, 16049
+	movh	%d6, 41142
 	ld.w	%d15, [%a15] 44
-	div.f	%d15, %d2, %d15
-	st.w	[%a15] 32, %d15
+	addi	%d7, %d7, -14601
+	addi	%d6, %d6, -4723
+	call	__muldf3
+.LVL52:
+	mov	%e8, %d3, %d2
+	mov	%d4, %d15
+	call	__extendsfdf2
+.LVL53:
+	mov	%e6, %d3, %d2
+	mov	%e4, %d9, %d8
+	call	__divdf3
+.LVL54:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL55:
+	.loc 1 219 0
+	ld.w	%d4, [%SP] 12
+	.loc 1 218 0
+	st.w	[%a15] 28, %d2
+	.loc 1 219 0
+	call	__extendsfdf2
+.LVL56:
+	mov	%e4, %d3, %d2
+	movh	%d7, 16049
+	movh	%d6, 41142
+	addi	%d7, %d7, -14601
+	addi	%d6, %d6, -4723
+	ld.w	%d15, [%a15] 44
+	call	__muldf3
+.LVL57:
+	mov	%e8, %d3, %d2
+	mov	%d4, %d15
+	call	__extendsfdf2
+.LVL58:
+	mov	%e4, %d9, %d8
+	mov	%e6, %d3, %d2
+	call	__divdf3
+.LVL59:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL60:
+	st.w	[%a15] 32, %d2
 	ret
 .LFE299:
 	.size	GetMag, .-GetMag
-.section .text.GetTemp,"ax",@progbits
-	.align 1
-	.global	GetTemp
-	.type	GetTemp, @function
-GetTemp:
-.LFB300:
-	.loc 1 205 0
-	.loc 1 209 0
-	movh.a	%a4, hi:I2C_Masters_Slaves+84
-	lea	%a15, [%a4] lo:I2C_Masters_Slaves+84
-	mov.aa	%a4, %a15
-	mov	%d4, 3
-	mov	%d5, 2
-	call	Read_I2C_Register
-.LVL46:
-	.loc 1 210 0
-	ld.bu	%d15, [%a15] -52
-	ld.bu	%d15, [%a15] -51
-.LVL47:
-	ret
-.LFE300:
-	.size	GetTemp, .-GetTemp
-.section .text.GetQuaternion,"ax",@progbits
-	.align 1
-	.global	GetQuaternion
-	.type	GetQuaternion, @function
-GetQuaternion:
-.LFB301:
-	.loc 1 216 0
-	.loc 1 217 0
-	call	GetMag
-.LVL48:
-.LBB31:
-.LBB32:
-	.loc 1 209 0
-	movh.a	%a4, hi:I2C_Masters_Slaves+84
-	lea	%a15, [%a4] lo:I2C_Masters_Slaves+84
-	mov.aa	%a4, %a15
-	mov	%d4, 3
-	mov	%d5, 2
-	call	Read_I2C_Register
-.LVL49:
-	.loc 1 210 0
-	ld.bu	%d15, [%a15] -52
-	ld.bu	%d15, [%a15] -51
-.LVL50:
-	ret
-.LBE32:
-.LBE31:
-.LFE301:
-	.size	GetQuaternion, .-GetQuaternion
-.section .text.GetGravity,"ax",@progbits
-	.align 1
-	.global	GetGravity
-	.type	GetGravity, @function
-GetGravity:
-.LFB302:
-	.loc 1 222 0
-	.loc 1 223 0
-	movh.a	%a15, hi:Mpu
-	lea	%a15, [%a15] lo:Mpu
-	ld.w	%d15, [%a15] 24
-	.loc 1 224 0
-	ld.w	%d15, [%a15] 28
-	.loc 1 225 0
-	ld.w	%d15, [%a15] 32
-	ret
-.LFE302:
-	.size	GetGravity, .-GetGravity
-	.global	__extendsfdf2
-	.global	__divdf3
-	.global	__truncdfsf2
-	.global	__muldf3
-	.global	__subdf3
 	.global	__adddf3
 .section .text.GetYawPitchRoll,"ax",@progbits
 	.align 1
 	.global	GetYawPitchRoll
 	.type	GetYawPitchRoll, @function
 GetYawPitchRoll:
-.LFB303:
-	.loc 1 232 0
-	sub.a	%SP, 40
+.LFB300:
+	.loc 1 223 0
+	.loc 1 225 0
+	mov	%d15, 0
+	.loc 1 223 0
+	sub.a	%SP, 56
 .LCFI4:
-	.loc 1 238 0
-	call	GetGyro
-.LVL51:
-	.loc 1 239 0
-	call	GetMag
-.LVL52:
-	.loc 1 241 0
-	movh.a	%a2, hi:Mpu
-	ld.w	%d4, [%a2] lo:Mpu
-	lea	%a15, [%a2] lo:Mpu
-	call	__extendsfdf2
-.LVL53:
-	mov	%e4, %d3, %d2
-	movh	%d7, 16461
-	movh	%d6, 26214
-	addi	%d7, %d7, -22938
-	addi	%d6, %d6, 26214
-	call	__divdf3
-.LVL54:
-	mov	%e4, %d3, %d2
-	call	__truncdfsf2
-.LVL55:
-	.loc 1 242 0
-	ld.w	%d4, [%a15] 4
-	.loc 1 241 0
-	mov	%d15, %d2
-.LVL56:
-	.loc 1 242 0
-	call	__extendsfdf2
-.LVL57:
-	mov	%e4, %d3, %d2
-	movh	%d7, 16461
-	movh	%d6, 26214
-	addi	%d7, %d7, -22938
-	addi	%d6, %d6, 26214
-	call	__divdf3
-.LVL58:
-	mov	%e4, %d3, %d2
-	call	__truncdfsf2
-.LVL59:
-	.loc 1 243 0
-	ld.w	%d4, [%a15] 4
-	.loc 1 242 0
-	mov	%d10, %d2
-.LVL60:
-	.loc 1 243 0
-	call	__extendsfdf2
+	.loc 1 232 0
+	movh.a	%a15, hi:Mpu
+	.loc 1 225 0
+	st.w	[%SP] 32, %d15
+	.loc 1 226 0
+	st.w	[%SP] 36, %d15
+	.loc 1 232 0
+	lea	%a15, [%a15] lo:Mpu
+	.loc 1 227 0
+	st.w	[%SP] 40, %d15
+	.loc 1 229 0
+	call	GetAccel
 .LVL61:
+	.loc 1 230 0
+	call	GetMag
+.LVL62:
+	.loc 1 232 0
+	ld.w	%d4, [%a15] 12
+	.loc 1 237 0
+	movh.a	%a13, hi:Faccely
+	.loc 1 232 0
+	call	__extendsfdf2
+.LVL63:
 	mov	%e4, %d3, %d2
 	movh	%d7, 16461
 	movh	%d6, 26214
 	addi	%d7, %d7, -22938
 	addi	%d6, %d6, 26214
 	call	__divdf3
-.LVL62:
-	mov	%e4, %d3, %d2
-	call	__truncdfsf2
-.LVL63:
-	.loc 1 245 0
-	mul.f	%d11, %d2, %d2
-	mul.f	%d4, %d15, %d15
-	add.f	%d4, %d4, %d11
-	call	__extendsfdf2
 .LVL64:
 	mov	%e4, %d3, %d2
-	call	sqrt
+	.loc 1 238 0
+	movh.a	%a12, hi:Faccelz
+	.loc 1 232 0
+	call	__truncdfsf2
 .LVL65:
-	mov	%e8, %d3, %d2
-	mov	%d4, %d10
+	st.w	[%SP] 44, %d2
+	.loc 1 233 0
+	ld.w	%d4, [%a15] 16
 	call	__extendsfdf2
 .LVL66:
-	mov	%e6, %d9, %d8
 	mov	%e4, %d3, %d2
-	call	atan2
+	movh	%d7, 16461
+	movh	%d6, 26214
+	addi	%d7, %d7, -22938
+	addi	%d6, %d6, 26214
+	call	__divdf3
 .LVL67:
-	.loc 1 246 0
-	mul.f	%d4, %d10, %d10
-	.loc 1 245 0
-	mov	%e8, %d3, %d2
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
 .LVL68:
-	.loc 1 246 0
-	add.f	%d4, %d11, %d4
+	st.w	[%SP] 48, %d2
+	.loc 1 234 0
+	ld.w	%d4, [%a15] 16
 	call	__extendsfdf2
 .LVL69:
 	mov	%e4, %d3, %d2
-	call	sqrt
+	movh	%d7, 16461
+	movh	%d6, 26214
+	addi	%d7, %d7, -22938
+	addi	%d6, %d6, 26214
+	call	__divdf3
 .LVL70:
-	mov	%e10, %d3, %d2
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
 .LVL71:
-	addih	%d4, %d15, 0x8000
+	st.w	[%SP] 52, %d2
+	.loc 1 236 0
+	ld.w	%d4, [%SP] 44
+	movh.a	%a14, hi:Faccelx
 	call	__extendsfdf2
 .LVL72:
-	mov	%e6, %d11, %d10
 	mov	%e4, %d3, %d2
-	call	atan2
+	imask	%e6, 0, 21, 9
+	ld.w	%d15, [%a14] lo:Faccelx
+	call	__muldf3
 .LVL73:
-	.loc 1 249 0
-	ld.a	%a14, [%a15] 28
-	.loc 1 246 0
-	mov	%e4, %d3, %d2
-	call	__truncdfsf2
-.LVL74:
-	.loc 1 249 0
-	mov	%d4, %d2
+	mov	%d4, %d15
+	mov	%e8, %d3, %d2
 	call	__extendsfdf2
-.LVL75:
+.LVL74:
 	mov	%e4, %d3, %d2
-	lea	%a4, [%SP] 32
-	lea	%a5, [%SP] 24
-	mov	%e10, %d3, %d2
-	call	sincos
-.LVL76:
-	.loc 1 245 0
+	imask	%e6, 0, 21, 9
+	call	__muldf3
+.LVL75:
+	mov	%e6, %d3, %d2
 	mov	%e4, %d9, %d8
-	.loc 1 249 0
-	ld.w	%d2, [%a15] 32
-	st.w	[%SP] 8, %d2
-	.loc 1 250 0
-	ld.w	%d2, [%a15] 24
-	st.w	[%SP] 12, %d2
-	.loc 1 245 0
+	call	__adddf3
+.LVL76:
+	mov	%e4, %d3, %d2
 	call	__truncdfsf2
 .LVL77:
-	.loc 1 250 0
-	mov	%d4, %d2
+	st.w	[%a14] lo:Faccelx, %d2
+	.loc 1 237 0
+	ld.w	%d4, [%SP] 48
+	ld.w	%d15, [%a13] lo:Faccely
 	call	__extendsfdf2
 .LVL78:
 	mov	%e4, %d3, %d2
-	lea	%a4, [%SP] 32
-	lea	%a5, [%SP] 24
-	ld.da	%A12, [%SP] 32
-	mov	%e8, %d3, %d2
+	imask	%e6, 0, 21, 9
+	call	__muldf3
 .LVL79:
-	ld.d	%e14, [%SP] 24
-.LVL80:
-	call	sincos
-.LVL81:
-	ld.w	%d2, [%a15] 28
-	ld.d	%e0, [%SP] 24
-	.loc 1 249 0
-	mov.d	%d4, %a14
-	.loc 1 250 0
-	st.w	[%SP] 16, %d2
-	ld.w	%d2, [%a15] 32
-	st.w	[%SP] 20, %d2
-	.loc 1 249 0
-	st.w	[%SP] 4, %d0
-	st.w	[%SP]0, %d1
+	mov	%d4, %d15
+	mov	%e8, %d3, %d2
 	call	__extendsfdf2
+.LVL80:
+	mov	%e4, %d3, %d2
+	imask	%e6, 0, 21, 9
+	call	__muldf3
+.LVL81:
+	mov	%e6, %d3, %d2
+	mov	%e4, %d9, %d8
+	call	__adddf3
 .LVL82:
 	mov	%e4, %d3, %d2
-	mov	%e6, %d15, %d14
-	ld.d	%e12, [%SP] 32
-	call	__muldf3
+	call	__truncdfsf2
 .LVL83:
-	mov.a	%a14, %d2
-.LVL84:
-	ld.w	%d4, [%SP] 8
-	mov.a	%a15, %d3
+	st.w	[%a13] lo:Faccely, %d2
+	.loc 1 238 0
+	ld.w	%d4, [%SP] 52
+	ld.w	%d15, [%a12] lo:Faccelz
 	call	__extendsfdf2
+.LVL84:
+	mov	%e4, %d3, %d2
+	imask	%e6, 0, 21, 9
+	call	__muldf3
 .LVL85:
+	mov	%d4, %d15
+	mov	%e8, %d3, %d2
+	call	__extendsfdf2
+.LVL86:
+	mov	%e4, %d3, %d2
+	imask	%e6, 0, 21, 9
+	call	__muldf3
+.LVL87:
+	mov	%e6, %d3, %d2
+	mov	%e4, %d9, %d8
+	call	__adddf3
+.LVL88:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL89:
+	st.w	[%a12] lo:Faccelz, %d2
+	.loc 1 241 0
+	ld.w	%d15, [%a13] lo:Faccely
+	ld.w	%d5, [%a14] lo:Faccelx
+	ld.w	%d4, [%a14] lo:Faccelx
+	ld.w	%d3, [%a12] lo:Faccelz
+	ld.w	%d2, [%a12] lo:Faccelz
+	mul.f	%d4, %d5, %d4
+	mul.f	%d2, %d3, %d2
+	add.f	%d4, %d4, %d2
+	call	__extendsfdf2
+.LVL90:
+	mov	%e4, %d3, %d2
+	call	sqrt
+.LVL91:
+	mov	%e8, %d3, %d2
+	mov	%d4, %d15
+	call	__extendsfdf2
+.LVL92:
+	mov	%e6, %d9, %d8
+	mov	%e4, %d3, %d2
+	call	atan2
+.LVL93:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL94:
+	st.w	[%SP] 32, %d2
+	.loc 1 242 0
+	ld.w	%d15, [%a14] lo:Faccelx
+	ld.w	%d5, [%a13] lo:Faccely
+	ld.w	%d4, [%a13] lo:Faccely
+	ld.w	%d3, [%a12] lo:Faccelz
+	ld.w	%d2, [%a12] lo:Faccelz
+	mul.f	%d4, %d5, %d4
+	mul.f	%d2, %d3, %d2
+	add.f	%d4, %d4, %d2
+	call	__extendsfdf2
+.LVL95:
+	mov	%e4, %d3, %d2
+	call	sqrt
+.LVL96:
+	mov	%e8, %d3, %d2
+	addih	%d4, %d15, 0x8000
+	call	__extendsfdf2
+.LVL97:
+	mov	%e6, %d9, %d8
+	mov	%e4, %d3, %d2
+	call	atan2
+.LVL98:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL99:
+	st.w	[%SP] 40, %d2
+	.loc 1 245 0
+	ld.w	%d6, [%a15] 28
+	ld.w	%d4, [%SP] 40
+	st.w	[%SP] 12, %d6
+	call	__extendsfdf2
+.LVL100:
+	mov	%e4, %d3, %d2
+	call	cos
+.LVL101:
+	ld.w	%d15, [%a15] 32
+	ld.w	%d4, [%SP] 40
+	mov	%e8, %d3, %d2
+	st.w	[%SP] 16, %d15
+	call	__extendsfdf2
+.LVL102:
+	mov	%e4, %d3, %d2
+	call	sin
+.LVL103:
+	.loc 1 246 0
+	ld.w	%d15, [%a15] 24
+	ld.w	%d4, [%SP] 32
+	st.w	[%SP] 28, %d15
+	.loc 1 245 0
+	st.d	[%SP] 20, %e2
+.LVL104:
+	.loc 1 246 0
+	call	__extendsfdf2
+.LVL105:
+	mov	%e4, %d3, %d2
+	call	cos
+.LVL106:
+	ld.a	%a14, [%a15] 28
+	ld.w	%d4, [%SP] 40
+	mov	%e10, %d3, %d2
+	call	__extendsfdf2
+.LVL107:
+	mov	%e4, %d3, %d2
+	call	sin
+.LVL108:
+	mov	%e0, %d3, %d2
+	ld.w	%d4, [%SP] 32
+	st.w	[%SP] 8, %d2
+	st.w	[%SP] 4, %d1
+	call	__extendsfdf2
+.LVL109:
+	mov	%e4, %d3, %d2
+	call	sin
+.LVL110:
+	ld.a	%a15, [%a15] 32
+	ld.w	%d4, [%SP] 40
+	mov.a	%a12, %d2
+	mov.a	%a13, %d3
+	call	__extendsfdf2
+.LVL111:
+	mov	%e4, %d3, %d2
+	call	sin
+.LVL112:
+	ld.w	%d4, [%SP] 32
+	mov	%e14, %d3, %d2
+	call	__extendsfdf2
+.LVL113:
+	mov	%e4, %d3, %d2
+	call	sin
+.LVL114:
+	.loc 1 245 0
+	ld.w	%d6, [%SP] 12
+	.loc 1 246 0
+	mov	%e12, %d3, %d2
+.LVL115:
+	.loc 1 245 0
+	mov	%d4, %d6
+	call	__extendsfdf2
+.LVL116:
+	mov	%e4, %d3, %d2
+	mov	%e6, %d9, %d8
+	call	__muldf3
+.LVL117:
+	ld.w	%d4, [%SP] 16
+	mov	%e8, %d3, %d2
+	call	__extendsfdf2
+.LVL118:
+	mov	%e4, %d3, %d2
+	ld.d	%e6, [%SP] 20
+	call	__muldf3
+.LVL119:
+	mov	%e6, %d3, %d2
+	mov	%e4, %d9, %d8
+	call	__adddf3
+.LVL120:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL121:
+	.loc 1 248 0
+	addih	%d4, %d2, 0x8000
+	call	__extendsfdf2
+.LVL122:
+	.loc 1 246 0
+	ld.w	%d4, [%SP] 28
+	.loc 1 248 0
+	mov	%e8, %d3, %d2
+	.loc 1 246 0
+	call	__extendsfdf2
+.LVL123:
+	mov	%e4, %d3, %d2
+	mov	%e6, %d11, %d10
+	call	__muldf3
+.LVL124:
+	mov.d	%d4, %a14
+	mov	%e10, %d3, %d2
+	call	__extendsfdf2
+.LVL125:
+	ld.w	%d0, [%SP] 8
+	ld.w	%d1, [%SP] 4
+	mov	%e4, %d3, %d2
+	mov	%e6, %d1, %d0
+	call	__muldf3
+.LVL126:
 	mov	%e4, %d3, %d2
 	mov.d	%d6, %a12
 	mov.d	%d7, %a13
 	call	__muldf3
-.LVL86:
-	mov	%e6, %d3, %d2
-	mov.d	%d4, %a14
-	mov.d	%d5, %a15
-	call	__subdf3
-.LVL87:
-	mov	%e4, %d3, %d2
-	call	__truncdfsf2
-.LVL88:
-	.loc 1 252 0
-	mov	%d4, %d2
-	call	__extendsfdf2
-.LVL89:
-	mov.a	%a14, %d2
-	.loc 1 250 0
-	ld.w	%d4, [%SP] 12
-	.loc 1 252 0
-	mov.a	%a15, %d3
-	.loc 1 250 0
-	call	__extendsfdf2
-.LVL90:
-	ld.w	%d0, [%SP] 4
-	ld.w	%d1, [%SP]0
-	mov	%e4, %d3, %d2
-	mov	%e6, %d1, %d0
-	call	__muldf3
-.LVL91:
-	mov	%e0, %d3, %d2
-	ld.w	%d4, [%SP] 16
-	st.w	[%SP] 4, %d2
-	st.w	[%SP]0, %d1
-	call	__extendsfdf2
-.LVL92:
-	mov	%e6, %d3, %d2
-	mov.d	%d4, %a12
-	mov.d	%d5, %a13
-	call	__muldf3
-.LVL93:
-	mov	%e6, %d13, %d12
-	mov	%e4, %d3, %d2
-	call	__muldf3
-.LVL94:
-	ld.w	%d0, [%SP] 4
-	ld.w	%d1, [%SP]0
-	mov	%e6, %d3, %d2
-	mov	%e4, %d1, %d0
-	call	__adddf3
-.LVL95:
-	ld.w	%d4, [%SP] 20
-	mov.a	%a12, %d2
-	mov.a	%a13, %d3
-	call	__extendsfdf2
-.LVL96:
-	mov	%e4, %d15, %d14
-	mov	%e6, %d3, %d2
-	call	__muldf3
-.LVL97:
-	mov	%e4, %d13, %d12
-	mov	%e6, %d3, %d2
-	call	__muldf3
-.LVL98:
-	mov	%e6, %d3, %d2
-	mov.d	%d4, %a12
-	mov.d	%d5, %a13
-	call	__adddf3
-.LVL99:
-	mov	%e4, %d3, %d2
-	call	__truncdfsf2
-.LVL100:
-	.loc 1 252 0
-	mov	%d4, %d2
-	call	__extendsfdf2
-.LVL101:
-	mov	%e6, %d3, %d2
-	mov.d	%d5, %a15
-	mov.d	%d4, %a14
-	call	atan2
-.LVL102:
-	.loc 1 255 0
+.LVL127:
 	mov	%e4, %d11, %d10
-	movh	%d7, 16461
-	movh	%d6, 26214
-	addi	%d7, %d7, -22938
-	addi	%d6, %d6, 26214
-	.loc 1 252 0
-	mov	%e12, %d3, %d2
-.LVL103:
-	.loc 1 255 0
-	call	__muldf3
-.LVL104:
+	mov	%e6, %d3, %d2
+	.loc 1 251 0
+	movh.a	%a12, hi:YPR
+	.loc 1 246 0
+	call	__adddf3
+.LVL128:
+	mov.d	%d4, %a15
+	mov	%e10, %d3, %d2
+	call	__extendsfdf2
+.LVL129:
 	mov	%e4, %d3, %d2
-	movh.a	%a15, hi:YPR
-	call	__truncdfsf2
-.LVL105:
-	lea	%a15, [%a15] lo:YPR
-	.loc 1 256 0
-	mov	%e4, %d9, %d8
-	movh	%d7, 16461
-	movh	%d6, 26214
-	addi	%d7, %d7, -22938
-	addi	%d6, %d6, 26214
-	.loc 1 255 0
-	st.w	[%a15] 20, %d2
-	.loc 1 256 0
+	mov	%e6, %d15, %d14
+	.loc 1 251 0
+	lea	%a15, [%a12] lo:YPR
+	.loc 1 246 0
 	call	__muldf3
-.LVL106:
+.LVL130:
+	mov	%e4, %d3, %d2
+	mov	%e6, %d13, %d12
+	call	__muldf3
+.LVL131:
+	mov	%e6, %d3, %d2
+	mov	%e4, %d11, %d10
+	call	__adddf3
+.LVL132:
 	mov	%e4, %d3, %d2
 	call	__truncdfsf2
-.LVL107:
-	.loc 1 252 0
-	mov	%e4, %d13, %d12
-	.loc 1 256 0
-	st.w	[%a15] 16, %d2
-	.loc 1 252 0
-	call	__truncdfsf2
-.LVL108:
-	.loc 1 257 0
+.LVL133:
+	.loc 1 248 0
 	mov	%d4, %d2
 	call	__extendsfdf2
-.LVL109:
+.LVL134:
+	mov	%e6, %d3, %d2
+	mov	%e4, %d9, %d8
+	call	atan2
+.LVL135:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL136:
+	st.w	[%SP] 36, %d2
+	.loc 1 251 0
+	ld.w	%d4, [%SP] 40
+	call	__extendsfdf2
+.LVL137:
 	mov	%e4, %d3, %d2
 	movh	%d7, 16461
 	movh	%d6, 26214
 	addi	%d7, %d7, -22938
 	addi	%d6, %d6, 26214
 	call	__muldf3
-.LVL110:
+.LVL138:
 	mov	%e4, %d3, %d2
 	call	__truncdfsf2
-.LVL111:
-	st.w	[%a15] 12, %d2
+.LVL139:
+	st.w	[%a15] 8, %d2
+	.loc 1 252 0
+	ld.w	%d4, [%SP] 32
+	call	__extendsfdf2
+.LVL140:
+	mov	%e4, %d3, %d2
+	movh	%d7, 16461
+	movh	%d6, 26214
+	addi	%d7, %d7, -22938
+	addi	%d6, %d6, 26214
+	call	__muldf3
+.LVL141:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL142:
+	st.w	[%a15] 4, %d2
+	.loc 1 253 0
+	ld.w	%d4, [%SP] 36
+	call	__extendsfdf2
+.LVL143:
+	mov	%e4, %d3, %d2
+	movh	%d7, 16461
+	movh	%d6, 26214
+	addi	%d7, %d7, -22938
+	addi	%d6, %d6, 26214
+	call	__muldf3
+.LVL144:
+	mov	%e4, %d3, %d2
+	call	__truncdfsf2
+.LVL145:
+	st.w	[%a12] lo:YPR, %d2
 	ret
-.LFE303:
+.LFE300:
 	.size	GetYawPitchRoll, .-GetYawPitchRoll
 .section .text.Init_gyro,"ax",@progbits
 	.align 1
 	.global	Init_gyro
 	.type	Init_gyro, @function
 Init_gyro:
-.LFB304:
-	.loc 1 262 0
-	.loc 1 263 0
-	call	Init_I2C
-.LVL112:
-	.loc 1 264 0
-	j	Init_MPU9265
-.LVL113:
-.LFE304:
+.LFB301:
+	.loc 1 256 0
+	.loc 1 257 0
+	j	Init_I2C
+.LVL146:
+.LFE301:
 	.size	Init_gyro, .-Init_gyro
-	.global	size
-.section .bss.size,"aw",@nobits
-	.align 1
-	.type	size, @object
-	.size	size, 2
-size:
-	.zero	2
+	.global	Faccelz
+.section .bss.Faccelz,"aw",@nobits
+	.align 2
+	.type	Faccelz, @object
+	.size	Faccelz, 4
+Faccelz:
+	.zero	4
+	.global	Faccely
+.section .bss.Faccely,"aw",@nobits
+	.align 2
+	.type	Faccely, @object
+	.size	Faccely, 4
+Faccely:
+	.zero	4
+	.global	Faccelx
+.section .bss.Faccelx,"aw",@nobits
+	.align 2
+	.type	Faccelx, @object
+	.size	Faccelx, 4
+Faccelx:
+	.zero	4
 	.global	Data
 .section .bss.Data,"aw",@nobits
 	.type	Data, @object
@@ -1146,9 +1241,9 @@ Data:
 .section .bss.YPR,"aw",@nobits
 	.align 2
 	.type	YPR, @object
-	.size	YPR, 36
+	.size	YPR, 12
 YPR:
-	.zero	36
+	.zero	12
 	.global	Mpu
 .section .bss.Mpu,"aw",@nobits
 	.align 2
@@ -1264,6 +1359,10 @@ I2C_Masters_Slaves:
 	.uaword	.Lframe0
 	.uaword	.LFB300
 	.uaword	.LFE300-.LFB300
+	.byte	0x4
+	.uaword	.LCFI4-.LFB300
+	.byte	0xe
+	.uleb128 0x38
 	.align 2
 .LEFDE16:
 .LSFDE18:
@@ -1274,34 +1373,6 @@ I2C_Masters_Slaves:
 	.uaword	.LFE301-.LFB301
 	.align 2
 .LEFDE18:
-.LSFDE20:
-	.uaword	.LEFDE20-.LASFDE20
-.LASFDE20:
-	.uaword	.Lframe0
-	.uaword	.LFB302
-	.uaword	.LFE302-.LFB302
-	.align 2
-.LEFDE20:
-.LSFDE22:
-	.uaword	.LEFDE22-.LASFDE22
-.LASFDE22:
-	.uaword	.Lframe0
-	.uaword	.LFB303
-	.uaword	.LFE303-.LFB303
-	.byte	0x4
-	.uaword	.LCFI4-.LFB303
-	.byte	0xe
-	.uleb128 0x28
-	.align 2
-.LEFDE22:
-.LSFDE24:
-	.uaword	.LEFDE24-.LASFDE24
-.LASFDE24:
-	.uaword	.Lframe0
-	.uaword	.LFB304
-	.uaword	.LFE304-.LFB304
-	.align 2
-.LEFDE24:
 .section .text,"ax",@progbits
 .Letext0:
 	.file 4 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/Platform_Types.h"
@@ -1316,10 +1387,9 @@ I2C_Masters_Slaves:
 	.file 13 "0_Src/BaseSw/iLLD/TC29B/Tricore/I2c/I2c/IfxI2c_I2c.h"
 	.file 14 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.h"
 	.file 15 "c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\tricore\\include\\math.h"
-	.file 16 "<built-in>"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x5d1d
+	.uaword	0x5b98
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1327,7 +1397,7 @@ I2C_Masters_Slaves:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c"
-	.string	"C:\\\\Robot_Project\\\\Robot_Project_TC297-B-Ongoing"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC297B-Ongoing"
 	.uaword	.Ldebug_ranges0+0x20
 	.uaword	0
 	.uaword	0
@@ -1360,7 +1430,7 @@ I2C_Masters_Slaves:
 	.string	"uint8"
 	.byte	0x4
 	.byte	0x59
-	.uaword	0x1cb
+	.uaword	0x1e5
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -1369,7 +1439,7 @@ I2C_Masters_Slaves:
 	.string	"sint16"
 	.byte	0x4
 	.byte	0x5a
-	.uaword	0x1ea
+	.uaword	0x204
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x5
@@ -1382,17 +1452,17 @@ I2C_Masters_Slaves:
 	.string	"sint32"
 	.byte	0x4
 	.byte	0x5c
-	.uaword	0x187
+	.uaword	0x1a1
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x4
 	.byte	0x5e
-	.uaword	0x17e
+	.uaword	0x198
 	.uleb128 0x3
 	.string	"boolean"
 	.byte	0x4
 	.byte	0x68
-	.uaword	0x1cb
+	.uaword	0x1e5
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -1407,18 +1477,18 @@ I2C_Masters_Slaves:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x272
+	.uaword	0x28c
 	.uleb128 0x5
 	.uleb128 0x3
 	.string	"Ifx_SizeT"
 	.byte	0x5
 	.byte	0x4a
-	.uaword	0x1dc
+	.uaword	0x1f6
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x5
 	.byte	0x71
-	.uaword	0x2fd
+	.uaword	0x317
 	.uleb128 0x7
 	.string	"Ifx_RxSel_a"
 	.sleb128 0
@@ -1448,41 +1518,41 @@ I2C_Masters_Slaves:
 	.string	"Ifx_RxSel"
 	.byte	0x5
 	.byte	0x7a
-	.uaword	0x284
+	.uaword	0x29e
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x5
 	.byte	0x7d
-	.uaword	0x331
+	.uaword	0x34b
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x5
 	.byte	0x7f
-	.uaword	0x26c
+	.uaword	0x286
 	.byte	0
 	.uleb128 0xa
 	.string	"index"
 	.byte	0x5
 	.byte	0x80
-	.uaword	0x20d
+	.uaword	0x227
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x5
 	.byte	0x81
-	.uaword	0x30e
+	.uaword	0x328
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2d
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x6
 	.byte	0x2f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1491,7 +1561,7 @@ I2C_Masters_Slaves:
 	.string	"EN1"
 	.byte	0x6
 	.byte	0x30
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1500,7 +1570,7 @@ I2C_Masters_Slaves:
 	.string	"EN2"
 	.byte	0x6
 	.byte	0x31
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1509,7 +1579,7 @@ I2C_Masters_Slaves:
 	.string	"EN3"
 	.byte	0x6
 	.byte	0x32
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1518,7 +1588,7 @@ I2C_Masters_Slaves:
 	.string	"EN4"
 	.byte	0x6
 	.byte	0x33
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1527,7 +1597,7 @@ I2C_Masters_Slaves:
 	.string	"EN5"
 	.byte	0x6
 	.byte	0x34
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1536,7 +1606,7 @@ I2C_Masters_Slaves:
 	.string	"EN6"
 	.byte	0x6
 	.byte	0x35
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1545,7 +1615,7 @@ I2C_Masters_Slaves:
 	.string	"EN7"
 	.byte	0x6
 	.byte	0x36
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1554,7 +1624,7 @@ I2C_Masters_Slaves:
 	.string	"EN8"
 	.byte	0x6
 	.byte	0x37
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1563,7 +1633,7 @@ I2C_Masters_Slaves:
 	.string	"EN9"
 	.byte	0x6
 	.byte	0x38
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1572,7 +1642,7 @@ I2C_Masters_Slaves:
 	.string	"EN10"
 	.byte	0x6
 	.byte	0x39
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1581,7 +1651,7 @@ I2C_Masters_Slaves:
 	.string	"EN11"
 	.byte	0x6
 	.byte	0x3a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1590,7 +1660,7 @@ I2C_Masters_Slaves:
 	.string	"EN12"
 	.byte	0x6
 	.byte	0x3b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1599,7 +1669,7 @@ I2C_Masters_Slaves:
 	.string	"EN13"
 	.byte	0x6
 	.byte	0x3c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1608,7 +1678,7 @@ I2C_Masters_Slaves:
 	.string	"EN14"
 	.byte	0x6
 	.byte	0x3d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1617,7 +1687,7 @@ I2C_Masters_Slaves:
 	.string	"EN15"
 	.byte	0x6
 	.byte	0x3e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1626,7 +1696,7 @@ I2C_Masters_Slaves:
 	.string	"EN16"
 	.byte	0x6
 	.byte	0x3f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1635,7 +1705,7 @@ I2C_Masters_Slaves:
 	.string	"EN17"
 	.byte	0x6
 	.byte	0x40
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1644,7 +1714,7 @@ I2C_Masters_Slaves:
 	.string	"EN18"
 	.byte	0x6
 	.byte	0x41
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1653,7 +1723,7 @@ I2C_Masters_Slaves:
 	.string	"EN19"
 	.byte	0x6
 	.byte	0x42
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1662,7 +1732,7 @@ I2C_Masters_Slaves:
 	.string	"EN20"
 	.byte	0x6
 	.byte	0x43
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1671,7 +1741,7 @@ I2C_Masters_Slaves:
 	.string	"EN21"
 	.byte	0x6
 	.byte	0x44
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1680,7 +1750,7 @@ I2C_Masters_Slaves:
 	.string	"EN22"
 	.byte	0x6
 	.byte	0x45
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1689,7 +1759,7 @@ I2C_Masters_Slaves:
 	.string	"EN23"
 	.byte	0x6
 	.byte	0x46
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1698,7 +1768,7 @@ I2C_Masters_Slaves:
 	.string	"EN24"
 	.byte	0x6
 	.byte	0x47
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1707,7 +1777,7 @@ I2C_Masters_Slaves:
 	.string	"EN25"
 	.byte	0x6
 	.byte	0x48
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1716,7 +1786,7 @@ I2C_Masters_Slaves:
 	.string	"EN26"
 	.byte	0x6
 	.byte	0x49
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1725,7 +1795,7 @@ I2C_Masters_Slaves:
 	.string	"EN27"
 	.byte	0x6
 	.byte	0x4a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1734,7 +1804,7 @@ I2C_Masters_Slaves:
 	.string	"EN28"
 	.byte	0x6
 	.byte	0x4b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1743,7 +1813,7 @@ I2C_Masters_Slaves:
 	.string	"EN29"
 	.byte	0x6
 	.byte	0x4c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1752,7 +1822,7 @@ I2C_Masters_Slaves:
 	.string	"EN30"
 	.byte	0x6
 	.byte	0x4d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1761,7 +1831,7 @@ I2C_Masters_Slaves:
 	.string	"EN31"
 	.byte	0x6
 	.byte	0x4e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1775,18 +1845,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ACCEN0_Bits"
 	.byte	0x6
 	.byte	0x4f
-	.uaword	0x34b
+	.uaword	0x365
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x52
-	.uaword	0x5b7
+	.uaword	0x5d1
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x54
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1796,18 +1866,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ACCEN1_Bits"
 	.byte	0x6
 	.byte	0x55
-	.uaword	0x58a
+	.uaword	0x5a4
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ADDRCFG_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x58
-	.uaword	0x683
+	.uaword	0x69d
 	.uleb128 0xc
 	.string	"ADR"
 	.byte	0x6
 	.byte	0x5a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -1816,7 +1886,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x5b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -1825,7 +1895,7 @@ I2C_Masters_Slaves:
 	.string	"TBAM"
 	.byte	0x6
 	.byte	0x5c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1834,7 +1904,7 @@ I2C_Masters_Slaves:
 	.string	"GCE"
 	.byte	0x6
 	.byte	0x5d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1843,7 +1913,7 @@ I2C_Masters_Slaves:
 	.string	"MCE"
 	.byte	0x6
 	.byte	0x5e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1852,7 +1922,7 @@ I2C_Masters_Slaves:
 	.string	"MnS"
 	.byte	0x6
 	.byte	0x5f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1861,7 +1931,7 @@ I2C_Masters_Slaves:
 	.string	"SONA"
 	.byte	0x6
 	.byte	0x60
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1870,7 +1940,7 @@ I2C_Masters_Slaves:
 	.string	"SOPE"
 	.byte	0x6
 	.byte	0x61
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1879,7 +1949,7 @@ I2C_Masters_Slaves:
 	.string	"reserved_22"
 	.byte	0x6
 	.byte	0x62
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xa
 	.byte	0
@@ -1889,18 +1959,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ADDRCFG_Bits"
 	.byte	0x6
 	.byte	0x63
-	.uaword	0x5d2
+	.uaword	0x5ec
 	.uleb128 0xb
 	.string	"_Ifx_I2C_BUSSTAT_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x66
-	.uaword	0x6ea
+	.uaword	0x704
 	.uleb128 0xc
 	.string	"BS"
 	.byte	0x6
 	.byte	0x68
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -1909,7 +1979,7 @@ I2C_Masters_Slaves:
 	.string	"RnW"
 	.byte	0x6
 	.byte	0x69
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1918,7 +1988,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF3
 	.byte	0x6
 	.byte	0x6a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -1928,18 +1998,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_BUSSTAT_Bits"
 	.byte	0x6
 	.byte	0x6b
-	.uaword	0x69f
+	.uaword	0x6b9
 	.uleb128 0xb
 	.string	"_Ifx_I2C_CLC1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x6e
-	.uaword	0x7af
+	.uaword	0x7c9
 	.uleb128 0xc
 	.string	"DISR"
 	.byte	0x6
 	.byte	0x70
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1948,7 +2018,7 @@ I2C_Masters_Slaves:
 	.string	"DISS"
 	.byte	0x6
 	.byte	0x71
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1957,7 +2027,7 @@ I2C_Masters_Slaves:
 	.string	"SPEN"
 	.byte	0x6
 	.byte	0x72
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1966,7 +2036,7 @@ I2C_Masters_Slaves:
 	.string	"EDIS"
 	.byte	0x6
 	.byte	0x73
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1975,7 +2045,7 @@ I2C_Masters_Slaves:
 	.string	"SBWE"
 	.byte	0x6
 	.byte	0x74
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1984,7 +2054,7 @@ I2C_Masters_Slaves:
 	.string	"FSOE"
 	.byte	0x6
 	.byte	0x75
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1993,7 +2063,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0x76
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2002,7 +2072,7 @@ I2C_Masters_Slaves:
 	.string	"RMC"
 	.byte	0x6
 	.byte	0x77
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2011,7 +2081,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0x78
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2021,18 +2091,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_CLC1_Bits"
 	.byte	0x6
 	.byte	0x79
-	.uaword	0x706
+	.uaword	0x720
 	.uleb128 0xb
 	.string	"_Ifx_I2C_CLC_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x7c
-	.uaword	0x812
+	.uaword	0x82c
 	.uleb128 0xc
 	.string	"DISR"
 	.byte	0x6
 	.byte	0x7e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2041,7 +2111,7 @@ I2C_Masters_Slaves:
 	.string	"DISS"
 	.byte	0x6
 	.byte	0x7f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2050,7 +2120,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0x80
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2060,18 +2130,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_CLC_Bits"
 	.byte	0x6
 	.byte	0x81
-	.uaword	0x7c8
+	.uaword	0x7e2
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ENDDCTRL_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x84
-	.uaword	0x87d
+	.uaword	0x897
 	.uleb128 0xc
 	.string	"SETRSC"
 	.byte	0x6
 	.byte	0x86
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2080,7 +2150,7 @@ I2C_Masters_Slaves:
 	.string	"SETEND"
 	.byte	0x6
 	.byte	0x87
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2089,7 +2159,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0x88
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2099,18 +2169,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ENDDCTRL_Bits"
 	.byte	0x6
 	.byte	0x89
-	.uaword	0x82a
+	.uaword	0x844
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ERRIRQSC_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x8c
-	.uaword	0x905
+	.uaword	0x91f
 	.uleb128 0xd
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0x8e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2119,7 +2189,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF8
 	.byte	0x6
 	.byte	0x8f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2128,7 +2198,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF9
 	.byte	0x6
 	.byte	0x90
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2137,7 +2207,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF10
 	.byte	0x6
 	.byte	0x91
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2146,7 +2216,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF11
 	.byte	0x6
 	.byte	0x92
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2156,18 +2226,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ERRIRQSC_Bits"
 	.byte	0x6
 	.byte	0x93
-	.uaword	0x89a
+	.uaword	0x8b4
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ERRIRQSM_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x96
-	.uaword	0x98d
+	.uaword	0x9a7
 	.uleb128 0xd
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0x98
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2176,7 +2246,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF8
 	.byte	0x6
 	.byte	0x99
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2185,7 +2255,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF9
 	.byte	0x6
 	.byte	0x9a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2194,7 +2264,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF10
 	.byte	0x6
 	.byte	0x9b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2203,7 +2273,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF11
 	.byte	0x6
 	.byte	0x9c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2213,18 +2283,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ERRIRQSM_Bits"
 	.byte	0x6
 	.byte	0x9d
-	.uaword	0x922
+	.uaword	0x93c
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ERRIRQSS_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa0
-	.uaword	0xa15
+	.uaword	0xa2f
 	.uleb128 0xd
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0xa2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2233,7 +2303,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF8
 	.byte	0x6
 	.byte	0xa3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2242,7 +2312,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF9
 	.byte	0x6
 	.byte	0xa4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2251,7 +2321,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF10
 	.byte	0x6
 	.byte	0xa5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2260,7 +2330,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF11
 	.byte	0x6
 	.byte	0xa6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2270,18 +2340,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ERRIRQSS_Bits"
 	.byte	0x6
 	.byte	0xa7
-	.uaword	0x9aa
+	.uaword	0x9c4
 	.uleb128 0xb
 	.string	"_Ifx_I2C_FDIVCFG_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xaa
-	.uaword	0xa8d
+	.uaword	0xaa7
 	.uleb128 0xc
 	.string	"DEC"
 	.byte	0x6
 	.byte	0xac
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xb
 	.byte	0x15
@@ -2290,7 +2360,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF12
 	.byte	0x6
 	.byte	0xad
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2299,7 +2369,7 @@ I2C_Masters_Slaves:
 	.string	"INC"
 	.byte	0x6
 	.byte	0xae
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -2308,7 +2378,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF13
 	.byte	0x6
 	.byte	0xaf
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2318,18 +2388,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_FDIVCFG_Bits"
 	.byte	0x6
 	.byte	0xb0
-	.uaword	0xa32
+	.uaword	0xa4c
 	.uleb128 0xb
 	.string	"_Ifx_I2C_FDIVHIGHCFG_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xb3
-	.uaword	0xb08
+	.uaword	0xb22
 	.uleb128 0xc
 	.string	"DEC"
 	.byte	0x6
 	.byte	0xb5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xb
 	.byte	0x15
@@ -2338,7 +2408,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF12
 	.byte	0x6
 	.byte	0xb6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2347,7 +2417,7 @@ I2C_Masters_Slaves:
 	.string	"INC"
 	.byte	0x6
 	.byte	0xb7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -2356,7 +2426,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF13
 	.byte	0x6
 	.byte	0xb8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2366,18 +2436,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_FDIVHIGHCFG_Bits"
 	.byte	0x6
 	.byte	0xb9
-	.uaword	0xaa9
+	.uaword	0xac3
 	.uleb128 0xb
 	.string	"_Ifx_I2C_FFSSTAT_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xbc
-	.uaword	0xb65
+	.uaword	0xb7f
 	.uleb128 0xc
 	.string	"FFS"
 	.byte	0x6
 	.byte	0xbe
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2386,7 +2456,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xbf
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2396,18 +2466,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_FFSSTAT_Bits"
 	.byte	0x6
 	.byte	0xc0
-	.uaword	0xb28
+	.uaword	0xb42
 	.uleb128 0xb
 	.string	"_Ifx_I2C_FIFOCFG_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xc3
-	.uaword	0xc53
+	.uaword	0xc6d
 	.uleb128 0xc
 	.string	"RXBS"
 	.byte	0x6
 	.byte	0xc5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -2416,7 +2486,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xc6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -2425,7 +2495,7 @@ I2C_Masters_Slaves:
 	.string	"TXBS"
 	.byte	0x6
 	.byte	0xc7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -2434,7 +2504,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xc8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2443,7 +2513,7 @@ I2C_Masters_Slaves:
 	.string	"RXFA"
 	.byte	0x6
 	.byte	0xc9
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -2452,7 +2522,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0xca
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -2461,7 +2531,7 @@ I2C_Masters_Slaves:
 	.string	"TXFA"
 	.byte	0x6
 	.byte	0xcb
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -2470,7 +2540,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF14
 	.byte	0x6
 	.byte	0xcc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -2479,7 +2549,7 @@ I2C_Masters_Slaves:
 	.string	"RXFC"
 	.byte	0x6
 	.byte	0xcd
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2488,7 +2558,7 @@ I2C_Masters_Slaves:
 	.string	"TXFC"
 	.byte	0x6
 	.byte	0xce
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2497,7 +2567,7 @@ I2C_Masters_Slaves:
 	.string	"reserved_18"
 	.byte	0x6
 	.byte	0xcf
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -2507,18 +2577,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_FIFOCFG_Bits"
 	.byte	0x6
 	.byte	0xd0
-	.uaword	0xb81
+	.uaword	0xb9b
 	.uleb128 0xb
 	.string	"_Ifx_I2C_GPCTL_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xd3
-	.uaword	0xcac
+	.uaword	0xcc6
 	.uleb128 0xc
 	.string	"PISEL"
 	.byte	0x6
 	.byte	0xd5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2527,7 +2597,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF3
 	.byte	0x6
 	.byte	0xd6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -2537,18 +2607,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_GPCTL_Bits"
 	.byte	0x6
 	.byte	0xd7
-	.uaword	0xc6f
+	.uaword	0xc89
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ICR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xda
-	.uaword	0xd2c
+	.uaword	0xd46
 	.uleb128 0xd
 	.uaword	.LASF15
 	.byte	0x6
 	.byte	0xdc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2557,7 +2627,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF16
 	.byte	0x6
 	.byte	0xdd
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2566,7 +2636,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF17
 	.byte	0x6
 	.byte	0xde
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2575,7 +2645,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF18
 	.byte	0x6
 	.byte	0xdf
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2584,7 +2654,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF11
 	.byte	0x6
 	.byte	0xe0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2594,18 +2664,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ICR_Bits"
 	.byte	0x6
 	.byte	0xe1
-	.uaword	0xcc6
+	.uaword	0xce0
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ID_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xe4
-	.uaword	0xd8f
+	.uaword	0xda9
 	.uleb128 0xc
 	.string	"MOD_REV"
 	.byte	0x6
 	.byte	0xe6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2614,7 +2684,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF19
 	.byte	0x6
 	.byte	0xe7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2623,7 +2693,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xe8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2633,18 +2703,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ID_Bits"
 	.byte	0x6
 	.byte	0xe9
-	.uaword	0xd44
+	.uaword	0xd5e
 	.uleb128 0xb
 	.string	"_Ifx_I2C_IMSC_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xec
-	.uaword	0xe2b
+	.uaword	0xe45
 	.uleb128 0xd
 	.uaword	.LASF15
 	.byte	0x6
 	.byte	0xee
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2653,7 +2723,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF16
 	.byte	0x6
 	.byte	0xef
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2662,7 +2732,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF17
 	.byte	0x6
 	.byte	0xf0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2671,7 +2741,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF18
 	.byte	0x6
 	.byte	0xf1
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2680,7 +2750,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF20
 	.byte	0x6
 	.byte	0xf2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2689,7 +2759,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF21
 	.byte	0x6
 	.byte	0xf3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2698,7 +2768,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xf4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2708,18 +2778,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_IMSC_Bits"
 	.byte	0x6
 	.byte	0xf5
-	.uaword	0xda6
+	.uaword	0xdc0
 	.uleb128 0xb
 	.string	"_Ifx_I2C_ISR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xf8
-	.uaword	0xec9
+	.uaword	0xee3
 	.uleb128 0xd
 	.uaword	.LASF15
 	.byte	0x6
 	.byte	0xfa
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2728,7 +2798,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF16
 	.byte	0x6
 	.byte	0xfb
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2737,7 +2807,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF17
 	.byte	0x6
 	.byte	0xfc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2746,7 +2816,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF18
 	.byte	0x6
 	.byte	0xfd
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2755,7 +2825,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF20
 	.byte	0x6
 	.byte	0xfe
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2764,7 +2834,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF21
 	.byte	0x6
 	.byte	0xff
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2773,7 +2843,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF4
 	.byte	0x6
 	.uahalf	0x100
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2783,18 +2853,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_ISR_Bits"
 	.byte	0x6
 	.uahalf	0x101
-	.uaword	0xe44
+	.uaword	0xe5e
 	.uleb128 0x10
 	.string	"_Ifx_I2C_KRST0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x104
-	.uaword	0xf34
+	.uaword	0xf4e
 	.uleb128 0x11
 	.string	"RST"
 	.byte	0x6
 	.uahalf	0x106
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2803,7 +2873,7 @@ I2C_Masters_Slaves:
 	.string	"RSTSTAT"
 	.byte	0x6
 	.uahalf	0x107
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2812,7 +2882,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF6
 	.byte	0x6
 	.uahalf	0x108
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2822,18 +2892,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_KRST0_Bits"
 	.byte	0x6
 	.uahalf	0x109
-	.uaword	0xee2
+	.uaword	0xefc
 	.uleb128 0x10
 	.string	"_Ifx_I2C_KRST1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x10c
-	.uaword	0xf8d
+	.uaword	0xfa7
 	.uleb128 0x11
 	.string	"RST"
 	.byte	0x6
 	.uahalf	0x10e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2842,7 +2912,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF22
 	.byte	0x6
 	.uahalf	0x10f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -2852,18 +2922,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_KRST1_Bits"
 	.byte	0x6
 	.uahalf	0x110
-	.uaword	0xf4f
+	.uaword	0xf69
 	.uleb128 0x10
 	.string	"_Ifx_I2C_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x113
-	.uaword	0xfe8
+	.uaword	0x1002
 	.uleb128 0x11
 	.string	"CLR"
 	.byte	0x6
 	.uahalf	0x115
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2872,7 +2942,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF22
 	.byte	0x6
 	.uahalf	0x116
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -2882,18 +2952,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_KRSTCLR_Bits"
 	.byte	0x6
 	.uahalf	0x117
-	.uaword	0xfa8
+	.uaword	0xfc2
 	.uleb128 0x10
 	.string	"_Ifx_I2C_MIS_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x11a
-	.uaword	0x1091
+	.uaword	0x10ab
 	.uleb128 0xe
 	.uaword	.LASF15
 	.byte	0x6
 	.uahalf	0x11c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2902,7 +2972,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF16
 	.byte	0x6
 	.uahalf	0x11d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2911,7 +2981,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF17
 	.byte	0x6
 	.uahalf	0x11e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2920,7 +2990,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF18
 	.byte	0x6
 	.uahalf	0x11f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2929,7 +2999,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF20
 	.byte	0x6
 	.uahalf	0x120
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2938,7 +3008,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF21
 	.byte	0x6
 	.uahalf	0x121
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2947,7 +3017,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF4
 	.byte	0x6
 	.uahalf	0x122
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2957,18 +3027,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_MIS_Bits"
 	.byte	0x6
 	.uahalf	0x123
-	.uaword	0x1005
+	.uaword	0x101f
 	.uleb128 0x10
 	.string	"_Ifx_I2C_MODID_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x126
-	.uaword	0x1101
+	.uaword	0x111b
 	.uleb128 0x11
 	.string	"MOD_REV"
 	.byte	0x6
 	.uahalf	0x128
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2977,7 +3047,7 @@ I2C_Masters_Slaves:
 	.string	"MOD_TYPE"
 	.byte	0x6
 	.uahalf	0x129
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2986,7 +3056,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF19
 	.byte	0x6
 	.uahalf	0x12a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2996,18 +3066,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_MODID_Bits"
 	.byte	0x6
 	.uahalf	0x12b
-	.uaword	0x10aa
+	.uaword	0x10c4
 	.uleb128 0x10
 	.string	"_Ifx_I2C_MRPSCTRL_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x12e
-	.uaword	0x115e
+	.uaword	0x1178
 	.uleb128 0x11
 	.string	"MRPS"
 	.byte	0x6
 	.uahalf	0x130
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xe
 	.byte	0x12
@@ -3016,7 +3086,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF14
 	.byte	0x6
 	.uahalf	0x131
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x12
 	.byte	0
@@ -3026,18 +3096,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_MRPSCTRL_Bits"
 	.byte	0x6
 	.uahalf	0x132
-	.uaword	0x111c
+	.uaword	0x1136
 	.uleb128 0x10
 	.string	"_Ifx_I2C_PIRQSC_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x135
-	.uaword	0x1217
+	.uaword	0x1231
 	.uleb128 0x11
 	.string	"AM"
 	.byte	0x6
 	.uahalf	0x137
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3046,7 +3116,7 @@ I2C_Masters_Slaves:
 	.string	"GC"
 	.byte	0x6
 	.uahalf	0x138
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3055,7 +3125,7 @@ I2C_Masters_Slaves:
 	.string	"MC"
 	.byte	0x6
 	.uahalf	0x139
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3064,7 +3134,7 @@ I2C_Masters_Slaves:
 	.string	"AL"
 	.byte	0x6
 	.uahalf	0x13a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3073,7 +3143,7 @@ I2C_Masters_Slaves:
 	.string	"NACK"
 	.byte	0x6
 	.uahalf	0x13b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3082,7 +3152,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF23
 	.byte	0x6
 	.uahalf	0x13c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3091,7 +3161,7 @@ I2C_Masters_Slaves:
 	.string	"RX"
 	.byte	0x6
 	.uahalf	0x13d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3100,7 +3170,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF24
 	.byte	0x6
 	.uahalf	0x13e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x19
 	.byte	0
@@ -3110,18 +3180,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_PIRQSC_Bits"
 	.byte	0x6
 	.uahalf	0x13f
-	.uaword	0x117c
+	.uaword	0x1196
 	.uleb128 0x10
 	.string	"_Ifx_I2C_PIRQSM_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x142
-	.uaword	0x12ce
+	.uaword	0x12e8
 	.uleb128 0x11
 	.string	"AM"
 	.byte	0x6
 	.uahalf	0x144
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3130,7 +3200,7 @@ I2C_Masters_Slaves:
 	.string	"GC"
 	.byte	0x6
 	.uahalf	0x145
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3139,7 +3209,7 @@ I2C_Masters_Slaves:
 	.string	"MC"
 	.byte	0x6
 	.uahalf	0x146
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3148,7 +3218,7 @@ I2C_Masters_Slaves:
 	.string	"AL"
 	.byte	0x6
 	.uahalf	0x147
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3157,7 +3227,7 @@ I2C_Masters_Slaves:
 	.string	"NACK"
 	.byte	0x6
 	.uahalf	0x148
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3166,7 +3236,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF23
 	.byte	0x6
 	.uahalf	0x149
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3175,7 +3245,7 @@ I2C_Masters_Slaves:
 	.string	"RX"
 	.byte	0x6
 	.uahalf	0x14a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3184,7 +3254,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF24
 	.byte	0x6
 	.uahalf	0x14b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x19
 	.byte	0
@@ -3194,18 +3264,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_PIRQSM_Bits"
 	.byte	0x6
 	.uahalf	0x14c
-	.uaword	0x1233
+	.uaword	0x124d
 	.uleb128 0x10
 	.string	"_Ifx_I2C_PIRQSS_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x14f
-	.uaword	0x1385
+	.uaword	0x139f
 	.uleb128 0x11
 	.string	"AM"
 	.byte	0x6
 	.uahalf	0x151
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3214,7 +3284,7 @@ I2C_Masters_Slaves:
 	.string	"GC"
 	.byte	0x6
 	.uahalf	0x152
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3223,7 +3293,7 @@ I2C_Masters_Slaves:
 	.string	"MC"
 	.byte	0x6
 	.uahalf	0x153
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3232,7 +3302,7 @@ I2C_Masters_Slaves:
 	.string	"AL"
 	.byte	0x6
 	.uahalf	0x154
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3241,7 +3311,7 @@ I2C_Masters_Slaves:
 	.string	"NACK"
 	.byte	0x6
 	.uahalf	0x155
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3250,7 +3320,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF23
 	.byte	0x6
 	.uahalf	0x156
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3259,7 +3329,7 @@ I2C_Masters_Slaves:
 	.string	"RX"
 	.byte	0x6
 	.uahalf	0x157
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3268,7 +3338,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF24
 	.byte	0x6
 	.uahalf	0x158
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x19
 	.byte	0
@@ -3278,18 +3348,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_PIRQSS_Bits"
 	.byte	0x6
 	.uahalf	0x159
-	.uaword	0x12ea
+	.uaword	0x1304
 	.uleb128 0x10
 	.string	"_Ifx_I2C_RIS_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x15c
-	.uaword	0x142d
+	.uaword	0x1447
 	.uleb128 0xe
 	.uaword	.LASF15
 	.byte	0x6
 	.uahalf	0x15e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3298,7 +3368,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF16
 	.byte	0x6
 	.uahalf	0x15f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3307,7 +3377,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF17
 	.byte	0x6
 	.uahalf	0x160
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3316,7 +3386,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF18
 	.byte	0x6
 	.uahalf	0x161
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3325,7 +3395,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF20
 	.byte	0x6
 	.uahalf	0x162
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3334,7 +3404,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF21
 	.byte	0x6
 	.uahalf	0x163
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3343,7 +3413,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF4
 	.byte	0x6
 	.uahalf	0x164
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -3353,18 +3423,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_RIS_Bits"
 	.byte	0x6
 	.uahalf	0x165
-	.uaword	0x13a1
+	.uaword	0x13bb
 	.uleb128 0x10
 	.string	"_Ifx_I2C_RPSSTAT_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x168
-	.uaword	0x1486
+	.uaword	0x14a0
 	.uleb128 0x11
 	.string	"RPS"
 	.byte	0x6
 	.uahalf	0x16a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xe
 	.byte	0x12
@@ -3373,7 +3443,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF14
 	.byte	0x6
 	.uahalf	0x16b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x12
 	.byte	0
@@ -3383,18 +3453,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_RPSSTAT_Bits"
 	.byte	0x6
 	.uahalf	0x16c
-	.uaword	0x1446
+	.uaword	0x1460
 	.uleb128 0x10
 	.string	"_Ifx_I2C_RUNCTRL_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x16f
-	.uaword	0x14e3
+	.uaword	0x14fd
 	.uleb128 0x11
 	.string	"RUN"
 	.byte	0x6
 	.uahalf	0x171
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3403,7 +3473,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF22
 	.byte	0x6
 	.uahalf	0x172
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -3413,18 +3483,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_RUNCTRL_Bits"
 	.byte	0x6
 	.uahalf	0x173
-	.uaword	0x14a3
+	.uaword	0x14bd
 	.uleb128 0x10
 	.string	"_Ifx_I2C_RXD_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x176
-	.uaword	0x152c
+	.uaword	0x1546
 	.uleb128 0x11
 	.string	"RXD"
 	.byte	0x6
 	.uahalf	0x178
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -3434,18 +3504,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_RXD_Bits"
 	.byte	0x6
 	.uahalf	0x179
-	.uaword	0x1500
+	.uaword	0x151a
 	.uleb128 0x10
 	.string	"_Ifx_I2C_TIMCFG_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x17c
-	.uaword	0x1641
+	.uaword	0x165b
 	.uleb128 0x11
 	.string	"SDA_DEL_HD_DAT"
 	.byte	0x6
 	.uahalf	0x17e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -3454,7 +3524,7 @@ I2C_Masters_Slaves:
 	.string	"HS_SDA_DEL_HD_DAT"
 	.byte	0x6
 	.uahalf	0x17f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x17
@@ -3463,7 +3533,7 @@ I2C_Masters_Slaves:
 	.string	"SCL_DEL_HD_STA"
 	.byte	0x6
 	.uahalf	0x180
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -3472,7 +3542,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF25
 	.byte	0x6
 	.uahalf	0x181
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -3481,7 +3551,7 @@ I2C_Masters_Slaves:
 	.string	"EN_SCL_LOW_LEN"
 	.byte	0x6
 	.uahalf	0x182
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3490,7 +3560,7 @@ I2C_Masters_Slaves:
 	.string	"FS_SCL_LOW"
 	.byte	0x6
 	.uahalf	0x183
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3499,7 +3569,7 @@ I2C_Masters_Slaves:
 	.string	"HS_SDA_DEL"
 	.byte	0x6
 	.uahalf	0x184
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3508,7 +3578,7 @@ I2C_Masters_Slaves:
 	.string	"reserved_19"
 	.byte	0x6
 	.uahalf	0x185
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -3517,7 +3587,7 @@ I2C_Masters_Slaves:
 	.string	"SCL_LOW_LEN"
 	.byte	0x6
 	.uahalf	0x186
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -3527,18 +3597,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_TIMCFG_Bits"
 	.byte	0x6
 	.uahalf	0x187
-	.uaword	0x1545
+	.uaword	0x155f
 	.uleb128 0x10
 	.string	"_Ifx_I2C_TPSCTRL_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x18a
-	.uaword	0x169d
+	.uaword	0x16b7
 	.uleb128 0x11
 	.string	"TPS"
 	.byte	0x6
 	.uahalf	0x18c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xe
 	.byte	0x12
@@ -3547,7 +3617,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF14
 	.byte	0x6
 	.uahalf	0x18d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x12
 	.byte	0
@@ -3557,18 +3627,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_TPSCTRL_Bits"
 	.byte	0x6
 	.uahalf	0x18e
-	.uaword	0x165d
+	.uaword	0x1677
 	.uleb128 0x10
 	.string	"_Ifx_I2C_TXD_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x191
-	.uaword	0x16e6
+	.uaword	0x1700
 	.uleb128 0x11
 	.string	"TXD"
 	.byte	0x6
 	.uahalf	0x193
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -3578,1199 +3648,1199 @@ I2C_Masters_Slaves:
 	.string	"Ifx_I2C_TXD_Bits"
 	.byte	0x6
 	.uahalf	0x194
-	.uaword	0x16ba
+	.uaword	0x16d4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x19c
-	.uaword	0x1727
+	.uaword	0x1741
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x19e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x19f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1a0
-	.uaword	0x56f
+	.uaword	0x589
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ACCEN0"
 	.byte	0x6
 	.uahalf	0x1a1
-	.uaword	0x16ff
+	.uaword	0x1719
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1a4
-	.uaword	0x1766
+	.uaword	0x1780
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1a6
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1a7
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1a8
-	.uaword	0x5b7
+	.uaword	0x5d1
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ACCEN1"
 	.byte	0x6
 	.uahalf	0x1a9
-	.uaword	0x173e
+	.uaword	0x1758
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1ac
-	.uaword	0x17a5
+	.uaword	0x17bf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1ae
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1af
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1b0
-	.uaword	0x683
+	.uaword	0x69d
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ADDRCFG"
 	.byte	0x6
 	.uahalf	0x1b1
-	.uaword	0x177d
+	.uaword	0x1797
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1b4
-	.uaword	0x17e5
+	.uaword	0x17ff
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1b6
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1b7
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1b8
-	.uaword	0x6ea
+	.uaword	0x704
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_BUSSTAT"
 	.byte	0x6
 	.uahalf	0x1b9
-	.uaword	0x17bd
+	.uaword	0x17d7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1bc
-	.uaword	0x1825
+	.uaword	0x183f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1be
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1bf
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1c0
-	.uaword	0x812
+	.uaword	0x82c
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_CLC"
 	.byte	0x6
 	.uahalf	0x1c1
-	.uaword	0x17fd
+	.uaword	0x1817
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1c4
-	.uaword	0x1861
+	.uaword	0x187b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1c6
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1c7
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1c8
-	.uaword	0x7af
+	.uaword	0x7c9
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_CLC1"
 	.byte	0x6
 	.uahalf	0x1c9
-	.uaword	0x1839
+	.uaword	0x1853
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1cc
-	.uaword	0x189e
+	.uaword	0x18b8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1ce
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1cf
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1d0
-	.uaword	0x87d
+	.uaword	0x897
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ENDDCTRL"
 	.byte	0x6
 	.uahalf	0x1d1
-	.uaword	0x1876
+	.uaword	0x1890
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1d4
-	.uaword	0x18df
+	.uaword	0x18f9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1d6
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1d7
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1d8
-	.uaword	0x905
+	.uaword	0x91f
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ERRIRQSC"
 	.byte	0x6
 	.uahalf	0x1d9
-	.uaword	0x18b7
+	.uaword	0x18d1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1dc
-	.uaword	0x1920
+	.uaword	0x193a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1de
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1df
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1e0
-	.uaword	0x98d
+	.uaword	0x9a7
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ERRIRQSM"
 	.byte	0x6
 	.uahalf	0x1e1
-	.uaword	0x18f8
+	.uaword	0x1912
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1e4
-	.uaword	0x1961
+	.uaword	0x197b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1e6
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1e7
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1e8
-	.uaword	0xa15
+	.uaword	0xa2f
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ERRIRQSS"
 	.byte	0x6
 	.uahalf	0x1e9
-	.uaword	0x1939
+	.uaword	0x1953
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1ec
-	.uaword	0x19a2
+	.uaword	0x19bc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1ee
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1ef
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1f0
-	.uaword	0xa8d
+	.uaword	0xaa7
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_FDIVCFG"
 	.byte	0x6
 	.uahalf	0x1f1
-	.uaword	0x197a
+	.uaword	0x1994
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1f4
-	.uaword	0x19e2
+	.uaword	0x19fc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1f6
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1f7
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1f8
-	.uaword	0xb08
+	.uaword	0xb22
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_FDIVHIGHCFG"
 	.byte	0x6
 	.uahalf	0x1f9
-	.uaword	0x19ba
+	.uaword	0x19d4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1fc
-	.uaword	0x1a26
+	.uaword	0x1a40
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1fe
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1ff
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x200
-	.uaword	0xb65
+	.uaword	0xb7f
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_FFSSTAT"
 	.byte	0x6
 	.uahalf	0x201
-	.uaword	0x19fe
+	.uaword	0x1a18
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x204
-	.uaword	0x1a66
+	.uaword	0x1a80
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x206
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x207
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x208
-	.uaword	0xc53
+	.uaword	0xc6d
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_FIFOCFG"
 	.byte	0x6
 	.uahalf	0x209
-	.uaword	0x1a3e
+	.uaword	0x1a58
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x20c
-	.uaword	0x1aa6
+	.uaword	0x1ac0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x20e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x20f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x210
-	.uaword	0xcac
+	.uaword	0xcc6
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_GPCTL"
 	.byte	0x6
 	.uahalf	0x211
-	.uaword	0x1a7e
+	.uaword	0x1a98
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x214
-	.uaword	0x1ae4
+	.uaword	0x1afe
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x216
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x217
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x218
-	.uaword	0xd2c
+	.uaword	0xd46
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ICR"
 	.byte	0x6
 	.uahalf	0x219
-	.uaword	0x1abc
+	.uaword	0x1ad6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x21c
-	.uaword	0x1b20
+	.uaword	0x1b3a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x21e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x21f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x220
-	.uaword	0xd8f
+	.uaword	0xda9
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ID"
 	.byte	0x6
 	.uahalf	0x221
-	.uaword	0x1af8
+	.uaword	0x1b12
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x224
-	.uaword	0x1b5b
+	.uaword	0x1b75
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x226
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x227
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x228
-	.uaword	0xe2b
+	.uaword	0xe45
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_IMSC"
 	.byte	0x6
 	.uahalf	0x229
-	.uaword	0x1b33
+	.uaword	0x1b4d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x22c
-	.uaword	0x1b98
+	.uaword	0x1bb2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x22e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x22f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x230
-	.uaword	0xec9
+	.uaword	0xee3
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_ISR"
 	.byte	0x6
 	.uahalf	0x231
-	.uaword	0x1b70
+	.uaword	0x1b8a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x234
-	.uaword	0x1bd4
+	.uaword	0x1bee
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x236
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x237
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x238
-	.uaword	0xf34
+	.uaword	0xf4e
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_KRST0"
 	.byte	0x6
 	.uahalf	0x239
-	.uaword	0x1bac
+	.uaword	0x1bc6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x23c
-	.uaword	0x1c12
+	.uaword	0x1c2c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x23e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x23f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x240
-	.uaword	0xf8d
+	.uaword	0xfa7
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_KRST1"
 	.byte	0x6
 	.uahalf	0x241
-	.uaword	0x1bea
+	.uaword	0x1c04
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x244
-	.uaword	0x1c50
+	.uaword	0x1c6a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x246
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x247
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x248
-	.uaword	0xfe8
+	.uaword	0x1002
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_KRSTCLR"
 	.byte	0x6
 	.uahalf	0x249
-	.uaword	0x1c28
+	.uaword	0x1c42
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x24c
-	.uaword	0x1c90
+	.uaword	0x1caa
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x24e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x24f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x250
-	.uaword	0x1091
+	.uaword	0x10ab
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_MIS"
 	.byte	0x6
 	.uahalf	0x251
-	.uaword	0x1c68
+	.uaword	0x1c82
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x254
-	.uaword	0x1ccc
+	.uaword	0x1ce6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x256
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x257
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x258
-	.uaword	0x1101
+	.uaword	0x111b
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_MODID"
 	.byte	0x6
 	.uahalf	0x259
-	.uaword	0x1ca4
+	.uaword	0x1cbe
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x25c
-	.uaword	0x1d0a
+	.uaword	0x1d24
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x25e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x25f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x260
-	.uaword	0x115e
+	.uaword	0x1178
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_MRPSCTRL"
 	.byte	0x6
 	.uahalf	0x261
-	.uaword	0x1ce2
+	.uaword	0x1cfc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x264
-	.uaword	0x1d4b
+	.uaword	0x1d65
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x266
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x267
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x268
-	.uaword	0x1217
+	.uaword	0x1231
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_PIRQSC"
 	.byte	0x6
 	.uahalf	0x269
-	.uaword	0x1d23
+	.uaword	0x1d3d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x26c
-	.uaword	0x1d8a
+	.uaword	0x1da4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x26e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x26f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x270
-	.uaword	0x12ce
+	.uaword	0x12e8
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_PIRQSM"
 	.byte	0x6
 	.uahalf	0x271
-	.uaword	0x1d62
+	.uaword	0x1d7c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x274
-	.uaword	0x1dc9
+	.uaword	0x1de3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x276
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x277
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x278
-	.uaword	0x1385
+	.uaword	0x139f
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_PIRQSS"
 	.byte	0x6
 	.uahalf	0x279
-	.uaword	0x1da1
+	.uaword	0x1dbb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x27c
-	.uaword	0x1e08
+	.uaword	0x1e22
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x27e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x27f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x280
-	.uaword	0x142d
+	.uaword	0x1447
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_RIS"
 	.byte	0x6
 	.uahalf	0x281
-	.uaword	0x1de0
+	.uaword	0x1dfa
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x284
-	.uaword	0x1e44
+	.uaword	0x1e5e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x286
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x287
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x288
-	.uaword	0x1486
+	.uaword	0x14a0
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_RPSSTAT"
 	.byte	0x6
 	.uahalf	0x289
-	.uaword	0x1e1c
+	.uaword	0x1e36
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x28c
-	.uaword	0x1e84
+	.uaword	0x1e9e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x28e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x28f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x290
-	.uaword	0x14e3
+	.uaword	0x14fd
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_RUNCTRL"
 	.byte	0x6
 	.uahalf	0x291
-	.uaword	0x1e5c
+	.uaword	0x1e76
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x294
-	.uaword	0x1ec4
+	.uaword	0x1ede
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x296
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x297
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x298
-	.uaword	0x152c
+	.uaword	0x1546
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_RXD"
 	.byte	0x6
 	.uahalf	0x299
-	.uaword	0x1e9c
+	.uaword	0x1eb6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x29c
-	.uaword	0x1f00
+	.uaword	0x1f1a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x29e
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x29f
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2a0
-	.uaword	0x1641
+	.uaword	0x165b
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_TIMCFG"
 	.byte	0x6
 	.uahalf	0x2a1
-	.uaword	0x1ed8
+	.uaword	0x1ef2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2a4
-	.uaword	0x1f3f
+	.uaword	0x1f59
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2a6
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2a7
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2a8
-	.uaword	0x169d
+	.uaword	0x16b7
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_TPSCTRL"
 	.byte	0x6
 	.uahalf	0x2a9
-	.uaword	0x1f17
+	.uaword	0x1f31
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2ac
-	.uaword	0x1f7f
+	.uaword	0x1f99
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2ae
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2af
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2b0
-	.uaword	0x16e6
+	.uaword	0x1700
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C_TXD"
 	.byte	0x6
 	.uahalf	0x2b1
-	.uaword	0x1f57
+	.uaword	0x1f71
 	.uleb128 0x14
 	.string	"_Ifx_I2C"
 	.uaword	0x10100
 	.byte	0x6
 	.uahalf	0x2bc
-	.uaword	0x22af
+	.uaword	0x22c9
 	.uleb128 0x15
 	.string	"CLC1"
 	.byte	0x6
 	.uahalf	0x2be
-	.uaword	0x1861
+	.uaword	0x187b
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF11
 	.byte	0x6
 	.uahalf	0x2bf
-	.uaword	0x22af
+	.uaword	0x22c9
 	.byte	0x4
 	.uleb128 0x15
 	.string	"ID"
 	.byte	0x6
 	.uahalf	0x2c0
-	.uaword	0x1b20
+	.uaword	0x1b3a
 	.byte	0x8
 	.uleb128 0x16
 	.uaword	.LASF26
 	.byte	0x6
 	.uahalf	0x2c1
-	.uaword	0x22af
+	.uaword	0x22c9
 	.byte	0xc
 	.uleb128 0x15
 	.string	"RUNCTRL"
 	.byte	0x6
 	.uahalf	0x2c2
-	.uaword	0x1e84
+	.uaword	0x1e9e
 	.byte	0x10
 	.uleb128 0x15
 	.string	"ENDDCTRL"
 	.byte	0x6
 	.uahalf	0x2c3
-	.uaword	0x189e
+	.uaword	0x18b8
 	.byte	0x14
 	.uleb128 0x15
 	.string	"FDIVCFG"
 	.byte	0x6
 	.uahalf	0x2c4
-	.uaword	0x19a2
+	.uaword	0x19bc
 	.byte	0x18
 	.uleb128 0x15
 	.string	"FDIVHIGHCFG"
 	.byte	0x6
 	.uahalf	0x2c5
-	.uaword	0x19e2
+	.uaword	0x19fc
 	.byte	0x1c
 	.uleb128 0x15
 	.string	"ADDRCFG"
 	.byte	0x6
 	.uahalf	0x2c6
-	.uaword	0x17a5
+	.uaword	0x17bf
 	.byte	0x20
 	.uleb128 0x15
 	.string	"BUSSTAT"
 	.byte	0x6
 	.uahalf	0x2c7
-	.uaword	0x17e5
+	.uaword	0x17ff
 	.byte	0x24
 	.uleb128 0x15
 	.string	"FIFOCFG"
 	.byte	0x6
 	.uahalf	0x2c8
-	.uaword	0x1a66
+	.uaword	0x1a80
 	.byte	0x28
 	.uleb128 0x15
 	.string	"MRPSCTRL"
 	.byte	0x6
 	.uahalf	0x2c9
-	.uaword	0x1d0a
+	.uaword	0x1d24
 	.byte	0x2c
 	.uleb128 0x15
 	.string	"RPSSTAT"
 	.byte	0x6
 	.uahalf	0x2ca
-	.uaword	0x1e44
+	.uaword	0x1e5e
 	.byte	0x30
 	.uleb128 0x15
 	.string	"TPSCTRL"
 	.byte	0x6
 	.uahalf	0x2cb
-	.uaword	0x1f3f
+	.uaword	0x1f59
 	.byte	0x34
 	.uleb128 0x15
 	.string	"FFSSTAT"
 	.byte	0x6
 	.uahalf	0x2cc
-	.uaword	0x1a26
+	.uaword	0x1a40
 	.byte	0x38
 	.uleb128 0x15
 	.string	"reserved_3C"
 	.byte	0x6
 	.uahalf	0x2cd
-	.uaword	0x22af
+	.uaword	0x22c9
 	.byte	0x3c
 	.uleb128 0x15
 	.string	"TIMCFG"
 	.byte	0x6
 	.uahalf	0x2ce
-	.uaword	0x1f00
+	.uaword	0x1f1a
 	.byte	0x40
 	.uleb128 0x15
 	.string	"reserved_44"
 	.byte	0x6
 	.uahalf	0x2cf
-	.uaword	0x22cb
+	.uaword	0x22e5
 	.byte	0x44
 	.uleb128 0x15
 	.string	"ERRIRQSM"
 	.byte	0x6
 	.uahalf	0x2d0
-	.uaword	0x1920
+	.uaword	0x193a
 	.byte	0x60
 	.uleb128 0x15
 	.string	"ERRIRQSS"
 	.byte	0x6
 	.uahalf	0x2d1
-	.uaword	0x1961
+	.uaword	0x197b
 	.byte	0x64
 	.uleb128 0x15
 	.string	"ERRIRQSC"
 	.byte	0x6
 	.uahalf	0x2d2
-	.uaword	0x18df
+	.uaword	0x18f9
 	.byte	0x68
 	.uleb128 0x15
 	.string	"reserved_6C"
 	.byte	0x6
 	.uahalf	0x2d3
-	.uaword	0x22af
+	.uaword	0x22c9
 	.byte	0x6c
 	.uleb128 0x15
 	.string	"PIRQSM"
 	.byte	0x6
 	.uahalf	0x2d4
-	.uaword	0x1d8a
+	.uaword	0x1da4
 	.byte	0x70
 	.uleb128 0x15
 	.string	"PIRQSS"
 	.byte	0x6
 	.uahalf	0x2d5
-	.uaword	0x1dc9
+	.uaword	0x1de3
 	.byte	0x74
 	.uleb128 0x15
 	.string	"PIRQSC"
 	.byte	0x6
 	.uahalf	0x2d6
-	.uaword	0x1d4b
+	.uaword	0x1d65
 	.byte	0x78
 	.uleb128 0x15
 	.string	"reserved_7C"
 	.byte	0x6
 	.uahalf	0x2d7
-	.uaword	0x22af
+	.uaword	0x22c9
 	.byte	0x7c
 	.uleb128 0x15
 	.string	"RIS"
 	.byte	0x6
 	.uahalf	0x2d8
-	.uaword	0x1e08
+	.uaword	0x1e22
 	.byte	0x80
 	.uleb128 0x15
 	.string	"IMSC"
 	.byte	0x6
 	.uahalf	0x2d9
-	.uaword	0x1b5b
+	.uaword	0x1b75
 	.byte	0x84
 	.uleb128 0x15
 	.string	"MIS"
 	.byte	0x6
 	.uahalf	0x2da
-	.uaword	0x1c90
+	.uaword	0x1caa
 	.byte	0x88
 	.uleb128 0x15
 	.string	"ICR"
 	.byte	0x6
 	.uahalf	0x2db
-	.uaword	0x1ae4
+	.uaword	0x1afe
 	.byte	0x8c
 	.uleb128 0x15
 	.string	"ISR"
 	.byte	0x6
 	.uahalf	0x2dc
-	.uaword	0x1b98
+	.uaword	0x1bb2
 	.byte	0x90
 	.uleb128 0x15
 	.string	"reserved_94"
 	.byte	0x6
 	.uahalf	0x2dd
-	.uaword	0x22db
+	.uaword	0x22f5
 	.byte	0x94
 	.uleb128 0x17
 	.string	"TXD"
 	.byte	0x6
 	.uahalf	0x2de
-	.uaword	0x1f7f
+	.uaword	0x1f99
 	.uahalf	0x8000
 	.uleb128 0x17
 	.string	"reserved_8004"
 	.byte	0x6
 	.uahalf	0x2df
-	.uaword	0x22ec
+	.uaword	0x2306
 	.uahalf	0x8004
 	.uleb128 0x17
 	.string	"RXD"
 	.byte	0x6
 	.uahalf	0x2e0
-	.uaword	0x1ec4
+	.uaword	0x1ede
 	.uahalf	0xc000
 	.uleb128 0x17
 	.string	"reserved_C004"
 	.byte	0x6
 	.uahalf	0x2e1
-	.uaword	0x22ec
+	.uaword	0x2306
 	.uahalf	0xc004
 	.uleb128 0x18
 	.string	"CLC"
 	.byte	0x6
 	.uahalf	0x2e2
-	.uaword	0x1825
+	.uaword	0x183f
 	.uleb128 0x10000
 	.uleb128 0x18
 	.string	"MODID"
 	.byte	0x6
 	.uahalf	0x2e3
-	.uaword	0x1ccc
+	.uaword	0x1ce6
 	.uleb128 0x10004
 	.uleb128 0x18
 	.string	"GPCTL"
 	.byte	0x6
 	.uahalf	0x2e4
-	.uaword	0x1aa6
+	.uaword	0x1ac0
 	.uleb128 0x10008
 	.uleb128 0x18
 	.string	"ACCEN0"
 	.byte	0x6
 	.uahalf	0x2e5
-	.uaword	0x1727
+	.uaword	0x1741
 	.uleb128 0x1000c
 	.uleb128 0x18
 	.string	"ACCEN1"
 	.byte	0x6
 	.uahalf	0x2e6
-	.uaword	0x1766
+	.uaword	0x1780
 	.uleb128 0x10010
 	.uleb128 0x18
 	.string	"KRST0"
 	.byte	0x6
 	.uahalf	0x2e7
-	.uaword	0x1bd4
+	.uaword	0x1bee
 	.uleb128 0x10014
 	.uleb128 0x18
 	.string	"KRST1"
 	.byte	0x6
 	.uahalf	0x2e8
-	.uaword	0x1c12
+	.uaword	0x1c2c
 	.uleb128 0x10018
 	.uleb128 0x18
 	.string	"KRSTCLR"
 	.byte	0x6
 	.uahalf	0x2e9
-	.uaword	0x1c50
+	.uaword	0x1c6a
 	.uleb128 0x1001c
 	.uleb128 0x18
 	.string	"reserved_10020"
 	.byte	0x6
 	.uahalf	0x2ea
-	.uaword	0x22fd
+	.uaword	0x2317
 	.uleb128 0x10020
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1cb
-	.uaword	0x22bf
+	.uaword	0x1e5
+	.uaword	0x22d9
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -4778,54 +4848,54 @@ I2C_Masters_Slaves:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x19
-	.uaword	0x1cb
-	.uaword	0x22db
+	.uaword	0x1e5
+	.uaword	0x22f5
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0x1b
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1cb
-	.uaword	0x22ec
+	.uaword	0x1e5
+	.uaword	0x2306
 	.uleb128 0x1b
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.uahalf	0x7f6b
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1cb
-	.uaword	0x22fd
+	.uaword	0x1e5
+	.uaword	0x2317
 	.uleb128 0x1b
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.uahalf	0x3ffb
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1cb
-	.uaword	0x230d
+	.uaword	0x1e5
+	.uaword	0x2327
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0xdf
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_I2C"
 	.byte	0x6
 	.uahalf	0x2eb
-	.uaword	0x231d
-	.uleb128 0x1c
-	.uaword	0x1f93
-	.uleb128 0x1c
-	.uaword	0x55f
-	.uleb128 0x19
-	.uaword	0x1cb
 	.uaword	0x2337
+	.uleb128 0x1c
+	.uaword	0x1fad
+	.uleb128 0x1c
+	.uaword	0x579
+	.uleb128 0x19
+	.uaword	0x1e5
+	.uaword	0x2351
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0x7
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1cb
-	.uaword	0x2347
+	.uaword	0x1e5
+	.uaword	0x2361
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0xb
 	.byte	0
 	.uleb128 0x10
@@ -4833,12 +4903,12 @@ I2C_Masters_Slaves:
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x176
-	.uaword	0x23bc
+	.uaword	0x23d6
 	.uleb128 0x11
 	.string	"CCPN"
 	.byte	0x7
 	.uahalf	0x178
-	.uaword	0x2322
+	.uaword	0x233c
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -4847,7 +4917,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x179
-	.uaword	0x2322
+	.uaword	0x233c
 	.byte	0x4
 	.byte	0x5
 	.byte	0x11
@@ -4856,7 +4926,7 @@ I2C_Masters_Slaves:
 	.string	"IE"
 	.byte	0x7
 	.uahalf	0x17a
-	.uaword	0x2322
+	.uaword	0x233c
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4865,7 +4935,7 @@ I2C_Masters_Slaves:
 	.string	"PIPN"
 	.byte	0x7
 	.uahalf	0x17b
-	.uaword	0x2322
+	.uaword	0x233c
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -4874,7 +4944,7 @@ I2C_Masters_Slaves:
 	.string	"reserved_26"
 	.byte	0x7
 	.uahalf	0x17c
-	.uaword	0x2322
+	.uaword	0x233c
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -4884,45 +4954,45 @@ I2C_Masters_Slaves:
 	.string	"Ifx_CPU_ICR_Bits"
 	.byte	0x7
 	.uahalf	0x17d
-	.uaword	0x2347
+	.uaword	0x2361
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3df
-	.uaword	0x23fd
+	.uaword	0x2417
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x3e1
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x3e2
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x3e3
-	.uaword	0x23bc
+	.uaword	0x23d6
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_CPU_ICR"
 	.byte	0x7
 	.uahalf	0x3e4
-	.uaword	0x23d5
+	.uaword	0x23ef
 	.uleb128 0x19
-	.uaword	0x1cb
-	.uaword	0x2421
+	.uaword	0x1e5
+	.uaword	0x243b
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0x17
 	.byte	0
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x8
 	.byte	0x76
-	.uaword	0x2471
+	.uaword	0x248b
 	.uleb128 0x7
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -4941,12 +5011,12 @@ I2C_Masters_Slaves:
 	.byte	0x4
 	.byte	0x9
 	.byte	0x2d
-	.uaword	0x2683
+	.uaword	0x269d
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x9
 	.byte	0x2f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4955,7 +5025,7 @@ I2C_Masters_Slaves:
 	.string	"EN1"
 	.byte	0x9
 	.byte	0x30
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4964,7 +5034,7 @@ I2C_Masters_Slaves:
 	.string	"EN2"
 	.byte	0x9
 	.byte	0x31
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4973,7 +5043,7 @@ I2C_Masters_Slaves:
 	.string	"EN3"
 	.byte	0x9
 	.byte	0x32
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4982,7 +5052,7 @@ I2C_Masters_Slaves:
 	.string	"EN4"
 	.byte	0x9
 	.byte	0x33
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4991,7 +5061,7 @@ I2C_Masters_Slaves:
 	.string	"EN5"
 	.byte	0x9
 	.byte	0x34
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5000,7 +5070,7 @@ I2C_Masters_Slaves:
 	.string	"EN6"
 	.byte	0x9
 	.byte	0x35
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5009,7 +5079,7 @@ I2C_Masters_Slaves:
 	.string	"EN7"
 	.byte	0x9
 	.byte	0x36
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5018,7 +5088,7 @@ I2C_Masters_Slaves:
 	.string	"EN8"
 	.byte	0x9
 	.byte	0x37
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5027,7 +5097,7 @@ I2C_Masters_Slaves:
 	.string	"EN9"
 	.byte	0x9
 	.byte	0x38
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5036,7 +5106,7 @@ I2C_Masters_Slaves:
 	.string	"EN10"
 	.byte	0x9
 	.byte	0x39
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5045,7 +5115,7 @@ I2C_Masters_Slaves:
 	.string	"EN11"
 	.byte	0x9
 	.byte	0x3a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5054,7 +5124,7 @@ I2C_Masters_Slaves:
 	.string	"EN12"
 	.byte	0x9
 	.byte	0x3b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5063,7 +5133,7 @@ I2C_Masters_Slaves:
 	.string	"EN13"
 	.byte	0x9
 	.byte	0x3c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5072,7 +5142,7 @@ I2C_Masters_Slaves:
 	.string	"EN14"
 	.byte	0x9
 	.byte	0x3d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5081,7 +5151,7 @@ I2C_Masters_Slaves:
 	.string	"EN15"
 	.byte	0x9
 	.byte	0x3e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5090,7 +5160,7 @@ I2C_Masters_Slaves:
 	.string	"EN16"
 	.byte	0x9
 	.byte	0x3f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5099,7 +5169,7 @@ I2C_Masters_Slaves:
 	.string	"EN17"
 	.byte	0x9
 	.byte	0x40
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5108,7 +5178,7 @@ I2C_Masters_Slaves:
 	.string	"EN18"
 	.byte	0x9
 	.byte	0x41
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5117,7 +5187,7 @@ I2C_Masters_Slaves:
 	.string	"EN19"
 	.byte	0x9
 	.byte	0x42
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5126,7 +5196,7 @@ I2C_Masters_Slaves:
 	.string	"EN20"
 	.byte	0x9
 	.byte	0x43
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5135,7 +5205,7 @@ I2C_Masters_Slaves:
 	.string	"EN21"
 	.byte	0x9
 	.byte	0x44
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5144,7 +5214,7 @@ I2C_Masters_Slaves:
 	.string	"EN22"
 	.byte	0x9
 	.byte	0x45
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5153,7 +5223,7 @@ I2C_Masters_Slaves:
 	.string	"EN23"
 	.byte	0x9
 	.byte	0x46
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5162,7 +5232,7 @@ I2C_Masters_Slaves:
 	.string	"EN24"
 	.byte	0x9
 	.byte	0x47
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -5171,7 +5241,7 @@ I2C_Masters_Slaves:
 	.string	"EN25"
 	.byte	0x9
 	.byte	0x48
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -5180,7 +5250,7 @@ I2C_Masters_Slaves:
 	.string	"EN26"
 	.byte	0x9
 	.byte	0x49
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -5189,7 +5259,7 @@ I2C_Masters_Slaves:
 	.string	"EN27"
 	.byte	0x9
 	.byte	0x4a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -5198,7 +5268,7 @@ I2C_Masters_Slaves:
 	.string	"EN28"
 	.byte	0x9
 	.byte	0x4b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -5207,7 +5277,7 @@ I2C_Masters_Slaves:
 	.string	"EN29"
 	.byte	0x9
 	.byte	0x4c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -5216,7 +5286,7 @@ I2C_Masters_Slaves:
 	.string	"EN30"
 	.byte	0x9
 	.byte	0x4d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5225,7 +5295,7 @@ I2C_Masters_Slaves:
 	.string	"EN31"
 	.byte	0x9
 	.byte	0x4e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5235,18 +5305,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x9
 	.byte	0x4f
-	.uaword	0x2471
+	.uaword	0x248b
 	.uleb128 0xb
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0x52
-	.uaword	0x26c7
+	.uaword	0x26e1
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0x54
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5256,18 +5326,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x9
 	.byte	0x55
-	.uaword	0x269c
+	.uaword	0x26b6
 	.uleb128 0xb
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0x58
-	.uaword	0x27fe
+	.uaword	0x2818
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x9
 	.byte	0x5a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5276,7 +5346,7 @@ I2C_Masters_Slaves:
 	.string	"EN1"
 	.byte	0x9
 	.byte	0x5b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5285,7 +5355,7 @@ I2C_Masters_Slaves:
 	.string	"EN2"
 	.byte	0x9
 	.byte	0x5c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5294,7 +5364,7 @@ I2C_Masters_Slaves:
 	.string	"EN3"
 	.byte	0x9
 	.byte	0x5d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5303,7 +5373,7 @@ I2C_Masters_Slaves:
 	.string	"EN4"
 	.byte	0x9
 	.byte	0x5e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5312,7 +5382,7 @@ I2C_Masters_Slaves:
 	.string	"EN5"
 	.byte	0x9
 	.byte	0x5f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5321,7 +5391,7 @@ I2C_Masters_Slaves:
 	.string	"EN6"
 	.byte	0x9
 	.byte	0x60
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5330,7 +5400,7 @@ I2C_Masters_Slaves:
 	.string	"EN7"
 	.byte	0x9
 	.byte	0x61
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5339,7 +5409,7 @@ I2C_Masters_Slaves:
 	.string	"EN8"
 	.byte	0x9
 	.byte	0x62
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5348,7 +5418,7 @@ I2C_Masters_Slaves:
 	.string	"EN9"
 	.byte	0x9
 	.byte	0x63
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5357,7 +5427,7 @@ I2C_Masters_Slaves:
 	.string	"EN10"
 	.byte	0x9
 	.byte	0x64
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5366,7 +5436,7 @@ I2C_Masters_Slaves:
 	.string	"EN11"
 	.byte	0x9
 	.byte	0x65
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5375,7 +5445,7 @@ I2C_Masters_Slaves:
 	.string	"EN12"
 	.byte	0x9
 	.byte	0x66
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5384,7 +5454,7 @@ I2C_Masters_Slaves:
 	.string	"EN13"
 	.byte	0x9
 	.byte	0x67
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5393,7 +5463,7 @@ I2C_Masters_Slaves:
 	.string	"EN14"
 	.byte	0x9
 	.byte	0x68
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5402,7 +5472,7 @@ I2C_Masters_Slaves:
 	.string	"EN15"
 	.byte	0x9
 	.byte	0x69
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5411,7 +5481,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.byte	0x6a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5421,18 +5491,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x9
 	.byte	0x6b
-	.uaword	0x26e0
+	.uaword	0x26fa
 	.uleb128 0xb
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0x6e
-	.uaword	0x2860
+	.uaword	0x287a
 	.uleb128 0xc
 	.string	"MODREV"
 	.byte	0x9
 	.byte	0x70
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5441,7 +5511,7 @@ I2C_Masters_Slaves:
 	.string	"MODTYPE"
 	.byte	0x9
 	.byte	0x71
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5450,7 +5520,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF19
 	.byte	0x9
 	.byte	0x72
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5460,18 +5530,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x9
 	.byte	0x73
-	.uaword	0x2814
+	.uaword	0x282e
 	.uleb128 0xb
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0x76
-	.uaword	0x2982
+	.uaword	0x299c
 	.uleb128 0xc
 	.string	"P0"
 	.byte	0x9
 	.byte	0x78
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5480,7 +5550,7 @@ I2C_Masters_Slaves:
 	.string	"P1"
 	.byte	0x9
 	.byte	0x79
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5489,7 +5559,7 @@ I2C_Masters_Slaves:
 	.string	"P2"
 	.byte	0x9
 	.byte	0x7a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5498,7 +5568,7 @@ I2C_Masters_Slaves:
 	.string	"P3"
 	.byte	0x9
 	.byte	0x7b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5507,7 +5577,7 @@ I2C_Masters_Slaves:
 	.string	"P4"
 	.byte	0x9
 	.byte	0x7c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5516,7 +5586,7 @@ I2C_Masters_Slaves:
 	.string	"P5"
 	.byte	0x9
 	.byte	0x7d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5525,7 +5595,7 @@ I2C_Masters_Slaves:
 	.string	"P6"
 	.byte	0x9
 	.byte	0x7e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5534,7 +5604,7 @@ I2C_Masters_Slaves:
 	.string	"P7"
 	.byte	0x9
 	.byte	0x7f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5543,7 +5613,7 @@ I2C_Masters_Slaves:
 	.string	"P8"
 	.byte	0x9
 	.byte	0x80
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5552,7 +5622,7 @@ I2C_Masters_Slaves:
 	.string	"P9"
 	.byte	0x9
 	.byte	0x81
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5561,7 +5631,7 @@ I2C_Masters_Slaves:
 	.string	"P10"
 	.byte	0x9
 	.byte	0x82
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5570,7 +5640,7 @@ I2C_Masters_Slaves:
 	.string	"P11"
 	.byte	0x9
 	.byte	0x83
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5579,7 +5649,7 @@ I2C_Masters_Slaves:
 	.string	"P12"
 	.byte	0x9
 	.byte	0x84
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5588,7 +5658,7 @@ I2C_Masters_Slaves:
 	.string	"P13"
 	.byte	0x9
 	.byte	0x85
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5597,7 +5667,7 @@ I2C_Masters_Slaves:
 	.string	"P14"
 	.byte	0x9
 	.byte	0x86
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5606,7 +5676,7 @@ I2C_Masters_Slaves:
 	.string	"P15"
 	.byte	0x9
 	.byte	0x87
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5615,7 +5685,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.byte	0x88
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5625,18 +5695,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x9
 	.byte	0x89
-	.uaword	0x2875
+	.uaword	0x288f
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0x8c
-	.uaword	0x2a2a
+	.uaword	0x2a44
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0x8e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -5645,7 +5715,7 @@ I2C_Masters_Slaves:
 	.string	"PC0"
 	.byte	0x9
 	.byte	0x8f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -5654,7 +5724,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF27
 	.byte	0x9
 	.byte	0x90
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -5663,7 +5733,7 @@ I2C_Masters_Slaves:
 	.string	"PC1"
 	.byte	0x9
 	.byte	0x91
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -5672,7 +5742,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.byte	0x92
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -5681,7 +5751,7 @@ I2C_Masters_Slaves:
 	.string	"PC2"
 	.byte	0x9
 	.byte	0x93
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -5690,7 +5760,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF13
 	.byte	0x9
 	.byte	0x94
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -5699,7 +5769,7 @@ I2C_Masters_Slaves:
 	.string	"PC3"
 	.byte	0x9
 	.byte	0x95
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -5709,18 +5779,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x9
 	.byte	0x96
-	.uaword	0x2997
+	.uaword	0x29b1
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0x99
-	.uaword	0x2ada
+	.uaword	0x2af4
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0x9b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -5729,7 +5799,7 @@ I2C_Masters_Slaves:
 	.string	"PC12"
 	.byte	0x9
 	.byte	0x9c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -5738,7 +5808,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF27
 	.byte	0x9
 	.byte	0x9d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -5747,7 +5817,7 @@ I2C_Masters_Slaves:
 	.string	"PC13"
 	.byte	0x9
 	.byte	0x9e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -5756,7 +5826,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.byte	0x9f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -5765,7 +5835,7 @@ I2C_Masters_Slaves:
 	.string	"PC14"
 	.byte	0x9
 	.byte	0xa0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -5774,7 +5844,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF13
 	.byte	0x9
 	.byte	0xa1
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -5783,7 +5853,7 @@ I2C_Masters_Slaves:
 	.string	"PC15"
 	.byte	0x9
 	.byte	0xa2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -5793,18 +5863,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x9
 	.byte	0xa3
-	.uaword	0x2a42
+	.uaword	0x2a5c
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xa6
-	.uaword	0x2b86
+	.uaword	0x2ba0
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0xa8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -5813,7 +5883,7 @@ I2C_Masters_Slaves:
 	.string	"PC4"
 	.byte	0x9
 	.byte	0xa9
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -5822,7 +5892,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF27
 	.byte	0x9
 	.byte	0xaa
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -5831,7 +5901,7 @@ I2C_Masters_Slaves:
 	.string	"PC5"
 	.byte	0x9
 	.byte	0xab
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -5840,7 +5910,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.byte	0xac
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -5849,7 +5919,7 @@ I2C_Masters_Slaves:
 	.string	"PC6"
 	.byte	0x9
 	.byte	0xad
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -5858,7 +5928,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF13
 	.byte	0x9
 	.byte	0xae
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -5867,7 +5937,7 @@ I2C_Masters_Slaves:
 	.string	"PC7"
 	.byte	0x9
 	.byte	0xaf
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -5877,18 +5947,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x9
 	.byte	0xb0
-	.uaword	0x2af3
+	.uaword	0x2b0d
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xb3
-	.uaword	0x2c33
+	.uaword	0x2c4d
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0xb5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -5897,7 +5967,7 @@ I2C_Masters_Slaves:
 	.string	"PC8"
 	.byte	0x9
 	.byte	0xb6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -5906,7 +5976,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF27
 	.byte	0x9
 	.byte	0xb7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -5915,7 +5985,7 @@ I2C_Masters_Slaves:
 	.string	"PC9"
 	.byte	0x9
 	.byte	0xb8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -5924,7 +5994,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.byte	0xb9
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -5933,7 +6003,7 @@ I2C_Masters_Slaves:
 	.string	"PC10"
 	.byte	0x9
 	.byte	0xba
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -5942,7 +6012,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF13
 	.byte	0x9
 	.byte	0xbb
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -5951,7 +6021,7 @@ I2C_Masters_Slaves:
 	.string	"PC11"
 	.byte	0x9
 	.byte	0xbc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -5961,18 +6031,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x9
 	.byte	0xbd
-	.uaword	0x2b9e
+	.uaword	0x2bb8
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xc0
-	.uaword	0x2c93
+	.uaword	0x2cad
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0xc2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5981,7 +6051,7 @@ I2C_Masters_Slaves:
 	.string	"PS1"
 	.byte	0x9
 	.byte	0xc3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5990,7 +6060,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF6
 	.byte	0x9
 	.byte	0xc4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6000,18 +6070,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x9
 	.byte	0xc5
-	.uaword	0x2c4b
+	.uaword	0x2c65
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR0_P21_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xc8
-	.uaword	0x2d1d
+	.uaword	0x2d37
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0x9
 	.byte	0xca
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6020,7 +6090,7 @@ I2C_Masters_Slaves:
 	.string	"RX_DIS"
 	.byte	0x9
 	.byte	0xcb
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6029,7 +6099,7 @@ I2C_Masters_Slaves:
 	.string	"TERM"
 	.byte	0x9
 	.byte	0xcc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6038,7 +6108,7 @@ I2C_Masters_Slaves:
 	.string	"LRXTERM"
 	.byte	0x9
 	.byte	0xcd
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -6047,7 +6117,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF27
 	.byte	0x9
 	.byte	0xce
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -6057,18 +6127,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_LPCR0_P21_Bits"
 	.byte	0x9
 	.byte	0xcf
-	.uaword	0x2cab
+	.uaword	0x2cc5
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xd2
-	.uaword	0x2d81
+	.uaword	0x2d9b
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0xd4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6077,7 +6147,7 @@ I2C_Masters_Slaves:
 	.string	"PS1"
 	.byte	0x9
 	.byte	0xd5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6086,7 +6156,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF6
 	.byte	0x9
 	.byte	0xd6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6096,18 +6166,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x9
 	.byte	0xd7
-	.uaword	0x2d39
+	.uaword	0x2d53
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xda
-	.uaword	0x2e0b
+	.uaword	0x2e25
 	.uleb128 0xd
 	.uaword	.LASF28
 	.byte	0x9
 	.byte	0xdc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6116,7 +6186,7 @@ I2C_Masters_Slaves:
 	.string	"RX_DIS"
 	.byte	0x9
 	.byte	0xdd
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6125,7 +6195,7 @@ I2C_Masters_Slaves:
 	.string	"TERM"
 	.byte	0x9
 	.byte	0xde
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6134,7 +6204,7 @@ I2C_Masters_Slaves:
 	.string	"LRXTERM"
 	.byte	0x9
 	.byte	0xdf
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -6143,7 +6213,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF27
 	.byte	0x9
 	.byte	0xe0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -6153,18 +6223,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x9
 	.byte	0xe1
-	.uaword	0x2d99
+	.uaword	0x2db3
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xe4
-	.uaword	0x2e6f
+	.uaword	0x2e89
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0xe6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6173,7 +6243,7 @@ I2C_Masters_Slaves:
 	.string	"PS1"
 	.byte	0x9
 	.byte	0xe7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6182,7 +6252,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF6
 	.byte	0x9
 	.byte	0xe8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6192,18 +6262,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x9
 	.byte	0xe9
-	.uaword	0x2e27
+	.uaword	0x2e41
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR2_P21_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xec
-	.uaword	0x2f42
+	.uaword	0x2f5c
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0xee
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6212,7 +6282,7 @@ I2C_Masters_Slaves:
 	.string	"LVDSR"
 	.byte	0x9
 	.byte	0xef
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6221,7 +6291,7 @@ I2C_Masters_Slaves:
 	.string	"LVDSRL"
 	.byte	0x9
 	.byte	0xf0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6230,7 +6300,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF2
 	.byte	0x9
 	.byte	0xf1
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -6239,7 +6309,7 @@ I2C_Masters_Slaves:
 	.string	"TDIS_CTRL"
 	.byte	0x9
 	.byte	0xf2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6248,7 +6318,7 @@ I2C_Masters_Slaves:
 	.string	"TX_DIS"
 	.byte	0x9
 	.byte	0xf3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6257,7 +6327,7 @@ I2C_Masters_Slaves:
 	.string	"TX_PD"
 	.byte	0x9
 	.byte	0xf4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6266,7 +6336,7 @@ I2C_Masters_Slaves:
 	.string	"TX_PWDPD"
 	.byte	0x9
 	.byte	0xf5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6275,7 +6345,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.byte	0xf6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6285,18 +6355,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_LPCR2_P21_Bits"
 	.byte	0x9
 	.byte	0xf7
-	.uaword	0x2e87
+	.uaword	0x2ea1
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR3_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xfa
-	.uaword	0x2fa6
+	.uaword	0x2fc0
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x9
 	.byte	0xfc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6305,7 +6375,7 @@ I2C_Masters_Slaves:
 	.string	"PS1"
 	.byte	0x9
 	.byte	0xfd
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6314,7 +6384,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF6
 	.byte	0x9
 	.byte	0xfe
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6324,18 +6394,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_LPCR3_Bits"
 	.byte	0x9
 	.byte	0xff
-	.uaword	0x2f5e
+	.uaword	0x2f78
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x102
-	.uaword	0x303e
+	.uaword	0x3058
 	.uleb128 0xe
 	.uaword	.LASF1
 	.byte	0x9
 	.uahalf	0x104
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6344,7 +6414,7 @@ I2C_Masters_Slaves:
 	.string	"PCL0"
 	.byte	0x9
 	.uahalf	0x105
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6353,7 +6423,7 @@ I2C_Masters_Slaves:
 	.string	"PCL1"
 	.byte	0x9
 	.uahalf	0x106
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6362,7 +6432,7 @@ I2C_Masters_Slaves:
 	.string	"PCL2"
 	.byte	0x9
 	.uahalf	0x107
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6371,7 +6441,7 @@ I2C_Masters_Slaves:
 	.string	"PCL3"
 	.byte	0x9
 	.uahalf	0x108
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6380,7 +6450,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF29
 	.byte	0x9
 	.uahalf	0x109
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -6390,18 +6460,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x9
 	.uahalf	0x10a
-	.uaword	0x2fbe
+	.uaword	0x2fd8
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x10d
-	.uaword	0x30cc
+	.uaword	0x30e6
 	.uleb128 0xe
 	.uaword	.LASF1
 	.byte	0x9
 	.uahalf	0x10f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -6410,7 +6480,7 @@ I2C_Masters_Slaves:
 	.string	"PCL12"
 	.byte	0x9
 	.uahalf	0x110
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -6419,7 +6489,7 @@ I2C_Masters_Slaves:
 	.string	"PCL13"
 	.byte	0x9
 	.uahalf	0x111
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6428,7 +6498,7 @@ I2C_Masters_Slaves:
 	.string	"PCL14"
 	.byte	0x9
 	.uahalf	0x112
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6437,7 +6507,7 @@ I2C_Masters_Slaves:
 	.string	"PCL15"
 	.byte	0x9
 	.uahalf	0x113
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6447,18 +6517,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x9
 	.uahalf	0x114
-	.uaword	0x3057
+	.uaword	0x3071
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x117
-	.uaword	0x3166
+	.uaword	0x3180
 	.uleb128 0xe
 	.uaword	.LASF1
 	.byte	0x9
 	.uahalf	0x119
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -6467,7 +6537,7 @@ I2C_Masters_Slaves:
 	.string	"PCL4"
 	.byte	0x9
 	.uahalf	0x11a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6476,7 +6546,7 @@ I2C_Masters_Slaves:
 	.string	"PCL5"
 	.byte	0x9
 	.uahalf	0x11b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6485,7 +6555,7 @@ I2C_Masters_Slaves:
 	.string	"PCL6"
 	.byte	0x9
 	.uahalf	0x11c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6494,7 +6564,7 @@ I2C_Masters_Slaves:
 	.string	"PCL7"
 	.byte	0x9
 	.uahalf	0x11d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6503,7 +6573,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF13
 	.byte	0x9
 	.uahalf	0x11e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6513,18 +6583,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x9
 	.uahalf	0x11f
-	.uaword	0x30e6
+	.uaword	0x3100
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x122
-	.uaword	0x3201
+	.uaword	0x321b
 	.uleb128 0xe
 	.uaword	.LASF1
 	.byte	0x9
 	.uahalf	0x124
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -6533,7 +6603,7 @@ I2C_Masters_Slaves:
 	.string	"PCL8"
 	.byte	0x9
 	.uahalf	0x125
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6542,7 +6612,7 @@ I2C_Masters_Slaves:
 	.string	"PCL9"
 	.byte	0x9
 	.uahalf	0x126
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6551,7 +6621,7 @@ I2C_Masters_Slaves:
 	.string	"PCL10"
 	.byte	0x9
 	.uahalf	0x127
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -6560,7 +6630,7 @@ I2C_Masters_Slaves:
 	.string	"PCL11"
 	.byte	0x9
 	.uahalf	0x128
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6569,7 +6639,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF30
 	.byte	0x9
 	.uahalf	0x129
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6579,18 +6649,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x9
 	.uahalf	0x12a
-	.uaword	0x317f
+	.uaword	0x3199
 	.uleb128 0x10
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x12d
-	.uaword	0x335b
+	.uaword	0x3375
 	.uleb128 0xe
 	.uaword	.LASF1
 	.byte	0x9
 	.uahalf	0x12f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6599,7 +6669,7 @@ I2C_Masters_Slaves:
 	.string	"PCL0"
 	.byte	0x9
 	.uahalf	0x130
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6608,7 +6678,7 @@ I2C_Masters_Slaves:
 	.string	"PCL1"
 	.byte	0x9
 	.uahalf	0x131
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6617,7 +6687,7 @@ I2C_Masters_Slaves:
 	.string	"PCL2"
 	.byte	0x9
 	.uahalf	0x132
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6626,7 +6696,7 @@ I2C_Masters_Slaves:
 	.string	"PCL3"
 	.byte	0x9
 	.uahalf	0x133
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6635,7 +6705,7 @@ I2C_Masters_Slaves:
 	.string	"PCL4"
 	.byte	0x9
 	.uahalf	0x134
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6644,7 +6714,7 @@ I2C_Masters_Slaves:
 	.string	"PCL5"
 	.byte	0x9
 	.uahalf	0x135
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6653,7 +6723,7 @@ I2C_Masters_Slaves:
 	.string	"PCL6"
 	.byte	0x9
 	.uahalf	0x136
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6662,7 +6732,7 @@ I2C_Masters_Slaves:
 	.string	"PCL7"
 	.byte	0x9
 	.uahalf	0x137
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6671,7 +6741,7 @@ I2C_Masters_Slaves:
 	.string	"PCL8"
 	.byte	0x9
 	.uahalf	0x138
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6680,7 +6750,7 @@ I2C_Masters_Slaves:
 	.string	"PCL9"
 	.byte	0x9
 	.uahalf	0x139
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6689,7 +6759,7 @@ I2C_Masters_Slaves:
 	.string	"PCL10"
 	.byte	0x9
 	.uahalf	0x13a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -6698,7 +6768,7 @@ I2C_Masters_Slaves:
 	.string	"PCL11"
 	.byte	0x9
 	.uahalf	0x13b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6707,7 +6777,7 @@ I2C_Masters_Slaves:
 	.string	"PCL12"
 	.byte	0x9
 	.uahalf	0x13c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -6716,7 +6786,7 @@ I2C_Masters_Slaves:
 	.string	"PCL13"
 	.byte	0x9
 	.uahalf	0x13d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6725,7 +6795,7 @@ I2C_Masters_Slaves:
 	.string	"PCL14"
 	.byte	0x9
 	.uahalf	0x13e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6734,7 +6804,7 @@ I2C_Masters_Slaves:
 	.string	"PCL15"
 	.byte	0x9
 	.uahalf	0x13f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6744,18 +6814,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x9
 	.uahalf	0x140
-	.uaword	0x321a
+	.uaword	0x3234
 	.uleb128 0x10
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x143
-	.uaword	0x35a9
+	.uaword	0x35c3
 	.uleb128 0x11
 	.string	"PS0"
 	.byte	0x9
 	.uahalf	0x145
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6764,7 +6834,7 @@ I2C_Masters_Slaves:
 	.string	"PS1"
 	.byte	0x9
 	.uahalf	0x146
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6773,7 +6843,7 @@ I2C_Masters_Slaves:
 	.string	"PS2"
 	.byte	0x9
 	.uahalf	0x147
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6782,7 +6852,7 @@ I2C_Masters_Slaves:
 	.string	"PS3"
 	.byte	0x9
 	.uahalf	0x148
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6791,7 +6861,7 @@ I2C_Masters_Slaves:
 	.string	"PS4"
 	.byte	0x9
 	.uahalf	0x149
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6800,7 +6870,7 @@ I2C_Masters_Slaves:
 	.string	"PS5"
 	.byte	0x9
 	.uahalf	0x14a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6809,7 +6879,7 @@ I2C_Masters_Slaves:
 	.string	"PS6"
 	.byte	0x9
 	.uahalf	0x14b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6818,7 +6888,7 @@ I2C_Masters_Slaves:
 	.string	"PS7"
 	.byte	0x9
 	.uahalf	0x14c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6827,7 +6897,7 @@ I2C_Masters_Slaves:
 	.string	"PS8"
 	.byte	0x9
 	.uahalf	0x14d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6836,7 +6906,7 @@ I2C_Masters_Slaves:
 	.string	"PS9"
 	.byte	0x9
 	.uahalf	0x14e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6845,7 +6915,7 @@ I2C_Masters_Slaves:
 	.string	"PS10"
 	.byte	0x9
 	.uahalf	0x14f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6854,7 +6924,7 @@ I2C_Masters_Slaves:
 	.string	"PS11"
 	.byte	0x9
 	.uahalf	0x150
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6863,7 +6933,7 @@ I2C_Masters_Slaves:
 	.string	"PS12"
 	.byte	0x9
 	.uahalf	0x151
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6872,7 +6942,7 @@ I2C_Masters_Slaves:
 	.string	"PS13"
 	.byte	0x9
 	.uahalf	0x152
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6881,7 +6951,7 @@ I2C_Masters_Slaves:
 	.string	"PS14"
 	.byte	0x9
 	.uahalf	0x153
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6890,7 +6960,7 @@ I2C_Masters_Slaves:
 	.string	"PS15"
 	.byte	0x9
 	.uahalf	0x154
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6899,7 +6969,7 @@ I2C_Masters_Slaves:
 	.string	"PCL0"
 	.byte	0x9
 	.uahalf	0x155
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6908,7 +6978,7 @@ I2C_Masters_Slaves:
 	.string	"PCL1"
 	.byte	0x9
 	.uahalf	0x156
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6917,7 +6987,7 @@ I2C_Masters_Slaves:
 	.string	"PCL2"
 	.byte	0x9
 	.uahalf	0x157
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6926,7 +6996,7 @@ I2C_Masters_Slaves:
 	.string	"PCL3"
 	.byte	0x9
 	.uahalf	0x158
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6935,7 +7005,7 @@ I2C_Masters_Slaves:
 	.string	"PCL4"
 	.byte	0x9
 	.uahalf	0x159
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6944,7 +7014,7 @@ I2C_Masters_Slaves:
 	.string	"PCL5"
 	.byte	0x9
 	.uahalf	0x15a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6953,7 +7023,7 @@ I2C_Masters_Slaves:
 	.string	"PCL6"
 	.byte	0x9
 	.uahalf	0x15b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6962,7 +7032,7 @@ I2C_Masters_Slaves:
 	.string	"PCL7"
 	.byte	0x9
 	.uahalf	0x15c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6971,7 +7041,7 @@ I2C_Masters_Slaves:
 	.string	"PCL8"
 	.byte	0x9
 	.uahalf	0x15d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6980,7 +7050,7 @@ I2C_Masters_Slaves:
 	.string	"PCL9"
 	.byte	0x9
 	.uahalf	0x15e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6989,7 +7059,7 @@ I2C_Masters_Slaves:
 	.string	"PCL10"
 	.byte	0x9
 	.uahalf	0x15f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -6998,7 +7068,7 @@ I2C_Masters_Slaves:
 	.string	"PCL11"
 	.byte	0x9
 	.uahalf	0x160
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7007,7 +7077,7 @@ I2C_Masters_Slaves:
 	.string	"PCL12"
 	.byte	0x9
 	.uahalf	0x161
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7016,7 +7086,7 @@ I2C_Masters_Slaves:
 	.string	"PCL13"
 	.byte	0x9
 	.uahalf	0x162
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7025,7 +7095,7 @@ I2C_Masters_Slaves:
 	.string	"PCL14"
 	.byte	0x9
 	.uahalf	0x163
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7034,7 +7104,7 @@ I2C_Masters_Slaves:
 	.string	"PCL15"
 	.byte	0x9
 	.uahalf	0x164
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7044,18 +7114,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x9
 	.uahalf	0x165
-	.uaword	0x3373
+	.uaword	0x338d
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x168
-	.uaword	0x362c
+	.uaword	0x3646
 	.uleb128 0x11
 	.string	"PS0"
 	.byte	0x9
 	.uahalf	0x16a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7064,7 +7134,7 @@ I2C_Masters_Slaves:
 	.string	"PS1"
 	.byte	0x9
 	.uahalf	0x16b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7073,7 +7143,7 @@ I2C_Masters_Slaves:
 	.string	"PS2"
 	.byte	0x9
 	.uahalf	0x16c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7082,7 +7152,7 @@ I2C_Masters_Slaves:
 	.string	"PS3"
 	.byte	0x9
 	.uahalf	0x16d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7091,7 +7161,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF11
 	.byte	0x9
 	.uahalf	0x16e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -7101,18 +7171,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x9
 	.uahalf	0x16f
-	.uaword	0x35c0
+	.uaword	0x35da
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x172
-	.uaword	0x36c6
+	.uaword	0x36e0
 	.uleb128 0xe
 	.uaword	.LASF1
 	.byte	0x9
 	.uahalf	0x174
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -7121,7 +7191,7 @@ I2C_Masters_Slaves:
 	.string	"PS12"
 	.byte	0x9
 	.uahalf	0x175
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7130,7 +7200,7 @@ I2C_Masters_Slaves:
 	.string	"PS13"
 	.byte	0x9
 	.uahalf	0x176
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7139,7 +7209,7 @@ I2C_Masters_Slaves:
 	.string	"PS14"
 	.byte	0x9
 	.uahalf	0x177
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7148,7 +7218,7 @@ I2C_Masters_Slaves:
 	.string	"PS15"
 	.byte	0x9
 	.uahalf	0x178
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7157,7 +7227,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.uahalf	0x179
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7167,18 +7237,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x9
 	.uahalf	0x17a
-	.uaword	0x3645
+	.uaword	0x365f
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x17d
-	.uaword	0x375c
+	.uaword	0x3776
 	.uleb128 0xe
 	.uaword	.LASF1
 	.byte	0x9
 	.uahalf	0x17f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -7187,7 +7257,7 @@ I2C_Masters_Slaves:
 	.string	"PS4"
 	.byte	0x9
 	.uahalf	0x180
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7196,7 +7266,7 @@ I2C_Masters_Slaves:
 	.string	"PS5"
 	.byte	0x9
 	.uahalf	0x181
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7205,7 +7275,7 @@ I2C_Masters_Slaves:
 	.string	"PS6"
 	.byte	0x9
 	.uahalf	0x182
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7214,7 +7284,7 @@ I2C_Masters_Slaves:
 	.string	"PS7"
 	.byte	0x9
 	.uahalf	0x183
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7223,7 +7293,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF27
 	.byte	0x9
 	.uahalf	0x184
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -7233,18 +7303,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x9
 	.uahalf	0x185
-	.uaword	0x36e0
+	.uaword	0x36fa
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x188
-	.uaword	0x37f3
+	.uaword	0x380d
 	.uleb128 0xe
 	.uaword	.LASF1
 	.byte	0x9
 	.uahalf	0x18a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -7253,7 +7323,7 @@ I2C_Masters_Slaves:
 	.string	"PS8"
 	.byte	0x9
 	.uahalf	0x18b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7262,7 +7332,7 @@ I2C_Masters_Slaves:
 	.string	"PS9"
 	.byte	0x9
 	.uahalf	0x18c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7271,7 +7341,7 @@ I2C_Masters_Slaves:
 	.string	"PS10"
 	.byte	0x9
 	.uahalf	0x18d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7280,7 +7350,7 @@ I2C_Masters_Slaves:
 	.string	"PS11"
 	.byte	0x9
 	.uahalf	0x18e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7289,7 +7359,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF25
 	.byte	0x9
 	.uahalf	0x18f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -7299,18 +7369,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x9
 	.uahalf	0x190
-	.uaword	0x3775
+	.uaword	0x378f
 	.uleb128 0x10
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x193
-	.uaword	0x393d
+	.uaword	0x3957
 	.uleb128 0x11
 	.string	"PS0"
 	.byte	0x9
 	.uahalf	0x195
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7319,7 +7389,7 @@ I2C_Masters_Slaves:
 	.string	"PS1"
 	.byte	0x9
 	.uahalf	0x196
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7328,7 +7398,7 @@ I2C_Masters_Slaves:
 	.string	"PS2"
 	.byte	0x9
 	.uahalf	0x197
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7337,7 +7407,7 @@ I2C_Masters_Slaves:
 	.string	"PS3"
 	.byte	0x9
 	.uahalf	0x198
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7346,7 +7416,7 @@ I2C_Masters_Slaves:
 	.string	"PS4"
 	.byte	0x9
 	.uahalf	0x199
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7355,7 +7425,7 @@ I2C_Masters_Slaves:
 	.string	"PS5"
 	.byte	0x9
 	.uahalf	0x19a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7364,7 +7434,7 @@ I2C_Masters_Slaves:
 	.string	"PS6"
 	.byte	0x9
 	.uahalf	0x19b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7373,7 +7443,7 @@ I2C_Masters_Slaves:
 	.string	"PS7"
 	.byte	0x9
 	.uahalf	0x19c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7382,7 +7452,7 @@ I2C_Masters_Slaves:
 	.string	"PS8"
 	.byte	0x9
 	.uahalf	0x19d
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7391,7 +7461,7 @@ I2C_Masters_Slaves:
 	.string	"PS9"
 	.byte	0x9
 	.uahalf	0x19e
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7400,7 +7470,7 @@ I2C_Masters_Slaves:
 	.string	"PS10"
 	.byte	0x9
 	.uahalf	0x19f
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7409,7 +7479,7 @@ I2C_Masters_Slaves:
 	.string	"PS11"
 	.byte	0x9
 	.uahalf	0x1a0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7418,7 +7488,7 @@ I2C_Masters_Slaves:
 	.string	"PS12"
 	.byte	0x9
 	.uahalf	0x1a1
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7427,7 +7497,7 @@ I2C_Masters_Slaves:
 	.string	"PS13"
 	.byte	0x9
 	.uahalf	0x1a2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7436,7 +7506,7 @@ I2C_Masters_Slaves:
 	.string	"PS14"
 	.byte	0x9
 	.uahalf	0x1a3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7445,7 +7515,7 @@ I2C_Masters_Slaves:
 	.string	"PS15"
 	.byte	0x9
 	.uahalf	0x1a4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7454,7 +7524,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.uahalf	0x1a5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7464,18 +7534,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x9
 	.uahalf	0x1a6
-	.uaword	0x380c
+	.uaword	0x3826
 	.uleb128 0x10
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x1a9
-	.uaword	0x3a75
+	.uaword	0x3a8f
 	.uleb128 0x11
 	.string	"P0"
 	.byte	0x9
 	.uahalf	0x1ab
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7484,7 +7554,7 @@ I2C_Masters_Slaves:
 	.string	"P1"
 	.byte	0x9
 	.uahalf	0x1ac
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7493,7 +7563,7 @@ I2C_Masters_Slaves:
 	.string	"P2"
 	.byte	0x9
 	.uahalf	0x1ad
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7502,7 +7572,7 @@ I2C_Masters_Slaves:
 	.string	"P3"
 	.byte	0x9
 	.uahalf	0x1ae
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7511,7 +7581,7 @@ I2C_Masters_Slaves:
 	.string	"P4"
 	.byte	0x9
 	.uahalf	0x1af
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7520,7 +7590,7 @@ I2C_Masters_Slaves:
 	.string	"P5"
 	.byte	0x9
 	.uahalf	0x1b0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7529,7 +7599,7 @@ I2C_Masters_Slaves:
 	.string	"P6"
 	.byte	0x9
 	.uahalf	0x1b1
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7538,7 +7608,7 @@ I2C_Masters_Slaves:
 	.string	"P7"
 	.byte	0x9
 	.uahalf	0x1b2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7547,7 +7617,7 @@ I2C_Masters_Slaves:
 	.string	"P8"
 	.byte	0x9
 	.uahalf	0x1b3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7556,7 +7626,7 @@ I2C_Masters_Slaves:
 	.string	"P9"
 	.byte	0x9
 	.uahalf	0x1b4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7565,7 +7635,7 @@ I2C_Masters_Slaves:
 	.string	"P10"
 	.byte	0x9
 	.uahalf	0x1b5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7574,7 +7644,7 @@ I2C_Masters_Slaves:
 	.string	"P11"
 	.byte	0x9
 	.uahalf	0x1b6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7583,7 +7653,7 @@ I2C_Masters_Slaves:
 	.string	"P12"
 	.byte	0x9
 	.uahalf	0x1b7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7592,7 +7662,7 @@ I2C_Masters_Slaves:
 	.string	"P13"
 	.byte	0x9
 	.uahalf	0x1b8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7601,7 +7671,7 @@ I2C_Masters_Slaves:
 	.string	"P14"
 	.byte	0x9
 	.uahalf	0x1b9
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7610,7 +7680,7 @@ I2C_Masters_Slaves:
 	.string	"P15"
 	.byte	0x9
 	.uahalf	0x1ba
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7619,7 +7689,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.uahalf	0x1bb
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7629,18 +7699,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x9
 	.uahalf	0x1bc
-	.uaword	0x3955
+	.uaword	0x396f
 	.uleb128 0x10
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x1bf
-	.uaword	0x3b72
+	.uaword	0x3b8c
 	.uleb128 0x11
 	.string	"SEL0"
 	.byte	0x9
 	.uahalf	0x1c1
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7649,7 +7719,7 @@ I2C_Masters_Slaves:
 	.string	"SEL1"
 	.byte	0x9
 	.uahalf	0x1c2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7658,7 +7728,7 @@ I2C_Masters_Slaves:
 	.string	"SEL2"
 	.byte	0x9
 	.uahalf	0x1c3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7667,7 +7737,7 @@ I2C_Masters_Slaves:
 	.string	"SEL3"
 	.byte	0x9
 	.uahalf	0x1c4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7676,7 +7746,7 @@ I2C_Masters_Slaves:
 	.string	"SEL4"
 	.byte	0x9
 	.uahalf	0x1c5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7685,7 +7755,7 @@ I2C_Masters_Slaves:
 	.string	"SEL5"
 	.byte	0x9
 	.uahalf	0x1c6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7694,7 +7764,7 @@ I2C_Masters_Slaves:
 	.string	"SEL6"
 	.byte	0x9
 	.uahalf	0x1c7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7703,7 +7773,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF24
 	.byte	0x9
 	.uahalf	0x1c8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -7712,7 +7782,7 @@ I2C_Masters_Slaves:
 	.string	"SEL10"
 	.byte	0x9
 	.uahalf	0x1c9
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7721,7 +7791,7 @@ I2C_Masters_Slaves:
 	.string	"SEL11"
 	.byte	0x9
 	.uahalf	0x1ca
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7730,7 +7800,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF25
 	.byte	0x9
 	.uahalf	0x1cb
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -7739,7 +7809,7 @@ I2C_Masters_Slaves:
 	.string	"LCK"
 	.byte	0x9
 	.uahalf	0x1cc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7749,18 +7819,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x9
 	.uahalf	0x1cd
-	.uaword	0x3a8c
+	.uaword	0x3aa6
 	.uleb128 0x10
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x1d0
-	.uaword	0x3cdc
+	.uaword	0x3cf6
 	.uleb128 0x11
 	.string	"PDIS0"
 	.byte	0x9
 	.uahalf	0x1d2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7769,7 +7839,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS1"
 	.byte	0x9
 	.uahalf	0x1d3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7778,7 +7848,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS2"
 	.byte	0x9
 	.uahalf	0x1d4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7787,7 +7857,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS3"
 	.byte	0x9
 	.uahalf	0x1d5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7796,7 +7866,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS4"
 	.byte	0x9
 	.uahalf	0x1d6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7805,7 +7875,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS5"
 	.byte	0x9
 	.uahalf	0x1d7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7814,7 +7884,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS6"
 	.byte	0x9
 	.uahalf	0x1d8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7823,7 +7893,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS7"
 	.byte	0x9
 	.uahalf	0x1d9
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7832,7 +7902,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS8"
 	.byte	0x9
 	.uahalf	0x1da
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7841,7 +7911,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS9"
 	.byte	0x9
 	.uahalf	0x1db
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7850,7 +7920,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS10"
 	.byte	0x9
 	.uahalf	0x1dc
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7859,7 +7929,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS11"
 	.byte	0x9
 	.uahalf	0x1dd
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7868,7 +7938,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS12"
 	.byte	0x9
 	.uahalf	0x1de
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7877,7 +7947,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS13"
 	.byte	0x9
 	.uahalf	0x1df
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7886,7 +7956,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS14"
 	.byte	0x9
 	.uahalf	0x1e0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7895,7 +7965,7 @@ I2C_Masters_Slaves:
 	.string	"PDIS15"
 	.byte	0x9
 	.uahalf	0x1e1
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7904,7 +7974,7 @@ I2C_Masters_Slaves:
 	.uaword	.LASF5
 	.byte	0x9
 	.uahalf	0x1e2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7914,18 +7984,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x9
 	.uahalf	0x1e3
-	.uaword	0x3b8a
+	.uaword	0x3ba4
 	.uleb128 0x10
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x1e6
-	.uaword	0x3e10
+	.uaword	0x3e2a
 	.uleb128 0x11
 	.string	"PD0"
 	.byte	0x9
 	.uahalf	0x1e8
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7934,7 +8004,7 @@ I2C_Masters_Slaves:
 	.string	"PL0"
 	.byte	0x9
 	.uahalf	0x1e9
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7943,7 +8013,7 @@ I2C_Masters_Slaves:
 	.string	"PD1"
 	.byte	0x9
 	.uahalf	0x1ea
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -7952,7 +8022,7 @@ I2C_Masters_Slaves:
 	.string	"PL1"
 	.byte	0x9
 	.uahalf	0x1eb
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7961,7 +8031,7 @@ I2C_Masters_Slaves:
 	.string	"PD2"
 	.byte	0x9
 	.uahalf	0x1ec
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7970,7 +8040,7 @@ I2C_Masters_Slaves:
 	.string	"PL2"
 	.byte	0x9
 	.uahalf	0x1ed
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7979,7 +8049,7 @@ I2C_Masters_Slaves:
 	.string	"PD3"
 	.byte	0x9
 	.uahalf	0x1ee
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -7988,7 +8058,7 @@ I2C_Masters_Slaves:
 	.string	"PL3"
 	.byte	0x9
 	.uahalf	0x1ef
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7997,7 +8067,7 @@ I2C_Masters_Slaves:
 	.string	"PD4"
 	.byte	0x9
 	.uahalf	0x1f0
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -8006,7 +8076,7 @@ I2C_Masters_Slaves:
 	.string	"PL4"
 	.byte	0x9
 	.uahalf	0x1f1
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8015,7 +8085,7 @@ I2C_Masters_Slaves:
 	.string	"PD5"
 	.byte	0x9
 	.uahalf	0x1f2
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -8024,7 +8094,7 @@ I2C_Masters_Slaves:
 	.string	"PL5"
 	.byte	0x9
 	.uahalf	0x1f3
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8033,7 +8103,7 @@ I2C_Masters_Slaves:
 	.string	"PD6"
 	.byte	0x9
 	.uahalf	0x1f4
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -8042,7 +8112,7 @@ I2C_Masters_Slaves:
 	.string	"PL6"
 	.byte	0x9
 	.uahalf	0x1f5
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8051,7 +8121,7 @@ I2C_Masters_Slaves:
 	.string	"PD7"
 	.byte	0x9
 	.uahalf	0x1f6
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -8060,7 +8130,7 @@ I2C_Masters_Slaves:
 	.string	"PL7"
 	.byte	0x9
 	.uahalf	0x1f7
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8070,18 +8140,18 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x9
 	.uahalf	0x1f8
-	.uaword	0x3cf5
+	.uaword	0x3d0f
 	.uleb128 0x10
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x1fb
-	.uaword	0x3f4f
+	.uaword	0x3f69
 	.uleb128 0x11
 	.string	"PD8"
 	.byte	0x9
 	.uahalf	0x1fd
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -8090,7 +8160,7 @@ I2C_Masters_Slaves:
 	.string	"PL8"
 	.byte	0x9
 	.uahalf	0x1fe
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8099,7 +8169,7 @@ I2C_Masters_Slaves:
 	.string	"PD9"
 	.byte	0x9
 	.uahalf	0x1ff
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -8108,7 +8178,7 @@ I2C_Masters_Slaves:
 	.string	"PL9"
 	.byte	0x9
 	.uahalf	0x200
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8117,7 +8187,7 @@ I2C_Masters_Slaves:
 	.string	"PD10"
 	.byte	0x9
 	.uahalf	0x201
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -8126,7 +8196,7 @@ I2C_Masters_Slaves:
 	.string	"PL10"
 	.byte	0x9
 	.uahalf	0x202
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8135,7 +8205,7 @@ I2C_Masters_Slaves:
 	.string	"PD11"
 	.byte	0x9
 	.uahalf	0x203
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -8144,7 +8214,7 @@ I2C_Masters_Slaves:
 	.string	"PL11"
 	.byte	0x9
 	.uahalf	0x204
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8153,7 +8223,7 @@ I2C_Masters_Slaves:
 	.string	"PD12"
 	.byte	0x9
 	.uahalf	0x205
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -8162,7 +8232,7 @@ I2C_Masters_Slaves:
 	.string	"PL12"
 	.byte	0x9
 	.uahalf	0x206
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8171,7 +8241,7 @@ I2C_Masters_Slaves:
 	.string	"PD13"
 	.byte	0x9
 	.uahalf	0x207
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -8180,7 +8250,7 @@ I2C_Masters_Slaves:
 	.string	"PL13"
 	.byte	0x9
 	.uahalf	0x208
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8189,7 +8259,7 @@ I2C_Masters_Slaves:
 	.string	"PD14"
 	.byte	0x9
 	.uahalf	0x209
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -8198,7 +8268,7 @@ I2C_Masters_Slaves:
 	.string	"PL14"
 	.byte	0x9
 	.uahalf	0x20a
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8207,7 +8277,7 @@ I2C_Masters_Slaves:
 	.string	"PD15"
 	.byte	0x9
 	.uahalf	0x20b
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -8216,7 +8286,7 @@ I2C_Masters_Slaves:
 	.string	"PL15"
 	.byte	0x9
 	.uahalf	0x20c
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8226,1027 +8296,1027 @@ I2C_Masters_Slaves:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x9
 	.uahalf	0x20d
-	.uaword	0x3e28
+	.uaword	0x3e42
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x215
-	.uaword	0x3f8f
+	.uaword	0x3fa9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x217
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x218
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x219
-	.uaword	0x2683
+	.uaword	0x269d
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x9
 	.uahalf	0x21a
-	.uaword	0x3f67
+	.uaword	0x3f81
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x21d
-	.uaword	0x3fcc
+	.uaword	0x3fe6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x21f
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x220
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x221
-	.uaword	0x26c7
+	.uaword	0x26e1
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x9
 	.uahalf	0x222
-	.uaword	0x3fa4
+	.uaword	0x3fbe
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x225
-	.uaword	0x4009
+	.uaword	0x4023
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x227
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x228
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x229
-	.uaword	0x27fe
+	.uaword	0x2818
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_ESR"
 	.byte	0x9
 	.uahalf	0x22a
-	.uaword	0x3fe1
+	.uaword	0x3ffb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x22d
-	.uaword	0x4043
+	.uaword	0x405d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x22f
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x230
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x231
-	.uaword	0x2860
+	.uaword	0x287a
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_ID"
 	.byte	0x9
 	.uahalf	0x232
-	.uaword	0x401b
+	.uaword	0x4035
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x235
-	.uaword	0x407c
+	.uaword	0x4096
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x237
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x238
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x239
-	.uaword	0x2982
+	.uaword	0x299c
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_IN"
 	.byte	0x9
 	.uahalf	0x23a
-	.uaword	0x4054
+	.uaword	0x406e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x23d
-	.uaword	0x40b5
+	.uaword	0x40cf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x23f
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x240
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x241
-	.uaword	0x2a2a
+	.uaword	0x2a44
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_IOCR0"
 	.byte	0x9
 	.uahalf	0x242
-	.uaword	0x408d
+	.uaword	0x40a7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x245
-	.uaword	0x40f1
+	.uaword	0x410b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x247
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x248
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x249
-	.uaword	0x2ada
+	.uaword	0x2af4
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_IOCR12"
 	.byte	0x9
 	.uahalf	0x24a
-	.uaword	0x40c9
+	.uaword	0x40e3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x24d
-	.uaword	0x412e
+	.uaword	0x4148
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x24f
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x250
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x251
-	.uaword	0x2b86
+	.uaword	0x2ba0
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_IOCR4"
 	.byte	0x9
 	.uahalf	0x252
-	.uaword	0x4106
+	.uaword	0x4120
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x255
-	.uaword	0x416a
+	.uaword	0x4184
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x257
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x258
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x259
-	.uaword	0x2c33
+	.uaword	0x2c4d
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_IOCR8"
 	.byte	0x9
 	.uahalf	0x25a
-	.uaword	0x4142
+	.uaword	0x415c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x25d
-	.uaword	0x41b4
+	.uaword	0x41ce
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x25f
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x260
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x261
-	.uaword	0x2c93
+	.uaword	0x2cad
 	.uleb128 0x13
 	.string	"B_P21"
 	.byte	0x9
 	.uahalf	0x262
-	.uaword	0x2d1d
+	.uaword	0x2d37
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_LPCR0"
 	.byte	0x9
 	.uahalf	0x263
-	.uaword	0x417e
+	.uaword	0x4198
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x266
-	.uaword	0x41fe
+	.uaword	0x4218
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x268
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x269
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x26a
-	.uaword	0x2d81
+	.uaword	0x2d9b
 	.uleb128 0x13
 	.string	"B_P21"
 	.byte	0x9
 	.uahalf	0x26b
-	.uaword	0x2e0b
+	.uaword	0x2e25
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_LPCR1"
 	.byte	0x9
 	.uahalf	0x26c
-	.uaword	0x41c8
+	.uaword	0x41e2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x26f
-	.uaword	0x4248
+	.uaword	0x4262
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x271
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x272
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x273
-	.uaword	0x2e6f
+	.uaword	0x2e89
 	.uleb128 0x13
 	.string	"B_P21"
 	.byte	0x9
 	.uahalf	0x274
-	.uaword	0x2f42
+	.uaword	0x2f5c
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_LPCR2"
 	.byte	0x9
 	.uahalf	0x275
-	.uaword	0x4212
+	.uaword	0x422c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x278
-	.uaword	0x4284
+	.uaword	0x429e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x27a
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x27b
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x27c
-	.uaword	0x2fa6
+	.uaword	0x2fc0
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_LPCR3"
 	.byte	0x9
 	.uahalf	0x27d
-	.uaword	0x425c
+	.uaword	0x4276
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x280
-	.uaword	0x42c0
+	.uaword	0x42da
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x282
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x283
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x284
-	.uaword	0x335b
+	.uaword	0x3375
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMCR"
 	.byte	0x9
 	.uahalf	0x285
-	.uaword	0x4298
+	.uaword	0x42b2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x288
-	.uaword	0x42fb
+	.uaword	0x4315
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x28a
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x28b
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x28c
-	.uaword	0x303e
+	.uaword	0x3058
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMCR0"
 	.byte	0x9
 	.uahalf	0x28d
-	.uaword	0x42d3
+	.uaword	0x42ed
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x290
-	.uaword	0x4337
+	.uaword	0x4351
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x292
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x293
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x294
-	.uaword	0x30cc
+	.uaword	0x30e6
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMCR12"
 	.byte	0x9
 	.uahalf	0x295
-	.uaword	0x430f
+	.uaword	0x4329
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x298
-	.uaword	0x4374
+	.uaword	0x438e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x29a
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x29b
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x29c
-	.uaword	0x3166
+	.uaword	0x3180
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMCR4"
 	.byte	0x9
 	.uahalf	0x29d
-	.uaword	0x434c
+	.uaword	0x4366
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2a0
-	.uaword	0x43b0
+	.uaword	0x43ca
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2a2
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2a3
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2a4
-	.uaword	0x3201
+	.uaword	0x321b
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMCR8"
 	.byte	0x9
 	.uahalf	0x2a5
-	.uaword	0x4388
+	.uaword	0x43a2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2a8
-	.uaword	0x43ec
+	.uaword	0x4406
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2aa
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2ab
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2ac
-	.uaword	0x35a9
+	.uaword	0x35c3
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMR"
 	.byte	0x9
 	.uahalf	0x2ad
-	.uaword	0x43c4
+	.uaword	0x43de
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2b0
-	.uaword	0x4426
+	.uaword	0x4440
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2b2
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2b3
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2b4
-	.uaword	0x393d
+	.uaword	0x3957
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMSR"
 	.byte	0x9
 	.uahalf	0x2b5
-	.uaword	0x43fe
+	.uaword	0x4418
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2b8
-	.uaword	0x4461
+	.uaword	0x447b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2ba
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2bb
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2bc
-	.uaword	0x362c
+	.uaword	0x3646
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMSR0"
 	.byte	0x9
 	.uahalf	0x2bd
-	.uaword	0x4439
+	.uaword	0x4453
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2c0
-	.uaword	0x449d
+	.uaword	0x44b7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2c2
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2c3
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2c4
-	.uaword	0x36c6
+	.uaword	0x36e0
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMSR12"
 	.byte	0x9
 	.uahalf	0x2c5
-	.uaword	0x4475
+	.uaword	0x448f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2c8
-	.uaword	0x44da
+	.uaword	0x44f4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2ca
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2cb
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2cc
-	.uaword	0x375c
+	.uaword	0x3776
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMSR4"
 	.byte	0x9
 	.uahalf	0x2cd
-	.uaword	0x44b2
+	.uaword	0x44cc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2d0
-	.uaword	0x4516
+	.uaword	0x4530
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2d2
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2d3
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2d4
-	.uaword	0x37f3
+	.uaword	0x380d
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OMSR8"
 	.byte	0x9
 	.uahalf	0x2d5
-	.uaword	0x44ee
+	.uaword	0x4508
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2d8
-	.uaword	0x4552
+	.uaword	0x456c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2da
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2db
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2dc
-	.uaword	0x3a75
+	.uaword	0x3a8f
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_OUT"
 	.byte	0x9
 	.uahalf	0x2dd
-	.uaword	0x452a
+	.uaword	0x4544
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2e0
-	.uaword	0x458c
+	.uaword	0x45a6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2e2
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2e3
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2e4
-	.uaword	0x3b72
+	.uaword	0x3b8c
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_PCSR"
 	.byte	0x9
 	.uahalf	0x2e5
-	.uaword	0x4564
+	.uaword	0x457e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2e8
-	.uaword	0x45c7
+	.uaword	0x45e1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2ea
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2eb
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2ec
-	.uaword	0x3cdc
+	.uaword	0x3cf6
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_PDISC"
 	.byte	0x9
 	.uahalf	0x2ed
-	.uaword	0x459f
+	.uaword	0x45b9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2f0
-	.uaword	0x4603
+	.uaword	0x461d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2f2
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2f3
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2f4
-	.uaword	0x3e10
+	.uaword	0x3e2a
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_PDR0"
 	.byte	0x9
 	.uahalf	0x2f5
-	.uaword	0x45db
+	.uaword	0x45f5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x2f8
-	.uaword	0x463e
+	.uaword	0x4658
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x2fa
-	.uaword	0x55f
+	.uaword	0x579
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x2fb
-	.uaword	0x1a8
+	.uaword	0x1c2
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x2fc
-	.uaword	0x3f4f
+	.uaword	0x3f69
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P_PDR1"
 	.byte	0x9
 	.uahalf	0x2fd
-	.uaword	0x4616
+	.uaword	0x4630
 	.uleb128 0x1d
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x9
 	.uahalf	0x308
-	.uaword	0x489a
+	.uaword	0x48b4
 	.uleb128 0x15
 	.string	"OUT"
 	.byte	0x9
 	.uahalf	0x30a
-	.uaword	0x4552
+	.uaword	0x456c
 	.byte	0
 	.uleb128 0x15
 	.string	"OMR"
 	.byte	0x9
 	.uahalf	0x30b
-	.uaword	0x43ec
+	.uaword	0x4406
 	.byte	0x4
 	.uleb128 0x15
 	.string	"ID"
 	.byte	0x9
 	.uahalf	0x30c
-	.uaword	0x4043
+	.uaword	0x405d
 	.byte	0x8
 	.uleb128 0x16
 	.uaword	.LASF26
 	.byte	0x9
 	.uahalf	0x30d
-	.uaword	0x22af
+	.uaword	0x22c9
 	.byte	0xc
 	.uleb128 0x15
 	.string	"IOCR0"
 	.byte	0x9
 	.uahalf	0x30e
-	.uaword	0x40b5
+	.uaword	0x40cf
 	.byte	0x10
 	.uleb128 0x15
 	.string	"IOCR4"
 	.byte	0x9
 	.uahalf	0x30f
-	.uaword	0x412e
+	.uaword	0x4148
 	.byte	0x14
 	.uleb128 0x15
 	.string	"IOCR8"
 	.byte	0x9
 	.uahalf	0x310
-	.uaword	0x416a
+	.uaword	0x4184
 	.byte	0x18
 	.uleb128 0x15
 	.string	"IOCR12"
 	.byte	0x9
 	.uahalf	0x311
-	.uaword	0x40f1
+	.uaword	0x410b
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF29
 	.byte	0x9
 	.uahalf	0x312
-	.uaword	0x22af
+	.uaword	0x22c9
 	.byte	0x20
 	.uleb128 0x15
 	.string	"IN"
 	.byte	0x9
 	.uahalf	0x313
-	.uaword	0x407c
+	.uaword	0x4096
 	.byte	0x24
 	.uleb128 0x16
 	.uaword	.LASF30
 	.byte	0x9
 	.uahalf	0x314
-	.uaword	0x2411
+	.uaword	0x242b
 	.byte	0x28
 	.uleb128 0x15
 	.string	"PDR0"
 	.byte	0x9
 	.uahalf	0x315
-	.uaword	0x4603
+	.uaword	0x461d
 	.byte	0x40
 	.uleb128 0x15
 	.string	"PDR1"
 	.byte	0x9
 	.uahalf	0x316
-	.uaword	0x463e
+	.uaword	0x4658
 	.byte	0x44
 	.uleb128 0x15
 	.string	"reserved_48"
 	.byte	0x9
 	.uahalf	0x317
-	.uaword	0x2327
+	.uaword	0x2341
 	.byte	0x48
 	.uleb128 0x15
 	.string	"ESR"
 	.byte	0x9
 	.uahalf	0x318
-	.uaword	0x4009
+	.uaword	0x4023
 	.byte	0x50
 	.uleb128 0x15
 	.string	"reserved_54"
 	.byte	0x9
 	.uahalf	0x319
-	.uaword	0x2337
+	.uaword	0x2351
 	.byte	0x54
 	.uleb128 0x15
 	.string	"PDISC"
 	.byte	0x9
 	.uahalf	0x31a
-	.uaword	0x45c7
+	.uaword	0x45e1
 	.byte	0x60
 	.uleb128 0x15
 	.string	"PCSR"
 	.byte	0x9
 	.uahalf	0x31b
-	.uaword	0x458c
+	.uaword	0x45a6
 	.byte	0x64
 	.uleb128 0x15
 	.string	"reserved_68"
 	.byte	0x9
 	.uahalf	0x31c
-	.uaword	0x2327
+	.uaword	0x2341
 	.byte	0x68
 	.uleb128 0x15
 	.string	"OMSR0"
 	.byte	0x9
 	.uahalf	0x31d
-	.uaword	0x4461
+	.uaword	0x447b
 	.byte	0x70
 	.uleb128 0x15
 	.string	"OMSR4"
 	.byte	0x9
 	.uahalf	0x31e
-	.uaword	0x44da
+	.uaword	0x44f4
 	.byte	0x74
 	.uleb128 0x15
 	.string	"OMSR8"
 	.byte	0x9
 	.uahalf	0x31f
-	.uaword	0x4516
+	.uaword	0x4530
 	.byte	0x78
 	.uleb128 0x15
 	.string	"OMSR12"
 	.byte	0x9
 	.uahalf	0x320
-	.uaword	0x449d
+	.uaword	0x44b7
 	.byte	0x7c
 	.uleb128 0x15
 	.string	"OMCR0"
 	.byte	0x9
 	.uahalf	0x321
-	.uaword	0x42fb
+	.uaword	0x4315
 	.byte	0x80
 	.uleb128 0x15
 	.string	"OMCR4"
 	.byte	0x9
 	.uahalf	0x322
-	.uaword	0x4374
+	.uaword	0x438e
 	.byte	0x84
 	.uleb128 0x15
 	.string	"OMCR8"
 	.byte	0x9
 	.uahalf	0x323
-	.uaword	0x43b0
+	.uaword	0x43ca
 	.byte	0x88
 	.uleb128 0x15
 	.string	"OMCR12"
 	.byte	0x9
 	.uahalf	0x324
-	.uaword	0x4337
+	.uaword	0x4351
 	.byte	0x8c
 	.uleb128 0x15
 	.string	"OMSR"
 	.byte	0x9
 	.uahalf	0x325
-	.uaword	0x4426
+	.uaword	0x4440
 	.byte	0x90
 	.uleb128 0x15
 	.string	"OMCR"
 	.byte	0x9
 	.uahalf	0x326
-	.uaword	0x42c0
+	.uaword	0x42da
 	.byte	0x94
 	.uleb128 0x15
 	.string	"reserved_98"
 	.byte	0x9
 	.uahalf	0x327
-	.uaword	0x2327
+	.uaword	0x2341
 	.byte	0x98
 	.uleb128 0x15
 	.string	"LPCR0"
 	.byte	0x9
 	.uahalf	0x328
-	.uaword	0x41b4
+	.uaword	0x41ce
 	.byte	0xa0
 	.uleb128 0x15
 	.string	"LPCR1"
 	.byte	0x9
 	.uahalf	0x329
-	.uaword	0x41fe
+	.uaword	0x4218
 	.byte	0xa4
 	.uleb128 0x15
 	.string	"LPCR2"
 	.byte	0x9
 	.uahalf	0x32a
-	.uaword	0x4248
+	.uaword	0x4262
 	.byte	0xa8
 	.uleb128 0x15
 	.string	"LPCR3"
 	.byte	0x9
 	.uahalf	0x32b
-	.uaword	0x4284
+	.uaword	0x429e
 	.byte	0xac
 	.uleb128 0x15
 	.string	"reserved_A4"
 	.byte	0x9
 	.uahalf	0x32c
-	.uaword	0x489a
+	.uaword	0x48b4
 	.byte	0xb0
 	.uleb128 0x15
 	.string	"ACCEN1"
 	.byte	0x9
 	.uahalf	0x32d
-	.uaword	0x3fcc
+	.uaword	0x3fe6
 	.byte	0xf8
 	.uleb128 0x15
 	.string	"ACCEN0"
 	.byte	0x9
 	.uahalf	0x32e
-	.uaword	0x3f8f
+	.uaword	0x3fa9
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1cb
-	.uaword	0x48aa
+	.uaword	0x1e5
+	.uaword	0x48c4
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0x47
 	.byte	0
 	.uleb128 0xf
 	.string	"Ifx_P"
 	.byte	0x9
 	.uahalf	0x32f
-	.uaword	0x48b8
+	.uaword	0x48d2
 	.uleb128 0x1c
-	.uaword	0x4651
+	.uaword	0x466b
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x48aa
+	.uaword	0x48c4
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0xa
 	.byte	0x65
-	.uaword	0x499f
+	.uaword	0x49b9
 	.uleb128 0x7
 	.string	"IfxPort_OutputIdx_general"
 	.sleb128 128
@@ -9276,12 +9346,12 @@ I2C_Masters_Slaves:
 	.string	"IfxPort_OutputIdx"
 	.byte	0xa
 	.byte	0x6e
-	.uaword	0x48c3
+	.uaword	0x48dd
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0xa
 	.byte	0x7d
-	.uaword	0x4b59
+	.uaword	0x4b73
 	.uleb128 0x7
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -9323,112 +9393,112 @@ I2C_Masters_Slaves:
 	.string	"IfxPort_PadDriver"
 	.byte	0xa
 	.byte	0x8a
-	.uaword	0x49b8
+	.uaword	0x49d2
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0xa
 	.byte	0xaa
-	.uaword	0x4b99
+	.uaword	0x4bb3
 	.uleb128 0xa
 	.string	"port"
 	.byte	0xa
 	.byte	0xac
-	.uaword	0x48bd
+	.uaword	0x48d7
 	.byte	0
 	.uleb128 0xa
 	.string	"pinIndex"
 	.byte	0xa
 	.byte	0xad
-	.uaword	0x1be
+	.uaword	0x1d8
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxPort_Pin"
 	.byte	0xa
 	.byte	0xae
-	.uaword	0x4b72
+	.uaword	0x4b8c
 	.uleb128 0x8
 	.byte	0x10
 	.byte	0xb
 	.byte	0x27
-	.uaword	0x4be5
+	.uaword	0x4bff
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0xb
 	.byte	0x29
-	.uaword	0x4be5
+	.uaword	0x4bff
 	.byte	0
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0xb
 	.byte	0x2a
-	.uaword	0x4b99
+	.uaword	0x4bb3
 	.byte	0x4
 	.uleb128 0x9
 	.uaword	.LASF31
 	.byte	0xb
 	.byte	0x2b
-	.uaword	0x2fd
+	.uaword	0x317
 	.byte	0xc
 	.uleb128 0x9
 	.uaword	.LASF32
 	.byte	0xb
 	.byte	0x2c
-	.uaword	0x499f
+	.uaword	0x49b9
 	.byte	0xd
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x230d
+	.uaword	0x2327
 	.uleb128 0x3
 	.string	"IfxI2c_Scl_InOut"
 	.byte	0xb
 	.byte	0x2d
-	.uaword	0x4c03
+	.uaword	0x4c1d
 	.uleb128 0x1e
-	.uaword	0x4bac
+	.uaword	0x4bc6
 	.uleb128 0x8
 	.byte	0x10
 	.byte	0xb
 	.byte	0x30
-	.uaword	0x4c41
+	.uaword	0x4c5b
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0xb
 	.byte	0x32
-	.uaword	0x4be5
+	.uaword	0x4bff
 	.byte	0
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0xb
 	.byte	0x33
-	.uaword	0x4b99
+	.uaword	0x4bb3
 	.byte	0x4
 	.uleb128 0x9
 	.uaword	.LASF31
 	.byte	0xb
 	.byte	0x34
-	.uaword	0x2fd
+	.uaword	0x317
 	.byte	0xc
 	.uleb128 0x9
 	.uaword	.LASF32
 	.byte	0xb
 	.byte	0x35
-	.uaword	0x499f
+	.uaword	0x49b9
 	.byte	0xd
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxI2c_Sda_InOut"
 	.byte	0xb
 	.byte	0x36
-	.uaword	0x4c59
+	.uaword	0x4c73
 	.uleb128 0x1e
-	.uaword	0x4c08
+	.uaword	0x4c22
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0xc
 	.byte	0x35
-	.uaword	0x4cd7
+	.uaword	0x4cf1
 	.uleb128 0x7
 	.string	"IfxI2c_BusStatus_idle"
 	.sleb128 0
@@ -9446,47 +9516,47 @@ I2C_Masters_Slaves:
 	.string	"IfxI2c_BusStatus"
 	.byte	0xc
 	.byte	0x3a
-	.uaword	0x4c5e
+	.uaword	0x4c78
 	.uleb128 0x8
 	.byte	0xc
 	.byte	0xc
 	.byte	0x74
-	.uaword	0x4d22
+	.uaword	0x4d3c
 	.uleb128 0xa
 	.string	"scl"
 	.byte	0xc
 	.byte	0x76
-	.uaword	0x4d22
+	.uaword	0x4d3c
 	.byte	0
 	.uleb128 0xa
 	.string	"sda"
 	.byte	0xc
 	.byte	0x77
-	.uaword	0x4d28
+	.uaword	0x4d42
 	.byte	0x4
 	.uleb128 0xa
 	.string	"padDriver"
 	.byte	0xc
 	.byte	0x78
-	.uaword	0x4b59
+	.uaword	0x4b73
 	.byte	0x8
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4beb
+	.uaword	0x4c05
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4c41
+	.uaword	0x4c5b
 	.uleb128 0x3
 	.string	"IfxI2c_Pins"
 	.byte	0xc
 	.byte	0x79
-	.uaword	0x4cef
+	.uaword	0x4d09
 	.uleb128 0x1f
 	.byte	0x1
 	.byte	0xd
 	.uahalf	0x12a
-	.uaword	0x4dca
+	.uaword	0x4de4
 	.uleb128 0x7
 	.string	"IfxI2c_I2c_Status_ok"
 	.sleb128 0
@@ -9507,125 +9577,125 @@ I2C_Masters_Slaves:
 	.string	"IfxI2c_I2c_Status"
 	.byte	0xd
 	.uahalf	0x130
-	.uaword	0x4d41
+	.uaword	0x4d5b
 	.uleb128 0x20
 	.byte	0xc
 	.byte	0xd
 	.uahalf	0x13c
-	.uaword	0x4e2b
+	.uaword	0x4e45
 	.uleb128 0x15
 	.string	"i2c"
 	.byte	0xd
 	.uahalf	0x13e
-	.uaword	0x4be5
+	.uaword	0x4bff
 	.byte	0
 	.uleb128 0x15
 	.string	"busStatus"
 	.byte	0xd
 	.uahalf	0x13f
-	.uaword	0x4cd7
+	.uaword	0x4cf1
 	.byte	0x4
 	.uleb128 0x15
 	.string	"status"
 	.byte	0xd
 	.uahalf	0x140
-	.uaword	0x4dca
+	.uaword	0x4de4
 	.byte	0x5
 	.uleb128 0x16
 	.uaword	.LASF33
 	.byte	0xd
 	.uahalf	0x141
-	.uaword	0x21b
+	.uaword	0x235
 	.byte	0x8
 	.byte	0
 	.uleb128 0xf
 	.string	"IfxI2c_I2c"
 	.byte	0xd
 	.uahalf	0x142
-	.uaword	0x4de4
+	.uaword	0x4dfe
 	.uleb128 0x20
 	.byte	0xc
 	.byte	0xd
 	.uahalf	0x146
-	.uaword	0x4e70
+	.uaword	0x4e8a
 	.uleb128 0x15
 	.string	"i2c"
 	.byte	0xd
 	.uahalf	0x148
-	.uaword	0x4be5
+	.uaword	0x4bff
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF33
 	.byte	0xd
 	.uahalf	0x149
-	.uaword	0x21b
+	.uaword	0x235
 	.byte	0x4
 	.uleb128 0x15
 	.string	"pins"
 	.byte	0xd
 	.uahalf	0x14a
-	.uaword	0x4e70
+	.uaword	0x4e8a
 	.byte	0x8
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4e76
+	.uaword	0x4e90
 	.uleb128 0x1e
-	.uaword	0x4d2e
+	.uaword	0x4d48
 	.uleb128 0xf
 	.string	"IfxI2c_I2c_Config"
 	.byte	0xd
 	.uahalf	0x14b
-	.uaword	0x4e3e
+	.uaword	0x4e58
 	.uleb128 0x20
 	.byte	0x8
 	.byte	0xd
 	.uahalf	0x14f
-	.uaword	0x4eb9
+	.uaword	0x4ed3
 	.uleb128 0x15
 	.string	"i2c"
 	.byte	0xd
 	.uahalf	0x151
-	.uaword	0x4eb9
+	.uaword	0x4ed3
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF34
 	.byte	0xd
 	.uahalf	0x152
-	.uaword	0x1be
+	.uaword	0x1d8
 	.byte	0x4
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4e2b
+	.uaword	0x4e45
 	.uleb128 0xf
 	.string	"IfxI2c_I2c_Device"
 	.byte	0xd
 	.uahalf	0x153
-	.uaword	0x4e95
+	.uaword	0x4eaf
 	.uleb128 0x20
 	.byte	0x8
 	.byte	0xd
 	.uahalf	0x157
-	.uaword	0x4efd
+	.uaword	0x4f17
 	.uleb128 0x15
 	.string	"i2c"
 	.byte	0xd
 	.uahalf	0x159
-	.uaword	0x4eb9
+	.uaword	0x4ed3
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF34
 	.byte	0xd
 	.uahalf	0x15a
-	.uaword	0x1be
+	.uaword	0x1d8
 	.byte	0x4
 	.byte	0
 	.uleb128 0xf
 	.string	"IfxI2c_I2c_deviceConfig"
 	.byte	0xd
 	.uahalf	0x15b
-	.uaword	0x4ed9
+	.uaword	0x4ef3
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -9634,326 +9704,273 @@ I2C_Masters_Slaves:
 	.byte	0x40
 	.byte	0xe
 	.byte	0x3f
-	.uaword	0x4f5d
+	.uaword	0x4f77
 	.uleb128 0xa
 	.string	"i2cTxBuffer"
 	.byte	0xe
 	.byte	0x41
-	.uaword	0x4f6d
+	.uaword	0x4f87
 	.byte	0
 	.uleb128 0xa
 	.string	"i2cRxBuffer"
 	.byte	0xe
 	.byte	0x42
-	.uaword	0x4f72
+	.uaword	0x4f8c
 	.byte	0x20
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1be
-	.uaword	0x4f6d
+	.uaword	0x1d8
+	.uaword	0x4f87
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0x1f
 	.byte	0
 	.uleb128 0x1c
-	.uaword	0x4f5d
+	.uaword	0x4f77
 	.uleb128 0x1c
-	.uaword	0x4f5d
+	.uaword	0x4f77
 	.uleb128 0x3
 	.string	"AppI2C_Buffer"
 	.byte	0xe
 	.byte	0x43
-	.uaword	0x4f2c
+	.uaword	0x4f46
 	.uleb128 0x8
 	.byte	0x1c
 	.byte	0xe
 	.byte	0x49
-	.uaword	0x4fd4
+	.uaword	0x4fee
 	.uleb128 0xa
 	.string	"i2cHandle"
 	.byte	0xe
 	.byte	0x4b
-	.uaword	0x4e2b
+	.uaword	0x4e45
 	.byte	0
 	.uleb128 0xa
 	.string	"i2cDev_Gyro_Accel"
 	.byte	0xe
 	.byte	0x4c
-	.uaword	0x4ebf
+	.uaword	0x4ed9
 	.byte	0xc
 	.uleb128 0xa
 	.string	"i2cDev_Mag"
 	.byte	0xe
 	.byte	0x4d
-	.uaword	0x4ebf
+	.uaword	0x4ed9
 	.byte	0x14
 	.byte	0
 	.uleb128 0x8
 	.byte	0x5c
 	.byte	0xe
 	.byte	0x46
-	.uaword	0x4fff
+	.uaword	0x5019
 	.uleb128 0xa
 	.string	"i2cBuffer"
 	.byte	0xe
 	.byte	0x48
-	.uaword	0x4f77
+	.uaword	0x4f91
 	.byte	0
 	.uleb128 0xa
 	.string	"drivers"
 	.byte	0xe
 	.byte	0x4e
-	.uaword	0x4f8c
+	.uaword	0x4fa6
 	.byte	0x40
 	.byte	0
 	.uleb128 0x3
 	.string	"App_I2C"
 	.byte	0xe
 	.byte	0x4f
-	.uaword	0x4fd4
+	.uaword	0x4fee
 	.uleb128 0x8
 	.byte	0xc
 	.byte	0xe
 	.byte	0x51
-	.uaword	0x5044
+	.uaword	0x505e
 	.uleb128 0xa
 	.string	"gyro_x"
 	.byte	0xe
 	.byte	0x53
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0
 	.uleb128 0xa
 	.string	"gyro_y"
 	.byte	0xe
 	.byte	0x54
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x4
 	.uleb128 0xa
 	.string	"gyro_z"
 	.byte	0xe
 	.byte	0x55
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x8
 	.byte	0
 	.uleb128 0x1c
-	.uaword	0x17e
+	.uaword	0x198
 	.uleb128 0x3
 	.string	"Gyro"
 	.byte	0xe
 	.byte	0x56
-	.uaword	0x500e
+	.uaword	0x5028
 	.uleb128 0x8
 	.byte	0xc
 	.byte	0xe
 	.byte	0x58
-	.uaword	0x5088
+	.uaword	0x50a2
 	.uleb128 0xa
 	.string	"acc_x"
 	.byte	0xe
 	.byte	0x5a
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0
 	.uleb128 0xa
 	.string	"acc_y"
 	.byte	0xe
 	.byte	0x5b
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x4
 	.uleb128 0xa
 	.string	"acc_z"
 	.byte	0xe
 	.byte	0x5c
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"Acc"
 	.byte	0xe
 	.byte	0x5d
-	.uaword	0x5055
+	.uaword	0x506f
 	.uleb128 0x8
 	.byte	0xc
 	.byte	0xe
 	.byte	0x5f
-	.uaword	0x50c6
+	.uaword	0x50e0
 	.uleb128 0xa
 	.string	"mag_x"
 	.byte	0xe
 	.byte	0x61
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0
 	.uleb128 0xa
 	.string	"mag_y"
 	.byte	0xe
 	.byte	0x62
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x4
 	.uleb128 0xa
 	.string	"mag_z"
 	.byte	0xe
 	.byte	0x63
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"Mag"
 	.byte	0xe
 	.byte	0x64
-	.uaword	0x5093
-	.uleb128 0x8
-	.byte	0xc
-	.byte	0xe
-	.byte	0x66
-	.uaword	0x5107
-	.uleb128 0xa
-	.string	"grav_x"
-	.byte	0xe
-	.byte	0x68
-	.uaword	0x5044
-	.byte	0
-	.uleb128 0xa
-	.string	"grav_y"
-	.byte	0xe
-	.byte	0x69
-	.uaword	0x5044
-	.byte	0x4
-	.uleb128 0xa
-	.string	"grav_z"
-	.byte	0xe
-	.byte	0x6a
-	.uaword	0x5044
-	.byte	0x8
-	.byte	0
-	.uleb128 0x3
-	.string	"Gravity"
-	.byte	0xe
-	.byte	0x6b
-	.uaword	0x50d1
+	.uaword	0x50ad
 	.uleb128 0x8
 	.byte	0x34
 	.byte	0xe
 	.byte	0x6d
-	.uaword	0x51c1
+	.uaword	0x5196
 	.uleb128 0xa
 	.string	"Gyroscope"
 	.byte	0xe
 	.byte	0x6f
-	.uaword	0x5049
+	.uaword	0x5063
 	.byte	0
 	.uleb128 0xa
 	.string	"Acceleration"
 	.byte	0xe
 	.byte	0x70
-	.uaword	0x5088
+	.uaword	0x50a2
 	.byte	0xc
 	.uleb128 0xa
 	.string	"Magnetometer"
 	.byte	0xe
 	.byte	0x71
-	.uaword	0x50c6
+	.uaword	0x50e0
 	.byte	0x18
 	.uleb128 0xa
 	.string	"gyro_scale_factor"
 	.byte	0xe
 	.byte	0x72
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x24
 	.uleb128 0xa
 	.string	"acc_scale_factor"
 	.byte	0xe
 	.byte	0x73
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x28
 	.uleb128 0xa
 	.string	"mag_scale_factor"
 	.byte	0xe
 	.byte	0x74
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x2c
 	.uleb128 0xa
 	.string	"temp_scale_factor"
 	.byte	0xe
 	.byte	0x75
-	.uaword	0x5044
+	.uaword	0x505e
 	.byte	0x30
 	.byte	0
 	.uleb128 0x3
 	.string	"MPU_9265"
 	.byte	0xe
 	.byte	0x76
-	.uaword	0x5116
+	.uaword	0x50eb
 	.uleb128 0x8
-	.byte	0x24
+	.byte	0xc
 	.byte	0xe
 	.byte	0x78
-	.uaword	0x524d
-	.uleb128 0xa
-	.string	"Gravity"
-	.byte	0xe
-	.byte	0x7a
-	.uaword	0x5107
-	.byte	0
+	.uaword	0x51d6
 	.uleb128 0xa
 	.string	"yaw"
 	.byte	0xe
-	.byte	0x7b
-	.uaword	0x5044
-	.byte	0xc
+	.byte	0x7a
+	.uaword	0x505e
+	.byte	0
 	.uleb128 0xa
 	.string	"pitch"
 	.byte	0xe
-	.byte	0x7c
-	.uaword	0x5044
-	.byte	0x10
+	.byte	0x7b
+	.uaword	0x505e
+	.byte	0x4
 	.uleb128 0xa
 	.string	"roll"
 	.byte	0xe
-	.byte	0x7d
-	.uaword	0x5044
-	.byte	0x14
-	.uleb128 0xa
-	.string	"yaw_offset"
-	.byte	0xe
-	.byte	0x7e
-	.uaword	0x5044
-	.byte	0x18
-	.uleb128 0xa
-	.string	"pitch_offset"
-	.byte	0xe
-	.byte	0x7f
-	.uaword	0x5044
-	.byte	0x1c
-	.uleb128 0xa
-	.string	"roll_offset"
-	.byte	0xe
-	.byte	0x80
-	.uaword	0x5044
-	.byte	0x20
+	.byte	0x7c
+	.uaword	0x505e
+	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"YawPitchRoll"
 	.byte	0xe
-	.byte	0x81
-	.uaword	0x51d1
+	.byte	0x7d
+	.uaword	0x51a6
 	.uleb128 0x21
 	.string	"IfxCpu_areInterruptsEnabled"
 	.byte	0x2
 	.uahalf	0x275
 	.byte	0x1
-	.uaword	0x22a
+	.uaword	0x244
 	.byte	0x3
-	.uaword	0x52a8
+	.uaword	0x5231
 	.uleb128 0x22
 	.string	"reg"
 	.byte	0x2
 	.uahalf	0x277
-	.uaword	0x23fd
+	.uaword	0x2417
 	.uleb128 0x23
 	.uleb128 0x22
 	.string	"__res"
 	.byte	0x2
 	.uahalf	0x278
-	.uaword	0x55f
+	.uaword	0x579
 	.byte	0
 	.byte	0
 	.uleb128 0x24
@@ -9967,14 +9984,14 @@ I2C_Masters_Slaves:
 	.byte	0x2
 	.uahalf	0x27d
 	.byte	0x1
-	.uaword	0x22a
+	.uaword	0x244
 	.byte	0x3
-	.uaword	0x52ec
+	.uaword	0x5275
 	.uleb128 0x22
 	.string	"enabled"
 	.byte	0x2
 	.uahalf	0x27f
-	.uaword	0x22a
+	.uaword	0x244
 	.byte	0
 	.uleb128 0x25
 	.string	"IfxCpu_restoreInterrupts"
@@ -9982,167 +9999,142 @@ I2C_Masters_Slaves:
 	.uahalf	0x392
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x5320
+	.uaword	0x52a9
 	.uleb128 0x26
 	.string	"enabled"
 	.byte	0x2
 	.uahalf	0x392
-	.uaword	0x22a
+	.uaword	0x244
 	.byte	0
 	.uleb128 0x27
 	.byte	0x1
-	.string	"GetTemp"
-	.byte	0x1
-	.byte	0xcc
-	.byte	0x1
-	.uaword	0x5349
-	.uleb128 0x28
-	.uaword	.LASF35
-	.byte	0x1
-	.byte	0xce
-	.uaword	0x1dc
-	.uleb128 0x29
-	.string	"data"
-	.byte	0x1
-	.byte	0xcf
-	.uaword	0x5349
-	.byte	0
-	.uleb128 0x19
-	.uaword	0x17e
-	.uaword	0x5359
-	.uleb128 0x1a
-	.uaword	0x22bf
-	.byte	0
-	.byte	0
-	.uleb128 0x2a
-	.byte	0x1
 	.string	"Init_I2C"
 	.byte	0x1
-	.byte	0x1f
+	.byte	0x2b
 	.byte	0x1
 	.uaword	.LFB292
 	.uaword	.LFE292
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x54d5
-	.uleb128 0x29
+	.uaword	0x5425
+	.uleb128 0x28
 	.string	"interruptState"
 	.byte	0x1
-	.byte	0x22
-	.uaword	0x22a
-	.uleb128 0x2b
+	.byte	0x2e
+	.uaword	0x244
+	.uleb128 0x29
 	.string	"i2cConfig"
 	.byte	0x1
-	.byte	0x25
-	.uaword	0x4e7b
+	.byte	0x31
+	.uaword	0x4e95
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -24
-	.uleb128 0x2b
+	.uleb128 0x29
 	.string	"pins"
 	.byte	0x1
-	.byte	0x29
-	.uaword	0x4e76
+	.byte	0x35
+	.uaword	0x4e90
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -12
+	.uleb128 0x2a
+	.uaword	0x523d
+	.uaword	.LBB17
+	.uaword	.LBE17
+	.byte	0x1
+	.byte	0x2e
+	.uaword	0x5369
+	.uleb128 0x2b
+	.uaword	.LBB18
+	.uaword	.LBE18
 	.uleb128 0x2c
-	.uaword	0x52b4
+	.uaword	0x5264
+	.uleb128 0x2d
+	.uaword	0x51ea
 	.uaword	.LBB19
 	.uaword	.LBE19
-	.byte	0x1
-	.byte	0x22
-	.uaword	0x5419
-	.uleb128 0x2d
-	.uaword	.LBB20
-	.uaword	.LBE20
-	.uleb128 0x2e
-	.uaword	0x52db
-	.uleb128 0x2f
-	.uaword	0x5261
-	.uaword	.LBB21
-	.uaword	.LBE21
 	.byte	0x2
 	.uahalf	0x280
-	.uaword	0x5407
-	.uleb128 0x2d
-	.uaword	.LBB22
-	.uaword	.LBE22
+	.uaword	0x5357
+	.uleb128 0x2b
+	.uaword	.LBB20
+	.uaword	.LBE20
+	.uleb128 0x2c
+	.uaword	0x5214
+	.uleb128 0x2b
+	.uaword	.LBB21
+	.uaword	.LBE21
 	.uleb128 0x2e
-	.uaword	0x528b
-	.uleb128 0x2d
-	.uaword	.LBB23
-	.uaword	.LBE23
-	.uleb128 0x30
-	.uaword	0x5298
+	.uaword	0x5221
 	.uaword	.LLST0
 	.byte	0
 	.byte	0
 	.byte	0
-	.uleb128 0x31
-	.uaword	0x52a8
-	.uaword	.LBB24
-	.uaword	.LBE24
+	.uleb128 0x2f
+	.uaword	0x5231
+	.uaword	.LBB22
+	.uaword	.LBE22
 	.byte	0x2
 	.uahalf	0x282
 	.byte	0
 	.byte	0
-	.uleb128 0x32
+	.uleb128 0x30
 	.uaword	.Ldebug_ranges0+0
-	.uaword	0x5487
-	.uleb128 0x2b
+	.uaword	0x53d7
+	.uleb128 0x29
 	.string	"i2cDeviceConfig"
 	.byte	0x1
-	.byte	0x31
-	.uaword	0x4efd
+	.byte	0x3e
+	.uaword	0x4f17
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -32
-	.uleb128 0x33
+	.uleb128 0x31
 	.uaword	.LVL4
-	.uaword	0x5b6e
-	.uaword	0x5456
-	.uleb128 0x34
+	.uaword	0x59f5
+	.uaword	0x53a6
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8f
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8a
 	.sleb128 0
 	.byte	0
-	.uleb128 0x33
+	.uleb128 0x31
 	.uaword	.LVL5
-	.uaword	0x5ba6
-	.uaword	0x5470
-	.uleb128 0x34
+	.uaword	0x5a2d
+	.uaword	0x53c0
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8a
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8f
 	.sleb128 12
 	.byte	0
-	.uleb128 0x35
+	.uleb128 0x33
 	.uaword	.LVL6
-	.uaword	0x5ba6
-	.uleb128 0x34
+	.uaword	0x5a2d
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8a
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10150,43 +10142,43 @@ I2C_Masters_Slaves:
 	.sleb128 20
 	.byte	0
 	.byte	0
-	.uleb128 0x2c
-	.uaword	0x52ec
-	.uaword	.LBB29
-	.uaword	.LBE29
+	.uleb128 0x2a
+	.uaword	0x5275
+	.uaword	.LBB27
+	.uaword	.LBE27
 	.byte	0x1
-	.byte	0x45
-	.uaword	0x54a0
-	.uleb128 0x36
-	.uaword	0x530f
-	.byte	0
-	.uleb128 0x33
-	.uaword	.LVL2
-	.uaword	0x5bdd
-	.uaword	0x54be
+	.byte	0x51
+	.uaword	0x53f0
 	.uleb128 0x34
+	.uaword	0x5298
+	.byte	0
+	.uleb128 0x31
+	.uaword	.LVL2
+	.uaword	0x5a64
+	.uaword	0x540e
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x6
 	.byte	0x11
 	.sleb128 -267649024
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -24
 	.byte	0
-	.uleb128 0x35
+	.uleb128 0x33
 	.uaword	.LVL3
-	.uaword	0x5c0f
-	.uleb128 0x34
+	.uaword	0x5a96
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -24
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10194,46 +10186,68 @@ I2C_Masters_Slaves:
 	.sleb128 0
 	.byte	0
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x27
 	.byte	0x1
 	.string	"Init_MPU9250"
 	.byte	0x1
-	.byte	0x49
+	.byte	0x55
 	.byte	0x1
 	.uaword	.LFB293
 	.uaword	.LFE293
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x557b
-	.uleb128 0x37
+	.uaword	0x54cb
+	.uleb128 0x35
 	.string	"scale_gyro"
 	.byte	0x1
-	.byte	0x49
-	.uaword	0x1be
+	.byte	0x55
+	.uaword	0x1d8
 	.uaword	.LLST1
-	.uleb128 0x37
+	.uleb128 0x35
 	.string	"scale_acc"
 	.byte	0x1
-	.byte	0x49
-	.uaword	0x1be
+	.byte	0x55
+	.uaword	0x1d8
 	.uaword	.LLST2
-	.uleb128 0x33
+	.uleb128 0x31
 	.uaword	.LVL10
-	.uaword	0x5c46
-	.uaword	0x5540
-	.uleb128 0x34
+	.uaword	0x5acd
+	.uaword	0x5490
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x32
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8c
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.uleb128 0x31
+	.uaword	.LVL11
+	.uaword	0x5acd
+	.uaword	0x54af
+	.uleb128 0x32
+	.byte	0x1
+	.byte	0x54
+	.byte	0x1
+	.byte	0x32
+	.uleb128 0x32
+	.byte	0x1
+	.byte	0x65
+	.byte	0x2
+	.byte	0x8c
+	.sleb128 0
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10241,42 +10255,20 @@ I2C_Masters_Slaves:
 	.sleb128 0
 	.byte	0
 	.uleb128 0x33
-	.uaword	.LVL11
-	.uaword	0x5c46
-	.uaword	0x555f
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x54
-	.byte	0x1
-	.byte	0x32
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x65
-	.byte	0x2
-	.byte	0x8c
-	.sleb128 0
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
-	.byte	0
-	.uleb128 0x35
 	.uaword	.LVL12
-	.uaword	0x5c46
-	.uleb128 0x34
+	.uaword	0x5acd
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x32
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8c
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10284,39 +10276,39 @@ I2C_Masters_Slaves:
 	.sleb128 0
 	.byte	0
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x27
 	.byte	0x1
 	.string	"Init_Mag_AK8963"
 	.byte	0x1
-	.byte	0x6c
+	.byte	0x7c
 	.byte	0x1
 	.uaword	.LFB294
 	.uaword	.LFE294
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x55cf
-	.uleb128 0x37
+	.uaword	0x551f
+	.uleb128 0x35
 	.string	"Adc_type"
 	.byte	0x1
-	.byte	0x6c
-	.uaword	0x1be
+	.byte	0x7c
+	.uaword	0x1d8
 	.uaword	.LLST3
-	.uleb128 0x35
+	.uleb128 0x33
 	.uaword	.LVL16
-	.uaword	0x5c46
-	.uleb128 0x34
+	.uaword	0x5acd
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x32
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8f
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10324,117 +10316,118 @@ I2C_Masters_Slaves:
 	.sleb128 0
 	.byte	0
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x27
 	.byte	0x1
 	.string	"Init_MPU9265"
 	.byte	0x1
-	.byte	0x7b
+	.byte	0x8b
 	.byte	0x1
 	.uaword	.LFB295
 	.uaword	.LFE295
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x5618
-	.uleb128 0x33
+	.uaword	0x5569
+	.uleb128 0x31
 	.uaword	.LVL17
-	.uaword	0x54d5
-	.uaword	0x5608
-	.uleb128 0x34
+	.uaword	0x5425
+	.uaword	0x5558
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x55
 	.byte	0x1
 	.byte	0x30
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x38
 	.byte	0
-	.uleb128 0x35
+	.uleb128 0x36
 	.uaword	.LVL18
-	.uaword	0x557b
-	.uleb128 0x34
+	.byte	0x1
+	.uaword	0x54cb
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x46
 	.byte	0
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x27
 	.byte	0x1
 	.string	"Read_I2C_Register"
 	.byte	0x1
-	.byte	0x85
+	.byte	0x92
 	.byte	0x1
 	.uaword	.LFB296
 	.uaword	.LFE296
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x56d4
-	.uleb128 0x37
+	.uaword	0x5625
+	.uleb128 0x35
 	.string	"Device_I2C"
 	.byte	0x1
-	.byte	0x85
-	.uaword	0x56d4
+	.byte	0x92
+	.uaword	0x5625
 	.uaword	.LLST4
-	.uleb128 0x37
+	.uleb128 0x35
 	.string	"Register_Address"
 	.byte	0x1
-	.byte	0x85
-	.uaword	0x1be
+	.byte	0x92
+	.uaword	0x1d8
 	.uaword	.LLST5
-	.uleb128 0x37
+	.uleb128 0x35
 	.string	"Number_Received"
 	.byte	0x1
-	.byte	0x85
-	.uaword	0x1a8
+	.byte	0x92
+	.uaword	0x1c2
 	.uaword	.LLST6
-	.uleb128 0x38
+	.uleb128 0x37
 	.string	"i"
 	.byte	0x1
-	.byte	0x88
-	.uaword	0x1a8
+	.byte	0x95
+	.uaword	0x1c2
 	.uaword	.LLST7
-	.uleb128 0x33
+	.uleb128 0x31
 	.uaword	.LVL23
-	.uaword	0x5c46
-	.uaword	0x56b7
-	.uleb128 0x34
+	.uaword	0x5acd
+	.uaword	0x5608
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x31
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8c
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8d
 	.sleb128 0
 	.byte	0
-	.uleb128 0x35
+	.uleb128 0x33
 	.uaword	.LVL24
-	.uaword	0x5c81
-	.uleb128 0x34
+	.uaword	0x5b08
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x2
 	.byte	0x7f
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8c
 	.sleb128 0
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10444,47 +10437,47 @@ I2C_Masters_Slaves:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4ebf
-	.uleb128 0x39
+	.uaword	0x4ed9
+	.uleb128 0x38
 	.byte	0x1
 	.string	"GetGyro"
 	.byte	0x1
-	.byte	0x99
+	.byte	0xa6
 	.uaword	.LFB297
 	.uaword	.LFE297
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x5740
-	.uleb128 0x38
+	.uaword	0x5691
+	.uleb128 0x37
 	.string	"i"
 	.byte	0x1
-	.byte	0x9b
-	.uaword	0x1a8
+	.byte	0xa9
+	.uaword	0x1c2
 	.uaword	.LLST8
-	.uleb128 0x3a
+	.uleb128 0x39
 	.uaword	.LASF35
 	.byte	0x1
-	.byte	0x9c
-	.uaword	0x1dc
+	.byte	0xaa
+	.uaword	0x1f6
 	.uaword	.LLST9
-	.uleb128 0x2b
+	.uleb128 0x29
 	.string	"data"
 	.byte	0x1
-	.byte	0x9d
-	.uaword	0x5740
+	.byte	0xab
+	.uaword	0x5691
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -12
-	.uleb128 0x35
+	.uleb128 0x33
 	.uaword	.LVL27
-	.uaword	0x5618
-	.uleb128 0x34
+	.uaword	0x5569
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x55
 	.byte	0x1
 	.byte	0x32
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x6
@@ -10494,7 +10487,7 @@ I2C_Masters_Slaves:
 	.byte	0x24
 	.byte	0x23
 	.uleb128 0x43
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10503,52 +10496,52 @@ I2C_Masters_Slaves:
 	.byte	0
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x17e
-	.uaword	0x5750
+	.uaword	0x198
+	.uaword	0x56a1
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0x2
 	.byte	0
-	.uleb128 0x39
+	.uleb128 0x38
 	.byte	0x1
 	.string	"GetAccel"
 	.byte	0x1
-	.byte	0xaa
+	.byte	0xb9
 	.uaword	.LFB298
 	.uaword	.LFE298
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x57b7
-	.uleb128 0x38
+	.uaword	0x5708
+	.uleb128 0x37
 	.string	"i"
 	.byte	0x1
-	.byte	0xac
-	.uaword	0x1a8
+	.byte	0xbc
+	.uaword	0x1c2
 	.uaword	.LLST10
-	.uleb128 0x3a
+	.uleb128 0x39
 	.uaword	.LASF35
 	.byte	0x1
-	.byte	0xad
-	.uaword	0x1dc
+	.byte	0xbd
+	.uaword	0x1f6
 	.uaword	.LLST11
-	.uleb128 0x2b
+	.uleb128 0x29
 	.string	"data"
 	.byte	0x1
-	.byte	0xae
-	.uaword	0x5740
+	.byte	0xbe
+	.uaword	0x5691
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -12
-	.uleb128 0x35
+	.uleb128 0x33
 	.uaword	.LVL34
-	.uaword	0x5618
-	.uleb128 0x34
+	.uaword	0x5569
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x55
 	.byte	0x1
 	.byte	0x32
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x6
@@ -10558,7 +10551,7 @@ I2C_Masters_Slaves:
 	.byte	0x24
 	.byte	0x23
 	.uleb128 0x3b
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10566,46 +10559,46 @@ I2C_Masters_Slaves:
 	.sleb128 0
 	.byte	0
 	.byte	0
-	.uleb128 0x39
+	.uleb128 0x3a
 	.byte	0x1
 	.string	"GetMag"
 	.byte	0x1
-	.byte	0xbb
+	.byte	0xcc
 	.uaword	.LFB299
 	.uaword	.LFE299
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x581c
-	.uleb128 0x38
+	.uaword	0x576d
+	.uleb128 0x37
 	.string	"i"
 	.byte	0x1
-	.byte	0xbd
-	.uaword	0x1a8
+	.byte	0xcf
+	.uaword	0x1c2
 	.uaword	.LLST12
-	.uleb128 0x3a
+	.uleb128 0x39
 	.uaword	.LASF35
 	.byte	0x1
-	.byte	0xbe
-	.uaword	0x1dc
+	.byte	0xd0
+	.uaword	0x1f6
 	.uaword	.LLST13
-	.uleb128 0x2b
+	.uleb128 0x29
 	.string	"data"
 	.byte	0x1
-	.byte	0xbf
-	.uaword	0x5740
+	.byte	0xd1
+	.uaword	0x5691
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -12
-	.uleb128 0x35
+	.uleb128 0x33
 	.uaword	.LVL41
-	.uaword	0x5618
-	.uleb128 0x34
+	.uaword	0x5569
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x55
 	.byte	0x1
 	.byte	0x32
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x54
 	.byte	0x6
@@ -10615,7 +10608,7 @@ I2C_Masters_Slaves:
 	.byte	0x24
 	.byte	0x23
 	.uleb128 0x3
-	.uleb128 0x34
+	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -10623,538 +10616,426 @@ I2C_Masters_Slaves:
 	.sleb128 0
 	.byte	0
 	.byte	0
-	.uleb128 0x3b
-	.uaword	0x5320
+	.uleb128 0x3a
+	.byte	0x1
+	.string	"GetYawPitchRoll"
+	.byte	0x1
+	.byte	0xde
 	.uaword	.LFB300
 	.uaword	.LFE300
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x5855
-	.uleb128 0x2e
-	.uaword	0x5331
-	.uleb128 0x2e
-	.uaword	0x533c
-	.uleb128 0x35
-	.uaword	.LVL46
-	.uaword	0x5618
-	.uleb128 0x34
+	.uaword	0x58b9
+	.uleb128 0x29
+	.string	"pitch"
 	.byte	0x1
-	.byte	0x55
-	.byte	0x1
-	.byte	0x32
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x54
-	.byte	0x1
-	.byte	0x33
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x64
+	.byte	0xe1
+	.uaword	0x505e
 	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
+	.byte	0x91
+	.sleb128 -24
+	.uleb128 0x29
+	.string	"yaw"
+	.byte	0x1
+	.byte	0xe2
+	.uaword	0x505e
+	.byte	0x2
+	.byte	0x91
+	.sleb128 -20
+	.uleb128 0x29
+	.string	"roll"
+	.byte	0x1
+	.byte	0xe3
+	.uaword	0x505e
+	.byte	0x2
+	.byte	0x91
+	.sleb128 -16
+	.uleb128 0x29
+	.string	"accelx"
+	.byte	0x1
+	.byte	0xe8
+	.uaword	0x505e
+	.byte	0x2
+	.byte	0x91
+	.sleb128 -12
+	.uleb128 0x29
+	.string	"accely"
+	.byte	0x1
+	.byte	0xe9
+	.uaword	0x505e
+	.byte	0x2
+	.byte	0x91
+	.sleb128 -8
+	.uleb128 0x29
+	.string	"accelz"
+	.byte	0x1
+	.byte	0xea
+	.uaword	0x505e
+	.byte	0x2
+	.byte	0x91
+	.sleb128 -4
+	.uleb128 0x37
+	.string	"Yh"
+	.byte	0x1
+	.byte	0xf5
+	.uaword	0x198
+	.uaword	.LLST14
+	.uleb128 0x28
+	.string	"Xh"
+	.byte	0x1
+	.byte	0xf6
+	.uaword	0x198
+	.uleb128 0x3b
+	.uaword	.LVL61
+	.uaword	0x56a1
+	.uleb128 0x3b
+	.uaword	.LVL62
+	.uaword	0x5708
+	.uleb128 0x3b
+	.uaword	.LVL91
+	.uaword	0x5b37
+	.uleb128 0x31
+	.uaword	.LVL93
+	.uaword	0x5b50
+	.uaword	0x583e
+	.uleb128 0x32
+	.byte	0x6
+	.byte	0x56
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x57
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x4
+	.byte	0xf5
+	.uleb128 0x8
+	.uleb128 0x18e
+	.byte	0
+	.uleb128 0x3b
+	.uaword	.LVL96
+	.uaword	0x5b37
+	.uleb128 0x31
+	.uaword	.LVL98
+	.uaword	0x5b50
+	.uaword	0x5862
+	.uleb128 0x32
+	.byte	0x6
+	.byte	0x56
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x57
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x4
+	.byte	0xf5
+	.uleb128 0x8
+	.uleb128 0x18e
+	.byte	0
+	.uleb128 0x3b
+	.uaword	.LVL101
+	.uaword	0x5b6f
+	.uleb128 0x3b
+	.uaword	.LVL103
+	.uaword	0x5b87
+	.uleb128 0x3b
+	.uaword	.LVL106
+	.uaword	0x5b6f
+	.uleb128 0x3b
+	.uaword	.LVL108
+	.uaword	0x5b87
+	.uleb128 0x3b
+	.uaword	.LVL110
+	.uaword	0x5b87
+	.uleb128 0x3b
+	.uaword	.LVL112
+	.uaword	0x5b87
+	.uleb128 0x3b
+	.uaword	.LVL114
+	.uaword	0x5b87
+	.uleb128 0x33
+	.uaword	.LVL135
+	.uaword	0x5b50
+	.uleb128 0x32
+	.byte	0x6
+	.byte	0x54
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x55
+	.byte	0x93
+	.uleb128 0x4
+	.byte	0x4
+	.byte	0xf5
+	.uleb128 0x8
+	.uleb128 0x18e
 	.byte	0
 	.byte	0
-	.uleb128 0x39
+	.uleb128 0x27
 	.byte	0x1
-	.string	"GetQuaternion"
+	.string	"Init_gyro"
 	.byte	0x1
-	.byte	0xd7
+	.byte	0xff
+	.byte	0x1
 	.uaword	.LFB301
 	.uaword	.LFE301
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x58c2
-	.uleb128 0x2c
-	.uaword	0x5320
-	.uaword	.LBB31
-	.uaword	.LBE31
-	.byte	0x1
-	.byte	0xda
-	.uaword	0x58b8
-	.uleb128 0x2d
-	.uaword	.LBB32
-	.uaword	.LBE32
-	.uleb128 0x2e
-	.uaword	0x5331
-	.uleb128 0x2e
-	.uaword	0x533c
-	.uleb128 0x35
-	.uaword	.LVL49
-	.uaword	0x5618
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x55
-	.byte	0x1
-	.byte	0x32
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x54
-	.byte	0x1
-	.byte	0x33
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
-	.byte	0
-	.byte	0
-	.byte	0
+	.uaword	0x58e2
 	.uleb128 0x3c
-	.uaword	.LVL48
-	.uaword	0x57b7
-	.byte	0
-	.uleb128 0x39
+	.uaword	.LVL146
 	.byte	0x1
-	.string	"GetGravity"
-	.byte	0x1
-	.byte	0xdd
-	.uaword	.LFB302
-	.uaword	.LFE302
-	.byte	0x1
-	.byte	0x9c
-	.byte	0x1
-	.uaword	0x5902
-	.uleb128 0x2b
-	.string	"x"
-	.byte	0x1
-	.byte	0xdf
-	.uaword	0x17e
-	.byte	0x1
-	.byte	0x5f
-	.uleb128 0x2b
-	.string	"y"
-	.byte	0x1
-	.byte	0xe0
-	.uaword	0x17e
-	.byte	0x1
-	.byte	0x5f
-	.uleb128 0x2b
-	.string	"z"
-	.byte	0x1
-	.byte	0xe1
-	.uaword	0x17e
-	.byte	0x1
-	.byte	0x5f
-	.byte	0
-	.uleb128 0x3d
-	.byte	0x1
-	.string	"GetYawPitchRoll"
-	.byte	0x1
-	.byte	0xe7
-	.uaword	.LFB303
-	.uaword	.LFE303
-	.byte	0x1
-	.byte	0x9c
-	.byte	0x1
-	.uaword	0x5a52
-	.uleb128 0x38
-	.string	"pitch"
-	.byte	0x1
-	.byte	0xea
-	.uaword	0x17e
-	.uaword	.LLST14
-	.uleb128 0x38
-	.string	"yaw"
-	.byte	0x1
-	.byte	0xeb
-	.uaword	0x17e
-	.uaword	.LLST15
-	.uleb128 0x38
-	.string	"roll"
-	.byte	0x1
-	.byte	0xec
-	.uaword	0x17e
-	.uaword	.LLST16
-	.uleb128 0x38
-	.string	"gyrox"
-	.byte	0x1
-	.byte	0xf1
-	.uaword	0x17e
-	.uaword	.LLST17
-	.uleb128 0x38
-	.string	"gyroy"
-	.byte	0x1
-	.byte	0xf2
-	.uaword	0x17e
-	.uaword	.LLST18
-	.uleb128 0x38
-	.string	"gyroz"
-	.byte	0x1
-	.byte	0xf3
-	.uaword	0x17e
-	.uaword	.LLST19
-	.uleb128 0x38
-	.string	"Yh"
-	.byte	0x1
-	.byte	0xf9
-	.uaword	0x17e
-	.uaword	.LLST20
-	.uleb128 0x29
-	.string	"Xh"
-	.byte	0x1
-	.byte	0xfa
-	.uaword	0x17e
-	.uleb128 0x3c
-	.uaword	.LVL51
-	.uaword	0x56da
-	.uleb128 0x3c
-	.uaword	.LVL52
-	.uaword	0x57b7
-	.uleb128 0x3c
-	.uaword	.LVL65
-	.uaword	0x5cb0
-	.uleb128 0x33
-	.uaword	.LVL67
-	.uaword	0x5cc9
-	.uaword	0x59d6
-	.uleb128 0x34
-	.byte	0x6
-	.byte	0x56
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x57
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x4
-	.byte	0xf5
-	.uleb128 0x8
-	.uleb128 0x174
-	.byte	0
-	.uleb128 0x3c
-	.uaword	.LVL70
-	.uaword	0x5cb0
-	.uleb128 0x33
-	.uaword	.LVL73
-	.uaword	0x5cc9
-	.uaword	0x59fa
-	.uleb128 0x34
-	.byte	0x6
-	.byte	0x56
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x57
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x4
-	.byte	0xf5
-	.uleb128 0xa
-	.uleb128 0x174
-	.byte	0
-	.uleb128 0x33
-	.uaword	.LVL76
-	.uaword	0x5ce8
-	.uaword	0x5a21
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x65
-	.byte	0x2
-	.byte	0x91
-	.sleb128 -16
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x91
-	.sleb128 -8
-	.uleb128 0x34
-	.byte	0x6
-	.byte	0x54
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x55
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x4
-	.byte	0xf5
-	.uleb128 0xa
-	.uleb128 0x174
-	.byte	0
-	.uleb128 0x33
-	.uaword	.LVL81
-	.uaword	0x5ce8
-	.uaword	0x5a48
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x65
-	.byte	0x2
-	.byte	0x91
-	.sleb128 -16
-	.uleb128 0x34
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x91
-	.sleb128 -8
-	.uleb128 0x34
-	.byte	0x6
-	.byte	0x54
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x55
-	.byte	0x93
-	.uleb128 0x4
-	.byte	0x4
-	.byte	0xf5
-	.uleb128 0x8
-	.uleb128 0x174
-	.byte	0
-	.uleb128 0x3c
-	.uaword	.LVL102
-	.uaword	0x5cc9
-	.byte	0
-	.uleb128 0x3e
-	.byte	0x1
-	.string	"Init_gyro"
-	.byte	0x1
-	.uahalf	0x105
-	.byte	0x1
-	.uaword	.LFB304
-	.uaword	.LFE304
-	.byte	0x1
-	.byte	0x9c
-	.byte	0x1
-	.uaword	0x5a85
-	.uleb128 0x3c
-	.uaword	.LVL112
-	.uaword	0x5359
-	.uleb128 0x3f
-	.uaword	.LVL113
-	.byte	0x1
-	.uaword	0x55cf
+	.uaword	0x52a9
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x331
-	.uaword	0x5a95
+	.uaword	0x34b
+	.uaword	0x58f2
 	.uleb128 0x1a
-	.uaword	0x22bf
+	.uaword	0x22d9
 	.byte	0x2
 	.byte	0
-	.uleb128 0x40
+	.uleb128 0x3d
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x8
 	.byte	0x96
-	.uaword	0x5ab2
+	.uaword	0x590f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1e
-	.uaword	0x5a85
-	.uleb128 0x40
+	.uaword	0x58e2
+	.uleb128 0x3d
 	.string	"IfxI2c0_SCL_P02_5_INOUT"
 	.byte	0xb
 	.byte	0x38
-	.uaword	0x4beb
+	.uaword	0x4c05
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x40
+	.uleb128 0x3d
 	.string	"IfxI2c0_SDA_P02_4_INOUT"
 	.byte	0xb
 	.byte	0x3d
-	.uaword	0x4c41
+	.uaword	0x4c5b
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x41
+	.uleb128 0x3e
 	.string	"I2C_Masters_Slaves"
 	.byte	0x1
-	.byte	0x11
-	.uaword	0x4fff
+	.byte	0x1c
+	.uaword	0x5019
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	I2C_Masters_Slaves
-	.uleb128 0x41
+	.uleb128 0x3e
 	.string	"Mpu"
 	.byte	0x1
-	.byte	0x13
-	.uaword	0x51c1
+	.byte	0x1e
+	.uaword	0x5196
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	Mpu
-	.uleb128 0x41
+	.uleb128 0x3e
 	.string	"YPR"
 	.byte	0x1
-	.byte	0x14
-	.uaword	0x524d
+	.byte	0x1f
+	.uaword	0x51d6
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	YPR
-	.uleb128 0x41
+	.uleb128 0x3e
 	.string	"Data"
 	.byte	0x1
-	.byte	0x17
-	.uaword	0x5b51
+	.byte	0x21
+	.uaword	0x59ae
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	Data
 	.uleb128 0x1c
-	.uaword	0x4f5d
-	.uleb128 0x41
-	.string	"size"
+	.uaword	0x4f77
+	.uleb128 0x3e
+	.string	"Faccelx"
 	.byte	0x1
-	.byte	0x19
-	.uaword	0x5b69
+	.byte	0x23
+	.uaword	0x505e
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
-	.uaword	size
-	.uleb128 0x1c
-	.uaword	0x273
-	.uleb128 0x42
+	.uaword	Faccelx
+	.uleb128 0x3e
+	.string	"Faccely"
+	.byte	0x1
+	.byte	0x24
+	.uaword	0x505e
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	Faccely
+	.uleb128 0x3e
+	.string	"Faccelz"
+	.byte	0x1
+	.byte	0x25
+	.uaword	0x505e
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	Faccelz
+	.uleb128 0x3f
 	.byte	0x1
 	.string	"IfxI2c_I2c_initDeviceConfig"
 	.byte	0xd
 	.uahalf	0x17c
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x5ba0
-	.uleb128 0x43
-	.uaword	0x5ba0
-	.uleb128 0x43
-	.uaword	0x4eb9
+	.uaword	0x5a27
+	.uleb128 0x40
+	.uaword	0x5a27
+	.uleb128 0x40
+	.uaword	0x4ed3
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4efd
-	.uleb128 0x42
+	.uaword	0x4f17
+	.uleb128 0x3f
 	.byte	0x1
 	.string	"IfxI2c_I2c_initDevice"
 	.byte	0xd
 	.uahalf	0x175
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x5bd2
-	.uleb128 0x43
-	.uaword	0x56d4
-	.uleb128 0x43
-	.uaword	0x5bd2
+	.uaword	0x5a59
+	.uleb128 0x40
+	.uaword	0x5625
+	.uleb128 0x40
+	.uaword	0x5a59
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5bd8
+	.uaword	0x5a5f
 	.uleb128 0x1e
-	.uaword	0x4efd
-	.uleb128 0x42
+	.uaword	0x4f17
+	.uleb128 0x3f
 	.byte	0x1
 	.string	"IfxI2c_I2c_initConfig"
 	.byte	0xd
 	.uahalf	0x16b
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x5c09
-	.uleb128 0x43
-	.uaword	0x5c09
-	.uleb128 0x43
-	.uaword	0x4be5
+	.uaword	0x5a90
+	.uleb128 0x40
+	.uaword	0x5a90
+	.uleb128 0x40
+	.uaword	0x4bff
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4e7b
-	.uleb128 0x42
+	.uaword	0x4e95
+	.uleb128 0x3f
 	.byte	0x1
 	.string	"IfxI2c_I2c_initModule"
 	.byte	0xd
 	.uahalf	0x186
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x5c3b
-	.uleb128 0x43
-	.uaword	0x4eb9
-	.uleb128 0x43
-	.uaword	0x5c3b
+	.uaword	0x5ac2
+	.uleb128 0x40
+	.uaword	0x4ed3
+	.uleb128 0x40
+	.uaword	0x5ac2
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5c41
+	.uaword	0x5ac8
 	.uleb128 0x1e
-	.uaword	0x4e7b
-	.uleb128 0x44
+	.uaword	0x4e95
+	.uleb128 0x41
 	.byte	0x1
 	.string	"IfxI2c_I2c_write"
 	.byte	0xd
 	.uahalf	0x194
 	.byte	0x1
-	.uaword	0x4dca
+	.uaword	0x4de4
 	.byte	0x1
-	.uaword	0x5c76
-	.uleb128 0x43
-	.uaword	0x56d4
-	.uleb128 0x43
-	.uaword	0x5c76
-	.uleb128 0x43
-	.uaword	0x273
+	.uaword	0x5afd
+	.uleb128 0x40
+	.uaword	0x5625
+	.uleb128 0x40
+	.uaword	0x5afd
+	.uleb128 0x40
+	.uaword	0x28d
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5c7c
+	.uaword	0x5b03
 	.uleb128 0x1c
-	.uaword	0x1be
-	.uleb128 0x44
+	.uaword	0x1d8
+	.uleb128 0x41
 	.byte	0x1
 	.string	"IfxI2c_I2c_read"
 	.byte	0xd
 	.uahalf	0x18d
 	.byte	0x1
-	.uaword	0x4dca
+	.uaword	0x4de4
 	.byte	0x1
-	.uaword	0x5cb0
-	.uleb128 0x43
-	.uaword	0x56d4
-	.uleb128 0x43
-	.uaword	0x5c76
-	.uleb128 0x43
-	.uaword	0x273
+	.uaword	0x5b37
+	.uleb128 0x40
+	.uaword	0x5625
+	.uleb128 0x40
+	.uaword	0x5afd
+	.uleb128 0x40
+	.uaword	0x28d
 	.byte	0
-	.uleb128 0x45
+	.uleb128 0x42
 	.byte	0x1
 	.string	"sqrt"
 	.byte	0xf
 	.byte	0x89
 	.byte	0x1
-	.uaword	0x174
+	.uaword	0x18e
 	.byte	0x1
-	.uaword	0x5cc9
-	.uleb128 0x43
-	.uaword	0x174
+	.uaword	0x5b50
+	.uleb128 0x40
+	.uaword	0x18e
 	.byte	0
-	.uleb128 0x45
+	.uleb128 0x42
 	.byte	0x1
 	.string	"atan2"
 	.byte	0xf
 	.byte	0x81
 	.byte	0x1
-	.uaword	0x174
+	.uaword	0x18e
 	.byte	0x1
-	.uaword	0x5ce8
-	.uleb128 0x43
-	.uaword	0x174
-	.uleb128 0x43
-	.uaword	0x174
+	.uaword	0x5b6f
+	.uleb128 0x40
+	.uaword	0x18e
+	.uleb128 0x40
+	.uaword	0x18e
 	.byte	0
-	.uleb128 0x46
+	.uleb128 0x42
 	.byte	0x1
-	.string	"__builtin_sincos"
-	.byte	0x10
+	.string	"cos"
+	.byte	0xf
+	.byte	0x70
+	.byte	0x1
+	.uaword	0x18e
+	.byte	0x1
+	.uaword	0x5b87
+	.uleb128 0x40
+	.uaword	0x18e
 	.byte	0
-	.string	"sincos"
+	.uleb128 0x43
 	.byte	0x1
+	.string	"sin"
+	.byte	0xf
+	.byte	0x71
 	.byte	0x1
-	.uaword	0x5d1a
-	.uleb128 0x43
-	.uaword	0x174
-	.uleb128 0x43
-	.uaword	0x5d1a
-	.uleb128 0x43
-	.uaword	0x5d1a
+	.uaword	0x18e
+	.byte	0x1
+	.uleb128 0x40
+	.uaword	0x18e
 	.byte	0
-	.uleb128 0x4
-	.byte	0x4
-	.uaword	0x174
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
@@ -11685,8 +11566,16 @@ I2C_Masters_Slaves:
 	.uleb128 0xb
 	.uleb128 0x3b
 	.uleb128 0xb
-	.uleb128 0x20
-	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x40
+	.uleb128 0xa
+	.uleb128 0x2117
+	.uleb128 0xc
 	.uleb128 0x1
 	.uleb128 0x13
 	.byte	0
@@ -11695,7 +11584,7 @@ I2C_Masters_Slaves:
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
-	.uleb128 0xe
+	.uleb128 0x8
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
@@ -11715,35 +11604,131 @@ I2C_Masters_Slaves:
 	.uleb128 0xb
 	.uleb128 0x49
 	.uleb128 0x13
+	.uleb128 0x2
+	.uleb128 0xa
 	.byte	0
 	.byte	0
 	.uleb128 0x2a
-	.uleb128 0x2e
+	.uleb128 0x1d
 	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
+	.uleb128 0x31
+	.uleb128 0x13
 	.uleb128 0x11
 	.uleb128 0x1
 	.uleb128 0x12
 	.uleb128 0x1
-	.uleb128 0x40
-	.uleb128 0xa
-	.uleb128 0x2117
-	.uleb128 0xc
+	.uleb128 0x58
+	.uleb128 0xb
+	.uleb128 0x59
+	.uleb128 0xb
 	.uleb128 0x1
 	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x2b
+	.uleb128 0xb
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.byte	0
+	.byte	0
+	.uleb128 0x2c
 	.uleb128 0x34
+	.byte	0
+	.uleb128 0x31
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x2d
+	.uleb128 0x1d
+	.byte	0x1
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x58
+	.uleb128 0xb
+	.uleb128 0x59
+	.uleb128 0x5
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x2e
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x2
+	.uleb128 0x6
+	.byte	0
+	.byte	0
+	.uleb128 0x2f
+	.uleb128 0x1d
+	.byte	0
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x58
+	.uleb128 0xb
+	.uleb128 0x59
+	.uleb128 0x5
+	.byte	0
+	.byte	0
+	.uleb128 0x30
+	.uleb128 0xb
+	.byte	0x1
+	.uleb128 0x55
+	.uleb128 0x6
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x31
+	.uleb128 0x4109
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x32
+	.uleb128 0x410a
+	.byte	0
+	.uleb128 0x2
+	.uleb128 0xa
+	.uleb128 0x2111
+	.uleb128 0xa
+	.byte	0
+	.byte	0
+	.uleb128 0x33
+	.uleb128 0x4109
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x31
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x34
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x31
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x35
+	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
 	.uleb128 0x8
@@ -11754,130 +11739,22 @@ I2C_Masters_Slaves:
 	.uleb128 0x49
 	.uleb128 0x13
 	.uleb128 0x2
-	.uleb128 0xa
-	.byte	0
-	.byte	0
-	.uleb128 0x2c
-	.uleb128 0x1d
-	.byte	0x1
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x58
-	.uleb128 0xb
-	.uleb128 0x59
-	.uleb128 0xb
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x2d
-	.uleb128 0xb
-	.byte	0x1
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.byte	0
-	.byte	0
-	.uleb128 0x2e
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x2f
-	.uleb128 0x1d
-	.byte	0x1
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x58
-	.uleb128 0xb
-	.uleb128 0x59
-	.uleb128 0x5
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x30
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x2
 	.uleb128 0x6
-	.byte	0
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x1d
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x58
-	.uleb128 0xb
-	.uleb128 0x59
-	.uleb128 0x5
-	.byte	0
-	.byte	0
-	.uleb128 0x32
-	.uleb128 0xb
-	.byte	0x1
-	.uleb128 0x55
-	.uleb128 0x6
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x33
-	.uleb128 0x4109
-	.byte	0x1
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x34
-	.uleb128 0x410a
-	.byte	0
-	.uleb128 0x2
-	.uleb128 0xa
-	.uleb128 0x2111
-	.uleb128 0xa
-	.byte	0
-	.byte	0
-	.uleb128 0x35
-	.uleb128 0x4109
-	.byte	0x1
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x31
-	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x36
-	.uleb128 0x5
-	.byte	0
+	.uleb128 0x4109
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x2115
+	.uleb128 0xc
 	.uleb128 0x31
 	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x37
-	.uleb128 0x5
+	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
 	.uleb128 0x8
@@ -11892,21 +11769,6 @@ I2C_Masters_Slaves:
 	.byte	0
 	.byte	0
 	.uleb128 0x38
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x2
-	.uleb128 0x6
-	.byte	0
-	.byte	0
-	.uleb128 0x39
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -11929,7 +11791,7 @@ I2C_Masters_Slaves:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3a
+	.uleb128 0x39
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -11944,33 +11806,7 @@ I2C_Masters_Slaves:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x3b
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x40
-	.uleb128 0xa
-	.uleb128 0x2117
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x3c
-	.uleb128 0x4109
-	.byte	0
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x31
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x3d
+	.uleb128 0x3a
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -11993,32 +11829,16 @@ I2C_Masters_Slaves:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3e
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x27
-	.uleb128 0xc
+	.uleb128 0x4109
+	.byte	0
 	.uleb128 0x11
 	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x40
-	.uleb128 0xa
-	.uleb128 0x2117
-	.uleb128 0xc
-	.uleb128 0x1
+	.uleb128 0x31
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x3f
+	.uleb128 0x3c
 	.uleb128 0x4109
 	.byte	0
 	.uleb128 0x11
@@ -12029,7 +11849,7 @@ I2C_Masters_Slaves:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x40
+	.uleb128 0x3d
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -12046,7 +11866,7 @@ I2C_Masters_Slaves:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x41
+	.uleb128 0x3e
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -12063,6 +11883,53 @@ I2C_Masters_Slaves:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
+	.uleb128 0x3f
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0x5
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x40
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x41
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0x5
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
 	.uleb128 0x42
 	.uleb128 0x2e
 	.byte	0x1
@@ -12073,9 +11940,11 @@ I2C_Masters_Slaves:
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0x5
+	.uleb128 0xb
 	.uleb128 0x27
 	.uleb128 0xc
+	.uleb128 0x49
+	.uleb128 0x13
 	.uleb128 0x3c
 	.uleb128 0xc
 	.uleb128 0x1
@@ -12083,34 +11952,6 @@ I2C_Masters_Slaves:
 	.byte	0
 	.byte	0
 	.uleb128 0x43
-	.uleb128 0x5
-	.byte	0
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x44
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x45
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -12127,29 +11968,6 @@ I2C_Masters_Slaves:
 	.uleb128 0x13
 	.uleb128 0x3c
 	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x46
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x2007
-	.uleb128 0x8
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.byte	0
@@ -12331,7 +12149,7 @@ I2C_Masters_Slaves:
 	.byte	0x30
 	.byte	0x9f
 	.uaword	.LVL40
-	.uaword	.LVL45
+	.uaword	.LVL46
 	.uahalf	0x1
 	.byte	0x5f
 	.uaword	0
@@ -12357,120 +12175,39 @@ I2C_Masters_Slaves:
 	.uaword	0
 	.uaword	0
 .LLST14:
-	.uaword	.LVL68
-	.uaword	.LVL69-1
-	.uahalf	0x8
-	.byte	0xf5
-	.uleb128 0x2
-	.uleb128 0x174
-	.byte	0xf7
-	.uleb128 0x17e
-	.byte	0x9f
-	.uaword	.LVL69-1
-	.uaword	.LVL79
-	.uahalf	0x8
-	.byte	0xf5
-	.uleb128 0x8
-	.uleb128 0x174
-	.byte	0xf7
-	.uleb128 0x17e
-	.byte	0x9f
-	.uaword	0
-	.uaword	0
-.LLST15:
-	.uaword	.LVL103
-	.uaword	.LVL104-1
-	.uahalf	0x8
-	.byte	0xf5
-	.uleb128 0x2
-	.uleb128 0x174
-	.byte	0xf7
-	.uleb128 0x17e
-	.byte	0x9f
-	.uaword	.LVL104-1
-	.uaword	.LFE303
-	.uahalf	0x8
-	.byte	0xf5
-	.uleb128 0xc
-	.uleb128 0x174
-	.byte	0xf7
-	.uleb128 0x17e
-	.byte	0x9f
-	.uaword	0
-	.uaword	0
-.LLST16:
-	.uaword	.LVL73
-	.uaword	.LVL74-1
-	.uahalf	0x8
-	.byte	0xf5
-	.uleb128 0x2
-	.uleb128 0x174
-	.byte	0xf7
-	.uleb128 0x17e
-	.byte	0x9f
-	.uaword	0
-	.uaword	0
-.LLST17:
-	.uaword	.LVL56
-	.uaword	.LVL57-1
-	.uahalf	0x1
-	.byte	0x52
-	.uaword	.LVL57-1
-	.uaword	.LFE303
-	.uahalf	0x1
-	.byte	0x5f
-	.uaword	0
-	.uaword	0
-.LLST18:
-	.uaword	.LVL60
-	.uaword	.LVL61-1
-	.uahalf	0x1
-	.byte	0x52
-	.uaword	.LVL61-1
-	.uaword	.LVL71
-	.uahalf	0x1
-	.byte	0x5a
-	.uaword	0
-	.uaword	0
-.LLST19:
-	.uaword	.LVL63
-	.uaword	.LVL64-1
-	.uahalf	0x1
-	.byte	0x52
-	.uaword	0
-	.uaword	0
-.LLST20:
-	.uaword	.LVL80
-	.uaword	.LVL84
-	.uahalf	0x1f
-	.byte	0xf5
-	.uleb128 0x1e
-	.uleb128 0x17e
-	.byte	0xf7
-	.uleb128 0x174
-	.byte	0xf5
-	.uleb128 0xe
-	.uleb128 0x174
-	.byte	0x1e
+	.uaword	.LVL104
+	.uaword	.LVL105-1
+	.uahalf	0x21
 	.byte	0x91
-	.sleb128 -32
+	.sleb128 -44
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x17e
+	.uleb128 0x198
 	.byte	0xf7
-	.uleb128 0x174
+	.uleb128 0x18e
 	.byte	0xf5
-	.uleb128 0x1c
-	.uleb128 0x174
+	.uleb128 0x8
+	.uleb128 0x18e
 	.byte	0x1e
-	.byte	0x1c
+	.byte	0x91
+	.sleb128 -40
+	.byte	0xf6
+	.byte	0x4
+	.uleb128 0x198
 	.byte	0xf7
-	.uleb128 0x17e
+	.uleb128 0x18e
+	.byte	0xf5
+	.uleb128 0x2
+	.uleb128 0x18e
+	.byte	0x1e
+	.byte	0x22
+	.byte	0xf7
+	.uleb128 0x198
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
 .section .debug_aranges,"",@progbits
-	.uaword	0x7c
+	.uaword	0x64
 	.uahalf	0x2
 	.uaword	.Ldebug_info0
 	.byte	0x4
@@ -12497,22 +12234,16 @@ I2C_Masters_Slaves:
 	.uaword	.LFE300-.LFB300
 	.uaword	.LFB301
 	.uaword	.LFE301-.LFB301
-	.uaword	.LFB302
-	.uaword	.LFE302-.LFB302
-	.uaword	.LFB303
-	.uaword	.LFE303-.LFB303
-	.uaword	.LFB304
-	.uaword	.LFE304-.LFB304
 	.uaword	0
 	.uaword	0
 .section .debug_ranges,"",@progbits
 .Ldebug_ranges0:
+	.uaword	.LBB24
+	.uaword	.LBE24
+	.uaword	.LBB25
+	.uaword	.LBE25
 	.uaword	.LBB26
 	.uaword	.LBE26
-	.uaword	.LBB27
-	.uaword	.LBE27
-	.uaword	.LBB28
-	.uaword	.LBE28
 	.uaword	0
 	.uaword	0
 	.uaword	.LFB292
@@ -12535,12 +12266,6 @@ I2C_Masters_Slaves:
 	.uaword	.LFE300
 	.uaword	.LFB301
 	.uaword	.LFE301
-	.uaword	.LFB302
-	.uaword	.LFE302
-	.uaword	.LFB303
-	.uaword	.LFE303
-	.uaword	.LFB304
-	.uaword	.LFE304
 	.uaword	0
 	.uaword	0
 .section .debug_line,"",@progbits
@@ -12618,7 +12343,8 @@ I2C_Masters_Slaves:
 	.string	"TX_END"
 .LASF32:
 	.string	"outSelect"
-	.extern	sincos,STT_FUNC,0
+	.extern	sin,STT_FUNC,0
+	.extern	cos,STT_FUNC,0
 	.extern	atan2,STT_FUNC,0
 	.extern	sqrt,STT_FUNC,0
 	.extern	IfxI2c_I2c_read,STT_FUNC,0

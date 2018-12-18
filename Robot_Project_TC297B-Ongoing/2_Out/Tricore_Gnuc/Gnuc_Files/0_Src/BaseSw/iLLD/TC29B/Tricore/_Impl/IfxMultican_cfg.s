@@ -20,7 +20,7 @@ IfxMultican_cfg_indexMap:
 	.file 5 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxMultican_cfg.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x3224
+	.uaword	0x323e
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -28,7 +28,7 @@ IfxMultican_cfg_indexMap:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxMultican_cfg.c"
-	.string	"C:\\\\Robot_Project\\\\Robot_Project_TC297-B-Ongoing"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC297B-Ongoing"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -62,12 +62,12 @@ IfxMultican_cfg_indexMap:
 	.string	"sint32"
 	.byte	0x1
 	.byte	0x5c
-	.uaword	0x172
+	.uaword	0x18c
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x1
 	.byte	0x5d
-	.uaword	0x17e
+	.uaword	0x198
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -90,42 +90,42 @@ IfxMultican_cfg_indexMap:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x245
+	.uaword	0x25f
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x2
 	.byte	0x7d
-	.uaword	0x26c
+	.uaword	0x286
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x2
 	.byte	0x7f
-	.uaword	0x23f
+	.uaword	0x259
 	.byte	0
 	.uleb128 0x7
 	.string	"index"
 	.byte	0x2
 	.byte	0x80
-	.uaword	0x1dd
+	.uaword	0x1f7
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x2
 	.byte	0x81
-	.uaword	0x246
+	.uaword	0x260
 	.uleb128 0x8
 	.string	"_Ifx_CAN_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x31
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x3
 	.byte	0x33
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -134,7 +134,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN1"
 	.byte	0x3
 	.byte	0x34
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -143,7 +143,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN2"
 	.byte	0x3
 	.byte	0x35
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -152,7 +152,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN3"
 	.byte	0x3
 	.byte	0x36
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -161,7 +161,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN4"
 	.byte	0x3
 	.byte	0x37
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -170,7 +170,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN5"
 	.byte	0x3
 	.byte	0x38
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -179,7 +179,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN6"
 	.byte	0x3
 	.byte	0x39
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -188,7 +188,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN7"
 	.byte	0x3
 	.byte	0x3a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -197,7 +197,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN8"
 	.byte	0x3
 	.byte	0x3b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -206,7 +206,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN9"
 	.byte	0x3
 	.byte	0x3c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -215,7 +215,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN10"
 	.byte	0x3
 	.byte	0x3d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -224,7 +224,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN11"
 	.byte	0x3
 	.byte	0x3e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -233,7 +233,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN12"
 	.byte	0x3
 	.byte	0x3f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -242,7 +242,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN13"
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -251,7 +251,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN14"
 	.byte	0x3
 	.byte	0x41
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -260,7 +260,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN15"
 	.byte	0x3
 	.byte	0x42
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -269,7 +269,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN16"
 	.byte	0x3
 	.byte	0x43
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -278,7 +278,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN17"
 	.byte	0x3
 	.byte	0x44
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -287,7 +287,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN18"
 	.byte	0x3
 	.byte	0x45
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -296,7 +296,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN19"
 	.byte	0x3
 	.byte	0x46
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -305,7 +305,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN20"
 	.byte	0x3
 	.byte	0x47
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -314,7 +314,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN21"
 	.byte	0x3
 	.byte	0x48
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -323,7 +323,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN22"
 	.byte	0x3
 	.byte	0x49
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -332,7 +332,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN23"
 	.byte	0x3
 	.byte	0x4a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -341,7 +341,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN24"
 	.byte	0x3
 	.byte	0x4b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -350,7 +350,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN25"
 	.byte	0x3
 	.byte	0x4c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -359,7 +359,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN26"
 	.byte	0x3
 	.byte	0x4d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -368,7 +368,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN27"
 	.byte	0x3
 	.byte	0x4e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -377,7 +377,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN28"
 	.byte	0x3
 	.byte	0x4f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -386,7 +386,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN29"
 	.byte	0x3
 	.byte	0x50
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -395,7 +395,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN30"
 	.byte	0x3
 	.byte	0x51
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -404,7 +404,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EN31"
 	.byte	0x3
 	.byte	0x52
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -418,18 +418,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_ACCEN0_Bits"
 	.byte	0x3
 	.byte	0x53
-	.uaword	0x286
+	.uaword	0x2a0
 	.uleb128 0x8
 	.string	"_Ifx_CAN_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x56
-	.uaword	0x4f2
+	.uaword	0x50c
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x58
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -439,18 +439,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_ACCEN1_Bits"
 	.byte	0x3
 	.byte	0x59
-	.uaword	0x4c5
+	.uaword	0x4df
 	.uleb128 0x8
 	.string	"_Ifx_CAN_CLC_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x576
+	.uaword	0x590
 	.uleb128 0x9
 	.string	"DISR"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -459,7 +459,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DISS"
 	.byte	0x3
 	.byte	0x5f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -468,7 +468,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x60
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -477,7 +477,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EDIS"
 	.byte	0x3
 	.byte	0x61
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -486,7 +486,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0x62
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -496,18 +496,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_CLC_Bits"
 	.byte	0x3
 	.byte	0x63
-	.uaword	0x50d
+	.uaword	0x527
 	.uleb128 0x8
 	.string	"_Ifx_CAN_FDR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x66
-	.uaword	0x5e5
+	.uaword	0x5ff
 	.uleb128 0x9
 	.string	"STEP"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -516,7 +516,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0x69
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -525,7 +525,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DM"
 	.byte	0x3
 	.byte	0x6a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -534,7 +534,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0x6b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -544,18 +544,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_FDR_Bits"
 	.byte	0x3
 	.byte	0x6c
-	.uaword	0x58e
+	.uaword	0x5a8
 	.uleb128 0x8
 	.string	"_Ifx_CAN_ID_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x6f
-	.uaword	0x653
+	.uaword	0x66d
 	.uleb128 0x9
 	.string	"MOD_REV"
 	.byte	0x3
 	.byte	0x71
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -564,7 +564,7 @@ IfxMultican_cfg_indexMap:
 	.string	"MOD_TYPE"
 	.byte	0x3
 	.byte	0x72
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -573,7 +573,7 @@ IfxMultican_cfg_indexMap:
 	.string	"MODNUMBER"
 	.byte	0x3
 	.byte	0x73
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -583,18 +583,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_ID_Bits"
 	.byte	0x3
 	.byte	0x74
-	.uaword	0x5fd
+	.uaword	0x617
 	.uleb128 0x8
 	.string	"_Ifx_CAN_KRST0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x77
-	.uaword	0x6b8
+	.uaword	0x6d2
 	.uleb128 0x9
 	.string	"RST"
 	.byte	0x3
 	.byte	0x79
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -603,7 +603,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RSTSTAT"
 	.byte	0x3
 	.byte	0x7a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -612,7 +612,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x7b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -622,18 +622,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_KRST0_Bits"
 	.byte	0x3
 	.byte	0x7c
-	.uaword	0x66a
+	.uaword	0x684
 	.uleb128 0x8
 	.string	"_Ifx_CAN_KRST1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x7f
-	.uaword	0x70d
+	.uaword	0x727
 	.uleb128 0x9
 	.string	"RST"
 	.byte	0x3
 	.byte	0x81
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -642,7 +642,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF5
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -652,18 +652,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_KRST1_Bits"
 	.byte	0x3
 	.byte	0x83
-	.uaword	0x6d2
+	.uaword	0x6ec
 	.uleb128 0x8
 	.string	"_Ifx_CAN_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x86
-	.uaword	0x764
+	.uaword	0x77e
 	.uleb128 0x9
 	.string	"CLR"
 	.byte	0x3
 	.byte	0x88
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -672,7 +672,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF5
 	.byte	0x3
 	.byte	0x89
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -682,18 +682,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_KRSTCLR_Bits"
 	.byte	0x3
 	.byte	0x8a
-	.uaword	0x727
+	.uaword	0x741
 	.uleb128 0x8
 	.string	"_Ifx_CAN_LIST_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8d
-	.uaword	0x7ec
+	.uaword	0x806
 	.uleb128 0x9
 	.string	"BEGIN"
 	.byte	0x3
 	.byte	0x8f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -702,7 +702,7 @@ IfxMultican_cfg_indexMap:
 	.string	"END"
 	.byte	0x3
 	.byte	0x90
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -711,7 +711,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SIZE"
 	.byte	0x3
 	.byte	0x91
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -720,7 +720,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EMPTY"
 	.byte	0x3
 	.byte	0x92
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -729,7 +729,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF6
 	.byte	0x3
 	.byte	0x93
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -739,18 +739,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_LIST_Bits"
 	.byte	0x3
 	.byte	0x94
-	.uaword	0x780
+	.uaword	0x79a
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x97
-	.uaword	0x861
+	.uaword	0x87b
 	.uleb128 0x9
 	.string	"CLKSEL"
 	.byte	0x3
 	.byte	0x99
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -759,7 +759,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0x9a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x14
@@ -768,7 +768,7 @@ IfxMultican_cfg_indexMap:
 	.string	"MPSEL"
 	.byte	0x3
 	.byte	0x9b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -777,7 +777,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -787,18 +787,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MCR_Bits"
 	.byte	0x3
 	.byte	0x9d
-	.uaword	0x805
+	.uaword	0x81f
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MECR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xa0
-	.uaword	0x942
+	.uaword	0x95c
 	.uleb128 0x9
 	.string	"TH"
 	.byte	0x3
 	.byte	0xa2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -807,7 +807,7 @@ IfxMultican_cfg_indexMap:
 	.string	"INP"
 	.byte	0x3
 	.byte	0xa3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -816,7 +816,7 @@ IfxMultican_cfg_indexMap:
 	.string	"NODE"
 	.byte	0x3
 	.byte	0xa4
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -825,7 +825,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_23"
 	.byte	0x3
 	.byte	0xa5
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -834,7 +834,7 @@ IfxMultican_cfg_indexMap:
 	.string	"ANYED"
 	.byte	0x3
 	.byte	0xa6
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -843,7 +843,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CAPEIE"
 	.byte	0x3
 	.byte	0xa7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -852,7 +852,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF7
 	.byte	0x3
 	.byte	0xa8
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -861,7 +861,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DEPTH"
 	.byte	0x3
 	.byte	0xa9
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x2
@@ -870,7 +870,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SOF"
 	.byte	0x3
 	.byte	0xaa
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -879,7 +879,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_31"
 	.byte	0x3
 	.byte	0xab
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -889,18 +889,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MECR_Bits"
 	.byte	0x3
 	.byte	0xac
-	.uaword	0x879
+	.uaword	0x893
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MESTAT_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xaf
-	.uaword	0x9c2
+	.uaword	0x9dc
 	.uleb128 0x9
 	.string	"CAPT"
 	.byte	0x3
 	.byte	0xb1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -909,7 +909,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CAPRED"
 	.byte	0x3
 	.byte	0xb2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -918,7 +918,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CAPE"
 	.byte	0x3
 	.byte	0xb3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -927,7 +927,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_18"
 	.byte	0x3
 	.byte	0xb4
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -937,18 +937,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MESTAT_Bits"
 	.byte	0x3
 	.byte	0xb5
-	.uaword	0x95b
+	.uaword	0x975
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MITR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xb8
-	.uaword	0xa16
+	.uaword	0xa30
 	.uleb128 0x9
 	.string	"IT"
 	.byte	0x3
 	.byte	0xba
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -957,7 +957,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0xbb
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -967,18 +967,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MITR_Bits"
 	.byte	0x3
 	.byte	0xbc
-	.uaword	0x9dd
+	.uaword	0x9f7
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MO_AMR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xbf
-	.uaword	0xa7a
+	.uaword	0xa94
 	.uleb128 0x9
 	.string	"AM"
 	.byte	0x3
 	.byte	0xc1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -987,7 +987,7 @@ IfxMultican_cfg_indexMap:
 	.string	"MIDE"
 	.byte	0x3
 	.byte	0xc2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -996,7 +996,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF8
 	.byte	0x3
 	.byte	0xc3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -1006,18 +1006,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_AMR_Bits"
 	.byte	0x3
 	.byte	0xc4
-	.uaword	0xa2f
+	.uaword	0xa49
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MO_AR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc7
-	.uaword	0xade
+	.uaword	0xaf8
 	.uleb128 0x9
 	.string	"ID"
 	.byte	0x3
 	.byte	0xc9
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -1026,7 +1026,7 @@ IfxMultican_cfg_indexMap:
 	.string	"IDE"
 	.byte	0x3
 	.byte	0xca
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1035,7 +1035,7 @@ IfxMultican_cfg_indexMap:
 	.string	"PRI"
 	.byte	0x3
 	.byte	0xcb
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -1045,18 +1045,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_AR_Bits"
 	.byte	0x3
 	.byte	0xcc
-	.uaword	0xa95
+	.uaword	0xaaf
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MO_CTR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xcf
-	.uaword	0xd12
+	.uaword	0xd2c
 	.uleb128 0x9
 	.string	"RESRXPND"
 	.byte	0x3
 	.byte	0xd1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1065,7 +1065,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESTXPND"
 	.byte	0x3
 	.byte	0xd2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1074,7 +1074,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESRXUPD"
 	.byte	0x3
 	.byte	0xd3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1083,7 +1083,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESNEWDAT"
 	.byte	0x3
 	.byte	0xd4
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1092,7 +1092,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESMSGLST"
 	.byte	0x3
 	.byte	0xd5
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1101,7 +1101,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESMSGVAL"
 	.byte	0x3
 	.byte	0xd6
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1110,7 +1110,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESRTSEL"
 	.byte	0x3
 	.byte	0xd7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1119,7 +1119,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESRXEN"
 	.byte	0x3
 	.byte	0xd8
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1128,7 +1128,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESTXRQ"
 	.byte	0x3
 	.byte	0xd9
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1137,7 +1137,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESTXEN0"
 	.byte	0x3
 	.byte	0xda
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1146,7 +1146,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESTXEN1"
 	.byte	0x3
 	.byte	0xdb
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1155,7 +1155,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESDIR"
 	.byte	0x3
 	.byte	0xdc
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1164,7 +1164,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF9
 	.byte	0x3
 	.byte	0xdd
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -1173,7 +1173,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETRXPND"
 	.byte	0x3
 	.byte	0xde
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1182,7 +1182,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETTXPND"
 	.byte	0x3
 	.byte	0xdf
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1191,7 +1191,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETRXUPD"
 	.byte	0x3
 	.byte	0xe0
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1200,7 +1200,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETNEWDAT"
 	.byte	0x3
 	.byte	0xe1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1209,7 +1209,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETMSGLST"
 	.byte	0x3
 	.byte	0xe2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1218,7 +1218,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETMSGVAL"
 	.byte	0x3
 	.byte	0xe3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1227,7 +1227,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETRTSEL"
 	.byte	0x3
 	.byte	0xe4
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1236,7 +1236,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETRXEN"
 	.byte	0x3
 	.byte	0xe5
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1245,7 +1245,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETTXRQ"
 	.byte	0x3
 	.byte	0xe6
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1254,7 +1254,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETTXEN0"
 	.byte	0x3
 	.byte	0xe7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1263,7 +1263,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETTXEN1"
 	.byte	0x3
 	.byte	0xe8
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1272,7 +1272,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SETDIR"
 	.byte	0x3
 	.byte	0xe9
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1281,7 +1281,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF10
 	.byte	0x3
 	.byte	0xea
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1291,18 +1291,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_CTR_Bits"
 	.byte	0x3
 	.byte	0xeb
-	.uaword	0xaf8
+	.uaword	0xb12
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MO_DATAH_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xee
-	.uaword	0xd89
+	.uaword	0xda3
 	.uleb128 0x9
 	.string	"DB4"
 	.byte	0x3
 	.byte	0xf0
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1311,7 +1311,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB5"
 	.byte	0x3
 	.byte	0xf1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1320,7 +1320,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB6"
 	.byte	0x3
 	.byte	0xf2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1329,7 +1329,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB7"
 	.byte	0x3
 	.byte	0xf3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1339,18 +1339,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_DATAH_Bits"
 	.byte	0x3
 	.byte	0xf4
-	.uaword	0xd2d
+	.uaword	0xd47
 	.uleb128 0x8
 	.string	"_Ifx_CAN_MO_DATAL_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xf7
-	.uaword	0xe02
+	.uaword	0xe1c
 	.uleb128 0x9
 	.string	"DB0"
 	.byte	0x3
 	.byte	0xf9
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1359,7 +1359,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB1"
 	.byte	0x3
 	.byte	0xfa
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1368,7 +1368,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB2"
 	.byte	0x3
 	.byte	0xfb
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1377,7 +1377,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB3"
 	.byte	0x3
 	.byte	0xfc
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1387,18 +1387,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_DATAL_Bits"
 	.byte	0x3
 	.byte	0xfd
-	.uaword	0xda6
+	.uaword	0xdc0
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_EDATA0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x100
-	.uaword	0xe81
+	.uaword	0xe9b
 	.uleb128 0xc
 	.string	"DB0"
 	.byte	0x3
 	.uahalf	0x102
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1407,7 +1407,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB1"
 	.byte	0x3
 	.uahalf	0x103
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1416,7 +1416,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB2"
 	.byte	0x3
 	.uahalf	0x104
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1425,7 +1425,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB3"
 	.byte	0x3
 	.uahalf	0x105
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1435,18 +1435,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_EDATA0_Bits"
 	.byte	0x3
 	.uahalf	0x106
-	.uaword	0xe1f
+	.uaword	0xe39
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_EDATA1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x109
-	.uaword	0xf02
+	.uaword	0xf1c
 	.uleb128 0xc
 	.string	"DB0"
 	.byte	0x3
 	.uahalf	0x10b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1455,7 +1455,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB1"
 	.byte	0x3
 	.uahalf	0x10c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1464,7 +1464,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB2"
 	.byte	0x3
 	.uahalf	0x10d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1473,7 +1473,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB3"
 	.byte	0x3
 	.uahalf	0x10e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1483,18 +1483,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_EDATA1_Bits"
 	.byte	0x3
 	.uahalf	0x10f
-	.uaword	0xea0
+	.uaword	0xeba
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_EDATA2_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x112
-	.uaword	0xf83
+	.uaword	0xf9d
 	.uleb128 0xc
 	.string	"DB0"
 	.byte	0x3
 	.uahalf	0x114
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1503,7 +1503,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB1"
 	.byte	0x3
 	.uahalf	0x115
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1512,7 +1512,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB2"
 	.byte	0x3
 	.uahalf	0x116
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1521,7 +1521,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB3"
 	.byte	0x3
 	.uahalf	0x117
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1531,18 +1531,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_EDATA2_Bits"
 	.byte	0x3
 	.uahalf	0x118
-	.uaword	0xf21
+	.uaword	0xf3b
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_EDATA3_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x11b
-	.uaword	0x1004
+	.uaword	0x101e
 	.uleb128 0xc
 	.string	"DB0"
 	.byte	0x3
 	.uahalf	0x11d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1551,7 +1551,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB1"
 	.byte	0x3
 	.uahalf	0x11e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1560,7 +1560,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB2"
 	.byte	0x3
 	.uahalf	0x11f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1569,7 +1569,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB3"
 	.byte	0x3
 	.uahalf	0x120
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1579,18 +1579,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_EDATA3_Bits"
 	.byte	0x3
 	.uahalf	0x121
-	.uaword	0xfa2
+	.uaword	0xfbc
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_EDATA4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x124
-	.uaword	0x1085
+	.uaword	0x109f
 	.uleb128 0xc
 	.string	"DB0"
 	.byte	0x3
 	.uahalf	0x126
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1599,7 +1599,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB1"
 	.byte	0x3
 	.uahalf	0x127
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1608,7 +1608,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB2"
 	.byte	0x3
 	.uahalf	0x128
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1617,7 +1617,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB3"
 	.byte	0x3
 	.uahalf	0x129
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1627,18 +1627,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_EDATA4_Bits"
 	.byte	0x3
 	.uahalf	0x12a
-	.uaword	0x1023
+	.uaword	0x103d
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_EDATA5_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x12d
-	.uaword	0x1106
+	.uaword	0x1120
 	.uleb128 0xc
 	.string	"DB0"
 	.byte	0x3
 	.uahalf	0x12f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1647,7 +1647,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB1"
 	.byte	0x3
 	.uahalf	0x130
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1656,7 +1656,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB2"
 	.byte	0x3
 	.uahalf	0x131
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1665,7 +1665,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB3"
 	.byte	0x3
 	.uahalf	0x132
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1675,18 +1675,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_EDATA5_Bits"
 	.byte	0x3
 	.uahalf	0x133
-	.uaword	0x10a4
+	.uaword	0x10be
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_EDATA6_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x136
-	.uaword	0x1187
+	.uaword	0x11a1
 	.uleb128 0xc
 	.string	"DB0"
 	.byte	0x3
 	.uahalf	0x138
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1695,7 +1695,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB1"
 	.byte	0x3
 	.uahalf	0x139
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1704,7 +1704,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB2"
 	.byte	0x3
 	.uahalf	0x13a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1713,7 +1713,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DB3"
 	.byte	0x3
 	.uahalf	0x13b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1723,18 +1723,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_EDATA6_Bits"
 	.byte	0x3
 	.uahalf	0x13c
-	.uaword	0x1125
+	.uaword	0x113f
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_FCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x13f
-	.uaword	0x131e
+	.uaword	0x1338
 	.uleb128 0xc
 	.string	"MMC"
 	.byte	0x3
 	.uahalf	0x141
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1743,7 +1743,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RXTOE"
 	.byte	0x3
 	.uahalf	0x142
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1752,7 +1752,7 @@ IfxMultican_cfg_indexMap:
 	.string	"BRS"
 	.byte	0x3
 	.uahalf	0x143
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1761,7 +1761,7 @@ IfxMultican_cfg_indexMap:
 	.string	"FDF"
 	.byte	0x3
 	.uahalf	0x144
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1770,7 +1770,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_7"
 	.byte	0x3
 	.uahalf	0x145
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1779,7 +1779,7 @@ IfxMultican_cfg_indexMap:
 	.string	"GDFS"
 	.byte	0x3
 	.uahalf	0x146
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1788,7 +1788,7 @@ IfxMultican_cfg_indexMap:
 	.string	"IDC"
 	.byte	0x3
 	.uahalf	0x147
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1797,7 +1797,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DLCC"
 	.byte	0x3
 	.uahalf	0x148
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1806,7 +1806,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DATC"
 	.byte	0x3
 	.uahalf	0x149
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1815,7 +1815,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF9
 	.byte	0x3
 	.uahalf	0x14a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -1824,7 +1824,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RXIE"
 	.byte	0x3
 	.uahalf	0x14b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1833,7 +1833,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXIE"
 	.byte	0x3
 	.uahalf	0x14c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1842,7 +1842,7 @@ IfxMultican_cfg_indexMap:
 	.string	"OVIE"
 	.byte	0x3
 	.uahalf	0x14d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1851,7 +1851,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_19"
 	.byte	0x3
 	.uahalf	0x14e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1860,7 +1860,7 @@ IfxMultican_cfg_indexMap:
 	.string	"FRREN"
 	.byte	0x3
 	.uahalf	0x14f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1869,7 +1869,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RMM"
 	.byte	0x3
 	.uahalf	0x150
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1878,7 +1878,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SDT"
 	.byte	0x3
 	.uahalf	0x151
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1887,7 +1887,7 @@ IfxMultican_cfg_indexMap:
 	.string	"STT"
 	.byte	0x3
 	.uahalf	0x152
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1896,7 +1896,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DLC"
 	.byte	0x3
 	.uahalf	0x153
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -1905,7 +1905,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF10
 	.byte	0x3
 	.uahalf	0x154
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1915,18 +1915,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_FCR_Bits"
 	.byte	0x3
 	.uahalf	0x155
-	.uaword	0x11a6
+	.uaword	0x11c0
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_FGPR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x158
-	.uaword	0x139a
+	.uaword	0x13b4
 	.uleb128 0xc
 	.string	"BOT"
 	.byte	0x3
 	.uahalf	0x15a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1935,7 +1935,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TOP"
 	.byte	0x3
 	.uahalf	0x15b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1944,7 +1944,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CUR"
 	.byte	0x3
 	.uahalf	0x15c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -1953,7 +1953,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SEL"
 	.byte	0x3
 	.uahalf	0x15d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1963,18 +1963,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_FGPR_Bits"
 	.byte	0x3
 	.uahalf	0x15e
-	.uaword	0x133a
+	.uaword	0x1354
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_IPR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x161
-	.uaword	0x141d
+	.uaword	0x1437
 	.uleb128 0xc
 	.string	"RXINP"
 	.byte	0x3
 	.uahalf	0x163
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -1983,7 +1983,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXINP"
 	.byte	0x3
 	.uahalf	0x164
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -1992,7 +1992,7 @@ IfxMultican_cfg_indexMap:
 	.string	"MPN"
 	.byte	0x3
 	.uahalf	0x165
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2001,7 +2001,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CFCVAL"
 	.byte	0x3
 	.uahalf	0x166
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2011,18 +2011,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_IPR_Bits"
 	.byte	0x3
 	.uahalf	0x167
-	.uaword	0x13b7
+	.uaword	0x13d1
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_STAT_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x16a
-	.uaword	0x1565
+	.uaword	0x157f
 	.uleb128 0xc
 	.string	"RXPND"
 	.byte	0x3
 	.uahalf	0x16c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2031,7 +2031,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXPND"
 	.byte	0x3
 	.uahalf	0x16d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2040,7 +2040,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RXUPD"
 	.byte	0x3
 	.uahalf	0x16e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2049,7 +2049,7 @@ IfxMultican_cfg_indexMap:
 	.string	"NEWDAT"
 	.byte	0x3
 	.uahalf	0x16f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2058,7 +2058,7 @@ IfxMultican_cfg_indexMap:
 	.string	"MSGLST"
 	.byte	0x3
 	.uahalf	0x170
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2067,7 +2067,7 @@ IfxMultican_cfg_indexMap:
 	.string	"MSGVAL"
 	.byte	0x3
 	.uahalf	0x171
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2076,7 +2076,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RTSEL"
 	.byte	0x3
 	.uahalf	0x172
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2085,7 +2085,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RXEN"
 	.byte	0x3
 	.uahalf	0x173
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2094,7 +2094,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXRQ"
 	.byte	0x3
 	.uahalf	0x174
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2103,7 +2103,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXEN0"
 	.byte	0x3
 	.uahalf	0x175
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2112,7 +2112,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXEN1"
 	.byte	0x3
 	.uahalf	0x176
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2121,7 +2121,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DIR"
 	.byte	0x3
 	.uahalf	0x177
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2130,7 +2130,7 @@ IfxMultican_cfg_indexMap:
 	.string	"LIST"
 	.byte	0x3
 	.uahalf	0x178
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -2139,7 +2139,7 @@ IfxMultican_cfg_indexMap:
 	.string	"PPREV"
 	.byte	0x3
 	.uahalf	0x179
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -2148,7 +2148,7 @@ IfxMultican_cfg_indexMap:
 	.string	"PNEXT"
 	.byte	0x3
 	.uahalf	0x17a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2158,18 +2158,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MO_STAT_Bits"
 	.byte	0x3
 	.uahalf	0x17b
-	.uaword	0x1439
+	.uaword	0x1453
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MSID_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x17e
-	.uaword	0x15c1
+	.uaword	0x15db
 	.uleb128 0xc
 	.string	"INDEX"
 	.byte	0x3
 	.uahalf	0x180
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2178,7 +2178,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF11
 	.byte	0x3
 	.uahalf	0x181
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -2188,18 +2188,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MSID_Bits"
 	.byte	0x3
 	.uahalf	0x182
-	.uaword	0x1582
+	.uaword	0x159c
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MSIMASK_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x185
-	.uaword	0x160a
+	.uaword	0x1624
 	.uleb128 0xc
 	.string	"IM"
 	.byte	0x3
 	.uahalf	0x187
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2209,18 +2209,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MSIMASK_Bits"
 	.byte	0x3
 	.uahalf	0x188
-	.uaword	0x15db
+	.uaword	0x15f5
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MSPND_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x18b
-	.uaword	0x1655
+	.uaword	0x166f
 	.uleb128 0xc
 	.string	"PND"
 	.byte	0x3
 	.uahalf	0x18d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2230,18 +2230,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_MSPND_Bits"
 	.byte	0x3
 	.uahalf	0x18e
-	.uaword	0x1627
+	.uaword	0x1641
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_BTEVR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x191
-	.uaword	0x1725
+	.uaword	0x173f
 	.uleb128 0xc
 	.string	"BRP"
 	.byte	0x3
 	.uahalf	0x193
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2250,7 +2250,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF11
 	.byte	0x3
 	.uahalf	0x194
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2259,7 +2259,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SJW"
 	.byte	0x3
 	.uahalf	0x195
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2268,7 +2268,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF9
 	.byte	0x3
 	.uahalf	0x196
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -2277,7 +2277,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DIV8"
 	.byte	0x3
 	.uahalf	0x197
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2286,7 +2286,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TSEG2"
 	.byte	0x3
 	.uahalf	0x198
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -2295,7 +2295,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF12
 	.byte	0x3
 	.uahalf	0x199
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2304,7 +2304,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TSEG1"
 	.byte	0x3
 	.uahalf	0x19a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0x4
@@ -2313,7 +2313,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF10
 	.byte	0x3
 	.uahalf	0x19b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -2323,18 +2323,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_BTEVR_Bits"
 	.byte	0x3
 	.uahalf	0x19c
-	.uaword	0x1670
+	.uaword	0x168a
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_BTR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x19f
-	.uaword	0x17c5
+	.uaword	0x17df
 	.uleb128 0xc
 	.string	"BRP"
 	.byte	0x3
 	.uahalf	0x1a1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2343,7 +2343,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SJW"
 	.byte	0x3
 	.uahalf	0x1a2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2352,7 +2352,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TSEG1"
 	.byte	0x3
 	.uahalf	0x1a3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2361,7 +2361,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TSEG2"
 	.byte	0x3
 	.uahalf	0x1a4
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -2370,7 +2370,7 @@ IfxMultican_cfg_indexMap:
 	.string	"DIV8"
 	.byte	0x3
 	.uahalf	0x1a5
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2379,7 +2379,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF4
 	.byte	0x3
 	.uahalf	0x1a6
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2389,18 +2389,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_BTR_Bits"
 	.byte	0x3
 	.uahalf	0x1a7
-	.uaword	0x1742
+	.uaword	0x175c
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_CR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1aa
-	.uaword	0x18bb
+	.uaword	0x18d5
 	.uleb128 0xc
 	.string	"INIT"
 	.byte	0x3
 	.uahalf	0x1ac
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2409,7 +2409,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TRIE"
 	.byte	0x3
 	.uahalf	0x1ad
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2418,7 +2418,7 @@ IfxMultican_cfg_indexMap:
 	.string	"LECIE"
 	.byte	0x3
 	.uahalf	0x1ae
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2427,7 +2427,7 @@ IfxMultican_cfg_indexMap:
 	.string	"ALIE"
 	.byte	0x3
 	.uahalf	0x1af
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2436,7 +2436,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CANDIS"
 	.byte	0x3
 	.uahalf	0x1b0
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2445,7 +2445,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXDIS"
 	.byte	0x3
 	.uahalf	0x1b1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2454,7 +2454,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CCE"
 	.byte	0x3
 	.uahalf	0x1b2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2463,7 +2463,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CALM"
 	.byte	0x3
 	.uahalf	0x1b3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2472,7 +2472,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SUSEN"
 	.byte	0x3
 	.uahalf	0x1b4
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2481,7 +2481,7 @@ IfxMultican_cfg_indexMap:
 	.string	"FDEN"
 	.byte	0x3
 	.uahalf	0x1b5
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2490,7 +2490,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF3
 	.byte	0x3
 	.uahalf	0x1b6
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -2500,18 +2500,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_CR_Bits"
 	.byte	0x3
 	.uahalf	0x1b7
-	.uaword	0x17e0
+	.uaword	0x17fa
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_ECNT_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1ba
-	.uaword	0x195b
+	.uaword	0x1975
 	.uleb128 0xc
 	.string	"REC"
 	.byte	0x3
 	.uahalf	0x1bc
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2520,7 +2520,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TEC"
 	.byte	0x3
 	.uahalf	0x1bd
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2529,7 +2529,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EWRNLVL"
 	.byte	0x3
 	.uahalf	0x1be
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -2538,7 +2538,7 @@ IfxMultican_cfg_indexMap:
 	.string	"LETD"
 	.byte	0x3
 	.uahalf	0x1bf
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2547,7 +2547,7 @@ IfxMultican_cfg_indexMap:
 	.string	"LEINC"
 	.byte	0x3
 	.uahalf	0x1c0
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2556,7 +2556,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF7
 	.byte	0x3
 	.uahalf	0x1c1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -2566,18 +2566,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_ECNT_Bits"
 	.byte	0x3
 	.uahalf	0x1c2
-	.uaword	0x18d5
+	.uaword	0x18ef
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_FBTR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1c5
-	.uaword	0x19ee
+	.uaword	0x1a08
 	.uleb128 0xc
 	.string	"FBRP"
 	.byte	0x3
 	.uahalf	0x1c7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -2586,7 +2586,7 @@ IfxMultican_cfg_indexMap:
 	.string	"FSJW"
 	.byte	0x3
 	.uahalf	0x1c8
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2595,7 +2595,7 @@ IfxMultican_cfg_indexMap:
 	.string	"FTSEG1"
 	.byte	0x3
 	.uahalf	0x1c9
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2604,7 +2604,7 @@ IfxMultican_cfg_indexMap:
 	.string	"FTSEG2"
 	.byte	0x3
 	.uahalf	0x1ca
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -2613,7 +2613,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF13
 	.byte	0x3
 	.uahalf	0x1cb
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x11
 	.byte	0
@@ -2623,18 +2623,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_FBTR_Bits"
 	.byte	0x3
 	.uahalf	0x1cc
-	.uaword	0x1977
+	.uaword	0x1991
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_FCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1cf
-	.uaword	0x1aa0
+	.uaword	0x1aba
 	.uleb128 0xc
 	.string	"CFC"
 	.byte	0x3
 	.uahalf	0x1d1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2643,7 +2643,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CFSEL"
 	.byte	0x3
 	.uahalf	0x1d2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2652,7 +2652,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CFMOD"
 	.byte	0x3
 	.uahalf	0x1d3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb
@@ -2661,7 +2661,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF12
 	.byte	0x3
 	.uahalf	0x1d4
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2670,7 +2670,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CFCIE"
 	.byte	0x3
 	.uahalf	0x1d5
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2679,7 +2679,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CFCOV"
 	.byte	0x3
 	.uahalf	0x1d6
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2688,7 +2688,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF14
 	.byte	0x3
 	.uahalf	0x1d7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2698,18 +2698,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_FCR_Bits"
 	.byte	0x3
 	.uahalf	0x1d8
-	.uaword	0x1a0a
+	.uaword	0x1a24
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_IPR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1db
-	.uaword	0x1b4d
+	.uaword	0x1b67
 	.uleb128 0xc
 	.string	"ALINP"
 	.byte	0x3
 	.uahalf	0x1dd
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2718,7 +2718,7 @@ IfxMultican_cfg_indexMap:
 	.string	"LECINP"
 	.byte	0x3
 	.uahalf	0x1de
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2727,7 +2727,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TRINP"
 	.byte	0x3
 	.uahalf	0x1df
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2736,7 +2736,7 @@ IfxMultican_cfg_indexMap:
 	.string	"CFCINP"
 	.byte	0x3
 	.uahalf	0x1e0
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -2745,7 +2745,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TEINP"
 	.byte	0x3
 	.uahalf	0x1e1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -2754,7 +2754,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_20"
 	.byte	0x3
 	.uahalf	0x1e2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -2764,18 +2764,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_IPR_Bits"
 	.byte	0x3
 	.uahalf	0x1e3
-	.uaword	0x1abb
+	.uaword	0x1ad5
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_PCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1e6
-	.uaword	0x1bd6
+	.uaword	0x1bf0
 	.uleb128 0xc
 	.string	"RXSEL"
 	.byte	0x3
 	.uahalf	0x1e8
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2784,7 +2784,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_3"
 	.byte	0x3
 	.uahalf	0x1e9
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2793,7 +2793,7 @@ IfxMultican_cfg_indexMap:
 	.string	"LBM"
 	.byte	0x3
 	.uahalf	0x1ea
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2802,7 +2802,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_9"
 	.byte	0x3
 	.uahalf	0x1eb
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -2812,18 +2812,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_PCR_Bits"
 	.byte	0x3
 	.uahalf	0x1ec
-	.uaword	0x1b68
+	.uaword	0x1b82
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_SR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1ef
-	.uaword	0x1cd9
+	.uaword	0x1cf3
 	.uleb128 0xc
 	.string	"LEC"
 	.byte	0x3
 	.uahalf	0x1f1
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2832,7 +2832,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXOK"
 	.byte	0x3
 	.uahalf	0x1f2
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2841,7 +2841,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RXOK"
 	.byte	0x3
 	.uahalf	0x1f3
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2850,7 +2850,7 @@ IfxMultican_cfg_indexMap:
 	.string	"ALERT"
 	.byte	0x3
 	.uahalf	0x1f4
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2859,7 +2859,7 @@ IfxMultican_cfg_indexMap:
 	.string	"EWRN"
 	.byte	0x3
 	.uahalf	0x1f5
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2868,7 +2868,7 @@ IfxMultican_cfg_indexMap:
 	.string	"BOFF"
 	.byte	0x3
 	.uahalf	0x1f6
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2877,7 +2877,7 @@ IfxMultican_cfg_indexMap:
 	.string	"LLE"
 	.byte	0x3
 	.uahalf	0x1f7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2886,7 +2886,7 @@ IfxMultican_cfg_indexMap:
 	.string	"LOE"
 	.byte	0x3
 	.uahalf	0x1f8
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2895,7 +2895,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SUSACK"
 	.byte	0x3
 	.uahalf	0x1f9
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2904,7 +2904,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RESI"
 	.byte	0x3
 	.uahalf	0x1fa
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2913,7 +2913,7 @@ IfxMultican_cfg_indexMap:
 	.string	"FLEC"
 	.byte	0x3
 	.uahalf	0x1fb
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -2922,7 +2922,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF13
 	.byte	0x3
 	.uahalf	0x1fc
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x11
 	.byte	0
@@ -2932,18 +2932,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_SR_Bits"
 	.byte	0x3
 	.uahalf	0x1fd
-	.uaword	0x1bf1
+	.uaword	0x1c0b
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_TCCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x200
-	.uaword	0x1d67
+	.uaword	0x1d81
 	.uleb128 0xe
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x202
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2952,7 +2952,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TPSC"
 	.byte	0x3
 	.uahalf	0x203
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2961,7 +2961,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF9
 	.byte	0x3
 	.uahalf	0x204
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0xe
@@ -2970,7 +2970,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TRIGSRC"
 	.byte	0x3
 	.uahalf	0x205
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0xb
@@ -2979,7 +2979,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF12
 	.byte	0x3
 	.uahalf	0x206
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0xb
 	.byte	0
@@ -2989,18 +2989,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_TCCR_Bits"
 	.byte	0x3
 	.uahalf	0x207
-	.uaword	0x1cf3
+	.uaword	0x1d0d
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_TDCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x20a
-	.uaword	0x1e0b
+	.uaword	0x1e25
 	.uleb128 0xc
 	.string	"TDCV"
 	.byte	0x3
 	.uahalf	0x20c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -3009,7 +3009,7 @@ IfxMultican_cfg_indexMap:
 	.string	"reserved_5"
 	.byte	0x3
 	.uahalf	0x20d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -3018,7 +3018,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TDCO"
 	.byte	0x3
 	.uahalf	0x20e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -3027,7 +3027,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF9
 	.byte	0x3
 	.uahalf	0x20f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -3036,7 +3036,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TDC"
 	.byte	0x3
 	.uahalf	0x210
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3045,7 +3045,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF4
 	.byte	0x3
 	.uahalf	0x211
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3055,18 +3055,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_TDCR_Bits"
 	.byte	0x3
 	.uahalf	0x212
-	.uaword	0x1d83
+	.uaword	0x1d9d
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_TRTR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x215
-	.uaword	0x1e99
+	.uaword	0x1eb3
 	.uleb128 0xc
 	.string	"RELOAD"
 	.byte	0x3
 	.uahalf	0x217
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -3075,7 +3075,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF4
 	.byte	0x3
 	.uahalf	0x218
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -3084,7 +3084,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TEIE"
 	.byte	0x3
 	.uahalf	0x219
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3093,7 +3093,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TE"
 	.byte	0x3
 	.uahalf	0x21a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3102,7 +3102,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF14
 	.byte	0x3
 	.uahalf	0x21b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -3112,18 +3112,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_TRTR_Bits"
 	.byte	0x3
 	.uahalf	0x21c
-	.uaword	0x1e27
+	.uaword	0x1e41
 	.uleb128 0xb
 	.string	"_Ifx_CAN_N_TTTR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x21f
-	.uaword	0x1f19
+	.uaword	0x1f33
 	.uleb128 0xc
 	.string	"RELOAD"
 	.byte	0x3
 	.uahalf	0x221
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -3132,7 +3132,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TXMO"
 	.byte	0x3
 	.uahalf	0x222
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3141,7 +3141,7 @@ IfxMultican_cfg_indexMap:
 	.string	"STRT"
 	.byte	0x3
 	.uahalf	0x223
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3150,7 +3150,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF6
 	.byte	0x3
 	.uahalf	0x224
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -3160,18 +3160,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_N_TTTR_Bits"
 	.byte	0x3
 	.uahalf	0x225
-	.uaword	0x1eb5
+	.uaword	0x1ecf
 	.uleb128 0xb
 	.string	"_Ifx_CAN_OCS_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x228
-	.uaword	0x1fd7
+	.uaword	0x1ff1
 	.uleb128 0xc
 	.string	"TGS"
 	.byte	0x3
 	.uahalf	0x22a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -3180,7 +3180,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TGB"
 	.byte	0x3
 	.uahalf	0x22b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3189,7 +3189,7 @@ IfxMultican_cfg_indexMap:
 	.string	"TG_P"
 	.byte	0x3
 	.uahalf	0x22c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3198,7 +3198,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF2
 	.byte	0x3
 	.uahalf	0x22d
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x14
 	.byte	0x8
@@ -3207,7 +3207,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SUS"
 	.byte	0x3
 	.uahalf	0x22e
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -3216,7 +3216,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SUS_P"
 	.byte	0x3
 	.uahalf	0x22f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3225,7 +3225,7 @@ IfxMultican_cfg_indexMap:
 	.string	"SUSSTA"
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3234,7 +3234,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF8
 	.byte	0x3
 	.uahalf	0x231
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -3244,18 +3244,18 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_OCS_Bits"
 	.byte	0x3
 	.uahalf	0x232
-	.uaword	0x1f35
+	.uaword	0x1f4f
 	.uleb128 0xb
 	.string	"_Ifx_CAN_PANCTR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x235
-	.uaword	0x207b
+	.uaword	0x2095
 	.uleb128 0xc
 	.string	"PANCMD"
 	.byte	0x3
 	.uahalf	0x237
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3264,7 +3264,7 @@ IfxMultican_cfg_indexMap:
 	.string	"BUSY"
 	.byte	0x3
 	.uahalf	0x238
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3273,7 +3273,7 @@ IfxMultican_cfg_indexMap:
 	.string	"RBUSY"
 	.byte	0x3
 	.uahalf	0x239
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3282,7 +3282,7 @@ IfxMultican_cfg_indexMap:
 	.uaword	.LASF3
 	.byte	0x3
 	.uahalf	0x23a
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -3291,7 +3291,7 @@ IfxMultican_cfg_indexMap:
 	.string	"PANAR1"
 	.byte	0x3
 	.uahalf	0x23b
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -3300,7 +3300,7 @@ IfxMultican_cfg_indexMap:
 	.string	"PANAR2"
 	.byte	0x3
 	.uahalf	0x23c
-	.uaword	0x49a
+	.uaword	0x4b4
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -3310,1516 +3310,1516 @@ IfxMultican_cfg_indexMap:
 	.string	"Ifx_CAN_PANCTR_Bits"
 	.byte	0x3
 	.uahalf	0x23d
-	.uaword	0x1ff0
+	.uaword	0x200a
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x245
-	.uaword	0x20bf
+	.uaword	0x20d9
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x247
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x248
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x249
-	.uaword	0x4aa
+	.uaword	0x4c4
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_ACCEN0"
 	.byte	0x3
 	.uahalf	0x24a
-	.uaword	0x2097
+	.uaword	0x20b1
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x24d
-	.uaword	0x20fe
+	.uaword	0x2118
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x24f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x250
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x251
-	.uaword	0x4f2
+	.uaword	0x50c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_ACCEN1"
 	.byte	0x3
 	.uahalf	0x252
-	.uaword	0x20d6
+	.uaword	0x20f0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x255
-	.uaword	0x213d
+	.uaword	0x2157
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x257
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x258
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x259
-	.uaword	0x576
+	.uaword	0x590
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_CLC"
 	.byte	0x3
 	.uahalf	0x25a
-	.uaword	0x2115
+	.uaword	0x212f
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x25d
-	.uaword	0x2179
+	.uaword	0x2193
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x25f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x260
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x261
-	.uaword	0x5e5
+	.uaword	0x5ff
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_FDR"
 	.byte	0x3
 	.uahalf	0x262
-	.uaword	0x2151
+	.uaword	0x216b
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x265
-	.uaword	0x21b5
+	.uaword	0x21cf
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x267
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x268
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x269
-	.uaword	0x653
+	.uaword	0x66d
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_ID"
 	.byte	0x3
 	.uahalf	0x26a
-	.uaword	0x218d
+	.uaword	0x21a7
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x26d
-	.uaword	0x21f0
+	.uaword	0x220a
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x26f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x270
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x271
-	.uaword	0x6b8
+	.uaword	0x6d2
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_KRST0"
 	.byte	0x3
 	.uahalf	0x272
-	.uaword	0x21c8
+	.uaword	0x21e2
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x275
-	.uaword	0x222e
+	.uaword	0x2248
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x277
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x278
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x279
-	.uaword	0x70d
+	.uaword	0x727
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_KRST1"
 	.byte	0x3
 	.uahalf	0x27a
-	.uaword	0x2206
+	.uaword	0x2220
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x27d
-	.uaword	0x226c
+	.uaword	0x2286
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x27f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x280
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x281
-	.uaword	0x764
+	.uaword	0x77e
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_KRSTCLR"
 	.byte	0x3
 	.uahalf	0x282
-	.uaword	0x2244
+	.uaword	0x225e
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x285
-	.uaword	0x22ac
+	.uaword	0x22c6
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x287
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x288
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x289
-	.uaword	0x7ec
+	.uaword	0x806
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_LIST"
 	.byte	0x3
 	.uahalf	0x28a
-	.uaword	0x2284
+	.uaword	0x229e
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x28d
-	.uaword	0x22e9
+	.uaword	0x2303
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x28f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x290
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x291
-	.uaword	0x861
+	.uaword	0x87b
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MCR"
 	.byte	0x3
 	.uahalf	0x292
-	.uaword	0x22c1
+	.uaword	0x22db
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x295
-	.uaword	0x2325
+	.uaword	0x233f
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x297
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x298
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x299
-	.uaword	0x942
+	.uaword	0x95c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MECR"
 	.byte	0x3
 	.uahalf	0x29a
-	.uaword	0x22fd
+	.uaword	0x2317
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x29d
-	.uaword	0x2362
+	.uaword	0x237c
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x29f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2a0
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2a1
-	.uaword	0x9c2
+	.uaword	0x9dc
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MESTAT"
 	.byte	0x3
 	.uahalf	0x2a2
-	.uaword	0x233a
+	.uaword	0x2354
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2a5
-	.uaword	0x23a1
+	.uaword	0x23bb
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2a7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2a8
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2a9
-	.uaword	0xa16
+	.uaword	0xa30
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MITR"
 	.byte	0x3
 	.uahalf	0x2aa
-	.uaword	0x2379
+	.uaword	0x2393
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2ad
-	.uaword	0x23de
+	.uaword	0x23f8
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2af
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2b0
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2b1
-	.uaword	0xa7a
+	.uaword	0xa94
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_AMR"
 	.byte	0x3
 	.uahalf	0x2b2
-	.uaword	0x23b6
+	.uaword	0x23d0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2b5
-	.uaword	0x241d
+	.uaword	0x2437
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2b7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2b8
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2b9
-	.uaword	0xade
+	.uaword	0xaf8
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_AR"
 	.byte	0x3
 	.uahalf	0x2ba
-	.uaword	0x23f5
+	.uaword	0x240f
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2bd
-	.uaword	0x245b
+	.uaword	0x2475
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2bf
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2c0
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2c1
-	.uaword	0xd12
+	.uaword	0xd2c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_CTR"
 	.byte	0x3
 	.uahalf	0x2c2
-	.uaword	0x2433
+	.uaword	0x244d
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2c5
-	.uaword	0x249a
+	.uaword	0x24b4
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2c7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2c8
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2c9
-	.uaword	0xd89
+	.uaword	0xda3
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_DATAH"
 	.byte	0x3
 	.uahalf	0x2ca
-	.uaword	0x2472
+	.uaword	0x248c
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2cd
-	.uaword	0x24db
+	.uaword	0x24f5
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2cf
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2d0
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2d1
-	.uaword	0xe02
+	.uaword	0xe1c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_DATAL"
 	.byte	0x3
 	.uahalf	0x2d2
-	.uaword	0x24b3
+	.uaword	0x24cd
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2d5
-	.uaword	0x251c
+	.uaword	0x2536
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2d7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2d8
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2d9
-	.uaword	0xe81
+	.uaword	0xe9b
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_EDATA0"
 	.byte	0x3
 	.uahalf	0x2da
-	.uaword	0x24f4
+	.uaword	0x250e
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2dd
-	.uaword	0x255e
+	.uaword	0x2578
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2df
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2e0
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2e1
-	.uaword	0xf02
+	.uaword	0xf1c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_EDATA1"
 	.byte	0x3
 	.uahalf	0x2e2
-	.uaword	0x2536
+	.uaword	0x2550
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2e5
-	.uaword	0x25a0
+	.uaword	0x25ba
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2e7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2e8
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2e9
-	.uaword	0xf83
+	.uaword	0xf9d
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_EDATA2"
 	.byte	0x3
 	.uahalf	0x2ea
-	.uaword	0x2578
+	.uaword	0x2592
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2ed
-	.uaword	0x25e2
+	.uaword	0x25fc
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2ef
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2f0
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2f1
-	.uaword	0x1004
+	.uaword	0x101e
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_EDATA3"
 	.byte	0x3
 	.uahalf	0x2f2
-	.uaword	0x25ba
+	.uaword	0x25d4
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2f5
-	.uaword	0x2624
+	.uaword	0x263e
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2f7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2f8
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2f9
-	.uaword	0x1085
+	.uaword	0x109f
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_EDATA4"
 	.byte	0x3
 	.uahalf	0x2fa
-	.uaword	0x25fc
+	.uaword	0x2616
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2fd
-	.uaword	0x2666
+	.uaword	0x2680
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2ff
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x300
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x301
-	.uaword	0x1106
+	.uaword	0x1120
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_EDATA5"
 	.byte	0x3
 	.uahalf	0x302
-	.uaword	0x263e
+	.uaword	0x2658
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x305
-	.uaword	0x26a8
+	.uaword	0x26c2
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x307
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x308
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x309
-	.uaword	0x1187
+	.uaword	0x11a1
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_EDATA6"
 	.byte	0x3
 	.uahalf	0x30a
-	.uaword	0x2680
+	.uaword	0x269a
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x30d
-	.uaword	0x26ea
+	.uaword	0x2704
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x30f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x310
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x311
-	.uaword	0x131e
+	.uaword	0x1338
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_FCR"
 	.byte	0x3
 	.uahalf	0x312
-	.uaword	0x26c2
+	.uaword	0x26dc
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x315
-	.uaword	0x2729
+	.uaword	0x2743
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x317
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x318
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x319
-	.uaword	0x139a
+	.uaword	0x13b4
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_FGPR"
 	.byte	0x3
 	.uahalf	0x31a
-	.uaword	0x2701
+	.uaword	0x271b
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x31d
-	.uaword	0x2769
+	.uaword	0x2783
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x31f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x320
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x321
-	.uaword	0x141d
+	.uaword	0x1437
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_IPR"
 	.byte	0x3
 	.uahalf	0x322
-	.uaword	0x2741
+	.uaword	0x275b
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x325
-	.uaword	0x27a8
+	.uaword	0x27c2
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x327
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x328
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x329
-	.uaword	0x1565
+	.uaword	0x157f
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO_STAT"
 	.byte	0x3
 	.uahalf	0x32a
-	.uaword	0x2780
+	.uaword	0x279a
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x32d
-	.uaword	0x27e8
+	.uaword	0x2802
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x32f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x330
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x331
-	.uaword	0x15c1
+	.uaword	0x15db
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MSID"
 	.byte	0x3
 	.uahalf	0x332
-	.uaword	0x27c0
+	.uaword	0x27da
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x335
-	.uaword	0x2825
+	.uaword	0x283f
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x337
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x338
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x339
-	.uaword	0x160a
+	.uaword	0x1624
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MSIMASK"
 	.byte	0x3
 	.uahalf	0x33a
-	.uaword	0x27fd
+	.uaword	0x2817
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x33d
-	.uaword	0x2865
+	.uaword	0x287f
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x33f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x340
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x341
-	.uaword	0x1655
+	.uaword	0x166f
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MSPND"
 	.byte	0x3
 	.uahalf	0x342
-	.uaword	0x283d
+	.uaword	0x2857
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x345
-	.uaword	0x28a3
+	.uaword	0x28bd
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x347
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x348
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x349
-	.uaword	0x1725
+	.uaword	0x173f
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_BTEVR"
 	.byte	0x3
 	.uahalf	0x34a
-	.uaword	0x287b
+	.uaword	0x2895
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x34d
-	.uaword	0x28e3
+	.uaword	0x28fd
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x34f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x350
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x351
-	.uaword	0x17c5
+	.uaword	0x17df
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_BTR"
 	.byte	0x3
 	.uahalf	0x352
-	.uaword	0x28bb
+	.uaword	0x28d5
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x355
-	.uaword	0x2921
+	.uaword	0x293b
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x357
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x358
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x359
-	.uaword	0x18bb
+	.uaword	0x18d5
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_CR"
 	.byte	0x3
 	.uahalf	0x35a
-	.uaword	0x28f9
+	.uaword	0x2913
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x35d
-	.uaword	0x295e
+	.uaword	0x2978
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x35f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x360
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x361
-	.uaword	0x195b
+	.uaword	0x1975
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_ECNT"
 	.byte	0x3
 	.uahalf	0x362
-	.uaword	0x2936
+	.uaword	0x2950
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x365
-	.uaword	0x299d
+	.uaword	0x29b7
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x367
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x368
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x369
-	.uaword	0x19ee
+	.uaword	0x1a08
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_FBTR"
 	.byte	0x3
 	.uahalf	0x36a
-	.uaword	0x2975
+	.uaword	0x298f
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x36d
-	.uaword	0x29dc
+	.uaword	0x29f6
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x36f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x370
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x371
-	.uaword	0x1aa0
+	.uaword	0x1aba
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_FCR"
 	.byte	0x3
 	.uahalf	0x372
-	.uaword	0x29b4
+	.uaword	0x29ce
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x375
-	.uaword	0x2a1a
+	.uaword	0x2a34
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x377
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x378
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x379
-	.uaword	0x1b4d
+	.uaword	0x1b67
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_IPR"
 	.byte	0x3
 	.uahalf	0x37a
-	.uaword	0x29f2
+	.uaword	0x2a0c
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x37d
-	.uaword	0x2a58
+	.uaword	0x2a72
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x37f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x380
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x381
-	.uaword	0x1bd6
+	.uaword	0x1bf0
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_PCR"
 	.byte	0x3
 	.uahalf	0x382
-	.uaword	0x2a30
+	.uaword	0x2a4a
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x385
-	.uaword	0x2a96
+	.uaword	0x2ab0
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x387
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x388
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x389
-	.uaword	0x1cd9
+	.uaword	0x1cf3
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_SR"
 	.byte	0x3
 	.uahalf	0x38a
-	.uaword	0x2a6e
+	.uaword	0x2a88
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x38d
-	.uaword	0x2ad3
+	.uaword	0x2aed
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x38f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x390
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x391
-	.uaword	0x1d67
+	.uaword	0x1d81
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_TCCR"
 	.byte	0x3
 	.uahalf	0x392
-	.uaword	0x2aab
+	.uaword	0x2ac5
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x395
-	.uaword	0x2b12
+	.uaword	0x2b2c
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x397
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x398
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x399
-	.uaword	0x1e0b
+	.uaword	0x1e25
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_TDCR"
 	.byte	0x3
 	.uahalf	0x39a
-	.uaword	0x2aea
+	.uaword	0x2b04
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x39d
-	.uaword	0x2b51
+	.uaword	0x2b6b
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x39f
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x3a0
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x3a1
-	.uaword	0x1e99
+	.uaword	0x1eb3
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_TRTR"
 	.byte	0x3
 	.uahalf	0x3a2
-	.uaword	0x2b29
+	.uaword	0x2b43
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3a5
-	.uaword	0x2b90
+	.uaword	0x2baa
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x3a7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x3a8
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x3a9
-	.uaword	0x1f19
+	.uaword	0x1f33
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N_TTTR"
 	.byte	0x3
 	.uahalf	0x3aa
-	.uaword	0x2b68
+	.uaword	0x2b82
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3ad
-	.uaword	0x2bcf
+	.uaword	0x2be9
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x3af
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x3b0
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x3b1
-	.uaword	0x1fd7
+	.uaword	0x1ff1
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_OCS"
 	.byte	0x3
 	.uahalf	0x3b2
-	.uaword	0x2ba7
+	.uaword	0x2bc1
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3b5
-	.uaword	0x2c0b
+	.uaword	0x2c25
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x3b7
-	.uaword	0x49a
+	.uaword	0x4b4
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x3b8
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x3b9
-	.uaword	0x207b
+	.uaword	0x2095
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_PANCTR"
 	.byte	0x3
 	.uahalf	0x3ba
-	.uaword	0x2be3
+	.uaword	0x2bfd
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3c7
-	.uaword	0x2c47
+	.uaword	0x2c61
 	.uleb128 0x10
 	.string	"EDATA0"
 	.byte	0x3
 	.uahalf	0x3c9
-	.uaword	0x251c
+	.uaword	0x2536
 	.uleb128 0x10
 	.string	"FCR"
 	.byte	0x3
 	.uahalf	0x3ca
-	.uaword	0x26ea
+	.uaword	0x2704
 	.byte	0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3cd
-	.uaword	0x2c6d
+	.uaword	0x2c87
 	.uleb128 0x10
 	.string	"EDATA1"
 	.byte	0x3
 	.uahalf	0x3cf
-	.uaword	0x255e
+	.uaword	0x2578
 	.uleb128 0x10
 	.string	"FGPR"
 	.byte	0x3
 	.uahalf	0x3d0
-	.uaword	0x2729
+	.uaword	0x2743
 	.byte	0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3d3
-	.uaword	0x2c92
+	.uaword	0x2cac
 	.uleb128 0x10
 	.string	"EDATA2"
 	.byte	0x3
 	.uahalf	0x3d5
-	.uaword	0x25a0
+	.uaword	0x25ba
 	.uleb128 0x10
 	.string	"IPR"
 	.byte	0x3
 	.uahalf	0x3d6
-	.uaword	0x2769
+	.uaword	0x2783
 	.byte	0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3d9
-	.uaword	0x2cb7
+	.uaword	0x2cd1
 	.uleb128 0x10
 	.string	"AMR"
 	.byte	0x3
 	.uahalf	0x3db
-	.uaword	0x23de
+	.uaword	0x23f8
 	.uleb128 0x10
 	.string	"EDATA3"
 	.byte	0x3
 	.uahalf	0x3dc
-	.uaword	0x25e2
+	.uaword	0x25fc
 	.byte	0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3df
-	.uaword	0x2cde
+	.uaword	0x2cf8
 	.uleb128 0x10
 	.string	"DATAL"
 	.byte	0x3
 	.uahalf	0x3e1
-	.uaword	0x24db
+	.uaword	0x24f5
 	.uleb128 0x10
 	.string	"EDATA4"
 	.byte	0x3
 	.uahalf	0x3e2
-	.uaword	0x2624
+	.uaword	0x263e
 	.byte	0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3e5
-	.uaword	0x2d05
+	.uaword	0x2d1f
 	.uleb128 0x10
 	.string	"DATAH"
 	.byte	0x3
 	.uahalf	0x3e7
-	.uaword	0x249a
+	.uaword	0x24b4
 	.uleb128 0x10
 	.string	"EDATA5"
 	.byte	0x3
 	.uahalf	0x3e8
-	.uaword	0x2666
+	.uaword	0x2680
 	.byte	0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3eb
-	.uaword	0x2d29
+	.uaword	0x2d43
 	.uleb128 0x10
 	.string	"AR"
 	.byte	0x3
 	.uahalf	0x3ed
-	.uaword	0x241d
+	.uaword	0x2437
 	.uleb128 0x10
 	.string	"EDATA6"
 	.byte	0x3
 	.uahalf	0x3ee
-	.uaword	0x26a8
+	.uaword	0x26c2
 	.byte	0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x3f1
-	.uaword	0x2d4c
+	.uaword	0x2d66
 	.uleb128 0x10
 	.string	"CTR"
 	.byte	0x3
 	.uahalf	0x3f3
-	.uaword	0x245b
+	.uaword	0x2475
 	.uleb128 0x10
 	.string	"STAT"
 	.byte	0x3
 	.uahalf	0x3f4
-	.uaword	0x27a8
+	.uaword	0x27c2
 	.byte	0
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO"
 	.byte	0x20
 	.byte	0x3
 	.uahalf	0x3c5
-	.uaword	0x2d92
+	.uaword	0x2dac
 	.uleb128 0x11
-	.uaword	0x2c22
+	.uaword	0x2c3c
 	.byte	0
 	.uleb128 0x11
-	.uaword	0x2c47
+	.uaword	0x2c61
 	.byte	0x4
 	.uleb128 0x11
-	.uaword	0x2c6d
+	.uaword	0x2c87
 	.byte	0x8
 	.uleb128 0x11
-	.uaword	0x2c92
+	.uaword	0x2cac
 	.byte	0xc
 	.uleb128 0x11
-	.uaword	0x2cb7
+	.uaword	0x2cd1
 	.byte	0x10
 	.uleb128 0x11
-	.uaword	0x2cde
+	.uaword	0x2cf8
 	.byte	0x14
 	.uleb128 0x11
-	.uaword	0x2d05
+	.uaword	0x2d1f
 	.byte	0x18
 	.uleb128 0x11
-	.uaword	0x2d29
+	.uaword	0x2d43
 	.byte	0x1c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_MO"
 	.byte	0x3
 	.uahalf	0x3f7
-	.uaword	0x2da5
+	.uaword	0x2dbf
 	.uleb128 0x12
-	.uaword	0x2d4c
+	.uaword	0x2d66
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x400
-	.uaword	0x2dce
+	.uaword	0x2de8
 	.uleb128 0x10
 	.string	"BTEVR"
 	.byte	0x3
 	.uahalf	0x402
-	.uaword	0x28a3
+	.uaword	0x28bd
 	.uleb128 0x10
 	.string	"BTR"
 	.byte	0x3
 	.uahalf	0x403
-	.uaword	0x28e3
+	.uaword	0x28fd
 	.byte	0
 	.uleb128 0x13
 	.string	"_Ifx_CAN_N"
 	.uahalf	0x100
 	.byte	0x3
 	.uahalf	0x3fa
-	.uaword	0x2ebe
+	.uaword	0x2ed8
 	.uleb128 0x14
 	.string	"CR"
 	.byte	0x3
 	.uahalf	0x3fc
-	.uaword	0x2921
+	.uaword	0x293b
 	.byte	0
 	.uleb128 0x14
 	.string	"SR"
 	.byte	0x3
 	.uahalf	0x3fd
-	.uaword	0x2a96
+	.uaword	0x2ab0
 	.byte	0x4
 	.uleb128 0x14
 	.string	"IPR"
 	.byte	0x3
 	.uahalf	0x3fe
-	.uaword	0x2a1a
+	.uaword	0x2a34
 	.byte	0x8
 	.uleb128 0x14
 	.string	"PCR"
 	.byte	0x3
 	.uahalf	0x3ff
-	.uaword	0x2a58
+	.uaword	0x2a72
 	.byte	0xc
 	.uleb128 0x11
-	.uaword	0x2daa
+	.uaword	0x2dc4
 	.byte	0x10
 	.uleb128 0x14
 	.string	"ECNT"
 	.byte	0x3
 	.uahalf	0x406
-	.uaword	0x295e
+	.uaword	0x2978
 	.byte	0x14
 	.uleb128 0x14
 	.string	"FCR"
 	.byte	0x3
 	.uahalf	0x407
-	.uaword	0x29dc
+	.uaword	0x29f6
 	.byte	0x18
 	.uleb128 0x14
 	.string	"TCCR"
 	.byte	0x3
 	.uahalf	0x408
-	.uaword	0x2ad3
+	.uaword	0x2aed
 	.byte	0x1c
 	.uleb128 0x14
 	.string	"TRTR"
 	.byte	0x3
 	.uahalf	0x409
-	.uaword	0x2b51
+	.uaword	0x2b6b
 	.byte	0x20
 	.uleb128 0x14
 	.string	"TATTR"
 	.byte	0x3
 	.uahalf	0x40a
-	.uaword	0x2b90
+	.uaword	0x2baa
 	.byte	0x24
 	.uleb128 0x14
 	.string	"TBTTR"
 	.byte	0x3
 	.uahalf	0x40b
-	.uaword	0x2b90
+	.uaword	0x2baa
 	.byte	0x28
 	.uleb128 0x14
 	.string	"TCTTR"
 	.byte	0x3
 	.uahalf	0x40c
-	.uaword	0x2b90
+	.uaword	0x2baa
 	.byte	0x2c
 	.uleb128 0x15
 	.uaword	.LASF8
 	.byte	0x3
 	.uahalf	0x40d
-	.uaword	0x2ebe
+	.uaword	0x2ed8
 	.byte	0x30
 	.uleb128 0x14
 	.string	"FBTR"
 	.byte	0x3
 	.uahalf	0x40e
-	.uaword	0x299d
+	.uaword	0x29b7
 	.byte	0x38
 	.uleb128 0x14
 	.string	"TDCR"
 	.byte	0x3
 	.uahalf	0x40f
-	.uaword	0x2b12
+	.uaword	0x2b2c
 	.byte	0x3c
 	.uleb128 0x14
 	.string	"reserved_40"
 	.byte	0x3
 	.uahalf	0x410
-	.uaword	0x2eda
+	.uaword	0x2ef4
 	.byte	0x40
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1a9
-	.uaword	0x2ece
+	.uaword	0x1c3
+	.uaword	0x2ee8
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0x7
 	.byte	0
 	.uleb128 0x2
@@ -4827,281 +4827,281 @@ IfxMultican_cfg_indexMap:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x16
-	.uaword	0x1a9
-	.uaword	0x2eea
+	.uaword	0x1c3
+	.uaword	0x2f04
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0xbf
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN_N"
 	.byte	0x3
 	.uahalf	0x411
-	.uaword	0x2efc
+	.uaword	0x2f16
 	.uleb128 0x12
-	.uaword	0x2dce
+	.uaword	0x2de8
 	.uleb128 0x13
 	.string	"_Ifx_CAN"
 	.uahalf	0x4000
 	.byte	0x3
 	.uahalf	0x41e
-	.uaword	0x30cc
+	.uaword	0x30e6
 	.uleb128 0x14
 	.string	"CLC"
 	.byte	0x3
 	.uahalf	0x420
-	.uaword	0x213d
+	.uaword	0x2157
 	.byte	0
 	.uleb128 0x15
 	.uaword	.LASF2
 	.byte	0x3
 	.uahalf	0x421
-	.uaword	0x30cc
+	.uaword	0x30e6
 	.byte	0x4
 	.uleb128 0x14
 	.string	"ID"
 	.byte	0x3
 	.uahalf	0x422
-	.uaword	0x21b5
+	.uaword	0x21cf
 	.byte	0x8
 	.uleb128 0x14
 	.string	"FDR"
 	.byte	0x3
 	.uahalf	0x423
-	.uaword	0x2179
+	.uaword	0x2193
 	.byte	0xc
 	.uleb128 0x15
 	.uaword	.LASF3
 	.byte	0x3
 	.uahalf	0x424
-	.uaword	0x30dc
+	.uaword	0x30f6
 	.byte	0x10
 	.uleb128 0x14
 	.string	"OCS"
 	.byte	0x3
 	.uahalf	0x425
-	.uaword	0x2bcf
+	.uaword	0x2be9
 	.byte	0xe8
 	.uleb128 0x14
 	.string	"KRSTCLR"
 	.byte	0x3
 	.uahalf	0x426
-	.uaword	0x226c
+	.uaword	0x2286
 	.byte	0xec
 	.uleb128 0x14
 	.string	"KRST1"
 	.byte	0x3
 	.uahalf	0x427
-	.uaword	0x222e
+	.uaword	0x2248
 	.byte	0xf0
 	.uleb128 0x14
 	.string	"KRST0"
 	.byte	0x3
 	.uahalf	0x428
-	.uaword	0x21f0
+	.uaword	0x220a
 	.byte	0xf4
 	.uleb128 0x14
 	.string	"ACCEN1"
 	.byte	0x3
 	.uahalf	0x429
-	.uaword	0x20fe
+	.uaword	0x2118
 	.byte	0xf8
 	.uleb128 0x14
 	.string	"ACCEN0"
 	.byte	0x3
 	.uahalf	0x42a
-	.uaword	0x20bf
+	.uaword	0x20d9
 	.byte	0xfc
 	.uleb128 0x18
 	.string	"LIST"
 	.byte	0x3
 	.uahalf	0x42b
-	.uaword	0x30ec
+	.uaword	0x3106
 	.uahalf	0x100
 	.uleb128 0x18
 	.string	"MSPND"
 	.byte	0x3
 	.uahalf	0x42c
-	.uaword	0x30fc
+	.uaword	0x3116
 	.uahalf	0x140
 	.uleb128 0x18
 	.string	"reserved_160"
 	.byte	0x3
 	.uahalf	0x42d
-	.uaword	0x310c
+	.uaword	0x3126
 	.uahalf	0x160
 	.uleb128 0x18
 	.string	"MSID"
 	.byte	0x3
 	.uahalf	0x42e
-	.uaword	0x311c
+	.uaword	0x3136
 	.uahalf	0x180
 	.uleb128 0x18
 	.string	"reserved_1A0"
 	.byte	0x3
 	.uahalf	0x42f
-	.uaword	0x310c
+	.uaword	0x3126
 	.uahalf	0x1a0
 	.uleb128 0x18
 	.string	"MSIMASK"
 	.byte	0x3
 	.uahalf	0x430
-	.uaword	0x2825
+	.uaword	0x283f
 	.uahalf	0x1c0
 	.uleb128 0x18
 	.string	"PANCTR"
 	.byte	0x3
 	.uahalf	0x431
-	.uaword	0x2c0b
+	.uaword	0x2c25
 	.uahalf	0x1c4
 	.uleb128 0x18
 	.string	"MCR"
 	.byte	0x3
 	.uahalf	0x432
-	.uaword	0x22e9
+	.uaword	0x2303
 	.uahalf	0x1c8
 	.uleb128 0x18
 	.string	"MITR"
 	.byte	0x3
 	.uahalf	0x433
-	.uaword	0x23a1
+	.uaword	0x23bb
 	.uahalf	0x1cc
 	.uleb128 0x18
 	.string	"MECR"
 	.byte	0x3
 	.uahalf	0x434
-	.uaword	0x2325
+	.uaword	0x233f
 	.uahalf	0x1d0
 	.uleb128 0x18
 	.string	"MESTAT"
 	.byte	0x3
 	.uahalf	0x435
-	.uaword	0x2362
+	.uaword	0x237c
 	.uahalf	0x1d4
 	.uleb128 0x18
 	.string	"reserved_1D8"
 	.byte	0x3
 	.uahalf	0x436
-	.uaword	0x312c
+	.uaword	0x3146
 	.uahalf	0x1d8
 	.uleb128 0x18
 	.string	"N"
 	.byte	0x3
 	.uahalf	0x437
-	.uaword	0x314c
+	.uaword	0x3166
 	.uahalf	0x200
 	.uleb128 0x18
 	.string	"reserved_600"
 	.byte	0x3
 	.uahalf	0x438
-	.uaword	0x3151
+	.uaword	0x316b
 	.uahalf	0x600
 	.uleb128 0x18
 	.string	"MO"
 	.byte	0x3
 	.uahalf	0x439
-	.uaword	0x3172
+	.uaword	0x318c
 	.uahalf	0x1000
 	.uleb128 0x18
 	.string	"reserved_3000"
 	.byte	0x3
 	.uahalf	0x43a
-	.uaword	0x3177
+	.uaword	0x3191
 	.uahalf	0x3000
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1a9
-	.uaword	0x30dc
+	.uaword	0x1c3
+	.uaword	0x30f6
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0x3
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1a9
-	.uaword	0x30ec
+	.uaword	0x1c3
+	.uaword	0x3106
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0xd7
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x22ac
-	.uaword	0x30fc
+	.uaword	0x22c6
+	.uaword	0x3116
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0xf
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x2865
-	.uaword	0x310c
+	.uaword	0x287f
+	.uaword	0x3126
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0x7
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1a9
-	.uaword	0x311c
+	.uaword	0x1c3
+	.uaword	0x3136
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0x1f
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x27e8
-	.uaword	0x312c
+	.uaword	0x2802
+	.uaword	0x3146
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0x7
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x1a9
-	.uaword	0x313c
+	.uaword	0x1c3
+	.uaword	0x3156
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0x27
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x2eea
-	.uaword	0x314c
+	.uaword	0x2f04
+	.uaword	0x3166
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0x3
 	.byte	0
 	.uleb128 0x12
-	.uaword	0x313c
+	.uaword	0x3156
 	.uleb128 0x16
-	.uaword	0x1a9
-	.uaword	0x3162
+	.uaword	0x1c3
+	.uaword	0x317c
 	.uleb128 0x19
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.uahalf	0x9ff
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x2d92
-	.uaword	0x3172
+	.uaword	0x2dac
+	.uaword	0x318c
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0xff
 	.byte	0
 	.uleb128 0x12
-	.uaword	0x3162
+	.uaword	0x317c
 	.uleb128 0x16
-	.uaword	0x1a9
-	.uaword	0x3188
+	.uaword	0x1c3
+	.uaword	0x31a2
 	.uleb128 0x19
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.uahalf	0xfff
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_CAN"
 	.byte	0x3
 	.uahalf	0x43b
-	.uaword	0x3198
+	.uaword	0x31b2
 	.uleb128 0x12
-	.uaword	0x2f01
+	.uaword	0x2f1b
 	.uleb128 0x1a
 	.byte	0x1
 	.byte	0x4
 	.byte	0x55
-	.uaword	0x31eb
+	.uaword	0x3205
 	.uleb128 0x1b
 	.string	"IfxMultican_Index_none"
 	.sleb128 -1
@@ -5113,23 +5113,23 @@ IfxMultican_cfg_indexMap:
 	.sleb128 1
 	.byte	0
 	.uleb128 0x16
-	.uaword	0x26c
-	.uaword	0x31fb
+	.uaword	0x286
+	.uaword	0x3215
 	.uleb128 0x17
-	.uaword	0x2ece
+	.uaword	0x2ee8
 	.byte	0x1
 	.byte	0
 	.uleb128 0x1c
 	.string	"IfxMultican_cfg_indexMap"
 	.byte	0x5
 	.byte	0x23
-	.uaword	0x3222
+	.uaword	0x323c
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxMultican_cfg_indexMap
 	.uleb128 0x1d
-	.uaword	0x31eb
+	.uaword	0x3205
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

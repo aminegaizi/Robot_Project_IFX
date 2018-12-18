@@ -8,6 +8,7 @@
  0_Src/BaseSw/Infra \
  0_Src/BaseSw/Service \
  0_Src/AppSw/CpuGeneric/Config \
+ 0_Src/AppSw/Tricore/Beeper \
  0_Src/AppSw/Tricore/Encoders \
  0_Src/AppSw/Tricore/Gyroscope \
  0_Src/AppSw/Tricore/Main \
@@ -175,6 +176,8 @@
 0_Src/BaseSw/Service:
 
 0_Src/AppSw/CpuGeneric/Config:
+
+0_Src/AppSw/Tricore/Beeper:
 
 0_Src/AppSw/Tricore/Encoders:
 

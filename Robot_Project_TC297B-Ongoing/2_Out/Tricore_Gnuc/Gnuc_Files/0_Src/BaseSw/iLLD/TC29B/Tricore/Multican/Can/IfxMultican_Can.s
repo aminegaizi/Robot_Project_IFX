@@ -3734,7 +3734,7 @@ IfxMultican_Can_initModuleConfig:
 	.file 17 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxCpu_cfg.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0xac36
+	.uaword	0xac50
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -3742,7 +3742,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/iLLD/TC29B/Tricore/Multican/Can/IfxMultican_Can.c"
-	.string	"C:\\\\Robot_Project\\\\Robot_Project_TC297-B-Ongoing"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC297B-Ongoing"
 	.uaword	.Ldebug_ranges0+0x728
 	.uaword	0
 	.uaword	0
@@ -3771,7 +3771,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"uint8"
 	.byte	0x5
 	.byte	0x59
-	.uaword	0x1d2
+	.uaword	0x1ec
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -3784,7 +3784,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"uint16"
 	.byte	0x5
 	.byte	0x5b
-	.uaword	0x1fe
+	.uaword	0x218
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -3793,17 +3793,17 @@ IfxMultican_Can_initModuleConfig:
 	.string	"sint32"
 	.byte	0x5
 	.byte	0x5c
-	.uaword	0x18e
+	.uaword	0x1a8
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x5
 	.byte	0x5d
-	.uaword	0x19a
+	.uaword	0x1b4
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x5
 	.byte	0x5e
-	.uaword	0x185
+	.uaword	0x19f
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -3812,7 +3812,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"boolean"
 	.byte	0x5
 	.byte	0x68
-	.uaword	0x1d2
+	.uaword	0x1ec
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -3827,18 +3827,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x291
+	.uaword	0x2ab
 	.uleb128 0x5
 	.uleb128 0x3
 	.string	"Ifx_Priority"
 	.byte	0x6
 	.byte	0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x6
 	.byte	0x71
-	.uaword	0x31f
+	.uaword	0x339
 	.uleb128 0x7
 	.string	"Ifx_RxSel_a"
 	.sleb128 0
@@ -3868,41 +3868,41 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_RxSel"
 	.byte	0x6
 	.byte	0x7a
-	.uaword	0x2a6
+	.uaword	0x2c0
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x6
 	.byte	0x7d
-	.uaword	0x353
+	.uaword	0x36d
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x6
 	.byte	0x7f
-	.uaword	0x28b
+	.uaword	0x2a5
 	.byte	0
 	.uleb128 0xa
 	.string	"index"
 	.byte	0x6
 	.byte	0x80
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x6
 	.byte	0x81
-	.uaword	0x330
+	.uaword	0x34a
 	.uleb128 0xb
 	.string	"_Ifx_CAN_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x31
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x7
 	.byte	0x33
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3911,7 +3911,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN1"
 	.byte	0x7
 	.byte	0x34
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3920,7 +3920,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN2"
 	.byte	0x7
 	.byte	0x35
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3929,7 +3929,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN3"
 	.byte	0x7
 	.byte	0x36
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3938,7 +3938,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN4"
 	.byte	0x7
 	.byte	0x37
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3947,7 +3947,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN5"
 	.byte	0x7
 	.byte	0x38
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3956,7 +3956,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN6"
 	.byte	0x7
 	.byte	0x39
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3965,7 +3965,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN7"
 	.byte	0x7
 	.byte	0x3a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3974,7 +3974,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN8"
 	.byte	0x7
 	.byte	0x3b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3983,7 +3983,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN9"
 	.byte	0x7
 	.byte	0x3c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3992,7 +3992,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN10"
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4001,7 +4001,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN11"
 	.byte	0x7
 	.byte	0x3e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4010,7 +4010,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN12"
 	.byte	0x7
 	.byte	0x3f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4019,7 +4019,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN13"
 	.byte	0x7
 	.byte	0x40
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4028,7 +4028,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN14"
 	.byte	0x7
 	.byte	0x41
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4037,7 +4037,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN15"
 	.byte	0x7
 	.byte	0x42
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4046,7 +4046,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN16"
 	.byte	0x7
 	.byte	0x43
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4055,7 +4055,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN17"
 	.byte	0x7
 	.byte	0x44
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4064,7 +4064,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN18"
 	.byte	0x7
 	.byte	0x45
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4073,7 +4073,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN19"
 	.byte	0x7
 	.byte	0x46
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4082,7 +4082,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN20"
 	.byte	0x7
 	.byte	0x47
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4091,7 +4091,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN21"
 	.byte	0x7
 	.byte	0x48
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4100,7 +4100,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN22"
 	.byte	0x7
 	.byte	0x49
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4109,7 +4109,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN23"
 	.byte	0x7
 	.byte	0x4a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4118,7 +4118,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN24"
 	.byte	0x7
 	.byte	0x4b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4127,7 +4127,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN25"
 	.byte	0x7
 	.byte	0x4c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4136,7 +4136,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN26"
 	.byte	0x7
 	.byte	0x4d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4145,7 +4145,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN27"
 	.byte	0x7
 	.byte	0x4e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4154,7 +4154,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN28"
 	.byte	0x7
 	.byte	0x4f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4163,7 +4163,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN29"
 	.byte	0x7
 	.byte	0x50
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4172,7 +4172,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN30"
 	.byte	0x7
 	.byte	0x51
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4181,7 +4181,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN31"
 	.byte	0x7
 	.byte	0x52
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4195,18 +4195,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_ACCEN0_Bits"
 	.byte	0x7
 	.byte	0x53
-	.uaword	0x36d
+	.uaword	0x387
 	.uleb128 0xb
 	.string	"_Ifx_CAN_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x56
-	.uaword	0x5d9
+	.uaword	0x5f3
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0x58
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -4216,18 +4216,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_ACCEN1_Bits"
 	.byte	0x7
 	.byte	0x59
-	.uaword	0x5ac
+	.uaword	0x5c6
 	.uleb128 0xb
 	.string	"_Ifx_CAN_CLC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x5c
-	.uaword	0x65d
+	.uaword	0x677
 	.uleb128 0xc
 	.string	"DISR"
 	.byte	0x7
 	.byte	0x5e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4236,7 +4236,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DISS"
 	.byte	0x7
 	.byte	0x5f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4245,7 +4245,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0x60
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4254,7 +4254,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EDIS"
 	.byte	0x7
 	.byte	0x61
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4263,7 +4263,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0x62
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -4273,18 +4273,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_CLC_Bits"
 	.byte	0x7
 	.byte	0x63
-	.uaword	0x5f4
+	.uaword	0x60e
 	.uleb128 0xb
 	.string	"_Ifx_CAN_FDR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x66
-	.uaword	0x6cc
+	.uaword	0x6e6
 	.uleb128 0xc
 	.string	"STEP"
 	.byte	0x7
 	.byte	0x68
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -4293,7 +4293,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF4
 	.byte	0x7
 	.byte	0x69
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -4302,7 +4302,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DM"
 	.byte	0x7
 	.byte	0x6a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -4311,7 +4311,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0x6b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4321,18 +4321,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_FDR_Bits"
 	.byte	0x7
 	.byte	0x6c
-	.uaword	0x675
+	.uaword	0x68f
 	.uleb128 0xb
 	.string	"_Ifx_CAN_ID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x6f
-	.uaword	0x734
+	.uaword	0x74e
 	.uleb128 0xc
 	.string	"MOD_REV"
 	.byte	0x7
 	.byte	0x71
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4341,7 +4341,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"MOD_TYPE"
 	.byte	0x7
 	.byte	0x72
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4350,7 +4350,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF6
 	.byte	0x7
 	.byte	0x73
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4360,18 +4360,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_ID_Bits"
 	.byte	0x7
 	.byte	0x74
-	.uaword	0x6e4
+	.uaword	0x6fe
 	.uleb128 0xb
 	.string	"_Ifx_CAN_KRST0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x77
-	.uaword	0x799
+	.uaword	0x7b3
 	.uleb128 0xc
 	.string	"RST"
 	.byte	0x7
 	.byte	0x79
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4380,7 +4380,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RSTSTAT"
 	.byte	0x7
 	.byte	0x7a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4389,7 +4389,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0x7b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -4399,18 +4399,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_KRST0_Bits"
 	.byte	0x7
 	.byte	0x7c
-	.uaword	0x74b
+	.uaword	0x765
 	.uleb128 0xb
 	.string	"_Ifx_CAN_KRST1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x7f
-	.uaword	0x7ee
+	.uaword	0x808
 	.uleb128 0xc
 	.string	"RST"
 	.byte	0x7
 	.byte	0x81
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4419,7 +4419,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF7
 	.byte	0x7
 	.byte	0x82
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -4429,18 +4429,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_KRST1_Bits"
 	.byte	0x7
 	.byte	0x83
-	.uaword	0x7b3
+	.uaword	0x7cd
 	.uleb128 0xb
 	.string	"_Ifx_CAN_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x86
-	.uaword	0x845
+	.uaword	0x85f
 	.uleb128 0xc
 	.string	"CLR"
 	.byte	0x7
 	.byte	0x88
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4449,7 +4449,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF7
 	.byte	0x7
 	.byte	0x89
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -4459,18 +4459,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_KRSTCLR_Bits"
 	.byte	0x7
 	.byte	0x8a
-	.uaword	0x808
+	.uaword	0x822
 	.uleb128 0xb
 	.string	"_Ifx_CAN_LIST_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8d
-	.uaword	0x8cd
+	.uaword	0x8e7
 	.uleb128 0xc
 	.string	"BEGIN"
 	.byte	0x7
 	.byte	0x8f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4479,7 +4479,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"END"
 	.byte	0x7
 	.byte	0x90
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4488,7 +4488,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SIZE"
 	.byte	0x7
 	.byte	0x91
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4497,7 +4497,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EMPTY"
 	.byte	0x7
 	.byte	0x92
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4506,7 +4506,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF8
 	.byte	0x7
 	.byte	0x93
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -4516,18 +4516,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_LIST_Bits"
 	.byte	0x7
 	.byte	0x94
-	.uaword	0x861
+	.uaword	0x87b
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x97
-	.uaword	0x942
+	.uaword	0x95c
 	.uleb128 0xc
 	.string	"CLKSEL"
 	.byte	0x7
 	.byte	0x99
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -4536,7 +4536,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0x9a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x14
@@ -4545,7 +4545,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"MPSEL"
 	.byte	0x7
 	.byte	0x9b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -4554,7 +4554,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0x9c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4564,18 +4564,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MCR_Bits"
 	.byte	0x7
 	.byte	0x9d
-	.uaword	0x8e6
+	.uaword	0x900
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MECR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xa0
-	.uaword	0xa1b
+	.uaword	0xa35
 	.uleb128 0xc
 	.string	"TH"
 	.byte	0x7
 	.byte	0xa2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -4584,7 +4584,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"INP"
 	.byte	0x7
 	.byte	0xa3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -4593,7 +4593,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"NODE"
 	.byte	0x7
 	.byte	0xa4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -4602,7 +4602,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"reserved_23"
 	.byte	0x7
 	.byte	0xa5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4611,7 +4611,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"ANYED"
 	.byte	0x7
 	.byte	0xa6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4620,7 +4620,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CAPEIE"
 	.byte	0x7
 	.byte	0xa7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4629,7 +4629,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF9
 	.byte	0x7
 	.byte	0xa8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4638,7 +4638,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DEPTH"
 	.byte	0x7
 	.byte	0xa9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x2
@@ -4647,7 +4647,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SOF"
 	.byte	0x7
 	.byte	0xaa
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4656,7 +4656,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF10
 	.byte	0x7
 	.byte	0xab
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4666,18 +4666,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MECR_Bits"
 	.byte	0x7
 	.byte	0xac
-	.uaword	0x95a
+	.uaword	0x974
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MESTAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xaf
-	.uaword	0xa9b
+	.uaword	0xab5
 	.uleb128 0xc
 	.string	"CAPT"
 	.byte	0x7
 	.byte	0xb1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -4686,7 +4686,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CAPRED"
 	.byte	0x7
 	.byte	0xb2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4695,7 +4695,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CAPE"
 	.byte	0x7
 	.byte	0xb3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4704,7 +4704,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"reserved_18"
 	.byte	0x7
 	.byte	0xb4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -4714,18 +4714,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MESTAT_Bits"
 	.byte	0x7
 	.byte	0xb5
-	.uaword	0xa34
+	.uaword	0xa4e
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MITR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xb8
-	.uaword	0xaef
+	.uaword	0xb09
 	.uleb128 0xc
 	.string	"IT"
 	.byte	0x7
 	.byte	0xba
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -4734,7 +4734,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0xbb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4744,18 +4744,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MITR_Bits"
 	.byte	0x7
 	.byte	0xbc
-	.uaword	0xab6
+	.uaword	0xad0
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_AMR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xbf
-	.uaword	0xb53
+	.uaword	0xb6d
 	.uleb128 0xc
 	.string	"AM"
 	.byte	0x7
 	.byte	0xc1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -4764,7 +4764,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"MIDE"
 	.byte	0x7
 	.byte	0xc2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4773,7 +4773,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF11
 	.byte	0x7
 	.byte	0xc3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -4783,18 +4783,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_AMR_Bits"
 	.byte	0x7
 	.byte	0xc4
-	.uaword	0xb08
+	.uaword	0xb22
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_AR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xc7
-	.uaword	0xbb7
+	.uaword	0xbd1
 	.uleb128 0xc
 	.string	"ID"
 	.byte	0x7
 	.byte	0xc9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -4803,7 +4803,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IDE"
 	.byte	0x7
 	.byte	0xca
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4812,7 +4812,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PRI"
 	.byte	0x7
 	.byte	0xcb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -4822,18 +4822,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_AR_Bits"
 	.byte	0x7
 	.byte	0xcc
-	.uaword	0xb6e
+	.uaword	0xb88
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_CTR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xcf
-	.uaword	0xdeb
+	.uaword	0xe05
 	.uleb128 0xc
 	.string	"RESRXPND"
 	.byte	0x7
 	.byte	0xd1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4842,7 +4842,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESTXPND"
 	.byte	0x7
 	.byte	0xd2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4851,7 +4851,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESRXUPD"
 	.byte	0x7
 	.byte	0xd3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4860,7 +4860,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESNEWDAT"
 	.byte	0x7
 	.byte	0xd4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4869,7 +4869,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESMSGLST"
 	.byte	0x7
 	.byte	0xd5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4878,7 +4878,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESMSGVAL"
 	.byte	0x7
 	.byte	0xd6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4887,7 +4887,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESRTSEL"
 	.byte	0x7
 	.byte	0xd7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4896,7 +4896,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESRXEN"
 	.byte	0x7
 	.byte	0xd8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4905,7 +4905,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESTXRQ"
 	.byte	0x7
 	.byte	0xd9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4914,7 +4914,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESTXEN0"
 	.byte	0x7
 	.byte	0xda
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4923,7 +4923,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESTXEN1"
 	.byte	0x7
 	.byte	0xdb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4932,7 +4932,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESDIR"
 	.byte	0x7
 	.byte	0xdc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4941,7 +4941,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF12
 	.byte	0x7
 	.byte	0xdd
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -4950,7 +4950,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETRXPND"
 	.byte	0x7
 	.byte	0xde
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4959,7 +4959,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETTXPND"
 	.byte	0x7
 	.byte	0xdf
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4968,7 +4968,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETRXUPD"
 	.byte	0x7
 	.byte	0xe0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4977,7 +4977,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETNEWDAT"
 	.byte	0x7
 	.byte	0xe1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4986,7 +4986,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETMSGLST"
 	.byte	0x7
 	.byte	0xe2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4995,7 +4995,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETMSGVAL"
 	.byte	0x7
 	.byte	0xe3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5004,7 +5004,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETRTSEL"
 	.byte	0x7
 	.byte	0xe4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5013,7 +5013,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETRXEN"
 	.byte	0x7
 	.byte	0xe5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5022,7 +5022,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETTXRQ"
 	.byte	0x7
 	.byte	0xe6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -5031,7 +5031,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETTXEN0"
 	.byte	0x7
 	.byte	0xe7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -5040,7 +5040,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETTXEN1"
 	.byte	0x7
 	.byte	0xe8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -5049,7 +5049,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETDIR"
 	.byte	0x7
 	.byte	0xe9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -5058,7 +5058,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF13
 	.byte	0x7
 	.byte	0xea
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -5068,18 +5068,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_CTR_Bits"
 	.byte	0x7
 	.byte	0xeb
-	.uaword	0xbd1
+	.uaword	0xbeb
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_DATAH_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xee
-	.uaword	0xe62
+	.uaword	0xe7c
 	.uleb128 0xc
 	.string	"DB4"
 	.byte	0x7
 	.byte	0xf0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5088,7 +5088,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB5"
 	.byte	0x7
 	.byte	0xf1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5097,7 +5097,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB6"
 	.byte	0x7
 	.byte	0xf2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5106,7 +5106,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB7"
 	.byte	0x7
 	.byte	0xf3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5116,18 +5116,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_DATAH_Bits"
 	.byte	0x7
 	.byte	0xf4
-	.uaword	0xe06
+	.uaword	0xe20
 	.uleb128 0xb
 	.string	"_Ifx_CAN_MO_DATAL_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xf7
-	.uaword	0xedb
+	.uaword	0xef5
 	.uleb128 0xc
 	.string	"DB0"
 	.byte	0x7
 	.byte	0xf9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5136,7 +5136,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB1"
 	.byte	0x7
 	.byte	0xfa
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5145,7 +5145,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB2"
 	.byte	0x7
 	.byte	0xfb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5154,7 +5154,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB3"
 	.byte	0x7
 	.byte	0xfc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5164,18 +5164,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_DATAL_Bits"
 	.byte	0x7
 	.byte	0xfd
-	.uaword	0xe7f
+	.uaword	0xe99
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_EDATA0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x100
-	.uaword	0xf5a
+	.uaword	0xf74
 	.uleb128 0xf
 	.string	"DB0"
 	.byte	0x7
 	.uahalf	0x102
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5184,7 +5184,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB1"
 	.byte	0x7
 	.uahalf	0x103
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5193,7 +5193,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB2"
 	.byte	0x7
 	.uahalf	0x104
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5202,7 +5202,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB3"
 	.byte	0x7
 	.uahalf	0x105
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5212,18 +5212,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_EDATA0_Bits"
 	.byte	0x7
 	.uahalf	0x106
-	.uaword	0xef8
+	.uaword	0xf12
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_EDATA1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x109
-	.uaword	0xfdb
+	.uaword	0xff5
 	.uleb128 0xf
 	.string	"DB0"
 	.byte	0x7
 	.uahalf	0x10b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5232,7 +5232,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB1"
 	.byte	0x7
 	.uahalf	0x10c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5241,7 +5241,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB2"
 	.byte	0x7
 	.uahalf	0x10d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5250,7 +5250,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB3"
 	.byte	0x7
 	.uahalf	0x10e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5260,18 +5260,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_EDATA1_Bits"
 	.byte	0x7
 	.uahalf	0x10f
-	.uaword	0xf79
+	.uaword	0xf93
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_EDATA2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x112
-	.uaword	0x105c
+	.uaword	0x1076
 	.uleb128 0xf
 	.string	"DB0"
 	.byte	0x7
 	.uahalf	0x114
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5280,7 +5280,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB1"
 	.byte	0x7
 	.uahalf	0x115
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5289,7 +5289,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB2"
 	.byte	0x7
 	.uahalf	0x116
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5298,7 +5298,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB3"
 	.byte	0x7
 	.uahalf	0x117
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5308,18 +5308,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_EDATA2_Bits"
 	.byte	0x7
 	.uahalf	0x118
-	.uaword	0xffa
+	.uaword	0x1014
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_EDATA3_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x11b
-	.uaword	0x10dd
+	.uaword	0x10f7
 	.uleb128 0xf
 	.string	"DB0"
 	.byte	0x7
 	.uahalf	0x11d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5328,7 +5328,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB1"
 	.byte	0x7
 	.uahalf	0x11e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5337,7 +5337,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB2"
 	.byte	0x7
 	.uahalf	0x11f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5346,7 +5346,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB3"
 	.byte	0x7
 	.uahalf	0x120
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5356,18 +5356,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_EDATA3_Bits"
 	.byte	0x7
 	.uahalf	0x121
-	.uaword	0x107b
+	.uaword	0x1095
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_EDATA4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x124
-	.uaword	0x115e
+	.uaword	0x1178
 	.uleb128 0xf
 	.string	"DB0"
 	.byte	0x7
 	.uahalf	0x126
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5376,7 +5376,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB1"
 	.byte	0x7
 	.uahalf	0x127
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5385,7 +5385,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB2"
 	.byte	0x7
 	.uahalf	0x128
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5394,7 +5394,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB3"
 	.byte	0x7
 	.uahalf	0x129
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5404,18 +5404,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_EDATA4_Bits"
 	.byte	0x7
 	.uahalf	0x12a
-	.uaword	0x10fc
+	.uaword	0x1116
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_EDATA5_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x12d
-	.uaword	0x11df
+	.uaword	0x11f9
 	.uleb128 0xf
 	.string	"DB0"
 	.byte	0x7
 	.uahalf	0x12f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5424,7 +5424,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB1"
 	.byte	0x7
 	.uahalf	0x130
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5433,7 +5433,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB2"
 	.byte	0x7
 	.uahalf	0x131
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5442,7 +5442,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB3"
 	.byte	0x7
 	.uahalf	0x132
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5452,18 +5452,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_EDATA5_Bits"
 	.byte	0x7
 	.uahalf	0x133
-	.uaword	0x117d
+	.uaword	0x1197
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_EDATA6_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x136
-	.uaword	0x1260
+	.uaword	0x127a
 	.uleb128 0xf
 	.string	"DB0"
 	.byte	0x7
 	.uahalf	0x138
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5472,7 +5472,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB1"
 	.byte	0x7
 	.uahalf	0x139
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5481,7 +5481,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB2"
 	.byte	0x7
 	.uahalf	0x13a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5490,7 +5490,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DB3"
 	.byte	0x7
 	.uahalf	0x13b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5500,18 +5500,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_EDATA6_Bits"
 	.byte	0x7
 	.uahalf	0x13c
-	.uaword	0x11fe
+	.uaword	0x1218
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_FCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x13f
-	.uaword	0x13f0
+	.uaword	0x140a
 	.uleb128 0xf
 	.string	"MMC"
 	.byte	0x7
 	.uahalf	0x141
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -5520,7 +5520,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RXTOE"
 	.byte	0x7
 	.uahalf	0x142
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5529,7 +5529,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"BRS"
 	.byte	0x7
 	.uahalf	0x143
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5538,7 +5538,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"FDF"
 	.byte	0x7
 	.uahalf	0x144
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5547,7 +5547,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF14
 	.byte	0x7
 	.uahalf	0x145
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5556,7 +5556,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"GDFS"
 	.byte	0x7
 	.uahalf	0x146
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5565,7 +5565,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IDC"
 	.byte	0x7
 	.uahalf	0x147
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5574,7 +5574,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DLCC"
 	.byte	0x7
 	.uahalf	0x148
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5583,7 +5583,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DATC"
 	.byte	0x7
 	.uahalf	0x149
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5592,7 +5592,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x14a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -5601,7 +5601,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RXIE"
 	.byte	0x7
 	.uahalf	0x14b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5610,7 +5610,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXIE"
 	.byte	0x7
 	.uahalf	0x14c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5619,7 +5619,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"OVIE"
 	.byte	0x7
 	.uahalf	0x14d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5628,7 +5628,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"reserved_19"
 	.byte	0x7
 	.uahalf	0x14e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5637,7 +5637,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"FRREN"
 	.byte	0x7
 	.uahalf	0x14f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5646,7 +5646,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RMM"
 	.byte	0x7
 	.uahalf	0x150
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5655,7 +5655,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SDT"
 	.byte	0x7
 	.uahalf	0x151
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5664,7 +5664,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"STT"
 	.byte	0x7
 	.uahalf	0x152
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5673,7 +5673,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DLC"
 	.byte	0x7
 	.uahalf	0x153
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -5682,7 +5682,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x154
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -5692,18 +5692,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_FCR_Bits"
 	.byte	0x7
 	.uahalf	0x155
-	.uaword	0x127f
+	.uaword	0x1299
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_FGPR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x158
-	.uaword	0x146c
+	.uaword	0x1486
 	.uleb128 0xf
 	.string	"BOT"
 	.byte	0x7
 	.uahalf	0x15a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5712,7 +5712,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TOP"
 	.byte	0x7
 	.uahalf	0x15b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5721,7 +5721,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CUR"
 	.byte	0x7
 	.uahalf	0x15c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5730,7 +5730,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL"
 	.byte	0x7
 	.uahalf	0x15d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5740,18 +5740,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_FGPR_Bits"
 	.byte	0x7
 	.uahalf	0x15e
-	.uaword	0x140c
+	.uaword	0x1426
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_IPR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x161
-	.uaword	0x14ef
+	.uaword	0x1509
 	.uleb128 0xf
 	.string	"RXINP"
 	.byte	0x7
 	.uahalf	0x163
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -5760,7 +5760,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXINP"
 	.byte	0x7
 	.uahalf	0x164
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -5769,7 +5769,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"MPN"
 	.byte	0x7
 	.uahalf	0x165
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5778,7 +5778,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CFCVAL"
 	.byte	0x7
 	.uahalf	0x166
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5788,18 +5788,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_IPR_Bits"
 	.byte	0x7
 	.uahalf	0x167
-	.uaword	0x1489
+	.uaword	0x14a3
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO_STAT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x16a
-	.uaword	0x1637
+	.uaword	0x1651
 	.uleb128 0xf
 	.string	"RXPND"
 	.byte	0x7
 	.uahalf	0x16c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5808,7 +5808,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXPND"
 	.byte	0x7
 	.uahalf	0x16d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5817,7 +5817,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RXUPD"
 	.byte	0x7
 	.uahalf	0x16e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5826,7 +5826,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"NEWDAT"
 	.byte	0x7
 	.uahalf	0x16f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5835,7 +5835,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"MSGLST"
 	.byte	0x7
 	.uahalf	0x170
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5844,7 +5844,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"MSGVAL"
 	.byte	0x7
 	.uahalf	0x171
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5853,7 +5853,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RTSEL"
 	.byte	0x7
 	.uahalf	0x172
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5862,7 +5862,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RXEN"
 	.byte	0x7
 	.uahalf	0x173
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5871,7 +5871,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXRQ"
 	.byte	0x7
 	.uahalf	0x174
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5880,7 +5880,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXEN0"
 	.byte	0x7
 	.uahalf	0x175
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5889,7 +5889,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXEN1"
 	.byte	0x7
 	.uahalf	0x176
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5898,7 +5898,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DIR"
 	.byte	0x7
 	.uahalf	0x177
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5907,7 +5907,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LIST"
 	.byte	0x7
 	.uahalf	0x178
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -5916,7 +5916,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PPREV"
 	.byte	0x7
 	.uahalf	0x179
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5925,7 +5925,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PNEXT"
 	.byte	0x7
 	.uahalf	0x17a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5935,18 +5935,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MO_STAT_Bits"
 	.byte	0x7
 	.uahalf	0x17b
-	.uaword	0x150b
+	.uaword	0x1525
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MSID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x17e
-	.uaword	0x1693
+	.uaword	0x16ad
 	.uleb128 0xf
 	.string	"INDEX"
 	.byte	0x7
 	.uahalf	0x180
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -5955,7 +5955,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x181
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -5965,18 +5965,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MSID_Bits"
 	.byte	0x7
 	.uahalf	0x182
-	.uaword	0x1654
+	.uaword	0x166e
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MSIMASK_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x185
-	.uaword	0x16dc
+	.uaword	0x16f6
 	.uleb128 0xf
 	.string	"IM"
 	.byte	0x7
 	.uahalf	0x187
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5986,18 +5986,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MSIMASK_Bits"
 	.byte	0x7
 	.uahalf	0x188
-	.uaword	0x16ad
+	.uaword	0x16c7
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MSPND_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x18b
-	.uaword	0x1727
+	.uaword	0x1741
 	.uleb128 0xf
 	.string	"PND"
 	.byte	0x7
 	.uahalf	0x18d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -6007,18 +6007,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_MSPND_Bits"
 	.byte	0x7
 	.uahalf	0x18e
-	.uaword	0x16f9
+	.uaword	0x1713
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_BTEVR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x191
-	.uaword	0x17f7
+	.uaword	0x1811
 	.uleb128 0xf
 	.string	"BRP"
 	.byte	0x7
 	.uahalf	0x193
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -6027,7 +6027,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x194
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -6036,7 +6036,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SJW"
 	.byte	0x7
 	.uahalf	0x195
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6045,7 +6045,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x196
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -6054,7 +6054,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DIV8"
 	.byte	0x7
 	.uahalf	0x197
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6063,7 +6063,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TSEG2"
 	.byte	0x7
 	.uahalf	0x198
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -6072,7 +6072,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x199
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6081,7 +6081,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TSEG1"
 	.byte	0x7
 	.uahalf	0x19a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0x4
@@ -6090,7 +6090,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x19b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6100,18 +6100,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_BTEVR_Bits"
 	.byte	0x7
 	.uahalf	0x19c
-	.uaword	0x1742
+	.uaword	0x175c
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_BTR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x19f
-	.uaword	0x1897
+	.uaword	0x18b1
 	.uleb128 0xf
 	.string	"BRP"
 	.byte	0x7
 	.uahalf	0x1a1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -6120,7 +6120,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SJW"
 	.byte	0x7
 	.uahalf	0x1a2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -6129,7 +6129,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TSEG1"
 	.byte	0x7
 	.uahalf	0x1a3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6138,7 +6138,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TSEG2"
 	.byte	0x7
 	.uahalf	0x1a4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -6147,7 +6147,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"DIV8"
 	.byte	0x7
 	.uahalf	0x1a5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6156,7 +6156,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x1a6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6166,18 +6166,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_BTR_Bits"
 	.byte	0x7
 	.uahalf	0x1a7
-	.uaword	0x1814
+	.uaword	0x182e
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_CR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1aa
-	.uaword	0x198d
+	.uaword	0x19a7
 	.uleb128 0xf
 	.string	"INIT"
 	.byte	0x7
 	.uahalf	0x1ac
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6186,7 +6186,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TRIE"
 	.byte	0x7
 	.uahalf	0x1ad
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6195,7 +6195,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LECIE"
 	.byte	0x7
 	.uahalf	0x1ae
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6204,7 +6204,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"ALIE"
 	.byte	0x7
 	.uahalf	0x1af
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6213,7 +6213,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CANDIS"
 	.byte	0x7
 	.uahalf	0x1b0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6222,7 +6222,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXDIS"
 	.byte	0x7
 	.uahalf	0x1b1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6231,7 +6231,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CCE"
 	.byte	0x7
 	.uahalf	0x1b2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6240,7 +6240,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CALM"
 	.byte	0x7
 	.uahalf	0x1b3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6249,7 +6249,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SUSEN"
 	.byte	0x7
 	.uahalf	0x1b4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6258,7 +6258,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"FDEN"
 	.byte	0x7
 	.uahalf	0x1b5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6267,7 +6267,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x1b6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -6277,18 +6277,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_CR_Bits"
 	.byte	0x7
 	.uahalf	0x1b7
-	.uaword	0x18b2
+	.uaword	0x18cc
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_ECNT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1ba
-	.uaword	0x1a2d
+	.uaword	0x1a47
 	.uleb128 0xf
 	.string	"REC"
 	.byte	0x7
 	.uahalf	0x1bc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6297,7 +6297,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TEC"
 	.byte	0x7
 	.uahalf	0x1bd
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -6306,7 +6306,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EWRNLVL"
 	.byte	0x7
 	.uahalf	0x1be
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -6315,7 +6315,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LETD"
 	.byte	0x7
 	.uahalf	0x1bf
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6324,7 +6324,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LEINC"
 	.byte	0x7
 	.uahalf	0x1c0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6333,7 +6333,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x1c1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -6343,18 +6343,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_ECNT_Bits"
 	.byte	0x7
 	.uahalf	0x1c2
-	.uaword	0x19a7
+	.uaword	0x19c1
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_FBTR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1c5
-	.uaword	0x1ac0
+	.uaword	0x1ada
 	.uleb128 0xf
 	.string	"FBRP"
 	.byte	0x7
 	.uahalf	0x1c7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -6363,7 +6363,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"FSJW"
 	.byte	0x7
 	.uahalf	0x1c8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -6372,7 +6372,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"FTSEG1"
 	.byte	0x7
 	.uahalf	0x1c9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6381,7 +6381,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"FTSEG2"
 	.byte	0x7
 	.uahalf	0x1ca
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -6390,7 +6390,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x1cb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x11
 	.byte	0
@@ -6400,18 +6400,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_FBTR_Bits"
 	.byte	0x7
 	.uahalf	0x1cc
-	.uaword	0x1a49
+	.uaword	0x1a63
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_FCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1cf
-	.uaword	0x1b72
+	.uaword	0x1b8c
 	.uleb128 0xf
 	.string	"CFC"
 	.byte	0x7
 	.uahalf	0x1d1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6420,7 +6420,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CFSEL"
 	.byte	0x7
 	.uahalf	0x1d2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -6429,7 +6429,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CFMOD"
 	.byte	0x7
 	.uahalf	0x1d3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb
@@ -6438,7 +6438,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x1d4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6447,7 +6447,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CFCIE"
 	.byte	0x7
 	.uahalf	0x1d5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6456,7 +6456,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CFCOV"
 	.byte	0x7
 	.uahalf	0x1d6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6465,7 +6465,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x1d7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6475,18 +6475,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_FCR_Bits"
 	.byte	0x7
 	.uahalf	0x1d8
-	.uaword	0x1adc
+	.uaword	0x1af6
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_IPR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1db
-	.uaword	0x1c17
+	.uaword	0x1c31
 	.uleb128 0xf
 	.string	"ALINP"
 	.byte	0x7
 	.uahalf	0x1dd
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6495,7 +6495,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LECINP"
 	.byte	0x7
 	.uahalf	0x1de
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6504,7 +6504,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TRINP"
 	.byte	0x7
 	.uahalf	0x1df
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6513,7 +6513,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CFCINP"
 	.byte	0x7
 	.uahalf	0x1e0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6522,7 +6522,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TEINP"
 	.byte	0x7
 	.uahalf	0x1e1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -6531,7 +6531,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF19
 	.byte	0x7
 	.uahalf	0x1e2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -6541,18 +6541,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_IPR_Bits"
 	.byte	0x7
 	.uahalf	0x1e3
-	.uaword	0x1b8d
+	.uaword	0x1ba7
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_PCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1e6
-	.uaword	0x1ca0
+	.uaword	0x1cba
 	.uleb128 0xf
 	.string	"RXSEL"
 	.byte	0x7
 	.uahalf	0x1e8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6561,7 +6561,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"reserved_3"
 	.byte	0x7
 	.uahalf	0x1e9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -6570,7 +6570,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LBM"
 	.byte	0x7
 	.uahalf	0x1ea
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6579,7 +6579,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"reserved_9"
 	.byte	0x7
 	.uahalf	0x1eb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -6589,18 +6589,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_PCR_Bits"
 	.byte	0x7
 	.uahalf	0x1ec
-	.uaword	0x1c32
+	.uaword	0x1c4c
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_SR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1ef
-	.uaword	0x1da3
+	.uaword	0x1dbd
 	.uleb128 0xf
 	.string	"LEC"
 	.byte	0x7
 	.uahalf	0x1f1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6609,7 +6609,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXOK"
 	.byte	0x7
 	.uahalf	0x1f2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6618,7 +6618,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RXOK"
 	.byte	0x7
 	.uahalf	0x1f3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6627,7 +6627,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"ALERT"
 	.byte	0x7
 	.uahalf	0x1f4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6636,7 +6636,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EWRN"
 	.byte	0x7
 	.uahalf	0x1f5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6645,7 +6645,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"BOFF"
 	.byte	0x7
 	.uahalf	0x1f6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6654,7 +6654,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LLE"
 	.byte	0x7
 	.uahalf	0x1f7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6663,7 +6663,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LOE"
 	.byte	0x7
 	.uahalf	0x1f8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6672,7 +6672,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SUSACK"
 	.byte	0x7
 	.uahalf	0x1f9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6681,7 +6681,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RESI"
 	.byte	0x7
 	.uahalf	0x1fa
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6690,7 +6690,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"FLEC"
 	.byte	0x7
 	.uahalf	0x1fb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -6699,7 +6699,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x1fc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x11
 	.byte	0
@@ -6709,18 +6709,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_SR_Bits"
 	.byte	0x7
 	.uahalf	0x1fd
-	.uaword	0x1cbb
+	.uaword	0x1cd5
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_TCCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x200
-	.uaword	0x1e31
+	.uaword	0x1e4b
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x202
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6729,7 +6729,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TPSC"
 	.byte	0x7
 	.uahalf	0x203
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6738,7 +6738,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x204
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0xe
@@ -6747,7 +6747,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TRIGSRC"
 	.byte	0x7
 	.uahalf	0x205
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xb
@@ -6756,7 +6756,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x206
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0xb
 	.byte	0
@@ -6766,18 +6766,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_TCCR_Bits"
 	.byte	0x7
 	.uahalf	0x207
-	.uaword	0x1dbd
+	.uaword	0x1dd7
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_TDCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x20a
-	.uaword	0x1ed5
+	.uaword	0x1eef
 	.uleb128 0xf
 	.string	"TDCV"
 	.byte	0x7
 	.uahalf	0x20c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -6786,7 +6786,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"reserved_5"
 	.byte	0x7
 	.uahalf	0x20d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -6795,7 +6795,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TDCO"
 	.byte	0x7
 	.uahalf	0x20e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6804,7 +6804,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x20f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -6813,7 +6813,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TDC"
 	.byte	0x7
 	.uahalf	0x210
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6822,7 +6822,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x211
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6832,18 +6832,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_TDCR_Bits"
 	.byte	0x7
 	.uahalf	0x212
-	.uaword	0x1e4d
+	.uaword	0x1e67
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_TRTR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x215
-	.uaword	0x1f63
+	.uaword	0x1f7d
 	.uleb128 0xf
 	.string	"RELOAD"
 	.byte	0x7
 	.uahalf	0x217
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6852,7 +6852,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x218
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -6861,7 +6861,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TEIE"
 	.byte	0x7
 	.uahalf	0x219
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6870,7 +6870,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TE"
 	.byte	0x7
 	.uahalf	0x21a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6879,7 +6879,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x21b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6889,18 +6889,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_TRTR_Bits"
 	.byte	0x7
 	.uahalf	0x21c
-	.uaword	0x1ef1
+	.uaword	0x1f0b
 	.uleb128 0xe
 	.string	"_Ifx_CAN_N_TTTR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x21f
-	.uaword	0x1fe3
+	.uaword	0x1ffd
 	.uleb128 0xf
 	.string	"RELOAD"
 	.byte	0x7
 	.uahalf	0x221
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6909,7 +6909,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TXMO"
 	.byte	0x7
 	.uahalf	0x222
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -6918,7 +6918,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"STRT"
 	.byte	0x7
 	.uahalf	0x223
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6927,7 +6927,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x224
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -6937,18 +6937,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_N_TTTR_Bits"
 	.byte	0x7
 	.uahalf	0x225
-	.uaword	0x1f7f
+	.uaword	0x1f99
 	.uleb128 0xe
 	.string	"_Ifx_CAN_OCS_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x228
-	.uaword	0x20a1
+	.uaword	0x20bb
 	.uleb128 0xf
 	.string	"TGS"
 	.byte	0x7
 	.uahalf	0x22a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -6957,7 +6957,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TGB"
 	.byte	0x7
 	.uahalf	0x22b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6966,7 +6966,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TG_P"
 	.byte	0x7
 	.uahalf	0x22c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6975,7 +6975,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x22d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x14
 	.byte	0x8
@@ -6984,7 +6984,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SUS"
 	.byte	0x7
 	.uahalf	0x22e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -6993,7 +6993,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SUS_P"
 	.byte	0x7
 	.uahalf	0x22f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7002,7 +7002,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SUSSTA"
 	.byte	0x7
 	.uahalf	0x230
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7011,7 +7011,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF11
 	.byte	0x7
 	.uahalf	0x231
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -7021,18 +7021,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_OCS_Bits"
 	.byte	0x7
 	.uahalf	0x232
-	.uaword	0x1fff
+	.uaword	0x2019
 	.uleb128 0xe
 	.string	"_Ifx_CAN_PANCTR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x235
-	.uaword	0x2145
+	.uaword	0x215f
 	.uleb128 0xf
 	.string	"PANCMD"
 	.byte	0x7
 	.uahalf	0x237
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -7041,7 +7041,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"BUSY"
 	.byte	0x7
 	.uahalf	0x238
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7050,7 +7050,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RBUSY"
 	.byte	0x7
 	.uahalf	0x239
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7059,7 +7059,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x23a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -7068,7 +7068,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PANAR1"
 	.byte	0x7
 	.uahalf	0x23b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -7077,7 +7077,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PANAR2"
 	.byte	0x7
 	.uahalf	0x23c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -7087,1516 +7087,1516 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_CAN_PANCTR_Bits"
 	.byte	0x7
 	.uahalf	0x23d
-	.uaword	0x20ba
+	.uaword	0x20d4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x245
-	.uaword	0x2189
+	.uaword	0x21a3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x247
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x248
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x249
-	.uaword	0x591
+	.uaword	0x5ab
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_ACCEN0"
 	.byte	0x7
 	.uahalf	0x24a
-	.uaword	0x2161
+	.uaword	0x217b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x24d
-	.uaword	0x21c8
+	.uaword	0x21e2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x24f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x250
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x251
-	.uaword	0x5d9
+	.uaword	0x5f3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_ACCEN1"
 	.byte	0x7
 	.uahalf	0x252
-	.uaword	0x21a0
+	.uaword	0x21ba
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x255
-	.uaword	0x2207
+	.uaword	0x2221
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x257
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x258
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x259
-	.uaword	0x65d
+	.uaword	0x677
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_CLC"
 	.byte	0x7
 	.uahalf	0x25a
-	.uaword	0x21df
+	.uaword	0x21f9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x25d
-	.uaword	0x2243
+	.uaword	0x225d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x25f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x260
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x261
-	.uaword	0x6cc
+	.uaword	0x6e6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_FDR"
 	.byte	0x7
 	.uahalf	0x262
-	.uaword	0x221b
+	.uaword	0x2235
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x265
-	.uaword	0x227f
+	.uaword	0x2299
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x267
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x268
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x269
-	.uaword	0x734
+	.uaword	0x74e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_ID"
 	.byte	0x7
 	.uahalf	0x26a
-	.uaword	0x2257
+	.uaword	0x2271
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x26d
-	.uaword	0x22ba
+	.uaword	0x22d4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x26f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x270
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x271
-	.uaword	0x799
+	.uaword	0x7b3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_KRST0"
 	.byte	0x7
 	.uahalf	0x272
-	.uaword	0x2292
+	.uaword	0x22ac
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x275
-	.uaword	0x22f8
+	.uaword	0x2312
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x277
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x278
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x279
-	.uaword	0x7ee
+	.uaword	0x808
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_KRST1"
 	.byte	0x7
 	.uahalf	0x27a
-	.uaword	0x22d0
+	.uaword	0x22ea
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x27d
-	.uaword	0x2336
+	.uaword	0x2350
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x27f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x280
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x281
-	.uaword	0x845
+	.uaword	0x85f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_KRSTCLR"
 	.byte	0x7
 	.uahalf	0x282
-	.uaword	0x230e
+	.uaword	0x2328
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x285
-	.uaword	0x2376
+	.uaword	0x2390
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x287
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x288
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x289
-	.uaword	0x8cd
+	.uaword	0x8e7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_LIST"
 	.byte	0x7
 	.uahalf	0x28a
-	.uaword	0x234e
+	.uaword	0x2368
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x28d
-	.uaword	0x23b3
+	.uaword	0x23cd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x28f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x290
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x291
-	.uaword	0x942
+	.uaword	0x95c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MCR"
 	.byte	0x7
 	.uahalf	0x292
-	.uaword	0x238b
+	.uaword	0x23a5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x295
-	.uaword	0x23ef
+	.uaword	0x2409
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x297
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x298
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x299
-	.uaword	0xa1b
+	.uaword	0xa35
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MECR"
 	.byte	0x7
 	.uahalf	0x29a
-	.uaword	0x23c7
+	.uaword	0x23e1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x29d
-	.uaword	0x242c
+	.uaword	0x2446
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x29f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2a0
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2a1
-	.uaword	0xa9b
+	.uaword	0xab5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MESTAT"
 	.byte	0x7
 	.uahalf	0x2a2
-	.uaword	0x2404
+	.uaword	0x241e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2a5
-	.uaword	0x246b
+	.uaword	0x2485
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2a7
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2a8
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2a9
-	.uaword	0xaef
+	.uaword	0xb09
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MITR"
 	.byte	0x7
 	.uahalf	0x2aa
-	.uaword	0x2443
+	.uaword	0x245d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2ad
-	.uaword	0x24a8
+	.uaword	0x24c2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2af
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2b0
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2b1
-	.uaword	0xb53
+	.uaword	0xb6d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_AMR"
 	.byte	0x7
 	.uahalf	0x2b2
-	.uaword	0x2480
+	.uaword	0x249a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2b5
-	.uaword	0x24e7
+	.uaword	0x2501
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2b7
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2b8
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2b9
-	.uaword	0xbb7
+	.uaword	0xbd1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_AR"
 	.byte	0x7
 	.uahalf	0x2ba
-	.uaword	0x24bf
+	.uaword	0x24d9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2bd
-	.uaword	0x2525
+	.uaword	0x253f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2bf
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2c0
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2c1
-	.uaword	0xdeb
+	.uaword	0xe05
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_CTR"
 	.byte	0x7
 	.uahalf	0x2c2
-	.uaword	0x24fd
+	.uaword	0x2517
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2c5
-	.uaword	0x2564
+	.uaword	0x257e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2c7
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2c8
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2c9
-	.uaword	0xe62
+	.uaword	0xe7c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_DATAH"
 	.byte	0x7
 	.uahalf	0x2ca
-	.uaword	0x253c
+	.uaword	0x2556
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2cd
-	.uaword	0x25a5
+	.uaword	0x25bf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2cf
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2d0
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2d1
-	.uaword	0xedb
+	.uaword	0xef5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_DATAL"
 	.byte	0x7
 	.uahalf	0x2d2
-	.uaword	0x257d
+	.uaword	0x2597
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2d5
-	.uaword	0x25e6
+	.uaword	0x2600
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2d7
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2d8
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2d9
-	.uaword	0xf5a
+	.uaword	0xf74
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_EDATA0"
 	.byte	0x7
 	.uahalf	0x2da
-	.uaword	0x25be
+	.uaword	0x25d8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2dd
-	.uaword	0x2628
+	.uaword	0x2642
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2df
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2e0
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2e1
-	.uaword	0xfdb
+	.uaword	0xff5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_EDATA1"
 	.byte	0x7
 	.uahalf	0x2e2
-	.uaword	0x2600
+	.uaword	0x261a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2e5
-	.uaword	0x266a
+	.uaword	0x2684
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2e7
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2e8
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2e9
-	.uaword	0x105c
+	.uaword	0x1076
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_EDATA2"
 	.byte	0x7
 	.uahalf	0x2ea
-	.uaword	0x2642
+	.uaword	0x265c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2ed
-	.uaword	0x26ac
+	.uaword	0x26c6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2ef
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2f0
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2f1
-	.uaword	0x10dd
+	.uaword	0x10f7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_EDATA3"
 	.byte	0x7
 	.uahalf	0x2f2
-	.uaword	0x2684
+	.uaword	0x269e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2f5
-	.uaword	0x26ee
+	.uaword	0x2708
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2f7
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2f8
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2f9
-	.uaword	0x115e
+	.uaword	0x1178
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_EDATA4"
 	.byte	0x7
 	.uahalf	0x2fa
-	.uaword	0x26c6
+	.uaword	0x26e0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2fd
-	.uaword	0x2730
+	.uaword	0x274a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2ff
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x300
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x301
-	.uaword	0x11df
+	.uaword	0x11f9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_EDATA5"
 	.byte	0x7
 	.uahalf	0x302
-	.uaword	0x2708
+	.uaword	0x2722
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x305
-	.uaword	0x2772
+	.uaword	0x278c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x307
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x308
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x309
-	.uaword	0x1260
+	.uaword	0x127a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_EDATA6"
 	.byte	0x7
 	.uahalf	0x30a
-	.uaword	0x274a
+	.uaword	0x2764
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x30d
-	.uaword	0x27b4
+	.uaword	0x27ce
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x30f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x310
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x311
-	.uaword	0x13f0
+	.uaword	0x140a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_FCR"
 	.byte	0x7
 	.uahalf	0x312
-	.uaword	0x278c
+	.uaword	0x27a6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x315
-	.uaword	0x27f3
+	.uaword	0x280d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x317
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x318
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x319
-	.uaword	0x146c
+	.uaword	0x1486
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_FGPR"
 	.byte	0x7
 	.uahalf	0x31a
-	.uaword	0x27cb
+	.uaword	0x27e5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x31d
-	.uaword	0x2833
+	.uaword	0x284d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x31f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x320
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x321
-	.uaword	0x14ef
+	.uaword	0x1509
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_IPR"
 	.byte	0x7
 	.uahalf	0x322
-	.uaword	0x280b
+	.uaword	0x2825
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x325
-	.uaword	0x2872
+	.uaword	0x288c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x327
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x328
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x329
-	.uaword	0x1637
+	.uaword	0x1651
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO_STAT"
 	.byte	0x7
 	.uahalf	0x32a
-	.uaword	0x284a
+	.uaword	0x2864
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x32d
-	.uaword	0x28b2
+	.uaword	0x28cc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x32f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x330
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x331
-	.uaword	0x1693
+	.uaword	0x16ad
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MSID"
 	.byte	0x7
 	.uahalf	0x332
-	.uaword	0x288a
+	.uaword	0x28a4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x335
-	.uaword	0x28ef
+	.uaword	0x2909
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x337
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x338
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x339
-	.uaword	0x16dc
+	.uaword	0x16f6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MSIMASK"
 	.byte	0x7
 	.uahalf	0x33a
-	.uaword	0x28c7
+	.uaword	0x28e1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x33d
-	.uaword	0x292f
+	.uaword	0x2949
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x33f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x340
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x341
-	.uaword	0x1727
+	.uaword	0x1741
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MSPND"
 	.byte	0x7
 	.uahalf	0x342
-	.uaword	0x2907
+	.uaword	0x2921
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x345
-	.uaword	0x296d
+	.uaword	0x2987
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x347
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x348
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x349
-	.uaword	0x17f7
+	.uaword	0x1811
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_BTEVR"
 	.byte	0x7
 	.uahalf	0x34a
-	.uaword	0x2945
+	.uaword	0x295f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x34d
-	.uaword	0x29ad
+	.uaword	0x29c7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x34f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x350
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x351
-	.uaword	0x1897
+	.uaword	0x18b1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_BTR"
 	.byte	0x7
 	.uahalf	0x352
-	.uaword	0x2985
+	.uaword	0x299f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x355
-	.uaword	0x29eb
+	.uaword	0x2a05
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x357
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x358
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x359
-	.uaword	0x198d
+	.uaword	0x19a7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_CR"
 	.byte	0x7
 	.uahalf	0x35a
-	.uaword	0x29c3
+	.uaword	0x29dd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x35d
-	.uaword	0x2a28
+	.uaword	0x2a42
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x35f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x360
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x361
-	.uaword	0x1a2d
+	.uaword	0x1a47
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_ECNT"
 	.byte	0x7
 	.uahalf	0x362
-	.uaword	0x2a00
+	.uaword	0x2a1a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x365
-	.uaword	0x2a67
+	.uaword	0x2a81
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x367
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x368
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x369
-	.uaword	0x1ac0
+	.uaword	0x1ada
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_FBTR"
 	.byte	0x7
 	.uahalf	0x36a
-	.uaword	0x2a3f
+	.uaword	0x2a59
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x36d
-	.uaword	0x2aa6
+	.uaword	0x2ac0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x36f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x370
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x371
-	.uaword	0x1b72
+	.uaword	0x1b8c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_FCR"
 	.byte	0x7
 	.uahalf	0x372
-	.uaword	0x2a7e
+	.uaword	0x2a98
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x375
-	.uaword	0x2ae4
+	.uaword	0x2afe
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x377
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x378
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x379
-	.uaword	0x1c17
+	.uaword	0x1c31
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_IPR"
 	.byte	0x7
 	.uahalf	0x37a
-	.uaword	0x2abc
+	.uaword	0x2ad6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x37d
-	.uaword	0x2b22
+	.uaword	0x2b3c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x37f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x380
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x381
-	.uaword	0x1ca0
+	.uaword	0x1cba
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_PCR"
 	.byte	0x7
 	.uahalf	0x382
-	.uaword	0x2afa
+	.uaword	0x2b14
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x385
-	.uaword	0x2b60
+	.uaword	0x2b7a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x387
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x388
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x389
-	.uaword	0x1da3
+	.uaword	0x1dbd
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_SR"
 	.byte	0x7
 	.uahalf	0x38a
-	.uaword	0x2b38
+	.uaword	0x2b52
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x38d
-	.uaword	0x2b9d
+	.uaword	0x2bb7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x38f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x390
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x391
-	.uaword	0x1e31
+	.uaword	0x1e4b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_TCCR"
 	.byte	0x7
 	.uahalf	0x392
-	.uaword	0x2b75
+	.uaword	0x2b8f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x395
-	.uaword	0x2bdc
+	.uaword	0x2bf6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x397
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x398
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x399
-	.uaword	0x1ed5
+	.uaword	0x1eef
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_TDCR"
 	.byte	0x7
 	.uahalf	0x39a
-	.uaword	0x2bb4
+	.uaword	0x2bce
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x39d
-	.uaword	0x2c1b
+	.uaword	0x2c35
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x39f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x3a0
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x3a1
-	.uaword	0x1f63
+	.uaword	0x1f7d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_TRTR"
 	.byte	0x7
 	.uahalf	0x3a2
-	.uaword	0x2bf3
+	.uaword	0x2c0d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3a5
-	.uaword	0x2c5a
+	.uaword	0x2c74
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x3a7
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x3a8
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x3a9
-	.uaword	0x1fe3
+	.uaword	0x1ffd
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N_TTTR"
 	.byte	0x7
 	.uahalf	0x3aa
-	.uaword	0x2c32
+	.uaword	0x2c4c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3ad
-	.uaword	0x2c99
+	.uaword	0x2cb3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x3af
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x3b0
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x3b1
-	.uaword	0x20a1
+	.uaword	0x20bb
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_OCS"
 	.byte	0x7
 	.uahalf	0x3b2
-	.uaword	0x2c71
+	.uaword	0x2c8b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3b5
-	.uaword	0x2cd5
+	.uaword	0x2cef
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x3b7
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x3b8
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x3b9
-	.uaword	0x2145
+	.uaword	0x215f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_PANCTR"
 	.byte	0x7
 	.uahalf	0x3ba
-	.uaword	0x2cad
+	.uaword	0x2cc7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3c7
-	.uaword	0x2d11
+	.uaword	0x2d2b
 	.uleb128 0x13
 	.string	"EDATA0"
 	.byte	0x7
 	.uahalf	0x3c9
-	.uaword	0x25e6
+	.uaword	0x2600
 	.uleb128 0x13
 	.string	"FCR"
 	.byte	0x7
 	.uahalf	0x3ca
-	.uaword	0x27b4
+	.uaword	0x27ce
 	.byte	0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3cd
-	.uaword	0x2d37
+	.uaword	0x2d51
 	.uleb128 0x13
 	.string	"EDATA1"
 	.byte	0x7
 	.uahalf	0x3cf
-	.uaword	0x2628
+	.uaword	0x2642
 	.uleb128 0x13
 	.string	"FGPR"
 	.byte	0x7
 	.uahalf	0x3d0
-	.uaword	0x27f3
+	.uaword	0x280d
 	.byte	0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3d3
-	.uaword	0x2d5c
+	.uaword	0x2d76
 	.uleb128 0x13
 	.string	"EDATA2"
 	.byte	0x7
 	.uahalf	0x3d5
-	.uaword	0x266a
+	.uaword	0x2684
 	.uleb128 0x13
 	.string	"IPR"
 	.byte	0x7
 	.uahalf	0x3d6
-	.uaword	0x2833
+	.uaword	0x284d
 	.byte	0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3d9
-	.uaword	0x2d81
+	.uaword	0x2d9b
 	.uleb128 0x13
 	.string	"AMR"
 	.byte	0x7
 	.uahalf	0x3db
-	.uaword	0x24a8
+	.uaword	0x24c2
 	.uleb128 0x13
 	.string	"EDATA3"
 	.byte	0x7
 	.uahalf	0x3dc
-	.uaword	0x26ac
+	.uaword	0x26c6
 	.byte	0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3df
-	.uaword	0x2da8
+	.uaword	0x2dc2
 	.uleb128 0x13
 	.string	"DATAL"
 	.byte	0x7
 	.uahalf	0x3e1
-	.uaword	0x25a5
+	.uaword	0x25bf
 	.uleb128 0x13
 	.string	"EDATA4"
 	.byte	0x7
 	.uahalf	0x3e2
-	.uaword	0x26ee
+	.uaword	0x2708
 	.byte	0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3e5
-	.uaword	0x2dcf
+	.uaword	0x2de9
 	.uleb128 0x13
 	.string	"DATAH"
 	.byte	0x7
 	.uahalf	0x3e7
-	.uaword	0x2564
+	.uaword	0x257e
 	.uleb128 0x13
 	.string	"EDATA5"
 	.byte	0x7
 	.uahalf	0x3e8
-	.uaword	0x2730
+	.uaword	0x274a
 	.byte	0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3eb
-	.uaword	0x2df3
+	.uaword	0x2e0d
 	.uleb128 0x13
 	.string	"AR"
 	.byte	0x7
 	.uahalf	0x3ed
-	.uaword	0x24e7
+	.uaword	0x2501
 	.uleb128 0x13
 	.string	"EDATA6"
 	.byte	0x7
 	.uahalf	0x3ee
-	.uaword	0x2772
+	.uaword	0x278c
 	.byte	0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x3f1
-	.uaword	0x2e16
+	.uaword	0x2e30
 	.uleb128 0x13
 	.string	"CTR"
 	.byte	0x7
 	.uahalf	0x3f3
-	.uaword	0x2525
+	.uaword	0x253f
 	.uleb128 0x13
 	.string	"STAT"
 	.byte	0x7
 	.uahalf	0x3f4
-	.uaword	0x2872
+	.uaword	0x288c
 	.byte	0
 	.uleb128 0xe
 	.string	"_Ifx_CAN_MO"
 	.byte	0x20
 	.byte	0x7
 	.uahalf	0x3c5
-	.uaword	0x2e5c
+	.uaword	0x2e76
 	.uleb128 0x14
-	.uaword	0x2cec
+	.uaword	0x2d06
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x2d11
+	.uaword	0x2d2b
 	.byte	0x4
 	.uleb128 0x14
-	.uaword	0x2d37
+	.uaword	0x2d51
 	.byte	0x8
 	.uleb128 0x14
-	.uaword	0x2d5c
+	.uaword	0x2d76
 	.byte	0xc
 	.uleb128 0x14
-	.uaword	0x2d81
+	.uaword	0x2d9b
 	.byte	0x10
 	.uleb128 0x14
-	.uaword	0x2da8
+	.uaword	0x2dc2
 	.byte	0x14
 	.uleb128 0x14
-	.uaword	0x2dcf
+	.uaword	0x2de9
 	.byte	0x18
 	.uleb128 0x14
-	.uaword	0x2df3
+	.uaword	0x2e0d
 	.byte	0x1c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_MO"
 	.byte	0x7
 	.uahalf	0x3f7
-	.uaword	0x2e6f
+	.uaword	0x2e89
 	.uleb128 0x15
-	.uaword	0x2e16
+	.uaword	0x2e30
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x400
-	.uaword	0x2e98
+	.uaword	0x2eb2
 	.uleb128 0x13
 	.string	"BTEVR"
 	.byte	0x7
 	.uahalf	0x402
-	.uaword	0x296d
+	.uaword	0x2987
 	.uleb128 0x13
 	.string	"BTR"
 	.byte	0x7
 	.uahalf	0x403
-	.uaword	0x29ad
+	.uaword	0x29c7
 	.byte	0
 	.uleb128 0x16
 	.string	"_Ifx_CAN_N"
 	.uahalf	0x100
 	.byte	0x7
 	.uahalf	0x3fa
-	.uaword	0x2f88
+	.uaword	0x2fa2
 	.uleb128 0x17
 	.string	"CR"
 	.byte	0x7
 	.uahalf	0x3fc
-	.uaword	0x29eb
+	.uaword	0x2a05
 	.byte	0
 	.uleb128 0x17
 	.string	"SR"
 	.byte	0x7
 	.uahalf	0x3fd
-	.uaword	0x2b60
+	.uaword	0x2b7a
 	.byte	0x4
 	.uleb128 0x17
 	.string	"IPR"
 	.byte	0x7
 	.uahalf	0x3fe
-	.uaword	0x2ae4
+	.uaword	0x2afe
 	.byte	0x8
 	.uleb128 0x17
 	.string	"PCR"
 	.byte	0x7
 	.uahalf	0x3ff
-	.uaword	0x2b22
+	.uaword	0x2b3c
 	.byte	0xc
 	.uleb128 0x14
-	.uaword	0x2e74
+	.uaword	0x2e8e
 	.byte	0x10
 	.uleb128 0x17
 	.string	"ECNT"
 	.byte	0x7
 	.uahalf	0x406
-	.uaword	0x2a28
+	.uaword	0x2a42
 	.byte	0x14
 	.uleb128 0x17
 	.string	"FCR"
 	.byte	0x7
 	.uahalf	0x407
-	.uaword	0x2aa6
+	.uaword	0x2ac0
 	.byte	0x18
 	.uleb128 0x17
 	.string	"TCCR"
 	.byte	0x7
 	.uahalf	0x408
-	.uaword	0x2b9d
+	.uaword	0x2bb7
 	.byte	0x1c
 	.uleb128 0x17
 	.string	"TRTR"
 	.byte	0x7
 	.uahalf	0x409
-	.uaword	0x2c1b
+	.uaword	0x2c35
 	.byte	0x20
 	.uleb128 0x17
 	.string	"TATTR"
 	.byte	0x7
 	.uahalf	0x40a
-	.uaword	0x2c5a
+	.uaword	0x2c74
 	.byte	0x24
 	.uleb128 0x17
 	.string	"TBTTR"
 	.byte	0x7
 	.uahalf	0x40b
-	.uaword	0x2c5a
+	.uaword	0x2c74
 	.byte	0x28
 	.uleb128 0x17
 	.string	"TCTTR"
 	.byte	0x7
 	.uahalf	0x40c
-	.uaword	0x2c5a
+	.uaword	0x2c74
 	.byte	0x2c
 	.uleb128 0x18
 	.uaword	.LASF11
 	.byte	0x7
 	.uahalf	0x40d
-	.uaword	0x2f88
+	.uaword	0x2fa2
 	.byte	0x30
 	.uleb128 0x17
 	.string	"FBTR"
 	.byte	0x7
 	.uahalf	0x40e
-	.uaword	0x2a67
+	.uaword	0x2a81
 	.byte	0x38
 	.uleb128 0x17
 	.string	"TDCR"
 	.byte	0x7
 	.uahalf	0x40f
-	.uaword	0x2bdc
+	.uaword	0x2bf6
 	.byte	0x3c
 	.uleb128 0x17
 	.string	"reserved_40"
 	.byte	0x7
 	.uahalf	0x410
-	.uaword	0x2fa4
+	.uaword	0x2fbe
 	.byte	0x40
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x2f98
+	.uaword	0x1ec
+	.uaword	0x2fb2
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x7
 	.byte	0
 	.uleb128 0x2
@@ -8604,281 +8604,281 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x2fb4
+	.uaword	0x1ec
+	.uaword	0x2fce
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0xbf
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN_N"
 	.byte	0x7
 	.uahalf	0x411
-	.uaword	0x2fc6
+	.uaword	0x2fe0
 	.uleb128 0x15
-	.uaword	0x2e98
+	.uaword	0x2eb2
 	.uleb128 0x16
 	.string	"_Ifx_CAN"
 	.uahalf	0x4000
 	.byte	0x7
 	.uahalf	0x41e
-	.uaword	0x3196
+	.uaword	0x31b0
 	.uleb128 0x17
 	.string	"CLC"
 	.byte	0x7
 	.uahalf	0x420
-	.uaword	0x2207
+	.uaword	0x2221
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x421
-	.uaword	0x3196
+	.uaword	0x31b0
 	.byte	0x4
 	.uleb128 0x17
 	.string	"ID"
 	.byte	0x7
 	.uahalf	0x422
-	.uaword	0x227f
+	.uaword	0x2299
 	.byte	0x8
 	.uleb128 0x17
 	.string	"FDR"
 	.byte	0x7
 	.uahalf	0x423
-	.uaword	0x2243
+	.uaword	0x225d
 	.byte	0xc
 	.uleb128 0x18
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x424
-	.uaword	0x31a6
+	.uaword	0x31c0
 	.byte	0x10
 	.uleb128 0x17
 	.string	"OCS"
 	.byte	0x7
 	.uahalf	0x425
-	.uaword	0x2c99
+	.uaword	0x2cb3
 	.byte	0xe8
 	.uleb128 0x17
 	.string	"KRSTCLR"
 	.byte	0x7
 	.uahalf	0x426
-	.uaword	0x2336
+	.uaword	0x2350
 	.byte	0xec
 	.uleb128 0x17
 	.string	"KRST1"
 	.byte	0x7
 	.uahalf	0x427
-	.uaword	0x22f8
+	.uaword	0x2312
 	.byte	0xf0
 	.uleb128 0x17
 	.string	"KRST0"
 	.byte	0x7
 	.uahalf	0x428
-	.uaword	0x22ba
+	.uaword	0x22d4
 	.byte	0xf4
 	.uleb128 0x17
 	.string	"ACCEN1"
 	.byte	0x7
 	.uahalf	0x429
-	.uaword	0x21c8
+	.uaword	0x21e2
 	.byte	0xf8
 	.uleb128 0x17
 	.string	"ACCEN0"
 	.byte	0x7
 	.uahalf	0x42a
-	.uaword	0x2189
+	.uaword	0x21a3
 	.byte	0xfc
 	.uleb128 0x1b
 	.string	"LIST"
 	.byte	0x7
 	.uahalf	0x42b
-	.uaword	0x31b6
+	.uaword	0x31d0
 	.uahalf	0x100
 	.uleb128 0x1b
 	.string	"MSPND"
 	.byte	0x7
 	.uahalf	0x42c
-	.uaword	0x31c6
+	.uaword	0x31e0
 	.uahalf	0x140
 	.uleb128 0x1b
 	.string	"reserved_160"
 	.byte	0x7
 	.uahalf	0x42d
-	.uaword	0x31d6
+	.uaword	0x31f0
 	.uahalf	0x160
 	.uleb128 0x1b
 	.string	"MSID"
 	.byte	0x7
 	.uahalf	0x42e
-	.uaword	0x31e6
+	.uaword	0x3200
 	.uahalf	0x180
 	.uleb128 0x1b
 	.string	"reserved_1A0"
 	.byte	0x7
 	.uahalf	0x42f
-	.uaword	0x31d6
+	.uaword	0x31f0
 	.uahalf	0x1a0
 	.uleb128 0x1b
 	.string	"MSIMASK"
 	.byte	0x7
 	.uahalf	0x430
-	.uaword	0x28ef
+	.uaword	0x2909
 	.uahalf	0x1c0
 	.uleb128 0x1b
 	.string	"PANCTR"
 	.byte	0x7
 	.uahalf	0x431
-	.uaword	0x2cd5
+	.uaword	0x2cef
 	.uahalf	0x1c4
 	.uleb128 0x1b
 	.string	"MCR"
 	.byte	0x7
 	.uahalf	0x432
-	.uaword	0x23b3
+	.uaword	0x23cd
 	.uahalf	0x1c8
 	.uleb128 0x1b
 	.string	"MITR"
 	.byte	0x7
 	.uahalf	0x433
-	.uaword	0x246b
+	.uaword	0x2485
 	.uahalf	0x1cc
 	.uleb128 0x1b
 	.string	"MECR"
 	.byte	0x7
 	.uahalf	0x434
-	.uaword	0x23ef
+	.uaword	0x2409
 	.uahalf	0x1d0
 	.uleb128 0x1b
 	.string	"MESTAT"
 	.byte	0x7
 	.uahalf	0x435
-	.uaword	0x242c
+	.uaword	0x2446
 	.uahalf	0x1d4
 	.uleb128 0x1b
 	.string	"reserved_1D8"
 	.byte	0x7
 	.uahalf	0x436
-	.uaword	0x31f6
+	.uaword	0x3210
 	.uahalf	0x1d8
 	.uleb128 0x1b
 	.string	"N"
 	.byte	0x7
 	.uahalf	0x437
-	.uaword	0x3216
+	.uaword	0x3230
 	.uahalf	0x200
 	.uleb128 0x1b
 	.string	"reserved_600"
 	.byte	0x7
 	.uahalf	0x438
-	.uaword	0x321b
+	.uaword	0x3235
 	.uahalf	0x600
 	.uleb128 0x1b
 	.string	"MO"
 	.byte	0x7
 	.uahalf	0x439
-	.uaword	0x323c
+	.uaword	0x3256
 	.uahalf	0x1000
 	.uleb128 0x1b
 	.string	"reserved_3000"
 	.byte	0x7
 	.uahalf	0x43a
-	.uaword	0x3241
+	.uaword	0x325b
 	.uahalf	0x3000
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x31a6
+	.uaword	0x1ec
+	.uaword	0x31c0
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x3
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x31b6
+	.uaword	0x1ec
+	.uaword	0x31d0
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0xd7
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x2376
-	.uaword	0x31c6
+	.uaword	0x2390
+	.uaword	0x31e0
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0xf
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x292f
-	.uaword	0x31d6
+	.uaword	0x2949
+	.uaword	0x31f0
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x7
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x31e6
+	.uaword	0x1ec
+	.uaword	0x3200
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x1f
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x28b2
-	.uaword	0x31f6
+	.uaword	0x28cc
+	.uaword	0x3210
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x7
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x3206
+	.uaword	0x1ec
+	.uaword	0x3220
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x27
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x2fb4
-	.uaword	0x3216
+	.uaword	0x2fce
+	.uaword	0x3230
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x3
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x3206
+	.uaword	0x3220
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x322c
+	.uaword	0x1ec
+	.uaword	0x3246
 	.uleb128 0x1c
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.uahalf	0x9ff
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x2e5c
-	.uaword	0x323c
+	.uaword	0x2e76
+	.uaword	0x3256
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0xff
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x322c
+	.uaword	0x3246
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x3252
+	.uaword	0x1ec
+	.uaword	0x326c
 	.uleb128 0x1c
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.uahalf	0xfff
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_CAN"
 	.byte	0x7
 	.uahalf	0x43b
-	.uaword	0x3262
+	.uaword	0x327c
 	.uleb128 0x15
-	.uaword	0x2fcb
+	.uaword	0x2fe5
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x8
 	.byte	0x5e
-	.uaword	0x32e6
+	.uaword	0x3300
 	.uleb128 0x7
 	.string	"IfxMultican_NodeId_none"
 	.sleb128 -1
@@ -8899,12 +8899,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_NodeId"
 	.byte	0x8
 	.byte	0x64
-	.uaword	0x3267
+	.uaword	0x3281
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x8
 	.byte	0x69
-	.uaword	0x346f
+	.uaword	0x3489
 	.uleb128 0x7
 	.string	"IfxMultican_SrcId_0"
 	.sleb128 0
@@ -8958,12 +8958,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_SrcId"
 	.byte	0x8
 	.byte	0x7a
-	.uaword	0x3300
+	.uaword	0x331a
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x9
 	.byte	0x32
-	.uaword	0x34d8
+	.uaword	0x34f2
 	.uleb128 0x7
 	.string	"IfxSrc_Tos_cpu0"
 	.sleb128 0
@@ -8981,18 +8981,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxSrc_Tos"
 	.byte	0x9
 	.byte	0x37
-	.uaword	0x3488
+	.uaword	0x34a2
 	.uleb128 0xb
 	.string	"_Ifx_SRC_SRCR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x2d
-	.uaword	0x3600
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"SRPN"
 	.byte	0xa
 	.byte	0x2f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -9001,7 +9001,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF20
 	.byte	0xa
 	.byte	0x30
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -9010,7 +9010,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SRE"
 	.byte	0xa
 	.byte	0x31
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9019,7 +9019,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TOS"
 	.byte	0xa
 	.byte	0x32
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -9028,7 +9028,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"reserved_13"
 	.byte	0xa
 	.byte	0x33
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -9037,7 +9037,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"ECC"
 	.byte	0xa
 	.byte	0x34
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -9046,7 +9046,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"reserved_22"
 	.byte	0xa
 	.byte	0x35
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -9055,7 +9055,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SRR"
 	.byte	0xa
 	.byte	0x36
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -9064,7 +9064,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"CLRR"
 	.byte	0xa
 	.byte	0x37
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -9073,7 +9073,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SETR"
 	.byte	0xa
 	.byte	0x38
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -9082,7 +9082,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IOV"
 	.byte	0xa
 	.byte	0x39
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9091,7 +9091,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IOVCLR"
 	.byte	0xa
 	.byte	0x3a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -9100,7 +9100,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SWS"
 	.byte	0xa
 	.byte	0x3b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -9109,7 +9109,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SWSCLR"
 	.byte	0xa
 	.byte	0x3c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -9118,7 +9118,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF10
 	.byte	0xa
 	.byte	0x3d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9128,45 +9128,45 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_SRC_SRCR_Bits"
 	.byte	0xa
 	.byte	0x3e
-	.uaword	0x34ea
+	.uaword	0x3504
 	.uleb128 0x1d
 	.byte	0x4
 	.byte	0xa
 	.byte	0x46
-	.uaword	0x363d
+	.uaword	0x3657
 	.uleb128 0x1e
 	.string	"U"
 	.byte	0xa
 	.byte	0x48
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x1e
 	.string	"I"
 	.byte	0xa
 	.byte	0x49
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x1e
 	.string	"B"
 	.byte	0xa
 	.byte	0x4a
-	.uaword	0x3600
+	.uaword	0x361a
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_SRC_SRCR"
 	.byte	0xa
 	.byte	0x4b
-	.uaword	0x3619
+	.uaword	0x3633
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x3661
+	.uaword	0x1ec
+	.uaword	0x367b
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0xb
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x3671
+	.uaword	0x1ec
+	.uaword	0x368b
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x17
 	.byte	0
 	.uleb128 0xb
@@ -9174,12 +9174,12 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x4
 	.byte	0xb
 	.byte	0x2d
-	.uaword	0x3883
+	.uaword	0x389d
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0xb
 	.byte	0x2f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9188,7 +9188,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN1"
 	.byte	0xb
 	.byte	0x30
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9197,7 +9197,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN2"
 	.byte	0xb
 	.byte	0x31
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9206,7 +9206,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN3"
 	.byte	0xb
 	.byte	0x32
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9215,7 +9215,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN4"
 	.byte	0xb
 	.byte	0x33
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9224,7 +9224,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN5"
 	.byte	0xb
 	.byte	0x34
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9233,7 +9233,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN6"
 	.byte	0xb
 	.byte	0x35
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9242,7 +9242,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN7"
 	.byte	0xb
 	.byte	0x36
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9251,7 +9251,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN8"
 	.byte	0xb
 	.byte	0x37
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9260,7 +9260,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN9"
 	.byte	0xb
 	.byte	0x38
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9269,7 +9269,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN10"
 	.byte	0xb
 	.byte	0x39
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9278,7 +9278,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN11"
 	.byte	0xb
 	.byte	0x3a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9287,7 +9287,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN12"
 	.byte	0xb
 	.byte	0x3b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9296,7 +9296,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN13"
 	.byte	0xb
 	.byte	0x3c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9305,7 +9305,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN14"
 	.byte	0xb
 	.byte	0x3d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9314,7 +9314,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN15"
 	.byte	0xb
 	.byte	0x3e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9323,7 +9323,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN16"
 	.byte	0xb
 	.byte	0x3f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -9332,7 +9332,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN17"
 	.byte	0xb
 	.byte	0x40
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -9341,7 +9341,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN18"
 	.byte	0xb
 	.byte	0x41
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -9350,7 +9350,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN19"
 	.byte	0xb
 	.byte	0x42
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -9359,7 +9359,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN20"
 	.byte	0xb
 	.byte	0x43
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -9368,7 +9368,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN21"
 	.byte	0xb
 	.byte	0x44
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -9377,7 +9377,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN22"
 	.byte	0xb
 	.byte	0x45
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -9386,7 +9386,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN23"
 	.byte	0xb
 	.byte	0x46
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -9395,7 +9395,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN24"
 	.byte	0xb
 	.byte	0x47
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -9404,7 +9404,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN25"
 	.byte	0xb
 	.byte	0x48
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -9413,7 +9413,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN26"
 	.byte	0xb
 	.byte	0x49
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -9422,7 +9422,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN27"
 	.byte	0xb
 	.byte	0x4a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9431,7 +9431,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN28"
 	.byte	0xb
 	.byte	0x4b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -9440,7 +9440,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN29"
 	.byte	0xb
 	.byte	0x4c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -9449,7 +9449,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN30"
 	.byte	0xb
 	.byte	0x4d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -9458,7 +9458,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN31"
 	.byte	0xb
 	.byte	0x4e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9468,18 +9468,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0xb
 	.byte	0x4f
-	.uaword	0x3671
+	.uaword	0x368b
 	.uleb128 0xb
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x52
-	.uaword	0x38c7
+	.uaword	0x38e1
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0x54
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -9489,18 +9489,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0xb
 	.byte	0x55
-	.uaword	0x389c
+	.uaword	0x38b6
 	.uleb128 0xb
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x58
-	.uaword	0x39fe
+	.uaword	0x3a18
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0xb
 	.byte	0x5a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9509,7 +9509,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN1"
 	.byte	0xb
 	.byte	0x5b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9518,7 +9518,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN2"
 	.byte	0xb
 	.byte	0x5c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9527,7 +9527,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN3"
 	.byte	0xb
 	.byte	0x5d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9536,7 +9536,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN4"
 	.byte	0xb
 	.byte	0x5e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9545,7 +9545,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN5"
 	.byte	0xb
 	.byte	0x5f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9554,7 +9554,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN6"
 	.byte	0xb
 	.byte	0x60
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9563,7 +9563,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN7"
 	.byte	0xb
 	.byte	0x61
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9572,7 +9572,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN8"
 	.byte	0xb
 	.byte	0x62
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9581,7 +9581,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN9"
 	.byte	0xb
 	.byte	0x63
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9590,7 +9590,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN10"
 	.byte	0xb
 	.byte	0x64
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9599,7 +9599,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN11"
 	.byte	0xb
 	.byte	0x65
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9608,7 +9608,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN12"
 	.byte	0xb
 	.byte	0x66
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9617,7 +9617,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN13"
 	.byte	0xb
 	.byte	0x67
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9626,7 +9626,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN14"
 	.byte	0xb
 	.byte	0x68
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9635,7 +9635,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"EN15"
 	.byte	0xb
 	.byte	0x69
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9644,7 +9644,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0x6a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9654,18 +9654,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0xb
 	.byte	0x6b
-	.uaword	0x38e0
+	.uaword	0x38fa
 	.uleb128 0xb
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x6e
-	.uaword	0x3a60
+	.uaword	0x3a7a
 	.uleb128 0xc
 	.string	"MODREV"
 	.byte	0xb
 	.byte	0x70
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -9674,7 +9674,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"MODTYPE"
 	.byte	0xb
 	.byte	0x71
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -9683,7 +9683,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF6
 	.byte	0xb
 	.byte	0x72
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9693,18 +9693,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0xb
 	.byte	0x73
-	.uaword	0x3a14
+	.uaword	0x3a2e
 	.uleb128 0xb
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x76
-	.uaword	0x3b82
+	.uaword	0x3b9c
 	.uleb128 0xc
 	.string	"P0"
 	.byte	0xb
 	.byte	0x78
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9713,7 +9713,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P1"
 	.byte	0xb
 	.byte	0x79
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9722,7 +9722,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P2"
 	.byte	0xb
 	.byte	0x7a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9731,7 +9731,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P3"
 	.byte	0xb
 	.byte	0x7b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9740,7 +9740,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P4"
 	.byte	0xb
 	.byte	0x7c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9749,7 +9749,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P5"
 	.byte	0xb
 	.byte	0x7d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9758,7 +9758,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P6"
 	.byte	0xb
 	.byte	0x7e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9767,7 +9767,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P7"
 	.byte	0xb
 	.byte	0x7f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9776,7 +9776,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P8"
 	.byte	0xb
 	.byte	0x80
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9785,7 +9785,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P9"
 	.byte	0xb
 	.byte	0x81
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9794,7 +9794,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P10"
 	.byte	0xb
 	.byte	0x82
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9803,7 +9803,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P11"
 	.byte	0xb
 	.byte	0x83
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9812,7 +9812,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P12"
 	.byte	0xb
 	.byte	0x84
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9821,7 +9821,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P13"
 	.byte	0xb
 	.byte	0x85
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9830,7 +9830,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P14"
 	.byte	0xb
 	.byte	0x86
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9839,7 +9839,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P15"
 	.byte	0xb
 	.byte	0x87
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9848,7 +9848,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0x88
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9858,18 +9858,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0xb
 	.byte	0x89
-	.uaword	0x3a75
+	.uaword	0x3a8f
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x8c
-	.uaword	0x3c2a
+	.uaword	0x3c44
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0x8e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -9878,7 +9878,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC0"
 	.byte	0xb
 	.byte	0x8f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -9887,7 +9887,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF20
 	.byte	0xb
 	.byte	0x90
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -9896,7 +9896,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC1"
 	.byte	0xb
 	.byte	0x91
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -9905,7 +9905,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0x92
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -9914,7 +9914,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC2"
 	.byte	0xb
 	.byte	0x93
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -9923,7 +9923,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF18
 	.byte	0xb
 	.byte	0x94
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -9932,7 +9932,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC3"
 	.byte	0xb
 	.byte	0x95
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -9942,18 +9942,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0xb
 	.byte	0x96
-	.uaword	0x3b97
+	.uaword	0x3bb1
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0x99
-	.uaword	0x3cda
+	.uaword	0x3cf4
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0x9b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -9962,7 +9962,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC12"
 	.byte	0xb
 	.byte	0x9c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -9971,7 +9971,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF20
 	.byte	0xb
 	.byte	0x9d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -9980,7 +9980,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC13"
 	.byte	0xb
 	.byte	0x9e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -9989,7 +9989,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0x9f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -9998,7 +9998,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC14"
 	.byte	0xb
 	.byte	0xa0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -10007,7 +10007,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF18
 	.byte	0xb
 	.byte	0xa1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -10016,7 +10016,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC15"
 	.byte	0xb
 	.byte	0xa2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10026,18 +10026,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0xb
 	.byte	0xa3
-	.uaword	0x3c42
+	.uaword	0x3c5c
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xa6
-	.uaword	0x3d86
+	.uaword	0x3da0
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xa8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -10046,7 +10046,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC4"
 	.byte	0xb
 	.byte	0xa9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10055,7 +10055,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF20
 	.byte	0xb
 	.byte	0xaa
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -10064,7 +10064,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC5"
 	.byte	0xb
 	.byte	0xab
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -10073,7 +10073,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0xac
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -10082,7 +10082,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC6"
 	.byte	0xb
 	.byte	0xad
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -10091,7 +10091,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF18
 	.byte	0xb
 	.byte	0xae
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -10100,7 +10100,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC7"
 	.byte	0xb
 	.byte	0xaf
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10110,18 +10110,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0xb
 	.byte	0xb0
-	.uaword	0x3cf3
+	.uaword	0x3d0d
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xb3
-	.uaword	0x3e33
+	.uaword	0x3e4d
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xb5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -10130,7 +10130,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC8"
 	.byte	0xb
 	.byte	0xb6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10139,7 +10139,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF20
 	.byte	0xb
 	.byte	0xb7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -10148,7 +10148,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC9"
 	.byte	0xb
 	.byte	0xb8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -10157,7 +10157,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0xb9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -10166,7 +10166,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC10"
 	.byte	0xb
 	.byte	0xba
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -10175,7 +10175,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF18
 	.byte	0xb
 	.byte	0xbb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -10184,7 +10184,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PC11"
 	.byte	0xb
 	.byte	0xbc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10194,18 +10194,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0xb
 	.byte	0xbd
-	.uaword	0x3d9e
+	.uaword	0x3db8
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xc0
-	.uaword	0x3e93
+	.uaword	0x3ead
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xc2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10214,7 +10214,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS1"
 	.byte	0xb
 	.byte	0xc3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10223,7 +10223,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF2
 	.byte	0xb
 	.byte	0xc4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10233,18 +10233,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0xb
 	.byte	0xc5
-	.uaword	0x3e4b
+	.uaword	0x3e65
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR0_P21_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xc8
-	.uaword	0x3f1d
+	.uaword	0x3f37
 	.uleb128 0xd
 	.uaword	.LASF21
 	.byte	0xb
 	.byte	0xca
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10253,7 +10253,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RX_DIS"
 	.byte	0xb
 	.byte	0xcb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10262,7 +10262,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TERM"
 	.byte	0xb
 	.byte	0xcc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10271,7 +10271,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LRXTERM"
 	.byte	0xb
 	.byte	0xcd
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10280,7 +10280,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF20
 	.byte	0xb
 	.byte	0xce
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -10290,18 +10290,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_LPCR0_P21_Bits"
 	.byte	0xb
 	.byte	0xcf
-	.uaword	0x3eab
+	.uaword	0x3ec5
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xd2
-	.uaword	0x3f81
+	.uaword	0x3f9b
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xd4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10310,7 +10310,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS1"
 	.byte	0xb
 	.byte	0xd5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10319,7 +10319,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF2
 	.byte	0xb
 	.byte	0xd6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10329,18 +10329,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0xb
 	.byte	0xd7
-	.uaword	0x3f39
+	.uaword	0x3f53
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xda
-	.uaword	0x400b
+	.uaword	0x4025
 	.uleb128 0xd
 	.uaword	.LASF21
 	.byte	0xb
 	.byte	0xdc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10349,7 +10349,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"RX_DIS"
 	.byte	0xb
 	.byte	0xdd
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10358,7 +10358,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TERM"
 	.byte	0xb
 	.byte	0xde
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10367,7 +10367,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LRXTERM"
 	.byte	0xb
 	.byte	0xdf
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10376,7 +10376,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF20
 	.byte	0xb
 	.byte	0xe0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -10386,18 +10386,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0xb
 	.byte	0xe1
-	.uaword	0x3f99
+	.uaword	0x3fb3
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xe4
-	.uaword	0x406f
+	.uaword	0x4089
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xe6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10406,7 +10406,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS1"
 	.byte	0xb
 	.byte	0xe7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10415,7 +10415,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF2
 	.byte	0xb
 	.byte	0xe8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10425,18 +10425,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0xb
 	.byte	0xe9
-	.uaword	0x4027
+	.uaword	0x4041
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR2_P21_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xec
-	.uaword	0x4142
+	.uaword	0x415c
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xee
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -10445,7 +10445,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LVDSR"
 	.byte	0xb
 	.byte	0xef
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10454,7 +10454,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LVDSRL"
 	.byte	0xb
 	.byte	0xf0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10463,7 +10463,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF4
 	.byte	0xb
 	.byte	0xf1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -10472,7 +10472,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TDIS_CTRL"
 	.byte	0xb
 	.byte	0xf2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10481,7 +10481,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TX_DIS"
 	.byte	0xb
 	.byte	0xf3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -10490,7 +10490,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TX_PD"
 	.byte	0xb
 	.byte	0xf4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -10499,7 +10499,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"TX_PWDPD"
 	.byte	0xb
 	.byte	0xf5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10508,7 +10508,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.byte	0xf6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -10518,18 +10518,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_LPCR2_P21_Bits"
 	.byte	0xb
 	.byte	0xf7
-	.uaword	0x4087
+	.uaword	0x40a1
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR3_Bits"
 	.byte	0x4
 	.byte	0xb
 	.byte	0xfa
-	.uaword	0x41a6
+	.uaword	0x41c0
 	.uleb128 0xd
 	.uaword	.LASF1
 	.byte	0xb
 	.byte	0xfc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10538,7 +10538,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS1"
 	.byte	0xb
 	.byte	0xfd
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10547,7 +10547,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF2
 	.byte	0xb
 	.byte	0xfe
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10557,18 +10557,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_LPCR3_Bits"
 	.byte	0xb
 	.byte	0xff
-	.uaword	0x415e
+	.uaword	0x4178
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x102
-	.uaword	0x423e
+	.uaword	0x4258
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x104
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -10577,7 +10577,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL0"
 	.byte	0xb
 	.uahalf	0x105
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10586,7 +10586,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL1"
 	.byte	0xb
 	.uahalf	0x106
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -10595,7 +10595,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL2"
 	.byte	0xb
 	.uahalf	0x107
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -10604,7 +10604,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL3"
 	.byte	0xb
 	.uahalf	0x108
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -10613,7 +10613,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF19
 	.byte	0xb
 	.uahalf	0x109
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -10623,18 +10623,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0xb
 	.uahalf	0x10a
-	.uaword	0x41be
+	.uaword	0x41d8
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x10d
-	.uaword	0x42cc
+	.uaword	0x42e6
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x10f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -10643,7 +10643,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL12"
 	.byte	0xb
 	.uahalf	0x110
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -10652,7 +10652,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL13"
 	.byte	0xb
 	.uahalf	0x111
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -10661,7 +10661,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL14"
 	.byte	0xb
 	.uahalf	0x112
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -10670,7 +10670,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL15"
 	.byte	0xb
 	.uahalf	0x113
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10680,18 +10680,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0xb
 	.uahalf	0x114
-	.uaword	0x4257
+	.uaword	0x4271
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x117
-	.uaword	0x4366
+	.uaword	0x4380
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x119
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -10700,7 +10700,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL4"
 	.byte	0xb
 	.uahalf	0x11a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10709,7 +10709,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL5"
 	.byte	0xb
 	.uahalf	0x11b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -10718,7 +10718,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL6"
 	.byte	0xb
 	.uahalf	0x11c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -10727,7 +10727,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL7"
 	.byte	0xb
 	.uahalf	0x11d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -10736,7 +10736,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF18
 	.byte	0xb
 	.uahalf	0x11e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -10746,18 +10746,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0xb
 	.uahalf	0x11f
-	.uaword	0x42e6
+	.uaword	0x4300
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x122
-	.uaword	0x4401
+	.uaword	0x441b
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x124
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -10766,7 +10766,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL8"
 	.byte	0xb
 	.uahalf	0x125
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10775,7 +10775,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL9"
 	.byte	0xb
 	.uahalf	0x126
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10784,7 +10784,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL10"
 	.byte	0xb
 	.uahalf	0x127
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10793,7 +10793,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL11"
 	.byte	0xb
 	.uahalf	0x128
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -10802,7 +10802,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF13
 	.byte	0xb
 	.uahalf	0x129
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -10812,18 +10812,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0xb
 	.uahalf	0x12a
-	.uaword	0x437f
+	.uaword	0x4399
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x12d
-	.uaword	0x455b
+	.uaword	0x4575
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x12f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -10832,7 +10832,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL0"
 	.byte	0xb
 	.uahalf	0x130
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10841,7 +10841,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL1"
 	.byte	0xb
 	.uahalf	0x131
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -10850,7 +10850,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL2"
 	.byte	0xb
 	.uahalf	0x132
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -10859,7 +10859,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL3"
 	.byte	0xb
 	.uahalf	0x133
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -10868,7 +10868,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL4"
 	.byte	0xb
 	.uahalf	0x134
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10877,7 +10877,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL5"
 	.byte	0xb
 	.uahalf	0x135
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -10886,7 +10886,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL6"
 	.byte	0xb
 	.uahalf	0x136
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -10895,7 +10895,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL7"
 	.byte	0xb
 	.uahalf	0x137
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -10904,7 +10904,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL8"
 	.byte	0xb
 	.uahalf	0x138
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10913,7 +10913,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL9"
 	.byte	0xb
 	.uahalf	0x139
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10922,7 +10922,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL10"
 	.byte	0xb
 	.uahalf	0x13a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10931,7 +10931,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL11"
 	.byte	0xb
 	.uahalf	0x13b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -10940,7 +10940,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL12"
 	.byte	0xb
 	.uahalf	0x13c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -10949,7 +10949,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL13"
 	.byte	0xb
 	.uahalf	0x13d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -10958,7 +10958,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL14"
 	.byte	0xb
 	.uahalf	0x13e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -10967,7 +10967,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL15"
 	.byte	0xb
 	.uahalf	0x13f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10977,18 +10977,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0xb
 	.uahalf	0x140
-	.uaword	0x441a
+	.uaword	0x4434
 	.uleb128 0xe
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x143
-	.uaword	0x47a9
+	.uaword	0x47c3
 	.uleb128 0xf
 	.string	"PS0"
 	.byte	0xb
 	.uahalf	0x145
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10997,7 +10997,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS1"
 	.byte	0xb
 	.uahalf	0x146
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11006,7 +11006,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS2"
 	.byte	0xb
 	.uahalf	0x147
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11015,7 +11015,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS3"
 	.byte	0xb
 	.uahalf	0x148
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11024,7 +11024,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS4"
 	.byte	0xb
 	.uahalf	0x149
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11033,7 +11033,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS5"
 	.byte	0xb
 	.uahalf	0x14a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11042,7 +11042,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS6"
 	.byte	0xb
 	.uahalf	0x14b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11051,7 +11051,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS7"
 	.byte	0xb
 	.uahalf	0x14c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11060,7 +11060,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS8"
 	.byte	0xb
 	.uahalf	0x14d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11069,7 +11069,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS9"
 	.byte	0xb
 	.uahalf	0x14e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11078,7 +11078,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS10"
 	.byte	0xb
 	.uahalf	0x14f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11087,7 +11087,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS11"
 	.byte	0xb
 	.uahalf	0x150
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11096,7 +11096,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS12"
 	.byte	0xb
 	.uahalf	0x151
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11105,7 +11105,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS13"
 	.byte	0xb
 	.uahalf	0x152
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11114,7 +11114,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS14"
 	.byte	0xb
 	.uahalf	0x153
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11123,7 +11123,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS15"
 	.byte	0xb
 	.uahalf	0x154
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11132,7 +11132,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL0"
 	.byte	0xb
 	.uahalf	0x155
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11141,7 +11141,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL1"
 	.byte	0xb
 	.uahalf	0x156
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11150,7 +11150,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL2"
 	.byte	0xb
 	.uahalf	0x157
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11159,7 +11159,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL3"
 	.byte	0xb
 	.uahalf	0x158
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11168,7 +11168,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL4"
 	.byte	0xb
 	.uahalf	0x159
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11177,7 +11177,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL5"
 	.byte	0xb
 	.uahalf	0x15a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11186,7 +11186,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL6"
 	.byte	0xb
 	.uahalf	0x15b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11195,7 +11195,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL7"
 	.byte	0xb
 	.uahalf	0x15c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11204,7 +11204,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL8"
 	.byte	0xb
 	.uahalf	0x15d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11213,7 +11213,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL9"
 	.byte	0xb
 	.uahalf	0x15e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -11222,7 +11222,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL10"
 	.byte	0xb
 	.uahalf	0x15f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -11231,7 +11231,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL11"
 	.byte	0xb
 	.uahalf	0x160
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -11240,7 +11240,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL12"
 	.byte	0xb
 	.uahalf	0x161
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11249,7 +11249,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL13"
 	.byte	0xb
 	.uahalf	0x162
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -11258,7 +11258,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL14"
 	.byte	0xb
 	.uahalf	0x163
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11267,7 +11267,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PCL15"
 	.byte	0xb
 	.uahalf	0x164
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11277,18 +11277,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0xb
 	.uahalf	0x165
-	.uaword	0x4573
+	.uaword	0x458d
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x168
-	.uaword	0x482c
+	.uaword	0x4846
 	.uleb128 0xf
 	.string	"PS0"
 	.byte	0xb
 	.uahalf	0x16a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11297,7 +11297,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS1"
 	.byte	0xb
 	.uahalf	0x16b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11306,7 +11306,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS2"
 	.byte	0xb
 	.uahalf	0x16c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11315,7 +11315,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS3"
 	.byte	0xb
 	.uahalf	0x16d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11324,7 +11324,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF3
 	.byte	0xb
 	.uahalf	0x16e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -11334,18 +11334,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0xb
 	.uahalf	0x16f
-	.uaword	0x47c0
+	.uaword	0x47da
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x172
-	.uaword	0x48c6
+	.uaword	0x48e0
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x174
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -11354,7 +11354,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS12"
 	.byte	0xb
 	.uahalf	0x175
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11363,7 +11363,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS13"
 	.byte	0xb
 	.uahalf	0x176
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11372,7 +11372,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS14"
 	.byte	0xb
 	.uahalf	0x177
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11381,7 +11381,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS15"
 	.byte	0xb
 	.uahalf	0x178
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11390,7 +11390,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.uahalf	0x179
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11400,18 +11400,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0xb
 	.uahalf	0x17a
-	.uaword	0x4845
+	.uaword	0x485f
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x17d
-	.uaword	0x495c
+	.uaword	0x4976
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x17f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -11420,7 +11420,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS4"
 	.byte	0xb
 	.uahalf	0x180
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11429,7 +11429,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS5"
 	.byte	0xb
 	.uahalf	0x181
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11438,7 +11438,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS6"
 	.byte	0xb
 	.uahalf	0x182
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11447,7 +11447,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS7"
 	.byte	0xb
 	.uahalf	0x183
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11456,7 +11456,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF20
 	.byte	0xb
 	.uahalf	0x184
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -11466,18 +11466,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0xb
 	.uahalf	0x185
-	.uaword	0x48e0
+	.uaword	0x48fa
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x188
-	.uaword	0x49f3
+	.uaword	0x4a0d
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xb
 	.uahalf	0x18a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -11486,7 +11486,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS8"
 	.byte	0xb
 	.uahalf	0x18b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11495,7 +11495,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS9"
 	.byte	0xb
 	.uahalf	0x18c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11504,7 +11504,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS10"
 	.byte	0xb
 	.uahalf	0x18d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11513,7 +11513,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS11"
 	.byte	0xb
 	.uahalf	0x18e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11522,7 +11522,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF12
 	.byte	0xb
 	.uahalf	0x18f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -11532,18 +11532,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0xb
 	.uahalf	0x190
-	.uaword	0x4975
+	.uaword	0x498f
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x193
-	.uaword	0x4b3d
+	.uaword	0x4b57
 	.uleb128 0xf
 	.string	"PS0"
 	.byte	0xb
 	.uahalf	0x195
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11552,7 +11552,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS1"
 	.byte	0xb
 	.uahalf	0x196
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11561,7 +11561,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS2"
 	.byte	0xb
 	.uahalf	0x197
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11570,7 +11570,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS3"
 	.byte	0xb
 	.uahalf	0x198
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11579,7 +11579,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS4"
 	.byte	0xb
 	.uahalf	0x199
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11588,7 +11588,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS5"
 	.byte	0xb
 	.uahalf	0x19a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11597,7 +11597,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS6"
 	.byte	0xb
 	.uahalf	0x19b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11606,7 +11606,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS7"
 	.byte	0xb
 	.uahalf	0x19c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11615,7 +11615,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS8"
 	.byte	0xb
 	.uahalf	0x19d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11624,7 +11624,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS9"
 	.byte	0xb
 	.uahalf	0x19e
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11633,7 +11633,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS10"
 	.byte	0xb
 	.uahalf	0x19f
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11642,7 +11642,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS11"
 	.byte	0xb
 	.uahalf	0x1a0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11651,7 +11651,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS12"
 	.byte	0xb
 	.uahalf	0x1a1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11660,7 +11660,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS13"
 	.byte	0xb
 	.uahalf	0x1a2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11669,7 +11669,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS14"
 	.byte	0xb
 	.uahalf	0x1a3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11678,7 +11678,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PS15"
 	.byte	0xb
 	.uahalf	0x1a4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11687,7 +11687,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.uahalf	0x1a5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11697,18 +11697,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0xb
 	.uahalf	0x1a6
-	.uaword	0x4a0c
+	.uaword	0x4a26
 	.uleb128 0xe
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1a9
-	.uaword	0x4c75
+	.uaword	0x4c8f
 	.uleb128 0xf
 	.string	"P0"
 	.byte	0xb
 	.uahalf	0x1ab
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11717,7 +11717,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P1"
 	.byte	0xb
 	.uahalf	0x1ac
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11726,7 +11726,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P2"
 	.byte	0xb
 	.uahalf	0x1ad
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11735,7 +11735,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P3"
 	.byte	0xb
 	.uahalf	0x1ae
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11744,7 +11744,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P4"
 	.byte	0xb
 	.uahalf	0x1af
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11753,7 +11753,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P5"
 	.byte	0xb
 	.uahalf	0x1b0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11762,7 +11762,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P6"
 	.byte	0xb
 	.uahalf	0x1b1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11771,7 +11771,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P7"
 	.byte	0xb
 	.uahalf	0x1b2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11780,7 +11780,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P8"
 	.byte	0xb
 	.uahalf	0x1b3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11789,7 +11789,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P9"
 	.byte	0xb
 	.uahalf	0x1b4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11798,7 +11798,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P10"
 	.byte	0xb
 	.uahalf	0x1b5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11807,7 +11807,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P11"
 	.byte	0xb
 	.uahalf	0x1b6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11816,7 +11816,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P12"
 	.byte	0xb
 	.uahalf	0x1b7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11825,7 +11825,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P13"
 	.byte	0xb
 	.uahalf	0x1b8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11834,7 +11834,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P14"
 	.byte	0xb
 	.uahalf	0x1b9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11843,7 +11843,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"P15"
 	.byte	0xb
 	.uahalf	0x1ba
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11852,7 +11852,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.uahalf	0x1bb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11862,18 +11862,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0xb
 	.uahalf	0x1bc
-	.uaword	0x4b55
+	.uaword	0x4b6f
 	.uleb128 0xe
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1bf
-	.uaword	0x4d72
+	.uaword	0x4d8c
 	.uleb128 0xf
 	.string	"SEL0"
 	.byte	0xb
 	.uahalf	0x1c1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11882,7 +11882,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL1"
 	.byte	0xb
 	.uahalf	0x1c2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11891,7 +11891,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL2"
 	.byte	0xb
 	.uahalf	0x1c3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11900,7 +11900,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL3"
 	.byte	0xb
 	.uahalf	0x1c4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11909,7 +11909,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL4"
 	.byte	0xb
 	.uahalf	0x1c5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11918,7 +11918,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL5"
 	.byte	0xb
 	.uahalf	0x1c6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11927,7 +11927,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL6"
 	.byte	0xb
 	.uahalf	0x1c7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11936,7 +11936,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF14
 	.byte	0xb
 	.uahalf	0x1c8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -11945,7 +11945,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL10"
 	.byte	0xb
 	.uahalf	0x1c9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11954,7 +11954,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"SEL11"
 	.byte	0xb
 	.uahalf	0x1ca
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11963,7 +11963,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF12
 	.byte	0xb
 	.uahalf	0x1cb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -11972,7 +11972,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LCK"
 	.byte	0xb
 	.uahalf	0x1cc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11982,18 +11982,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0xb
 	.uahalf	0x1cd
-	.uaword	0x4c8c
+	.uaword	0x4ca6
 	.uleb128 0xe
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1d0
-	.uaword	0x4edc
+	.uaword	0x4ef6
 	.uleb128 0xf
 	.string	"PDIS0"
 	.byte	0xb
 	.uahalf	0x1d2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12002,7 +12002,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS1"
 	.byte	0xb
 	.uahalf	0x1d3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12011,7 +12011,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS2"
 	.byte	0xb
 	.uahalf	0x1d4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12020,7 +12020,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS3"
 	.byte	0xb
 	.uahalf	0x1d5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12029,7 +12029,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS4"
 	.byte	0xb
 	.uahalf	0x1d6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12038,7 +12038,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS5"
 	.byte	0xb
 	.uahalf	0x1d7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12047,7 +12047,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS6"
 	.byte	0xb
 	.uahalf	0x1d8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12056,7 +12056,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS7"
 	.byte	0xb
 	.uahalf	0x1d9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12065,7 +12065,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS8"
 	.byte	0xb
 	.uahalf	0x1da
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12074,7 +12074,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS9"
 	.byte	0xb
 	.uahalf	0x1db
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12083,7 +12083,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS10"
 	.byte	0xb
 	.uahalf	0x1dc
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12092,7 +12092,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS11"
 	.byte	0xb
 	.uahalf	0x1dd
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12101,7 +12101,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS12"
 	.byte	0xb
 	.uahalf	0x1de
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12110,7 +12110,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS13"
 	.byte	0xb
 	.uahalf	0x1df
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12119,7 +12119,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS14"
 	.byte	0xb
 	.uahalf	0x1e0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12128,7 +12128,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PDIS15"
 	.byte	0xb
 	.uahalf	0x1e1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12137,7 +12137,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF5
 	.byte	0xb
 	.uahalf	0x1e2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -12147,18 +12147,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0xb
 	.uahalf	0x1e3
-	.uaword	0x4d8a
+	.uaword	0x4da4
 	.uleb128 0xe
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1e6
-	.uaword	0x5010
+	.uaword	0x502a
 	.uleb128 0xf
 	.string	"PD0"
 	.byte	0xb
 	.uahalf	0x1e8
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -12167,7 +12167,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL0"
 	.byte	0xb
 	.uahalf	0x1e9
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12176,7 +12176,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD1"
 	.byte	0xb
 	.uahalf	0x1ea
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -12185,7 +12185,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL1"
 	.byte	0xb
 	.uahalf	0x1eb
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12194,7 +12194,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD2"
 	.byte	0xb
 	.uahalf	0x1ec
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -12203,7 +12203,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL2"
 	.byte	0xb
 	.uahalf	0x1ed
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12212,7 +12212,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD3"
 	.byte	0xb
 	.uahalf	0x1ee
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -12221,7 +12221,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL3"
 	.byte	0xb
 	.uahalf	0x1ef
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12230,7 +12230,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD4"
 	.byte	0xb
 	.uahalf	0x1f0
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -12239,7 +12239,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL4"
 	.byte	0xb
 	.uahalf	0x1f1
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12248,7 +12248,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD5"
 	.byte	0xb
 	.uahalf	0x1f2
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -12257,7 +12257,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL5"
 	.byte	0xb
 	.uahalf	0x1f3
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -12266,7 +12266,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD6"
 	.byte	0xb
 	.uahalf	0x1f4
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -12275,7 +12275,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL6"
 	.byte	0xb
 	.uahalf	0x1f5
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -12284,7 +12284,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD7"
 	.byte	0xb
 	.uahalf	0x1f6
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -12293,7 +12293,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL7"
 	.byte	0xb
 	.uahalf	0x1f7
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12303,18 +12303,18 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0xb
 	.uahalf	0x1f8
-	.uaword	0x4ef5
+	.uaword	0x4f0f
 	.uleb128 0xe
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x1fb
-	.uaword	0x514f
+	.uaword	0x5169
 	.uleb128 0xf
 	.string	"PD8"
 	.byte	0xb
 	.uahalf	0x1fd
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -12323,7 +12323,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL8"
 	.byte	0xb
 	.uahalf	0x1fe
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12332,7 +12332,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD9"
 	.byte	0xb
 	.uahalf	0x1ff
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -12341,7 +12341,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL9"
 	.byte	0xb
 	.uahalf	0x200
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12350,7 +12350,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD10"
 	.byte	0xb
 	.uahalf	0x201
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -12359,7 +12359,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL10"
 	.byte	0xb
 	.uahalf	0x202
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12368,7 +12368,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD11"
 	.byte	0xb
 	.uahalf	0x203
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -12377,7 +12377,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL11"
 	.byte	0xb
 	.uahalf	0x204
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12386,7 +12386,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD12"
 	.byte	0xb
 	.uahalf	0x205
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -12395,7 +12395,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL12"
 	.byte	0xb
 	.uahalf	0x206
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12404,7 +12404,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD13"
 	.byte	0xb
 	.uahalf	0x207
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -12413,7 +12413,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL13"
 	.byte	0xb
 	.uahalf	0x208
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -12422,7 +12422,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD14"
 	.byte	0xb
 	.uahalf	0x209
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -12431,7 +12431,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL14"
 	.byte	0xb
 	.uahalf	0x20a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -12440,7 +12440,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PD15"
 	.byte	0xb
 	.uahalf	0x20b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -12449,7 +12449,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"PL15"
 	.byte	0xb
 	.uahalf	0x20c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12459,1033 +12459,1033 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0xb
 	.uahalf	0x20d
-	.uaword	0x5028
+	.uaword	0x5042
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x215
-	.uaword	0x518f
+	.uaword	0x51a9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x217
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x218
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x219
-	.uaword	0x3883
+	.uaword	0x389d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_ACCEN0"
 	.byte	0xb
 	.uahalf	0x21a
-	.uaword	0x5167
+	.uaword	0x5181
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x21d
-	.uaword	0x51cc
+	.uaword	0x51e6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x21f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x220
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x221
-	.uaword	0x38c7
+	.uaword	0x38e1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_ACCEN1"
 	.byte	0xb
 	.uahalf	0x222
-	.uaword	0x51a4
+	.uaword	0x51be
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x225
-	.uaword	0x5209
+	.uaword	0x5223
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x227
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x228
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x229
-	.uaword	0x39fe
+	.uaword	0x3a18
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_ESR"
 	.byte	0xb
 	.uahalf	0x22a
-	.uaword	0x51e1
+	.uaword	0x51fb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x22d
-	.uaword	0x5243
+	.uaword	0x525d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x22f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x230
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x231
-	.uaword	0x3a60
+	.uaword	0x3a7a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_ID"
 	.byte	0xb
 	.uahalf	0x232
-	.uaword	0x521b
+	.uaword	0x5235
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x235
-	.uaword	0x527c
+	.uaword	0x5296
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x237
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x238
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x239
-	.uaword	0x3b82
+	.uaword	0x3b9c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IN"
 	.byte	0xb
 	.uahalf	0x23a
-	.uaword	0x5254
+	.uaword	0x526e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x23d
-	.uaword	0x52b5
+	.uaword	0x52cf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x23f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x240
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x241
-	.uaword	0x3c2a
+	.uaword	0x3c44
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IOCR0"
 	.byte	0xb
 	.uahalf	0x242
-	.uaword	0x528d
+	.uaword	0x52a7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x245
-	.uaword	0x52f1
+	.uaword	0x530b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x247
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x248
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x249
-	.uaword	0x3cda
+	.uaword	0x3cf4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IOCR12"
 	.byte	0xb
 	.uahalf	0x24a
-	.uaword	0x52c9
+	.uaword	0x52e3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x24d
-	.uaword	0x532e
+	.uaword	0x5348
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x24f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x250
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x251
-	.uaword	0x3d86
+	.uaword	0x3da0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IOCR4"
 	.byte	0xb
 	.uahalf	0x252
-	.uaword	0x5306
+	.uaword	0x5320
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x255
-	.uaword	0x536a
+	.uaword	0x5384
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x257
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x258
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x259
-	.uaword	0x3e33
+	.uaword	0x3e4d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IOCR8"
 	.byte	0xb
 	.uahalf	0x25a
-	.uaword	0x5342
+	.uaword	0x535c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x25d
-	.uaword	0x53b4
+	.uaword	0x53ce
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x25f
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x260
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x261
-	.uaword	0x3e93
+	.uaword	0x3ead
 	.uleb128 0x13
 	.string	"B_P21"
 	.byte	0xb
 	.uahalf	0x262
-	.uaword	0x3f1d
+	.uaword	0x3f37
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_LPCR0"
 	.byte	0xb
 	.uahalf	0x263
-	.uaword	0x537e
+	.uaword	0x5398
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x266
-	.uaword	0x53fe
+	.uaword	0x5418
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x268
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x269
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x26a
-	.uaword	0x3f81
+	.uaword	0x3f9b
 	.uleb128 0x13
 	.string	"B_P21"
 	.byte	0xb
 	.uahalf	0x26b
-	.uaword	0x400b
+	.uaword	0x4025
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_LPCR1"
 	.byte	0xb
 	.uahalf	0x26c
-	.uaword	0x53c8
+	.uaword	0x53e2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x26f
-	.uaword	0x5448
+	.uaword	0x5462
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x271
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x272
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x273
-	.uaword	0x406f
+	.uaword	0x4089
 	.uleb128 0x13
 	.string	"B_P21"
 	.byte	0xb
 	.uahalf	0x274
-	.uaword	0x4142
+	.uaword	0x415c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_LPCR2"
 	.byte	0xb
 	.uahalf	0x275
-	.uaword	0x5412
+	.uaword	0x542c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x278
-	.uaword	0x5484
+	.uaword	0x549e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x27a
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x27b
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x27c
-	.uaword	0x41a6
+	.uaword	0x41c0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_LPCR3"
 	.byte	0xb
 	.uahalf	0x27d
-	.uaword	0x545c
+	.uaword	0x5476
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x280
-	.uaword	0x54c0
+	.uaword	0x54da
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x282
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x283
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x284
-	.uaword	0x455b
+	.uaword	0x4575
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR"
 	.byte	0xb
 	.uahalf	0x285
-	.uaword	0x5498
+	.uaword	0x54b2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x288
-	.uaword	0x54fb
+	.uaword	0x5515
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x28a
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x28b
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x28c
-	.uaword	0x423e
+	.uaword	0x4258
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR0"
 	.byte	0xb
 	.uahalf	0x28d
-	.uaword	0x54d3
+	.uaword	0x54ed
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x290
-	.uaword	0x5537
+	.uaword	0x5551
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x292
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x293
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x294
-	.uaword	0x42cc
+	.uaword	0x42e6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR12"
 	.byte	0xb
 	.uahalf	0x295
-	.uaword	0x550f
+	.uaword	0x5529
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x298
-	.uaword	0x5574
+	.uaword	0x558e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x29a
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x29b
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x29c
-	.uaword	0x4366
+	.uaword	0x4380
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR4"
 	.byte	0xb
 	.uahalf	0x29d
-	.uaword	0x554c
+	.uaword	0x5566
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2a0
-	.uaword	0x55b0
+	.uaword	0x55ca
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2a2
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2a3
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2a4
-	.uaword	0x4401
+	.uaword	0x441b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR8"
 	.byte	0xb
 	.uahalf	0x2a5
-	.uaword	0x5588
+	.uaword	0x55a2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2a8
-	.uaword	0x55ec
+	.uaword	0x5606
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2aa
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2ab
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2ac
-	.uaword	0x47a9
+	.uaword	0x47c3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMR"
 	.byte	0xb
 	.uahalf	0x2ad
-	.uaword	0x55c4
+	.uaword	0x55de
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2b0
-	.uaword	0x5626
+	.uaword	0x5640
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2b2
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2b3
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2b4
-	.uaword	0x4b3d
+	.uaword	0x4b57
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR"
 	.byte	0xb
 	.uahalf	0x2b5
-	.uaword	0x55fe
+	.uaword	0x5618
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2b8
-	.uaword	0x5661
+	.uaword	0x567b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2ba
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2bb
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2bc
-	.uaword	0x482c
+	.uaword	0x4846
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR0"
 	.byte	0xb
 	.uahalf	0x2bd
-	.uaword	0x5639
+	.uaword	0x5653
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2c0
-	.uaword	0x569d
+	.uaword	0x56b7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2c2
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2c3
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2c4
-	.uaword	0x48c6
+	.uaword	0x48e0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR12"
 	.byte	0xb
 	.uahalf	0x2c5
-	.uaword	0x5675
+	.uaword	0x568f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2c8
-	.uaword	0x56da
+	.uaword	0x56f4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2ca
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2cb
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2cc
-	.uaword	0x495c
+	.uaword	0x4976
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR4"
 	.byte	0xb
 	.uahalf	0x2cd
-	.uaword	0x56b2
+	.uaword	0x56cc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2d0
-	.uaword	0x5716
+	.uaword	0x5730
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2d2
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2d3
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2d4
-	.uaword	0x49f3
+	.uaword	0x4a0d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR8"
 	.byte	0xb
 	.uahalf	0x2d5
-	.uaword	0x56ee
+	.uaword	0x5708
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2d8
-	.uaword	0x5752
+	.uaword	0x576c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2da
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2db
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2dc
-	.uaword	0x4c75
+	.uaword	0x4c8f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OUT"
 	.byte	0xb
 	.uahalf	0x2dd
-	.uaword	0x572a
+	.uaword	0x5744
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2e0
-	.uaword	0x578c
+	.uaword	0x57a6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2e2
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2e3
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2e4
-	.uaword	0x4d72
+	.uaword	0x4d8c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_PCSR"
 	.byte	0xb
 	.uahalf	0x2e5
-	.uaword	0x5764
+	.uaword	0x577e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2e8
-	.uaword	0x57c7
+	.uaword	0x57e1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2ea
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2eb
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2ec
-	.uaword	0x4edc
+	.uaword	0x4ef6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_PDISC"
 	.byte	0xb
 	.uahalf	0x2ed
-	.uaword	0x579f
+	.uaword	0x57b9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2f0
-	.uaword	0x5803
+	.uaword	0x581d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2f2
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2f3
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2f4
-	.uaword	0x5010
+	.uaword	0x502a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_PDR0"
 	.byte	0xb
 	.uahalf	0x2f5
-	.uaword	0x57db
+	.uaword	0x57f5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xb
 	.uahalf	0x2f8
-	.uaword	0x583e
+	.uaword	0x5858
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xb
 	.uahalf	0x2fa
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xb
 	.uahalf	0x2fb
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xb
 	.uahalf	0x2fc
-	.uaword	0x514f
+	.uaword	0x5169
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_PDR1"
 	.byte	0xb
 	.uahalf	0x2fd
-	.uaword	0x5816
+	.uaword	0x5830
 	.uleb128 0x16
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0xb
 	.uahalf	0x308
-	.uaword	0x5aa1
+	.uaword	0x5abb
 	.uleb128 0x17
 	.string	"OUT"
 	.byte	0xb
 	.uahalf	0x30a
-	.uaword	0x5752
+	.uaword	0x576c
 	.byte	0
 	.uleb128 0x17
 	.string	"OMR"
 	.byte	0xb
 	.uahalf	0x30b
-	.uaword	0x55ec
+	.uaword	0x5606
 	.byte	0x4
 	.uleb128 0x17
 	.string	"ID"
 	.byte	0xb
 	.uahalf	0x30c
-	.uaword	0x5243
+	.uaword	0x525d
 	.byte	0x8
 	.uleb128 0x17
 	.string	"reserved_C"
 	.byte	0xb
 	.uahalf	0x30d
-	.uaword	0x3196
+	.uaword	0x31b0
 	.byte	0xc
 	.uleb128 0x17
 	.string	"IOCR0"
 	.byte	0xb
 	.uahalf	0x30e
-	.uaword	0x52b5
+	.uaword	0x52cf
 	.byte	0x10
 	.uleb128 0x17
 	.string	"IOCR4"
 	.byte	0xb
 	.uahalf	0x30f
-	.uaword	0x532e
+	.uaword	0x5348
 	.byte	0x14
 	.uleb128 0x17
 	.string	"IOCR8"
 	.byte	0xb
 	.uahalf	0x310
-	.uaword	0x536a
+	.uaword	0x5384
 	.byte	0x18
 	.uleb128 0x17
 	.string	"IOCR12"
 	.byte	0xb
 	.uahalf	0x311
-	.uaword	0x52f1
+	.uaword	0x530b
 	.byte	0x1c
 	.uleb128 0x18
 	.uaword	.LASF19
 	.byte	0xb
 	.uahalf	0x312
-	.uaword	0x3196
+	.uaword	0x31b0
 	.byte	0x20
 	.uleb128 0x17
 	.string	"IN"
 	.byte	0xb
 	.uahalf	0x313
-	.uaword	0x527c
+	.uaword	0x5296
 	.byte	0x24
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0xb
 	.uahalf	0x314
-	.uaword	0x3661
+	.uaword	0x367b
 	.byte	0x28
 	.uleb128 0x17
 	.string	"PDR0"
 	.byte	0xb
 	.uahalf	0x315
-	.uaword	0x5803
+	.uaword	0x581d
 	.byte	0x40
 	.uleb128 0x17
 	.string	"PDR1"
 	.byte	0xb
 	.uahalf	0x316
-	.uaword	0x583e
+	.uaword	0x5858
 	.byte	0x44
 	.uleb128 0x17
 	.string	"reserved_48"
 	.byte	0xb
 	.uahalf	0x317
-	.uaword	0x2f88
+	.uaword	0x2fa2
 	.byte	0x48
 	.uleb128 0x17
 	.string	"ESR"
 	.byte	0xb
 	.uahalf	0x318
-	.uaword	0x5209
+	.uaword	0x5223
 	.byte	0x50
 	.uleb128 0x17
 	.string	"reserved_54"
 	.byte	0xb
 	.uahalf	0x319
-	.uaword	0x3651
+	.uaword	0x366b
 	.byte	0x54
 	.uleb128 0x17
 	.string	"PDISC"
 	.byte	0xb
 	.uahalf	0x31a
-	.uaword	0x57c7
+	.uaword	0x57e1
 	.byte	0x60
 	.uleb128 0x17
 	.string	"PCSR"
 	.byte	0xb
 	.uahalf	0x31b
-	.uaword	0x578c
+	.uaword	0x57a6
 	.byte	0x64
 	.uleb128 0x17
 	.string	"reserved_68"
 	.byte	0xb
 	.uahalf	0x31c
-	.uaword	0x2f88
+	.uaword	0x2fa2
 	.byte	0x68
 	.uleb128 0x17
 	.string	"OMSR0"
 	.byte	0xb
 	.uahalf	0x31d
-	.uaword	0x5661
+	.uaword	0x567b
 	.byte	0x70
 	.uleb128 0x17
 	.string	"OMSR4"
 	.byte	0xb
 	.uahalf	0x31e
-	.uaword	0x56da
+	.uaword	0x56f4
 	.byte	0x74
 	.uleb128 0x17
 	.string	"OMSR8"
 	.byte	0xb
 	.uahalf	0x31f
-	.uaword	0x5716
+	.uaword	0x5730
 	.byte	0x78
 	.uleb128 0x17
 	.string	"OMSR12"
 	.byte	0xb
 	.uahalf	0x320
-	.uaword	0x569d
+	.uaword	0x56b7
 	.byte	0x7c
 	.uleb128 0x17
 	.string	"OMCR0"
 	.byte	0xb
 	.uahalf	0x321
-	.uaword	0x54fb
+	.uaword	0x5515
 	.byte	0x80
 	.uleb128 0x17
 	.string	"OMCR4"
 	.byte	0xb
 	.uahalf	0x322
-	.uaword	0x5574
+	.uaword	0x558e
 	.byte	0x84
 	.uleb128 0x17
 	.string	"OMCR8"
 	.byte	0xb
 	.uahalf	0x323
-	.uaword	0x55b0
+	.uaword	0x55ca
 	.byte	0x88
 	.uleb128 0x17
 	.string	"OMCR12"
 	.byte	0xb
 	.uahalf	0x324
-	.uaword	0x5537
+	.uaword	0x5551
 	.byte	0x8c
 	.uleb128 0x17
 	.string	"OMSR"
 	.byte	0xb
 	.uahalf	0x325
-	.uaword	0x5626
+	.uaword	0x5640
 	.byte	0x90
 	.uleb128 0x17
 	.string	"OMCR"
 	.byte	0xb
 	.uahalf	0x326
-	.uaword	0x54c0
+	.uaword	0x54da
 	.byte	0x94
 	.uleb128 0x17
 	.string	"reserved_98"
 	.byte	0xb
 	.uahalf	0x327
-	.uaword	0x2f88
+	.uaword	0x2fa2
 	.byte	0x98
 	.uleb128 0x17
 	.string	"LPCR0"
 	.byte	0xb
 	.uahalf	0x328
-	.uaword	0x53b4
+	.uaword	0x53ce
 	.byte	0xa0
 	.uleb128 0x17
 	.string	"LPCR1"
 	.byte	0xb
 	.uahalf	0x329
-	.uaword	0x53fe
+	.uaword	0x5418
 	.byte	0xa4
 	.uleb128 0x17
 	.string	"LPCR2"
 	.byte	0xb
 	.uahalf	0x32a
-	.uaword	0x5448
+	.uaword	0x5462
 	.byte	0xa8
 	.uleb128 0x17
 	.string	"LPCR3"
 	.byte	0xb
 	.uahalf	0x32b
-	.uaword	0x5484
+	.uaword	0x549e
 	.byte	0xac
 	.uleb128 0x17
 	.string	"reserved_A4"
 	.byte	0xb
 	.uahalf	0x32c
-	.uaword	0x5aa1
+	.uaword	0x5abb
 	.byte	0xb0
 	.uleb128 0x17
 	.string	"ACCEN1"
 	.byte	0xb
 	.uahalf	0x32d
-	.uaword	0x51cc
+	.uaword	0x51e6
 	.byte	0xf8
 	.uleb128 0x17
 	.string	"ACCEN0"
 	.byte	0xb
 	.uahalf	0x32e
-	.uaword	0x518f
+	.uaword	0x51a9
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x1d2
-	.uaword	0x5ab1
+	.uaword	0x1ec
+	.uaword	0x5acb
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x47
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P"
 	.byte	0xb
 	.uahalf	0x32f
-	.uaword	0x5abf
+	.uaword	0x5ad9
 	.uleb128 0x15
-	.uaword	0x5851
+	.uaword	0x586b
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5ab1
+	.uaword	0x5acb
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x72
-	.uaword	0x5b9e
+	.uaword	0x5bb8
 	.uleb128 0xc
 	.string	"CANDIV"
 	.byte	0xc
 	.byte	0x74
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -13494,7 +13494,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"ERAYDIV"
 	.byte	0xc
 	.byte	0x75
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -13503,7 +13503,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"STMDIV"
 	.byte	0xc
 	.byte	0x76
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -13512,7 +13512,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"GTMDIV"
 	.byte	0xc
 	.byte	0x77
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -13521,7 +13521,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"ETHDIV"
 	.byte	0xc
 	.byte	0x78
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -13530,7 +13530,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"ASCLINFDIV"
 	.byte	0xc
 	.byte	0x79
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -13539,7 +13539,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"ASCLINSDIV"
 	.byte	0xc
 	.byte	0x7a
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -13548,7 +13548,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"INSEL"
 	.byte	0xc
 	.byte	0x7b
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -13557,7 +13557,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"UP"
 	.byte	0xc
 	.byte	0x7c
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -13566,7 +13566,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"LCK"
 	.byte	0xc
 	.byte	0x7d
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -13576,38 +13576,38 @@ IfxMultican_Can_initModuleConfig:
 	.string	"Ifx_SCU_CCUCON1_Bits"
 	.byte	0xc
 	.byte	0x7e
-	.uaword	0x5aca
+	.uaword	0x5ae4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x4d9
-	.uaword	0x5be2
+	.uaword	0x5bfc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x4db
-	.uaword	0x581
+	.uaword	0x59b
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x4dc
-	.uaword	0x1af
+	.uaword	0x1c9
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x4dd
-	.uaword	0x5b9e
+	.uaword	0x5bb8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_SCU_CCUCON1"
 	.byte	0xc
 	.uahalf	0x4de
-	.uaword	0x5bba
+	.uaword	0x5bd4
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0xd
 	.byte	0x40
-	.uaword	0x5c7a
+	.uaword	0x5c94
 	.uleb128 0x7
 	.string	"IfxPort_InputMode_undefined"
 	.sleb128 -1
@@ -13625,12 +13625,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxPort_InputMode"
 	.byte	0xd
 	.byte	0x45
-	.uaword	0x5bfa
+	.uaword	0x5c14
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0xd
 	.byte	0x65
-	.uaword	0x5d6f
+	.uaword	0x5d89
 	.uleb128 0x7
 	.string	"IfxPort_OutputIdx_general"
 	.sleb128 128
@@ -13660,12 +13660,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxPort_OutputIdx"
 	.byte	0xd
 	.byte	0x6e
-	.uaword	0x5c93
+	.uaword	0x5cad
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0xd
 	.byte	0x73
-	.uaword	0x5dd0
+	.uaword	0x5dea
 	.uleb128 0x7
 	.string	"IfxPort_OutputMode_pushPull"
 	.sleb128 128
@@ -13677,12 +13677,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxPort_OutputMode"
 	.byte	0xd
 	.byte	0x76
-	.uaword	0x5d88
+	.uaword	0x5da2
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0xd
 	.byte	0x7d
-	.uaword	0x5f8b
+	.uaword	0x5fa5
 	.uleb128 0x7
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -13724,117 +13724,117 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxPort_PadDriver"
 	.byte	0xd
 	.byte	0x8a
-	.uaword	0x5dea
+	.uaword	0x5e04
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0xd
 	.byte	0xaa
-	.uaword	0x5fcb
+	.uaword	0x5fe5
 	.uleb128 0xa
 	.string	"port"
 	.byte	0xd
 	.byte	0xac
-	.uaword	0x5ac4
+	.uaword	0x5ade
 	.byte	0
 	.uleb128 0xa
 	.string	"pinIndex"
 	.byte	0xd
 	.byte	0xad
-	.uaword	0x1c5
+	.uaword	0x1df
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxPort_Pin"
 	.byte	0xd
 	.byte	0xae
-	.uaword	0x5fa4
+	.uaword	0x5fbe
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0xe
 	.byte	0x27
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0xe
 	.byte	0x29
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF22
 	.byte	0xe
 	.byte	0x2a
-	.uaword	0x32e6
+	.uaword	0x3300
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0xe
 	.byte	0x2b
-	.uaword	0x5fcb
+	.uaword	0x5fe5
 	.byte	0x8
 	.uleb128 0xa
 	.string	"select"
 	.byte	0xe
 	.byte	0x2c
-	.uaword	0x31f
+	.uaword	0x339
 	.byte	0x10
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x3252
+	.uaword	0x326c
 	.uleb128 0x3
 	.string	"IfxMultican_Rxd_In"
 	.byte	0xe
 	.byte	0x2d
-	.uaword	0x603a
+	.uaword	0x6054
 	.uleb128 0x1f
-	.uaword	0x5fde
+	.uaword	0x5ff8
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0xe
 	.byte	0x30
-	.uaword	0x607b
+	.uaword	0x6095
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0xe
 	.byte	0x32
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF22
 	.byte	0xe
 	.byte	0x33
-	.uaword	0x32e6
+	.uaword	0x3300
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0xe
 	.byte	0x34
-	.uaword	0x5fcb
+	.uaword	0x5fe5
 	.byte	0x8
 	.uleb128 0xa
 	.string	"select"
 	.byte	0xe
 	.byte	0x35
-	.uaword	0x5d6f
+	.uaword	0x5d89
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxMultican_Txd_Out"
 	.byte	0xe
 	.byte	0x36
-	.uaword	0x6096
+	.uaword	0x60b0
 	.uleb128 0x1f
-	.uaword	0x603f
+	.uaword	0x6059
 	.uleb128 0x3
 	.string	"IfxMultican_MsgObjId"
 	.byte	0x2
 	.byte	0x3c
-	.uaword	0x214
+	.uaword	0x22e
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x47
-	.uaword	0x6144
+	.uaword	0x615e
 	.uleb128 0x7
 	.string	"IfxMultican_ClockSelect_noClock"
 	.sleb128 0
@@ -13852,12 +13852,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_ClockSelect"
 	.byte	0x2
 	.byte	0x4c
-	.uaword	0x60b7
+	.uaword	0x60d1
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x52
-	.uaword	0x6363
+	.uaword	0x637d
 	.uleb128 0x7
 	.string	"IfxMultican_DataLengthCode_0"
 	.sleb128 0
@@ -13911,12 +13911,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_DataLengthCode"
 	.byte	0x2
 	.byte	0x63
-	.uaword	0x6163
+	.uaword	0x617d
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x68
-	.uaword	0x640a
+	.uaword	0x6424
 	.uleb128 0x7
 	.string	"IfxMultican_Frame_receive"
 	.sleb128 0
@@ -13934,12 +13934,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_Frame"
 	.byte	0x2
 	.byte	0x6d
-	.uaword	0x6385
+	.uaword	0x639f
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x73
-	.uaword	0x64e2
+	.uaword	0x64fc
 	.uleb128 0x7
 	.string	"IfxMultican_FrameCounterMode_frameCountMode"
 	.sleb128 0
@@ -13957,12 +13957,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_FrameCounterMode"
 	.byte	0x2
 	.byte	0x7d
-	.uaword	0x6423
+	.uaword	0x643d
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x91
-	.uaword	0x65f7
+	.uaword	0x6611
 	.uleb128 0x7
 	.string	"IfxMultican_MsgObjMode_standard"
 	.sleb128 0
@@ -13986,12 +13986,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_MsgObjMode"
 	.byte	0x2
 	.byte	0x98
-	.uaword	0x6506
+	.uaword	0x6520
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x9e
-	.uaword	0x6849
+	.uaword	0x6863
 	.uleb128 0x7
 	.string	"IfxMultican_MsgObjStatusFlag_receivePending"
 	.sleb128 0
@@ -14033,12 +14033,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_MsgObjStatusFlag"
 	.byte	0x2
 	.byte	0xab
-	.uaword	0x6615
+	.uaword	0x662f
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xb0
-	.uaword	0x68b5
+	.uaword	0x68cf
 	.uleb128 0x7
 	.string	"IfxMultican_Priority_ListOrder"
 	.sleb128 1
@@ -14050,12 +14050,12 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_Priority"
 	.byte	0x2
 	.byte	0xb3
-	.uaword	0x686d
+	.uaword	0x6887
 	.uleb128 0x6
 	.byte	0x2
 	.byte	0x2
 	.byte	0xc1
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uleb128 0x7
 	.string	"IfxMultican_Status_ok"
 	.sleb128 0
@@ -14094,133 +14094,133 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_Status"
 	.byte	0x2
 	.byte	0xcd
-	.uaword	0x68d1
+	.uaword	0x68eb
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0x2
 	.byte	0xe0
-	.uaword	0x6a94
+	.uaword	0x6aae
 	.uleb128 0xa
 	.string	"id"
 	.byte	0x2
 	.byte	0xe2
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0
 	.uleb128 0xa
 	.string	"lengthCode"
 	.byte	0x2
 	.byte	0xe3
-	.uaword	0x6363
+	.uaword	0x637d
 	.byte	0x4
 	.uleb128 0xa
 	.string	"data"
 	.byte	0x2
 	.byte	0xe4
-	.uaword	0x6a94
+	.uaword	0x6aae
 	.byte	0x8
 	.uleb128 0x9
 	.uaword	.LASF23
 	.byte	0x2
 	.byte	0xe5
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x10
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x222
-	.uaword	0x6aa4
+	.uaword	0x23c
+	.uaword	0x6abe
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x1
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxMultican_Message"
 	.byte	0x2
 	.byte	0xe6
-	.uaword	0x6a54
+	.uaword	0x6a6e
 	.uleb128 0x1d
 	.byte	0x4
 	.byte	0x2
 	.byte	0xea
-	.uaword	0x6ada
+	.uaword	0x6af4
 	.uleb128 0x1e
 	.string	"B"
 	.byte	0x2
 	.byte	0xec
-	.uaword	0x1637
+	.uaword	0x1651
 	.uleb128 0x1e
 	.string	"U"
 	.byte	0x2
 	.byte	0xed
-	.uaword	0x581
+	.uaword	0x59b
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxMultican_MsgObjStat"
 	.byte	0x2
 	.byte	0xee
-	.uaword	0x6abf
+	.uaword	0x6ad9
 	.uleb128 0x20
 	.byte	0x14
 	.byte	0xf
 	.uahalf	0x2fb
-	.uaword	0x6bba
+	.uaword	0x6bd4
 	.uleb128 0x17
 	.string	"nominalBaudrate"
 	.byte	0xf
 	.uahalf	0x2fd
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0
 	.uleb128 0x17
 	.string	"nominalSynchJumpWidth"
 	.byte	0xf
 	.uahalf	0x2fe
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x4
 	.uleb128 0x17
 	.string	"nominalSamplePoint"
 	.byte	0xf
 	.uahalf	0x2ff
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x6
 	.uleb128 0x17
 	.string	"fastBaudrate"
 	.byte	0xf
 	.uahalf	0x300
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x8
 	.uleb128 0x17
 	.string	"fastSynchJumpWidth"
 	.byte	0xf
 	.uahalf	0x301
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0xc
 	.uleb128 0x17
 	.string	"fastSamplePoint"
 	.byte	0xf
 	.uahalf	0x302
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0xe
 	.uleb128 0x17
 	.string	"loopDelayOffset"
 	.byte	0xf
 	.uahalf	0x303
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x10
 	.byte	0
 	.uleb128 0x10
 	.string	"IfxMultican_Can_FdConfig"
 	.byte	0xf
 	.uahalf	0x304
-	.uaword	0x6af8
+	.uaword	0x6b12
 	.uleb128 0x20
 	.byte	0x8
 	.byte	0xf
 	.uahalf	0x308
-	.uaword	0x6c54
+	.uaword	0x6c6e
 	.uleb128 0xf
 	.string	"copyDataLengthCode"
 	.byte	0xf
 	.uahalf	0x30a
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -14229,7 +14229,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"copyData"
 	.byte	0xf
 	.uahalf	0x30b
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -14238,7 +14238,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"copyId"
 	.byte	0xf
 	.uahalf	0x30c
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -14247,7 +14247,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"enableTransmit"
 	.byte	0xf
 	.uahalf	0x30d
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -14256,70 +14256,70 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF24
 	.byte	0xf
 	.uahalf	0x30e
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0x4
 	.byte	0
 	.uleb128 0x10
 	.string	"IfxMultican_Can_GatewayConfig"
 	.byte	0xf
 	.uahalf	0x30f
-	.uaword	0x6bdb
+	.uaword	0x6bf5
 	.uleb128 0x20
 	.byte	0x4
 	.byte	0xf
 	.uahalf	0x313
-	.uaword	0x6ca8
+	.uaword	0x6cc2
 	.uleb128 0x18
 	.uaword	.LASF25
 	.byte	0xf
 	.uahalf	0x315
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x17
 	.string	"typeOfService"
 	.byte	0xf
 	.uahalf	0x316
-	.uaword	0x34d8
+	.uaword	0x34f2
 	.byte	0x2
 	.byte	0
 	.uleb128 0x10
 	.string	"IfxMultican_Can_InterruptConfig"
 	.byte	0xf
 	.uahalf	0x317
-	.uaword	0x6c7a
+	.uaword	0x6c94
 	.uleb128 0x20
 	.byte	0x2
 	.byte	0xf
 	.uahalf	0x31b
-	.uaword	0x6cf4
+	.uaword	0x6d0e
 	.uleb128 0x18
 	.uaword	.LASF26
 	.byte	0xf
 	.uahalf	0x31d
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF27
 	.byte	0xf
 	.uahalf	0x31e
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0x1
 	.byte	0
 	.uleb128 0x10
 	.string	"IfxMultican_Can_InterruptSource"
 	.byte	0xf
 	.uahalf	0x31f
-	.uaword	0x6cd0
+	.uaword	0x6cea
 	.uleb128 0x20
 	.byte	0x10
 	.byte	0xf
 	.uahalf	0x323
-	.uaword	0x6dd6
+	.uaword	0x6df0
 	.uleb128 0xf
 	.string	"singleDataTransfer"
 	.byte	0xf
 	.uahalf	0x325
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -14328,7 +14328,7 @@ IfxMultican_Can_initModuleConfig:
 	.string	"singleTransmitTrial"
 	.byte	0xf
 	.uahalf	0x326
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -14337,13 +14337,13 @@ IfxMultican_Can_initModuleConfig:
 	.string	"messageLen"
 	.byte	0xf
 	.uahalf	0x327
-	.uaword	0x6363
+	.uaword	0x637d
 	.byte	0x1
 	.uleb128 0x11
 	.uaword	.LASF28
 	.byte	0xf
 	.uahalf	0x328
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -14352,7 +14352,7 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF29
 	.byte	0xf
 	.uahalf	0x329
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -14361,19 +14361,19 @@ IfxMultican_Can_initModuleConfig:
 	.string	"topMsgObjId"
 	.byte	0xf
 	.uahalf	0x32a
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0x4
 	.uleb128 0x17
 	.string	"bottomMsgObjId"
 	.byte	0xf
 	.uahalf	0x32b
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0x8
 	.uleb128 0x11
 	.uaword	.LASF23
 	.byte	0xf
 	.uahalf	0x32c
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -14383,212 +14383,212 @@ IfxMultican_Can_initModuleConfig:
 	.string	"IfxMultican_Can_MsgObjControl"
 	.byte	0xf
 	.uahalf	0x32d
-	.uaword	0x6d1c
+	.uaword	0x6d36
 	.uleb128 0x20
 	.byte	0xc
 	.byte	0xf
 	.uahalf	0x331
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x18
 	.uaword	.LASF30
 	.byte	0xf
 	.uahalf	0x333
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF31
 	.byte	0xf
 	.uahalf	0x334
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0x4
 	.uleb128 0x18
 	.uaword	.LASF22
 	.byte	0xf
 	.uahalf	0x335
-	.uaword	0x32e6
+	.uaword	0x3300
 	.byte	0x8
 	.uleb128 0x17
 	.string	"fastNode"
 	.byte	0xf
 	.uahalf	0x336
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x9
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2fb4
+	.uaword	0x2fce
 	.uleb128 0x10
 	.string	"IfxMultican_Can_Node"
 	.byte	0xf
 	.uahalf	0x337
-	.uaword	0x6dfc
+	.uaword	0x6e16
 	.uleb128 0x20
 	.byte	0x4
 	.byte	0xf
 	.uahalf	0x33f
-	.uaword	0x6e79
+	.uaword	0x6e93
 	.uleb128 0x18
 	.uaword	.LASF30
 	.byte	0xf
 	.uahalf	0x341
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"IfxMultican_Can"
 	.byte	0xf
 	.uahalf	0x342
-	.uaword	0x6e62
+	.uaword	0x6e7c
 	.uleb128 0x20
 	.byte	0x4c
 	.byte	0xf
 	.uahalf	0x346
-	.uaword	0x6ede
+	.uaword	0x6ef8
 	.uleb128 0x18
 	.uaword	.LASF0
 	.byte	0xf
 	.uahalf	0x348
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF32
 	.byte	0xf
 	.uahalf	0x349
-	.uaword	0x6144
+	.uaword	0x615e
 	.byte	0x4
 	.uleb128 0x17
 	.string	"moduleFreq"
 	.byte	0xf
 	.uahalf	0x34a
-	.uaword	0x230
+	.uaword	0x24a
 	.byte	0x8
 	.uleb128 0x17
 	.string	"nodePointer"
 	.byte	0xf
 	.uahalf	0x34b
-	.uaword	0x6ede
+	.uaword	0x6ef8
 	.byte	0xc
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x6ca8
-	.uaword	0x6eee
+	.uaword	0x6cc2
+	.uaword	0x6f08
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0xf
 	.byte	0
 	.uleb128 0x10
 	.string	"IfxMultican_Can_Config"
 	.byte	0xf
 	.uahalf	0x34c
-	.uaword	0x6e91
+	.uaword	0x6eab
 	.uleb128 0x20
 	.byte	0x10
 	.byte	0xf
 	.uahalf	0x350
-	.uaword	0x6f53
+	.uaword	0x6f6d
 	.uleb128 0x18
 	.uaword	.LASF31
 	.byte	0xf
 	.uahalf	0x352
-	.uaword	0x6f53
+	.uaword	0x6f6d
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF33
 	.byte	0xf
 	.uahalf	0x353
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0x4
 	.uleb128 0x18
 	.uaword	.LASF34
 	.byte	0xf
 	.uahalf	0x354
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x8
 	.uleb128 0x17
 	.string	"fifoPointer"
 	.byte	0xf
 	.uahalf	0x355
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0xc
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6e45
+	.uaword	0x6e5f
 	.uleb128 0x10
 	.string	"IfxMultican_Can_MsgObj"
 	.byte	0xf
 	.uahalf	0x356
-	.uaword	0x6f0d
+	.uaword	0x6f27
 	.uleb128 0x20
 	.byte	0x3c
 	.byte	0xf
 	.uahalf	0x35a
-	.uaword	0x7066
+	.uaword	0x7080
 	.uleb128 0x18
 	.uaword	.LASF31
 	.byte	0xf
 	.uahalf	0x35c
-	.uaword	0x6f53
+	.uaword	0x6f6d
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF33
 	.byte	0xf
 	.uahalf	0x35d
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0x4
 	.uleb128 0x18
 	.uaword	.LASF34
 	.byte	0xf
 	.uahalf	0x35e
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x8
 	.uleb128 0x17
 	.string	"control"
 	.byte	0xf
 	.uahalf	0x35f
-	.uaword	0x6dd6
+	.uaword	0x6df0
 	.byte	0xc
 	.uleb128 0x17
 	.string	"frame"
 	.byte	0xf
 	.uahalf	0x360
-	.uaword	0x640a
+	.uaword	0x6424
 	.byte	0x1c
 	.uleb128 0x17
 	.string	"acceptanceMask"
 	.byte	0xf
 	.uahalf	0x361
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x20
 	.uleb128 0x18
 	.uaword	.LASF35
 	.byte	0xf
 	.uahalf	0x362
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x24
 	.uleb128 0x18
 	.uaword	.LASF25
 	.byte	0xf
 	.uahalf	0x363
-	.uaword	0x68b5
+	.uaword	0x68cf
 	.byte	0x28
 	.uleb128 0x17
 	.string	"rxInterrupt"
 	.byte	0xf
 	.uahalf	0x364
-	.uaword	0x6cf4
+	.uaword	0x6d0e
 	.byte	0x2a
 	.uleb128 0x17
 	.string	"txInterrupt"
 	.byte	0xf
 	.uahalf	0x365
-	.uaword	0x6cf4
+	.uaword	0x6d0e
 	.byte	0x2c
 	.uleb128 0xf
 	.string	"gatewayTransfers"
 	.byte	0xf
 	.uahalf	0x366
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -14597,219 +14597,219 @@ IfxMultican_Can_initModuleConfig:
 	.string	"gatewayConfig"
 	.byte	0xf
 	.uahalf	0x367
-	.uaword	0x6c54
+	.uaword	0x6c6e
 	.byte	0x30
 	.uleb128 0x18
 	.uaword	.LASF36
 	.byte	0xf
 	.uahalf	0x368
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0x38
 	.byte	0
 	.uleb128 0x10
 	.string	"IfxMultican_Can_MsgObjConfig"
 	.byte	0xf
 	.uahalf	0x369
-	.uaword	0x6f78
+	.uaword	0x6f92
 	.uleb128 0x20
 	.byte	0x44
 	.byte	0xf
 	.uahalf	0x36d
-	.uaword	0x7242
+	.uaword	0x725c
 	.uleb128 0x18
 	.uaword	.LASF0
 	.byte	0xf
 	.uahalf	0x36f
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF22
 	.byte	0xf
 	.uahalf	0x370
-	.uaword	0x32e6
+	.uaword	0x3300
 	.byte	0x4
 	.uleb128 0x17
 	.string	"analyzerMode"
 	.byte	0xf
 	.uahalf	0x371
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x5
 	.uleb128 0x17
 	.string	"loopBackMode"
 	.byte	0xf
 	.uahalf	0x372
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x6
 	.uleb128 0x17
 	.string	"baudrate"
 	.byte	0xf
 	.uahalf	0x373
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x8
 	.uleb128 0x17
 	.string	"samplePoint"
 	.byte	0xf
 	.uahalf	0x374
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0xc
 	.uleb128 0x17
 	.string	"synchJumpWidth"
 	.byte	0xf
 	.uahalf	0x375
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0xe
 	.uleb128 0x17
 	.string	"flexibleDataRate"
 	.byte	0xf
 	.uahalf	0x376
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x10
 	.uleb128 0x17
 	.string	"fdConfig"
 	.byte	0xf
 	.uahalf	0x377
-	.uaword	0x6bba
+	.uaword	0x6bd4
 	.byte	0x14
 	.uleb128 0x17
 	.string	"rxPin"
 	.byte	0xf
 	.uahalf	0x378
-	.uaword	0x7242
+	.uaword	0x725c
 	.byte	0x28
 	.uleb128 0x17
 	.string	"rxPinMode"
 	.byte	0xf
 	.uahalf	0x379
-	.uaword	0x5c7a
+	.uaword	0x5c94
 	.byte	0x2c
 	.uleb128 0x17
 	.string	"txPin"
 	.byte	0xf
 	.uahalf	0x37a
-	.uaword	0x7248
+	.uaword	0x7262
 	.byte	0x30
 	.uleb128 0x17
 	.string	"txPinMode"
 	.byte	0xf
 	.uahalf	0x37b
-	.uaword	0x5dd0
+	.uaword	0x5dea
 	.byte	0x34
 	.uleb128 0x17
 	.string	"errorWarningLevel"
 	.byte	0xf
 	.uahalf	0x37c
-	.uaword	0x1c5
+	.uaword	0x1df
 	.byte	0x35
 	.uleb128 0x17
 	.string	"transferInterrupt"
 	.byte	0xf
 	.uahalf	0x37d
-	.uaword	0x6cf4
+	.uaword	0x6d0e
 	.byte	0x36
 	.uleb128 0x17
 	.string	"lastErrorCodeInterrupt"
 	.byte	0xf
 	.uahalf	0x37e
-	.uaword	0x6cf4
+	.uaword	0x6d0e
 	.byte	0x38
 	.uleb128 0x17
 	.string	"alertInterrupt"
 	.byte	0xf
 	.uahalf	0x37f
-	.uaword	0x6cf4
+	.uaword	0x6d0e
 	.byte	0x3a
 	.uleb128 0x17
 	.string	"frameCounterInterrupt"
 	.byte	0xf
 	.uahalf	0x380
-	.uaword	0x6cf4
+	.uaword	0x6d0e
 	.byte	0x3c
 	.uleb128 0x17
 	.string	"timerInterrupt"
 	.byte	0xf
 	.uahalf	0x381
-	.uaword	0x6cf4
+	.uaword	0x6d0e
 	.byte	0x3e
 	.uleb128 0x17
 	.string	"pinDriver"
 	.byte	0xf
 	.uahalf	0x382
-	.uaword	0x5f8b
+	.uaword	0x5fa5
 	.byte	0x40
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6020
+	.uaword	0x603a
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x607b
+	.uaword	0x6095
 	.uleb128 0x10
 	.string	"IfxMultican_Can_NodeConfig"
 	.byte	0xf
 	.uahalf	0x383
-	.uaword	0x708b
+	.uaword	0x70a5
 	.uleb128 0x21
 	.string	"IfxSrc_clearRequest"
 	.byte	0x4
 	.byte	0xe6
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x729a
+	.uaword	0x72b4
 	.uleb128 0x22
 	.string	"src"
 	.byte	0x4
 	.byte	0xe6
-	.uaword	0x729a
+	.uaword	0x72b4
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x72a0
+	.uaword	0x72ba
 	.uleb128 0x15
-	.uaword	0x363d
+	.uaword	0x3657
 	.uleb128 0x23
 	.string	"IfxMultican_MsgObj_getPointer"
 	.byte	0x2
 	.uahalf	0x491
 	.byte	0x1
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x3
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x491
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x24
 	.uaword	.LASF33
 	.byte	0x2
 	.uahalf	0x491
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uleb128 0x25
 	.string	"moObjSFR"
 	.byte	0x2
 	.uahalf	0x493
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2e5c
+	.uaword	0x2e76
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setMessageMode"
 	.byte	0x2
 	.uahalf	0x512
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7347
+	.uaword	0x7361
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x512
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x27
 	.string	"mode"
 	.byte	0x2
 	.uahalf	0x512
-	.uaword	0x65f7
+	.uaword	0x6611
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setReceiveInterrupt"
@@ -14817,17 +14817,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x52a
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7391
+	.uaword	0x73ab
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x52a
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x52a
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setTransmitInterrupt"
@@ -14835,17 +14835,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x554
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x73dc
+	.uaword	0x73f6
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x554
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x554
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setRemoteMonitoring"
@@ -14853,17 +14853,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x536
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7426
+	.uaword	0x7440
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x536
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x536
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setExtendedDataLength"
@@ -14871,17 +14871,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4ee
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7472
+	.uaword	0x748c
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4ee
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x4ee
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setDataLengthCode"
@@ -14889,17 +14889,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4e2
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x74bb
+	.uaword	0x74d5
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4e2
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x27
 	.string	"code"
 	.byte	0x2
 	.uahalf	0x4e2
-	.uaword	0x6363
+	.uaword	0x637d
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setBitRateSwitch"
@@ -14907,17 +14907,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4ca
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7502
+	.uaword	0x751c
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4ca
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x4ca
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setSingleTransmitTrial"
@@ -14925,17 +14925,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x548
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x754f
+	.uaword	0x7569
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x548
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x548
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setSingleDataTransfer"
@@ -14943,17 +14943,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x542
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x759b
+	.uaword	0x75b5
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x542
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x542
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setBottomObjectPointer"
@@ -14961,17 +14961,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4d0
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x75e8
+	.uaword	0x7602
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4d0
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x4d0
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setTopObjectPointer"
@@ -14979,17 +14979,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x54e
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7632
+	.uaword	0x764c
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x54e
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x54e
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setCurrentObjectPointer"
@@ -14997,17 +14997,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4d6
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7680
+	.uaword	0x769a
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4d6
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x4d6
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_clearFifoGatewayPointers"
@@ -15015,12 +15015,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x465
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x76c3
+	.uaword	0x76dd
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x465
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setSelectObjectPointer"
@@ -15028,17 +15028,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x53c
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7710
+	.uaword	0x772a
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x53c
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x53c
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setAcceptanceMask"
@@ -15046,22 +15046,22 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4c4
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7765
+	.uaword	0x777f
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4c4
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x27
 	.string	"mask"
 	.byte	0x2
 	.uahalf	0x4c4
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x24
 	.uaword	.LASF28
 	.byte	0x2
 	.uahalf	0x4c4
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setMatchingId"
@@ -15069,17 +15069,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x506
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x77a9
+	.uaword	0x77c3
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x506
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF29
 	.byte	0x2
 	.uahalf	0x506
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setMessageId"
@@ -15087,22 +15087,22 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x50c
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x77f8
+	.uaword	0x7812
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x50c
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x50c
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x24
 	.uaword	.LASF28
 	.byte	0x2
 	.uahalf	0x50c
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setIdentifierExtension"
@@ -15110,17 +15110,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x500
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x784b
+	.uaword	0x7865
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x500
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x27
 	.string	"extension"
 	.byte	0x2
 	.uahalf	0x500
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setPriorityClass"
@@ -15128,17 +15128,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x524
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7892
+	.uaword	0x78ac
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x524
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF25
 	.byte	0x2
 	.uahalf	0x524
-	.uaword	0x68b5
+	.uaword	0x68cf
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_clearDataRegisters"
@@ -15146,12 +15146,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x45e
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x78cf
+	.uaword	0x78e9
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x45e
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setReceiveInterruptNodePointer"
@@ -15159,17 +15159,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x530
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7924
+	.uaword	0x793e
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x530
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x530
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setTransmitInterruptNodePointer"
@@ -15177,17 +15177,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x55a
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x797a
+	.uaword	0x7994
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x55a
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x55a
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setMessagePendingNumber"
@@ -15195,17 +15195,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x518
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x79d2
+	.uaword	0x79ec
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x518
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x27
 	.string	"messageNumber"
 	.byte	0x2
 	.uahalf	0x518
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setDataLengthCodeCopy"
@@ -15213,17 +15213,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4e8
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7a1e
+	.uaword	0x7a38
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4e8
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x4e8
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setDataCopy"
@@ -15231,17 +15231,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4dc
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7a60
+	.uaword	0x7a7a
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4dc
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x4dc
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setIdentifierCopy"
@@ -15249,17 +15249,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4fa
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7aa8
+	.uaword	0x7ac2
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4fa
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x4fa
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_setGatewayDataFrameSend"
@@ -15267,74 +15267,74 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x4f4
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7af6
+	.uaword	0x7b10
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4f4
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x4f4
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_MsgObj_isRxPending"
 	.byte	0x2
 	.uahalf	0x4af
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x3
-	.uaword	0x7b3c
+	.uaword	0x7b56
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4af
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x28
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x4b1
-	.uaword	0x6ada
+	.uaword	0x6af4
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_MsgObj_isTransmitRequested"
 	.byte	0x2
 	.uahalf	0x4b6
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x3
-	.uaword	0x7b8a
+	.uaword	0x7ba4
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4b6
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x28
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x4b8
-	.uaword	0x6ada
+	.uaword	0x6af4
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_MsgObj_isTxPending"
 	.byte	0x2
 	.uahalf	0x4bd
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x3
-	.uaword	0x7bd0
+	.uaword	0x7bea
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x4bd
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x28
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x4bf
-	.uaword	0x6ada
+	.uaword	0x6af4
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_MsgObj_clearRxPending"
@@ -15342,87 +15342,87 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x46b
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7c09
+	.uaword	0x7c23
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x46b
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_MsgObj_getBottomObjectPointer"
 	.byte	0x2
 	.uahalf	0x477
 	.byte	0x1
-	.uaword	0x609b
+	.uaword	0x60b5
 	.byte	0x3
-	.uaword	0x7c4e
+	.uaword	0x7c68
 	.uleb128 0x24
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x477
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_getInputClock"
 	.byte	0x2
 	.uahalf	0x640
 	.byte	0x1
-	.uaword	0x6144
+	.uaword	0x615e
 	.byte	0x3
-	.uaword	0x7c83
+	.uaword	0x7c9d
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x640
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxScuCcu_getCanFrequency"
 	.byte	0x3
 	.uahalf	0x455
 	.byte	0x1
-	.uaword	0x230
+	.uaword	0x24a
 	.byte	0x3
-	.uaword	0x7cd9
+	.uaword	0x7cf3
 	.uleb128 0x25
 	.string	"canFrequency"
 	.byte	0x3
 	.uahalf	0x457
-	.uaword	0x230
+	.uaword	0x24a
 	.uleb128 0x25
 	.string	"sourceFrequency"
 	.byte	0x3
 	.uahalf	0x458
-	.uaword	0x230
+	.uaword	0x24a
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_getFractionalDividerMode"
 	.byte	0x2
 	.uahalf	0x634
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x3
-	.uaword	0x7d19
+	.uaword	0x7d33
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x634
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_getFractionalDividerStepValue"
 	.byte	0x2
 	.uahalf	0x63a
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x3
-	.uaword	0x7d5e
+	.uaword	0x7d78
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x63a
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x29
 	.byte	0x1
@@ -15431,84 +15431,84 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x382
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x7dc3
+	.uaword	0x7ddd
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x382
-	.uaword	0x7dc3
+	.uaword	0x7ddd
 	.uleb128 0x24
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x382
-	.uaword	0x7dc9
+	.uaword	0x7de3
 	.uleb128 0x2a
 	.uleb128 0x25
 	.string	"fcan"
 	.byte	0x1
 	.uahalf	0x388
-	.uaword	0x230
+	.uaword	0x24a
 	.uleb128 0x28
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x38a
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x28
 	.uaword	.LASF42
 	.byte	0x1
 	.uahalf	0x38b
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6e79
+	.uaword	0x6e93
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6eee
+	.uaword	0x6f08
 	.uleb128 0x2b
 	.byte	0x1
 	.string	"IfxMultican_Can_getModuleFrequency"
 	.byte	0x1
 	.uahalf	0x3a9
 	.byte	0x1
-	.uaword	0x230
+	.uaword	0x24a
 	.byte	0x1
-	.uaword	0x7e1a
+	.uaword	0x7e34
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x3a9
-	.uaword	0x7dc3
+	.uaword	0x7ddd
 	.uleb128 0x28
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x3ab
-	.uaword	0x6eee
+	.uaword	0x6f08
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_Node_getPointer"
 	.byte	0x2
 	.uahalf	0x578
 	.byte	0x1
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0x3
-	.uaword	0x7e6d
+	.uaword	0x7e87
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x578
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x24
 	.uaword	.LASF31
 	.byte	0x2
 	.uahalf	0x578
-	.uaword	0x32e6
+	.uaword	0x3300
 	.uleb128 0x25
 	.string	"nodeSFR"
 	.byte	0x2
 	.uahalf	0x57a
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_resetControlRegister"
@@ -15516,12 +15516,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x590
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7eaa
+	.uaword	0x7ec4
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x590
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setTransferInterrupt"
@@ -15529,17 +15529,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5fe
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7ef3
+	.uaword	0x7f0d
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5fe
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x5fe
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setLastErrorCodeInterrupt"
@@ -15547,17 +15547,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5d4
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7f41
+	.uaword	0x7f5b
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5d4
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x5d4
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setAlertInterrupt"
@@ -15565,17 +15565,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5a2
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7f87
+	.uaword	0x7fa1
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5a2
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x5a2
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setAnalyzerMode"
@@ -15583,17 +15583,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5ae
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7fcc
+	.uaword	0x7fe6
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5ae
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x27
 	.string	"mode"
 	.byte	0x2
 	.uahalf	0x5ae
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_activate"
@@ -15601,12 +15601,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x560
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7ffd
+	.uaword	0x8017
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x560
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_resetInterruptPointers"
@@ -15614,12 +15614,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x59c
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x803c
+	.uaword	0x8056
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x59c
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setTransferInterruptPointer"
@@ -15627,17 +15627,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x604
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x808c
+	.uaword	0x80a6
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x604
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x604
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setLastErrorCodeInterruptPointer"
@@ -15645,17 +15645,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5da
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x80e1
+	.uaword	0x80fb
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5da
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x5da
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setAlertInterruptPointer"
@@ -15663,17 +15663,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5a8
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x812e
+	.uaword	0x8148
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5a8
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x5a8
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setFrameCounterInterruptPointer"
@@ -15681,17 +15681,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5c8
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8182
+	.uaword	0x819c
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5c8
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x5c8
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setTimerEventInterruptPointer"
@@ -15699,17 +15699,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5ec
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x81d4
+	.uaword	0x81ee
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5ec
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x5ec
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_resetErrorCounters"
@@ -15717,12 +15717,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x596
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x820f
+	.uaword	0x8229
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x596
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setReceiveErrorCounter"
@@ -15730,17 +15730,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5e6
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x825c
+	.uaword	0x8276
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5e6
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x27
 	.string	"value"
 	.byte	0x2
 	.uahalf	0x5e6
-	.uaword	0x1c5
+	.uaword	0x1df
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setTransmitErrorCounter"
@@ -15748,17 +15748,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x60a
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x82aa
+	.uaword	0x82c4
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x60a
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x27
 	.string	"value"
 	.byte	0x2
 	.uahalf	0x60a
-	.uaword	0x1c5
+	.uaword	0x1df
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setErrorWarningLevel"
@@ -15766,17 +15766,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5b4
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x82f5
+	.uaword	0x830f
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5b4
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x27
 	.string	"level"
 	.byte	0x2
 	.uahalf	0x5b4
-	.uaword	0x1c5
+	.uaword	0x1df
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setLoopBackMode"
@@ -15784,17 +15784,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5e0
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x833a
+	.uaword	0x8354
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5e0
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x27
 	.string	"mode"
 	.byte	0x2
 	.uahalf	0x5e0
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setFastNode"
@@ -15802,17 +15802,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5ba
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x837a
+	.uaword	0x8394
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5ba
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x5ba
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setTransceiverDelayCompensationOffset"
@@ -15820,17 +15820,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5f8
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x83d6
+	.uaword	0x83f0
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5f8
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x27
 	.string	"value"
 	.byte	0x2
 	.uahalf	0x5f8
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setTransceiverDelayCompensation"
@@ -15838,17 +15838,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5f2
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x842a
+	.uaword	0x8444
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5f2
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x5f2
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setFrameCounterMode"
@@ -15856,17 +15856,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5ce
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8473
+	.uaword	0x848d
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5ce
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x27
 	.string	"mode"
 	.byte	0x2
 	.uahalf	0x5ce
-	.uaword	0x64e2
+	.uaword	0x64fc
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_setFrameCounterInterrupt"
@@ -15874,17 +15874,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x5c2
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x84c0
+	.uaword	0x84da
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x5c2
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x24
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x5c2
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_Node_disableConfigurationChange"
@@ -15892,12 +15892,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x56c
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8503
+	.uaword	0x851d
 	.uleb128 0x24
 	.uaword	.LASF43
 	.byte	0x2
 	.uahalf	0x56c
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_enableModule"
@@ -15905,12 +15905,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x628
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8533
+	.uaword	0x854d
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x628
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_disableSleepMode"
@@ -15918,26 +15918,26 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x622
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8567
+	.uaword	0x8581
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x622
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x23
 	.string	"IfxMultican_isModuleEnabled"
 	.byte	0x2
 	.uahalf	0x646
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x3
-	.uaword	0x859e
+	.uaword	0x85b8
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x646
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_setInputClock"
@@ -15945,17 +15945,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x658
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x85db
+	.uaword	0x85f5
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x658
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x24
 	.uaword	.LASF32
 	.byte	0x2
 	.uahalf	0x658
-	.uaword	0x6144
+	.uaword	0x615e
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_setFractionalDividerStepValue"
@@ -15963,17 +15963,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x652
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8628
+	.uaword	0x8642
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x652
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x24
 	.uaword	.LASF42
 	.byte	0x2
 	.uahalf	0x652
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_setFractionalDividerMode"
@@ -15981,17 +15981,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x64c
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8671
+	.uaword	0x868b
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x64c
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x27
 	.string	"mode"
 	.byte	0x2
 	.uahalf	0x64c
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_waitListReady"
@@ -15999,12 +15999,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x66d
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x86a2
+	.uaword	0x86bc
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x66d
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_clearPendingMessageNotification"
@@ -16012,17 +16012,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x616
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x86f2
+	.uaword	0x870c
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x616
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x27
 	.string	"list"
 	.byte	0x2
 	.uahalf	0x616
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_clearMessagePendingSeletor"
@@ -16030,12 +16030,12 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x610
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8730
+	.uaword	0x874a
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x610
-	.uaword	0x601a
+	.uaword	0x6034
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxMultican_setMessageIndexMask"
@@ -16043,17 +16043,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x65e
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x8774
+	.uaword	0x878e
 	.uleb128 0x24
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x65e
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x27
 	.string	"mask"
 	.byte	0x2
 	.uahalf	0x65e
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0
 	.uleb128 0x21
 	.string	"IfxSrc_init"
@@ -16061,22 +16061,22 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0xfe
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x87b4
+	.uaword	0x87ce
 	.uleb128 0x22
 	.string	"src"
 	.byte	0x4
 	.byte	0xfe
-	.uaword	0x729a
+	.uaword	0x72b4
 	.uleb128 0x22
 	.string	"typOfService"
 	.byte	0x4
 	.byte	0xfe
-	.uaword	0x34d8
+	.uaword	0x34f2
 	.uleb128 0x2c
 	.uaword	.LASF25
 	.byte	0x4
 	.byte	0xfe
-	.uaword	0x292
+	.uaword	0x2ac
 	.byte	0
 	.uleb128 0x21
 	.string	"IfxSrc_enable"
@@ -16084,12 +16084,12 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0xf8
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x87d7
+	.uaword	0x87f1
 	.uleb128 0x22
 	.string	"src"
 	.byte	0x4
 	.byte	0xf8
-	.uaword	0x729a
+	.uaword	0x72b4
 	.byte	0
 	.uleb128 0x21
 	.string	"IfxSrc_disable"
@@ -16097,12 +16097,12 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0xf2
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x87fb
+	.uaword	0x8815
 	.uleb128 0x22
 	.string	"src"
 	.byte	0x4
 	.byte	0xf2
-	.uaword	0x729a
+	.uaword	0x72b4
 	.byte	0
 	.uleb128 0x2d
 	.byte	0x1
@@ -16115,705 +16115,705 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x88ad
+	.uaword	0x88c7
 	.uleb128 0x2e
 	.uaword	.LASF44
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x88ad
+	.uaword	0x88c7
 	.uaword	.LLST0
 	.uleb128 0x2e
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x88b3
+	.uaword	0x88cd
 	.uaword	.LLST1
 	.uleb128 0x2f
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x25
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x30
 	.string	"ar"
 	.byte	0x1
 	.byte	0x27
-	.uaword	0x24e7
+	.uaword	0x2501
 	.uleb128 0x30
 	.string	"amr"
 	.byte	0x1
 	.byte	0x28
-	.uaword	0x24a8
+	.uaword	0x24c2
 	.uleb128 0x30
 	.string	"fcr"
 	.byte	0x1
 	.byte	0x29
-	.uaword	0x27b4
+	.uaword	0x27ce
 	.uleb128 0x31
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB266
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x25
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST2
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST3
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST4
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6f59
+	.uaword	0x6f73
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x7066
+	.uaword	0x7080
 	.uleb128 0x35
 	.byte	0x1
 	.string	"IfxMultican_Can_MsgObj_init"
 	.byte	0x1
 	.byte	0x44
 	.byte	0x1
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LFB322
 	.uaword	.LFE322
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9632
+	.uaword	0x964c
 	.uleb128 0x2e
 	.uaword	.LASF44
 	.byte	0x1
 	.byte	0x44
-	.uaword	0x88ad
+	.uaword	0x88c7
 	.uaword	.LLST5
 	.uleb128 0x2e
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x44
-	.uaword	0x9632
+	.uaword	0x964c
 	.uaword	.LLST6
 	.uleb128 0x36
 	.string	"mcanSFR"
 	.byte	0x1
 	.byte	0x4b
-	.uaword	0x601a
+	.uaword	0x6034
 	.uaword	.LLST7
 	.uleb128 0x2f
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x4d
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x6d
 	.uleb128 0x37
 	.uaword	.LASF45
 	.byte	0x1
 	.byte	0x4f
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LLST8
 	.uleb128 0x36
 	.string	"longFrame"
 	.byte	0x1
 	.byte	0x51
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST9
 	.uleb128 0x36
 	.string	"receiveFrame"
 	.byte	0x1
 	.byte	0x54
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST10
 	.uleb128 0x36
 	.string	"transmitFrame"
 	.byte	0x1
 	.byte	0x59
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST11
 	.uleb128 0x36
 	.string	"gatewaySourceObj"
 	.byte	0x1
 	.byte	0x5f
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST12
 	.uleb128 0x36
 	.string	"receiveFifo"
 	.byte	0x1
 	.byte	0x62
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST13
 	.uleb128 0x36
 	.string	"transmitFifo"
 	.byte	0x1
 	.byte	0x62
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST14
 	.uleb128 0x36
 	.string	"gatewayFifo"
 	.byte	0x1
 	.byte	0x6b
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST15
 	.uleb128 0x36
 	.string	"objId"
 	.byte	0x1
 	.byte	0x6e
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uaword	.LLST16
 	.uleb128 0x37
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x6e
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uaword	.LLST17
 	.uleb128 0x36
 	.string	"lastSlaveObjId"
 	.byte	0x1
 	.byte	0x6e
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uaword	.LLST18
 	.uleb128 0x37
 	.uaword	.LASF24
 	.byte	0x1
 	.byte	0x6e
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uaword	.LLST19
 	.uleb128 0x36
 	.string	"i"
 	.byte	0x1
 	.byte	0x7d
-	.uaword	0x222
+	.uaword	0x23c
 	.uaword	.LLST20
 	.uleb128 0x38
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB272
 	.uaword	.Ldebug_ranges0+0x20
 	.byte	0x1
 	.byte	0x4d
-	.uaword	0x8a6d
+	.uaword	0x8a87
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST21
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST7
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x20
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST23
 	.byte	0
 	.byte	0
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x48
-	.uaword	0x8d73
+	.uaword	0x8d8d
 	.uleb128 0x3a
 	.string	"receiveInterruptEnabled"
 	.byte	0x1
 	.uahalf	0x110
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST24
 	.uleb128 0x3a
 	.string	"transmitInterruptEnabled"
 	.byte	0x1
 	.uahalf	0x114
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST25
 	.uleb128 0x3a
 	.string	"remoteMonitoringEnabled"
 	.byte	0x1
 	.uahalf	0x118
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LLST26
 	.uleb128 0x38
-	.uaword	0x7301
+	.uaword	0x731b
 	.uaword	.LBB280
 	.uaword	.Ldebug_ranges0+0xc0
 	.byte	0x1
 	.byte	0xfd
-	.uaword	0x8b09
+	.uaword	0x8b23
 	.uleb128 0x32
-	.uaword	0x7339
+	.uaword	0x7353
 	.uaword	.LLST27
 	.uleb128 0x32
-	.uaword	0x732d
+	.uaword	0x7347
 	.uaword	.LLST28
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7347
+	.uaword	0x7361
 	.uaword	.LBB284
 	.uaword	.Ldebug_ranges0+0xd8
 	.byte	0x1
 	.uahalf	0x111
-	.uaword	0x8b30
+	.uaword	0x8b4a
 	.uleb128 0x32
-	.uaword	0x7384
+	.uaword	0x739e
 	.uaword	.LLST24
 	.uleb128 0x32
-	.uaword	0x7378
+	.uaword	0x7392
 	.uaword	.LLST30
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7391
+	.uaword	0x73ab
 	.uaword	.LBB288
 	.uaword	.Ldebug_ranges0+0xf0
 	.byte	0x1
 	.uahalf	0x115
-	.uaword	0x8b57
+	.uaword	0x8b71
 	.uleb128 0x32
-	.uaword	0x73cf
+	.uaword	0x73e9
 	.uaword	.LLST25
 	.uleb128 0x32
-	.uaword	0x73c3
+	.uaword	0x73dd
 	.uaword	.LLST32
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x73dc
+	.uaword	0x73f6
 	.uaword	.LBB292
 	.uaword	.LBE292
 	.byte	0x1
 	.uahalf	0x119
-	.uaword	0x8b7e
+	.uaword	0x8b98
 	.uleb128 0x32
-	.uaword	0x7419
+	.uaword	0x7433
 	.uaword	.LLST26
 	.uleb128 0x32
-	.uaword	0x740d
+	.uaword	0x7427
 	.uaword	.LLST34
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7426
+	.uaword	0x7440
 	.uaword	.LBB294
 	.uaword	.LBE294
 	.byte	0x1
 	.uahalf	0x121
-	.uaword	0x8ba5
+	.uaword	0x8bbf
 	.uleb128 0x32
-	.uaword	0x7465
+	.uaword	0x747f
 	.uaword	.LLST35
 	.uleb128 0x32
-	.uaword	0x7459
+	.uaword	0x7473
 	.uaword	.LLST36
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7472
+	.uaword	0x748c
 	.uaword	.LBB296
 	.uaword	.LBE296
 	.byte	0x1
 	.uahalf	0x124
-	.uaword	0x8bcc
+	.uaword	0x8be6
 	.uleb128 0x32
-	.uaword	0x74ad
+	.uaword	0x74c7
 	.uaword	.LLST37
 	.uleb128 0x32
-	.uaword	0x74a1
+	.uaword	0x74bb
 	.uaword	.LLST38
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x74bb
+	.uaword	0x74d5
 	.uaword	.LBB298
 	.uaword	.LBE298
 	.byte	0x1
 	.uahalf	0x127
-	.uaword	0x8bf3
+	.uaword	0x8c0d
 	.uleb128 0x32
-	.uaword	0x74f5
+	.uaword	0x750f
 	.uaword	.LLST39
 	.uleb128 0x32
-	.uaword	0x74e9
+	.uaword	0x7503
 	.uaword	.LLST40
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7502
+	.uaword	0x751c
 	.uaword	.LBB300
 	.uaword	.LBE300
 	.byte	0x1
 	.uahalf	0x136
-	.uaword	0x8c1a
+	.uaword	0x8c34
 	.uleb128 0x32
-	.uaword	0x7542
+	.uaword	0x755c
 	.uaword	.LLST41
 	.uleb128 0x32
-	.uaword	0x7536
+	.uaword	0x7550
 	.uaword	.LLST42
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x754f
+	.uaword	0x7569
 	.uaword	.LBB302
 	.uaword	.LBE302
 	.byte	0x1
 	.uahalf	0x139
-	.uaword	0x8c41
+	.uaword	0x8c5b
 	.uleb128 0x32
-	.uaword	0x758e
+	.uaword	0x75a8
 	.uaword	.LLST43
 	.uleb128 0x32
-	.uaword	0x7582
+	.uaword	0x759c
 	.uaword	.LLST44
 	.byte	0
 	.uleb128 0x3d
-	.uaword	0x7301
+	.uaword	0x731b
 	.uaword	.LBB304
 	.uaword	.LBE304
 	.byte	0x1
 	.byte	0xde
-	.uaword	0x8c67
+	.uaword	0x8c81
 	.uleb128 0x32
-	.uaword	0x7339
+	.uaword	0x7353
 	.uaword	.LLST45
 	.uleb128 0x32
-	.uaword	0x732d
+	.uaword	0x7347
 	.uaword	.LLST46
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7301
+	.uaword	0x731b
 	.uaword	.LBB306
 	.uaword	.Ldebug_ranges0+0x108
 	.byte	0x1
 	.uahalf	0x109
-	.uaword	0x8c8e
+	.uaword	0x8ca8
 	.uleb128 0x32
-	.uaword	0x7339
+	.uaword	0x7353
 	.uaword	.LLST47
 	.uleb128 0x32
-	.uaword	0x732d
+	.uaword	0x7347
 	.uaword	.LLST48
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7502
+	.uaword	0x751c
 	.uaword	.LBB310
 	.uaword	.LBE310
 	.byte	0x1
 	.uahalf	0x13f
-	.uaword	0x8cb5
+	.uaword	0x8ccf
 	.uleb128 0x32
-	.uaword	0x7542
+	.uaword	0x755c
 	.uaword	.LLST49
 	.uleb128 0x32
-	.uaword	0x7536
+	.uaword	0x7550
 	.uaword	.LLST50
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x754f
+	.uaword	0x7569
 	.uaword	.LBB312
 	.uaword	.LBE312
 	.byte	0x1
 	.uahalf	0x142
-	.uaword	0x8cdc
+	.uaword	0x8cf6
 	.uleb128 0x32
-	.uaword	0x758e
+	.uaword	0x75a8
 	.uaword	.LLST51
 	.uleb128 0x32
-	.uaword	0x7582
+	.uaword	0x759c
 	.uaword	.LLST52
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7472
+	.uaword	0x748c
 	.uaword	.LBB314
 	.uaword	.LBE314
 	.byte	0x1
 	.uahalf	0x12f
-	.uaword	0x8d03
+	.uaword	0x8d1d
 	.uleb128 0x32
-	.uaword	0x74ad
+	.uaword	0x74c7
 	.uaword	.LLST53
 	.uleb128 0x32
-	.uaword	0x74a1
+	.uaword	0x74bb
 	.uaword	.LLST54
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7301
+	.uaword	0x731b
 	.uaword	.LBB316
 	.uaword	.Ldebug_ranges0+0x120
 	.byte	0x1
 	.uahalf	0x103
-	.uaword	0x8d2a
+	.uaword	0x8d44
 	.uleb128 0x32
-	.uaword	0x7339
+	.uaword	0x7353
 	.uaword	.LLST55
 	.uleb128 0x32
-	.uaword	0x732d
+	.uaword	0x7347
 	.uaword	.LLST56
 	.byte	0
 	.uleb128 0x38
-	.uaword	0x7301
+	.uaword	0x731b
 	.uaword	.LBB320
 	.uaword	.Ldebug_ranges0+0x138
 	.byte	0x1
 	.byte	0xef
-	.uaword	0x8d50
+	.uaword	0x8d6a
 	.uleb128 0x32
-	.uaword	0x7339
+	.uaword	0x7353
 	.uaword	.LLST57
 	.uleb128 0x32
-	.uaword	0x732d
+	.uaword	0x7347
 	.uaword	.LLST58
 	.byte	0
 	.uleb128 0x31
-	.uaword	0x7301
+	.uaword	0x731b
 	.uaword	.LBB324
 	.uaword	.Ldebug_ranges0+0xa8
 	.byte	0x1
 	.byte	0xf6
 	.uleb128 0x32
-	.uaword	0x7339
+	.uaword	0x7353
 	.uaword	.LLST59
 	.uleb128 0x32
-	.uaword	0x732d
+	.uaword	0x7347
 	.uaword	.LLST60
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x759b
+	.uaword	0x75b5
 	.uaword	.LBB329
 	.uaword	.Ldebug_ranges0+0x150
 	.byte	0x1
 	.uahalf	0x165
-	.uaword	0x8d9a
+	.uaword	0x8db4
 	.uleb128 0x32
-	.uaword	0x75db
+	.uaword	0x75f5
 	.uaword	.LLST61
 	.uleb128 0x32
-	.uaword	0x75cf
+	.uaword	0x75e9
 	.uaword	.LLST62
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x75e8
+	.uaword	0x7602
 	.uaword	.LBB333
 	.uaword	.Ldebug_ranges0+0x168
 	.byte	0x1
 	.uahalf	0x16b
-	.uaword	0x8dbd
+	.uaword	0x8dd7
 	.uleb128 0x3e
-	.uaword	0x7625
+	.uaword	0x763f
 	.uleb128 0x32
-	.uaword	0x7619
+	.uaword	0x7633
 	.uaword	.LLST62
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7632
+	.uaword	0x764c
 	.uaword	.LBB338
 	.uaword	.Ldebug_ranges0+0x188
 	.byte	0x1
 	.uahalf	0x16e
-	.uaword	0x8de4
+	.uaword	0x8dfe
 	.uleb128 0x32
-	.uaword	0x7673
+	.uaword	0x768d
 	.uaword	.LLST64
 	.uleb128 0x32
-	.uaword	0x7667
+	.uaword	0x7681
 	.uaword	.LLST65
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x76c3
+	.uaword	0x76dd
 	.uaword	.LBB343
 	.uaword	.Ldebug_ranges0+0x1a0
 	.byte	0x1
 	.uahalf	0x173
-	.uaword	0x8e0b
+	.uaword	0x8e25
 	.uleb128 0x32
-	.uaword	0x7703
+	.uaword	0x771d
 	.uaword	.LLST66
 	.uleb128 0x32
-	.uaword	0x76f7
+	.uaword	0x7711
 	.uaword	.LLST67
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7710
+	.uaword	0x772a
 	.uaword	.LBB347
 	.uaword	.Ldebug_ranges0+0x1b8
 	.byte	0x1
 	.uahalf	0x17b
-	.uaword	0x8e3b
+	.uaword	0x8e55
 	.uleb128 0x32
-	.uaword	0x7758
+	.uaword	0x7772
 	.uaword	.LLST68
 	.uleb128 0x32
-	.uaword	0x774b
+	.uaword	0x7765
 	.uaword	.LLST69
 	.uleb128 0x32
-	.uaword	0x773f
+	.uaword	0x7759
 	.uaword	.LLST70
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x797a
+	.uaword	0x7994
 	.uaword	.LBB350
 	.uaword	.Ldebug_ranges0+0x1d0
 	.byte	0x1
 	.uahalf	0x19a
-	.uaword	0x8e62
+	.uaword	0x8e7c
 	.uleb128 0x32
-	.uaword	0x79bb
+	.uaword	0x79d5
 	.uaword	.LLST71
 	.uleb128 0x32
-	.uaword	0x79af
+	.uaword	0x79c9
 	.uaword	.LLST72
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7765
+	.uaword	0x777f
 	.uaword	.LBB354
 	.uaword	.LBE354
 	.byte	0x1
 	.uahalf	0x17e
-	.uaword	0x8e89
+	.uaword	0x8ea3
 	.uleb128 0x32
-	.uaword	0x779c
+	.uaword	0x77b6
 	.uaword	.LLST73
 	.uleb128 0x32
-	.uaword	0x7790
+	.uaword	0x77aa
 	.uaword	.LLST74
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x77a9
+	.uaword	0x77c3
 	.uaword	.LBB356
 	.uaword	.LBE356
 	.byte	0x1
 	.uahalf	0x184
-	.uaword	0x8eb9
+	.uaword	0x8ed3
 	.uleb128 0x32
-	.uaword	0x77eb
+	.uaword	0x7805
 	.uaword	.LLST75
 	.uleb128 0x32
-	.uaword	0x77df
+	.uaword	0x77f9
 	.uaword	.LLST76
 	.uleb128 0x32
-	.uaword	0x77d3
+	.uaword	0x77ed
 	.uaword	.LLST77
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x77f8
+	.uaword	0x7812
 	.uaword	.LBB358
 	.uaword	.LBE358
 	.byte	0x1
 	.uahalf	0x187
-	.uaword	0x8ee0
+	.uaword	0x8efa
 	.uleb128 0x32
-	.uaword	0x7838
+	.uaword	0x7852
 	.uaword	.LLST78
 	.uleb128 0x32
-	.uaword	0x782c
+	.uaword	0x7846
 	.uaword	.LLST79
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x784b
+	.uaword	0x7865
 	.uaword	.LBB360
 	.uaword	.LBE360
 	.byte	0x1
 	.uahalf	0x18a
-	.uaword	0x8f07
+	.uaword	0x8f21
 	.uleb128 0x32
-	.uaword	0x7885
+	.uaword	0x789f
 	.uaword	.LLST80
 	.uleb128 0x32
-	.uaword	0x7879
+	.uaword	0x7893
 	.uaword	.LLST81
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7892
+	.uaword	0x78ac
 	.uaword	.LBB362
 	.uaword	.LBE362
 	.byte	0x1
 	.uahalf	0x18f
-	.uaword	0x8f25
+	.uaword	0x8f3f
 	.uleb128 0x32
-	.uaword	0x78c2
+	.uaword	0x78dc
 	.uaword	.LLST82
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x78cf
+	.uaword	0x78e9
 	.uaword	.LBB364
 	.uaword	.LBE364
 	.byte	0x1
 	.uahalf	0x194
-	.uaword	0x8f4c
+	.uaword	0x8f66
 	.uleb128 0x32
-	.uaword	0x7917
+	.uaword	0x7931
 	.uaword	.LLST83
 	.uleb128 0x32
-	.uaword	0x790b
+	.uaword	0x7925
 	.uaword	.LLST84
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7924
+	.uaword	0x793e
 	.uaword	.LBB366
 	.uaword	.LBE366
 	.byte	0x1
 	.uahalf	0x197
-	.uaword	0x8f73
+	.uaword	0x8f8d
 	.uleb128 0x32
-	.uaword	0x796d
+	.uaword	0x7987
 	.uaword	.LLST85
 	.uleb128 0x32
-	.uaword	0x7961
+	.uaword	0x797b
 	.uaword	.LLST86
 	.byte	0
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x1e8
-	.uaword	0x9034
+	.uaword	0x904e
 	.uleb128 0x3f
 	.uaword	.LASF46
 	.byte	0x1
 	.uahalf	0x1a4
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB370
 	.uaword	.Ldebug_ranges0+0x218
 	.byte	0x1
 	.uahalf	0x1a4
-	.uaword	0x8fc0
+	.uaword	0x8fda
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST87
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST88
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x218
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST89
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7892
+	.uaword	0x78ac
 	.uaword	.LBB375
 	.uaword	.Ldebug_ranges0+0x238
 	.byte	0x1
 	.uahalf	0x1ad
-	.uaword	0x8fde
+	.uaword	0x8ff8
 	.uleb128 0x32
-	.uaword	0x78c2
+	.uaword	0x78dc
 	.uaword	.LLST90
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7472
+	.uaword	0x748c
 	.uaword	.LBB378
 	.uaword	.Ldebug_ranges0+0x250
 	.byte	0x1
 	.uahalf	0x1aa
-	.uaword	0x9005
+	.uaword	0x901f
 	.uleb128 0x32
-	.uaword	0x74ad
+	.uaword	0x74c7
 	.uaword	.LLST91
 	.uleb128 0x32
-	.uaword	0x74a1
+	.uaword	0x74bb
 	.uaword	.LLST92
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL88
-	.uaword	0xa7ff
-	.uaword	0x901e
+	.uaword	0xa819
+	.uaword	0x9038
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -16828,7 +16828,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL117
-	.uaword	0xa7ff
+	.uaword	0xa819
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -16844,12 +16844,12 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x270
-	.uaword	0x90dc
+	.uaword	0x90f6
 	.uleb128 0x3a
 	.string	"nextFifoObj"
 	.byte	0x1
 	.uahalf	0x1f8
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uaword	.LLST93
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x288
@@ -16857,46 +16857,46 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF46
 	.byte	0x1
 	.uahalf	0x1fe
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB396
 	.uaword	.Ldebug_ranges0+0x2b0
 	.byte	0x1
 	.uahalf	0x1fe
-	.uaword	0x909e
+	.uaword	0x90b8
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST94
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST95
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x2b0
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST96
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x759b
+	.uaword	0x75b5
 	.uaword	.LBB403
 	.uaword	.Ldebug_ranges0+0x2d8
 	.byte	0x1
 	.uahalf	0x215
-	.uaword	0x90c5
+	.uaword	0x90df
 	.uleb128 0x32
-	.uaword	0x75db
+	.uaword	0x75f5
 	.uaword	.LLST93
 	.uleb128 0x32
-	.uaword	0x75cf
+	.uaword	0x75e9
 	.uaword	.LLST98
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL145
-	.uaword	0xa838
+	.uaword	0xa852
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -16912,224 +16912,224 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x79d2
+	.uaword	0x79ec
 	.uaword	.LBB411
 	.uaword	.Ldebug_ranges0+0x2f0
 	.byte	0x1
 	.uahalf	0x21d
-	.uaword	0x9103
+	.uaword	0x911d
 	.uleb128 0x32
-	.uaword	0x7a11
+	.uaword	0x7a2b
 	.uaword	.LLST99
 	.uleb128 0x32
-	.uaword	0x7a05
+	.uaword	0x7a1f
 	.uaword	.LLST100
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7a1e
+	.uaword	0x7a38
 	.uaword	.LBB415
 	.uaword	.LBE415
 	.byte	0x1
 	.uahalf	0x220
-	.uaword	0x912a
+	.uaword	0x9144
 	.uleb128 0x32
-	.uaword	0x7a53
+	.uaword	0x7a6d
 	.uaword	.LLST101
 	.uleb128 0x32
-	.uaword	0x7a47
+	.uaword	0x7a61
 	.uaword	.LLST102
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7a60
+	.uaword	0x7a7a
 	.uaword	.LBB417
 	.uaword	.LBE417
 	.byte	0x1
 	.uahalf	0x223
-	.uaword	0x9151
+	.uaword	0x916b
 	.uleb128 0x32
-	.uaword	0x7a9b
+	.uaword	0x7ab5
 	.uaword	.LLST103
 	.uleb128 0x32
-	.uaword	0x7a8f
+	.uaword	0x7aa9
 	.uaword	.LLST104
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7aa8
+	.uaword	0x7ac2
 	.uaword	.LBB419
 	.uaword	.LBE419
 	.byte	0x1
 	.uahalf	0x226
-	.uaword	0x9178
+	.uaword	0x9192
 	.uleb128 0x32
-	.uaword	0x7ae9
+	.uaword	0x7b03
 	.uaword	.LLST105
 	.uleb128 0x32
-	.uaword	0x7add
+	.uaword	0x7af7
 	.uaword	.LLST106
 	.byte	0
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x308
-	.uaword	0x9382
+	.uaword	0x939c
 	.uleb128 0x3f
 	.uaword	.LASF46
 	.byte	0x1
 	.uahalf	0x1b9
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB423
 	.uaword	.Ldebug_ranges0+0x330
 	.byte	0x1
 	.uahalf	0x1b9
-	.uaword	0x91c5
+	.uaword	0x91df
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST107
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST108
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x330
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST109
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7892
+	.uaword	0x78ac
 	.uaword	.LBB429
 	.uaword	.Ldebug_ranges0+0x358
 	.byte	0x1
 	.uahalf	0x1c5
-	.uaword	0x91e3
+	.uaword	0x91fd
 	.uleb128 0x32
-	.uaword	0x78c2
+	.uaword	0x78dc
 	.uaword	.LLST110
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7301
+	.uaword	0x731b
 	.uaword	.LBB433
 	.uaword	.Ldebug_ranges0+0x370
 	.byte	0x1
 	.uahalf	0x1bc
-	.uaword	0x920a
+	.uaword	0x9224
 	.uleb128 0x32
-	.uaword	0x7339
+	.uaword	0x7353
 	.uaword	.LLST111
 	.uleb128 0x32
-	.uaword	0x732d
+	.uaword	0x7347
 	.uaword	.LLST112
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7632
+	.uaword	0x764c
 	.uaword	.LBB438
 	.uaword	.Ldebug_ranges0+0x398
 	.byte	0x1
 	.uahalf	0x1bf
-	.uaword	0x9231
+	.uaword	0x924b
 	.uleb128 0x32
-	.uaword	0x7673
+	.uaword	0x768d
 	.uaword	.LLST113
 	.uleb128 0x32
-	.uaword	0x7667
+	.uaword	0x7681
 	.uaword	.LLST114
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7472
+	.uaword	0x748c
 	.uaword	.LBB444
 	.uaword	.LBE444
 	.byte	0x1
 	.uahalf	0x1c2
-	.uaword	0x9258
+	.uaword	0x9272
 	.uleb128 0x32
-	.uaword	0x74ad
+	.uaword	0x74c7
 	.uaword	.LLST115
 	.uleb128 0x32
-	.uaword	0x74a1
+	.uaword	0x74bb
 	.uaword	.LLST116
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7710
+	.uaword	0x772a
 	.uaword	.LBB447
 	.uaword	.LBE447
 	.byte	0x1
 	.uahalf	0x1c8
-	.uaword	0x9288
+	.uaword	0x92a2
 	.uleb128 0x32
-	.uaword	0x7758
+	.uaword	0x7772
 	.uaword	.LLST117
 	.uleb128 0x32
-	.uaword	0x774b
+	.uaword	0x7765
 	.uaword	.LLST118
 	.uleb128 0x32
-	.uaword	0x773f
+	.uaword	0x7759
 	.uaword	.LLST119
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7765
+	.uaword	0x777f
 	.uaword	.LBB449
 	.uaword	.LBE449
 	.byte	0x1
 	.uahalf	0x1cb
-	.uaword	0x92af
+	.uaword	0x92c9
 	.uleb128 0x32
-	.uaword	0x779c
+	.uaword	0x77b6
 	.uaword	.LLST120
 	.uleb128 0x32
-	.uaword	0x7790
+	.uaword	0x77aa
 	.uaword	.LLST121
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x77a9
+	.uaword	0x77c3
 	.uaword	.LBB451
 	.uaword	.LBE451
 	.byte	0x1
 	.uahalf	0x1ce
-	.uaword	0x92df
+	.uaword	0x92f9
 	.uleb128 0x32
-	.uaword	0x77eb
+	.uaword	0x7805
 	.uaword	.LLST122
 	.uleb128 0x32
-	.uaword	0x77df
+	.uaword	0x77f9
 	.uaword	.LLST123
 	.uleb128 0x32
-	.uaword	0x77d3
+	.uaword	0x77ed
 	.uaword	.LLST124
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x77f8
+	.uaword	0x7812
 	.uaword	.LBB453
 	.uaword	.LBE453
 	.byte	0x1
 	.uahalf	0x1d1
-	.uaword	0x9306
+	.uaword	0x9320
 	.uleb128 0x32
-	.uaword	0x7838
+	.uaword	0x7852
 	.uaword	.LLST125
 	.uleb128 0x32
-	.uaword	0x782c
+	.uaword	0x7846
 	.uaword	.LLST126
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x784b
+	.uaword	0x7865
 	.uaword	.LBB455
 	.uaword	.LBE455
 	.byte	0x1
 	.uahalf	0x1d4
-	.uaword	0x932d
+	.uaword	0x9347
 	.uleb128 0x32
-	.uaword	0x7885
+	.uaword	0x789f
 	.uaword	.LLST127
 	.uleb128 0x32
-	.uaword	0x7879
+	.uaword	0x7893
 	.uaword	.LLST128
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL169
-	.uaword	0xa838
-	.uaword	0x9346
+	.uaword	0xa852
+	.uaword	0x9360
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17144,8 +17144,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL170
-	.uaword	0xa7ff
-	.uaword	0x935f
+	.uaword	0xa819
+	.uaword	0x9379
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17160,8 +17160,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL171
-	.uaword	0xa838
-	.uaword	0x9378
+	.uaword	0xa852
+	.uaword	0x9392
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17176,66 +17176,66 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x43
 	.uaword	.LVL173
-	.uaword	0xa838
+	.uaword	0xa852
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7632
+	.uaword	0x764c
 	.uaword	.LBB462
 	.uaword	.LBE462
 	.byte	0x1
 	.uahalf	0x157
-	.uaword	0x93a9
+	.uaword	0x93c3
 	.uleb128 0x32
-	.uaword	0x7673
+	.uaword	0x768d
 	.uaword	.LLST129
 	.uleb128 0x32
-	.uaword	0x7667
+	.uaword	0x7681
 	.uaword	.LLST130
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x759b
+	.uaword	0x75b5
 	.uaword	.LBB468
 	.uaword	.LBE468
 	.byte	0x1
 	.uahalf	0x14e
-	.uaword	0x93d0
+	.uaword	0x93ea
 	.uleb128 0x32
-	.uaword	0x75db
+	.uaword	0x75f5
 	.uaword	.LLST131
 	.uleb128 0x32
-	.uaword	0x75cf
+	.uaword	0x75e9
 	.uaword	.LLST132
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x75e8
+	.uaword	0x7602
 	.uaword	.LBB470
 	.uaword	.LBE470
 	.byte	0x1
 	.uahalf	0x151
-	.uaword	0x93f7
+	.uaword	0x9411
 	.uleb128 0x32
-	.uaword	0x7625
+	.uaword	0x763f
 	.uaword	.LLST133
 	.uleb128 0x32
-	.uaword	0x7619
+	.uaword	0x7633
 	.uaword	.LLST134
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7680
+	.uaword	0x769a
 	.uaword	.LBB477
 	.uaword	.LBE477
 	.byte	0x1
 	.uahalf	0x15d
-	.uaword	0x9413
+	.uaword	0x942d
 	.uleb128 0x44
-	.uaword	0x76b6
+	.uaword	0x76d0
 	.byte	0x1
 	.byte	0x6d
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL22
-	.uaword	0xa7ff
-	.uaword	0x942c
+	.uaword	0xa819
+	.uaword	0x9446
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17250,8 +17250,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL23
-	.uaword	0xa7ff
-	.uaword	0x9445
+	.uaword	0xa819
+	.uaword	0x945f
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17266,8 +17266,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL24
-	.uaword	0xa7ff
-	.uaword	0x945e
+	.uaword	0xa819
+	.uaword	0x9478
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17282,8 +17282,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL25
-	.uaword	0xa7ff
-	.uaword	0x9477
+	.uaword	0xa819
+	.uaword	0x9491
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17298,8 +17298,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL26
-	.uaword	0xa7ff
-	.uaword	0x9490
+	.uaword	0xa819
+	.uaword	0x94aa
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17314,8 +17314,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL27
-	.uaword	0xa7ff
-	.uaword	0x94a9
+	.uaword	0xa819
+	.uaword	0x94c3
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17330,8 +17330,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL28
-	.uaword	0xa7ff
-	.uaword	0x94c2
+	.uaword	0xa819
+	.uaword	0x94dc
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17346,8 +17346,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL29
-	.uaword	0xa7ff
-	.uaword	0x94db
+	.uaword	0xa819
+	.uaword	0x94f5
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17362,8 +17362,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL30
-	.uaword	0xa86f
-	.uaword	0x94f4
+	.uaword	0xa889
+	.uaword	0x950e
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17378,8 +17378,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL35
-	.uaword	0xa86f
-	.uaword	0x9518
+	.uaword	0xa889
+	.uaword	0x9532
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x56
@@ -17405,8 +17405,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL37
-	.uaword	0xa7ff
-	.uaword	0x9531
+	.uaword	0xa819
+	.uaword	0x954b
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17421,8 +17421,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL97
-	.uaword	0xa838
-	.uaword	0x954a
+	.uaword	0xa852
+	.uaword	0x9564
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17437,8 +17437,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL98
-	.uaword	0xa838
-	.uaword	0x9563
+	.uaword	0xa852
+	.uaword	0x957d
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17453,8 +17453,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL99
-	.uaword	0xa838
-	.uaword	0x957c
+	.uaword	0xa852
+	.uaword	0x9596
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17469,8 +17469,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL100
-	.uaword	0xa838
-	.uaword	0x9595
+	.uaword	0xa852
+	.uaword	0x95af
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17485,8 +17485,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL101
-	.uaword	0xa838
-	.uaword	0x95ae
+	.uaword	0xa852
+	.uaword	0x95c8
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17501,8 +17501,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL187
-	.uaword	0xa86f
-	.uaword	0x95cc
+	.uaword	0xa889
+	.uaword	0x95e6
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x55
@@ -17522,8 +17522,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL188
-	.uaword	0xa86f
-	.uaword	0x95ea
+	.uaword	0xa889
+	.uaword	0x9604
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x55
@@ -17543,8 +17543,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL190
-	.uaword	0xa838
-	.uaword	0x9603
+	.uaword	0xa852
+	.uaword	0x961d
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17559,8 +17559,8 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL191
-	.uaword	0xa838
-	.uaword	0x961c
+	.uaword	0xa852
+	.uaword	0x9636
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17575,7 +17575,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL193
-	.uaword	0xa838
+	.uaword	0xa852
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17591,9 +17591,9 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x9638
+	.uaword	0x9652
 	.uleb128 0x1f
-	.uaword	0x7066
+	.uaword	0x7080
 	.uleb128 0x45
 	.byte	0x1
 	.string	"IfxMultican_Can_MsgObj_initConfig"
@@ -17605,19 +17605,19 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9691
+	.uaword	0x96ab
 	.uleb128 0x46
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x22d
-	.uaword	0x88b3
+	.uaword	0x88cd
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x46
 	.uaword	.LASF31
 	.byte	0x1
 	.uahalf	0x22d
-	.uaword	0x6f53
+	.uaword	0x6f6d
 	.byte	0x1
 	.byte	0x65
 	.byte	0
@@ -17627,27 +17627,27 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.uahalf	0x254
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LFB324
 	.uaword	.LFE324
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9772
+	.uaword	0x978c
 	.uleb128 0x48
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x254
-	.uaword	0x88ad
+	.uaword	0x88c7
 	.uaword	.LLST135
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x3b0
-	.uaword	0x96f5
+	.uaword	0x970f
 	.uleb128 0x3f
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x258
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -17657,46 +17657,46 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x25d
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB483
 	.uaword	.Ldebug_ranges0+0x3e8
 	.byte	0x1
 	.uahalf	0x25d
-	.uaword	0x973e
+	.uaword	0x9758
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST136
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST137
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x3e8
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST138
 	.byte	0
 	.byte	0
 	.uleb128 0x49
-	.uaword	0x7af6
+	.uaword	0x7b10
 	.uaword	.LBB486
 	.uaword	.LBE486
 	.byte	0x1
 	.uahalf	0x25e
 	.uleb128 0x32
-	.uaword	0x7b23
+	.uaword	0x7b3d
 	.uaword	.LLST139
 	.uleb128 0x4a
 	.uaword	.LBB487
 	.uaword	.LBE487
 	.uleb128 0x4b
-	.uaword	0x7b2f
+	.uaword	0x7b49
 	.uleb128 0x43
 	.uaword	.LVL212
-	.uaword	0xa8aa
+	.uaword	0xa8c4
 	.byte	0
 	.byte	0
 	.byte	0
@@ -17707,27 +17707,27 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.uahalf	0x263
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LFB325
 	.uaword	.LFE325
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x985b
+	.uaword	0x9875
 	.uleb128 0x48
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x263
-	.uaword	0x88ad
+	.uaword	0x88c7
 	.uaword	.LLST140
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x400
-	.uaword	0x97de
+	.uaword	0x97f8
 	.uleb128 0x3f
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x267
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -17737,46 +17737,46 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x26d
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB494
 	.uaword	.Ldebug_ranges0+0x438
 	.byte	0x1
 	.uahalf	0x26d
-	.uaword	0x9827
+	.uaword	0x9841
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST141
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST142
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x438
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST143
 	.byte	0
 	.byte	0
 	.uleb128 0x49
-	.uaword	0x7b3c
+	.uaword	0x7b56
 	.uaword	.LBB497
 	.uaword	.LBE497
 	.byte	0x1
 	.uahalf	0x26f
 	.uleb128 0x32
-	.uaword	0x7b71
+	.uaword	0x7b8b
 	.uaword	.LLST144
 	.uleb128 0x4a
 	.uaword	.LBB498
 	.uaword	.LBE498
 	.uleb128 0x4b
-	.uaword	0x7b7d
+	.uaword	0x7b97
 	.uleb128 0x43
 	.uaword	.LVL221
-	.uaword	0xa8aa
+	.uaword	0xa8c4
 	.byte	0
 	.byte	0
 	.byte	0
@@ -17787,27 +17787,27 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.uahalf	0x274
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.uaword	.LFB326
 	.uaword	.LFE326
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x993c
+	.uaword	0x9956
 	.uleb128 0x48
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x274
-	.uaword	0x88ad
+	.uaword	0x88c7
 	.uaword	.LLST145
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x450
-	.uaword	0x98bf
+	.uaword	0x98d9
 	.uleb128 0x3f
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x278
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -17817,46 +17817,46 @@ IfxMultican_Can_initModuleConfig:
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x27e
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB505
 	.uaword	.Ldebug_ranges0+0x488
 	.byte	0x1
 	.uahalf	0x27e
-	.uaword	0x9908
+	.uaword	0x9922
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST146
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST147
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x488
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST148
 	.byte	0
 	.byte	0
 	.uleb128 0x49
-	.uaword	0x7b8a
+	.uaword	0x7ba4
 	.uaword	.LBB508
 	.uaword	.LBE508
 	.byte	0x1
 	.uahalf	0x280
 	.uleb128 0x32
-	.uaword	0x7bb7
+	.uaword	0x7bd1
 	.uaword	.LLST149
 	.uleb128 0x4a
 	.uaword	.LBB509
 	.uaword	.LBE509
 	.uleb128 0x4b
-	.uaword	0x7bc3
+	.uaword	0x7bdd
 	.uleb128 0x43
 	.uaword	.LVL230
-	.uaword	0xa8aa
+	.uaword	0xa8c4
 	.byte	0
 	.byte	0
 	.byte	0
@@ -17867,77 +17867,77 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.uahalf	0x285
 	.byte	0x1
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LFB327
 	.uaword	.LFE327
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9a66
+	.uaword	0x9a80
 	.uleb128 0x48
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x285
-	.uaword	0x88ad
+	.uaword	0x88c7
 	.uaword	.LLST150
 	.uleb128 0x4c
 	.string	"msg"
 	.byte	0x1
 	.uahalf	0x285
-	.uaword	0x9a66
+	.uaword	0x9a80
 	.uaword	.LLST151
 	.uleb128 0x4d
 	.uaword	.LASF45
 	.byte	0x1
 	.uahalf	0x287
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LLST152
 	.uleb128 0x3a
 	.string	"objId"
 	.byte	0x1
 	.uahalf	0x288
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uaword	.LLST153
 	.uleb128 0x3f
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x295
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB512
 	.uaword	.Ldebug_ranges0+0x4a0
 	.byte	0x1
 	.uahalf	0x295
-	.uaword	0x99fe
+	.uaword	0x9a18
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST154
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST155
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x4a0
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST156
 	.byte	0
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7bd0
+	.uaword	0x7bea
 	.uaword	.LBB523
 	.uaword	.LBE523
 	.byte	0x1
 	.uahalf	0x298
-	.uaword	0x9a31
+	.uaword	0x9a4b
 	.uleb128 0x32
-	.uaword	0x7bfc
+	.uaword	0x7c16
 	.uaword	.LLST157
 	.uleb128 0x42
 	.uaword	.LVL241
-	.uaword	0xa7ff
+	.uaword	0xa819
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -17952,19 +17952,19 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7c09
+	.uaword	0x7c23
 	.uaword	.LBB525
 	.uaword	.LBE525
 	.byte	0x1
 	.uahalf	0x2a3
-	.uaword	0x9a4f
+	.uaword	0x9a69
 	.uleb128 0x32
-	.uaword	0x7c41
+	.uaword	0x7c5b
 	.uaword	.LLST158
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL242
-	.uaword	0xa8dc
+	.uaword	0xa8f6
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x65
@@ -17981,84 +17981,84 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6aa4
+	.uaword	0x6abe
 	.uleb128 0x47
 	.byte	0x1
 	.string	"IfxMultican_Can_MsgObj_sendMessage"
 	.byte	0x1
 	.uahalf	0x2ad
 	.byte	0x1
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LFB328
 	.uaword	.LFE328
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9bc6
+	.uaword	0x9be0
 	.uleb128 0x48
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x2ad
-	.uaword	0x88ad
+	.uaword	0x88c7
 	.uaword	.LLST159
 	.uleb128 0x4c
 	.string	"msg"
 	.byte	0x1
 	.uahalf	0x2ad
-	.uaword	0x9bc6
+	.uaword	0x9be0
 	.uaword	.LLST160
 	.uleb128 0x4d
 	.uaword	.LASF45
 	.byte	0x1
 	.uahalf	0x2af
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LLST161
 	.uleb128 0x3a
 	.string	"objId"
 	.byte	0x1
 	.uahalf	0x2b0
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uaword	.LLST162
 	.uleb128 0x3f
 	.uaword	.LASF37
 	.byte	0x1
 	.uahalf	0x2c2
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x4d8
-	.uaword	0x9b5b
+	.uaword	0x9b75
 	.uleb128 0x4e
 	.string	"hwBaseObj"
 	.byte	0x1
 	.uahalf	0x2b7
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB529
 	.uaword	.Ldebug_ranges0+0x4f0
 	.byte	0x1
 	.uahalf	0x2b7
-	.uaword	0x9b4b
+	.uaword	0x9b65
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST163
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST164
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x4f0
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST165
 	.byte	0
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL253
-	.uaword	0xa838
+	.uaword	0xa852
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -18067,39 +18067,39 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x72a5
+	.uaword	0x72bf
 	.uaword	.LBB537
 	.uaword	.Ldebug_ranges0+0x518
 	.byte	0x1
 	.uahalf	0x2c2
-	.uaword	0x9b91
+	.uaword	0x9bab
 	.uleb128 0x32
-	.uaword	0x72dd
+	.uaword	0x72f7
 	.uaword	.LLST166
 	.uleb128 0x32
-	.uaword	0x72d1
+	.uaword	0x72eb
 	.uaword	.LLST167
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x518
 	.uleb128 0x34
-	.uaword	0x72e9
+	.uaword	0x7303
 	.uaword	.LLST168
 	.byte	0
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7c09
+	.uaword	0x7c23
 	.uaword	.LBB542
 	.uaword	.LBE542
 	.byte	0x1
 	.uahalf	0x2cd
-	.uaword	0x9baf
+	.uaword	0x9bc9
 	.uleb128 0x32
-	.uaword	0x7c41
+	.uaword	0x7c5b
 	.uaword	.LLST169
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL256
-	.uaword	0xa915
+	.uaword	0xa92f
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x65
@@ -18116,9 +18116,9 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x9bcc
+	.uaword	0x9be6
 	.uleb128 0x1f
-	.uaword	0x6aa4
+	.uaword	0x6abe
 	.uleb128 0x45
 	.byte	0x1
 	.string	"IfxMultican_Can_Node_initConfig"
@@ -18130,25 +18130,25 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9c23
+	.uaword	0x9c3d
 	.uleb128 0x46
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x342
-	.uaword	0x9c23
+	.uaword	0x9c3d
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x46
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x342
-	.uaword	0x7dc3
+	.uaword	0x7ddd
 	.byte	0x1
 	.byte	0x65
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x724e
+	.uaword	0x7268
 	.uleb128 0x45
 	.byte	0x1
 	.string	"IfxMultican_Can_Node_sendToBusOff"
@@ -18160,120 +18160,120 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9c8d
+	.uaword	0x9ca7
 	.uleb128 0x46
 	.uaword	.LASF31
 	.byte	0x1
 	.uahalf	0x372
-	.uaword	0x6f53
+	.uaword	0x6f6d
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x25
 	.string	"i"
 	.byte	0x1
 	.uahalf	0x374
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x3a
 	.string	"counter"
 	.byte	0x1
 	.uahalf	0x374
-	.uaword	0x222
+	.uaword	0x23c
 	.uaword	.LLST170
 	.byte	0
 	.uleb128 0x4f
-	.uaword	0x7d5e
+	.uaword	0x7d78
 	.uaword	.LFB333
 	.uaword	.LFE333
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9d89
+	.uaword	0x9da3
 	.uleb128 0x32
-	.uaword	0x7d83
+	.uaword	0x7d9d
 	.uaword	.LLST171
 	.uleb128 0x32
-	.uaword	0x7d8f
+	.uaword	0x7da9
 	.uaword	.LLST172
 	.uleb128 0x3c
-	.uaword	0x7c4e
+	.uaword	0x7c68
 	.uaword	.LBB559
 	.uaword	.LBE559
 	.byte	0x1
 	.uahalf	0x384
-	.uaword	0x9cd1
+	.uaword	0x9ceb
 	.uleb128 0x32
-	.uaword	0x7c76
+	.uaword	0x7c90
 	.uaword	.LLST173
 	.byte	0
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x538
-	.uaword	0x9d76
+	.uaword	0x9d90
 	.uleb128 0x32
-	.uaword	0x7d8f
+	.uaword	0x7da9
 	.uaword	.LLST174
 	.uleb128 0x32
-	.uaword	0x7d83
+	.uaword	0x7d9d
 	.uaword	.LLST175
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x538
 	.uleb128 0x50
-	.uaword	0x7d9c
+	.uaword	0x7db6
 	.byte	0x1
 	.byte	0x5f
 	.uleb128 0x4b
-	.uaword	0x7da9
+	.uaword	0x7dc3
 	.uleb128 0x4b
-	.uaword	0x7db5
+	.uaword	0x7dcf
 	.uleb128 0x3c
-	.uaword	0x7c83
+	.uaword	0x7c9d
 	.uaword	.LBB563
 	.uaword	.LBE563
 	.byte	0x1
 	.uahalf	0x388
-	.uaword	0x9d3c
+	.uaword	0x9d56
 	.uleb128 0x4a
 	.uaword	.LBB564
 	.uaword	.LBE564
 	.uleb128 0x34
-	.uaword	0x7cab
+	.uaword	0x7cc5
 	.uaword	.LLST176
 	.uleb128 0x34
-	.uaword	0x7cc0
+	.uaword	0x7cda
 	.uaword	.LLST177
 	.uleb128 0x43
 	.uaword	.LVL276
-	.uaword	0xa94e
+	.uaword	0xa968
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7cd9
+	.uaword	0x7cf3
 	.uaword	.LBB565
 	.uaword	.Ldebug_ranges0+0x550
 	.byte	0x1
 	.uahalf	0x38a
-	.uaword	0x9d5a
+	.uaword	0x9d74
 	.uleb128 0x32
-	.uaword	0x7d0c
+	.uaword	0x7d26
 	.uaword	.LLST178
 	.byte	0
 	.uleb128 0x51
-	.uaword	0x7d19
+	.uaword	0x7d33
 	.uaword	.LBB568
 	.uaword	.Ldebug_ranges0+0x568
 	.byte	0x1
 	.uahalf	0x38b
 	.uleb128 0x32
-	.uaword	0x7d51
+	.uaword	0x7d6b
 	.uaword	.LLST179
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x43
 	.uaword	.LVL283
-	.uaword	0xa976
+	.uaword	0xa990
 	.uleb128 0x43
 	.uaword	.LVL285
-	.uaword	0xa99c
+	.uaword	0xa9b6
 	.byte	0
 	.uleb128 0x45
 	.byte	0x1
@@ -18286,31 +18286,31 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9e6c
+	.uaword	0x9e86
 	.uleb128 0x48
 	.uaword	.LASF31
 	.byte	0x1
 	.uahalf	0x2d7
-	.uaword	0x6f53
+	.uaword	0x6f6d
 	.uaword	.LLST180
 	.uleb128 0x48
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x2d7
-	.uaword	0x9c23
+	.uaword	0x9c3d
 	.uaword	.LLST181
 	.uleb128 0x3f
 	.uaword	.LASF43
 	.byte	0x1
 	.uahalf	0x2d9
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x3f
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x2db
-	.uaword	0x6e79
+	.uaword	0x6e93
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -80
@@ -18318,28 +18318,28 @@ IfxMultican_Can_initModuleConfig:
 	.string	"fcan"
 	.byte	0x1
 	.uahalf	0x2df
-	.uaword	0x230
+	.uaword	0x24a
 	.uleb128 0x3c
-	.uaword	0x7dcf
+	.uaword	0x7de9
 	.uaword	.LBB575
 	.uaword	.LBE575
 	.byte	0x1
 	.uahalf	0x2df
-	.uaword	0x9e4f
+	.uaword	0x9e69
 	.uleb128 0x32
-	.uaword	0x7e01
+	.uaword	0x7e1b
 	.uaword	.LLST182
 	.uleb128 0x4a
 	.uaword	.LBB576
 	.uaword	.LBE576
 	.uleb128 0x50
-	.uaword	0x7e0d
+	.uaword	0x7e27
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -76
 	.uleb128 0x42
 	.uaword	.LVL293
-	.uaword	0x7d5e
+	.uaword	0x7d78
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x65
@@ -18357,7 +18357,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL294
-	.uaword	0xa9c5
+	.uaword	0xa9df
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x66
@@ -18384,292 +18384,292 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.uahalf	0x2eb
 	.byte	0x1
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LFB330
 	.uaword	.LFE330
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xa346
+	.uaword	0xa360
 	.uleb128 0x48
 	.uaword	.LASF31
 	.byte	0x1
 	.uahalf	0x2eb
-	.uaword	0x6f53
+	.uaword	0x6f6d
 	.uaword	.LLST183
 	.uleb128 0x48
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x2eb
-	.uaword	0xa346
+	.uaword	0xa360
 	.uaword	.LLST184
 	.uleb128 0x3f
 	.uaword	.LASF43
 	.byte	0x1
 	.uahalf	0x2ed
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x4d
 	.uaword	.LASF45
 	.byte	0x1
 	.uahalf	0x2ee
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LLST185
 	.uleb128 0x3b
-	.uaword	0x7e1a
+	.uaword	0x7e34
 	.uaword	.LBB577
 	.uaword	.Ldebug_ranges0+0x580
 	.byte	0x1
 	.uahalf	0x2ed
-	.uaword	0x9f13
+	.uaword	0x9f2d
 	.uleb128 0x32
-	.uaword	0x7e50
+	.uaword	0x7e6a
 	.uaword	.LLST186
 	.uleb128 0x32
-	.uaword	0x7e44
+	.uaword	0x7e5e
 	.uaword	.LLST187
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x580
 	.uleb128 0x34
-	.uaword	0x7e5c
+	.uaword	0x7e76
 	.uaword	.LLST188
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x7e6d
+	.uaword	0x7e87
 	.uaword	.LBB583
 	.uaword	.Ldebug_ranges0+0x5a8
 	.byte	0x1
 	.uahalf	0x2f6
-	.uaword	0x9f31
+	.uaword	0x9f4b
 	.uleb128 0x32
-	.uaword	0x7e9d
+	.uaword	0x7eb7
 	.uaword	.LLST189
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7eaa
+	.uaword	0x7ec4
 	.uaword	.LBB586
 	.uaword	.LBE586
 	.byte	0x1
 	.uahalf	0x2f7
-	.uaword	0x9f58
+	.uaword	0x9f72
 	.uleb128 0x32
-	.uaword	0x7ee6
+	.uaword	0x7f00
 	.uaword	.LLST190
 	.uleb128 0x32
-	.uaword	0x7eda
+	.uaword	0x7ef4
 	.uaword	.LLST191
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7ef3
+	.uaword	0x7f0d
 	.uaword	.LBB588
 	.uaword	.LBE588
 	.byte	0x1
 	.uahalf	0x2f8
-	.uaword	0x9f7f
+	.uaword	0x9f99
 	.uleb128 0x32
-	.uaword	0x7f34
+	.uaword	0x7f4e
 	.uaword	.LLST192
 	.uleb128 0x32
-	.uaword	0x7f28
+	.uaword	0x7f42
 	.uaword	.LLST193
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7f41
+	.uaword	0x7f5b
 	.uaword	.LBB590
 	.uaword	.LBE590
 	.byte	0x1
 	.uahalf	0x2f9
-	.uaword	0x9fa6
+	.uaword	0x9fc0
 	.uleb128 0x32
-	.uaword	0x7f7a
+	.uaword	0x7f94
 	.uaword	.LLST194
 	.uleb128 0x32
-	.uaword	0x7f6e
+	.uaword	0x7f88
 	.uaword	.LLST195
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7f87
+	.uaword	0x7fa1
 	.uaword	.LBB592
 	.uaword	.LBE592
 	.byte	0x1
 	.uahalf	0x2fa
-	.uaword	0x9fcd
+	.uaword	0x9fe7
 	.uleb128 0x32
-	.uaword	0x7fbe
+	.uaword	0x7fd8
 	.uaword	.LLST196
 	.uleb128 0x32
-	.uaword	0x7fb2
+	.uaword	0x7fcc
 	.uaword	.LLST197
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7fcc
+	.uaword	0x7fe6
 	.uaword	.LBB594
 	.uaword	.LBE594
 	.byte	0x1
 	.uahalf	0x2fb
-	.uaword	0x9feb
+	.uaword	0xa005
 	.uleb128 0x32
-	.uaword	0x7ff0
+	.uaword	0x800a
 	.uaword	.LLST198
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7ffd
+	.uaword	0x8017
 	.uaword	.LBB596
 	.uaword	.LBE596
 	.byte	0x1
 	.uahalf	0x2ff
-	.uaword	0xa009
+	.uaword	0xa023
 	.uleb128 0x32
-	.uaword	0x802f
+	.uaword	0x8049
 	.uaword	.LLST199
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x803c
+	.uaword	0x8056
 	.uaword	.LBB598
 	.uaword	.LBE598
 	.byte	0x1
 	.uahalf	0x300
-	.uaword	0xa030
+	.uaword	0xa04a
 	.uleb128 0x32
-	.uaword	0x807f
+	.uaword	0x8099
 	.uaword	.LLST200
 	.uleb128 0x32
-	.uaword	0x8073
+	.uaword	0x808d
 	.uaword	.LLST201
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x808c
+	.uaword	0x80a6
 	.uaword	.LBB600
 	.uaword	.LBE600
 	.byte	0x1
 	.uahalf	0x301
-	.uaword	0xa057
+	.uaword	0xa071
 	.uleb128 0x32
-	.uaword	0x80d4
+	.uaword	0x80ee
 	.uaword	.LLST202
 	.uleb128 0x32
-	.uaword	0x80c8
+	.uaword	0x80e2
 	.uaword	.LLST203
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x80e1
+	.uaword	0x80fb
 	.uaword	.LBB602
 	.uaword	.LBE602
 	.byte	0x1
 	.uahalf	0x302
-	.uaword	0xa07e
+	.uaword	0xa098
 	.uleb128 0x32
-	.uaword	0x8121
+	.uaword	0x813b
 	.uaword	.LLST204
 	.uleb128 0x32
-	.uaword	0x8115
+	.uaword	0x812f
 	.uaword	.LLST205
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x812e
+	.uaword	0x8148
 	.uaword	.LBB604
 	.uaword	.LBE604
 	.byte	0x1
 	.uahalf	0x303
-	.uaword	0xa0a5
+	.uaword	0xa0bf
 	.uleb128 0x32
-	.uaword	0x8175
+	.uaword	0x818f
 	.uaword	.LLST206
 	.uleb128 0x32
-	.uaword	0x8169
+	.uaword	0x8183
 	.uaword	.LLST207
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x8182
+	.uaword	0x819c
 	.uaword	.LBB606
 	.uaword	.LBE606
 	.byte	0x1
 	.uahalf	0x304
-	.uaword	0xa0cc
+	.uaword	0xa0e6
 	.uleb128 0x32
-	.uaword	0x81c7
+	.uaword	0x81e1
 	.uaword	.LLST208
 	.uleb128 0x32
-	.uaword	0x81bb
+	.uaword	0x81d5
 	.uaword	.LLST209
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x81d4
+	.uaword	0x81ee
 	.uaword	.LBB608
 	.uaword	.LBE608
 	.byte	0x1
 	.uahalf	0x308
-	.uaword	0xa0ea
+	.uaword	0xa104
 	.uleb128 0x32
-	.uaword	0x8202
+	.uaword	0x821c
 	.uaword	.LLST210
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x820f
+	.uaword	0x8229
 	.uaword	.LBB610
 	.uaword	.LBE610
 	.byte	0x1
 	.uahalf	0x309
-	.uaword	0xa111
+	.uaword	0xa12b
 	.uleb128 0x32
-	.uaword	0x824d
+	.uaword	0x8267
 	.uaword	.LLST211
 	.uleb128 0x32
-	.uaword	0x8241
+	.uaword	0x825b
 	.uaword	.LLST212
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x825c
+	.uaword	0x8276
 	.uaword	.LBB612
 	.uaword	.LBE612
 	.byte	0x1
 	.uahalf	0x30a
-	.uaword	0xa138
+	.uaword	0xa152
 	.uleb128 0x32
-	.uaword	0x829b
+	.uaword	0x82b5
 	.uaword	.LLST213
 	.uleb128 0x32
-	.uaword	0x828f
+	.uaword	0x82a9
 	.uaword	.LLST214
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x82aa
+	.uaword	0x82c4
 	.uaword	.LBB614
 	.uaword	.LBE614
 	.byte	0x1
 	.uahalf	0x30b
-	.uaword	0xa15f
+	.uaword	0xa179
 	.uleb128 0x32
-	.uaword	0x82e6
+	.uaword	0x8300
 	.uaword	.LLST215
 	.uleb128 0x32
-	.uaword	0x82da
+	.uaword	0x82f4
 	.uaword	.LLST214
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x82f5
+	.uaword	0x830f
 	.uaword	.LBB616
 	.uaword	.LBE616
 	.byte	0x1
 	.uahalf	0x30f
-	.uaword	0xa186
+	.uaword	0xa1a0
 	.uleb128 0x32
-	.uaword	0x832c
+	.uaword	0x8346
 	.uaword	.LLST217
 	.uleb128 0x32
-	.uaword	0x8320
+	.uaword	0x833a
 	.uaword	.LLST218
 	.byte	0
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x5c0
-	.uaword	0xa2b5
+	.uaword	0xa2cf
 	.uleb128 0x3f
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x31d
-	.uaword	0x6e79
+	.uaword	0x6e93
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -80
@@ -18677,27 +18677,27 @@ IfxMultican_Can_initModuleConfig:
 	.string	"fcan"
 	.byte	0x1
 	.uahalf	0x320
-	.uaword	0x230
+	.uaword	0x24a
 	.uleb128 0x3b
-	.uaword	0x7dcf
+	.uaword	0x7de9
 	.uaword	.LBB619
 	.uaword	.Ldebug_ranges0+0x5d8
 	.byte	0x1
 	.uahalf	0x320
-	.uaword	0xa1ef
+	.uaword	0xa209
 	.uleb128 0x32
-	.uaword	0x7e01
+	.uaword	0x7e1b
 	.uaword	.LLST219
 	.uleb128 0x33
 	.uaword	.Ldebug_ranges0+0x5d8
 	.uleb128 0x50
-	.uaword	0x7e0d
+	.uaword	0x7e27
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -76
 	.uleb128 0x42
 	.uaword	.LVL324
-	.uaword	0x7d5e
+	.uaword	0x7d78
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x65
@@ -18714,58 +18714,58 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x833a
+	.uaword	0x8354
 	.uaword	.LBB623
 	.uaword	.Ldebug_ranges0+0x5f0
 	.byte	0x1
 	.uahalf	0x328
-	.uaword	0xa216
+	.uaword	0xa230
 	.uleb128 0x32
-	.uaword	0x836d
+	.uaword	0x8387
 	.uaword	.LLST220
 	.uleb128 0x32
-	.uaword	0x8361
+	.uaword	0x837b
 	.uaword	.LLST221
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x837a
+	.uaword	0x8394
 	.uaword	.LBB629
 	.uaword	.LBE629
 	.byte	0x1
 	.uahalf	0x330
-	.uaword	0xa23d
+	.uaword	0xa257
 	.uleb128 0x32
-	.uaword	0x83c7
+	.uaword	0x83e1
 	.uaword	.LLST222
 	.uleb128 0x32
-	.uaword	0x83bb
+	.uaword	0x83d5
 	.uaword	.LLST223
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x83d6
+	.uaword	0x83f0
 	.uaword	.LBB631
 	.uaword	.LBE631
 	.byte	0x1
 	.uahalf	0x331
-	.uaword	0xa264
+	.uaword	0xa27e
 	.uleb128 0x32
-	.uaword	0x841d
+	.uaword	0x8437
 	.uaword	.LLST224
 	.uleb128 0x32
-	.uaword	0x8411
+	.uaword	0x842b
 	.uaword	.LLST225
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL326
-	.uaword	0xaa14
-	.uaword	0xa280
+	.uaword	0xaa2e
+	.uaword	0xa29a
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
 	.byte	0x4
 	.byte	0xf5
 	.uleb128 0x8
-	.uleb128 0x185
+	.uleb128 0x19f
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x64
@@ -18775,15 +18775,15 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL327
-	.uaword	0xaa5e
-	.uaword	0xa29c
+	.uaword	0xaa78
+	.uaword	0xa2b6
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
 	.byte	0x4
 	.byte	0xf5
 	.uleb128 0x8
-	.uleb128 0x185
+	.uleb128 0x19f
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x64
@@ -18793,14 +18793,14 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL334
-	.uaword	0xaaa5
+	.uaword	0xaabf
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
 	.byte	0x4
 	.byte	0xf5
 	.uleb128 0x8
-	.uleb128 0x185
+	.uleb128 0x19f
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x64
@@ -18810,48 +18810,48 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x842a
+	.uaword	0x8444
 	.uaword	.LBB633
 	.uaword	.LBE633
 	.byte	0x1
 	.uahalf	0x337
-	.uaword	0xa2dc
+	.uaword	0xa2f6
 	.uleb128 0x32
-	.uaword	0x8465
+	.uaword	0x847f
 	.uaword	.LLST226
 	.uleb128 0x32
-	.uaword	0x8459
+	.uaword	0x8473
 	.uaword	.LLST227
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x8473
+	.uaword	0x848d
 	.uaword	.LBB635
 	.uaword	.LBE635
 	.byte	0x1
 	.uahalf	0x338
-	.uaword	0xa303
+	.uaword	0xa31d
 	.uleb128 0x32
-	.uaword	0x84b3
+	.uaword	0x84cd
 	.uaword	.LLST228
 	.uleb128 0x32
-	.uaword	0x84a7
+	.uaword	0x84c1
 	.uaword	.LLST229
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x84c0
+	.uaword	0x84da
 	.uaword	.LBB637
 	.uaword	.LBE637
 	.byte	0x1
 	.uahalf	0x33b
-	.uaword	0xa321
+	.uaword	0xa33b
 	.uleb128 0x32
-	.uaword	0x84f6
+	.uaword	0x8510
 	.uaword	.LLST230
 	.byte	0
 	.uleb128 0x40
 	.uaword	.LVL318
-	.uaword	0xaae8
-	.uaword	0xa335
+	.uaword	0xab02
+	.uaword	0xa34f
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x64
@@ -18861,7 +18861,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL320
-	.uaword	0xab27
+	.uaword	0xab41
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x64
@@ -18872,28 +18872,28 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xa34c
+	.uaword	0xa366
 	.uleb128 0x1f
-	.uaword	0x724e
+	.uaword	0x7268
 	.uleb128 0x4f
-	.uaword	0x7dcf
+	.uaword	0x7de9
 	.uaword	.LFB334
 	.uaword	.LFE334
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xa390
+	.uaword	0xa3aa
 	.uleb128 0x32
-	.uaword	0x7e01
+	.uaword	0x7e1b
 	.uaword	.LLST231
 	.uleb128 0x50
-	.uaword	0x7e0d
+	.uaword	0x7e27
 	.byte	0x3
 	.byte	0x91
 	.sleb128 -76
 	.uleb128 0x42
 	.uaword	.LVL341
-	.uaword	0x7d5e
+	.uaword	0x7d78
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x65
@@ -18915,170 +18915,170 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.uahalf	0x3b3
 	.byte	0x1
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.uaword	.LFB335
 	.uaword	.LFE335
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xa740
+	.uaword	0xa75a
 	.uleb128 0x48
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x3b3
-	.uaword	0x7dc3
+	.uaword	0x7ddd
 	.uaword	.LLST232
 	.uleb128 0x48
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x3b3
-	.uaword	0xa740
+	.uaword	0xa75a
 	.uaword	.LLST233
 	.uleb128 0x3a
 	.string	"mcanSFR"
 	.byte	0x1
 	.uahalf	0x3b5
-	.uaword	0x601a
+	.uaword	0x6034
 	.uaword	.LLST234
 	.uleb128 0x28
 	.uaword	.LASF42
 	.byte	0x1
 	.uahalf	0x3b9
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x28
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x3b9
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x3a
 	.string	"i"
 	.byte	0x1
 	.uahalf	0x3b9
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uaword	.LLST235
 	.uleb128 0x4d
 	.uaword	.LASF27
 	.byte	0x1
 	.uahalf	0x40b
-	.uaword	0x346f
+	.uaword	0x3489
 	.uaword	.LLST236
 	.uleb128 0x3a
 	.string	"numSrcs"
 	.byte	0x1
 	.uahalf	0x40c
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uaword	.LLST237
 	.uleb128 0x3b
-	.uaword	0x8671
+	.uaword	0x868b
 	.uaword	.LBB643
 	.uaword	.Ldebug_ranges0+0x610
 	.byte	0x1
 	.uahalf	0x3e9
-	.uaword	0xa460
+	.uaword	0xa47a
 	.uleb128 0x32
-	.uaword	0x8695
+	.uaword	0x86af
 	.uaword	.LLST238
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x86a2
+	.uaword	0x86bc
 	.uaword	.LBB646
 	.uaword	.LBE646
 	.byte	0x1
 	.uahalf	0x401
-	.uaword	0xa487
+	.uaword	0xa4a1
 	.uleb128 0x32
-	.uaword	0x86e4
+	.uaword	0x86fe
 	.uaword	.LLST239
 	.uleb128 0x32
-	.uaword	0x86d8
+	.uaword	0x86f2
 	.uaword	.LLST240
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x86f2
+	.uaword	0x870c
 	.uaword	.LBB648
 	.uaword	.Ldebug_ranges0+0x628
 	.byte	0x1
 	.uahalf	0x405
-	.uaword	0xa4a5
+	.uaword	0xa4bf
 	.uleb128 0x32
-	.uaword	0x8723
+	.uaword	0x873d
 	.uaword	.LLST241
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x8730
+	.uaword	0x874a
 	.uaword	.LBB654
 	.uaword	.LBE654
 	.byte	0x1
 	.uahalf	0x408
-	.uaword	0xa4cc
+	.uaword	0xa4e6
 	.uleb128 0x32
-	.uaword	0x8766
+	.uaword	0x8780
 	.uaword	.LLST242
 	.uleb128 0x32
-	.uaword	0x875a
+	.uaword	0x8774
 	.uaword	.LLST243
 	.byte	0
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x648
-	.uaword	0xa589
+	.uaword	0xa5a3
 	.uleb128 0x3a
 	.string	"srcPointer"
 	.byte	0x1
 	.uahalf	0x410
-	.uaword	0x729a
+	.uaword	0x72b4
 	.uaword	.LLST244
 	.uleb128 0x3b
-	.uaword	0x87b4
+	.uaword	0x87ce
 	.uaword	.LBB658
 	.uaword	.Ldebug_ranges0+0x670
 	.byte	0x1
 	.uahalf	0x415
-	.uaword	0xa50a
+	.uaword	0xa524
 	.uleb128 0x32
-	.uaword	0x87cb
+	.uaword	0x87e5
 	.uaword	.LLST245
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x8774
+	.uaword	0x878e
 	.uaword	.LBB662
 	.uaword	.Ldebug_ranges0+0x688
 	.byte	0x1
 	.uahalf	0x411
-	.uaword	0xa554
+	.uaword	0xa56e
 	.uleb128 0x32
-	.uaword	0x87a8
+	.uaword	0x87c2
 	.uaword	.LLST246
 	.uleb128 0x32
-	.uaword	0x8794
+	.uaword	0x87ae
 	.uaword	.LLST247
 	.uleb128 0x32
-	.uaword	0x8789
+	.uaword	0x87a3
 	.uaword	.LLST248
 	.uleb128 0x49
-	.uaword	0x7271
+	.uaword	0x728b
 	.uaword	.LBB664
 	.uaword	.LBE664
 	.byte	0x4
 	.uahalf	0x102
 	.uleb128 0x32
-	.uaword	0x728e
+	.uaword	0x72a8
 	.uaword	.LLST249
 	.byte	0
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x87d7
+	.uaword	0x87f1
 	.uaword	.LBB670
 	.uaword	.Ldebug_ranges0+0x6a8
 	.byte	0x1
 	.uahalf	0x419
-	.uaword	0xa572
+	.uaword	0xa58c
 	.uleb128 0x32
-	.uaword	0x87ef
+	.uaword	0x8809
 	.uaword	.LLST250
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL356
-	.uaword	0xab66
+	.uaword	0xab80
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -19099,145 +19099,145 @@ IfxMultican_Can_initModuleConfig:
 	.string	"passwd"
 	.byte	0x1
 	.uahalf	0x3d3
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uaword	.LLST251
 	.uleb128 0x39
 	.uaword	.Ldebug_ranges0+0x6d8
-	.uaword	0xa61f
+	.uaword	0xa639
 	.uleb128 0x3a
 	.string	"stepN"
 	.byte	0x1
 	.uahalf	0x3bf
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uaword	.LLST252
 	.uleb128 0x3a
 	.string	"stepF"
 	.byte	0x1
 	.uahalf	0x3bf
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uaword	.LLST253
 	.uleb128 0x25
 	.string	"normalDiv"
 	.byte	0x1
 	.uahalf	0x3c0
-	.uaword	0x249
+	.uaword	0x263
 	.uleb128 0x3a
 	.string	"freqN"
 	.byte	0x1
 	.uahalf	0x3c1
-	.uaword	0x230
+	.uaword	0x24a
 	.uaword	.LLST254
 	.uleb128 0x3a
 	.string	"freqF"
 	.byte	0x1
 	.uahalf	0x3c1
-	.uaword	0x230
+	.uaword	0x24a
 	.uaword	.LLST255
 	.uleb128 0x3a
 	.string	"fsys"
 	.byte	0x1
 	.uahalf	0x3c3
-	.uaword	0x230
+	.uaword	0x24a
 	.uaword	.LLST256
 	.uleb128 0x43
 	.uaword	.LVL367
-	.uaword	0xab9a
+	.uaword	0xabb4
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x8503
+	.uaword	0x851d
 	.uaword	.LBB679
 	.uaword	.LBE679
 	.byte	0x1
 	.uahalf	0x3d7
-	.uaword	0xa63d
+	.uaword	0xa657
 	.uleb128 0x32
-	.uaword	0x8526
+	.uaword	0x8540
 	.uaword	.LLST257
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x8533
+	.uaword	0x854d
 	.uaword	.LBB681
 	.uaword	.LBE681
 	.byte	0x1
 	.uahalf	0x3d8
-	.uaword	0xa65b
+	.uaword	0xa675
 	.uleb128 0x32
-	.uaword	0x855a
+	.uaword	0x8574
 	.uaword	.LLST258
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x8567
+	.uaword	0x8581
 	.uaword	.LBB683
 	.uaword	.LBE683
 	.byte	0x1
 	.uahalf	0x3db
-	.uaword	0xa679
+	.uaword	0xa693
 	.uleb128 0x32
-	.uaword	0x8591
+	.uaword	0x85ab
 	.uaword	.LLST259
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x859e
+	.uaword	0x85b8
 	.uaword	.LBB685
 	.uaword	.Ldebug_ranges0+0x6f0
 	.byte	0x1
 	.uahalf	0x3df
-	.uaword	0xa6a0
+	.uaword	0xa6ba
 	.uleb128 0x32
-	.uaword	0x85ce
+	.uaword	0x85e8
 	.uaword	.LLST260
 	.uleb128 0x32
-	.uaword	0x85c2
+	.uaword	0x85dc
 	.uaword	.LLST261
 	.byte	0
 	.uleb128 0x3b
-	.uaword	0x8628
+	.uaword	0x8642
 	.uaword	.LBB689
 	.uaword	.Ldebug_ranges0+0x710
 	.byte	0x1
 	.uahalf	0x3e3
-	.uaword	0xa6c3
+	.uaword	0xa6dd
 	.uleb128 0x3e
-	.uaword	0x8663
+	.uaword	0x867d
 	.uleb128 0x32
-	.uaword	0x8657
+	.uaword	0x8671
 	.uaword	.LLST262
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x859e
+	.uaword	0x85b8
 	.uaword	.LBB694
 	.uaword	.LBE694
 	.byte	0x1
 	.uahalf	0x3e0
-	.uaword	0xa6ea
+	.uaword	0xa704
 	.uleb128 0x32
-	.uaword	0x85ce
+	.uaword	0x85e8
 	.uaword	.LLST263
 	.uleb128 0x32
-	.uaword	0x85c2
+	.uaword	0x85dc
 	.uaword	.LLST264
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x85db
+	.uaword	0x85f5
 	.uaword	.LBB696
 	.uaword	.LBE696
 	.byte	0x1
 	.uahalf	0x3e2
-	.uaword	0xa711
+	.uaword	0xa72b
 	.uleb128 0x32
-	.uaword	0x861b
+	.uaword	0x8635
 	.uaword	.LLST265
 	.uleb128 0x32
-	.uaword	0x860f
+	.uaword	0x8629
 	.uaword	.LLST266
 	.byte	0
 	.uleb128 0x43
 	.uaword	.LVL385
-	.uaword	0xabbf
+	.uaword	0xabd9
 	.uleb128 0x40
 	.uaword	.LVL387
-	.uaword	0xabeb
-	.uaword	0xa72e
+	.uaword	0xac05
+	.uaword	0xa748
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -19247,7 +19247,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x42
 	.uaword	.LVL395
-	.uaword	0xac15
+	.uaword	0xac2f
 	.uleb128 0x41
 	.byte	0x1
 	.byte	0x54
@@ -19259,9 +19259,9 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xa746
+	.uaword	0xa760
 	.uleb128 0x1f
-	.uaword	0x6eee
+	.uaword	0x6f08
 	.uleb128 0x45
 	.byte	0x1
 	.string	"IfxMultican_Can_initModuleConfig"
@@ -19273,52 +19273,52 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xa7cd
+	.uaword	0xa7e7
 	.uleb128 0x48
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x421
-	.uaword	0x7dc9
+	.uaword	0x7de3
 	.uaword	.LLST267
 	.uleb128 0x48
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x421
-	.uaword	0x601a
+	.uaword	0x6034
 	.uaword	.LLST268
 	.uleb128 0x4d
 	.uaword	.LASF27
 	.byte	0x1
 	.uahalf	0x423
-	.uaword	0x346f
+	.uaword	0x3489
 	.uaword	.LLST269
 	.uleb128 0x4e
 	.string	"numSrcs"
 	.byte	0x1
 	.uahalf	0x42c
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x43
 	.uaword	.LVL400
-	.uaword	0xab9a
+	.uaword	0xabb4
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x353
-	.uaword	0xa7dd
+	.uaword	0x36d
+	.uaword	0xa7f7
 	.uleb128 0x1a
-	.uaword	0x2f98
+	.uaword	0x2fb2
 	.byte	0x2
 	.byte	0
 	.uleb128 0x53
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x11
 	.byte	0x96
-	.uaword	0xa7fa
+	.uaword	0xa814
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1f
-	.uaword	0xa7cd
+	.uaword	0xa7e7
 	.uleb128 0x54
 	.byte	0x1
 	.string	"IfxMultican_MsgObj_clearStatusFlag"
@@ -19326,11 +19326,11 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x3dd
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xa838
+	.uaword	0xa852
 	.uleb128 0x55
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x55
-	.uaword	0x6849
+	.uaword	0x6863
 	.byte	0
 	.uleb128 0x54
 	.byte	0x1
@@ -19339,11 +19339,11 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x431
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xa86f
+	.uaword	0xa889
 	.uleb128 0x55
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x55
-	.uaword	0x6849
+	.uaword	0x6863
 	.byte	0
 	.uleb128 0x54
 	.byte	0x1
@@ -19352,15 +19352,15 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x19b
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xa8aa
+	.uaword	0xa8c4
 	.uleb128 0x55
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x55
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x55
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x55
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0
 	.uleb128 0x56
 	.byte	0x1
@@ -19368,11 +19368,11 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x2
 	.uahalf	0x3f2
 	.byte	0x1
-	.uaword	0x6ada
+	.uaword	0x6af4
 	.byte	0x1
-	.uaword	0xa8dc
+	.uaword	0xa8f6
 	.uleb128 0x55
-	.uaword	0x72fb
+	.uaword	0x7315
 	.byte	0
 	.uleb128 0x56
 	.byte	0x1
@@ -19380,13 +19380,13 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x2
 	.uahalf	0x40f
 	.byte	0x1
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.byte	0x1
-	.uaword	0xa915
+	.uaword	0xa92f
 	.uleb128 0x55
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x55
-	.uaword	0x9a66
+	.uaword	0x9a80
 	.byte	0
 	.uleb128 0x56
 	.byte	0x1
@@ -19394,13 +19394,13 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x2
 	.uahalf	0x421
 	.byte	0x1
-	.uaword	0x6a3a
+	.uaword	0x6a54
 	.byte	0x1
-	.uaword	0xa94e
+	.uaword	0xa968
 	.uleb128 0x55
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x55
-	.uaword	0x9bc6
+	.uaword	0x9be0
 	.byte	0
 	.uleb128 0x57
 	.byte	0x1
@@ -19408,7 +19408,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x3
 	.uahalf	0x39a
 	.byte	0x1
-	.uaword	0x230
+	.uaword	0x24a
 	.byte	0x1
 	.uleb128 0x57
 	.byte	0x1
@@ -19416,7 +19416,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x3
 	.uahalf	0x376
 	.byte	0x1
-	.uaword	0x230
+	.uaword	0x24a
 	.byte	0x1
 	.uleb128 0x57
 	.byte	0x1
@@ -19424,7 +19424,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x3
 	.uahalf	0x382
 	.byte	0x1
-	.uaword	0x230
+	.uaword	0x24a
 	.byte	0x1
 	.uleb128 0x54
 	.byte	0x1
@@ -19433,24 +19433,24 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x29d
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xaa08
+	.uaword	0xaa22
 	.uleb128 0x55
-	.uaword	0x230
+	.uaword	0x24a
 	.uleb128 0x55
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x55
-	.uaword	0xaa08
+	.uaword	0xaa22
 	.uleb128 0x55
-	.uaword	0xaa0e
+	.uaword	0xaa28
 	.uleb128 0x55
-	.uaword	0xaa0e
+	.uaword	0xaa28
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x54
 	.byte	0x1
 	.string	"IfxMultican_Node_setNominalBitTiming"
@@ -19458,17 +19458,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x185
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xaa5e
+	.uaword	0xaa78
 	.uleb128 0x55
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x55
-	.uaword	0x230
+	.uaword	0x24a
 	.uleb128 0x55
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x54
 	.byte	0x1
@@ -19477,17 +19477,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x17a
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xaaa5
+	.uaword	0xaabf
 	.uleb128 0x55
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x55
-	.uaword	0x230
+	.uaword	0x24a
 	.uleb128 0x55
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x54
 	.byte	0x1
@@ -19496,17 +19496,17 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0x293
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xaae8
+	.uaword	0xab02
 	.uleb128 0x55
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x55
-	.uaword	0x230
+	.uaword	0x24a
 	.uleb128 0x55
-	.uaword	0x222
+	.uaword	0x23c
 	.uleb128 0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x56
 	.byte	0x1
@@ -19514,17 +19514,17 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x2
 	.uahalf	0x282
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x1
-	.uaword	0xab27
+	.uaword	0xab41
 	.uleb128 0x55
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x55
-	.uaword	0x7248
+	.uaword	0x7262
 	.uleb128 0x55
-	.uaword	0x5dd0
+	.uaword	0x5dea
 	.uleb128 0x55
-	.uaword	0x5f8b
+	.uaword	0x5fa5
 	.byte	0
 	.uleb128 0x56
 	.byte	0x1
@@ -19532,17 +19532,17 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x2
 	.uahalf	0x279
 	.byte	0x1
-	.uaword	0x249
+	.uaword	0x263
 	.byte	0x1
-	.uaword	0xab66
+	.uaword	0xab80
 	.uleb128 0x55
-	.uaword	0x6e3f
+	.uaword	0x6e59
 	.uleb128 0x55
-	.uaword	0x7242
+	.uaword	0x725c
 	.uleb128 0x55
-	.uaword	0x5c7a
+	.uaword	0x5c94
 	.uleb128 0x55
-	.uaword	0x5f8b
+	.uaword	0x5fa5
 	.byte	0
 	.uleb128 0x56
 	.byte	0x1
@@ -19550,13 +19550,13 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x2
 	.uahalf	0x441
 	.byte	0x1
-	.uaword	0x729a
+	.uaword	0x72b4
 	.byte	0x1
-	.uaword	0xab9a
+	.uaword	0xabb4
 	.uleb128 0x55
-	.uaword	0x601a
+	.uaword	0x6034
 	.uleb128 0x55
-	.uaword	0x346f
+	.uaword	0x3489
 	.byte	0
 	.uleb128 0x57
 	.byte	0x1
@@ -19564,7 +19564,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x3
 	.uahalf	0x3a0
 	.byte	0x1
-	.uaword	0x230
+	.uaword	0x24a
 	.byte	0x1
 	.uleb128 0x57
 	.byte	0x1
@@ -19572,7 +19572,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x10
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0x1
 	.uleb128 0x58
 	.byte	0x1
@@ -19581,9 +19581,9 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0xc5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xac15
+	.uaword	0xac2f
 	.uleb128 0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.uleb128 0x59
 	.byte	0x1
@@ -19593,7 +19593,7 @@ IfxMultican_Can_initModuleConfig:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x55
-	.uaword	0x1f0
+	.uaword	0x20a
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -24832,9 +24832,9 @@ IfxMultican_Can_initModuleConfig:
 	.uahalf	0xe
 	.byte	0xf5
 	.uleb128 0xa
-	.uleb128 0x185
+	.uleb128 0x19f
 	.byte	0xf4
-	.uleb128 0x185
+	.uleb128 0x19f
 	.byte	0x4
 	.uaword	0x3a800000
 	.byte	0x1e

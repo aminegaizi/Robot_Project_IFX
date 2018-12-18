@@ -476,7 +476,7 @@ IfxStdIf_Timer_initStdIf:
 	.file 7 "0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_Timer.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x106a
+	.uaword	0x1084
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -484,7 +484,7 @@ IfxStdIf_Timer_initStdIf:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_Timer.c"
-	.string	"C:\\\\Robot_Project\\\\Robot_Project_TC297-B-Ongoing"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC297B-Ongoing"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -517,7 +517,7 @@ IfxStdIf_Timer_initStdIf:
 	.string	"uint16"
 	.byte	0x2
 	.byte	0x5b
-	.uaword	0x1e0
+	.uaword	0x1fa
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -526,12 +526,12 @@ IfxStdIf_Timer_initStdIf:
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x189
+	.uaword	0x1a3
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x2
 	.byte	0x5e
-	.uaword	0x213
+	.uaword	0x22d
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -544,7 +544,7 @@ IfxStdIf_Timer_initStdIf:
 	.string	"boolean"
 	.byte	0x2
 	.byte	0x68
-	.uaword	0x1b4
+	.uaword	0x1ce
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -563,17 +563,17 @@ IfxStdIf_Timer_initStdIf:
 	.string	"Ifx_Priority"
 	.byte	0x3
 	.byte	0x55
-	.uaword	0x1d2
+	.uaword	0x1ec
 	.uleb128 0x3
 	.string	"Ifx_TimerValue"
 	.byte	0x3
 	.byte	0x56
-	.uaword	0x1f6
+	.uaword	0x210
 	.uleb128 0x5
 	.byte	0x1
 	.byte	0x4
 	.byte	0x32
-	.uaword	0x2e4
+	.uaword	0x2fe
 	.uleb128 0x6
 	.string	"IfxSrc_Tos_cpu0"
 	.sleb128 0
@@ -591,7 +591,7 @@ IfxStdIf_Timer_initStdIf:
 	.string	"IfxSrc_Tos"
 	.byte	0x4
 	.byte	0x37
-	.uaword	0x294
+	.uaword	0x2ae
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -604,7 +604,7 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x5
 	.byte	0x73
-	.uaword	0x35a
+	.uaword	0x374
 	.uleb128 0x6
 	.string	"IfxPort_OutputMode_pushPull"
 	.sleb128 128
@@ -616,12 +616,12 @@ IfxStdIf_Timer_initStdIf:
 	.string	"IfxPort_OutputMode"
 	.byte	0x5
 	.byte	0x76
-	.uaword	0x312
+	.uaword	0x32c
 	.uleb128 0x5
 	.byte	0x1
 	.byte	0x5
 	.byte	0x7d
-	.uaword	0x515
+	.uaword	0x52f
 	.uleb128 0x6
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -663,17 +663,17 @@ IfxStdIf_Timer_initStdIf:
 	.string	"IfxPort_PadDriver"
 	.byte	0x5
 	.byte	0x8a
-	.uaword	0x374
+	.uaword	0x38e
 	.uleb128 0x3
 	.string	"IfxStdIf_InterfaceDriver"
 	.byte	0x6
 	.byte	0x61
-	.uaword	0x268
+	.uaword	0x282
 	.uleb128 0x5
 	.byte	0x1
 	.byte	0x7
 	.byte	0x45
-	.uaword	0x5b7
+	.uaword	0x5d1
 	.uleb128 0x6
 	.string	"IfxStdIf_Timer_CountDir_up"
 	.sleb128 0
@@ -688,415 +688,415 @@ IfxStdIf_Timer_initStdIf:
 	.string	"IfxStdIf_Timer_CountDir"
 	.byte	0x7
 	.byte	0x49
-	.uaword	0x54e
+	.uaword	0x568
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer"
 	.byte	0x7
 	.byte	0x4c
-	.uaword	0x5ec
+	.uaword	0x606
 	.uleb128 0x7
 	.string	"IfxStdIf_Timer_"
 	.byte	0x44
 	.byte	0x7
 	.byte	0xdc
-	.uaword	0x755
+	.uaword	0x76f
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xde
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0
 	.uleb128 0x9
 	.string	"getFrequency"
 	.byte	0x7
 	.byte	0xdf
-	.uaword	0x755
+	.uaword	0x76f
 	.byte	0x4
 	.uleb128 0x9
 	.string	"getPeriod"
 	.byte	0x7
 	.byte	0xe0
-	.uaword	0x78e
+	.uaword	0x7a8
 	.byte	0x8
 	.uleb128 0x9
 	.string	"getResolution"
 	.byte	0x7
 	.byte	0xe1
-	.uaword	0x7c4
+	.uaword	0x7de
 	.byte	0xc
 	.uleb128 0x9
 	.string	"getTrigger"
 	.byte	0x7
 	.byte	0xe2
-	.uaword	0x7e8
+	.uaword	0x802
 	.byte	0x10
 	.uleb128 0x9
 	.string	"setFrequency"
 	.byte	0x7
 	.byte	0xe3
-	.uaword	0x809
+	.uaword	0x823
 	.byte	0x14
 	.uleb128 0x9
 	.string	"updateInputFrequency"
 	.byte	0x7
 	.byte	0xe4
-	.uaword	0x847
+	.uaword	0x861
 	.byte	0x18
 	.uleb128 0x9
 	.string	"applyUpdate"
 	.byte	0x7
 	.byte	0xe5
-	.uaword	0x884
+	.uaword	0x89e
 	.byte	0x1c
 	.uleb128 0x9
 	.string	"disableUpdate"
 	.byte	0x7
 	.byte	0xe6
-	.uaword	0x8a6
+	.uaword	0x8c0
 	.byte	0x20
 	.uleb128 0x9
 	.string	"getInputFrequency"
 	.byte	0x7
 	.byte	0xe7
-	.uaword	0x8ca
+	.uaword	0x8e4
 	.byte	0x24
 	.uleb128 0x9
 	.string	"run"
 	.byte	0x7
 	.byte	0xe8
-	.uaword	0x8f2
+	.uaword	0x90c
 	.byte	0x28
 	.uleb128 0x9
 	.string	"setPeriod"
 	.byte	0x7
 	.byte	0xe9
-	.uaword	0x90c
+	.uaword	0x926
 	.byte	0x2c
 	.uleb128 0x9
 	.string	"setSingleMode"
 	.byte	0x7
 	.byte	0xea
-	.uaword	0x947
+	.uaword	0x961
 	.byte	0x30
 	.uleb128 0x9
 	.string	"setTrigger"
 	.byte	0x7
 	.byte	0xeb
-	.uaword	0x982
+	.uaword	0x99c
 	.byte	0x34
 	.uleb128 0x9
 	.string	"stop"
 	.byte	0x7
 	.byte	0xec
-	.uaword	0x9ba
+	.uaword	0x9d4
 	.byte	0x38
 	.uleb128 0x9
 	.string	"ackTimerIrq"
 	.byte	0x7
 	.byte	0xed
-	.uaword	0x9d5
+	.uaword	0x9ef
 	.byte	0x3c
 	.uleb128 0x9
 	.string	"ackTriggerIrq"
 	.byte	0x7
 	.byte	0xee
-	.uaword	0xa0d
+	.uaword	0xa27
 	.byte	0x40
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetFrequency"
 	.byte	0x7
 	.byte	0x52
-	.uaword	0x778
+	.uaword	0x792
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x77e
+	.uaword	0x798
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x204
-	.uaword	0x78e
+	.uaword	0x21e
+	.uaword	0x7a8
 	.uleb128 0xc
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetPeriod"
 	.byte	0x7
 	.byte	0x58
-	.uaword	0x7ae
+	.uaword	0x7c8
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x7b4
+	.uaword	0x7ce
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x27e
-	.uaword	0x7c4
+	.uaword	0x298
+	.uaword	0x7de
 	.uleb128 0xc
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetResolution"
 	.byte	0x7
 	.byte	0x5e
-	.uaword	0x778
+	.uaword	0x792
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetTrigger"
 	.byte	0x7
 	.byte	0x64
-	.uaword	0x7ae
+	.uaword	0x7c8
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_SetFrequency"
 	.byte	0x7
 	.byte	0x6c
-	.uaword	0x82c
+	.uaword	0x846
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x832
+	.uaword	0x84c
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x226
-	.uaword	0x847
+	.uaword	0x240
+	.uaword	0x861
 	.uleb128 0xc
-	.uaword	0x52e
+	.uaword	0x548
 	.uleb128 0xc
-	.uaword	0x204
+	.uaword	0x21e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_UpdateInputFrequency"
 	.byte	0x7
 	.byte	0x72
-	.uaword	0x872
+	.uaword	0x88c
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x878
+	.uaword	0x892
 	.uleb128 0xd
 	.byte	0x1
-	.uaword	0x884
+	.uaword	0x89e
 	.uleb128 0xc
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_ApplyUpdate"
 	.byte	0x7
 	.byte	0x87
-	.uaword	0x872
+	.uaword	0x88c
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_DisableUpdate"
 	.byte	0x7
 	.byte	0x98
-	.uaword	0x872
+	.uaword	0x88c
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetInputFrequency"
 	.byte	0x7
 	.byte	0x9e
-	.uaword	0x778
+	.uaword	0x792
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_Run"
 	.byte	0x7
 	.byte	0xa7
-	.uaword	0x872
+	.uaword	0x88c
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_SetPeriod"
 	.byte	0x7
 	.byte	0xb1
-	.uaword	0x92c
+	.uaword	0x946
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x932
+	.uaword	0x94c
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x226
-	.uaword	0x947
+	.uaword	0x240
+	.uaword	0x961
 	.uleb128 0xc
-	.uaword	0x52e
+	.uaword	0x548
 	.uleb128 0xc
-	.uaword	0x27e
+	.uaword	0x298
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_SetSingleMode"
 	.byte	0x7
 	.byte	0xba
-	.uaword	0x96b
+	.uaword	0x985
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x971
+	.uaword	0x98b
 	.uleb128 0xd
 	.byte	0x1
-	.uaword	0x982
+	.uaword	0x99c
 	.uleb128 0xc
-	.uaword	0x52e
+	.uaword	0x548
 	.uleb128 0xc
-	.uaword	0x226
+	.uaword	0x240
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_SetTrigger"
 	.byte	0x7
 	.byte	0xc6
-	.uaword	0x9a3
+	.uaword	0x9bd
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x9a9
+	.uaword	0x9c3
 	.uleb128 0xd
 	.byte	0x1
-	.uaword	0x9ba
+	.uaword	0x9d4
 	.uleb128 0xc
-	.uaword	0x52e
+	.uaword	0x548
 	.uleb128 0xc
-	.uaword	0x27e
+	.uaword	0x298
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_Stop"
 	.byte	0x7
 	.byte	0xcc
-	.uaword	0x872
+	.uaword	0x88c
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_AckTimerIrq"
 	.byte	0x7
 	.byte	0xd2
-	.uaword	0x9f7
+	.uaword	0xa11
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x9fd
+	.uaword	0xa17
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x226
-	.uaword	0xa0d
+	.uaword	0x240
+	.uaword	0xa27
 	.uleb128 0xc
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_AckTriggerIrq"
 	.byte	0x7
 	.byte	0xd8
-	.uaword	0x9f7
+	.uaword	0xa11
 	.uleb128 0xe
 	.byte	0x10
 	.byte	0x7
 	.byte	0xf2
-	.uaword	0xac7
+	.uaword	0xae1
 	.uleb128 0x9
 	.string	"enabled"
 	.byte	0x7
 	.byte	0xf4
-	.uaword	0x226
+	.uaword	0x240
 	.byte	0
 	.uleb128 0x8
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0xf5
-	.uaword	0x27e
+	.uaword	0x298
 	.byte	0x4
 	.uleb128 0x8
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xf6
-	.uaword	0x26a
+	.uaword	0x284
 	.byte	0x8
 	.uleb128 0x8
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0xf7
-	.uaword	0x2e4
+	.uaword	0x2fe
 	.byte	0xa
 	.uleb128 0x9
 	.string	"outputMode"
 	.byte	0x7
 	.byte	0xf8
-	.uaword	0x35a
+	.uaword	0x374
 	.byte	0xb
 	.uleb128 0x9
 	.string	"outputDriver"
 	.byte	0x7
 	.byte	0xf9
-	.uaword	0x515
+	.uaword	0x52f
 	.byte	0xc
 	.uleb128 0x9
 	.string	"risingEdgeAtPeriod"
 	.byte	0x7
 	.byte	0xfa
-	.uaword	0x226
+	.uaword	0x240
 	.byte	0xd
 	.uleb128 0x9
 	.string	"outputEnabled"
 	.byte	0x7
 	.byte	0xfb
-	.uaword	0x226
+	.uaword	0x240
 	.byte	0xe
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_TrigConfig"
 	.byte	0x7
 	.byte	0xfc
-	.uaword	0xa31
+	.uaword	0xa4b
 	.uleb128 0xe
 	.byte	0x24
 	.byte	0x7
 	.byte	0xff
-	.uaword	0xb67
+	.uaword	0xb81
 	.uleb128 0xf
 	.uaword	.LASF4
 	.byte	0x7
 	.uahalf	0x101
-	.uaword	0x204
+	.uaword	0x21e
 	.byte	0
 	.uleb128 0xf
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x102
-	.uaword	0x26a
+	.uaword	0x284
 	.byte	0x4
 	.uleb128 0xf
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x103
-	.uaword	0x2e4
+	.uaword	0x2fe
 	.byte	0x6
 	.uleb128 0x10
 	.string	"minResolution"
 	.byte	0x7
 	.uahalf	0x104
-	.uaword	0x204
+	.uaword	0x21e
 	.byte	0x8
 	.uleb128 0x10
 	.string	"trigger"
 	.byte	0x7
 	.uahalf	0x105
-	.uaword	0xac7
+	.uaword	0xae1
 	.byte	0xc
 	.uleb128 0x10
 	.string	"countDir"
 	.byte	0x7
 	.uahalf	0x106
-	.uaword	0x5b7
+	.uaword	0x5d1
 	.byte	0x1c
 	.uleb128 0x10
 	.string	"startOffset"
 	.byte	0x7
 	.uahalf	0x107
-	.uaword	0x204
+	.uaword	0x21e
 	.byte	0x20
 	.byte	0
 	.uleb128 0x11
 	.string	"IfxStdIf_Timer_Config"
 	.byte	0x7
 	.uahalf	0x108
-	.uaword	0xae8
+	.uaword	0xb02
 	.uleb128 0x12
 	.string	"IfxStdIf_Timer_nopGetFrequency"
 	.byte	0x1
 	.byte	0x2f
 	.byte	0x1
-	.uaword	0x204
+	.uaword	0x21e
 	.uaword	.LFB207
 	.uaword	.LFE207
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xbc9
+	.uaword	0xbe3
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x2f
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1105,18 +1105,18 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x33
 	.byte	0x1
-	.uaword	0x27e
+	.uaword	0x298
 	.uaword	.LFB208
 	.uaword	.LFE208
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xc0a
+	.uaword	0xc24
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x33
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1125,18 +1125,18 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x37
 	.byte	0x1
-	.uaword	0x204
+	.uaword	0x21e
 	.uaword	.LFB209
 	.uaword	.LFE209
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xc4f
+	.uaword	0xc69
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x37
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1145,18 +1145,18 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x3b
 	.byte	0x1
-	.uaword	0x27e
+	.uaword	0x298
 	.uaword	.LFB210
 	.uaword	.LFE210
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xc91
+	.uaword	0xcab
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x3b
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1165,25 +1165,25 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x3f
 	.byte	0x1
-	.uaword	0x226
+	.uaword	0x240
 	.uaword	.LFB211
 	.uaword	.LFE211
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xce2
+	.uaword	0xcfc
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x3f
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x13
 	.uaword	.LASF4
 	.byte	0x1
 	.byte	0x3f
-	.uaword	0x204
+	.uaword	0x21e
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -1197,12 +1197,12 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xd2a
+	.uaword	0xd44
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x43
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1216,12 +1216,12 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xd69
+	.uaword	0xd83
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x46
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1235,12 +1235,12 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xdaa
+	.uaword	0xdc4
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x49
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1249,18 +1249,18 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x4c
 	.byte	0x1
-	.uaword	0x204
+	.uaword	0x21e
 	.uaword	.LFB215
 	.uaword	.LFE215
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xdf3
+	.uaword	0xe0d
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x4c
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1274,12 +1274,12 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xe2a
+	.uaword	0xe44
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1288,25 +1288,25 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x53
 	.byte	0x1
-	.uaword	0x226
+	.uaword	0x240
 	.uaword	.LFB217
 	.uaword	.LFE217
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xe7b
+	.uaword	0xe95
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x53
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x15
 	.string	"period"
 	.byte	0x1
 	.byte	0x53
-	.uaword	0x27e
+	.uaword	0x298
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -1320,19 +1320,19 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xecd
+	.uaword	0xee7
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x57
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x15
 	.string	"enabled"
 	.byte	0x1
 	.byte	0x57
-	.uaword	0x226
+	.uaword	0x240
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -1346,19 +1346,19 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xf18
+	.uaword	0xf32
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x5a
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x13
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0x5a
-	.uaword	0x27e
+	.uaword	0x298
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -1372,12 +1372,12 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xf50
+	.uaword	0xf6a
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x5d
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1386,18 +1386,18 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x60
 	.byte	0x1
-	.uaword	0x226
+	.uaword	0x240
 	.uaword	.LFB221
 	.uaword	.LFE221
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xf93
+	.uaword	0xfad
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x60
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1406,18 +1406,18 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x64
 	.byte	0x1
-	.uaword	0x226
+	.uaword	0x240
 	.uaword	.LFB222
 	.uaword	.LFE222
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xfd8
+	.uaword	0xff2
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x64
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -1432,18 +1432,18 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1017
+	.uaword	0x1031
 	.uleb128 0x15
 	.string	"config"
 	.byte	0x1
 	.byte	0x1c
-	.uaword	0x1017
+	.uaword	0x1031
 	.byte	0x1
 	.byte	0x64
 	.byte	0
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0xb67
+	.uaword	0xb81
 	.uleb128 0x16
 	.byte	0x1
 	.string	"IfxStdIf_Timer_initStdIf"
@@ -1455,25 +1455,25 @@ IfxStdIf_Timer_initStdIf:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1067
+	.uaword	0x1081
 	.uleb128 0x15
 	.string	"stdIf"
 	.byte	0x1
 	.byte	0x6a
-	.uaword	0x1067
+	.uaword	0x1081
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x6a
-	.uaword	0x52e
+	.uaword	0x548
 	.byte	0x1
 	.byte	0x65
 	.byte	0
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x5d6
+	.uaword	0x5f0
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

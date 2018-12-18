@@ -15,17 +15,15 @@ extern volatile uint32 interruptRight_counter;
 IfxStm_CompareConfig CompareCorrection;
 Ifx_STM *stm2 = &MODULE_STM2;
 
-volatile uint32 frequency = 0;
 
+volatile uint32 frequency = 0;
 
 volatile int Encoders_Error = 2; //Difference between the two encoders gives information about the position error, initialized at 5 to compensate the lack of correction at the beginning
 volatile uint8 Left_duty_cycle = 0; //Duty cycle sent to the left wheel
 volatile uint8 Right_duty_cycle = 0; //Duty cycle sent to the right wheel
 volatile float ticks = 0;
 
-
-extern IfxGtm_Tom_Timer Timer1; //GTM Tom Timer for Left Wheel PWM
-extern IfxGtm_Tom_Timer Timer2; //GTM Tom Timer for Right Wheel PWM
+extern PWM_Timers Timers;
 
 volatile uint8 commande_movement = 0; //Trigger Flag for movement enslavement
 volatile int Flag = 0;
@@ -48,11 +46,11 @@ P_coefficient Left_correction = {0.0,-10.75,0.0}; //Backward Proportional correc
  	P33_IOCR4.B.PC4 = 0x10; //EnB
 
 
- 	PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT); //In1 PWM signal configuration
- 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty1
+    PWM_init(PWM_IN1_BRIDGE, &Timers.PWM1_Bridge, 800);
+    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
 
- 	PWM2_config(IfxGtm_TOM0_2_TOUT28_P33_6_OUT); //In3 PWM signal configuration
- 	IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty2
+    PWM_init(PWM_IN3_BRIDGE, &Timers.PWM2_Bridge, 800);
+    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 
  	//--Motors On
 	P00_OUT.B.P6 = 1; //EnA = 1
@@ -66,7 +64,6 @@ P_coefficient Left_correction = {0.0,-10.75,0.0}; //Backward Proportional correc
 
  void Backward_1()
  {
-
  	Left_duty_cycle = 40;//35
  	Right_duty_cycle = 25;//15
 
@@ -76,11 +73,11 @@ P_coefficient Left_correction = {0.0,-10.75,0.0}; //Backward Proportional correc
  	P33_IOCR4.B.PC6 = 0x10;
  	P33_IOCR4.B.PC4 = 0x10;
 
- 	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //In2 PWM signal configuration
- 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty cycle
+    PWM_init(PWM_IN2_BRIDGE, &Timers.PWM1_Bridge, 800);
+    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
 
- 	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);//In4 PWM signal configuration
- 	IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty cycle
+    PWM_init(PWM_IN4_BRIDGE, &Timers.PWM2_Bridge, 800);
+    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 
 	P00_OUT.B.P6 = 1; //EnA = 1
 	P00_OUT.B.P12 = 0; //In1 = 0
@@ -102,11 +99,12 @@ P_coefficient Left_correction = {0.0,-10.75,0.0}; //Backward Proportional correc
   	P33_IOCR0.B.PC2 = 0x10; //In4
   	P33_IOCR4.B.PC4 = 0x10; //EnB
 
- 	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //In2 PWM signal configuration
- 	PWM2_config(IfxGtm_TOM0_2_TOUT28_P33_6_OUT); //In3 PWM signal configuration
+ 	PWM_init(PWM_IN2_BRIDGE, &Timers.PWM1_Bridge, 800);
+    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
 
- 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
-  	IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
+    PWM_init(PWM_IN3_BRIDGE, &Timers.PWM2_Bridge, 800);
+    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
+
 
   	//--Motors On
  	P00_OUT.B.P6 = 1; //EnA = 1
@@ -129,11 +127,11 @@ P_coefficient Left_correction = {0.0,-10.75,0.0}; //Backward Proportional correc
   	P33_IOCR4.B.PC6 = 0x10; //In3
   	P33_IOCR4.B.PC4 = 0x10; //EnB
 
- 	PWM_config(IfxGtm_TOM1_3_TOUT21_P00_12_OUT); //In1 PWM signal configuration
- 	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT); //In4 PWM signal configuration
+ 	PWM_init(PWM_IN1_BRIDGE, &Timers.PWM1_Bridge, 800);
+    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
 
- 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
-  	IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
+    PWM_init(PWM_IN4_BRIDGE, &Timers.PWM2_Bridge, 800);
+    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 
   	//--Motors On
  	P00_OUT.B.P6 = 1; //EnA = 1
@@ -154,40 +152,35 @@ void STM_INTERRUPT_CORRECTION()
 	Encoders_Error = interruptRight_counter - interruptLeft_counter; //Calculate the value of the error (in encoder ticks) between the two wheels
 	if (commande_movement == 1) //Moving Forward
 	{
-			Right_duty_cycle = 35;
-			Left_duty_cycle = Right_duty_cycle - (Forward_correction.stable * Encoders_Error);
+		Right_duty_cycle = 35;
+		Left_duty_cycle = Right_duty_cycle - (Forward_correction.stable * Encoders_Error);
 
-			IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Right_duty_cycle
-			IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Left_duty_cycle
-
-	}
+		PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
+		PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
+}
 	if (commande_movement == 2) //Moving Backward
 	{
-
 		Right_duty_cycle = 35;
 		Left_duty_cycle = Right_duty_cycle - (Backward_correction.stable * Encoders_Error);
 
-		IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Right_duty_cycle
-		IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Left_duty_cycle
-
+	    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
+	    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 	}
 	if (commande_movement == 3) //Turning right
 	{
 		Right_duty_cycle = 20;
 		Left_duty_cycle = Right_duty_cycle - (Right_correction.stable * Encoders_Error);
 
-		IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Right_duty_cycle
-		IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Left_duty_cycle
-
+	    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
+	    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 	}
 	if (commande_movement == 4) //Turning Left
 	{
-			Right_duty_cycle = 25;
-			Left_duty_cycle = Right_duty_cycle - (Left_correction.stable * Encoders_Error);
+		Right_duty_cycle = 25;
+		Left_duty_cycle = Right_duty_cycle - (Left_correction.stable * Encoders_Error);
 
-			IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Right_duty_cycle
-			IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Left_duty_cycle
-
+		PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
+		PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 	}
 	IfxStm_increaseCompare(stm2, CompareCorrection.comparator, frequency/100); //set the interrupt to happen in 10ms
 }
@@ -223,7 +216,7 @@ void Motors_stop()
 	P33_OUT.B.P4 = 0; //EnB = 0
 
 	//Stop the PWM signals
- 	IfxGtm_Tom_Timer_stop(&Timer1); //Stops Timer1 PWM signal (In1 = 0)
- 	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer2 PWM signal (In3 = 0)
+ 	IfxGtm_Tom_Timer_stop(&Timers.PWM1_Bridge); //Stops Timer1 PWM signal (In1 = 0)
+ 	IfxGtm_Tom_Timer_stop(&Timers.PWM2_Bridge); //Stops Timer2 PWM signal (In3 = 0)
 }
 

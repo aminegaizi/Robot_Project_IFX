@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Motors/Motors.c"
-# 1 "C:\\Robot_Project\\Robot_Project_TC297-B-Ongoing//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC297B-Ongoing//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Motors/Motors.c"
@@ -10985,7 +10985,7 @@ void Encoders_config();
 # 13 "0_Src/AppSw/Tricore/Motors/Motors.h" 2
 
 # 1 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 1
-# 9 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
+# 13 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h" 1
 # 106 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxGtm_PinMap.h" 1
@@ -22076,7 +22076,7 @@ extern void IfxGtm_Tom_Pwm_start(IfxGtm_Tom_Pwm_Driver *driver, boolean immediat
 
 
 extern void IfxGtm_Tom_Pwm_stop(IfxGtm_Tom_Pwm_Driver *driver, boolean immediate);
-# 10 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+# 14 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
 
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h" 1
 # 119 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h"
@@ -22611,17 +22611,31 @@ extern void IfxGtm_Tom_Timer_stop(IfxGtm_Tom_Timer *driver);
 
 
 extern void IfxGtm_Tom_Timer_updateInputFrequency(IfxGtm_Tom_Timer *driver);
-# 12 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+# 16 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_PWM.h" 1
+# 18 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
 
 
 
 
 
-void PWM_config(IfxGtm_Tom_ToutMap Output);
-void PWM2_config(IfxGtm_Tom_ToutMap Output);
-void PWM3_config(IfxGtm_Tom_ToutMap Output);
-void PWM4_config(IfxGtm_Tom_ToutMap Output);
+
+
 void ClockConfig();
+
+
+void PWM_init(IfxGtm_Tom_ToutMap Output, IfxGtm_Tom_Timer *Timer, float32 frequency);
+void PWM_setDuty(IfxGtm_Tom_Timer Timer, uint8 DutyCycle);
+
+typedef struct
+{
+    IfxGtm_Tom_Timer PWM1_Bridge;
+    IfxGtm_Tom_Timer PWM2_Bridge;
+    IfxGtm_Tom_Timer PWM1_Servo;
+    IfxGtm_Tom_Timer PWM2_Servo;
+    IfxGtm_Tom_Timer Beeper;
+}PWM_Timers;
 # 15 "0_Src/AppSw/Tricore/Motors/Motors.h" 2
 # 1 "0_Src/AppSw/Tricore/Position/position.h" 1
 # 10 "0_Src/AppSw/Tricore/Position/position.h"
@@ -22635,14 +22649,7 @@ void ClockConfig();
 # 15 "0_Src/AppSw/Tricore/Position/position.h" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h" 1
 # 16 "0_Src/AppSw/Tricore/Position/position.h" 2
-# 1 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 1
-# 17 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
-void PWM_config(IfxGtm_Tom_ToutMap Output);
-void PWM2_config(IfxGtm_Tom_ToutMap Output);
-void PWM3_config(IfxGtm_Tom_ToutMap Output);
-void PWM4_config(IfxGtm_Tom_ToutMap Output);
-void ClockConfig();
-# 17 "0_Src/AppSw/Tricore/Position/position.h" 2
+
 # 1 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h" 1
 # 21 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h"
 # 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
@@ -27197,23 +27204,361 @@ extern boolean IfxAsclin_Asc_stdIfDPipeInit(IfxStdIf_DPipe *stdif, IfxAsclin_Asc
 # 7 "0_Src/AppSw/Tricore/Serial/serial.h" 2
 
 # 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 1
+# 20 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h"
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Src/std/IfxSrc.h" 1
+# 21 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+
+
+
+
+# 1 "0_Src/AppSw/Tricore/Motors/Motors.h" 1
+# 26 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+
+# 1 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h" 1
+# 21 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h"
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
+# 22 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h" 2
+
+void Encoders_config();
+# 28 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+# 1 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 1
+# 18 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+# 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h" 1
+# 37 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h"
+extern IfxPort_Pin IfxPort_P00_0;
+extern IfxPort_Pin IfxPort_P00_1;
+extern IfxPort_Pin IfxPort_P00_10;
+extern IfxPort_Pin IfxPort_P00_11;
+extern IfxPort_Pin IfxPort_P00_12;
+extern IfxPort_Pin IfxPort_P00_13;
+extern IfxPort_Pin IfxPort_P00_14;
+extern IfxPort_Pin IfxPort_P00_15;
+extern IfxPort_Pin IfxPort_P00_2;
+extern IfxPort_Pin IfxPort_P00_3;
+extern IfxPort_Pin IfxPort_P00_4;
+extern IfxPort_Pin IfxPort_P00_5;
+extern IfxPort_Pin IfxPort_P00_6;
+extern IfxPort_Pin IfxPort_P00_7;
+extern IfxPort_Pin IfxPort_P00_8;
+extern IfxPort_Pin IfxPort_P00_9;
+extern IfxPort_Pin IfxPort_P01_0;
+extern IfxPort_Pin IfxPort_P01_1;
+extern IfxPort_Pin IfxPort_P01_10;
+extern IfxPort_Pin IfxPort_P01_11;
+extern IfxPort_Pin IfxPort_P01_12;
+extern IfxPort_Pin IfxPort_P01_13;
+extern IfxPort_Pin IfxPort_P01_14;
+extern IfxPort_Pin IfxPort_P01_15;
+extern IfxPort_Pin IfxPort_P01_2;
+extern IfxPort_Pin IfxPort_P01_3;
+extern IfxPort_Pin IfxPort_P01_4;
+extern IfxPort_Pin IfxPort_P01_5;
+extern IfxPort_Pin IfxPort_P01_6;
+extern IfxPort_Pin IfxPort_P01_7;
+extern IfxPort_Pin IfxPort_P01_8;
+extern IfxPort_Pin IfxPort_P01_9;
+extern IfxPort_Pin IfxPort_P02_0;
+extern IfxPort_Pin IfxPort_P02_1;
+extern IfxPort_Pin IfxPort_P02_10;
+extern IfxPort_Pin IfxPort_P02_11;
+extern IfxPort_Pin IfxPort_P02_12;
+extern IfxPort_Pin IfxPort_P02_13;
+extern IfxPort_Pin IfxPort_P02_14;
+extern IfxPort_Pin IfxPort_P02_15;
+extern IfxPort_Pin IfxPort_P02_2;
+extern IfxPort_Pin IfxPort_P02_3;
+extern IfxPort_Pin IfxPort_P02_4;
+extern IfxPort_Pin IfxPort_P02_5;
+extern IfxPort_Pin IfxPort_P02_6;
+extern IfxPort_Pin IfxPort_P02_7;
+extern IfxPort_Pin IfxPort_P02_8;
+extern IfxPort_Pin IfxPort_P02_9;
+extern IfxPort_Pin IfxPort_P10_0;
+extern IfxPort_Pin IfxPort_P10_1;
+extern IfxPort_Pin IfxPort_P10_10;
+extern IfxPort_Pin IfxPort_P10_11;
+extern IfxPort_Pin IfxPort_P10_13;
+extern IfxPort_Pin IfxPort_P10_14;
+extern IfxPort_Pin IfxPort_P10_15;
+extern IfxPort_Pin IfxPort_P10_2;
+extern IfxPort_Pin IfxPort_P10_3;
+extern IfxPort_Pin IfxPort_P10_4;
+extern IfxPort_Pin IfxPort_P10_5;
+extern IfxPort_Pin IfxPort_P10_6;
+extern IfxPort_Pin IfxPort_P10_7;
+extern IfxPort_Pin IfxPort_P10_8;
+extern IfxPort_Pin IfxPort_P10_9;
+extern IfxPort_Pin IfxPort_P11_0;
+extern IfxPort_Pin IfxPort_P11_1;
+extern IfxPort_Pin IfxPort_P11_10;
+extern IfxPort_Pin IfxPort_P11_11;
+extern IfxPort_Pin IfxPort_P11_12;
+extern IfxPort_Pin IfxPort_P11_13;
+extern IfxPort_Pin IfxPort_P11_14;
+extern IfxPort_Pin IfxPort_P11_15;
+extern IfxPort_Pin IfxPort_P11_2;
+extern IfxPort_Pin IfxPort_P11_3;
+extern IfxPort_Pin IfxPort_P11_4;
+extern IfxPort_Pin IfxPort_P11_5;
+extern IfxPort_Pin IfxPort_P11_6;
+extern IfxPort_Pin IfxPort_P11_7;
+extern IfxPort_Pin IfxPort_P11_8;
+extern IfxPort_Pin IfxPort_P11_9;
+extern IfxPort_Pin IfxPort_P12_0;
+extern IfxPort_Pin IfxPort_P12_1;
+extern IfxPort_Pin IfxPort_P13_0;
+extern IfxPort_Pin IfxPort_P13_1;
+extern IfxPort_Pin IfxPort_P13_10;
+extern IfxPort_Pin IfxPort_P13_11;
+extern IfxPort_Pin IfxPort_P13_12;
+extern IfxPort_Pin IfxPort_P13_13;
+extern IfxPort_Pin IfxPort_P13_14;
+extern IfxPort_Pin IfxPort_P13_15;
+extern IfxPort_Pin IfxPort_P13_2;
+extern IfxPort_Pin IfxPort_P13_3;
+extern IfxPort_Pin IfxPort_P13_4;
+extern IfxPort_Pin IfxPort_P13_5;
+extern IfxPort_Pin IfxPort_P13_6;
+extern IfxPort_Pin IfxPort_P13_7;
+extern IfxPort_Pin IfxPort_P13_9;
+extern IfxPort_Pin IfxPort_P14_0;
+extern IfxPort_Pin IfxPort_P14_1;
+extern IfxPort_Pin IfxPort_P14_10;
+extern IfxPort_Pin IfxPort_P14_11;
+extern IfxPort_Pin IfxPort_P14_12;
+extern IfxPort_Pin IfxPort_P14_13;
+extern IfxPort_Pin IfxPort_P14_14;
+extern IfxPort_Pin IfxPort_P14_15;
+extern IfxPort_Pin IfxPort_P14_2;
+extern IfxPort_Pin IfxPort_P14_3;
+extern IfxPort_Pin IfxPort_P14_4;
+extern IfxPort_Pin IfxPort_P14_5;
+extern IfxPort_Pin IfxPort_P14_6;
+extern IfxPort_Pin IfxPort_P14_7;
+extern IfxPort_Pin IfxPort_P14_8;
+extern IfxPort_Pin IfxPort_P14_9;
+extern IfxPort_Pin IfxPort_P15_0;
+extern IfxPort_Pin IfxPort_P15_1;
+extern IfxPort_Pin IfxPort_P15_10;
+extern IfxPort_Pin IfxPort_P15_11;
+extern IfxPort_Pin IfxPort_P15_12;
+extern IfxPort_Pin IfxPort_P15_13;
+extern IfxPort_Pin IfxPort_P15_14;
+extern IfxPort_Pin IfxPort_P15_15;
+extern IfxPort_Pin IfxPort_P15_2;
+extern IfxPort_Pin IfxPort_P15_3;
+extern IfxPort_Pin IfxPort_P15_4;
+extern IfxPort_Pin IfxPort_P15_5;
+extern IfxPort_Pin IfxPort_P15_6;
+extern IfxPort_Pin IfxPort_P15_7;
+extern IfxPort_Pin IfxPort_P15_8;
+extern IfxPort_Pin IfxPort_P20_0;
+extern IfxPort_Pin IfxPort_P20_1;
+extern IfxPort_Pin IfxPort_P20_10;
+extern IfxPort_Pin IfxPort_P20_11;
+extern IfxPort_Pin IfxPort_P20_12;
+extern IfxPort_Pin IfxPort_P20_13;
+extern IfxPort_Pin IfxPort_P20_14;
+extern IfxPort_Pin IfxPort_P20_3;
+extern IfxPort_Pin IfxPort_P20_6;
+extern IfxPort_Pin IfxPort_P20_7;
+extern IfxPort_Pin IfxPort_P20_8;
+extern IfxPort_Pin IfxPort_P20_9;
+extern IfxPort_Pin IfxPort_P21_0;
+extern IfxPort_Pin IfxPort_P21_1;
+extern IfxPort_Pin IfxPort_P21_2;
+extern IfxPort_Pin IfxPort_P21_3;
+extern IfxPort_Pin IfxPort_P21_4;
+extern IfxPort_Pin IfxPort_P21_5;
+extern IfxPort_Pin IfxPort_P21_6;
+extern IfxPort_Pin IfxPort_P21_7;
+extern IfxPort_Pin IfxPort_P22_0;
+extern IfxPort_Pin IfxPort_P22_1;
+extern IfxPort_Pin IfxPort_P22_10;
+extern IfxPort_Pin IfxPort_P22_11;
+extern IfxPort_Pin IfxPort_P22_2;
+extern IfxPort_Pin IfxPort_P22_3;
+extern IfxPort_Pin IfxPort_P22_4;
+extern IfxPort_Pin IfxPort_P22_5;
+extern IfxPort_Pin IfxPort_P22_6;
+extern IfxPort_Pin IfxPort_P22_7;
+extern IfxPort_Pin IfxPort_P22_8;
+extern IfxPort_Pin IfxPort_P22_9;
+extern IfxPort_Pin IfxPort_P23_0;
+extern IfxPort_Pin IfxPort_P23_1;
+extern IfxPort_Pin IfxPort_P23_2;
+extern IfxPort_Pin IfxPort_P23_3;
+extern IfxPort_Pin IfxPort_P23_4;
+extern IfxPort_Pin IfxPort_P23_5;
+extern IfxPort_Pin IfxPort_P23_6;
+extern IfxPort_Pin IfxPort_P23_7;
+extern IfxPort_Pin IfxPort_P24_0;
+extern IfxPort_Pin IfxPort_P24_1;
+extern IfxPort_Pin IfxPort_P24_10;
+extern IfxPort_Pin IfxPort_P24_11;
+extern IfxPort_Pin IfxPort_P24_12;
+extern IfxPort_Pin IfxPort_P24_13;
+extern IfxPort_Pin IfxPort_P24_14;
+extern IfxPort_Pin IfxPort_P24_15;
+extern IfxPort_Pin IfxPort_P24_2;
+extern IfxPort_Pin IfxPort_P24_3;
+extern IfxPort_Pin IfxPort_P24_4;
+extern IfxPort_Pin IfxPort_P24_5;
+extern IfxPort_Pin IfxPort_P24_6;
+extern IfxPort_Pin IfxPort_P24_7;
+extern IfxPort_Pin IfxPort_P24_8;
+extern IfxPort_Pin IfxPort_P24_9;
+extern IfxPort_Pin IfxPort_P25_0;
+extern IfxPort_Pin IfxPort_P25_1;
+extern IfxPort_Pin IfxPort_P25_10;
+extern IfxPort_Pin IfxPort_P25_11;
+extern IfxPort_Pin IfxPort_P25_12;
+extern IfxPort_Pin IfxPort_P25_13;
+extern IfxPort_Pin IfxPort_P25_14;
+extern IfxPort_Pin IfxPort_P25_15;
+extern IfxPort_Pin IfxPort_P25_2;
+extern IfxPort_Pin IfxPort_P25_3;
+extern IfxPort_Pin IfxPort_P25_4;
+extern IfxPort_Pin IfxPort_P25_5;
+extern IfxPort_Pin IfxPort_P25_6;
+extern IfxPort_Pin IfxPort_P25_7;
+extern IfxPort_Pin IfxPort_P25_8;
+extern IfxPort_Pin IfxPort_P25_9;
+extern IfxPort_Pin IfxPort_P26_0;
+extern IfxPort_Pin IfxPort_P30_0;
+extern IfxPort_Pin IfxPort_P30_1;
+extern IfxPort_Pin IfxPort_P30_10;
+extern IfxPort_Pin IfxPort_P30_11;
+extern IfxPort_Pin IfxPort_P30_12;
+extern IfxPort_Pin IfxPort_P30_13;
+extern IfxPort_Pin IfxPort_P30_14;
+extern IfxPort_Pin IfxPort_P30_15;
+extern IfxPort_Pin IfxPort_P30_2;
+extern IfxPort_Pin IfxPort_P30_3;
+extern IfxPort_Pin IfxPort_P30_4;
+extern IfxPort_Pin IfxPort_P30_5;
+extern IfxPort_Pin IfxPort_P30_6;
+extern IfxPort_Pin IfxPort_P30_7;
+extern IfxPort_Pin IfxPort_P30_8;
+extern IfxPort_Pin IfxPort_P30_9;
+extern IfxPort_Pin IfxPort_P31_0;
+extern IfxPort_Pin IfxPort_P31_1;
+extern IfxPort_Pin IfxPort_P31_10;
+extern IfxPort_Pin IfxPort_P31_11;
+extern IfxPort_Pin IfxPort_P31_12;
+extern IfxPort_Pin IfxPort_P31_13;
+extern IfxPort_Pin IfxPort_P31_14;
+extern IfxPort_Pin IfxPort_P31_15;
+extern IfxPort_Pin IfxPort_P31_2;
+extern IfxPort_Pin IfxPort_P31_3;
+extern IfxPort_Pin IfxPort_P31_4;
+extern IfxPort_Pin IfxPort_P31_5;
+extern IfxPort_Pin IfxPort_P31_6;
+extern IfxPort_Pin IfxPort_P31_7;
+extern IfxPort_Pin IfxPort_P31_8;
+extern IfxPort_Pin IfxPort_P31_9;
+extern IfxPort_Pin IfxPort_P32_0;
+extern IfxPort_Pin IfxPort_P32_2;
+extern IfxPort_Pin IfxPort_P32_3;
+extern IfxPort_Pin IfxPort_P32_4;
+extern IfxPort_Pin IfxPort_P32_5;
+extern IfxPort_Pin IfxPort_P32_6;
+extern IfxPort_Pin IfxPort_P32_7;
+extern IfxPort_Pin IfxPort_P33_0;
+extern IfxPort_Pin IfxPort_P33_1;
+extern IfxPort_Pin IfxPort_P33_10;
+extern IfxPort_Pin IfxPort_P33_11;
+extern IfxPort_Pin IfxPort_P33_12;
+extern IfxPort_Pin IfxPort_P33_13;
+extern IfxPort_Pin IfxPort_P33_14;
+extern IfxPort_Pin IfxPort_P33_15;
+extern IfxPort_Pin IfxPort_P33_2;
+extern IfxPort_Pin IfxPort_P33_3;
+extern IfxPort_Pin IfxPort_P33_4;
+extern IfxPort_Pin IfxPort_P33_5;
+extern IfxPort_Pin IfxPort_P33_6;
+extern IfxPort_Pin IfxPort_P33_7;
+extern IfxPort_Pin IfxPort_P33_8;
+extern IfxPort_Pin IfxPort_P33_9;
+extern IfxPort_Pin IfxPort_P34_1;
+extern IfxPort_Pin IfxPort_P34_2;
+extern IfxPort_Pin IfxPort_P34_3;
+extern IfxPort_Pin IfxPort_P34_4;
+extern IfxPort_Pin IfxPort_P34_5;
+extern IfxPort_Pin IfxPort_P40_0;
+extern IfxPort_Pin IfxPort_P40_1;
+extern IfxPort_Pin IfxPort_P40_10;
+extern IfxPort_Pin IfxPort_P40_11;
+extern IfxPort_Pin IfxPort_P40_12;
+extern IfxPort_Pin IfxPort_P40_13;
+extern IfxPort_Pin IfxPort_P40_14;
+extern IfxPort_Pin IfxPort_P40_2;
+extern IfxPort_Pin IfxPort_P40_3;
+extern IfxPort_Pin IfxPort_P40_4;
+extern IfxPort_Pin IfxPort_P40_5;
+extern IfxPort_Pin IfxPort_P40_6;
+extern IfxPort_Pin IfxPort_P40_7;
+extern IfxPort_Pin IfxPort_P40_8;
+extern IfxPort_Pin IfxPort_P40_9;
 
 
 
 
 
 
-void command(char);
-# 9 "0_Src/AppSw/Tricore/Serial/serial.h" 2
+
+extern const IfxPort_Pin *IfxPort_Pin_pinTable[41][16];
+# 19 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 2
 
 
-void serial_config(void);
-void serial_send(uint8 data);
-uint8 serial_recv(void);
-void serial_sendBytes(uint8 *data, Ifx_SizeT count);
-void serial_rcvBytes(uint8 *data, Ifx_SizeT count);
-void serial_print(char *str);
-# 17 "0_Src/AppSw/Tricore/Motors/Motors.h" 2
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
+# 22 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 2
+# 34 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void config_servomotor(void);
+# 43 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void move_servo(unsigned char angle);
+# 54 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void sweep_servo_config(void);
+# 63 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void sweep_servo(void);
+# 72 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void timer_compare_config(void);
+# 81 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+void STM_INTERRUPT_SERVO(void);
+# 29 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+
+# 1 "0_Src/AppSw/Tricore/Serial/serial.h" 1
+# 31 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+
+
+# 1 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h" 1
+# 17 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h"
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
+# 18 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h" 2
+
+
+
+
+
+
+void configUltrasonicSensor(void);
+
+
+void sendTrig(IfxPort_Pin port_pin);
+
+
+
+
+
+void isrGetDistance(void);
+
+
+
+
+
+
+float64 returnDistance(void);
+# 34 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 # 1 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.h" 1
 # 12 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/I2c/I2c/IfxI2c_I2c.h" 1
@@ -29332,26 +29677,43 @@ typedef struct
 
 typedef struct
 {
- Gravity Gravity;
  volatile float yaw;
  volatile float pitch;
  volatile float roll;
- volatile float yaw_offset;
- volatile float pitch_offset;
- volatile float roll_offset;
 } YawPitchRoll;
 
 
 void Init_gyro(void);
 void Init_I2C(void);
-
-
 void Init_MPU9265(void);
 void Init_MPU9250(uint8,uint8);
 void Init_Mag_AK8963(uint8);
 void Read_I2C_Register(IfxI2c_I2c_Device *,uint8,int);
 void GetAccel();
-# 18 "0_Src/AppSw/Tricore/Motors/Motors.h" 2
+void GetYawPitchRoll();
+# 35 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+# 1 "0_Src/AppSw/Tricore/Beeper/Beeper.h" 1
+# 12 "0_Src/AppSw/Tricore/Beeper/Beeper.h"
+# 1 "0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h" 1
+# 13 "0_Src/AppSw/Tricore/Beeper/Beeper.h" 2
+
+
+
+void beep(void);
+# 36 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
+
+
+void command(char);
+# 9 "0_Src/AppSw/Tricore/Serial/serial.h" 2
+
+
+void serial_config(void);
+void serial_send(uint8 data);
+uint8 serial_recv(void);
+void serial_sendBytes(uint8 *data, Ifx_SizeT count);
+void serial_rcvBytes(uint8 *data, Ifx_SizeT count);
+void serial_print(char *str);
+# 17 "0_Src/AppSw/Tricore/Motors/Motors.h" 2
 # 27 "0_Src/AppSw/Tricore/Motors/Motors.h"
  void STM_INTERRUPT_CORRECTION();
 
@@ -29412,17 +29774,15 @@ extern volatile uint32 interruptRight_counter;
 IfxStm_CompareConfig CompareCorrection;
 Ifx_STM *stm2 = &(*(Ifx_STM*)0xF0000200u);
 
-volatile uint32 frequency = 0;
 
+volatile uint32 frequency = 0;
 
 volatile int Encoders_Error = 2;
 volatile uint8 Left_duty_cycle = 0;
 volatile uint8 Right_duty_cycle = 0;
 volatile float ticks = 0;
 
-
-extern IfxGtm_Tom_Timer Timer1;
-extern IfxGtm_Tom_Timer Timer2;
+extern PWM_Timers Timers;
 
 volatile uint8 commande_movement = 0;
 volatile int Flag = 0;
@@ -29445,11 +29805,11 @@ P_coefficient Left_correction = {0.0,-10.75,0.0};
   (*(volatile Ifx_P_IOCR4*)0xF003D314u).B.PC4 = 0x10;
 
 
-  PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT);
-  IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
+    PWM_init(IfxGtm_TOM0_3_TOUT21_P00_12_OUT, &Timers.PWM1_Bridge, 800);
+    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
 
-  PWM2_config(IfxGtm_TOM0_2_TOUT28_P33_6_OUT);
-  IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
+    PWM_init(IfxGtm_TOM0_2_TOUT28_P33_6_OUT, &Timers.PWM2_Bridge, 800);
+    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 
 
  (*(volatile Ifx_P_OUT*)0xF003A000u).B.P6 = 1;
@@ -29463,7 +29823,6 @@ P_coefficient Left_correction = {0.0,-10.75,0.0};
 
  void Backward_1()
  {
-
   Left_duty_cycle = 40;
   Right_duty_cycle = 25;
 
@@ -29473,11 +29832,11 @@ P_coefficient Left_correction = {0.0,-10.75,0.0};
   (*(volatile Ifx_P_IOCR4*)0xF003D314u).B.PC6 = 0x10;
   (*(volatile Ifx_P_IOCR4*)0xF003D314u).B.PC4 = 0x10;
 
-  PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT);
-  IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
+    PWM_init(IfxGtm_TOM1_3_TOUT13_P00_4_OUT, &Timers.PWM1_Bridge, 800);
+    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
 
-  PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);
-  IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
+    PWM_init(IfxGtm_TOM0_6_TOUT24_P33_2_OUT, &Timers.PWM2_Bridge, 800);
+    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 
  (*(volatile Ifx_P_OUT*)0xF003A000u).B.P6 = 1;
  (*(volatile Ifx_P_OUT*)0xF003A000u).B.P12 = 0;
@@ -29499,11 +29858,12 @@ P_coefficient Left_correction = {0.0,-10.75,0.0};
    (*(volatile Ifx_P_IOCR0*)0xF003D310u).B.PC2 = 0x10;
    (*(volatile Ifx_P_IOCR4*)0xF003D314u).B.PC4 = 0x10;
 
-  PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT);
-  PWM2_config(IfxGtm_TOM0_2_TOUT28_P33_6_OUT);
+  PWM_init(IfxGtm_TOM1_3_TOUT13_P00_4_OUT, &Timers.PWM1_Bridge, 800);
+    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
 
-  IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
-   IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
+    PWM_init(IfxGtm_TOM0_2_TOUT28_P33_6_OUT, &Timers.PWM2_Bridge, 800);
+    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
+
 
 
   (*(volatile Ifx_P_OUT*)0xF003A000u).B.P6 = 1;
@@ -29526,11 +29886,11 @@ P_coefficient Left_correction = {0.0,-10.75,0.0};
    (*(volatile Ifx_P_IOCR4*)0xF003D314u).B.PC6 = 0x10;
    (*(volatile Ifx_P_IOCR4*)0xF003D314u).B.PC4 = 0x10;
 
-  PWM_config(IfxGtm_TOM1_3_TOUT21_P00_12_OUT);
-  PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);
+  PWM_init(IfxGtm_TOM0_3_TOUT21_P00_12_OUT, &Timers.PWM1_Bridge, 800);
+    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
 
-  IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
-   IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
+    PWM_init(IfxGtm_TOM0_6_TOUT24_P33_2_OUT, &Timers.PWM2_Bridge, 800);
+    PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
 
 
   (*(volatile Ifx_P_OUT*)0xF003A000u).B.P6 = 1;
@@ -29551,40 +29911,35 @@ void STM_INTERRUPT_CORRECTION()
  Encoders_Error = interruptRight_counter - interruptLeft_counter;
  if (commande_movement == 1)
  {
-   Right_duty_cycle = 35;
-   Left_duty_cycle = Right_duty_cycle - (Forward_correction.stable * Encoders_Error);
+  Right_duty_cycle = 35;
+  Left_duty_cycle = Right_duty_cycle - (Forward_correction.stable * Encoders_Error);
 
-   IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
-   IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
-
- }
+  PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
+  PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
+}
  if (commande_movement == 2)
  {
-
   Right_duty_cycle = 35;
   Left_duty_cycle = Right_duty_cycle - (Backward_correction.stable * Encoders_Error);
 
-  IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
-  IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
-
+     PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
+     PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
  }
  if (commande_movement == 3)
  {
   Right_duty_cycle = 20;
   Left_duty_cycle = Right_duty_cycle - (Right_correction.stable * Encoders_Error);
 
-  IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
-  IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
-
+     PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
+     PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
  }
  if (commande_movement == 4)
  {
-   Right_duty_cycle = 25;
-   Left_duty_cycle = Right_duty_cycle - (Left_correction.stable * Encoders_Error);
+  Right_duty_cycle = 25;
+  Left_duty_cycle = Right_duty_cycle - (Left_correction.stable * Encoders_Error);
 
-   IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
-   IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
-
+  PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
+  PWM_setDuty(Timers.PWM2_Bridge, Left_duty_cycle);
  }
  IfxStm_increaseCompare(stm2, CompareCorrection.comparator, frequency/100);
 }
@@ -29620,6 +29975,6 @@ void Motors_stop()
  (*(volatile Ifx_P_OUT*)0xF003D300u).B.P4 = 0;
 
 
-  IfxGtm_Tom_Timer_stop(&Timer1);
-  IfxGtm_Tom_Timer_stop(&Timer2);
+  IfxGtm_Tom_Timer_stop(&Timers.PWM1_Bridge);
+  IfxGtm_Tom_Timer_stop(&Timers.PWM2_Bridge);
 }

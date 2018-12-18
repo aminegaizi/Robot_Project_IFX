@@ -119,7 +119,7 @@ SpiIf_initChannelConfig:
 	.file 5 "0_Src/BaseSw/Service/CpuGeneric/If/SpiIf.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0xc63
+	.uaword	0xc7d
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -127,7 +127,7 @@ SpiIf_initChannelConfig:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/Service/CpuGeneric/If/SpiIf.c"
-	.string	"C:\\\\Robot_Project\\\\Robot_Project_TC297-B-Ongoing"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC297B-Ongoing"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -136,7 +136,7 @@ SpiIf_initChannelConfig:
 	.byte	0x1
 	.byte	0x2
 	.byte	0x32
-	.uaword	0x1c1
+	.uaword	0x1db
 	.uleb128 0x3
 	.string	"IfxSrc_Tos_cpu0"
 	.sleb128 0
@@ -154,7 +154,7 @@ SpiIf_initChannelConfig:
 	.string	"IfxSrc_Tos"
 	.byte	0x2
 	.byte	0x37
-	.uaword	0x171
+	.uaword	0x18b
 	.uleb128 0x5
 	.byte	0x4
 	.byte	0x5
@@ -179,7 +179,7 @@ SpiIf_initChannelConfig:
 	.string	"sint16"
 	.byte	0x3
 	.byte	0x5a
-	.uaword	0x229
+	.uaword	0x243
 	.uleb128 0x5
 	.byte	0x2
 	.byte	0x5
@@ -188,7 +188,7 @@ SpiIf_initChannelConfig:
 	.string	"uint16"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x244
+	.uaword	0x25e
 	.uleb128 0x5
 	.byte	0x2
 	.byte	0x7
@@ -197,17 +197,17 @@ SpiIf_initChannelConfig:
 	.string	"sint32"
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x1d3
+	.uaword	0x1ed
 	.uleb128 0x4
 	.string	"uint32"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x1df
+	.uaword	0x1f9
 	.uleb128 0x4
 	.string	"float32"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x285
+	.uaword	0x29f
 	.uleb128 0x5
 	.byte	0x4
 	.byte	0x4
@@ -232,24 +232,24 @@ SpiIf_initChannelConfig:
 	.string	"pvoid"
 	.byte	0x4
 	.byte	0x28
-	.uaword	0x2d8
+	.uaword	0x2f2
 	.uleb128 0x6
 	.byte	0x4
 	.uleb128 0x4
 	.string	"Ifx_SizeT"
 	.byte	0x4
 	.byte	0x4a
-	.uaword	0x21b
+	.uaword	0x235
 	.uleb128 0x4
 	.string	"Ifx_Priority"
 	.byte	0x4
 	.byte	0x55
-	.uaword	0x236
+	.uaword	0x250
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x4
 	.byte	0x63
-	.uaword	0x335
+	.uaword	0x34f
 	.uleb128 0x3
 	.string	"Ifx_ActiveState_low"
 	.sleb128 0
@@ -261,7 +261,7 @@ SpiIf_initChannelConfig:
 	.byte	0x1
 	.byte	0x4
 	.byte	0x69
-	.uaword	0x369
+	.uaword	0x383
 	.uleb128 0x3
 	.string	"Ifx_ParityMode_even"
 	.sleb128 0
@@ -281,7 +281,7 @@ SpiIf_initChannelConfig:
 	.byte	0x1
 	.byte	0x5
 	.byte	0x32
-	.uaword	0x3cb
+	.uaword	0x3e5
 	.uleb128 0x3
 	.string	"SpiIf_Status_ok"
 	.sleb128 0
@@ -296,12 +296,12 @@ SpiIf_initChannelConfig:
 	.string	"SpiIf_Status"
 	.byte	0x5
 	.byte	0x36
-	.uaword	0x385
+	.uaword	0x39f
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3a
-	.uaword	0x490
+	.uaword	0x4aa
 	.uleb128 0x3
 	.string	"SpiIf_SlsoTiming_0"
 	.sleb128 0
@@ -331,7 +331,7 @@ SpiIf_initChannelConfig:
 	.byte	0x1
 	.byte	0x5
 	.byte	0x47
-	.uaword	0x4d3
+	.uaword	0x4ed
 	.uleb128 0x3
 	.string	"SpiIf_DataHeading_lsbFirst"
 	.sleb128 0
@@ -343,7 +343,7 @@ SpiIf_initChannelConfig:
 	.byte	0x1
 	.byte	0x5
 	.byte	0x4e
-	.uaword	0x541
+	.uaword	0x55b
 	.uleb128 0x3
 	.string	"SpiIf_ShiftClock_shiftTransmitDataOnLeadingEdge"
 	.sleb128 0
@@ -355,7 +355,7 @@ SpiIf_initChannelConfig:
 	.byte	0x1
 	.byte	0x5
 	.byte	0x55
-	.uaword	0x587
+	.uaword	0x5a1
 	.uleb128 0x3
 	.string	"SpiIf_ClockPolarity_idleLow"
 	.sleb128 0
@@ -367,168 +367,168 @@ SpiIf_initChannelConfig:
 	.string	"SpiIf_Ch"
 	.byte	0x5
 	.byte	0x5e
-	.uaword	0x597
+	.uaword	0x5b1
 	.uleb128 0x7
 	.string	"SpiIf_Ch_"
 	.byte	0x30
 	.byte	0x5
 	.byte	0xc2
-	.uaword	0x641
+	.uaword	0x65b
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x5
 	.byte	0xc4
-	.uaword	0x89d
+	.uaword	0x8b7
 	.byte	0
 	.uleb128 0x9
 	.string	"flags"
 	.byte	0x5
 	.byte	0xc5
-	.uaword	0x757
+	.uaword	0x771
 	.byte	0x4
 	.uleb128 0x8
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xc6
-	.uaword	0xa43
+	.uaword	0xa5d
 	.byte	0x8
 	.uleb128 0x8
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0xc7
-	.uaword	0x25a
+	.uaword	0x274
 	.byte	0xc
 	.uleb128 0x9
 	.string	"tx"
 	.byte	0x5
 	.byte	0xc8
-	.uaword	0x797
+	.uaword	0x7b1
 	.byte	0x10
 	.uleb128 0x9
 	.string	"rx"
 	.byte	0x5
 	.byte	0xc9
-	.uaword	0x797
+	.uaword	0x7b1
 	.byte	0x18
 	.uleb128 0x9
 	.string	"onExchangeEnd"
 	.byte	0x5
 	.byte	0xca
-	.uaword	0xb92
+	.uaword	0xbac
 	.byte	0x20
 	.uleb128 0x9
 	.string	"callbackData"
 	.byte	0x5
 	.byte	0xcb
-	.uaword	0x2d8
+	.uaword	0x2f2
 	.byte	0x24
 	.uleb128 0x9
 	.string	"txHandler"
 	.byte	0x5
 	.byte	0xcc
-	.uaword	0xbb5
+	.uaword	0xbcf
 	.byte	0x28
 	.uleb128 0x9
 	.string	"rxHandler"
 	.byte	0x5
 	.byte	0xcd
-	.uaword	0xbb5
+	.uaword	0xbcf
 	.byte	0x2c
 	.byte	0
 	.uleb128 0x4
 	.string	"SpiIf_ChConfig"
 	.byte	0x5
 	.byte	0x5f
-	.uaword	0x657
+	.uaword	0x671
 	.uleb128 0x7
 	.string	"SpiIf_ChConfig_"
 	.byte	0x1c
 	.byte	0x5
 	.byte	0xd0
-	.uaword	0x6a1
+	.uaword	0x6bb
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x5
 	.byte	0xd2
-	.uaword	0x89d
+	.uaword	0x8b7
 	.byte	0
 	.uleb128 0x8
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0xd3
-	.uaword	0x276
+	.uaword	0x290
 	.byte	0x4
 	.uleb128 0x9
 	.string	"mode"
 	.byte	0x5
 	.byte	0xd4
-	.uaword	0xb7e
+	.uaword	0xb98
 	.byte	0x8
 	.uleb128 0x8
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xd5
-	.uaword	0xa43
+	.uaword	0xa5d
 	.byte	0x18
 	.byte	0
 	.uleb128 0x4
 	.string	"SpiIf"
 	.byte	0x5
 	.byte	0x60
-	.uaword	0x6ae
+	.uaword	0x6c8
 	.uleb128 0x7
 	.string	"SpiIf_"
 	.byte	0x28
 	.byte	0x5
 	.byte	0x85
-	.uaword	0x722
+	.uaword	0x73c
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x5
 	.byte	0x87
-	.uaword	0x2cb
+	.uaword	0x2e5
 	.byte	0
 	.uleb128 0x9
 	.string	"sending"
 	.byte	0x5
 	.byte	0x88
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.uleb128 0x9
 	.string	"activeChannel"
 	.byte	0x5
 	.byte	0x89
-	.uaword	0x83c
+	.uaword	0x856
 	.byte	0x8
 	.uleb128 0x9
 	.string	"txCount"
 	.byte	0x5
 	.byte	0x8a
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0xc
 	.uleb128 0x9
 	.string	"rxCount"
 	.byte	0x5
 	.byte	0x8b
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x10
 	.uleb128 0x9
 	.string	"functions"
 	.byte	0x5
 	.byte	0x8c
-	.uaword	0x91b
+	.uaword	0x935
 	.byte	0x14
 	.byte	0
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x5
 	.byte	0x62
-	.uaword	0x757
+	.uaword	0x771
 	.uleb128 0xb
 	.string	"onTransfer"
 	.byte	0x5
 	.byte	0x64
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -537,7 +537,7 @@ SpiIf_initChannelConfig:
 	.string	"byteAccess"
 	.byte	0x5
 	.byte	0x65
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -547,37 +547,37 @@ SpiIf_initChannelConfig:
 	.string	"SpiIf_Flags"
 	.byte	0x5
 	.byte	0x66
-	.uaword	0x76a
+	.uaword	0x784
 	.uleb128 0xc
-	.uaword	0x722
+	.uaword	0x73c
 	.uleb128 0xa
 	.byte	0x8
 	.byte	0x5
 	.byte	0x68
-	.uaword	0x797
+	.uaword	0x7b1
 	.uleb128 0x9
 	.string	"data"
 	.byte	0x5
 	.byte	0x6a
-	.uaword	0x2d8
+	.uaword	0x2f2
 	.byte	0
 	.uleb128 0x9
 	.string	"remaining"
 	.byte	0x5
 	.byte	0x6b
-	.uaword	0x2da
+	.uaword	0x2f4
 	.byte	0x4
 	.byte	0
 	.uleb128 0x4
 	.string	"SpiIf_Job"
 	.byte	0x5
 	.byte	0x6c
-	.uaword	0x76f
+	.uaword	0x789
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x70
-	.uaword	0x7ef
+	.uaword	0x809
 	.uleb128 0x3
 	.string	"SpiIf_Mode_master"
 	.sleb128 0
@@ -592,182 +592,182 @@ SpiIf_initChannelConfig:
 	.string	"SpiIf_Mode"
 	.byte	0x5
 	.byte	0x74
-	.uaword	0x7a8
+	.uaword	0x7c2
 	.uleb128 0x4
 	.string	"SpiIf_Exchange"
 	.byte	0x5
 	.byte	0x76
-	.uaword	0x817
+	.uaword	0x831
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0x81d
+	.uaword	0x837
 	.uleb128 0xe
 	.byte	0x1
-	.uaword	0x3cb
-	.uaword	0x83c
+	.uaword	0x3e5
+	.uaword	0x856
 	.uleb128 0xf
-	.uaword	0x83c
+	.uaword	0x856
 	.uleb128 0xf
-	.uaword	0x842
+	.uaword	0x85c
 	.uleb128 0xf
-	.uaword	0x2d8
+	.uaword	0x2f2
 	.uleb128 0xf
-	.uaword	0x2da
+	.uaword	0x2f4
 	.byte	0
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0x587
+	.uaword	0x5a1
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0x848
+	.uaword	0x862
 	.uleb128 0x10
 	.uleb128 0x4
 	.string	"SpiIf_GetStatus"
 	.byte	0x5
 	.byte	0x77
-	.uaword	0x860
+	.uaword	0x87a
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0x866
+	.uaword	0x880
 	.uleb128 0xe
 	.byte	0x1
-	.uaword	0x3cb
-	.uaword	0x876
+	.uaword	0x3e5
+	.uaword	0x890
 	.uleb128 0xf
-	.uaword	0x83c
+	.uaword	0x856
 	.byte	0
 	.uleb128 0x4
 	.string	"SpiIf_OnEvent"
 	.byte	0x5
 	.byte	0x78
-	.uaword	0x88b
+	.uaword	0x8a5
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0x891
+	.uaword	0x8ab
 	.uleb128 0x11
 	.byte	0x1
-	.uaword	0x89d
+	.uaword	0x8b7
 	.uleb128 0xf
-	.uaword	0x89d
+	.uaword	0x8b7
 	.byte	0
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0x6a1
+	.uaword	0x6bb
 	.uleb128 0x4
 	.string	"SpiIf_SlsoTiming_HalfTsclk"
 	.byte	0x5
 	.byte	0x79
-	.uaword	0x268
+	.uaword	0x282
 	.uleb128 0xa
 	.byte	0x14
 	.byte	0x5
 	.byte	0x7c
-	.uaword	0x91b
+	.uaword	0x935
 	.uleb128 0x9
 	.string	"exchange"
 	.byte	0x5
 	.byte	0x7e
-	.uaword	0x801
+	.uaword	0x81b
 	.byte	0
 	.uleb128 0x9
 	.string	"getStatus"
 	.byte	0x5
 	.byte	0x7f
-	.uaword	0x849
+	.uaword	0x863
 	.byte	0x4
 	.uleb128 0x9
 	.string	"onTx"
 	.byte	0x5
 	.byte	0x80
-	.uaword	0x876
+	.uaword	0x890
 	.byte	0x8
 	.uleb128 0x9
 	.string	"onRx"
 	.byte	0x5
 	.byte	0x81
-	.uaword	0x876
+	.uaword	0x890
 	.byte	0xc
 	.uleb128 0x9
 	.string	"onError"
 	.byte	0x5
 	.byte	0x82
-	.uaword	0x876
+	.uaword	0x890
 	.byte	0x10
 	.byte	0
 	.uleb128 0x4
 	.string	"SpiIf_funcs"
 	.byte	0x5
 	.byte	0x83
-	.uaword	0x8c5
+	.uaword	0x8df
 	.uleb128 0xa
 	.byte	0x14
 	.byte	0x5
 	.byte	0x8f
-	.uaword	0x9cb
+	.uaword	0x9e5
 	.uleb128 0x9
 	.string	"mode"
 	.byte	0x5
 	.byte	0x91
-	.uaword	0x7ef
+	.uaword	0x809
 	.byte	0
 	.uleb128 0x9
 	.string	"rxPriority"
 	.byte	0x5
 	.byte	0x92
-	.uaword	0x2eb
+	.uaword	0x305
 	.byte	0x2
 	.uleb128 0x9
 	.string	"txPriority"
 	.byte	0x5
 	.byte	0x93
-	.uaword	0x2eb
+	.uaword	0x305
 	.byte	0x4
 	.uleb128 0x9
 	.string	"erPriority"
 	.byte	0x5
 	.byte	0x94
-	.uaword	0x2eb
+	.uaword	0x305
 	.byte	0x6
 	.uleb128 0x9
 	.string	"isrProvider"
 	.byte	0x5
 	.byte	0x95
-	.uaword	0x1c1
+	.uaword	0x1db
 	.byte	0x8
 	.uleb128 0x9
 	.string	"bufferSize"
 	.byte	0x5
 	.byte	0x96
-	.uaword	0x2da
+	.uaword	0x2f4
 	.byte	0xa
 	.uleb128 0x9
 	.string	"buffer"
 	.byte	0x5
 	.byte	0x97
-	.uaword	0x2d8
+	.uaword	0x2f2
 	.byte	0xc
 	.uleb128 0x9
 	.string	"maximumBaudrate"
 	.byte	0x5
 	.byte	0x9c
-	.uaword	0x276
+	.uaword	0x290
 	.byte	0x10
 	.byte	0
 	.uleb128 0x4
 	.string	"SpiIf_Config"
 	.byte	0x5
 	.byte	0x9d
-	.uaword	0x92e
+	.uaword	0x948
 	.uleb128 0xa
 	.byte	0x4
 	.byte	0x5
 	.byte	0x9f
-	.uaword	0xa43
+	.uaword	0xa5d
 	.uleb128 0x12
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0xa1
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -776,7 +776,7 @@ SpiIf_initChannelConfig:
 	.string	"phase"
 	.byte	0x5
 	.byte	0xa2
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -785,7 +785,7 @@ SpiIf_initChannelConfig:
 	.string	"receive"
 	.byte	0x5
 	.byte	0xa3
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -794,7 +794,7 @@ SpiIf_initChannelConfig:
 	.string	"transmit"
 	.byte	0x5
 	.byte	0xa4
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -803,7 +803,7 @@ SpiIf_initChannelConfig:
 	.string	"reserved"
 	.byte	0x5
 	.byte	0xa5
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -813,17 +813,17 @@ SpiIf_initChannelConfig:
 	.string	"Spi_ErrorChecks"
 	.byte	0x5
 	.byte	0xa6
-	.uaword	0x9df
+	.uaword	0x9f9
 	.uleb128 0xa
 	.byte	0x10
 	.byte	0x5
 	.byte	0xa9
-	.uaword	0xb7e
+	.uaword	0xb98
 	.uleb128 0xb
 	.string	"enabled"
 	.byte	0x5
 	.byte	0xab
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -832,7 +832,7 @@ SpiIf_initChannelConfig:
 	.string	"autoCS"
 	.byte	0x5
 	.byte	0xac
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -841,7 +841,7 @@ SpiIf_initChannelConfig:
 	.string	"loopback"
 	.byte	0x5
 	.byte	0xad
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -850,7 +850,7 @@ SpiIf_initChannelConfig:
 	.string	"clockPolarity"
 	.byte	0x5
 	.byte	0xae
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -859,7 +859,7 @@ SpiIf_initChannelConfig:
 	.string	"shiftClock"
 	.byte	0x5
 	.byte	0xaf
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -868,7 +868,7 @@ SpiIf_initChannelConfig:
 	.string	"dataHeading"
 	.byte	0x5
 	.byte	0xb0
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -877,7 +877,7 @@ SpiIf_initChannelConfig:
 	.string	"dataWidth"
 	.byte	0x5
 	.byte	0xb1
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x6
 	.byte	0x14
@@ -886,7 +886,7 @@ SpiIf_initChannelConfig:
 	.string	"csActiveLevel"
 	.byte	0x5
 	.byte	0xb3
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -895,7 +895,7 @@ SpiIf_initChannelConfig:
 	.string	"parityCheck"
 	.byte	0x5
 	.byte	0xb5
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -904,7 +904,7 @@ SpiIf_initChannelConfig:
 	.string	"parityMode"
 	.byte	0x5
 	.byte	0xb6
-	.uaword	0x268
+	.uaword	0x282
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -913,53 +913,53 @@ SpiIf_initChannelConfig:
 	.string	"csInactiveDelay"
 	.byte	0x5
 	.byte	0xb8
-	.uaword	0x8a3
+	.uaword	0x8bd
 	.byte	0x4
 	.uleb128 0x9
 	.string	"csLeadDelay"
 	.byte	0x5
 	.byte	0xb9
-	.uaword	0x8a3
+	.uaword	0x8bd
 	.byte	0x8
 	.uleb128 0x9
 	.string	"csTrailDelay"
 	.byte	0x5
 	.byte	0xba
-	.uaword	0x8a3
+	.uaword	0x8bd
 	.byte	0xc
 	.byte	0
 	.uleb128 0x4
 	.string	"SpiIf_ChMode"
 	.byte	0x5
 	.byte	0xbc
-	.uaword	0xa5a
+	.uaword	0xa74
 	.uleb128 0x4
 	.string	"SpiIf_Cbk"
 	.byte	0x5
 	.byte	0xbf
-	.uaword	0xba3
+	.uaword	0xbbd
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0xba9
+	.uaword	0xbc3
 	.uleb128 0x11
 	.byte	0x1
-	.uaword	0xbb5
+	.uaword	0xbcf
 	.uleb128 0xf
-	.uaword	0x2d8
+	.uaword	0x2f2
 	.byte	0
 	.uleb128 0x4
 	.string	"TxRxHandler"
 	.byte	0x5
 	.byte	0xc0
-	.uaword	0xbc8
+	.uaword	0xbe2
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0xbce
+	.uaword	0xbe8
 	.uleb128 0x11
 	.byte	0x1
-	.uaword	0xbda
+	.uaword	0xbf4
 	.uleb128 0xf
-	.uaword	0x83c
+	.uaword	0x856
 	.byte	0
 	.uleb128 0x13
 	.byte	0x1
@@ -972,18 +972,18 @@ SpiIf_initChannelConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xc10
+	.uaword	0xc2a
 	.uleb128 0x14
 	.string	"config"
 	.byte	0x1
 	.byte	0x1b
-	.uaword	0xc10
+	.uaword	0xc2a
 	.byte	0x1
 	.byte	0x64
 	.byte	0
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0x9cb
+	.uaword	0x9e5
 	.uleb128 0x13
 	.byte	0x1
 	.string	"SpiIf_initChannelConfig"
@@ -995,25 +995,25 @@ SpiIf_initChannelConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xc60
+	.uaword	0xc7a
 	.uleb128 0x14
 	.string	"config"
 	.byte	0x1
 	.byte	0x28
-	.uaword	0xc60
+	.uaword	0xc7a
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x15
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x28
-	.uaword	0x89d
+	.uaword	0x8b7
 	.byte	0x1
 	.byte	0x65
 	.byte	0
 	.uleb128 0xd
 	.byte	0x4
-	.uaword	0x641
+	.uaword	0x65b
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

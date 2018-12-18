@@ -1,4 +1,5 @@
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/CpuGeneric/Config/Ifx_InterfaceConst.o"
+"2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Beeper/Beeper.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Encoders/Encoders_config.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Main/Cpu0_Main.o"

@@ -1,4 +1,5 @@
 "-I0_Src/AppSw/CpuGeneric/Config"
+"-I0_Src/AppSw/Tricore/Beeper"
 "-I0_Src/AppSw/Tricore/Encoders"
 "-I0_Src/AppSw/Tricore/Gyroscope"
 "-I0_Src/AppSw/Tricore/Main"

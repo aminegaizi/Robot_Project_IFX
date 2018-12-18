@@ -56,6 +56,7 @@
  0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h \
  0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_Timer.h \
  0_Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf.h \
+ 0_Src/AppSw/CpuGeneric/Config/Config_PWM.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Std/IfxPort.h \
  0_Src/AppSw/CpuGeneric/Config/Config_ISR.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h \

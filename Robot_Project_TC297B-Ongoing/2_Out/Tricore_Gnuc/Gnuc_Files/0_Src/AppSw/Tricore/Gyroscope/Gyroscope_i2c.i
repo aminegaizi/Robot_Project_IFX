@@ -1,15 +1,9 @@
 # 1 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c"
-# 1 "C:\\Robot_Project\\Robot_Project_TC297-B-Ongoing//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC297B-Ongoing//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c"
-
-
-
-
-
-
-
+# 19 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c"
 # 1 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.h" 1
 # 12 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/I2c/I2c/IfxI2c_I2c.h" 1
@@ -13464,36 +13458,32 @@ typedef struct
 
 typedef struct
 {
- Gravity Gravity;
  volatile float yaw;
  volatile float pitch;
  volatile float roll;
- volatile float yaw_offset;
- volatile float pitch_offset;
- volatile float roll_offset;
 } YawPitchRoll;
 
 
 void Init_gyro(void);
 void Init_I2C(void);
-
-
 void Init_MPU9265(void);
 void Init_MPU9250(uint8,uint8);
 void Init_Mag_AK8963(uint8);
 void Read_I2C_Register(IfxI2c_I2c_Device *,uint8,int);
 void GetAccel();
-# 9 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c" 2
-# 17 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c"
+void GetYawPitchRoll();
+# 20 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c" 2
+# 28 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.c"
 App_I2C I2C_Masters_Slaves;
 
 MPU_9265 Mpu;
 YawPitchRoll YPR;
 
-
 volatile uint8 Data[32];
 
-volatile Ifx_SizeT size;
+volatile float Faccelx=0;
+volatile float Faccely=0;
+volatile float Faccelz=0;
 
 
 
@@ -13515,12 +13505,12 @@ void Init_I2C (void)
 
     IfxI2c_I2c_initModule(&I2C_Masters_Slaves.drivers.i2cHandle, &i2cConfig);
 
+
     {
 
      IfxI2c_I2c_deviceConfig i2cDeviceConfig;
 
      IfxI2c_I2c_initDeviceConfig(&i2cDeviceConfig, &I2C_Masters_Slaves.drivers.i2cHandle);
-
 
 
      i2cDeviceConfig.deviceAddress = 0x68<<1;
@@ -13545,7 +13535,6 @@ void Init_MPU9250(uint8 scale_gyro,uint8 scale_acc){
 
 
 
-
  switch (scale_gyro){
         case (uint8) 0x00: Mpu.gyro_scale_factor = ((float)131.0f); break;
         case (uint8) 0x08: Mpu.gyro_scale_factor = ((float)65.5f); break;
@@ -13561,13 +13550,18 @@ void Init_MPU9250(uint8 scale_gyro,uint8 scale_acc){
          case 0x18: Mpu.acc_scale_factor = ((float)2048.0f); break;
          default: Mpu.acc_scale_factor = ((float)16384.0f); break;
  }
+
+
+
  I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[0] = 0x1B;
  I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[1] = scale_gyro;
  while(IfxI2c_I2c_write(&I2C_Masters_Slaves.drivers.i2cDev_Gyro_Accel,&I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[0],2) == IfxI2c_I2c_Status_nak);
 
+
  I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[0] = 0x1C;
  I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[1] = scale_acc;
  while(IfxI2c_I2c_write(&I2C_Masters_Slaves.drivers.i2cDev_Gyro_Accel,&I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[0],2) == IfxI2c_I2c_Status_nak);
+
 
  I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[0] = 0x37;
  I2C_Masters_Slaves.i2cBuffer.i2cTxBuffer[1] = 0x02;
@@ -13595,9 +13589,6 @@ void Init_MPU9265(){
 
  Init_MPU9250(0x08,0x00);
  Init_Mag_AK8963(0x16);
- YPR.yaw_offset=0;
- YPR.pitch_offset=0;
- YPR.roll_offset=0;
 }
 
 
@@ -13623,6 +13614,7 @@ void Read_I2C_Register(IfxI2c_I2c_Device * Device_I2C,uint8 Register_Address,int
 
 void GetGyro()
 {
+
  int i;
  sint16 bit_data;
  float data[3];
@@ -13632,6 +13624,7 @@ void GetGyro()
          data[i] = (float)bit_data;
      }
 
+
  Mpu.Gyroscope.gyro_x=data[0]/Mpu.gyro_scale_factor;
  Mpu.Gyroscope.gyro_y=data[1]/Mpu.gyro_scale_factor;
  Mpu.Gyroscope.gyro_z=data[2]/Mpu.gyro_scale_factor;
@@ -13640,6 +13633,7 @@ void GetGyro()
 
 void GetAccel()
 {
+
  int i;
  sint16 bit_data;
  float data[3];
@@ -13649,6 +13643,7 @@ void GetAccel()
          data[i] = (float)bit_data;
      }
 
+
  Mpu.Acceleration.acc_x=data[0]/Mpu.acc_scale_factor;
  Mpu.Acceleration.acc_y=data[1]/Mpu.acc_scale_factor;
  Mpu.Acceleration.acc_z=data[2]/Mpu.acc_scale_factor;
@@ -13657,6 +13652,7 @@ void GetAccel()
 
 void GetMag()
 {
+
  int i;
  sint16 bit_data;
  float data[3];
@@ -13666,72 +13662,47 @@ void GetMag()
    data[i] = (float)bit_data;
   }
 
- Mpu.Magnetometer.mag_x=data[0]/Mpu.mag_scale_factor;
- Mpu.Magnetometer.mag_y=data[1]/Mpu.mag_scale_factor;
- Mpu.Magnetometer.mag_z=data[2]/Mpu.mag_scale_factor;
 
-}
-
-void GetTemp()
-{
- sint16 bit_data;
- float data[1];
-
- Read_I2C_Register(&I2C_Masters_Slaves.drivers.i2cDev_Mag,0x03,2);
- bit_data = ((sint16)I2C_Masters_Slaves.i2cBuffer.i2cRxBuffer[0]<<8)|(sint16)I2C_Masters_Slaves.i2cBuffer.i2cRxBuffer[1];
- data[0] = (float)bit_data;
-
-
-}
-void GetQuaternion()
-{
- GetMag();
- GetTemp();
-}
-
-void GetGravity()
-{
- float x= Mpu.Magnetometer.mag_x;
- float y= Mpu.Magnetometer.mag_y;
- float z= Mpu.Magnetometer.mag_z;
-
-
-
+ Mpu.Magnetometer.mag_x=(data[0]*0.000001)/Mpu.mag_scale_factor;
+ Mpu.Magnetometer.mag_y=(data[1]*0.000001)/Mpu.mag_scale_factor;
+ Mpu.Magnetometer.mag_z=(data[2]*0.000001)/Mpu.mag_scale_factor;
 
 }
 void GetYawPitchRoll()
 {
 
- float pitch;
- float yaw;
- float roll;
+ volatile float pitch=0;
+ volatile float yaw=0;
+ volatile float roll=0;
 
- GetGyro();
+ GetAccel();
  GetMag();
 
- float gyrox=Mpu.Gyroscope.gyro_x/57.3;
- float gyroy=Mpu.Gyroscope.gyro_y/57.3;
- float gyroz=Mpu.Gyroscope.gyro_y/57.3;
+ volatile float accelx=Mpu.Acceleration.acc_x/57.3;
+ volatile float accely=Mpu.Acceleration.acc_y/57.3;
+ volatile float accelz=Mpu.Acceleration.acc_y/57.3;
 
- pitch=atan2(gyroy,(sqrt((gyrox*gyrox)+(gyroz*gyroz))));
- roll=atan2(-gyrox,(sqrt((gyroy*gyroy)+(gyroz*gyroz))));
+ Faccelx=accelx * 0.5 + (Faccelx * (1.0 - 0.5));
+ Faccely=accely * 0.5 + (Faccely * (1.0 - 0.5));
+ Faccelz=accelz * 0.5 + (Faccelz * (1.0 - 0.5));
 
 
- float Yh = (Mpu.Magnetometer.mag_y * cos(roll)) - (Mpu.Magnetometer.mag_z * sin(roll));
- float Xh = (Mpu.Magnetometer.mag_x * cos(pitch))+(Mpu.Magnetometer.mag_y * sin(roll)*sin(pitch)) + (Mpu.Magnetometer.mag_z * cos(roll) * sin(pitch));
+ pitch=atan2(Faccely,(sqrt((Faccelx*Faccelx)+(Faccelz*Faccelz))));
+ roll=atan2(-Faccelx,(sqrt((Faccely*Faccely)+(Faccelz*Faccelz))));
 
- yaw = atan2(Yh, Xh);
+
+ float Yh = (Mpu.Magnetometer.mag_y * cos(roll)) + (Mpu.Magnetometer.mag_z * sin(roll));
+ float Xh = (Mpu.Magnetometer.mag_x * cos(pitch))+(Mpu.Magnetometer.mag_y * sin(roll)*sin(pitch)) + (Mpu.Magnetometer.mag_z * sin(roll) * sin(pitch));
+
+ yaw = atan2(-Yh, Xh);
 
 
  YPR.roll = roll*57.3;
  YPR.pitch = pitch*57.3;
  YPR.yaw = yaw*57.3;
 }
-
-
 void Init_gyro(void)
 {
  Init_I2C();
- Init_MPU9265();
 
 }

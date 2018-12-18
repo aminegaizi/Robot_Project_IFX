@@ -1,5 +1,5 @@
 # 1 "0_Src/AppSw/Tricore/Servomotor/servomotor.c"
-# 1 "C:\\Robot_Project\\Robot_Project_TC297-B-Ongoing//"
+# 1 "C:\\Users\\Gaizi\\Desktop\\Robot_Project_IFX\\Robot_Project_TC297B-Ongoing//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "0_Src/AppSw/Tricore/Servomotor/servomotor.c"
@@ -5370,7 +5370,7 @@ extern IfxPort_Pin IfxPort_P40_9;
 extern const IfxPort_Pin *IfxPort_Pin_pinTable[41][16];
 # 19 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 2
 # 1 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 1
-# 9 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
+# 13 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h" 1
 # 106 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h"
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxGtm_PinMap.h" 1
@@ -21664,7 +21664,7 @@ extern void IfxGtm_Tom_Pwm_start(IfxGtm_Tom_Pwm_Driver *driver, boolean immediat
 
 
 extern void IfxGtm_Tom_Pwm_stop(IfxGtm_Tom_Pwm_Driver *driver, boolean immediate);
-# 10 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+# 14 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
 
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h" 1
 # 119 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h"
@@ -22199,17 +22199,31 @@ extern void IfxGtm_Tom_Timer_stop(IfxGtm_Tom_Timer *driver);
 
 
 extern void IfxGtm_Tom_Timer_updateInputFrequency(IfxGtm_Tom_Timer *driver);
-# 12 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+# 16 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
+
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_PWM.h" 1
+# 18 "0_Src/AppSw/Tricore/PWM/PWM_config.h" 2
 
 
 
 
 
-void PWM_config(IfxGtm_Tom_ToutMap Output);
-void PWM2_config(IfxGtm_Tom_ToutMap Output);
-void PWM3_config(IfxGtm_Tom_ToutMap Output);
-void PWM4_config(IfxGtm_Tom_ToutMap Output);
+
+
 void ClockConfig();
+
+
+void PWM_init(IfxGtm_Tom_ToutMap Output, IfxGtm_Tom_Timer *Timer, float32 frequency);
+void PWM_setDuty(IfxGtm_Tom_Timer Timer, uint8 DutyCycle);
+
+typedef struct
+{
+    IfxGtm_Tom_Timer PWM1_Bridge;
+    IfxGtm_Tom_Timer PWM2_Bridge;
+    IfxGtm_Tom_Timer PWM1_Servo;
+    IfxGtm_Tom_Timer PWM2_Servo;
+    IfxGtm_Tom_Timer Beeper;
+}PWM_Timers;
 # 20 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 2
 # 1 "0_Src/BaseSw/iLLD/TC29B/Tricore/Port/Std/IfxPort.h" 1
 # 21 "0_Src/AppSw/Tricore/Servomotor/servomotor.h" 2
@@ -22708,16 +22722,17 @@ volatile float global_step;
 volatile float frequency_servo;
 volatile boolean flag_limit = 0;
 
+extern PWM_Timers Timers;
 
 void config_servomotor()
 {
 
  IfxPort_setPinModeOutput(&(*(Ifx_P*)0xF003D300u), 10, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
 
- PWM3_config(IfxGtm_TOM0_0_TOUT32_P33_10_OUT);
+ PWM_init(IfxGtm_TOM0_0_TOUT32_P33_10_OUT, &Timers.PWM1_Servo, 50);
 
  IfxPort_setPinModeOutput(&(*(Ifx_P*)0xF003D300u), 5, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
- PWM4_config(IfxGtm_TOM0_1_TOUT27_P33_5_OUT);
+ PWM_init(IfxGtm_TOM0_1_TOUT27_P33_5_OUT, &Timers.PWM2_Servo, 50);
 }
 
 
@@ -22730,7 +22745,8 @@ void move_servo(unsigned char angle)
  duty_position = angle * (9.75/ 180)+ 3.5;
 
 
- IfxGtm_Tom_Timer_setTrigger(&Timer4, (duty_position * Timer4.base.period) / 100);
+
+ PWM_setDuty(Timers.PWM2_Servo, duty_position);
 }
 
 
@@ -22757,7 +22773,8 @@ void sweep_servo()
 
  else
  {
-  IfxGtm_Tom_Timer_setTrigger(&Timer3, (duty3 * Timer3.base.period) / 100);
+
+  PWM_setDuty(Timers.PWM1_Servo, duty3);
  }
 }
 

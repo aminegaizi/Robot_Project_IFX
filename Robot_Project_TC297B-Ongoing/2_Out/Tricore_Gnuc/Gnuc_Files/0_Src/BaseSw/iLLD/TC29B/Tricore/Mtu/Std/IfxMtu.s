@@ -2240,7 +2240,7 @@ IfxMtu_writeSramAddress:
 	.file 12 "0_Src/BaseSw/iLLD/TC29B/Tricore/_Impl/IfxCpu_cfg.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x92b2
+	.uaword	0x92cc
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -2248,7 +2248,7 @@ IfxMtu_writeSramAddress:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"0_Src/BaseSw/iLLD/TC29B/Tricore/Mtu/Std/IfxMtu.c"
-	.string	"C:\\\\Robot_Project\\\\Robot_Project_TC297-B-Ongoing"
+	.string	"C:\\\\Users\\\\Gaizi\\\\Desktop\\\\Robot_Project_IFX\\\\Robot_Project_TC297B-Ongoing"
 	.uaword	.Ldebug_ranges0+0x138
 	.uaword	0
 	.uaword	0
@@ -2277,7 +2277,7 @@ IfxMtu_writeSramAddress:
 	.string	"uint8"
 	.byte	0x6
 	.byte	0x59
-	.uaword	0x1c4
+	.uaword	0x1de
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -2290,7 +2290,7 @@ IfxMtu_writeSramAddress:
 	.string	"uint16"
 	.byte	0x6
 	.byte	0x5b
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -2299,17 +2299,17 @@ IfxMtu_writeSramAddress:
 	.string	"sint32"
 	.byte	0x6
 	.byte	0x5c
-	.uaword	0x187
+	.uaword	0x1a1
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x6
 	.byte	0x5d
-	.uaword	0x193
+	.uaword	0x1ad
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x6
 	.byte	0x5e
-	.uaword	0x177
+	.uaword	0x191
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -2318,7 +2318,7 @@ IfxMtu_writeSramAddress:
 	.string	"boolean"
 	.byte	0x6
 	.byte	0x68
-	.uaword	0x1c4
+	.uaword	0x1de
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -2333,33 +2333,33 @@ IfxMtu_writeSramAddress:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x283
+	.uaword	0x29d
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x7
 	.byte	0x7d
-	.uaword	0x2aa
+	.uaword	0x2c4
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x7
 	.byte	0x7f
-	.uaword	0x27d
+	.uaword	0x297
 	.byte	0
 	.uleb128 0x7
 	.string	"index"
 	.byte	0x7
 	.byte	0x80
-	.uaword	0x206
+	.uaword	0x220
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x7
 	.byte	0x81
-	.uaword	0x284
+	.uaword	0x29e
 	.uleb128 0x8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -2369,45 +2369,45 @@ IfxMtu_writeSramAddress:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x2f5
+	.uaword	0x1de
+	.uaword	0x30f
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x7
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x305
+	.uaword	0x1de
+	.uaword	0x31f
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x3
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x315
+	.uaword	0x1de
+	.uaword	0x32f
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x1b
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x325
+	.uaword	0x1de
+	.uaword	0x33f
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0xb
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x335
+	.uaword	0x1de
+	.uaword	0x34f
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0xf
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x345
+	.uaword	0x1de
+	.uaword	0x35f
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x27
 	.byte	0
 	.uleb128 0xb
@@ -2415,12 +2415,12 @@ IfxMtu_writeSramAddress:
 	.byte	0x4
 	.byte	0x8
 	.byte	0x2d
-	.uaword	0x559
+	.uaword	0x573
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x8
 	.byte	0x2f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2429,7 +2429,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN1"
 	.byte	0x8
 	.byte	0x30
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2438,7 +2438,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN2"
 	.byte	0x8
 	.byte	0x31
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2447,7 +2447,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN3"
 	.byte	0x8
 	.byte	0x32
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2456,7 +2456,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN4"
 	.byte	0x8
 	.byte	0x33
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2465,7 +2465,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN5"
 	.byte	0x8
 	.byte	0x34
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2474,7 +2474,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN6"
 	.byte	0x8
 	.byte	0x35
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2483,7 +2483,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN7"
 	.byte	0x8
 	.byte	0x36
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2492,7 +2492,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN8"
 	.byte	0x8
 	.byte	0x37
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2501,7 +2501,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN9"
 	.byte	0x8
 	.byte	0x38
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2510,7 +2510,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN10"
 	.byte	0x8
 	.byte	0x39
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2519,7 +2519,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN11"
 	.byte	0x8
 	.byte	0x3a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2528,7 +2528,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN12"
 	.byte	0x8
 	.byte	0x3b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2537,7 +2537,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN13"
 	.byte	0x8
 	.byte	0x3c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2546,7 +2546,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN14"
 	.byte	0x8
 	.byte	0x3d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2555,7 +2555,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN15"
 	.byte	0x8
 	.byte	0x3e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2564,7 +2564,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN16"
 	.byte	0x8
 	.byte	0x3f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2573,7 +2573,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN17"
 	.byte	0x8
 	.byte	0x40
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2582,7 +2582,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN18"
 	.byte	0x8
 	.byte	0x41
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2591,7 +2591,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN19"
 	.byte	0x8
 	.byte	0x42
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2600,7 +2600,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN20"
 	.byte	0x8
 	.byte	0x43
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2609,7 +2609,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN21"
 	.byte	0x8
 	.byte	0x44
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2618,7 +2618,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN22"
 	.byte	0x8
 	.byte	0x45
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2627,7 +2627,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN23"
 	.byte	0x8
 	.byte	0x46
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2636,7 +2636,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN24"
 	.byte	0x8
 	.byte	0x47
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2645,7 +2645,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN25"
 	.byte	0x8
 	.byte	0x48
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2654,7 +2654,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN26"
 	.byte	0x8
 	.byte	0x49
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2663,7 +2663,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN27"
 	.byte	0x8
 	.byte	0x4a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2672,7 +2672,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN28"
 	.byte	0x8
 	.byte	0x4b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2681,7 +2681,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN29"
 	.byte	0x8
 	.byte	0x4c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2690,7 +2690,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN30"
 	.byte	0x8
 	.byte	0x4d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2699,7 +2699,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN31"
 	.byte	0x8
 	.byte	0x4e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2709,18 +2709,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_ACCEN0_Bits"
 	.byte	0x8
 	.byte	0x4f
-	.uaword	0x345
+	.uaword	0x35f
 	.uleb128 0xb
 	.string	"_Ifx_SCU_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x52
-	.uaword	0x5a1
+	.uaword	0x5bb
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x54
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2730,18 +2730,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_ACCEN1_Bits"
 	.byte	0x8
 	.byte	0x55
-	.uaword	0x574
+	.uaword	0x58e
 	.uleb128 0xb
 	.string	"_Ifx_SCU_ARSTDIS_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x58
-	.uaword	0x623
+	.uaword	0x63d
 	.uleb128 0xc
 	.string	"STM0DIS"
 	.byte	0x8
 	.byte	0x5a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2750,7 +2750,7 @@ IfxMtu_writeSramAddress:
 	.string	"STM1DIS"
 	.byte	0x8
 	.byte	0x5b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2759,7 +2759,7 @@ IfxMtu_writeSramAddress:
 	.string	"STM2DIS"
 	.byte	0x8
 	.byte	0x5c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2768,7 +2768,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF1
 	.byte	0x8
 	.byte	0x5d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -2778,18 +2778,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_ARSTDIS_Bits"
 	.byte	0x8
 	.byte	0x5e
-	.uaword	0x5bc
+	.uaword	0x5d6
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON0_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x61
-	.uaword	0x733
+	.uaword	0x74d
 	.uleb128 0xc
 	.string	"BAUD1DIV"
 	.byte	0x8
 	.byte	0x63
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2798,7 +2798,7 @@ IfxMtu_writeSramAddress:
 	.string	"BAUD2DIV"
 	.byte	0x8
 	.byte	0x64
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2807,7 +2807,7 @@ IfxMtu_writeSramAddress:
 	.string	"SRIDIV"
 	.byte	0x8
 	.byte	0x65
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2816,7 +2816,7 @@ IfxMtu_writeSramAddress:
 	.string	"LPDIV"
 	.byte	0x8
 	.byte	0x66
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -2825,7 +2825,7 @@ IfxMtu_writeSramAddress:
 	.string	"SPBDIV"
 	.byte	0x8
 	.byte	0x67
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -2834,7 +2834,7 @@ IfxMtu_writeSramAddress:
 	.string	"FSI2DIV"
 	.byte	0x8
 	.byte	0x68
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -2843,7 +2843,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF2
 	.byte	0x8
 	.byte	0x69
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -2852,7 +2852,7 @@ IfxMtu_writeSramAddress:
 	.string	"FSIDIV"
 	.byte	0x8
 	.byte	0x6a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -2861,7 +2861,7 @@ IfxMtu_writeSramAddress:
 	.string	"ADCCLKSEL"
 	.byte	0x8
 	.byte	0x6b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -2870,7 +2870,7 @@ IfxMtu_writeSramAddress:
 	.string	"CLKSEL"
 	.byte	0x8
 	.byte	0x6c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2879,7 +2879,7 @@ IfxMtu_writeSramAddress:
 	.string	"UP"
 	.byte	0x8
 	.byte	0x6d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2888,7 +2888,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.byte	0x6e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2898,18 +2898,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON0_Bits"
 	.byte	0x8
 	.byte	0x6f
-	.uaword	0x63f
+	.uaword	0x659
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x72
-	.uaword	0x823
+	.uaword	0x83d
 	.uleb128 0xc
 	.string	"CANDIV"
 	.byte	0x8
 	.byte	0x74
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2918,7 +2918,7 @@ IfxMtu_writeSramAddress:
 	.string	"ERAYDIV"
 	.byte	0x8
 	.byte	0x75
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2927,7 +2927,7 @@ IfxMtu_writeSramAddress:
 	.string	"STMDIV"
 	.byte	0x8
 	.byte	0x76
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2936,7 +2936,7 @@ IfxMtu_writeSramAddress:
 	.string	"GTMDIV"
 	.byte	0x8
 	.byte	0x77
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -2945,7 +2945,7 @@ IfxMtu_writeSramAddress:
 	.string	"ETHDIV"
 	.byte	0x8
 	.byte	0x78
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -2954,7 +2954,7 @@ IfxMtu_writeSramAddress:
 	.string	"ASCLINFDIV"
 	.byte	0x8
 	.byte	0x79
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -2963,7 +2963,7 @@ IfxMtu_writeSramAddress:
 	.string	"ASCLINSDIV"
 	.byte	0x8
 	.byte	0x7a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -2972,7 +2972,7 @@ IfxMtu_writeSramAddress:
 	.string	"INSEL"
 	.byte	0x8
 	.byte	0x7b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2981,7 +2981,7 @@ IfxMtu_writeSramAddress:
 	.string	"UP"
 	.byte	0x8
 	.byte	0x7c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2990,7 +2990,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.byte	0x7d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3000,18 +3000,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON1_Bits"
 	.byte	0x8
 	.byte	0x7e
-	.uaword	0x74f
+	.uaword	0x769
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON2_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x81
-	.uaword	0x89c
+	.uaword	0x8b6
 	.uleb128 0xc
 	.string	"BBBDIV"
 	.byte	0x8
 	.byte	0x83
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3020,7 +3020,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.byte	0x84
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1a
 	.byte	0x2
@@ -3029,7 +3029,7 @@ IfxMtu_writeSramAddress:
 	.string	"UP"
 	.byte	0x8
 	.byte	0x85
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3038,7 +3038,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.byte	0x86
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3048,18 +3048,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON2_Bits"
 	.byte	0x8
 	.byte	0x87
-	.uaword	0x83f
+	.uaword	0x859
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON3_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8a
-	.uaword	0x986
+	.uaword	0x9a0
 	.uleb128 0xc
 	.string	"PLLDIV"
 	.byte	0x8
 	.byte	0x8c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -3068,7 +3068,7 @@ IfxMtu_writeSramAddress:
 	.string	"PLLSEL"
 	.byte	0x8
 	.byte	0x8d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -3077,7 +3077,7 @@ IfxMtu_writeSramAddress:
 	.string	"PLLERAYDIV"
 	.byte	0x8
 	.byte	0x8e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -3086,7 +3086,7 @@ IfxMtu_writeSramAddress:
 	.string	"PLLERAYSEL"
 	.byte	0x8
 	.byte	0x8f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -3095,7 +3095,7 @@ IfxMtu_writeSramAddress:
 	.string	"SRIDIV"
 	.byte	0x8
 	.byte	0x90
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -3104,7 +3104,7 @@ IfxMtu_writeSramAddress:
 	.string	"SRISEL"
 	.byte	0x8
 	.byte	0x91
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -3113,7 +3113,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.byte	0x92
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -3122,7 +3122,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.byte	0x93
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3131,7 +3131,7 @@ IfxMtu_writeSramAddress:
 	.string	"UP"
 	.byte	0x8
 	.byte	0x94
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3140,7 +3140,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.byte	0x95
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3150,18 +3150,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON3_Bits"
 	.byte	0x8
 	.byte	0x96
-	.uaword	0x8b8
+	.uaword	0x8d2
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON4_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0x99
-	.uaword	0xa68
+	.uaword	0xa82
 	.uleb128 0xc
 	.string	"SPBDIV"
 	.byte	0x8
 	.byte	0x9b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -3170,7 +3170,7 @@ IfxMtu_writeSramAddress:
 	.string	"SPBSEL"
 	.byte	0x8
 	.byte	0x9c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -3179,7 +3179,7 @@ IfxMtu_writeSramAddress:
 	.string	"GTMDIV"
 	.byte	0x8
 	.byte	0x9d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -3188,7 +3188,7 @@ IfxMtu_writeSramAddress:
 	.string	"GTMSEL"
 	.byte	0x8
 	.byte	0x9e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -3197,7 +3197,7 @@ IfxMtu_writeSramAddress:
 	.string	"STMDIV"
 	.byte	0x8
 	.byte	0x9f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -3206,7 +3206,7 @@ IfxMtu_writeSramAddress:
 	.string	"STMSEL"
 	.byte	0x8
 	.byte	0xa0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -3215,7 +3215,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.byte	0xa1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -3224,7 +3224,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.byte	0xa2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3233,7 +3233,7 @@ IfxMtu_writeSramAddress:
 	.string	"UP"
 	.byte	0x8
 	.byte	0xa3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3242,7 +3242,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.byte	0xa4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3252,18 +3252,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON4_Bits"
 	.byte	0x8
 	.byte	0xa5
-	.uaword	0x9a2
+	.uaword	0x9bc
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON5_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xa8
-	.uaword	0xaf3
+	.uaword	0xb0d
 	.uleb128 0xc
 	.string	"MAXDIV"
 	.byte	0x8
 	.byte	0xaa
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3272,7 +3272,7 @@ IfxMtu_writeSramAddress:
 	.string	"EBUDIV"
 	.byte	0x8
 	.byte	0xab
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -3281,7 +3281,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.byte	0xac
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x16
 	.byte	0x2
@@ -3290,7 +3290,7 @@ IfxMtu_writeSramAddress:
 	.string	"UP"
 	.byte	0x8
 	.byte	0xad
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3299,7 +3299,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.byte	0xae
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3309,18 +3309,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON5_Bits"
 	.byte	0x8
 	.byte	0xaf
-	.uaword	0xa84
+	.uaword	0xa9e
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON6_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xb2
-	.uaword	0xb50
+	.uaword	0xb6a
 	.uleb128 0xc
 	.string	"CPU0DIV"
 	.byte	0x8
 	.byte	0xb4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -3329,7 +3329,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF7
 	.byte	0x8
 	.byte	0xb5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -3339,18 +3339,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON6_Bits"
 	.byte	0x8
 	.byte	0xb6
-	.uaword	0xb0f
+	.uaword	0xb29
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON7_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xb9
-	.uaword	0xbad
+	.uaword	0xbc7
 	.uleb128 0xc
 	.string	"CPU1DIV"
 	.byte	0x8
 	.byte	0xbb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -3359,7 +3359,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF7
 	.byte	0x8
 	.byte	0xbc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -3369,18 +3369,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON7_Bits"
 	.byte	0x8
 	.byte	0xbd
-	.uaword	0xb6c
+	.uaword	0xb86
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON8_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xc0
-	.uaword	0xc0a
+	.uaword	0xc24
 	.uleb128 0xc
 	.string	"CPU2DIV"
 	.byte	0x8
 	.byte	0xc2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -3389,7 +3389,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF7
 	.byte	0x8
 	.byte	0xc3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -3399,18 +3399,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON8_Bits"
 	.byte	0x8
 	.byte	0xc4
-	.uaword	0xbc9
+	.uaword	0xbe3
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CCUCON9_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xc7
-	.uaword	0xca4
+	.uaword	0xcbe
 	.uleb128 0xc
 	.string	"ADCDIV"
 	.byte	0x8
 	.byte	0xc9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -3419,7 +3419,7 @@ IfxMtu_writeSramAddress:
 	.string	"ADCSEL"
 	.byte	0x8
 	.byte	0xca
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -3428,7 +3428,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.byte	0xcb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x15
 	.byte	0x3
@@ -3437,7 +3437,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.byte	0xcc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3446,7 +3446,7 @@ IfxMtu_writeSramAddress:
 	.string	"UP"
 	.byte	0x8
 	.byte	0xcd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3455,7 +3455,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.byte	0xce
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3465,18 +3465,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CCUCON9_Bits"
 	.byte	0x8
 	.byte	0xcf
-	.uaword	0xc26
+	.uaword	0xc40
 	.uleb128 0xb
 	.string	"_Ifx_SCU_CHIPID_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xd2
-	.uaword	0xd6d
+	.uaword	0xd87
 	.uleb128 0xc
 	.string	"CHREV"
 	.byte	0x8
 	.byte	0xd4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -3485,7 +3485,7 @@ IfxMtu_writeSramAddress:
 	.string	"CHTEC"
 	.byte	0x8
 	.byte	0xd5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -3494,7 +3494,7 @@ IfxMtu_writeSramAddress:
 	.string	"CHID"
 	.byte	0x8
 	.byte	0xd6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3503,7 +3503,7 @@ IfxMtu_writeSramAddress:
 	.string	"EEA"
 	.byte	0x8
 	.byte	0xd7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3512,7 +3512,7 @@ IfxMtu_writeSramAddress:
 	.string	"UCODE"
 	.byte	0x8
 	.byte	0xd8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8
@@ -3521,7 +3521,7 @@ IfxMtu_writeSramAddress:
 	.string	"FSIZE"
 	.byte	0x8
 	.byte	0xd9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -3530,7 +3530,7 @@ IfxMtu_writeSramAddress:
 	.string	"SP"
 	.byte	0x8
 	.byte	0xda
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -3539,7 +3539,7 @@ IfxMtu_writeSramAddress:
 	.string	"SEC"
 	.byte	0x8
 	.byte	0xdb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3548,7 +3548,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF8
 	.byte	0x8
 	.byte	0xdc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3558,18 +3558,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_CHIPID_Bits"
 	.byte	0x8
 	.byte	0xdd
-	.uaword	0xcc0
+	.uaword	0xcda
 	.uleb128 0xb
 	.string	"_Ifx_SCU_DTSCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xe0
-	.uaword	0xe02
+	.uaword	0xe1c
 	.uleb128 0xc
 	.string	"PWD"
 	.byte	0x8
 	.byte	0xe2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3578,7 +3578,7 @@ IfxMtu_writeSramAddress:
 	.string	"START"
 	.byte	0x8
 	.byte	0xe3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3587,7 +3587,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.byte	0xe4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -3596,7 +3596,7 @@ IfxMtu_writeSramAddress:
 	.string	"CAL"
 	.byte	0x8
 	.byte	0xe5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x16
 	.byte	0x6
@@ -3605,7 +3605,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF10
 	.byte	0x8
 	.byte	0xe6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1
@@ -3614,7 +3614,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.byte	0xe7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3624,18 +3624,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_DTSCON_Bits"
 	.byte	0x8
 	.byte	0xe8
-	.uaword	0xd88
+	.uaword	0xda2
 	.uleb128 0xb
 	.string	"_Ifx_SCU_DTSLIM_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xeb
-	.uaword	0xea8
+	.uaword	0xec2
 	.uleb128 0xc
 	.string	"LOWER"
 	.byte	0x8
 	.byte	0xed
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -3644,7 +3644,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF11
 	.byte	0x8
 	.byte	0xee
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x11
@@ -3653,7 +3653,7 @@ IfxMtu_writeSramAddress:
 	.string	"LLU"
 	.byte	0x8
 	.byte	0xef
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3662,7 +3662,7 @@ IfxMtu_writeSramAddress:
 	.string	"UPPER"
 	.byte	0x8
 	.byte	0xf0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -3671,7 +3671,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF10
 	.byte	0x8
 	.byte	0xf1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x2
@@ -3680,7 +3680,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.byte	0xf2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3689,7 +3689,7 @@ IfxMtu_writeSramAddress:
 	.string	"UOF"
 	.byte	0x8
 	.byte	0xf3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3699,18 +3699,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_DTSLIM_Bits"
 	.byte	0x8
 	.byte	0xf4
-	.uaword	0xe1d
+	.uaword	0xe37
 	.uleb128 0xb
 	.string	"_Ifx_SCU_DTSSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.byte	0xf7
-	.uaword	0xf31
+	.uaword	0xf4b
 	.uleb128 0xc
 	.string	"RESULT"
 	.byte	0x8
 	.byte	0xf9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -3719,7 +3719,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF11
 	.byte	0x8
 	.byte	0xfa
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -3728,7 +3728,7 @@ IfxMtu_writeSramAddress:
 	.string	"RDY"
 	.byte	0x8
 	.byte	0xfb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3737,7 +3737,7 @@ IfxMtu_writeSramAddress:
 	.string	"BUSY"
 	.byte	0x8
 	.byte	0xfc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3746,7 +3746,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.byte	0xfd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3756,18 +3756,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_DTSSTAT_Bits"
 	.byte	0x8
 	.byte	0xfe
-	.uaword	0xec3
+	.uaword	0xedd
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EICR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x101
-	.uaword	0x108c
+	.uaword	0x10a6
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x103
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3776,7 +3776,7 @@ IfxMtu_writeSramAddress:
 	.string	"EXIS0"
 	.byte	0x8
 	.uahalf	0x104
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -3785,7 +3785,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF13
 	.byte	0x8
 	.uahalf	0x105
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3794,7 +3794,7 @@ IfxMtu_writeSramAddress:
 	.string	"FEN0"
 	.byte	0x8
 	.uahalf	0x106
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3803,7 +3803,7 @@ IfxMtu_writeSramAddress:
 	.string	"REN0"
 	.byte	0x8
 	.uahalf	0x107
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3812,7 +3812,7 @@ IfxMtu_writeSramAddress:
 	.string	"LDEN0"
 	.byte	0x8
 	.uahalf	0x108
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3821,7 +3821,7 @@ IfxMtu_writeSramAddress:
 	.string	"EIEN0"
 	.byte	0x8
 	.uahalf	0x109
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3830,7 +3830,7 @@ IfxMtu_writeSramAddress:
 	.string	"INP0"
 	.byte	0x8
 	.uahalf	0x10a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -3839,7 +3839,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF14
 	.byte	0x8
 	.uahalf	0x10b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc
@@ -3848,7 +3848,7 @@ IfxMtu_writeSramAddress:
 	.string	"EXIS1"
 	.byte	0x8
 	.uahalf	0x10c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -3857,7 +3857,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF15
 	.byte	0x8
 	.uahalf	0x10d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3866,7 +3866,7 @@ IfxMtu_writeSramAddress:
 	.string	"FEN1"
 	.byte	0x8
 	.uahalf	0x10e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3875,7 +3875,7 @@ IfxMtu_writeSramAddress:
 	.string	"REN1"
 	.byte	0x8
 	.uahalf	0x10f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3884,7 +3884,7 @@ IfxMtu_writeSramAddress:
 	.string	"LDEN1"
 	.byte	0x8
 	.uahalf	0x110
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3893,7 +3893,7 @@ IfxMtu_writeSramAddress:
 	.string	"EIEN1"
 	.byte	0x8
 	.uahalf	0x111
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3902,7 +3902,7 @@ IfxMtu_writeSramAddress:
 	.string	"INP1"
 	.byte	0x8
 	.uahalf	0x112
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3911,7 +3911,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF8
 	.byte	0x8
 	.uahalf	0x113
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3921,18 +3921,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EICR_Bits"
 	.byte	0x8
 	.uahalf	0x114
-	.uaword	0xf4d
+	.uaword	0xf67
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EIFR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x117
-	.uaword	0x1163
+	.uaword	0x117d
 	.uleb128 0x10
 	.string	"INTF0"
 	.byte	0x8
 	.uahalf	0x119
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3941,7 +3941,7 @@ IfxMtu_writeSramAddress:
 	.string	"INTF1"
 	.byte	0x8
 	.uahalf	0x11a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3950,7 +3950,7 @@ IfxMtu_writeSramAddress:
 	.string	"INTF2"
 	.byte	0x8
 	.uahalf	0x11b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3959,7 +3959,7 @@ IfxMtu_writeSramAddress:
 	.string	"INTF3"
 	.byte	0x8
 	.uahalf	0x11c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3968,7 +3968,7 @@ IfxMtu_writeSramAddress:
 	.string	"INTF4"
 	.byte	0x8
 	.uahalf	0x11d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3977,7 +3977,7 @@ IfxMtu_writeSramAddress:
 	.string	"INTF5"
 	.byte	0x8
 	.uahalf	0x11e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3986,7 +3986,7 @@ IfxMtu_writeSramAddress:
 	.string	"INTF6"
 	.byte	0x8
 	.uahalf	0x11f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3995,7 +3995,7 @@ IfxMtu_writeSramAddress:
 	.string	"INTF7"
 	.byte	0x8
 	.uahalf	0x120
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4004,7 +4004,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x121
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -4014,18 +4014,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EIFR_Bits"
 	.byte	0x8
 	.uahalf	0x122
-	.uaword	0x10a6
+	.uaword	0x10c0
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EMSR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x125
-	.uaword	0x1255
+	.uaword	0x126f
 	.uleb128 0x10
 	.string	"POL"
 	.byte	0x8
 	.uahalf	0x127
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4034,7 +4034,7 @@ IfxMtu_writeSramAddress:
 	.string	"MODE"
 	.byte	0x8
 	.uahalf	0x128
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4043,7 +4043,7 @@ IfxMtu_writeSramAddress:
 	.string	"ENON"
 	.byte	0x8
 	.uahalf	0x129
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4052,7 +4052,7 @@ IfxMtu_writeSramAddress:
 	.string	"PSEL"
 	.byte	0x8
 	.uahalf	0x12a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4061,7 +4061,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.uahalf	0x12b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xc
 	.byte	0x10
@@ -4070,7 +4070,7 @@ IfxMtu_writeSramAddress:
 	.string	"EMSF"
 	.byte	0x8
 	.uahalf	0x12c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4079,7 +4079,7 @@ IfxMtu_writeSramAddress:
 	.string	"SEMSF"
 	.byte	0x8
 	.uahalf	0x12d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4088,7 +4088,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF16
 	.byte	0x8
 	.uahalf	0x12e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x8
@@ -4097,7 +4097,7 @@ IfxMtu_writeSramAddress:
 	.string	"EMSFM"
 	.byte	0x8
 	.uahalf	0x12f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -4106,7 +4106,7 @@ IfxMtu_writeSramAddress:
 	.string	"SEMSFM"
 	.byte	0x8
 	.uahalf	0x130
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -4115,7 +4115,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF17
 	.byte	0x8
 	.uahalf	0x131
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -4125,18 +4125,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EMSR_Bits"
 	.byte	0x8
 	.uahalf	0x132
-	.uaword	0x117d
+	.uaword	0x1197
 	.uleb128 0xe
 	.string	"_Ifx_SCU_ESRCFG_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x135
-	.uaword	0x12c0
+	.uaword	0x12da
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x137
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -4145,7 +4145,7 @@ IfxMtu_writeSramAddress:
 	.string	"EDCON"
 	.byte	0x8
 	.uahalf	0x138
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -4154,7 +4154,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF18
 	.byte	0x8
 	.uahalf	0x139
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -4164,18 +4164,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_ESRCFG_Bits"
 	.byte	0x8
 	.uahalf	0x13a
-	.uaword	0x126f
+	.uaword	0x1289
 	.uleb128 0xe
 	.string	"_Ifx_SCU_ESROCFG_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x13d
-	.uaword	0x132c
+	.uaword	0x1346
 	.uleb128 0x10
 	.string	"ARI"
 	.byte	0x8
 	.uahalf	0x13f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4184,7 +4184,7 @@ IfxMtu_writeSramAddress:
 	.string	"ARC"
 	.byte	0x8
 	.uahalf	0x140
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4193,7 +4193,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x141
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -4203,18 +4203,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_ESROCFG_Bits"
 	.byte	0x8
 	.uahalf	0x142
-	.uaword	0x12dc
+	.uaword	0x12f6
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVR13CON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x145
-	.uaword	0x13c6
+	.uaword	0x13e0
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x147
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -4223,7 +4223,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR13OFF"
 	.byte	0x8
 	.uahalf	0x148
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4232,7 +4232,7 @@ IfxMtu_writeSramAddress:
 	.string	"BPEVR13OFF"
 	.byte	0x8
 	.uahalf	0x149
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4241,7 +4241,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF19
 	.byte	0x8
 	.uahalf	0x14a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4250,7 +4250,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x14b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4260,18 +4260,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVR13CON_Bits"
 	.byte	0x8
 	.uahalf	0x14c
-	.uaword	0x1349
+	.uaword	0x1363
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVR33CON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x14f
-	.uaword	0x1461
+	.uaword	0x147b
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x151
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -4280,7 +4280,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR33OFF"
 	.byte	0x8
 	.uahalf	0x152
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4289,7 +4289,7 @@ IfxMtu_writeSramAddress:
 	.string	"BPEVR33OFF"
 	.byte	0x8
 	.uahalf	0x153
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4298,7 +4298,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF19
 	.byte	0x8
 	.uahalf	0x154
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4307,7 +4307,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x155
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4317,18 +4317,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVR33CON_Bits"
 	.byte	0x8
 	.uahalf	0x156
-	.uaword	0x13e4
+	.uaword	0x13fe
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRADCSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x159
-	.uaword	0x14fc
+	.uaword	0x1516
 	.uleb128 0x10
 	.string	"ADC13V"
 	.byte	0x8
 	.uahalf	0x15b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4337,7 +4337,7 @@ IfxMtu_writeSramAddress:
 	.string	"ADC33V"
 	.byte	0x8
 	.uahalf	0x15c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4346,7 +4346,7 @@ IfxMtu_writeSramAddress:
 	.string	"ADCSWDV"
 	.byte	0x8
 	.uahalf	0x15d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4355,7 +4355,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x15e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4364,7 +4364,7 @@ IfxMtu_writeSramAddress:
 	.string	"VAL"
 	.byte	0x8
 	.uahalf	0x15f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4374,18 +4374,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRADCSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x160
-	.uaword	0x147f
+	.uaword	0x1499
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRDVSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x163
-	.uaword	0x159a
+	.uaword	0x15b4
 	.uleb128 0x10
 	.string	"DVS13TRIM"
 	.byte	0x8
 	.uahalf	0x165
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4394,7 +4394,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x166
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4403,7 +4403,7 @@ IfxMtu_writeSramAddress:
 	.string	"DVS33TRIM"
 	.byte	0x8
 	.uahalf	0x167
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4412,7 +4412,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x168
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4421,7 +4421,7 @@ IfxMtu_writeSramAddress:
 	.string	"VAL"
 	.byte	0x8
 	.uahalf	0x169
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4431,18 +4431,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRDVSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x16a
-	.uaword	0x151c
+	.uaword	0x1536
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRMONCTRL_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x16d
-	.uaword	0x16e2
+	.uaword	0x16fc
 	.uleb128 0x10
 	.string	"EVR13OVMOD"
 	.byte	0x8
 	.uahalf	0x16f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -4451,7 +4451,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x170
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -4460,7 +4460,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR13UVMOD"
 	.byte	0x8
 	.uahalf	0x171
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -4469,7 +4469,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF7
 	.byte	0x8
 	.uahalf	0x172
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -4478,7 +4478,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR33OVMOD"
 	.byte	0x8
 	.uahalf	0x173
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -4487,7 +4487,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF11
 	.byte	0x8
 	.uahalf	0x174
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -4496,7 +4496,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR33UVMOD"
 	.byte	0x8
 	.uahalf	0x175
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -4505,7 +4505,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF20
 	.byte	0x8
 	.uahalf	0x176
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -4514,7 +4514,7 @@ IfxMtu_writeSramAddress:
 	.string	"SWDOVMOD"
 	.byte	0x8
 	.uahalf	0x177
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -4523,7 +4523,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF16
 	.byte	0x8
 	.uahalf	0x178
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -4532,7 +4532,7 @@ IfxMtu_writeSramAddress:
 	.string	"SWDUVMOD"
 	.byte	0x8
 	.uahalf	0x179
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -4541,7 +4541,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF2
 	.byte	0x8
 	.uahalf	0x17a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x2
@@ -4550,7 +4550,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.uahalf	0x17b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4559,7 +4559,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF8
 	.byte	0x8
 	.uahalf	0x17c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4569,18 +4569,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRMONCTRL_Bits"
 	.byte	0x8
 	.uahalf	0x17d
-	.uaword	0x15b9
+	.uaword	0x15d3
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVROVMON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x180
-	.uaword	0x1796
+	.uaword	0x17b0
 	.uleb128 0x10
 	.string	"EVR13OVVAL"
 	.byte	0x8
 	.uahalf	0x182
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4589,7 +4589,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR33OVVAL"
 	.byte	0x8
 	.uahalf	0x183
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4598,7 +4598,7 @@ IfxMtu_writeSramAddress:
 	.string	"SWDOVVAL"
 	.byte	0x8
 	.uahalf	0x184
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4607,7 +4607,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x185
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -4616,7 +4616,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.uahalf	0x186
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4625,7 +4625,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x187
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4635,18 +4635,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVROVMON_Bits"
 	.byte	0x8
 	.uahalf	0x188
-	.uaword	0x1702
+	.uaword	0x171c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRRSTCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x18b
-	.uaword	0x18a2
+	.uaword	0x18bc
 	.uleb128 0x10
 	.string	"RST13TRIM"
 	.byte	0x8
 	.uahalf	0x18d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4655,7 +4655,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x18e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0x8
@@ -4664,7 +4664,7 @@ IfxMtu_writeSramAddress:
 	.string	"RST13OFF"
 	.byte	0x8
 	.uahalf	0x18f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4673,7 +4673,7 @@ IfxMtu_writeSramAddress:
 	.string	"BPRST13OFF"
 	.byte	0x8
 	.uahalf	0x190
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4682,7 +4682,7 @@ IfxMtu_writeSramAddress:
 	.string	"RST33OFF"
 	.byte	0x8
 	.uahalf	0x191
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4691,7 +4691,7 @@ IfxMtu_writeSramAddress:
 	.string	"BPRST33OFF"
 	.byte	0x8
 	.uahalf	0x192
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4700,7 +4700,7 @@ IfxMtu_writeSramAddress:
 	.string	"RSTSWDOFF"
 	.byte	0x8
 	.uahalf	0x193
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4709,7 +4709,7 @@ IfxMtu_writeSramAddress:
 	.string	"BPRSTSWDOFF"
 	.byte	0x8
 	.uahalf	0x194
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4718,7 +4718,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.uahalf	0x195
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4727,7 +4727,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x196
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4737,18 +4737,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRRSTCON_Bits"
 	.byte	0x8
 	.uahalf	0x197
-	.uaword	0x17b4
+	.uaword	0x17ce
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x19a
-	.uaword	0x1938
+	.uaword	0x1952
 	.uleb128 0x10
 	.string	"SD5P"
 	.byte	0x8
 	.uahalf	0x19c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4757,7 +4757,7 @@ IfxMtu_writeSramAddress:
 	.string	"SD5I"
 	.byte	0x8
 	.uahalf	0x19d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4766,7 +4766,7 @@ IfxMtu_writeSramAddress:
 	.string	"SD5D"
 	.byte	0x8
 	.uahalf	0x19e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4775,7 +4775,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x19f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4784,7 +4784,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1a0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4794,18 +4794,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCOEFF1_Bits"
 	.byte	0x8
 	.uahalf	0x1a1
-	.uaword	0x18c1
+	.uaword	0x18db
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF2_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1a4
-	.uaword	0x19d3
+	.uaword	0x19ed
 	.uleb128 0x10
 	.string	"SD33P"
 	.byte	0x8
 	.uahalf	0x1a6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4814,7 +4814,7 @@ IfxMtu_writeSramAddress:
 	.string	"SD33I"
 	.byte	0x8
 	.uahalf	0x1a7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4823,7 +4823,7 @@ IfxMtu_writeSramAddress:
 	.string	"SD33D"
 	.byte	0x8
 	.uahalf	0x1a8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4832,7 +4832,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x1a9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4841,7 +4841,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1aa
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4851,18 +4851,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCOEFF2_Bits"
 	.byte	0x8
 	.uahalf	0x1ab
-	.uaword	0x1959
+	.uaword	0x1973
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF3_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1ae
-	.uaword	0x1a74
+	.uaword	0x1a8e
 	.uleb128 0x10
 	.string	"CT5REG0"
 	.byte	0x8
 	.uahalf	0x1b0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4871,7 +4871,7 @@ IfxMtu_writeSramAddress:
 	.string	"CT5REG1"
 	.byte	0x8
 	.uahalf	0x1b1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4880,7 +4880,7 @@ IfxMtu_writeSramAddress:
 	.string	"CT5REG2"
 	.byte	0x8
 	.uahalf	0x1b2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4889,7 +4889,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x1b3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -4898,7 +4898,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1b4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4908,18 +4908,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCOEFF3_Bits"
 	.byte	0x8
 	.uahalf	0x1b5
-	.uaword	0x19f4
+	.uaword	0x1a0e
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF4_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1b8
-	.uaword	0x1b01
+	.uaword	0x1b1b
 	.uleb128 0x10
 	.string	"CT5REG3"
 	.byte	0x8
 	.uahalf	0x1ba
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4928,7 +4928,7 @@ IfxMtu_writeSramAddress:
 	.string	"CT5REG4"
 	.byte	0x8
 	.uahalf	0x1bb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4937,7 +4937,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x1bc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xf
 	.byte	0x1
@@ -4946,7 +4946,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1bd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4956,18 +4956,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCOEFF4_Bits"
 	.byte	0x8
 	.uahalf	0x1be
-	.uaword	0x1a95
+	.uaword	0x1aaf
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF5_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1c1
-	.uaword	0x1ba5
+	.uaword	0x1bbf
 	.uleb128 0x10
 	.string	"CT33REG0"
 	.byte	0x8
 	.uahalf	0x1c3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4976,7 +4976,7 @@ IfxMtu_writeSramAddress:
 	.string	"CT33REG1"
 	.byte	0x8
 	.uahalf	0x1c4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4985,7 +4985,7 @@ IfxMtu_writeSramAddress:
 	.string	"CT33REG2"
 	.byte	0x8
 	.uahalf	0x1c5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -4994,7 +4994,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x1c6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -5003,7 +5003,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1c7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5013,18 +5013,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCOEFF5_Bits"
 	.byte	0x8
 	.uahalf	0x1c8
-	.uaword	0x1b22
+	.uaword	0x1b3c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCOEFF6_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1cb
-	.uaword	0x1c34
+	.uaword	0x1c4e
 	.uleb128 0x10
 	.string	"CT33REG3"
 	.byte	0x8
 	.uahalf	0x1cd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5033,7 +5033,7 @@ IfxMtu_writeSramAddress:
 	.string	"CT33REG4"
 	.byte	0x8
 	.uahalf	0x1ce
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5042,7 +5042,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x1cf
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xf
 	.byte	0x1
@@ -5051,7 +5051,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1d0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5061,18 +5061,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCOEFF6_Bits"
 	.byte	0x8
 	.uahalf	0x1d1
-	.uaword	0x1bc6
+	.uaword	0x1be0
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCTRL1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1d4
-	.uaword	0x1cea
+	.uaword	0x1d04
 	.uleb128 0x10
 	.string	"SDFREQSPRD"
 	.byte	0x8
 	.uahalf	0x1d6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -5081,7 +5081,7 @@ IfxMtu_writeSramAddress:
 	.string	"SDFREQ"
 	.byte	0x8
 	.uahalf	0x1d7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5090,7 +5090,7 @@ IfxMtu_writeSramAddress:
 	.string	"SDSTEP"
 	.byte	0x8
 	.uahalf	0x1d8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -5099,7 +5099,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF17
 	.byte	0x8
 	.uahalf	0x1d9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -5108,7 +5108,7 @@ IfxMtu_writeSramAddress:
 	.string	"SDSAMPLE"
 	.byte	0x8
 	.uahalf	0x1da
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5117,7 +5117,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1db
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5127,18 +5127,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCTRL1_Bits"
 	.byte	0x8
 	.uahalf	0x1dc
-	.uaword	0x1c55
+	.uaword	0x1c6f
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCTRL2_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1df
-	.uaword	0x1d98
+	.uaword	0x1db2
 	.uleb128 0x10
 	.string	"DRVP"
 	.byte	0x8
 	.uahalf	0x1e1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5147,7 +5147,7 @@ IfxMtu_writeSramAddress:
 	.string	"SDMINMAXDC"
 	.byte	0x8
 	.uahalf	0x1e2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5156,7 +5156,7 @@ IfxMtu_writeSramAddress:
 	.string	"DRVN"
 	.byte	0x8
 	.uahalf	0x1e3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5165,7 +5165,7 @@ IfxMtu_writeSramAddress:
 	.string	"SDLUT"
 	.byte	0x8
 	.uahalf	0x1e4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -5174,7 +5174,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF19
 	.byte	0x8
 	.uahalf	0x1e5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5183,7 +5183,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1e6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5193,18 +5193,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCTRL2_Bits"
 	.byte	0x8
 	.uahalf	0x1e7
-	.uaword	0x1d0a
+	.uaword	0x1d24
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCTRL3_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1ea
-	.uaword	0x1e37
+	.uaword	0x1e51
 	.uleb128 0x10
 	.string	"SDPWMPRE"
 	.byte	0x8
 	.uahalf	0x1ec
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5213,7 +5213,7 @@ IfxMtu_writeSramAddress:
 	.string	"SDPID"
 	.byte	0x8
 	.uahalf	0x1ed
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5222,7 +5222,7 @@ IfxMtu_writeSramAddress:
 	.string	"SDVOKLVL"
 	.byte	0x8
 	.uahalf	0x1ee
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5231,7 +5231,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x1ef
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -5240,7 +5240,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1f0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5250,18 +5250,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCTRL3_Bits"
 	.byte	0x8
 	.uahalf	0x1f1
-	.uaword	0x1db8
+	.uaword	0x1dd2
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSDCTRL4_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1f4
-	.uaword	0x1ebe
+	.uaword	0x1ed8
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x1f6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5270,7 +5270,7 @@ IfxMtu_writeSramAddress:
 	.string	"SYNCDIV"
 	.byte	0x8
 	.uahalf	0x1f7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -5279,7 +5279,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF21
 	.byte	0x8
 	.uahalf	0x1f8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x14
 	.byte	0x1
@@ -5288,7 +5288,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x1f9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5298,18 +5298,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSDCTRL4_Bits"
 	.byte	0x8
 	.uahalf	0x1fa
-	.uaword	0x1e57
+	.uaword	0x1e71
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x1fd
-	.uaword	0x1fd9
+	.uaword	0x1ff3
 	.uleb128 0x10
 	.string	"EVR13"
 	.byte	0x8
 	.uahalf	0x1ff
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5318,7 +5318,7 @@ IfxMtu_writeSramAddress:
 	.string	"OV13"
 	.byte	0x8
 	.uahalf	0x200
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5327,7 +5327,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR33"
 	.byte	0x8
 	.uahalf	0x201
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5336,7 +5336,7 @@ IfxMtu_writeSramAddress:
 	.string	"OV33"
 	.byte	0x8
 	.uahalf	0x202
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5345,7 +5345,7 @@ IfxMtu_writeSramAddress:
 	.string	"OVSWD"
 	.byte	0x8
 	.uahalf	0x203
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5354,7 +5354,7 @@ IfxMtu_writeSramAddress:
 	.string	"UV13"
 	.byte	0x8
 	.uahalf	0x204
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5363,7 +5363,7 @@ IfxMtu_writeSramAddress:
 	.string	"UV33"
 	.byte	0x8
 	.uahalf	0x205
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5372,7 +5372,7 @@ IfxMtu_writeSramAddress:
 	.string	"UVSWD"
 	.byte	0x8
 	.uahalf	0x206
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5381,7 +5381,7 @@ IfxMtu_writeSramAddress:
 	.string	"EXTPASS13"
 	.byte	0x8
 	.uahalf	0x207
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5390,7 +5390,7 @@ IfxMtu_writeSramAddress:
 	.string	"EXTPASS33"
 	.byte	0x8
 	.uahalf	0x208
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5399,7 +5399,7 @@ IfxMtu_writeSramAddress:
 	.string	"BGPROK"
 	.byte	0x8
 	.uahalf	0x209
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5408,7 +5408,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF21
 	.byte	0x8
 	.uahalf	0x20a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x15
 	.byte	0
@@ -5418,18 +5418,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x20b
-	.uaword	0x1ede
+	.uaword	0x1ef8
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRTRIM_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x20e
-	.uaword	0x2072
+	.uaword	0x208c
 	.uleb128 0x10
 	.string	"EVR13TRIM"
 	.byte	0x8
 	.uahalf	0x210
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5438,7 +5438,7 @@ IfxMtu_writeSramAddress:
 	.string	"SDVOUTSEL"
 	.byte	0x8
 	.uahalf	0x211
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5447,7 +5447,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x212
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xe
 	.byte	0x2
@@ -5456,7 +5456,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.uahalf	0x213
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5465,7 +5465,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x214
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5475,18 +5475,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRTRIM_Bits"
 	.byte	0x8
 	.uahalf	0x215
-	.uaword	0x1ff6
+	.uaword	0x2010
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EVRUVMON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x218
-	.uaword	0x2123
+	.uaword	0x213d
 	.uleb128 0x10
 	.string	"EVR13UVVAL"
 	.byte	0x8
 	.uahalf	0x21a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5495,7 +5495,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR33UVVAL"
 	.byte	0x8
 	.uahalf	0x21b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5504,7 +5504,7 @@ IfxMtu_writeSramAddress:
 	.string	"SWDUVVAL"
 	.byte	0x8
 	.uahalf	0x21c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -5513,7 +5513,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x21d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -5522,7 +5522,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF5
 	.byte	0x8
 	.uahalf	0x21e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5531,7 +5531,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x21f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5541,18 +5541,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EVRUVMON_Bits"
 	.byte	0x8
 	.uahalf	0x220
-	.uaword	0x208f
+	.uaword	0x20a9
 	.uleb128 0xe
 	.string	"_Ifx_SCU_EXTCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x223
-	.uaword	0x21f4
+	.uaword	0x220e
 	.uleb128 0x10
 	.string	"EN0"
 	.byte	0x8
 	.uahalf	0x225
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5561,7 +5561,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF22
 	.byte	0x8
 	.uahalf	0x226
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5570,7 +5570,7 @@ IfxMtu_writeSramAddress:
 	.string	"SEL0"
 	.byte	0x8
 	.uahalf	0x227
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1a
@@ -5579,7 +5579,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF7
 	.byte	0x8
 	.uahalf	0x228
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xa
 	.byte	0x10
@@ -5588,7 +5588,7 @@ IfxMtu_writeSramAddress:
 	.string	"EN1"
 	.byte	0x8
 	.uahalf	0x229
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5597,7 +5597,7 @@ IfxMtu_writeSramAddress:
 	.string	"NSEL"
 	.byte	0x8
 	.uahalf	0x22a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5606,7 +5606,7 @@ IfxMtu_writeSramAddress:
 	.string	"SEL1"
 	.byte	0x8
 	.uahalf	0x22b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0xa
@@ -5615,7 +5615,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF2
 	.byte	0x8
 	.uahalf	0x22c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -5624,7 +5624,7 @@ IfxMtu_writeSramAddress:
 	.string	"DIV1"
 	.byte	0x8
 	.uahalf	0x22d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5634,18 +5634,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_EXTCON_Bits"
 	.byte	0x8
 	.uahalf	0x22e
-	.uaword	0x2141
+	.uaword	0x215b
 	.uleb128 0xe
 	.string	"_Ifx_SCU_FDR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x231
-	.uaword	0x2292
+	.uaword	0x22ac
 	.uleb128 0x10
 	.string	"STEP"
 	.byte	0x8
 	.uahalf	0x233
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -5654,7 +5654,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF11
 	.byte	0x8
 	.uahalf	0x234
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -5663,7 +5663,7 @@ IfxMtu_writeSramAddress:
 	.string	"DM"
 	.byte	0x8
 	.uahalf	0x235
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -5672,7 +5672,7 @@ IfxMtu_writeSramAddress:
 	.string	"RESULT"
 	.byte	0x8
 	.uahalf	0x236
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -5681,7 +5681,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF10
 	.byte	0x8
 	.uahalf	0x237
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1
@@ -5690,7 +5690,7 @@ IfxMtu_writeSramAddress:
 	.string	"DISCLK"
 	.byte	0x8
 	.uahalf	0x238
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5700,18 +5700,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_FDR_Bits"
 	.byte	0x8
 	.uahalf	0x239
-	.uaword	0x2210
+	.uaword	0x222a
 	.uleb128 0xe
 	.string	"_Ifx_SCU_FMR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x23c
-	.uaword	0x23e7
+	.uaword	0x2401
 	.uleb128 0x10
 	.string	"FS0"
 	.byte	0x8
 	.uahalf	0x23e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5720,7 +5720,7 @@ IfxMtu_writeSramAddress:
 	.string	"FS1"
 	.byte	0x8
 	.uahalf	0x23f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5729,7 +5729,7 @@ IfxMtu_writeSramAddress:
 	.string	"FS2"
 	.byte	0x8
 	.uahalf	0x240
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5738,7 +5738,7 @@ IfxMtu_writeSramAddress:
 	.string	"FS3"
 	.byte	0x8
 	.uahalf	0x241
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5747,7 +5747,7 @@ IfxMtu_writeSramAddress:
 	.string	"FS4"
 	.byte	0x8
 	.uahalf	0x242
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5756,7 +5756,7 @@ IfxMtu_writeSramAddress:
 	.string	"FS5"
 	.byte	0x8
 	.uahalf	0x243
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5765,7 +5765,7 @@ IfxMtu_writeSramAddress:
 	.string	"FS6"
 	.byte	0x8
 	.uahalf	0x244
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5774,7 +5774,7 @@ IfxMtu_writeSramAddress:
 	.string	"FS7"
 	.byte	0x8
 	.uahalf	0x245
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5783,7 +5783,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x246
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5792,7 +5792,7 @@ IfxMtu_writeSramAddress:
 	.string	"FC0"
 	.byte	0x8
 	.uahalf	0x247
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5801,7 +5801,7 @@ IfxMtu_writeSramAddress:
 	.string	"FC1"
 	.byte	0x8
 	.uahalf	0x248
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5810,7 +5810,7 @@ IfxMtu_writeSramAddress:
 	.string	"FC2"
 	.byte	0x8
 	.uahalf	0x249
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5819,7 +5819,7 @@ IfxMtu_writeSramAddress:
 	.string	"FC3"
 	.byte	0x8
 	.uahalf	0x24a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5828,7 +5828,7 @@ IfxMtu_writeSramAddress:
 	.string	"FC4"
 	.byte	0x8
 	.uahalf	0x24b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5837,7 +5837,7 @@ IfxMtu_writeSramAddress:
 	.string	"FC5"
 	.byte	0x8
 	.uahalf	0x24c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5846,7 +5846,7 @@ IfxMtu_writeSramAddress:
 	.string	"FC6"
 	.byte	0x8
 	.uahalf	0x24d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5855,7 +5855,7 @@ IfxMtu_writeSramAddress:
 	.string	"FC7"
 	.byte	0x8
 	.uahalf	0x24e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5864,7 +5864,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x24f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5874,18 +5874,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_FMR_Bits"
 	.byte	0x8
 	.uahalf	0x250
-	.uaword	0x22ab
+	.uaword	0x22c5
 	.uleb128 0xe
 	.string	"_Ifx_SCU_ID_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x253
-	.uaword	0x2458
+	.uaword	0x2472
 	.uleb128 0x10
 	.string	"MODREV"
 	.byte	0x8
 	.uahalf	0x255
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5894,7 +5894,7 @@ IfxMtu_writeSramAddress:
 	.string	"MODTYPE"
 	.byte	0x8
 	.uahalf	0x256
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5903,7 +5903,7 @@ IfxMtu_writeSramAddress:
 	.string	"MODNUMBER"
 	.byte	0x8
 	.uahalf	0x257
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5913,18 +5913,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_ID_Bits"
 	.byte	0x8
 	.uahalf	0x258
-	.uaword	0x2400
+	.uaword	0x241a
 	.uleb128 0xe
 	.string	"_Ifx_SCU_IGCR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x25b
-	.uaword	0x2623
+	.uaword	0x263d
 	.uleb128 0x10
 	.string	"IPEN00"
 	.byte	0x8
 	.uahalf	0x25d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5933,7 +5933,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN01"
 	.byte	0x8
 	.uahalf	0x25e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5942,7 +5942,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN02"
 	.byte	0x8
 	.uahalf	0x25f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5951,7 +5951,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN03"
 	.byte	0x8
 	.uahalf	0x260
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5960,7 +5960,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN04"
 	.byte	0x8
 	.uahalf	0x261
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5969,7 +5969,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN05"
 	.byte	0x8
 	.uahalf	0x262
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5978,7 +5978,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN06"
 	.byte	0x8
 	.uahalf	0x263
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5987,7 +5987,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN07"
 	.byte	0x8
 	.uahalf	0x264
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5996,7 +5996,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x265
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -6005,7 +6005,7 @@ IfxMtu_writeSramAddress:
 	.string	"GEEN0"
 	.byte	0x8
 	.uahalf	0x266
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6014,7 +6014,7 @@ IfxMtu_writeSramAddress:
 	.string	"IGP0"
 	.byte	0x8
 	.uahalf	0x267
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -6023,7 +6023,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN10"
 	.byte	0x8
 	.uahalf	0x268
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6032,7 +6032,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN11"
 	.byte	0x8
 	.uahalf	0x269
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6041,7 +6041,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN12"
 	.byte	0x8
 	.uahalf	0x26a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6050,7 +6050,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN13"
 	.byte	0x8
 	.uahalf	0x26b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6059,7 +6059,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN14"
 	.byte	0x8
 	.uahalf	0x26c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6068,7 +6068,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN15"
 	.byte	0x8
 	.uahalf	0x26d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6077,7 +6077,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN16"
 	.byte	0x8
 	.uahalf	0x26e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6086,7 +6086,7 @@ IfxMtu_writeSramAddress:
 	.string	"IPEN17"
 	.byte	0x8
 	.uahalf	0x26f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6095,7 +6095,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x270
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -6104,7 +6104,7 @@ IfxMtu_writeSramAddress:
 	.string	"GEEN1"
 	.byte	0x8
 	.uahalf	0x271
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6113,7 +6113,7 @@ IfxMtu_writeSramAddress:
 	.string	"IGP1"
 	.byte	0x8
 	.uahalf	0x272
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -6123,18 +6123,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_IGCR_Bits"
 	.byte	0x8
 	.uahalf	0x273
-	.uaword	0x2470
+	.uaword	0x248a
 	.uleb128 0xe
 	.string	"_Ifx_SCU_IN_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x276
-	.uaword	0x2686
+	.uaword	0x26a0
 	.uleb128 0x10
 	.string	"P0"
 	.byte	0x8
 	.uahalf	0x278
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6143,7 +6143,7 @@ IfxMtu_writeSramAddress:
 	.string	"P1"
 	.byte	0x8
 	.uahalf	0x279
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6152,7 +6152,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x27a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6162,18 +6162,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_IN_Bits"
 	.byte	0x8
 	.uahalf	0x27b
-	.uaword	0x263d
+	.uaword	0x2657
 	.uleb128 0xe
 	.string	"_Ifx_SCU_IOCR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x27e
-	.uaword	0x270b
+	.uaword	0x2725
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x280
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6182,7 +6182,7 @@ IfxMtu_writeSramAddress:
 	.string	"PC0"
 	.byte	0x8
 	.uahalf	0x281
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6191,7 +6191,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x282
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6200,7 +6200,7 @@ IfxMtu_writeSramAddress:
 	.string	"PC1"
 	.byte	0x8
 	.uahalf	0x283
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6209,7 +6209,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x284
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6219,18 +6219,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_IOCR_Bits"
 	.byte	0x8
 	.uahalf	0x285
-	.uaword	0x269e
+	.uaword	0x26b8
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LBISTCTRL0_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x288
-	.uaword	0x2798
+	.uaword	0x27b2
 	.uleb128 0x10
 	.string	"LBISTREQ"
 	.byte	0x8
 	.uahalf	0x28a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6239,7 +6239,7 @@ IfxMtu_writeSramAddress:
 	.string	"LBISTREQP"
 	.byte	0x8
 	.uahalf	0x28b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6248,7 +6248,7 @@ IfxMtu_writeSramAddress:
 	.string	"PATTERNS"
 	.byte	0x8
 	.uahalf	0x28c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -6257,7 +6257,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x28d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6267,18 +6267,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_LBISTCTRL0_Bits"
 	.byte	0x8
 	.uahalf	0x28e
-	.uaword	0x2725
+	.uaword	0x273f
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LBISTCTRL1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x291
-	.uaword	0x2838
+	.uaword	0x2852
 	.uleb128 0x10
 	.string	"SEED"
 	.byte	0x8
 	.uahalf	0x293
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x17
 	.byte	0x9
@@ -6287,7 +6287,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF15
 	.byte	0x8
 	.uahalf	0x294
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6296,7 +6296,7 @@ IfxMtu_writeSramAddress:
 	.string	"SPLITSH"
 	.byte	0x8
 	.uahalf	0x295
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -6305,7 +6305,7 @@ IfxMtu_writeSramAddress:
 	.string	"BODY"
 	.byte	0x8
 	.uahalf	0x296
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6314,7 +6314,7 @@ IfxMtu_writeSramAddress:
 	.string	"LBISTFREQU"
 	.byte	0x8
 	.uahalf	0x297
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6324,18 +6324,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_LBISTCTRL1_Bits"
 	.byte	0x8
 	.uahalf	0x298
-	.uaword	0x27b8
+	.uaword	0x27d2
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LBISTCTRL2_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x29b
-	.uaword	0x28b7
+	.uaword	0x28d1
 	.uleb128 0x10
 	.string	"SIGNATURE"
 	.byte	0x8
 	.uahalf	0x29d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -6344,7 +6344,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF4
 	.byte	0x8
 	.uahalf	0x29e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -6353,7 +6353,7 @@ IfxMtu_writeSramAddress:
 	.string	"LBISTDONE"
 	.byte	0x8
 	.uahalf	0x29f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6363,18 +6363,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_LBISTCTRL2_Bits"
 	.byte	0x8
 	.uahalf	0x2a0
-	.uaword	0x2858
+	.uaword	0x2872
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LCLCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2a3
-	.uaword	0x2936
+	.uaword	0x2950
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x2a5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6383,7 +6383,7 @@ IfxMtu_writeSramAddress:
 	.string	"LS"
 	.byte	0x8
 	.uahalf	0x2a6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6392,7 +6392,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF23
 	.byte	0x8
 	.uahalf	0x2a7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xe
 	.byte	0x1
@@ -6401,7 +6401,7 @@ IfxMtu_writeSramAddress:
 	.string	"LSEN"
 	.byte	0x8
 	.uahalf	0x2a8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6411,18 +6411,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_LCLCON_Bits"
 	.byte	0x8
 	.uahalf	0x2a9
-	.uaword	0x28d7
+	.uaword	0x28f1
 	.uleb128 0xe
 	.string	"_Ifx_SCU_LCLTEST_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2ac
-	.uaword	0x29a6
+	.uaword	0x29c0
 	.uleb128 0x10
 	.string	"LCLT0"
 	.byte	0x8
 	.uahalf	0x2ae
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6431,7 +6431,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCLT1"
 	.byte	0x8
 	.uahalf	0x2af
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6440,7 +6440,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x2b0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6450,18 +6450,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_LCLTEST_Bits"
 	.byte	0x8
 	.uahalf	0x2b1
-	.uaword	0x2952
+	.uaword	0x296c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_MANID_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2b4
-	.uaword	0x2a14
+	.uaword	0x2a2e
 	.uleb128 0x10
 	.string	"DEPT"
 	.byte	0x8
 	.uahalf	0x2b6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -6470,7 +6470,7 @@ IfxMtu_writeSramAddress:
 	.string	"MANUF"
 	.byte	0x8
 	.uahalf	0x2b7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xb
 	.byte	0x10
@@ -6479,7 +6479,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x2b8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6489,18 +6489,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_MANID_Bits"
 	.byte	0x8
 	.uahalf	0x2b9
-	.uaword	0x29c3
+	.uaword	0x29dd
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OMR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2bc
-	.uaword	0x2aad
+	.uaword	0x2ac7
 	.uleb128 0x10
 	.string	"PS0"
 	.byte	0x8
 	.uahalf	0x2be
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6509,7 +6509,7 @@ IfxMtu_writeSramAddress:
 	.string	"PS1"
 	.byte	0x8
 	.uahalf	0x2bf
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6518,7 +6518,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x2c0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -6527,7 +6527,7 @@ IfxMtu_writeSramAddress:
 	.string	"PCL0"
 	.byte	0x8
 	.uahalf	0x2c1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6536,7 +6536,7 @@ IfxMtu_writeSramAddress:
 	.string	"PCL1"
 	.byte	0x8
 	.uahalf	0x2c2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6545,7 +6545,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF16
 	.byte	0x8
 	.uahalf	0x2c3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -6555,18 +6555,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_OMR_Bits"
 	.byte	0x8
 	.uahalf	0x2c4
-	.uaword	0x2a2f
+	.uaword	0x2a49
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OSCCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2c7
-	.uaword	0x2c35
+	.uaword	0x2c4f
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x2c9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6575,7 +6575,7 @@ IfxMtu_writeSramAddress:
 	.string	"PLLLV"
 	.byte	0x8
 	.uahalf	0x2ca
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6584,7 +6584,7 @@ IfxMtu_writeSramAddress:
 	.string	"OSCRES"
 	.byte	0x8
 	.uahalf	0x2cb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6593,7 +6593,7 @@ IfxMtu_writeSramAddress:
 	.string	"GAINSEL"
 	.byte	0x8
 	.uahalf	0x2cc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1b
@@ -6602,7 +6602,7 @@ IfxMtu_writeSramAddress:
 	.string	"MODE"
 	.byte	0x8
 	.uahalf	0x2cd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x19
@@ -6611,7 +6611,7 @@ IfxMtu_writeSramAddress:
 	.string	"SHBY"
 	.byte	0x8
 	.uahalf	0x2ce
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6620,7 +6620,7 @@ IfxMtu_writeSramAddress:
 	.string	"PLLHV"
 	.byte	0x8
 	.uahalf	0x2cf
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6629,7 +6629,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF18
 	.byte	0x8
 	.uahalf	0x2d0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6638,7 +6638,7 @@ IfxMtu_writeSramAddress:
 	.string	"X1D"
 	.byte	0x8
 	.uahalf	0x2d1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6647,7 +6647,7 @@ IfxMtu_writeSramAddress:
 	.string	"X1DEN"
 	.byte	0x8
 	.uahalf	0x2d2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6656,7 +6656,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF24
 	.byte	0x8
 	.uahalf	0x2d3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6665,7 +6665,7 @@ IfxMtu_writeSramAddress:
 	.string	"OSCVAL"
 	.byte	0x8
 	.uahalf	0x2d4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -6674,7 +6674,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF25
 	.byte	0x8
 	.uahalf	0x2d5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -6683,7 +6683,7 @@ IfxMtu_writeSramAddress:
 	.string	"APREN"
 	.byte	0x8
 	.uahalf	0x2d6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6692,7 +6692,7 @@ IfxMtu_writeSramAddress:
 	.string	"CAP0EN"
 	.byte	0x8
 	.uahalf	0x2d7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6701,7 +6701,7 @@ IfxMtu_writeSramAddress:
 	.string	"CAP1EN"
 	.byte	0x8
 	.uahalf	0x2d8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6710,7 +6710,7 @@ IfxMtu_writeSramAddress:
 	.string	"CAP2EN"
 	.byte	0x8
 	.uahalf	0x2d9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -6719,7 +6719,7 @@ IfxMtu_writeSramAddress:
 	.string	"CAP3EN"
 	.byte	0x8
 	.uahalf	0x2da
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6728,7 +6728,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF17
 	.byte	0x8
 	.uahalf	0x2db
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6738,18 +6738,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_OSCCON_Bits"
 	.byte	0x8
 	.uahalf	0x2dc
-	.uaword	0x2ac6
+	.uaword	0x2ae0
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OUT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2df
-	.uaword	0x2c9b
+	.uaword	0x2cb5
 	.uleb128 0x10
 	.string	"P0"
 	.byte	0x8
 	.uahalf	0x2e1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6758,7 +6758,7 @@ IfxMtu_writeSramAddress:
 	.string	"P1"
 	.byte	0x8
 	.uahalf	0x2e2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6767,7 +6767,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x2e3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6777,18 +6777,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_OUT_Bits"
 	.byte	0x8
 	.uahalf	0x2e4
-	.uaword	0x2c51
+	.uaword	0x2c6b
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OVCCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2e7
-	.uaword	0x2d99
+	.uaword	0x2db3
 	.uleb128 0x10
 	.string	"CSEL0"
 	.byte	0x8
 	.uahalf	0x2e9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6797,7 +6797,7 @@ IfxMtu_writeSramAddress:
 	.string	"CSEL1"
 	.byte	0x8
 	.uahalf	0x2ea
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6806,7 +6806,7 @@ IfxMtu_writeSramAddress:
 	.string	"CSEL2"
 	.byte	0x8
 	.uahalf	0x2eb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6815,7 +6815,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF1
 	.byte	0x8
 	.uahalf	0x2ec
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xd
 	.byte	0x10
@@ -6824,7 +6824,7 @@ IfxMtu_writeSramAddress:
 	.string	"OVSTRT"
 	.byte	0x8
 	.uahalf	0x2ed
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6833,7 +6833,7 @@ IfxMtu_writeSramAddress:
 	.string	"OVSTP"
 	.byte	0x8
 	.uahalf	0x2ee
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6842,7 +6842,7 @@ IfxMtu_writeSramAddress:
 	.string	"DCINVAL"
 	.byte	0x8
 	.uahalf	0x2ef
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6851,7 +6851,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF26
 	.byte	0x8
 	.uahalf	0x2f0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -6860,7 +6860,7 @@ IfxMtu_writeSramAddress:
 	.string	"OVCONF"
 	.byte	0x8
 	.uahalf	0x2f1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6869,7 +6869,7 @@ IfxMtu_writeSramAddress:
 	.string	"POVCONF"
 	.byte	0x8
 	.uahalf	0x2f2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6878,7 +6878,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF10
 	.byte	0x8
 	.uahalf	0x2f3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -6888,18 +6888,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_OVCCON_Bits"
 	.byte	0x8
 	.uahalf	0x2f4
-	.uaword	0x2cb4
+	.uaword	0x2cce
 	.uleb128 0xe
 	.string	"_Ifx_SCU_OVCENABLE_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x2f7
-	.uaword	0x2e1d
+	.uaword	0x2e37
 	.uleb128 0x10
 	.string	"OVEN0"
 	.byte	0x8
 	.uahalf	0x2f9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6908,7 +6908,7 @@ IfxMtu_writeSramAddress:
 	.string	"OVEN1"
 	.byte	0x8
 	.uahalf	0x2fa
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6917,7 +6917,7 @@ IfxMtu_writeSramAddress:
 	.string	"OVEN2"
 	.byte	0x8
 	.uahalf	0x2fb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6926,7 +6926,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF1
 	.byte	0x8
 	.uahalf	0x2fc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -6936,18 +6936,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_OVCENABLE_Bits"
 	.byte	0x8
 	.uahalf	0x2fd
-	.uaword	0x2db5
+	.uaword	0x2dcf
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PDISC_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x300
-	.uaword	0x2e8e
+	.uaword	0x2ea8
 	.uleb128 0x10
 	.string	"PDIS0"
 	.byte	0x8
 	.uahalf	0x302
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6956,7 +6956,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDIS1"
 	.byte	0x8
 	.uahalf	0x303
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6965,7 +6965,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x304
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6975,18 +6975,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PDISC_Bits"
 	.byte	0x8
 	.uahalf	0x305
-	.uaword	0x2e3c
+	.uaword	0x2e56
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PDR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x308
-	.uaword	0x2f15
+	.uaword	0x2f2f
 	.uleb128 0x10
 	.string	"PD0"
 	.byte	0x8
 	.uahalf	0x30a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6995,7 +6995,7 @@ IfxMtu_writeSramAddress:
 	.string	"PL0"
 	.byte	0x8
 	.uahalf	0x30b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7004,7 +7004,7 @@ IfxMtu_writeSramAddress:
 	.string	"PD1"
 	.byte	0x8
 	.uahalf	0x30c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -7013,7 +7013,7 @@ IfxMtu_writeSramAddress:
 	.string	"PL1"
 	.byte	0x8
 	.uahalf	0x30d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7022,7 +7022,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x30e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -7032,18 +7032,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PDR_Bits"
 	.byte	0x8
 	.uahalf	0x30f
-	.uaword	0x2ea9
+	.uaword	0x2ec3
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PDRR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x312
-	.uaword	0x2fe3
+	.uaword	0x2ffd
 	.uleb128 0x10
 	.string	"PDR0"
 	.byte	0x8
 	.uahalf	0x314
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7052,7 +7052,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDR1"
 	.byte	0x8
 	.uahalf	0x315
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7061,7 +7061,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDR2"
 	.byte	0x8
 	.uahalf	0x316
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7070,7 +7070,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDR3"
 	.byte	0x8
 	.uahalf	0x317
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7079,7 +7079,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDR4"
 	.byte	0x8
 	.uahalf	0x318
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7088,7 +7088,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDR5"
 	.byte	0x8
 	.uahalf	0x319
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7097,7 +7097,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDR6"
 	.byte	0x8
 	.uahalf	0x31a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7106,7 +7106,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDR7"
 	.byte	0x8
 	.uahalf	0x31b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7115,7 +7115,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x31c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -7125,18 +7125,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PDRR_Bits"
 	.byte	0x8
 	.uahalf	0x31d
-	.uaword	0x2f2e
+	.uaword	0x2f48
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLCON0_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x320
-	.uaword	0x311c
+	.uaword	0x3136
 	.uleb128 0x10
 	.string	"VCOBYP"
 	.byte	0x8
 	.uahalf	0x322
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7145,7 +7145,7 @@ IfxMtu_writeSramAddress:
 	.string	"VCOPWD"
 	.byte	0x8
 	.uahalf	0x323
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7154,7 +7154,7 @@ IfxMtu_writeSramAddress:
 	.string	"MODEN"
 	.byte	0x8
 	.uahalf	0x324
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7163,7 +7163,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF1
 	.byte	0x8
 	.uahalf	0x325
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7172,7 +7172,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF27
 	.byte	0x8
 	.uahalf	0x326
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7181,7 +7181,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF28
 	.byte	0x8
 	.uahalf	0x327
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7190,7 +7190,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF29
 	.byte	0x8
 	.uahalf	0x328
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7199,7 +7199,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF13
 	.byte	0x8
 	.uahalf	0x329
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -7208,7 +7208,7 @@ IfxMtu_writeSramAddress:
 	.string	"NDIV"
 	.byte	0x8
 	.uahalf	0x32a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -7217,7 +7217,7 @@ IfxMtu_writeSramAddress:
 	.string	"PLLPWD"
 	.byte	0x8
 	.uahalf	0x32b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7226,7 +7226,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF23
 	.byte	0x8
 	.uahalf	0x32c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7235,7 +7235,7 @@ IfxMtu_writeSramAddress:
 	.string	"RESLD"
 	.byte	0x8
 	.uahalf	0x32d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7244,7 +7244,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF26
 	.byte	0x8
 	.uahalf	0x32e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -7253,7 +7253,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDIV"
 	.byte	0x8
 	.uahalf	0x32f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -7262,7 +7262,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF17
 	.byte	0x8
 	.uahalf	0x330
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -7272,18 +7272,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PLLCON0_Bits"
 	.byte	0x8
 	.uahalf	0x331
-	.uaword	0x2ffd
+	.uaword	0x3017
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLCON1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x334
-	.uaword	0x31bf
+	.uaword	0x31d9
 	.uleb128 0x10
 	.string	"K2DIV"
 	.byte	0x8
 	.uahalf	0x336
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -7292,7 +7292,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF13
 	.byte	0x8
 	.uahalf	0x337
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7301,7 +7301,7 @@ IfxMtu_writeSramAddress:
 	.string	"K3DIV"
 	.byte	0x8
 	.uahalf	0x338
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -7310,7 +7310,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF14
 	.byte	0x8
 	.uahalf	0x339
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7319,7 +7319,7 @@ IfxMtu_writeSramAddress:
 	.string	"K1DIV"
 	.byte	0x8
 	.uahalf	0x33a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x9
@@ -7328,7 +7328,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF15
 	.byte	0x8
 	.uahalf	0x33b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -7338,18 +7338,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PLLCON1_Bits"
 	.byte	0x8
 	.uahalf	0x33c
-	.uaword	0x3139
+	.uaword	0x3153
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLCON2_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x33f
-	.uaword	0x321f
+	.uaword	0x3239
 	.uleb128 0x10
 	.string	"MODCFG"
 	.byte	0x8
 	.uahalf	0x341
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -7358,7 +7358,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x342
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7368,18 +7368,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PLLCON2_Bits"
 	.byte	0x8
 	.uahalf	0x343
-	.uaword	0x31dc
+	.uaword	0x31f6
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLERAYCON0_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x346
-	.uaword	0x335d
+	.uaword	0x3377
 	.uleb128 0x10
 	.string	"VCOBYP"
 	.byte	0x8
 	.uahalf	0x348
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7388,7 +7388,7 @@ IfxMtu_writeSramAddress:
 	.string	"VCOPWD"
 	.byte	0x8
 	.uahalf	0x349
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7397,7 +7397,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x34a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -7406,7 +7406,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF27
 	.byte	0x8
 	.uahalf	0x34b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7415,7 +7415,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF28
 	.byte	0x8
 	.uahalf	0x34c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7424,7 +7424,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF29
 	.byte	0x8
 	.uahalf	0x34d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7433,7 +7433,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF13
 	.byte	0x8
 	.uahalf	0x34e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x17
@@ -7442,7 +7442,7 @@ IfxMtu_writeSramAddress:
 	.string	"NDIV"
 	.byte	0x8
 	.uahalf	0x34f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x12
@@ -7451,7 +7451,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF20
 	.byte	0x8
 	.uahalf	0x350
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -7460,7 +7460,7 @@ IfxMtu_writeSramAddress:
 	.string	"PLLPWD"
 	.byte	0x8
 	.uahalf	0x351
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7469,7 +7469,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF23
 	.byte	0x8
 	.uahalf	0x352
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7478,7 +7478,7 @@ IfxMtu_writeSramAddress:
 	.string	"RESLD"
 	.byte	0x8
 	.uahalf	0x353
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7487,7 +7487,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF26
 	.byte	0x8
 	.uahalf	0x354
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -7496,7 +7496,7 @@ IfxMtu_writeSramAddress:
 	.string	"PDIV"
 	.byte	0x8
 	.uahalf	0x355
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -7505,7 +7505,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF17
 	.byte	0x8
 	.uahalf	0x356
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -7515,18 +7515,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PLLERAYCON0_Bits"
 	.byte	0x8
 	.uahalf	0x357
-	.uaword	0x323c
+	.uaword	0x3256
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLERAYCON1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x35a
-	.uaword	0x3408
+	.uaword	0x3422
 	.uleb128 0x10
 	.string	"K2DIV"
 	.byte	0x8
 	.uahalf	0x35c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x19
@@ -7535,7 +7535,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF13
 	.byte	0x8
 	.uahalf	0x35d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7544,7 +7544,7 @@ IfxMtu_writeSramAddress:
 	.string	"K3DIV"
 	.byte	0x8
 	.uahalf	0x35e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -7553,7 +7553,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF24
 	.byte	0x8
 	.uahalf	0x35f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -7562,7 +7562,7 @@ IfxMtu_writeSramAddress:
 	.string	"K1DIV"
 	.byte	0x8
 	.uahalf	0x360
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x9
@@ -7571,7 +7571,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF15
 	.byte	0x8
 	.uahalf	0x361
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -7581,18 +7581,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PLLERAYCON1_Bits"
 	.byte	0x8
 	.uahalf	0x362
-	.uaword	0x337e
+	.uaword	0x3398
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLERAYSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x365
-	.uaword	0x34d0
+	.uaword	0x34ea
 	.uleb128 0x10
 	.string	"VCOBYST"
 	.byte	0x8
 	.uahalf	0x367
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7601,7 +7601,7 @@ IfxMtu_writeSramAddress:
 	.string	"PWDSTAT"
 	.byte	0x8
 	.uahalf	0x368
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7610,7 +7610,7 @@ IfxMtu_writeSramAddress:
 	.string	"VCOLOCK"
 	.byte	0x8
 	.uahalf	0x369
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7619,7 +7619,7 @@ IfxMtu_writeSramAddress:
 	.string	"FINDIS"
 	.byte	0x8
 	.uahalf	0x36a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7628,7 +7628,7 @@ IfxMtu_writeSramAddress:
 	.string	"K1RDY"
 	.byte	0x8
 	.uahalf	0x36b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7637,7 +7637,7 @@ IfxMtu_writeSramAddress:
 	.string	"K2RDY"
 	.byte	0x8
 	.uahalf	0x36c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7646,7 +7646,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF7
 	.byte	0x8
 	.uahalf	0x36d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -7656,18 +7656,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PLLERAYSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x36e
-	.uaword	0x3429
+	.uaword	0x3443
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PLLSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x371
-	.uaword	0x35b3
+	.uaword	0x35cd
 	.uleb128 0x10
 	.string	"VCOBYST"
 	.byte	0x8
 	.uahalf	0x373
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7676,7 +7676,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF22
 	.byte	0x8
 	.uahalf	0x374
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7685,7 +7685,7 @@ IfxMtu_writeSramAddress:
 	.string	"VCOLOCK"
 	.byte	0x8
 	.uahalf	0x375
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7694,7 +7694,7 @@ IfxMtu_writeSramAddress:
 	.string	"FINDIS"
 	.byte	0x8
 	.uahalf	0x376
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7703,7 +7703,7 @@ IfxMtu_writeSramAddress:
 	.string	"K1RDY"
 	.byte	0x8
 	.uahalf	0x377
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7712,7 +7712,7 @@ IfxMtu_writeSramAddress:
 	.string	"K2RDY"
 	.byte	0x8
 	.uahalf	0x378
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7721,7 +7721,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF7
 	.byte	0x8
 	.uahalf	0x379
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7730,7 +7730,7 @@ IfxMtu_writeSramAddress:
 	.string	"MODRUN"
 	.byte	0x8
 	.uahalf	0x37a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7739,7 +7739,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x37b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -7749,18 +7749,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PLLSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x37c
-	.uaword	0x34f1
+	.uaword	0x350b
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMCSR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x37f
-	.uaword	0x3645
+	.uaword	0x365f
 	.uleb128 0x10
 	.string	"REQSLP"
 	.byte	0x8
 	.uahalf	0x381
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -7769,7 +7769,7 @@ IfxMtu_writeSramAddress:
 	.string	"SMUSLP"
 	.byte	0x8
 	.uahalf	0x382
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7778,7 +7778,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF1
 	.byte	0x8
 	.uahalf	0x383
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -7787,7 +7787,7 @@ IfxMtu_writeSramAddress:
 	.string	"PMST"
 	.byte	0x8
 	.uahalf	0x384
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7796,7 +7796,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF21
 	.byte	0x8
 	.uahalf	0x385
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x15
 	.byte	0
@@ -7806,18 +7806,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PMCSR_Bits"
 	.byte	0x8
 	.uahalf	0x386
-	.uaword	0x35d0
+	.uaword	0x35ea
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMSWCR0_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x389
-	.uaword	0x384d
+	.uaword	0x3867
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x38b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7826,7 +7826,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF30
 	.byte	0x8
 	.uahalf	0x38c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7835,7 +7835,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF31
 	.byte	0x8
 	.uahalf	0x38d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7844,7 +7844,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF32
 	.byte	0x8
 	.uahalf	0x38e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7853,7 +7853,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR0DFEN"
 	.byte	0x8
 	.uahalf	0x38f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7862,7 +7862,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR0EDCON"
 	.byte	0x8
 	.uahalf	0x390
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x19
@@ -7871,7 +7871,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR1DFEN"
 	.byte	0x8
 	.uahalf	0x391
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7880,7 +7880,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR1EDCON"
 	.byte	0x8
 	.uahalf	0x392
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -7889,7 +7889,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINADFEN"
 	.byte	0x8
 	.uahalf	0x393
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7898,7 +7898,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINAEDCON"
 	.byte	0x8
 	.uahalf	0x394
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -7907,7 +7907,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINBDFEN"
 	.byte	0x8
 	.uahalf	0x395
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7916,7 +7916,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINBEDCON"
 	.byte	0x8
 	.uahalf	0x396
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -7925,7 +7925,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x397
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7934,7 +7934,7 @@ IfxMtu_writeSramAddress:
 	.string	"STBYRAMSEL"
 	.byte	0x8
 	.uahalf	0x398
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0xd
@@ -7943,7 +7943,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF26
 	.byte	0x8
 	.uahalf	0x399
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb
@@ -7952,7 +7952,7 @@ IfxMtu_writeSramAddress:
 	.string	"TRISTEN"
 	.byte	0x8
 	.uahalf	0x39a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7961,7 +7961,7 @@ IfxMtu_writeSramAddress:
 	.string	"TRISTREQ"
 	.byte	0x8
 	.uahalf	0x39b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7970,7 +7970,7 @@ IfxMtu_writeSramAddress:
 	.string	"PORSTDF"
 	.byte	0x8
 	.uahalf	0x39c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7979,7 +7979,7 @@ IfxMtu_writeSramAddress:
 	.string	"PWRWKEN"
 	.byte	0x8
 	.uahalf	0x39d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7988,7 +7988,7 @@ IfxMtu_writeSramAddress:
 	.string	"DCDCSYNC"
 	.byte	0x8
 	.uahalf	0x39e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7997,7 +7997,7 @@ IfxMtu_writeSramAddress:
 	.string	"BLNKFIL"
 	.byte	0x8
 	.uahalf	0x39f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x3
@@ -8006,7 +8006,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF33
 	.byte	0x8
 	.uahalf	0x3a0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8015,7 +8015,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF19
 	.byte	0x8
 	.uahalf	0x3a1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -8024,7 +8024,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x3a2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8034,18 +8034,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PMSWCR0_Bits"
 	.byte	0x8
 	.uahalf	0x3a3
-	.uaword	0x3660
+	.uaword	0x367a
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMSWCR1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x3a6
-	.uaword	0x3936
+	.uaword	0x3950
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x3a8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -8054,7 +8054,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPUIDLSEL"
 	.byte	0x8
 	.uahalf	0x3a9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -8063,7 +8063,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF21
 	.byte	0x8
 	.uahalf	0x3aa
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8072,7 +8072,7 @@ IfxMtu_writeSramAddress:
 	.string	"IRADIS"
 	.byte	0x8
 	.uahalf	0x3ab
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8081,7 +8081,7 @@ IfxMtu_writeSramAddress:
 	.string	"reserved_13"
 	.byte	0x8
 	.uahalf	0x3ac
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xb
 	.byte	0x8
@@ -8090,7 +8090,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPUSEL"
 	.byte	0x8
 	.uahalf	0x3ad
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -8099,7 +8099,7 @@ IfxMtu_writeSramAddress:
 	.string	"STBYEVEN"
 	.byte	0x8
 	.uahalf	0x3ae
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8108,7 +8108,7 @@ IfxMtu_writeSramAddress:
 	.string	"STBYEV"
 	.byte	0x8
 	.uahalf	0x3af
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -8117,7 +8117,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF8
 	.byte	0x8
 	.uahalf	0x3b0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8127,18 +8127,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PMSWCR1_Bits"
 	.byte	0x8
 	.uahalf	0x3b1
-	.uaword	0x386a
+	.uaword	0x3884
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMSWSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x3b4
-	.uaword	0x3aec
+	.uaword	0x3b06
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x3b6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -8147,7 +8147,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR1WKP"
 	.byte	0x8
 	.uahalf	0x3b7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8156,7 +8156,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR1OVRUN"
 	.byte	0x8
 	.uahalf	0x3b8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8165,7 +8165,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINAWKP"
 	.byte	0x8
 	.uahalf	0x3b9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8174,7 +8174,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINAOVRUN"
 	.byte	0x8
 	.uahalf	0x3ba
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8183,7 +8183,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINBWKP"
 	.byte	0x8
 	.uahalf	0x3bb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8192,7 +8192,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINBOVRUN"
 	.byte	0x8
 	.uahalf	0x3bc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8201,7 +8201,7 @@ IfxMtu_writeSramAddress:
 	.string	"PWRWKP"
 	.byte	0x8
 	.uahalf	0x3bd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8210,7 +8210,7 @@ IfxMtu_writeSramAddress:
 	.string	"PORSTDF"
 	.byte	0x8
 	.uahalf	0x3be
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8219,7 +8219,7 @@ IfxMtu_writeSramAddress:
 	.string	"HWCFGEVR"
 	.byte	0x8
 	.uahalf	0x3bf
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x13
@@ -8228,7 +8228,7 @@ IfxMtu_writeSramAddress:
 	.string	"STBYRAM"
 	.byte	0x8
 	.uahalf	0x3c0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -8237,7 +8237,7 @@ IfxMtu_writeSramAddress:
 	.string	"TRIST"
 	.byte	0x8
 	.uahalf	0x3c1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8246,7 +8246,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x3c2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -8255,7 +8255,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF30
 	.byte	0x8
 	.uahalf	0x3c3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8264,7 +8264,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF31
 	.byte	0x8
 	.uahalf	0x3c4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -8273,7 +8273,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF32
 	.byte	0x8
 	.uahalf	0x3c5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -8282,7 +8282,7 @@ IfxMtu_writeSramAddress:
 	.string	"PWRWKEN"
 	.byte	0x8
 	.uahalf	0x3c6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8291,7 +8291,7 @@ IfxMtu_writeSramAddress:
 	.string	"BLNKFIL"
 	.byte	0x8
 	.uahalf	0x3c7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -8300,7 +8300,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF33
 	.byte	0x8
 	.uahalf	0x3c8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8309,7 +8309,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF17
 	.byte	0x8
 	.uahalf	0x3c9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -8319,18 +8319,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PMSWSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x3ca
-	.uaword	0x3953
+	.uaword	0x396d
 	.uleb128 0xe
 	.string	"_Ifx_SCU_PMSWSTATCLR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x3cd
-	.uaword	0x3bf4
+	.uaword	0x3c0e
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x3cf
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -8339,7 +8339,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR1WKPCLR"
 	.byte	0x8
 	.uahalf	0x3d0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8348,7 +8348,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR1OVRUNCLR"
 	.byte	0x8
 	.uahalf	0x3d1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8357,7 +8357,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINAWKPCLR"
 	.byte	0x8
 	.uahalf	0x3d2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8366,7 +8366,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINAOVRUNCLR"
 	.byte	0x8
 	.uahalf	0x3d3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8375,7 +8375,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINBWKPCLR"
 	.byte	0x8
 	.uahalf	0x3d4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8384,7 +8384,7 @@ IfxMtu_writeSramAddress:
 	.string	"PINBOVRUNCLR"
 	.byte	0x8
 	.uahalf	0x3d5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8393,7 +8393,7 @@ IfxMtu_writeSramAddress:
 	.string	"PWRWKPCLR"
 	.byte	0x8
 	.uahalf	0x3d6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8402,7 +8402,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF18
 	.byte	0x8
 	.uahalf	0x3d7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -8412,18 +8412,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_PMSWSTATCLR_Bits"
 	.byte	0x8
 	.uahalf	0x3d8
-	.uaword	0x3b0a
+	.uaword	0x3b24
 	.uleb128 0xe
 	.string	"_Ifx_SCU_RSTCON2_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x3db
-	.uaword	0x3cbd
+	.uaword	0x3cd7
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x3dd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8432,7 +8432,7 @@ IfxMtu_writeSramAddress:
 	.string	"CLRC"
 	.byte	0x8
 	.uahalf	0x3de
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8441,7 +8441,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x3df
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0xa
 	.byte	0x14
@@ -8450,7 +8450,7 @@ IfxMtu_writeSramAddress:
 	.string	"CSS0"
 	.byte	0x8
 	.uahalf	0x3e0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8459,7 +8459,7 @@ IfxMtu_writeSramAddress:
 	.string	"CSS1"
 	.byte	0x8
 	.uahalf	0x3e1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8468,7 +8468,7 @@ IfxMtu_writeSramAddress:
 	.string	"CSS2"
 	.byte	0x8
 	.uahalf	0x3e2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -8477,7 +8477,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF14
 	.byte	0x8
 	.uahalf	0x3e3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8486,7 +8486,7 @@ IfxMtu_writeSramAddress:
 	.string	"USRINFO"
 	.byte	0x8
 	.uahalf	0x3e4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8496,18 +8496,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_RSTCON2_Bits"
 	.byte	0x8
 	.uahalf	0x3e5
-	.uaword	0x3c15
+	.uaword	0x3c2f
 	.uleb128 0xe
 	.string	"_Ifx_SCU_RSTCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x3e8
-	.uaword	0x3d8d
+	.uaword	0x3da7
 	.uleb128 0x10
 	.string	"ESR0"
 	.byte	0x8
 	.uahalf	0x3ea
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -8516,7 +8516,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR1"
 	.byte	0x8
 	.uahalf	0x3eb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -8525,7 +8525,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.uahalf	0x3ec
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -8534,7 +8534,7 @@ IfxMtu_writeSramAddress:
 	.string	"SMU"
 	.byte	0x8
 	.uahalf	0x3ed
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -8543,7 +8543,7 @@ IfxMtu_writeSramAddress:
 	.string	"SW"
 	.byte	0x8
 	.uahalf	0x3ee
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -8552,7 +8552,7 @@ IfxMtu_writeSramAddress:
 	.string	"STM0"
 	.byte	0x8
 	.uahalf	0x3ef
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -8561,7 +8561,7 @@ IfxMtu_writeSramAddress:
 	.string	"STM1"
 	.byte	0x8
 	.uahalf	0x3f0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -8570,7 +8570,7 @@ IfxMtu_writeSramAddress:
 	.string	"STM2"
 	.byte	0x8
 	.uahalf	0x3f1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -8579,7 +8579,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x3f2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8589,18 +8589,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_RSTCON_Bits"
 	.byte	0x8
 	.uahalf	0x3f3
-	.uaword	0x3cda
+	.uaword	0x3cf4
 	.uleb128 0xe
 	.string	"_Ifx_SCU_RSTSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x3f6
-	.uaword	0x3f2d
+	.uaword	0x3f47
 	.uleb128 0x10
 	.string	"ESR0"
 	.byte	0x8
 	.uahalf	0x3f8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8609,7 +8609,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESR1"
 	.byte	0x8
 	.uahalf	0x3f9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8618,7 +8618,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x3fa
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8627,7 +8627,7 @@ IfxMtu_writeSramAddress:
 	.string	"SMU"
 	.byte	0x8
 	.uahalf	0x3fb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8636,7 +8636,7 @@ IfxMtu_writeSramAddress:
 	.string	"SW"
 	.byte	0x8
 	.uahalf	0x3fc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8645,7 +8645,7 @@ IfxMtu_writeSramAddress:
 	.string	"STM0"
 	.byte	0x8
 	.uahalf	0x3fd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8654,7 +8654,7 @@ IfxMtu_writeSramAddress:
 	.string	"STM1"
 	.byte	0x8
 	.uahalf	0x3fe
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8663,7 +8663,7 @@ IfxMtu_writeSramAddress:
 	.string	"STM2"
 	.byte	0x8
 	.uahalf	0x3ff
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8672,7 +8672,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0x8
 	.uahalf	0x400
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -8681,7 +8681,7 @@ IfxMtu_writeSramAddress:
 	.string	"PORST"
 	.byte	0x8
 	.uahalf	0x401
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8690,7 +8690,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF23
 	.byte	0x8
 	.uahalf	0x402
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8699,7 +8699,7 @@ IfxMtu_writeSramAddress:
 	.string	"CB0"
 	.byte	0x8
 	.uahalf	0x403
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8708,7 +8708,7 @@ IfxMtu_writeSramAddress:
 	.string	"CB1"
 	.byte	0x8
 	.uahalf	0x404
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8717,7 +8717,7 @@ IfxMtu_writeSramAddress:
 	.string	"CB3"
 	.byte	0x8
 	.uahalf	0x405
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8726,7 +8726,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF25
 	.byte	0x8
 	.uahalf	0x406
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -8735,7 +8735,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR13"
 	.byte	0x8
 	.uahalf	0x407
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8744,7 +8744,7 @@ IfxMtu_writeSramAddress:
 	.string	"EVR33"
 	.byte	0x8
 	.uahalf	0x408
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8753,7 +8753,7 @@ IfxMtu_writeSramAddress:
 	.string	"SWD"
 	.byte	0x8
 	.uahalf	0x409
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8762,7 +8762,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF10
 	.byte	0x8
 	.uahalf	0x40a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -8771,7 +8771,7 @@ IfxMtu_writeSramAddress:
 	.string	"STBYR"
 	.byte	0x8
 	.uahalf	0x40b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8780,7 +8780,7 @@ IfxMtu_writeSramAddress:
 	.string	"reserved_29"
 	.byte	0x8
 	.uahalf	0x40c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -8790,18 +8790,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_RSTSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x40d
-	.uaword	0x3da9
+	.uaword	0x3dc3
 	.uleb128 0xe
 	.string	"_Ifx_SCU_SAFECON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x410
-	.uaword	0x3f8a
+	.uaword	0x3fa4
 	.uleb128 0x10
 	.string	"HBT"
 	.byte	0x8
 	.uahalf	0x412
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8810,7 +8810,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF22
 	.byte	0x8
 	.uahalf	0x413
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -8820,18 +8820,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_SAFECON_Bits"
 	.byte	0x8
 	.uahalf	0x414
-	.uaword	0x3f4a
+	.uaword	0x3f64
 	.uleb128 0xe
 	.string	"_Ifx_SCU_STSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x417
-	.uaword	0x408c
+	.uaword	0x40a6
 	.uleb128 0x10
 	.string	"HWCFG"
 	.byte	0x8
 	.uahalf	0x419
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -8840,7 +8840,7 @@ IfxMtu_writeSramAddress:
 	.string	"FTM"
 	.byte	0x8
 	.uahalf	0x41a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -8849,7 +8849,7 @@ IfxMtu_writeSramAddress:
 	.string	"MODE"
 	.byte	0x8
 	.uahalf	0x41b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8858,7 +8858,7 @@ IfxMtu_writeSramAddress:
 	.string	"FCBAE"
 	.byte	0x8
 	.uahalf	0x41c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8867,7 +8867,7 @@ IfxMtu_writeSramAddress:
 	.string	"LUDIS"
 	.byte	0x8
 	.uahalf	0x41d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8876,7 +8876,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF16
 	.byte	0x8
 	.uahalf	0x41e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8885,7 +8885,7 @@ IfxMtu_writeSramAddress:
 	.string	"TRSTL"
 	.byte	0x8
 	.uahalf	0x41f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8894,7 +8894,7 @@ IfxMtu_writeSramAddress:
 	.string	"SPDEN"
 	.byte	0x8
 	.uahalf	0x420
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8903,7 +8903,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF25
 	.byte	0x8
 	.uahalf	0x421
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -8912,7 +8912,7 @@ IfxMtu_writeSramAddress:
 	.string	"RAMINT"
 	.byte	0x8
 	.uahalf	0x422
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8921,7 +8921,7 @@ IfxMtu_writeSramAddress:
 	.string	"reserved_25"
 	.byte	0x8
 	.uahalf	0x423
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -8931,18 +8931,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_STSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x424
-	.uaword	0x3fa7
+	.uaword	0x3fc1
 	.uleb128 0xe
 	.string	"_Ifx_SCU_SWRSTCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x427
-	.uaword	0x40fe
+	.uaword	0x4118
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x429
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8951,7 +8951,7 @@ IfxMtu_writeSramAddress:
 	.string	"SWRSTREQ"
 	.byte	0x8
 	.uahalf	0x42a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8960,7 +8960,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x42b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -8970,18 +8970,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_SWRSTCON_Bits"
 	.byte	0x8
 	.uahalf	0x42c
-	.uaword	0x40a8
+	.uaword	0x40c2
 	.uleb128 0xe
 	.string	"_Ifx_SCU_SYSCON_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x42f
-	.uaword	0x41c0
+	.uaword	0x41da
 	.uleb128 0x10
 	.string	"CCTRIG0"
 	.byte	0x8
 	.uahalf	0x431
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8990,7 +8990,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF22
 	.byte	0x8
 	.uahalf	0x432
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8999,7 +8999,7 @@ IfxMtu_writeSramAddress:
 	.string	"RAMINTM"
 	.byte	0x8
 	.uahalf	0x433
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -9008,7 +9008,7 @@ IfxMtu_writeSramAddress:
 	.string	"SETLUDIS"
 	.byte	0x8
 	.uahalf	0x434
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9017,7 +9017,7 @@ IfxMtu_writeSramAddress:
 	.string	"reserved_5"
 	.byte	0x8
 	.uahalf	0x435
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -9026,7 +9026,7 @@ IfxMtu_writeSramAddress:
 	.string	"DATM"
 	.byte	0x8
 	.uahalf	0x436
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9035,7 +9035,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF18
 	.byte	0x8
 	.uahalf	0x437
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -9045,18 +9045,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_SYSCON_Bits"
 	.byte	0x8
 	.uahalf	0x438
-	.uaword	0x411c
+	.uaword	0x4136
 	.uleb128 0xe
 	.string	"_Ifx_SCU_TRAPCLR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x43b
-	.uaword	0x424d
+	.uaword	0x4267
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x8
 	.uahalf	0x43d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9065,7 +9065,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF35
 	.byte	0x8
 	.uahalf	0x43e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9074,7 +9074,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x43f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9083,7 +9083,7 @@ IfxMtu_writeSramAddress:
 	.string	"SMUT"
 	.byte	0x8
 	.uahalf	0x440
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9092,7 +9092,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.uahalf	0x441
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -9102,18 +9102,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_TRAPCLR_Bits"
 	.byte	0x8
 	.uahalf	0x442
-	.uaword	0x41dc
+	.uaword	0x41f6
 	.uleb128 0xe
 	.string	"_Ifx_SCU_TRAPDIS_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x445
-	.uaword	0x42db
+	.uaword	0x42f5
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x8
 	.uahalf	0x447
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9122,7 +9122,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF35
 	.byte	0x8
 	.uahalf	0x448
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9131,7 +9131,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x449
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9140,7 +9140,7 @@ IfxMtu_writeSramAddress:
 	.string	"SMUT"
 	.byte	0x8
 	.uahalf	0x44a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9149,7 +9149,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.uahalf	0x44b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -9159,18 +9159,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_TRAPDIS_Bits"
 	.byte	0x8
 	.uahalf	0x44c
-	.uaword	0x426a
+	.uaword	0x4284
 	.uleb128 0xe
 	.string	"_Ifx_SCU_TRAPSET_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x44f
-	.uaword	0x4369
+	.uaword	0x4383
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x8
 	.uahalf	0x451
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9179,7 +9179,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF35
 	.byte	0x8
 	.uahalf	0x452
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9188,7 +9188,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x453
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9197,7 +9197,7 @@ IfxMtu_writeSramAddress:
 	.string	"SMUT"
 	.byte	0x8
 	.uahalf	0x454
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9206,7 +9206,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.uahalf	0x455
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -9216,18 +9216,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_TRAPSET_Bits"
 	.byte	0x8
 	.uahalf	0x456
-	.uaword	0x42f8
+	.uaword	0x4312
 	.uleb128 0xe
 	.string	"_Ifx_SCU_TRAPSTAT_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x459
-	.uaword	0x43f8
+	.uaword	0x4412
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x8
 	.uahalf	0x45b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9236,7 +9236,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF35
 	.byte	0x8
 	.uahalf	0x45c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9245,7 +9245,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF9
 	.byte	0x8
 	.uahalf	0x45d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9254,7 +9254,7 @@ IfxMtu_writeSramAddress:
 	.string	"SMUT"
 	.byte	0x8
 	.uahalf	0x45e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9263,7 +9263,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.uahalf	0x45f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -9273,18 +9273,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_TRAPSTAT_Bits"
 	.byte	0x8
 	.uahalf	0x460
-	.uaword	0x4386
+	.uaword	0x43a0
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTCPU_CON0_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x463
-	.uaword	0x447d
+	.uaword	0x4497
 	.uleb128 0x10
 	.string	"ENDINIT"
 	.byte	0x8
 	.uahalf	0x465
-	.uaword	0x2c4
+	.uaword	0x2de
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9293,7 +9293,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x466
-	.uaword	0x2c4
+	.uaword	0x2de
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9302,7 +9302,7 @@ IfxMtu_writeSramAddress:
 	.string	"PW"
 	.byte	0x8
 	.uahalf	0x467
-	.uaword	0x2c4
+	.uaword	0x2de
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -9311,7 +9311,7 @@ IfxMtu_writeSramAddress:
 	.string	"REL"
 	.byte	0x8
 	.uahalf	0x468
-	.uaword	0x2c4
+	.uaword	0x2de
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9321,18 +9321,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_WDTCPU_CON0_Bits"
 	.byte	0x8
 	.uahalf	0x469
-	.uaword	0x4416
+	.uaword	0x4430
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTCPU_CON1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x46c
-	.uaword	0x4561
+	.uaword	0x457b
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x46e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9341,7 +9341,7 @@ IfxMtu_writeSramAddress:
 	.string	"IR0"
 	.byte	0x8
 	.uahalf	0x46f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9350,7 +9350,7 @@ IfxMtu_writeSramAddress:
 	.string	"DR"
 	.byte	0x8
 	.uahalf	0x470
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9359,7 +9359,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.uahalf	0x471
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9368,7 +9368,7 @@ IfxMtu_writeSramAddress:
 	.string	"IR1"
 	.byte	0x8
 	.uahalf	0x472
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9377,7 +9377,7 @@ IfxMtu_writeSramAddress:
 	.string	"UR"
 	.byte	0x8
 	.uahalf	0x473
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9386,7 +9386,7 @@ IfxMtu_writeSramAddress:
 	.string	"PAR"
 	.byte	0x8
 	.uahalf	0x474
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9395,7 +9395,7 @@ IfxMtu_writeSramAddress:
 	.string	"TCR"
 	.byte	0x8
 	.uahalf	0x475
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9404,7 +9404,7 @@ IfxMtu_writeSramAddress:
 	.string	"TCTR"
 	.byte	0x8
 	.uahalf	0x476
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -9413,7 +9413,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x477
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9423,18 +9423,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_WDTCPU_CON1_Bits"
 	.byte	0x8
 	.uahalf	0x478
-	.uaword	0x449e
+	.uaword	0x44b8
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTCPU_SR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x47b
-	.uaword	0x464f
+	.uaword	0x4669
 	.uleb128 0x10
 	.string	"AE"
 	.byte	0x8
 	.uahalf	0x47d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9443,7 +9443,7 @@ IfxMtu_writeSramAddress:
 	.string	"OE"
 	.byte	0x8
 	.uahalf	0x47e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9452,7 +9452,7 @@ IfxMtu_writeSramAddress:
 	.string	"IS0"
 	.byte	0x8
 	.uahalf	0x47f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9461,7 +9461,7 @@ IfxMtu_writeSramAddress:
 	.string	"DS"
 	.byte	0x8
 	.uahalf	0x480
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9470,7 +9470,7 @@ IfxMtu_writeSramAddress:
 	.string	"TO"
 	.byte	0x8
 	.uahalf	0x481
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9479,7 +9479,7 @@ IfxMtu_writeSramAddress:
 	.string	"IS1"
 	.byte	0x8
 	.uahalf	0x482
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9488,7 +9488,7 @@ IfxMtu_writeSramAddress:
 	.string	"US"
 	.byte	0x8
 	.uahalf	0x483
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9497,7 +9497,7 @@ IfxMtu_writeSramAddress:
 	.string	"PAS"
 	.byte	0x8
 	.uahalf	0x484
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9506,7 +9506,7 @@ IfxMtu_writeSramAddress:
 	.string	"TCS"
 	.byte	0x8
 	.uahalf	0x485
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9515,7 +9515,7 @@ IfxMtu_writeSramAddress:
 	.string	"TCT"
 	.byte	0x8
 	.uahalf	0x486
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -9524,7 +9524,7 @@ IfxMtu_writeSramAddress:
 	.string	"TIM"
 	.byte	0x8
 	.uahalf	0x487
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9534,18 +9534,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_WDTCPU_SR_Bits"
 	.byte	0x8
 	.uahalf	0x488
-	.uaword	0x4582
+	.uaword	0x459c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTS_CON0_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x48b
-	.uaword	0x46d3
+	.uaword	0x46ed
 	.uleb128 0x10
 	.string	"ENDINIT"
 	.byte	0x8
 	.uahalf	0x48d
-	.uaword	0x2c4
+	.uaword	0x2de
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9554,7 +9554,7 @@ IfxMtu_writeSramAddress:
 	.string	"LCK"
 	.byte	0x8
 	.uahalf	0x48e
-	.uaword	0x2c4
+	.uaword	0x2de
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9563,7 +9563,7 @@ IfxMtu_writeSramAddress:
 	.string	"PW"
 	.byte	0x8
 	.uahalf	0x48f
-	.uaword	0x2c4
+	.uaword	0x2de
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -9572,7 +9572,7 @@ IfxMtu_writeSramAddress:
 	.string	"REL"
 	.byte	0x8
 	.uahalf	0x490
-	.uaword	0x2c4
+	.uaword	0x2de
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9582,18 +9582,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_WDTS_CON0_Bits"
 	.byte	0x8
 	.uahalf	0x491
-	.uaword	0x466e
+	.uaword	0x4688
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTS_CON1_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x494
-	.uaword	0x47c6
+	.uaword	0x47e0
 	.uleb128 0x10
 	.string	"CLRIRF"
 	.byte	0x8
 	.uahalf	0x496
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9602,7 +9602,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF22
 	.byte	0x8
 	.uahalf	0x497
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9611,7 +9611,7 @@ IfxMtu_writeSramAddress:
 	.string	"IR0"
 	.byte	0x8
 	.uahalf	0x498
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9620,7 +9620,7 @@ IfxMtu_writeSramAddress:
 	.string	"DR"
 	.byte	0x8
 	.uahalf	0x499
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9629,7 +9629,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x8
 	.uahalf	0x49a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9638,7 +9638,7 @@ IfxMtu_writeSramAddress:
 	.string	"IR1"
 	.byte	0x8
 	.uahalf	0x49b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9647,7 +9647,7 @@ IfxMtu_writeSramAddress:
 	.string	"UR"
 	.byte	0x8
 	.uahalf	0x49c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9656,7 +9656,7 @@ IfxMtu_writeSramAddress:
 	.string	"PAR"
 	.byte	0x8
 	.uahalf	0x49d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9665,7 +9665,7 @@ IfxMtu_writeSramAddress:
 	.string	"TCR"
 	.byte	0x8
 	.uahalf	0x49e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9674,7 +9674,7 @@ IfxMtu_writeSramAddress:
 	.string	"TCTR"
 	.byte	0x8
 	.uahalf	0x49f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -9683,7 +9683,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF12
 	.byte	0x8
 	.uahalf	0x4a0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9693,18 +9693,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_WDTS_CON1_Bits"
 	.byte	0x8
 	.uahalf	0x4a1
-	.uaword	0x46f2
+	.uaword	0x470c
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTS_SR_Bits"
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4a4
-	.uaword	0x48b0
+	.uaword	0x48ca
 	.uleb128 0x10
 	.string	"AE"
 	.byte	0x8
 	.uahalf	0x4a6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9713,7 +9713,7 @@ IfxMtu_writeSramAddress:
 	.string	"OE"
 	.byte	0x8
 	.uahalf	0x4a7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9722,7 +9722,7 @@ IfxMtu_writeSramAddress:
 	.string	"IS0"
 	.byte	0x8
 	.uahalf	0x4a8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9731,7 +9731,7 @@ IfxMtu_writeSramAddress:
 	.string	"DS"
 	.byte	0x8
 	.uahalf	0x4a9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9740,7 +9740,7 @@ IfxMtu_writeSramAddress:
 	.string	"TO"
 	.byte	0x8
 	.uahalf	0x4aa
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9749,7 +9749,7 @@ IfxMtu_writeSramAddress:
 	.string	"IS1"
 	.byte	0x8
 	.uahalf	0x4ab
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9758,7 +9758,7 @@ IfxMtu_writeSramAddress:
 	.string	"US"
 	.byte	0x8
 	.uahalf	0x4ac
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9767,7 +9767,7 @@ IfxMtu_writeSramAddress:
 	.string	"PAS"
 	.byte	0x8
 	.uahalf	0x4ad
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9776,7 +9776,7 @@ IfxMtu_writeSramAddress:
 	.string	"TCS"
 	.byte	0x8
 	.uahalf	0x4ae
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9785,7 +9785,7 @@ IfxMtu_writeSramAddress:
 	.string	"TCT"
 	.byte	0x8
 	.uahalf	0x4af
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -9794,7 +9794,7 @@ IfxMtu_writeSramAddress:
 	.string	"TIM"
 	.byte	0x8
 	.uahalf	0x4b0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9804,3162 +9804,3162 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_SCU_WDTS_SR_Bits"
 	.byte	0x8
 	.uahalf	0x4b1
-	.uaword	0x47e5
+	.uaword	0x47ff
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4b9
-	.uaword	0x48f5
+	.uaword	0x490f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4bb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4bc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4bd
-	.uaword	0x559
+	.uaword	0x573
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_ACCEN0"
 	.byte	0x8
 	.uahalf	0x4be
-	.uaword	0x48cd
+	.uaword	0x48e7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4c1
-	.uaword	0x4934
+	.uaword	0x494e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4c3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4c4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4c5
-	.uaword	0x5a1
+	.uaword	0x5bb
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_ACCEN1"
 	.byte	0x8
 	.uahalf	0x4c6
-	.uaword	0x490c
+	.uaword	0x4926
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4c9
-	.uaword	0x4973
+	.uaword	0x498d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4cb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4cc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4cd
-	.uaword	0x623
+	.uaword	0x63d
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_ARSTDIS"
 	.byte	0x8
 	.uahalf	0x4ce
-	.uaword	0x494b
+	.uaword	0x4965
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4d1
-	.uaword	0x49b3
+	.uaword	0x49cd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4d3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4d4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4d5
-	.uaword	0x733
+	.uaword	0x74d
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON0"
 	.byte	0x8
 	.uahalf	0x4d6
-	.uaword	0x498b
+	.uaword	0x49a5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4d9
-	.uaword	0x49f3
+	.uaword	0x4a0d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4db
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4dc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4dd
-	.uaword	0x823
+	.uaword	0x83d
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON1"
 	.byte	0x8
 	.uahalf	0x4de
-	.uaword	0x49cb
+	.uaword	0x49e5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4e1
-	.uaword	0x4a33
+	.uaword	0x4a4d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4e3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4e4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4e5
-	.uaword	0x89c
+	.uaword	0x8b6
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON2"
 	.byte	0x8
 	.uahalf	0x4e6
-	.uaword	0x4a0b
+	.uaword	0x4a25
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4e9
-	.uaword	0x4a73
+	.uaword	0x4a8d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4eb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4ec
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4ed
-	.uaword	0x986
+	.uaword	0x9a0
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON3"
 	.byte	0x8
 	.uahalf	0x4ee
-	.uaword	0x4a4b
+	.uaword	0x4a65
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4f1
-	.uaword	0x4ab3
+	.uaword	0x4acd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4f3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4f4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4f5
-	.uaword	0xa68
+	.uaword	0xa82
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON4"
 	.byte	0x8
 	.uahalf	0x4f6
-	.uaword	0x4a8b
+	.uaword	0x4aa5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x4f9
-	.uaword	0x4af3
+	.uaword	0x4b0d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x4fb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x4fc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x4fd
-	.uaword	0xaf3
+	.uaword	0xb0d
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON5"
 	.byte	0x8
 	.uahalf	0x4fe
-	.uaword	0x4acb
+	.uaword	0x4ae5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x501
-	.uaword	0x4b33
+	.uaword	0x4b4d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x503
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x504
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x505
-	.uaword	0xb50
+	.uaword	0xb6a
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON6"
 	.byte	0x8
 	.uahalf	0x506
-	.uaword	0x4b0b
+	.uaword	0x4b25
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x509
-	.uaword	0x4b73
+	.uaword	0x4b8d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x50b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x50c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x50d
-	.uaword	0xbad
+	.uaword	0xbc7
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON7"
 	.byte	0x8
 	.uahalf	0x50e
-	.uaword	0x4b4b
+	.uaword	0x4b65
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x511
-	.uaword	0x4bb3
+	.uaword	0x4bcd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x513
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x514
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x515
-	.uaword	0xc0a
+	.uaword	0xc24
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON8"
 	.byte	0x8
 	.uahalf	0x516
-	.uaword	0x4b8b
+	.uaword	0x4ba5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x519
-	.uaword	0x4bf3
+	.uaword	0x4c0d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x51b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x51c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x51d
-	.uaword	0xca4
+	.uaword	0xcbe
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CCUCON9"
 	.byte	0x8
 	.uahalf	0x51e
-	.uaword	0x4bcb
+	.uaword	0x4be5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x521
-	.uaword	0x4c33
+	.uaword	0x4c4d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x523
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x524
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x525
-	.uaword	0xd6d
+	.uaword	0xd87
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_CHIPID"
 	.byte	0x8
 	.uahalf	0x526
-	.uaword	0x4c0b
+	.uaword	0x4c25
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x529
-	.uaword	0x4c72
+	.uaword	0x4c8c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x52b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x52c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x52d
-	.uaword	0xe02
+	.uaword	0xe1c
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_DTSCON"
 	.byte	0x8
 	.uahalf	0x52e
-	.uaword	0x4c4a
+	.uaword	0x4c64
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x531
-	.uaword	0x4cb1
+	.uaword	0x4ccb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x533
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x534
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x535
-	.uaword	0xea8
+	.uaword	0xec2
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_DTSLIM"
 	.byte	0x8
 	.uahalf	0x536
-	.uaword	0x4c89
+	.uaword	0x4ca3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x539
-	.uaword	0x4cf0
+	.uaword	0x4d0a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x53b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x53c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x53d
-	.uaword	0xf31
+	.uaword	0xf4b
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_DTSSTAT"
 	.byte	0x8
 	.uahalf	0x53e
-	.uaword	0x4cc8
+	.uaword	0x4ce2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x541
-	.uaword	0x4d30
+	.uaword	0x4d4a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x543
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x544
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x545
-	.uaword	0x108c
+	.uaword	0x10a6
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EICR"
 	.byte	0x8
 	.uahalf	0x546
-	.uaword	0x4d08
+	.uaword	0x4d22
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x549
-	.uaword	0x4d6d
+	.uaword	0x4d87
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x54b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x54c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x54d
-	.uaword	0x1163
+	.uaword	0x117d
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EIFR"
 	.byte	0x8
 	.uahalf	0x54e
-	.uaword	0x4d45
+	.uaword	0x4d5f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x551
-	.uaword	0x4daa
+	.uaword	0x4dc4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x553
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x554
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x555
-	.uaword	0x1255
+	.uaword	0x126f
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EMSR"
 	.byte	0x8
 	.uahalf	0x556
-	.uaword	0x4d82
+	.uaword	0x4d9c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x559
-	.uaword	0x4de7
+	.uaword	0x4e01
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x55b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x55c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x55d
-	.uaword	0x12c0
+	.uaword	0x12da
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_ESRCFG"
 	.byte	0x8
 	.uahalf	0x55e
-	.uaword	0x4dbf
+	.uaword	0x4dd9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x561
-	.uaword	0x4e26
+	.uaword	0x4e40
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x563
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x564
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x565
-	.uaword	0x132c
+	.uaword	0x1346
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_ESROCFG"
 	.byte	0x8
 	.uahalf	0x566
-	.uaword	0x4dfe
+	.uaword	0x4e18
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x569
-	.uaword	0x4e66
+	.uaword	0x4e80
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x56b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x56c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x56d
-	.uaword	0x13c6
+	.uaword	0x13e0
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVR13CON"
 	.byte	0x8
 	.uahalf	0x56e
-	.uaword	0x4e3e
+	.uaword	0x4e58
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x571
-	.uaword	0x4ea7
+	.uaword	0x4ec1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x573
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x574
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x575
-	.uaword	0x1461
+	.uaword	0x147b
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVR33CON"
 	.byte	0x8
 	.uahalf	0x576
-	.uaword	0x4e7f
+	.uaword	0x4e99
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x579
-	.uaword	0x4ee8
+	.uaword	0x4f02
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x57b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x57c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x57d
-	.uaword	0x14fc
+	.uaword	0x1516
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRADCSTAT"
 	.byte	0x8
 	.uahalf	0x57e
-	.uaword	0x4ec0
+	.uaword	0x4eda
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x581
-	.uaword	0x4f2b
+	.uaword	0x4f45
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x583
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x584
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x585
-	.uaword	0x159a
+	.uaword	0x15b4
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRDVSTAT"
 	.byte	0x8
 	.uahalf	0x586
-	.uaword	0x4f03
+	.uaword	0x4f1d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x589
-	.uaword	0x4f6d
+	.uaword	0x4f87
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x58b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x58c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x58d
-	.uaword	0x16e2
+	.uaword	0x16fc
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRMONCTRL"
 	.byte	0x8
 	.uahalf	0x58e
-	.uaword	0x4f45
+	.uaword	0x4f5f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x591
-	.uaword	0x4fb0
+	.uaword	0x4fca
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x593
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x594
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x595
-	.uaword	0x1796
+	.uaword	0x17b0
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVROVMON"
 	.byte	0x8
 	.uahalf	0x596
-	.uaword	0x4f88
+	.uaword	0x4fa2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x599
-	.uaword	0x4ff1
+	.uaword	0x500b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x59b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x59c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x59d
-	.uaword	0x18a2
+	.uaword	0x18bc
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRRSTCON"
 	.byte	0x8
 	.uahalf	0x59e
-	.uaword	0x4fc9
+	.uaword	0x4fe3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5a1
-	.uaword	0x5033
+	.uaword	0x504d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5a3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5a4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5a5
-	.uaword	0x1938
+	.uaword	0x1952
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCOEFF1"
 	.byte	0x8
 	.uahalf	0x5a6
-	.uaword	0x500b
+	.uaword	0x5025
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5a9
-	.uaword	0x5077
+	.uaword	0x5091
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5ab
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5ac
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5ad
-	.uaword	0x19d3
+	.uaword	0x19ed
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCOEFF2"
 	.byte	0x8
 	.uahalf	0x5ae
-	.uaword	0x504f
+	.uaword	0x5069
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5b1
-	.uaword	0x50bb
+	.uaword	0x50d5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5b3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5b4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5b5
-	.uaword	0x1a74
+	.uaword	0x1a8e
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCOEFF3"
 	.byte	0x8
 	.uahalf	0x5b6
-	.uaword	0x5093
+	.uaword	0x50ad
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5b9
-	.uaword	0x50ff
+	.uaword	0x5119
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5bb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5bc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5bd
-	.uaword	0x1b01
+	.uaword	0x1b1b
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCOEFF4"
 	.byte	0x8
 	.uahalf	0x5be
-	.uaword	0x50d7
+	.uaword	0x50f1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5c1
-	.uaword	0x5143
+	.uaword	0x515d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5c3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5c4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5c5
-	.uaword	0x1ba5
+	.uaword	0x1bbf
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCOEFF5"
 	.byte	0x8
 	.uahalf	0x5c6
-	.uaword	0x511b
+	.uaword	0x5135
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5c9
-	.uaword	0x5187
+	.uaword	0x51a1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5cb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5cc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5cd
-	.uaword	0x1c34
+	.uaword	0x1c4e
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCOEFF6"
 	.byte	0x8
 	.uahalf	0x5ce
-	.uaword	0x515f
+	.uaword	0x5179
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5d1
-	.uaword	0x51cb
+	.uaword	0x51e5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5d3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5d4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5d5
-	.uaword	0x1cea
+	.uaword	0x1d04
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCTRL1"
 	.byte	0x8
 	.uahalf	0x5d6
-	.uaword	0x51a3
+	.uaword	0x51bd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5d9
-	.uaword	0x520e
+	.uaword	0x5228
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5db
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5dc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5dd
-	.uaword	0x1d98
+	.uaword	0x1db2
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCTRL2"
 	.byte	0x8
 	.uahalf	0x5de
-	.uaword	0x51e6
+	.uaword	0x5200
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5e1
-	.uaword	0x5251
+	.uaword	0x526b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5e3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5e4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5e5
-	.uaword	0x1e37
+	.uaword	0x1e51
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCTRL3"
 	.byte	0x8
 	.uahalf	0x5e6
-	.uaword	0x5229
+	.uaword	0x5243
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5e9
-	.uaword	0x5294
+	.uaword	0x52ae
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5eb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5ec
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5ed
-	.uaword	0x1ebe
+	.uaword	0x1ed8
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSDCTRL4"
 	.byte	0x8
 	.uahalf	0x5ee
-	.uaword	0x526c
+	.uaword	0x5286
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5f1
-	.uaword	0x52d7
+	.uaword	0x52f1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5f3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5f4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5f5
-	.uaword	0x1fd9
+	.uaword	0x1ff3
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRSTAT"
 	.byte	0x8
 	.uahalf	0x5f6
-	.uaword	0x52af
+	.uaword	0x52c9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x5f9
-	.uaword	0x5317
+	.uaword	0x5331
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x5fb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x5fc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x5fd
-	.uaword	0x2072
+	.uaword	0x208c
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRTRIM"
 	.byte	0x8
 	.uahalf	0x5fe
-	.uaword	0x52ef
+	.uaword	0x5309
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x601
-	.uaword	0x5357
+	.uaword	0x5371
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x603
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x604
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x605
-	.uaword	0x2123
+	.uaword	0x213d
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EVRUVMON"
 	.byte	0x8
 	.uahalf	0x606
-	.uaword	0x532f
+	.uaword	0x5349
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x609
-	.uaword	0x5398
+	.uaword	0x53b2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x60b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x60c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x60d
-	.uaword	0x21f4
+	.uaword	0x220e
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_EXTCON"
 	.byte	0x8
 	.uahalf	0x60e
-	.uaword	0x5370
+	.uaword	0x538a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x611
-	.uaword	0x53d7
+	.uaword	0x53f1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x613
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x614
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x615
-	.uaword	0x2292
+	.uaword	0x22ac
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_FDR"
 	.byte	0x8
 	.uahalf	0x616
-	.uaword	0x53af
+	.uaword	0x53c9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x619
-	.uaword	0x5413
+	.uaword	0x542d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x61b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x61c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x61d
-	.uaword	0x23e7
+	.uaword	0x2401
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_FMR"
 	.byte	0x8
 	.uahalf	0x61e
-	.uaword	0x53eb
+	.uaword	0x5405
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x621
-	.uaword	0x544f
+	.uaword	0x5469
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x623
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x624
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x625
-	.uaword	0x2458
+	.uaword	0x2472
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_ID"
 	.byte	0x8
 	.uahalf	0x626
-	.uaword	0x5427
+	.uaword	0x5441
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x629
-	.uaword	0x548a
+	.uaword	0x54a4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x62b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x62c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x62d
-	.uaword	0x2623
+	.uaword	0x263d
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_IGCR"
 	.byte	0x8
 	.uahalf	0x62e
-	.uaword	0x5462
+	.uaword	0x547c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x631
-	.uaword	0x54c7
+	.uaword	0x54e1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x633
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x634
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x635
-	.uaword	0x2686
+	.uaword	0x26a0
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_IN"
 	.byte	0x8
 	.uahalf	0x636
-	.uaword	0x549f
+	.uaword	0x54b9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x639
-	.uaword	0x5502
+	.uaword	0x551c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x63b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x63c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x63d
-	.uaword	0x270b
+	.uaword	0x2725
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_IOCR"
 	.byte	0x8
 	.uahalf	0x63e
-	.uaword	0x54da
+	.uaword	0x54f4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x641
-	.uaword	0x553f
+	.uaword	0x5559
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x643
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x644
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x645
-	.uaword	0x2798
+	.uaword	0x27b2
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_LBISTCTRL0"
 	.byte	0x8
 	.uahalf	0x646
-	.uaword	0x5517
+	.uaword	0x5531
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x649
-	.uaword	0x5582
+	.uaword	0x559c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x64b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x64c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x64d
-	.uaword	0x2838
+	.uaword	0x2852
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_LBISTCTRL1"
 	.byte	0x8
 	.uahalf	0x64e
-	.uaword	0x555a
+	.uaword	0x5574
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x651
-	.uaword	0x55c5
+	.uaword	0x55df
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x653
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x654
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x655
-	.uaword	0x28b7
+	.uaword	0x28d1
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_LBISTCTRL2"
 	.byte	0x8
 	.uahalf	0x656
-	.uaword	0x559d
+	.uaword	0x55b7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x659
-	.uaword	0x5608
+	.uaword	0x5622
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x65b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x65c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x65d
-	.uaword	0x2936
+	.uaword	0x2950
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_LCLCON"
 	.byte	0x8
 	.uahalf	0x65e
-	.uaword	0x55e0
+	.uaword	0x55fa
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x661
-	.uaword	0x5647
+	.uaword	0x5661
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x663
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x664
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x665
-	.uaword	0x29a6
+	.uaword	0x29c0
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_LCLTEST"
 	.byte	0x8
 	.uahalf	0x666
-	.uaword	0x561f
+	.uaword	0x5639
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x669
-	.uaword	0x5687
+	.uaword	0x56a1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x66b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x66c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x66d
-	.uaword	0x2a14
+	.uaword	0x2a2e
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_MANID"
 	.byte	0x8
 	.uahalf	0x66e
-	.uaword	0x565f
+	.uaword	0x5679
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x671
-	.uaword	0x56c5
+	.uaword	0x56df
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x673
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x674
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x675
-	.uaword	0x2aad
+	.uaword	0x2ac7
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_OMR"
 	.byte	0x8
 	.uahalf	0x676
-	.uaword	0x569d
+	.uaword	0x56b7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x679
-	.uaword	0x5701
+	.uaword	0x571b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x67b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x67c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x67d
-	.uaword	0x2c35
+	.uaword	0x2c4f
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_OSCCON"
 	.byte	0x8
 	.uahalf	0x67e
-	.uaword	0x56d9
+	.uaword	0x56f3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x681
-	.uaword	0x5740
+	.uaword	0x575a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x683
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x684
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x685
-	.uaword	0x2c9b
+	.uaword	0x2cb5
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_OUT"
 	.byte	0x8
 	.uahalf	0x686
-	.uaword	0x5718
+	.uaword	0x5732
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x689
-	.uaword	0x577c
+	.uaword	0x5796
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x68b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x68c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x68d
-	.uaword	0x2d99
+	.uaword	0x2db3
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_OVCCON"
 	.byte	0x8
 	.uahalf	0x68e
-	.uaword	0x5754
+	.uaword	0x576e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x691
-	.uaword	0x57bb
+	.uaword	0x57d5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x693
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x694
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x695
-	.uaword	0x2e1d
+	.uaword	0x2e37
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_OVCENABLE"
 	.byte	0x8
 	.uahalf	0x696
-	.uaword	0x5793
+	.uaword	0x57ad
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x699
-	.uaword	0x57fd
+	.uaword	0x5817
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x69b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x69c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x69d
-	.uaword	0x2e8e
+	.uaword	0x2ea8
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PDISC"
 	.byte	0x8
 	.uahalf	0x69e
-	.uaword	0x57d5
+	.uaword	0x57ef
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6a1
-	.uaword	0x583b
+	.uaword	0x5855
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6a3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6a4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6a5
-	.uaword	0x2f15
+	.uaword	0x2f2f
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PDR"
 	.byte	0x8
 	.uahalf	0x6a6
-	.uaword	0x5813
+	.uaword	0x582d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6a9
-	.uaword	0x5877
+	.uaword	0x5891
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6ab
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6ac
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6ad
-	.uaword	0x2fe3
+	.uaword	0x2ffd
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PDRR"
 	.byte	0x8
 	.uahalf	0x6ae
-	.uaword	0x584f
+	.uaword	0x5869
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6b1
-	.uaword	0x58b4
+	.uaword	0x58ce
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6b3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6b4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6b5
-	.uaword	0x311c
+	.uaword	0x3136
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PLLCON0"
 	.byte	0x8
 	.uahalf	0x6b6
-	.uaword	0x588c
+	.uaword	0x58a6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6b9
-	.uaword	0x58f4
+	.uaword	0x590e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6bb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6bc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6bd
-	.uaword	0x31bf
+	.uaword	0x31d9
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PLLCON1"
 	.byte	0x8
 	.uahalf	0x6be
-	.uaword	0x58cc
+	.uaword	0x58e6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6c1
-	.uaword	0x5934
+	.uaword	0x594e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6c3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6c4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6c5
-	.uaword	0x321f
+	.uaword	0x3239
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PLLCON2"
 	.byte	0x8
 	.uahalf	0x6c6
-	.uaword	0x590c
+	.uaword	0x5926
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6c9
-	.uaword	0x5974
+	.uaword	0x598e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6cb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6cc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6cd
-	.uaword	0x335d
+	.uaword	0x3377
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PLLERAYCON0"
 	.byte	0x8
 	.uahalf	0x6ce
-	.uaword	0x594c
+	.uaword	0x5966
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6d1
-	.uaword	0x59b8
+	.uaword	0x59d2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6d3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6d4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6d5
-	.uaword	0x3408
+	.uaword	0x3422
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PLLERAYCON1"
 	.byte	0x8
 	.uahalf	0x6d6
-	.uaword	0x5990
+	.uaword	0x59aa
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6d9
-	.uaword	0x59fc
+	.uaword	0x5a16
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6db
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6dc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6dd
-	.uaword	0x34d0
+	.uaword	0x34ea
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PLLERAYSTAT"
 	.byte	0x8
 	.uahalf	0x6de
-	.uaword	0x59d4
+	.uaword	0x59ee
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6e1
-	.uaword	0x5a40
+	.uaword	0x5a5a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6e3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6e4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6e5
-	.uaword	0x35b3
+	.uaword	0x35cd
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PLLSTAT"
 	.byte	0x8
 	.uahalf	0x6e6
-	.uaword	0x5a18
+	.uaword	0x5a32
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6e9
-	.uaword	0x5a80
+	.uaword	0x5a9a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6eb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6ec
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6ed
-	.uaword	0x3645
+	.uaword	0x365f
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PMCSR"
 	.byte	0x8
 	.uahalf	0x6ee
-	.uaword	0x5a58
+	.uaword	0x5a72
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6f1
-	.uaword	0x5abe
+	.uaword	0x5ad8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6f3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6f4
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6f5
-	.uaword	0x384d
+	.uaword	0x3867
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PMSWCR0"
 	.byte	0x8
 	.uahalf	0x6f6
-	.uaword	0x5a96
+	.uaword	0x5ab0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x6f9
-	.uaword	0x5afe
+	.uaword	0x5b18
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x6fb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x6fc
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x6fd
-	.uaword	0x3936
+	.uaword	0x3950
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PMSWCR1"
 	.byte	0x8
 	.uahalf	0x6fe
-	.uaword	0x5ad6
+	.uaword	0x5af0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x701
-	.uaword	0x5b3e
+	.uaword	0x5b58
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x703
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x704
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x705
-	.uaword	0x3aec
+	.uaword	0x3b06
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PMSWSTAT"
 	.byte	0x8
 	.uahalf	0x706
-	.uaword	0x5b16
+	.uaword	0x5b30
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x709
-	.uaword	0x5b7f
+	.uaword	0x5b99
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x70b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x70c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x70d
-	.uaword	0x3bf4
+	.uaword	0x3c0e
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_PMSWSTATCLR"
 	.byte	0x8
 	.uahalf	0x70e
-	.uaword	0x5b57
+	.uaword	0x5b71
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x711
-	.uaword	0x5bc3
+	.uaword	0x5bdd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x713
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x714
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x715
-	.uaword	0x3d8d
+	.uaword	0x3da7
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_RSTCON"
 	.byte	0x8
 	.uahalf	0x716
-	.uaword	0x5b9b
+	.uaword	0x5bb5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x719
-	.uaword	0x5c02
+	.uaword	0x5c1c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x71b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x71c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x71d
-	.uaword	0x3cbd
+	.uaword	0x3cd7
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_RSTCON2"
 	.byte	0x8
 	.uahalf	0x71e
-	.uaword	0x5bda
+	.uaword	0x5bf4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x721
-	.uaword	0x5c42
+	.uaword	0x5c5c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x723
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x724
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x725
-	.uaword	0x3f2d
+	.uaword	0x3f47
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_RSTSTAT"
 	.byte	0x8
 	.uahalf	0x726
-	.uaword	0x5c1a
+	.uaword	0x5c34
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x729
-	.uaword	0x5c82
+	.uaword	0x5c9c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x72b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x72c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x72d
-	.uaword	0x3f8a
+	.uaword	0x3fa4
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_SAFECON"
 	.byte	0x8
 	.uahalf	0x72e
-	.uaword	0x5c5a
+	.uaword	0x5c74
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x731
-	.uaword	0x5cc2
+	.uaword	0x5cdc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x733
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x734
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x735
-	.uaword	0x408c
+	.uaword	0x40a6
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_STSTAT"
 	.byte	0x8
 	.uahalf	0x736
-	.uaword	0x5c9a
+	.uaword	0x5cb4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x739
-	.uaword	0x5d01
+	.uaword	0x5d1b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x73b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x73c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x73d
-	.uaword	0x40fe
+	.uaword	0x4118
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_SWRSTCON"
 	.byte	0x8
 	.uahalf	0x73e
-	.uaword	0x5cd9
+	.uaword	0x5cf3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x741
-	.uaword	0x5d42
+	.uaword	0x5d5c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x743
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x744
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x745
-	.uaword	0x41c0
+	.uaword	0x41da
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_SYSCON"
 	.byte	0x8
 	.uahalf	0x746
-	.uaword	0x5d1a
+	.uaword	0x5d34
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x749
-	.uaword	0x5d81
+	.uaword	0x5d9b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x74b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x74c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x74d
-	.uaword	0x424d
+	.uaword	0x4267
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_TRAPCLR"
 	.byte	0x8
 	.uahalf	0x74e
-	.uaword	0x5d59
+	.uaword	0x5d73
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x751
-	.uaword	0x5dc1
+	.uaword	0x5ddb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x753
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x754
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x755
-	.uaword	0x42db
+	.uaword	0x42f5
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_TRAPDIS"
 	.byte	0x8
 	.uahalf	0x756
-	.uaword	0x5d99
+	.uaword	0x5db3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x759
-	.uaword	0x5e01
+	.uaword	0x5e1b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x75b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x75c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x75d
-	.uaword	0x4369
+	.uaword	0x4383
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_TRAPSET"
 	.byte	0x8
 	.uahalf	0x75e
-	.uaword	0x5dd9
+	.uaword	0x5df3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x761
-	.uaword	0x5e41
+	.uaword	0x5e5b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x763
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x764
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x765
-	.uaword	0x43f8
+	.uaword	0x4412
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_TRAPSTAT"
 	.byte	0x8
 	.uahalf	0x766
-	.uaword	0x5e19
+	.uaword	0x5e33
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x769
-	.uaword	0x5e82
+	.uaword	0x5e9c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x76b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x76c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x76d
-	.uaword	0x447d
+	.uaword	0x4497
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_WDTCPU_CON0"
 	.byte	0x8
 	.uahalf	0x76e
-	.uaword	0x5e5a
+	.uaword	0x5e74
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x771
-	.uaword	0x5ec6
+	.uaword	0x5ee0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x773
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x774
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x775
-	.uaword	0x4561
+	.uaword	0x457b
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_WDTCPU_CON1"
 	.byte	0x8
 	.uahalf	0x776
-	.uaword	0x5e9e
+	.uaword	0x5eb8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x779
-	.uaword	0x5f0a
+	.uaword	0x5f24
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x77b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x77c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x77d
-	.uaword	0x464f
+	.uaword	0x4669
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_WDTCPU_SR"
 	.byte	0x8
 	.uahalf	0x77e
-	.uaword	0x5ee2
+	.uaword	0x5efc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x781
-	.uaword	0x5f4c
+	.uaword	0x5f66
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x783
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x784
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x785
-	.uaword	0x46d3
+	.uaword	0x46ed
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_WDTS_CON0"
 	.byte	0x8
 	.uahalf	0x786
-	.uaword	0x5f24
+	.uaword	0x5f3e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x789
-	.uaword	0x5f8e
+	.uaword	0x5fa8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x78b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x78c
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x78d
-	.uaword	0x47c6
+	.uaword	0x47e0
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_WDTS_CON1"
 	.byte	0x8
 	.uahalf	0x78e
-	.uaword	0x5f66
+	.uaword	0x5f80
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x8
 	.uahalf	0x791
-	.uaword	0x5fd0
+	.uaword	0x5fea
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x8
 	.uahalf	0x793
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x8
 	.uahalf	0x794
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x8
 	.uahalf	0x795
-	.uaword	0x48b0
+	.uaword	0x48ca
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_WDTS_SR"
 	.byte	0x8
 	.uahalf	0x796
-	.uaword	0x5fa8
+	.uaword	0x5fc2
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTCPU"
 	.byte	0xc
 	.byte	0x8
 	.uahalf	0x7a1
-	.uaword	0x602a
+	.uaword	0x6044
 	.uleb128 0x14
 	.string	"CON0"
 	.byte	0x8
 	.uahalf	0x7a3
-	.uaword	0x5e82
+	.uaword	0x5e9c
 	.byte	0
 	.uleb128 0x14
 	.string	"CON1"
 	.byte	0x8
 	.uahalf	0x7a4
-	.uaword	0x5ec6
+	.uaword	0x5ee0
 	.byte	0x4
 	.uleb128 0x14
 	.string	"SR"
 	.byte	0x8
 	.uahalf	0x7a5
-	.uaword	0x5f0a
+	.uaword	0x5f24
 	.byte	0x8
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_WDTCPU"
 	.byte	0x8
 	.uahalf	0x7a6
-	.uaword	0x6041
+	.uaword	0x605b
 	.uleb128 0x8
-	.uaword	0x5fe8
+	.uaword	0x6002
 	.uleb128 0xe
 	.string	"_Ifx_SCU_WDTS"
 	.byte	0xc
 	.byte	0x8
 	.uahalf	0x7a9
-	.uaword	0x6086
+	.uaword	0x60a0
 	.uleb128 0x14
 	.string	"CON0"
 	.byte	0x8
 	.uahalf	0x7ab
-	.uaword	0x5f4c
+	.uaword	0x5f66
 	.byte	0
 	.uleb128 0x14
 	.string	"CON1"
 	.byte	0x8
 	.uahalf	0x7ac
-	.uaword	0x5f8e
+	.uaword	0x5fa8
 	.byte	0x4
 	.uleb128 0x14
 	.string	"SR"
 	.byte	0x8
 	.uahalf	0x7ad
-	.uaword	0x5fd0
+	.uaword	0x5fea
 	.byte	0x8
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU_WDTS"
 	.byte	0x8
 	.uahalf	0x7ae
-	.uaword	0x609b
+	.uaword	0x60b5
 	.uleb128 0x8
-	.uaword	0x6046
+	.uaword	0x6060
 	.uleb128 0x15
 	.string	"_Ifx_SCU"
 	.uahalf	0x400
 	.byte	0x8
 	.uahalf	0x7bb
-	.uaword	0x682d
+	.uaword	0x6847
 	.uleb128 0x16
 	.uaword	.LASF0
 	.byte	0x8
 	.uahalf	0x7bd
-	.uaword	0x2e5
+	.uaword	0x2ff
 	.byte	0
 	.uleb128 0x14
 	.string	"ID"
 	.byte	0x8
 	.uahalf	0x7be
-	.uaword	0x544f
+	.uaword	0x5469
 	.byte	0x8
 	.uleb128 0x14
 	.string	"reserved_C"
 	.byte	0x8
 	.uahalf	0x7bf
-	.uaword	0x2f5
+	.uaword	0x30f
 	.byte	0xc
 	.uleb128 0x14
 	.string	"OSCCON"
 	.byte	0x8
 	.uahalf	0x7c0
-	.uaword	0x5701
+	.uaword	0x571b
 	.byte	0x10
 	.uleb128 0x14
 	.string	"PLLSTAT"
 	.byte	0x8
 	.uahalf	0x7c1
-	.uaword	0x5a40
+	.uaword	0x5a5a
 	.byte	0x14
 	.uleb128 0x14
 	.string	"PLLCON0"
 	.byte	0x8
 	.uahalf	0x7c2
-	.uaword	0x58b4
+	.uaword	0x58ce
 	.byte	0x18
 	.uleb128 0x14
 	.string	"PLLCON1"
 	.byte	0x8
 	.uahalf	0x7c3
-	.uaword	0x58f4
+	.uaword	0x590e
 	.byte	0x1c
 	.uleb128 0x14
 	.string	"PLLCON2"
 	.byte	0x8
 	.uahalf	0x7c4
-	.uaword	0x5934
+	.uaword	0x594e
 	.byte	0x20
 	.uleb128 0x14
 	.string	"PLLERAYSTAT"
 	.byte	0x8
 	.uahalf	0x7c5
-	.uaword	0x59fc
+	.uaword	0x5a16
 	.byte	0x24
 	.uleb128 0x14
 	.string	"PLLERAYCON0"
 	.byte	0x8
 	.uahalf	0x7c6
-	.uaword	0x5974
+	.uaword	0x598e
 	.byte	0x28
 	.uleb128 0x14
 	.string	"PLLERAYCON1"
 	.byte	0x8
 	.uahalf	0x7c7
-	.uaword	0x59b8
+	.uaword	0x59d2
 	.byte	0x2c
 	.uleb128 0x14
 	.string	"CCUCON0"
 	.byte	0x8
 	.uahalf	0x7c8
-	.uaword	0x49b3
+	.uaword	0x49cd
 	.byte	0x30
 	.uleb128 0x14
 	.string	"CCUCON1"
 	.byte	0x8
 	.uahalf	0x7c9
-	.uaword	0x49f3
+	.uaword	0x4a0d
 	.byte	0x34
 	.uleb128 0x14
 	.string	"FDR"
 	.byte	0x8
 	.uahalf	0x7ca
-	.uaword	0x53d7
+	.uaword	0x53f1
 	.byte	0x38
 	.uleb128 0x14
 	.string	"EXTCON"
 	.byte	0x8
 	.uahalf	0x7cb
-	.uaword	0x5398
+	.uaword	0x53b2
 	.byte	0x3c
 	.uleb128 0x14
 	.string	"CCUCON2"
 	.byte	0x8
 	.uahalf	0x7cc
-	.uaword	0x4a33
+	.uaword	0x4a4d
 	.byte	0x40
 	.uleb128 0x14
 	.string	"CCUCON3"
 	.byte	0x8
 	.uahalf	0x7cd
-	.uaword	0x4a73
+	.uaword	0x4a8d
 	.byte	0x44
 	.uleb128 0x14
 	.string	"CCUCON4"
 	.byte	0x8
 	.uahalf	0x7ce
-	.uaword	0x4ab3
+	.uaword	0x4acd
 	.byte	0x48
 	.uleb128 0x14
 	.string	"CCUCON5"
 	.byte	0x8
 	.uahalf	0x7cf
-	.uaword	0x4af3
+	.uaword	0x4b0d
 	.byte	0x4c
 	.uleb128 0x14
 	.string	"RSTSTAT"
 	.byte	0x8
 	.uahalf	0x7d0
-	.uaword	0x5c42
+	.uaword	0x5c5c
 	.byte	0x50
 	.uleb128 0x14
 	.string	"reserved_54"
 	.byte	0x8
 	.uahalf	0x7d1
-	.uaword	0x2f5
+	.uaword	0x30f
 	.byte	0x54
 	.uleb128 0x14
 	.string	"RSTCON"
 	.byte	0x8
 	.uahalf	0x7d2
-	.uaword	0x5bc3
+	.uaword	0x5bdd
 	.byte	0x58
 	.uleb128 0x14
 	.string	"ARSTDIS"
 	.byte	0x8
 	.uahalf	0x7d3
-	.uaword	0x4973
+	.uaword	0x498d
 	.byte	0x5c
 	.uleb128 0x14
 	.string	"SWRSTCON"
 	.byte	0x8
 	.uahalf	0x7d4
-	.uaword	0x5d01
+	.uaword	0x5d1b
 	.byte	0x60
 	.uleb128 0x14
 	.string	"RSTCON2"
 	.byte	0x8
 	.uahalf	0x7d5
-	.uaword	0x5c02
+	.uaword	0x5c1c
 	.byte	0x64
 	.uleb128 0x14
 	.string	"reserved_68"
 	.byte	0x8
 	.uahalf	0x7d6
-	.uaword	0x2f5
+	.uaword	0x30f
 	.byte	0x68
 	.uleb128 0x14
 	.string	"EVRRSTCON"
 	.byte	0x8
 	.uahalf	0x7d7
-	.uaword	0x4ff1
+	.uaword	0x500b
 	.byte	0x6c
 	.uleb128 0x14
 	.string	"ESRCFG"
 	.byte	0x8
 	.uahalf	0x7d8
-	.uaword	0x682d
+	.uaword	0x6847
 	.byte	0x70
 	.uleb128 0x14
 	.string	"ESROCFG"
 	.byte	0x8
 	.uahalf	0x7d9
-	.uaword	0x4e26
+	.uaword	0x4e40
 	.byte	0x78
 	.uleb128 0x14
 	.string	"SYSCON"
 	.byte	0x8
 	.uahalf	0x7da
-	.uaword	0x5d42
+	.uaword	0x5d5c
 	.byte	0x7c
 	.uleb128 0x14
 	.string	"CCUCON6"
 	.byte	0x8
 	.uahalf	0x7db
-	.uaword	0x4b33
+	.uaword	0x4b4d
 	.byte	0x80
 	.uleb128 0x14
 	.string	"CCUCON7"
 	.byte	0x8
 	.uahalf	0x7dc
-	.uaword	0x4b73
+	.uaword	0x4b8d
 	.byte	0x84
 	.uleb128 0x14
 	.string	"CCUCON8"
 	.byte	0x8
 	.uahalf	0x7dd
-	.uaword	0x4bb3
+	.uaword	0x4bcd
 	.byte	0x88
 	.uleb128 0x14
 	.string	"CCUCON9"
 	.byte	0x8
 	.uahalf	0x7de
-	.uaword	0x4bf3
+	.uaword	0x4c0d
 	.byte	0x8c
 	.uleb128 0x14
 	.string	"reserved_90"
 	.byte	0x8
 	.uahalf	0x7df
-	.uaword	0x315
+	.uaword	0x32f
 	.byte	0x90
 	.uleb128 0x14
 	.string	"PDR"
 	.byte	0x8
 	.uahalf	0x7e0
-	.uaword	0x583b
+	.uaword	0x5855
 	.byte	0x9c
 	.uleb128 0x14
 	.string	"IOCR"
 	.byte	0x8
 	.uahalf	0x7e1
-	.uaword	0x5502
+	.uaword	0x551c
 	.byte	0xa0
 	.uleb128 0x14
 	.string	"OUT"
 	.byte	0x8
 	.uahalf	0x7e2
-	.uaword	0x5740
+	.uaword	0x575a
 	.byte	0xa4
 	.uleb128 0x14
 	.string	"OMR"
 	.byte	0x8
 	.uahalf	0x7e3
-	.uaword	0x56c5
+	.uaword	0x56df
 	.byte	0xa8
 	.uleb128 0x14
 	.string	"IN"
 	.byte	0x8
 	.uahalf	0x7e4
-	.uaword	0x54c7
+	.uaword	0x54e1
 	.byte	0xac
 	.uleb128 0x14
 	.string	"EVRSTAT"
 	.byte	0x8
 	.uahalf	0x7e5
-	.uaword	0x52d7
+	.uaword	0x52f1
 	.byte	0xb0
 	.uleb128 0x14
 	.string	"EVRDVSTAT"
 	.byte	0x8
 	.uahalf	0x7e6
-	.uaword	0x4f2b
+	.uaword	0x4f45
 	.byte	0xb4
 	.uleb128 0x14
 	.string	"EVR13CON"
 	.byte	0x8
 	.uahalf	0x7e7
-	.uaword	0x4e66
+	.uaword	0x4e80
 	.byte	0xb8
 	.uleb128 0x14
 	.string	"EVR33CON"
 	.byte	0x8
 	.uahalf	0x7e8
-	.uaword	0x4ea7
+	.uaword	0x4ec1
 	.byte	0xbc
 	.uleb128 0x14
 	.string	"STSTAT"
 	.byte	0x8
 	.uahalf	0x7e9
-	.uaword	0x5cc2
+	.uaword	0x5cdc
 	.byte	0xc0
 	.uleb128 0x14
 	.string	"reserved_C4"
 	.byte	0x8
 	.uahalf	0x7ea
-	.uaword	0x2f5
+	.uaword	0x30f
 	.byte	0xc4
 	.uleb128 0x14
 	.string	"PMSWCR0"
 	.byte	0x8
 	.uahalf	0x7eb
-	.uaword	0x5abe
+	.uaword	0x5ad8
 	.byte	0xc8
 	.uleb128 0x14
 	.string	"PMSWSTAT"
 	.byte	0x8
 	.uahalf	0x7ec
-	.uaword	0x5b3e
+	.uaword	0x5b58
 	.byte	0xcc
 	.uleb128 0x14
 	.string	"PMSWSTATCLR"
 	.byte	0x8
 	.uahalf	0x7ed
-	.uaword	0x5b7f
+	.uaword	0x5b99
 	.byte	0xd0
 	.uleb128 0x14
 	.string	"PMCSR"
 	.byte	0x8
 	.uahalf	0x7ee
-	.uaword	0x683d
+	.uaword	0x6857
 	.byte	0xd4
 	.uleb128 0x14
 	.string	"DTSSTAT"
 	.byte	0x8
 	.uahalf	0x7ef
-	.uaword	0x4cf0
+	.uaword	0x4d0a
 	.byte	0xe0
 	.uleb128 0x14
 	.string	"DTSCON"
 	.byte	0x8
 	.uahalf	0x7f0
-	.uaword	0x4c72
+	.uaword	0x4c8c
 	.byte	0xe4
 	.uleb128 0x14
 	.string	"PMSWCR1"
 	.byte	0x8
 	.uahalf	0x7f1
-	.uaword	0x5afe
+	.uaword	0x5b18
 	.byte	0xe8
 	.uleb128 0x14
 	.string	"reserved_EC"
 	.byte	0x8
 	.uahalf	0x7f2
-	.uaword	0x2f5
+	.uaword	0x30f
 	.byte	0xec
 	.uleb128 0x14
 	.string	"WDTS"
 	.byte	0x8
 	.uahalf	0x7f3
-	.uaword	0x6086
+	.uaword	0x60a0
 	.byte	0xf0
 	.uleb128 0x14
 	.string	"EMSR"
 	.byte	0x8
 	.uahalf	0x7f4
-	.uaword	0x4daa
+	.uaword	0x4dc4
 	.byte	0xfc
 	.uleb128 0x17
 	.string	"WDTCPU"
 	.byte	0x8
 	.uahalf	0x7f5
-	.uaword	0x685d
+	.uaword	0x6877
 	.uahalf	0x100
 	.uleb128 0x17
 	.string	"TRAPSTAT"
 	.byte	0x8
 	.uahalf	0x7f6
-	.uaword	0x5e41
+	.uaword	0x5e5b
 	.uahalf	0x124
 	.uleb128 0x17
 	.string	"TRAPSET"
 	.byte	0x8
 	.uahalf	0x7f7
-	.uaword	0x5e01
+	.uaword	0x5e1b
 	.uahalf	0x128
 	.uleb128 0x17
 	.string	"TRAPCLR"
 	.byte	0x8
 	.uahalf	0x7f8
-	.uaword	0x5d81
+	.uaword	0x5d9b
 	.uahalf	0x12c
 	.uleb128 0x17
 	.string	"TRAPDIS"
 	.byte	0x8
 	.uahalf	0x7f9
-	.uaword	0x5dc1
+	.uaword	0x5ddb
 	.uahalf	0x130
 	.uleb128 0x17
 	.string	"reserved_134"
 	.byte	0x8
 	.uahalf	0x7fa
-	.uaword	0x2f5
+	.uaword	0x30f
 	.uahalf	0x134
 	.uleb128 0x17
 	.string	"LCLCON1"
 	.byte	0x8
 	.uahalf	0x7fb
-	.uaword	0x5608
+	.uaword	0x5622
 	.uahalf	0x138
 	.uleb128 0x17
 	.string	"LCLTEST"
 	.byte	0x8
 	.uahalf	0x7fc
-	.uaword	0x5647
+	.uaword	0x5661
 	.uahalf	0x13c
 	.uleb128 0x17
 	.string	"CHIPID"
 	.byte	0x8
 	.uahalf	0x7fd
-	.uaword	0x4c33
+	.uaword	0x4c4d
 	.uahalf	0x140
 	.uleb128 0x17
 	.string	"MANID"
 	.byte	0x8
 	.uahalf	0x7fe
-	.uaword	0x5687
+	.uaword	0x56a1
 	.uahalf	0x144
 	.uleb128 0x17
 	.string	"reserved_148"
 	.byte	0x8
 	.uahalf	0x7ff
-	.uaword	0x2e5
+	.uaword	0x2ff
 	.uahalf	0x148
 	.uleb128 0x17
 	.string	"SAFECON"
 	.byte	0x8
 	.uahalf	0x800
-	.uaword	0x5c82
+	.uaword	0x5c9c
 	.uahalf	0x150
 	.uleb128 0x17
 	.string	"reserved_154"
 	.byte	0x8
 	.uahalf	0x801
-	.uaword	0x325
+	.uaword	0x33f
 	.uahalf	0x154
 	.uleb128 0x17
 	.string	"LBISTCTRL0"
 	.byte	0x8
 	.uahalf	0x802
-	.uaword	0x553f
+	.uaword	0x5559
 	.uahalf	0x164
 	.uleb128 0x17
 	.string	"LBISTCTRL1"
 	.byte	0x8
 	.uahalf	0x803
-	.uaword	0x5582
+	.uaword	0x559c
 	.uahalf	0x168
 	.uleb128 0x17
 	.string	"LBISTCTRL2"
 	.byte	0x8
 	.uahalf	0x804
-	.uaword	0x55c5
+	.uaword	0x55df
 	.uahalf	0x16c
 	.uleb128 0x17
 	.string	"reserved_170"
 	.byte	0x8
 	.uahalf	0x805
-	.uaword	0x305
+	.uaword	0x31f
 	.uahalf	0x170
 	.uleb128 0x17
 	.string	"PDISC"
 	.byte	0x8
 	.uahalf	0x806
-	.uaword	0x57fd
+	.uaword	0x5817
 	.uahalf	0x18c
 	.uleb128 0x17
 	.string	"reserved_190"
 	.byte	0x8
 	.uahalf	0x807
-	.uaword	0x2e5
+	.uaword	0x2ff
 	.uahalf	0x190
 	.uleb128 0x17
 	.string	"EVRTRIM"
 	.byte	0x8
 	.uahalf	0x808
-	.uaword	0x5317
+	.uaword	0x5331
 	.uahalf	0x198
 	.uleb128 0x17
 	.string	"EVRADCSTAT"
 	.byte	0x8
 	.uahalf	0x809
-	.uaword	0x4ee8
+	.uaword	0x4f02
 	.uahalf	0x19c
 	.uleb128 0x17
 	.string	"EVRUVMON"
 	.byte	0x8
 	.uahalf	0x80a
-	.uaword	0x5357
+	.uaword	0x5371
 	.uahalf	0x1a0
 	.uleb128 0x17
 	.string	"EVROVMON"
 	.byte	0x8
 	.uahalf	0x80b
-	.uaword	0x4fb0
+	.uaword	0x4fca
 	.uahalf	0x1a4
 	.uleb128 0x17
 	.string	"EVRMONCTRL"
 	.byte	0x8
 	.uahalf	0x80c
-	.uaword	0x4f6d
+	.uaword	0x4f87
 	.uahalf	0x1a8
 	.uleb128 0x17
 	.string	"reserved_1AC"
 	.byte	0x8
 	.uahalf	0x80d
-	.uaword	0x2f5
+	.uaword	0x30f
 	.uahalf	0x1ac
 	.uleb128 0x17
 	.string	"EVRSDCTRL1"
 	.byte	0x8
 	.uahalf	0x80e
-	.uaword	0x51cb
+	.uaword	0x51e5
 	.uahalf	0x1b0
 	.uleb128 0x17
 	.string	"EVRSDCTRL2"
 	.byte	0x8
 	.uahalf	0x80f
-	.uaword	0x520e
+	.uaword	0x5228
 	.uahalf	0x1b4
 	.uleb128 0x17
 	.string	"EVRSDCTRL3"
 	.byte	0x8
 	.uahalf	0x810
-	.uaword	0x5251
+	.uaword	0x526b
 	.uahalf	0x1b8
 	.uleb128 0x17
 	.string	"EVRSDCTRL4"
 	.byte	0x8
 	.uahalf	0x811
-	.uaword	0x5294
+	.uaword	0x52ae
 	.uahalf	0x1bc
 	.uleb128 0x17
 	.string	"EVRSDCOEFF1"
 	.byte	0x8
 	.uahalf	0x812
-	.uaword	0x5033
+	.uaword	0x504d
 	.uahalf	0x1c0
 	.uleb128 0x17
 	.string	"EVRSDCOEFF2"
 	.byte	0x8
 	.uahalf	0x813
-	.uaword	0x5077
+	.uaword	0x5091
 	.uahalf	0x1c4
 	.uleb128 0x17
 	.string	"EVRSDCOEFF3"
 	.byte	0x8
 	.uahalf	0x814
-	.uaword	0x50bb
+	.uaword	0x50d5
 	.uahalf	0x1c8
 	.uleb128 0x17
 	.string	"EVRSDCOEFF4"
 	.byte	0x8
 	.uahalf	0x815
-	.uaword	0x50ff
+	.uaword	0x5119
 	.uahalf	0x1cc
 	.uleb128 0x17
 	.string	"EVRSDCOEFF5"
 	.byte	0x8
 	.uahalf	0x816
-	.uaword	0x5143
+	.uaword	0x515d
 	.uahalf	0x1d0
 	.uleb128 0x17
 	.string	"EVRSDCOEFF6"
 	.byte	0x8
 	.uahalf	0x817
-	.uaword	0x5187
+	.uaword	0x51a1
 	.uahalf	0x1d4
 	.uleb128 0x17
 	.string	"reserved_1D8"
 	.byte	0x8
 	.uahalf	0x818
-	.uaword	0x2e5
+	.uaword	0x2ff
 	.uahalf	0x1d8
 	.uleb128 0x17
 	.string	"OVCENABLE"
 	.byte	0x8
 	.uahalf	0x819
-	.uaword	0x57bb
+	.uaword	0x57d5
 	.uahalf	0x1e0
 	.uleb128 0x17
 	.string	"OVCCON"
 	.byte	0x8
 	.uahalf	0x81a
-	.uaword	0x577c
+	.uaword	0x5796
 	.uahalf	0x1e4
 	.uleb128 0x17
 	.string	"reserved_1E8"
 	.byte	0x8
 	.uahalf	0x81b
-	.uaword	0x335
+	.uaword	0x34f
 	.uahalf	0x1e8
 	.uleb128 0x17
 	.string	"EICR"
 	.byte	0x8
 	.uahalf	0x81c
-	.uaword	0x6862
+	.uaword	0x687c
 	.uahalf	0x210
 	.uleb128 0x17
 	.string	"EIFR"
 	.byte	0x8
 	.uahalf	0x81d
-	.uaword	0x4d6d
+	.uaword	0x4d87
 	.uahalf	0x220
 	.uleb128 0x17
 	.string	"FMR"
 	.byte	0x8
 	.uahalf	0x81e
-	.uaword	0x5413
+	.uaword	0x542d
 	.uahalf	0x224
 	.uleb128 0x17
 	.string	"PDRR"
 	.byte	0x8
 	.uahalf	0x81f
-	.uaword	0x5877
+	.uaword	0x5891
 	.uahalf	0x228
 	.uleb128 0x17
 	.string	"IGCR"
 	.byte	0x8
 	.uahalf	0x820
-	.uaword	0x6872
+	.uaword	0x688c
 	.uahalf	0x22c
 	.uleb128 0x17
 	.string	"reserved_23C"
 	.byte	0x8
 	.uahalf	0x821
-	.uaword	0x2f5
+	.uaword	0x30f
 	.uahalf	0x23c
 	.uleb128 0x17
 	.string	"DTSLIM"
 	.byte	0x8
 	.uahalf	0x822
-	.uaword	0x4cb1
+	.uaword	0x4ccb
 	.uahalf	0x240
 	.uleb128 0x17
 	.string	"reserved_244"
 	.byte	0x8
 	.uahalf	0x823
-	.uaword	0x6882
+	.uaword	0x689c
 	.uahalf	0x244
 	.uleb128 0x17
 	.string	"ACCEN1"
 	.byte	0x8
 	.uahalf	0x824
-	.uaword	0x4934
+	.uaword	0x494e
 	.uahalf	0x3f8
 	.uleb128 0x17
 	.string	"ACCEN0"
 	.byte	0x8
 	.uahalf	0x825
-	.uaword	0x48f5
+	.uaword	0x490f
 	.uahalf	0x3fc
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x4de7
-	.uaword	0x683d
+	.uaword	0x4e01
+	.uaword	0x6857
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x1
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x5a80
-	.uaword	0x684d
+	.uaword	0x5a9a
+	.uaword	0x6867
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x2
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x602a
-	.uaword	0x685d
+	.uaword	0x6044
+	.uaword	0x6877
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x2
 	.byte	0
 	.uleb128 0x8
-	.uaword	0x684d
+	.uaword	0x6867
 	.uleb128 0x9
-	.uaword	0x4d30
-	.uaword	0x6872
+	.uaword	0x4d4a
+	.uaword	0x688c
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x3
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x548a
-	.uaword	0x6882
+	.uaword	0x54a4
+	.uaword	0x689c
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x3
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x6893
+	.uaword	0x1de
+	.uaword	0x68ad
 	.uleb128 0x18
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.uahalf	0x1b3
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_SCU"
 	.byte	0x8
 	.uahalf	0x826
-	.uaword	0x68a3
+	.uaword	0x68bd
 	.uleb128 0x8
-	.uaword	0x60a0
+	.uaword	0x60ba
 	.uleb128 0xb
 	.string	"_Ifx_MTU_MEMSTAT0_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0x82
-	.uaword	0x6ad9
+	.uaword	0x6af3
 	.uleb128 0xc
 	.string	"CPU2DSAIU"
 	.byte	0x9
 	.byte	0x84
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12968,7 +12968,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF22
 	.byte	0x9
 	.byte	0x85
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12977,7 +12977,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU2DTAIU"
 	.byte	0x9
 	.byte	0x86
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12986,7 +12986,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU2PSAIU"
 	.byte	0x9
 	.byte	0x87
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12995,7 +12995,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x9
 	.byte	0x88
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -13004,7 +13004,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU2PTAIU"
 	.byte	0x9
 	.byte	0x89
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -13013,7 +13013,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1DSAIU"
 	.byte	0x9
 	.byte	0x8a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -13022,7 +13022,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF13
 	.byte	0x9
 	.byte	0x8b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -13031,7 +13031,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1DTAIU"
 	.byte	0x9
 	.byte	0x8c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -13040,7 +13040,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1PSAIU"
 	.byte	0x9
 	.byte	0x8d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -13049,7 +13049,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF11
 	.byte	0x9
 	.byte	0x8e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -13058,7 +13058,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1PTAIU"
 	.byte	0x9
 	.byte	0x8f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -13067,7 +13067,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF24
 	.byte	0x9
 	.byte	0x90
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -13076,7 +13076,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0DSAIU"
 	.byte	0x9
 	.byte	0x91
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -13085,7 +13085,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF14
 	.byte	0x9
 	.byte	0x92
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -13094,7 +13094,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0PSAIU"
 	.byte	0x9
 	.byte	0x93
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -13103,7 +13103,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0PTAIU"
 	.byte	0x9
 	.byte	0x94
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -13112,7 +13112,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF16
 	.byte	0x9
 	.byte	0x95
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -13121,7 +13121,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0DTAIU"
 	.byte	0x9
 	.byte	0x96
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -13130,7 +13130,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1DS2AIU"
 	.byte	0x9
 	.byte	0x97
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -13139,7 +13139,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU2DS2AIU"
 	.byte	0x9
 	.byte	0x98
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -13148,7 +13148,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF2
 	.byte	0x9
 	.byte	0x99
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -13157,7 +13157,7 @@ IfxMtu_writeSramAddress:
 	.string	"HSMCAIU"
 	.byte	0x9
 	.byte	0x9a
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -13166,7 +13166,7 @@ IfxMtu_writeSramAddress:
 	.string	"HSMTAIU"
 	.byte	0x9
 	.byte	0x9b
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -13175,7 +13175,7 @@ IfxMtu_writeSramAddress:
 	.string	"HSMRAIU"
 	.byte	0x9
 	.byte	0x9c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -13184,7 +13184,7 @@ IfxMtu_writeSramAddress:
 	.string	"FSI0AIU"
 	.byte	0x9
 	.byte	0x9d
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -13193,7 +13193,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0DS2AIU"
 	.byte	0x9
 	.byte	0x9e
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -13202,7 +13202,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF17
 	.byte	0x9
 	.byte	0x9f
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -13212,18 +13212,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MTU_MEMSTAT0_Bits"
 	.byte	0x9
 	.byte	0xa0
-	.uaword	0x68a8
+	.uaword	0x68c2
 	.uleb128 0xb
 	.string	"_Ifx_MTU_MEMTEST0_Bits"
 	.byte	0x4
 	.byte	0x9
 	.byte	0xaf
-	.uaword	0x6d40
+	.uaword	0x6d5a
 	.uleb128 0xc
 	.string	"CPU2DSEN"
 	.byte	0x9
 	.byte	0xb1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -13232,7 +13232,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF22
 	.byte	0x9
 	.byte	0xb2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -13241,7 +13241,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU2DTEN"
 	.byte	0x9
 	.byte	0xb3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -13250,7 +13250,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU2PSEN"
 	.byte	0x9
 	.byte	0xb4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -13259,7 +13259,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0x9
 	.byte	0xb5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -13268,7 +13268,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU2PTEN"
 	.byte	0x9
 	.byte	0xb6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -13277,7 +13277,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1DSEN"
 	.byte	0x9
 	.byte	0xb7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -13286,7 +13286,7 @@ IfxMtu_writeSramAddress:
 	.string	"Res"
 	.byte	0x9
 	.byte	0xb8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -13295,7 +13295,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1DTEN"
 	.byte	0x9
 	.byte	0xb9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -13304,7 +13304,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1PSEN"
 	.byte	0x9
 	.byte	0xba
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -13313,7 +13313,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF11
 	.byte	0x9
 	.byte	0xbb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -13322,7 +13322,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1PTEN"
 	.byte	0x9
 	.byte	0xbc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -13331,7 +13331,7 @@ IfxMtu_writeSramAddress:
 	.string	"LMUEN"
 	.byte	0x9
 	.byte	0xbd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13340,7 +13340,7 @@ IfxMtu_writeSramAddress:
 	.string	"MMCDSEN"
 	.byte	0x9
 	.byte	0xbe
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -13349,7 +13349,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0DSEN"
 	.byte	0x9
 	.byte	0xbf
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -13358,7 +13358,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF14
 	.byte	0x9
 	.byte	0xc0
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -13367,7 +13367,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0PSEN"
 	.byte	0x9
 	.byte	0xc1
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -13376,7 +13376,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0PTEN"
 	.byte	0x9
 	.byte	0xc2
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -13385,7 +13385,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF16
 	.byte	0x9
 	.byte	0xc3
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -13394,7 +13394,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0DTEN"
 	.byte	0x9
 	.byte	0xc4
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -13403,7 +13403,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU1DS2EN"
 	.byte	0x9
 	.byte	0xc5
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -13412,7 +13412,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU2DS2EN"
 	.byte	0x9
 	.byte	0xc6
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -13421,7 +13421,7 @@ IfxMtu_writeSramAddress:
 	.string	"ETHEN"
 	.byte	0x9
 	.byte	0xc7
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -13430,7 +13430,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF15
 	.byte	0x9
 	.byte	0xc8
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x3
 	.byte	0x6
@@ -13439,7 +13439,7 @@ IfxMtu_writeSramAddress:
 	.string	"FSI0EN"
 	.byte	0x9
 	.byte	0xc9
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -13448,7 +13448,7 @@ IfxMtu_writeSramAddress:
 	.string	"CPU0DS2EN"
 	.byte	0x9
 	.byte	0xca
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -13457,7 +13457,7 @@ IfxMtu_writeSramAddress:
 	.string	"GTMFEN"
 	.byte	0x9
 	.byte	0xcb
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -13466,7 +13466,7 @@ IfxMtu_writeSramAddress:
 	.string	"GTMM0EN"
 	.byte	0x9
 	.byte	0xcc
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -13475,7 +13475,7 @@ IfxMtu_writeSramAddress:
 	.string	"GTMM1EN"
 	.byte	0x9
 	.byte	0xcd
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -13484,7 +13484,7 @@ IfxMtu_writeSramAddress:
 	.string	"GTM1AEN"
 	.byte	0x9
 	.byte	0xce
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -13494,70 +13494,70 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MTU_MEMTEST0_Bits"
 	.byte	0x9
 	.byte	0xcf
-	.uaword	0x6af6
+	.uaword	0x6b10
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x142
-	.uaword	0x6d85
+	.uaword	0x6d9f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x144
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x145
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x146
-	.uaword	0x6ad9
+	.uaword	0x6af3
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_MTU_MEMSTAT0"
 	.byte	0x9
 	.uahalf	0x147
-	.uaword	0x6d5d
+	.uaword	0x6d77
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x15a
-	.uaword	0x6dc6
+	.uaword	0x6de0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x9
 	.uahalf	0x15c
-	.uaword	0x2c9
+	.uaword	0x2e3
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x9
 	.uahalf	0x15d
-	.uaword	0x180
+	.uaword	0x19a
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x9
 	.uahalf	0x15e
-	.uaword	0x6d40
+	.uaword	0x6d5a
 	.byte	0
 	.uleb128 0x11
 	.string	"Ifx_MTU_MEMTEST0"
 	.byte	0x9
 	.uahalf	0x15f
-	.uaword	0x6d9e
+	.uaword	0x6db8
 	.uleb128 0xb
 	.string	"_Ifx_MC_CONFIG0_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x2d
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.uleb128 0xc
 	.string	"ACCSTYPE"
 	.byte	0xa
 	.byte	0x2f
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x8
 	.byte	0x8
@@ -13566,7 +13566,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF6
 	.byte	0xa
 	.byte	0x30
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x4
 	.byte	0x4
@@ -13575,30 +13575,30 @@ IfxMtu_writeSramAddress:
 	.string	"NUMACCS"
 	.byte	0xa
 	.byte	0x31
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x4
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x8
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x3
 	.string	"Ifx_MC_CONFIG0_Bits"
 	.byte	0xa
 	.byte	0x32
-	.uaword	0x6ddf
+	.uaword	0x6df9
 	.uleb128 0xb
 	.string	"_Ifx_MC_CONFIG1_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x35
-	.uaword	0x6eaa
+	.uaword	0x6ec4
 	.uleb128 0xc
 	.string	"ACCSPAT"
 	.byte	0xa
 	.byte	0x37
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x8
 	.byte	0x8
@@ -13607,7 +13607,7 @@ IfxMtu_writeSramAddress:
 	.string	"SELFASTB"
 	.byte	0xa
 	.byte	0x38
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x4
 	.byte	0x4
@@ -13616,7 +13616,7 @@ IfxMtu_writeSramAddress:
 	.string	"AG_MOD"
 	.byte	0xa
 	.byte	0x39
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x4
 	.byte	0
@@ -13626,18 +13626,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_CONFIG1_Bits"
 	.byte	0xa
 	.byte	0x3a
-	.uaword	0x6e53
+	.uaword	0x6e6d
 	.uleb128 0xb
 	.string	"_Ifx_MC_ECCD_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x3d
-	.uaword	0x6f9e
+	.uaword	0x6fb8
 	.uleb128 0xc
 	.string	"SERR"
 	.byte	0xa
 	.byte	0x3f
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13646,7 +13646,7 @@ IfxMtu_writeSramAddress:
 	.string	"CERR"
 	.byte	0xa
 	.byte	0x40
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13655,7 +13655,7 @@ IfxMtu_writeSramAddress:
 	.string	"UERR"
 	.byte	0xa
 	.byte	0x41
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -13664,7 +13664,7 @@ IfxMtu_writeSramAddress:
 	.string	"AERR"
 	.byte	0xa
 	.byte	0x42
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -13673,7 +13673,7 @@ IfxMtu_writeSramAddress:
 	.string	"TRC"
 	.byte	0xa
 	.byte	0x43
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13682,7 +13682,7 @@ IfxMtu_writeSramAddress:
 	.string	"VAL"
 	.byte	0xa
 	.byte	0x44
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x5
 	.byte	0x6
@@ -13691,7 +13691,7 @@ IfxMtu_writeSramAddress:
 	.string	"RARVAL"
 	.byte	0xa
 	.byte	0x45
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x5
@@ -13700,7 +13700,7 @@ IfxMtu_writeSramAddress:
 	.string	"CENE"
 	.byte	0xa
 	.byte	0x46
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x4
@@ -13709,7 +13709,7 @@ IfxMtu_writeSramAddress:
 	.string	"UENE"
 	.byte	0xa
 	.byte	0x47
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x3
@@ -13718,7 +13718,7 @@ IfxMtu_writeSramAddress:
 	.string	"AENE"
 	.byte	0xa
 	.byte	0x48
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x2
@@ -13727,7 +13727,7 @@ IfxMtu_writeSramAddress:
 	.string	"ECE"
 	.byte	0xa
 	.byte	0x49
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x1
@@ -13736,7 +13736,7 @@ IfxMtu_writeSramAddress:
 	.string	"EOV"
 	.byte	0xa
 	.byte	0x4a
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0
@@ -13746,18 +13746,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_ECCD_Bits"
 	.byte	0xa
 	.byte	0x4b
-	.uaword	0x6ec5
+	.uaword	0x6edf
 	.uleb128 0xb
 	.string	"_Ifx_MC_ECCS_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x4e
-	.uaword	0x7076
+	.uaword	0x7090
 	.uleb128 0xc
 	.string	"CENE"
 	.byte	0xa
 	.byte	0x50
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13766,7 +13766,7 @@ IfxMtu_writeSramAddress:
 	.string	"UENE"
 	.byte	0xa
 	.byte	0x51
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13775,7 +13775,7 @@ IfxMtu_writeSramAddress:
 	.string	"AENE"
 	.byte	0xa
 	.byte	0x52
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -13784,7 +13784,7 @@ IfxMtu_writeSramAddress:
 	.string	"ECE"
 	.byte	0xa
 	.byte	0x53
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -13793,7 +13793,7 @@ IfxMtu_writeSramAddress:
 	.string	"TRE"
 	.byte	0xa
 	.byte	0x54
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13802,7 +13802,7 @@ IfxMtu_writeSramAddress:
 	.string	"BFLE"
 	.byte	0xa
 	.byte	0x55
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -13811,7 +13811,7 @@ IfxMtu_writeSramAddress:
 	.string	"SFLE"
 	.byte	0xa
 	.byte	0x56
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x2
 	.byte	0x8
@@ -13820,7 +13820,7 @@ IfxMtu_writeSramAddress:
 	.string	"ECCMAP"
 	.byte	0xa
 	.byte	0x57
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x2
 	.byte	0x6
@@ -13829,7 +13829,7 @@ IfxMtu_writeSramAddress:
 	.string	"TC_WAY_SEL"
 	.byte	0xa
 	.byte	0x58
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x2
 	.byte	0x4
@@ -13838,7 +13838,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF24
 	.byte	0xa
 	.byte	0x59
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x4
 	.byte	0
@@ -13848,18 +13848,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_ECCS_Bits"
 	.byte	0xa
 	.byte	0x5a
-	.uaword	0x6fb6
+	.uaword	0x6fd0
 	.uleb128 0xb
 	.string	"_Ifx_MC_ETRR_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x5d
-	.uaword	0x70c8
+	.uaword	0x70e2
 	.uleb128 0xc
 	.string	"ADDR"
 	.byte	0xa
 	.byte	0x5f
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0xd
 	.byte	0x3
@@ -13868,7 +13868,7 @@ IfxMtu_writeSramAddress:
 	.string	"MBI"
 	.byte	0xa
 	.byte	0x60
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x3
 	.byte	0
@@ -13878,18 +13878,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_ETRR_Bits"
 	.byte	0xa
 	.byte	0x61
-	.uaword	0x708e
+	.uaword	0x70a8
 	.uleb128 0xb
 	.string	"_Ifx_MC_MCONTROL_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x64
-	.uaword	0x71bc
+	.uaword	0x71d6
 	.uleb128 0xc
 	.string	"START"
 	.byte	0xa
 	.byte	0x66
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -13898,7 +13898,7 @@ IfxMtu_writeSramAddress:
 	.string	"RESUME"
 	.byte	0xa
 	.byte	0x67
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -13907,7 +13907,7 @@ IfxMtu_writeSramAddress:
 	.string	"ESTF"
 	.byte	0xa
 	.byte	0x68
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -13916,7 +13916,7 @@ IfxMtu_writeSramAddress:
 	.string	"DIR"
 	.byte	0xa
 	.byte	0x69
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -13925,7 +13925,7 @@ IfxMtu_writeSramAddress:
 	.string	"DINIT"
 	.byte	0xa
 	.byte	0x6a
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xb
@@ -13934,7 +13934,7 @@ IfxMtu_writeSramAddress:
 	.string	"RCADR"
 	.byte	0xa
 	.byte	0x6b
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xa
@@ -13943,7 +13943,7 @@ IfxMtu_writeSramAddress:
 	.string	"ROWTOG"
 	.byte	0xa
 	.byte	0x6c
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x9
@@ -13952,7 +13952,7 @@ IfxMtu_writeSramAddress:
 	.string	"BITTOG"
 	.byte	0xa
 	.byte	0x6d
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x8
@@ -13961,7 +13961,7 @@ IfxMtu_writeSramAddress:
 	.string	"GP_BASE"
 	.byte	0xa
 	.byte	0x6e
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x7
@@ -13970,7 +13970,7 @@ IfxMtu_writeSramAddress:
 	.string	"FAILDMP"
 	.byte	0xa
 	.byte	0x6f
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0x6
@@ -13979,7 +13979,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF11
 	.byte	0xa
 	.byte	0x70
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x6
 	.byte	0
@@ -13989,18 +13989,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_MCONTROL_Bits"
 	.byte	0xa
 	.byte	0x71
-	.uaword	0x70e0
+	.uaword	0x70fa
 	.uleb128 0xb
 	.string	"_Ifx_MC_MSTATUS_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x74
-	.uaword	0x7245
+	.uaword	0x725f
 	.uleb128 0xc
 	.string	"DONE"
 	.byte	0xa
 	.byte	0x76
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xf
@@ -14009,7 +14009,7 @@ IfxMtu_writeSramAddress:
 	.string	"FAIL"
 	.byte	0xa
 	.byte	0x77
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xe
@@ -14018,7 +14018,7 @@ IfxMtu_writeSramAddress:
 	.string	"FDA"
 	.byte	0xa
 	.byte	0x78
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xd
@@ -14027,7 +14027,7 @@ IfxMtu_writeSramAddress:
 	.string	"SFAIL"
 	.byte	0xa
 	.byte	0x79
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0xc
@@ -14036,7 +14036,7 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF3
 	.byte	0xa
 	.byte	0x7a
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0xc
 	.byte	0
@@ -14046,18 +14046,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_MSTATUS_Bits"
 	.byte	0xa
 	.byte	0x7b
-	.uaword	0x71d8
+	.uaword	0x71f2
 	.uleb128 0xb
 	.string	"_Ifx_MC_RANGE_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x7e
-	.uaword	0x729c
+	.uaword	0x72b6
 	.uleb128 0xc
 	.string	"ADDR"
 	.byte	0xa
 	.byte	0x80
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0xf
 	.byte	0x1
@@ -14066,7 +14066,7 @@ IfxMtu_writeSramAddress:
 	.string	"RAEN"
 	.byte	0xa
 	.byte	0x81
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x1
 	.byte	0
@@ -14076,18 +14076,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_RANGE_Bits"
 	.byte	0xa
 	.byte	0x82
-	.uaword	0x7260
+	.uaword	0x727a
 	.uleb128 0xb
 	.string	"_Ifx_MC_RDBFL_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x85
-	.uaword	0x72e2
+	.uaword	0x72fc
 	.uleb128 0xc
 	.string	"WDATA"
 	.byte	0xa
 	.byte	0x87
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x10
 	.byte	0
@@ -14097,18 +14097,18 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_RDBFL_Bits"
 	.byte	0xa
 	.byte	0x88
-	.uaword	0x72b5
+	.uaword	0x72cf
 	.uleb128 0xb
 	.string	"_Ifx_MC_REVID_Bits"
 	.byte	0x2
 	.byte	0xa
 	.byte	0x8b
-	.uaword	0x7329
+	.uaword	0x7343
 	.uleb128 0xc
 	.string	"REV_ID"
 	.byte	0xa
 	.byte	0x8d
-	.uaword	0x6e33
+	.uaword	0x6e4d
 	.byte	0x2
 	.byte	0x10
 	.byte	0
@@ -14118,392 +14118,392 @@ IfxMtu_writeSramAddress:
 	.string	"Ifx_MC_REVID_Bits"
 	.byte	0xa
 	.byte	0x8e
-	.uaword	0x72fb
+	.uaword	0x7315
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0x96
-	.uaword	0x7366
+	.uaword	0x7380
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0x98
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0x99
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0x9a
-	.uaword	0x6e38
+	.uaword	0x6e52
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_CONFIG0"
 	.byte	0xa
 	.byte	0x9b
-	.uaword	0x7342
+	.uaword	0x735c
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0x9e
-	.uaword	0x73a0
+	.uaword	0x73ba
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xa0
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xa1
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xa2
-	.uaword	0x6eaa
+	.uaword	0x6ec4
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_CONFIG1"
 	.byte	0xa
 	.byte	0xa3
-	.uaword	0x737c
+	.uaword	0x7396
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0xa6
-	.uaword	0x73da
+	.uaword	0x73f4
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xa8
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xa9
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xaa
-	.uaword	0x6f9e
+	.uaword	0x6fb8
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_ECCD"
 	.byte	0xa
 	.byte	0xab
-	.uaword	0x73b6
+	.uaword	0x73d0
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0xae
-	.uaword	0x7411
+	.uaword	0x742b
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xb0
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xb1
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xb2
-	.uaword	0x7076
+	.uaword	0x7090
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_ECCS"
 	.byte	0xa
 	.byte	0xb3
-	.uaword	0x73ed
+	.uaword	0x7407
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0xb6
-	.uaword	0x7448
+	.uaword	0x7462
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xb8
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xb9
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xba
-	.uaword	0x70c8
+	.uaword	0x70e2
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_ETRR"
 	.byte	0xa
 	.byte	0xbb
-	.uaword	0x7424
+	.uaword	0x743e
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0xbe
-	.uaword	0x747f
+	.uaword	0x7499
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xc0
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xc1
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xc2
-	.uaword	0x71bc
+	.uaword	0x71d6
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_MCONTROL"
 	.byte	0xa
 	.byte	0xc3
-	.uaword	0x745b
+	.uaword	0x7475
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0xc6
-	.uaword	0x74ba
+	.uaword	0x74d4
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xc8
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xc9
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xca
-	.uaword	0x7245
+	.uaword	0x725f
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_MSTATUS"
 	.byte	0xa
 	.byte	0xcb
-	.uaword	0x7496
+	.uaword	0x74b0
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0xce
-	.uaword	0x74f4
+	.uaword	0x750e
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xd0
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xd1
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xd2
-	.uaword	0x729c
+	.uaword	0x72b6
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_RANGE"
 	.byte	0xa
 	.byte	0xd3
-	.uaword	0x74d0
+	.uaword	0x74ea
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0xd6
-	.uaword	0x752c
+	.uaword	0x7546
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xd8
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xd9
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xda
-	.uaword	0x72e2
+	.uaword	0x72fc
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_RDBFL"
 	.byte	0xa
 	.byte	0xdb
-	.uaword	0x7508
+	.uaword	0x7522
 	.uleb128 0x19
 	.byte	0x2
 	.byte	0xa
 	.byte	0xde
-	.uaword	0x7564
+	.uaword	0x757e
 	.uleb128 0x1a
 	.string	"U"
 	.byte	0xa
 	.byte	0xe0
-	.uaword	0x1f0
+	.uaword	0x20a
 	.uleb128 0x1a
 	.string	"I"
 	.byte	0xa
 	.byte	0xe1
-	.uaword	0x1d5
+	.uaword	0x1ef
 	.uleb128 0x1a
 	.string	"B"
 	.byte	0xa
 	.byte	0xe2
-	.uaword	0x7329
+	.uaword	0x7343
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC_REVID"
 	.byte	0xa
 	.byte	0xe3
-	.uaword	0x7540
+	.uaword	0x755a
 	.uleb128 0x1b
 	.string	"_Ifx_MC"
 	.uahalf	0x100
 	.byte	0xa
 	.byte	0xee
-	.uaword	0x7657
+	.uaword	0x7671
 	.uleb128 0x7
 	.string	"CONFIG0"
 	.byte	0xa
 	.byte	0xf0
-	.uaword	0x7366
+	.uaword	0x7380
 	.byte	0
 	.uleb128 0x7
 	.string	"CONFIG1"
 	.byte	0xa
 	.byte	0xf1
-	.uaword	0x73a0
+	.uaword	0x73ba
 	.byte	0x2
 	.uleb128 0x7
 	.string	"MCONTROL"
 	.byte	0xa
 	.byte	0xf2
-	.uaword	0x747f
+	.uaword	0x7499
 	.byte	0x4
 	.uleb128 0x7
 	.string	"MSTATUS"
 	.byte	0xa
 	.byte	0xf3
-	.uaword	0x74ba
+	.uaword	0x74d4
 	.byte	0x6
 	.uleb128 0x7
 	.string	"RANGE"
 	.byte	0xa
 	.byte	0xf4
-	.uaword	0x74f4
+	.uaword	0x750e
 	.byte	0x8
 	.uleb128 0x7
 	.string	"reserved_A"
 	.byte	0xa
 	.byte	0xf5
-	.uaword	0x7657
+	.uaword	0x7671
 	.byte	0xa
 	.uleb128 0x7
 	.string	"REVID"
 	.byte	0xa
 	.byte	0xf6
-	.uaword	0x7564
+	.uaword	0x757e
 	.byte	0xc
 	.uleb128 0x7
 	.string	"ECCS"
 	.byte	0xa
 	.byte	0xf7
-	.uaword	0x7411
+	.uaword	0x742b
 	.byte	0xe
 	.uleb128 0x7
 	.string	"ECCD"
 	.byte	0xa
 	.byte	0xf8
-	.uaword	0x73da
+	.uaword	0x73f4
 	.byte	0x10
 	.uleb128 0x7
 	.string	"ETRR"
 	.byte	0xa
 	.byte	0xf9
-	.uaword	0x7667
+	.uaword	0x7681
 	.byte	0x12
 	.uleb128 0x7
 	.string	"reserved_1C"
 	.byte	0xa
 	.byte	0xfa
-	.uaword	0x7677
+	.uaword	0x7691
 	.byte	0x1c
 	.uleb128 0x7
 	.string	"RDBFL"
 	.byte	0xa
 	.byte	0xfb
-	.uaword	0x7687
+	.uaword	0x76a1
 	.byte	0xa0
 	.uleb128 0x7
 	.string	"reserved_F0"
 	.byte	0xa
 	.byte	0xfc
-	.uaword	0x325
+	.uaword	0x33f
 	.byte	0xf0
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x7667
+	.uaword	0x1de
+	.uaword	0x7681
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x1
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x7448
-	.uaword	0x7677
+	.uaword	0x7462
+	.uaword	0x7691
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x4
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1c4
-	.uaword	0x7687
+	.uaword	0x1de
+	.uaword	0x76a1
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x83
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x752c
-	.uaword	0x7697
+	.uaword	0x7546
+	.uaword	0x76b1
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x27
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_MC"
 	.byte	0xa
 	.byte	0xfd
-	.uaword	0x76a5
+	.uaword	0x76bf
 	.uleb128 0x8
-	.uaword	0x7578
+	.uaword	0x7592
 	.uleb128 0x1c
 	.byte	0x1
 	.byte	0xb
 	.byte	0x43
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uleb128 0x1d
 	.string	"IfxMtu_MbistSel_none"
 	.sleb128 -1
@@ -14743,67 +14743,67 @@ IfxMtu_writeSramAddress:
 	.string	"IfxMtu_MbistSel"
 	.byte	0xb
 	.byte	0x92
-	.uaword	0x76aa
+	.uaword	0x76c4
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0xb
 	.byte	0x9a
-	.uaword	0x7f44
+	.uaword	0x7f5e
 	.uleb128 0x1e
 	.uaword	.LASF36
 	.byte	0xb
 	.byte	0x9c
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.byte	0
 	.uleb128 0x1e
 	.uaword	.LASF37
 	.byte	0xb
 	.byte	0x9d
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.byte	0x2
 	.uleb128 0x7
 	.string	"eccSize"
 	.byte	0xb
 	.byte	0x9e
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.byte	0x4
 	.uleb128 0x1e
 	.uaword	.LASF38
 	.byte	0xb
 	.byte	0x9f
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.byte	0x5
 	.uleb128 0x1e
 	.uaword	.LASF39
 	.byte	0xb
 	.byte	0xa0
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.byte	0x6
 	.uleb128 0x7
 	.string	"mbistDelay"
 	.byte	0xb
 	.byte	0xa1
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxMtu_SramItem"
 	.byte	0xb
 	.byte	0xa2
-	.uaword	0x7ee8
+	.uaword	0x7f02
 	.uleb128 0x1f
 	.string	"IfxScuCcu_getPll2ErayFrequency"
 	.byte	0x2
 	.uahalf	0x436
 	.byte	0x1
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x3
-	.uaword	0x7fa3
+	.uaword	0x7fbd
 	.uleb128 0x20
 	.string	"pll2ErayFrequency"
 	.byte	0x2
 	.uahalf	0x438
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0
 	.uleb128 0x21
 	.string	"__nop"
@@ -14817,108 +14817,108 @@ IfxMtu_writeSramAddress:
 	.uahalf	0x20d
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7ff7
+	.uaword	0x8011
 	.uleb128 0x23
 	.uaword	.LASF41
 	.byte	0x4
 	.uahalf	0x20d
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uleb128 0x24
 	.uaword	.LASF40
 	.byte	0x4
 	.uahalf	0x20f
-	.uaword	0x7ff7
+	.uaword	0x8011
 	.uleb128 0x20
 	.string	"mask"
 	.byte	0x4
 	.uahalf	0x210
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x7ffd
+	.uaword	0x8017
 	.uleb128 0x8
-	.uaword	0x214
+	.uaword	0x22e
 	.uleb128 0x1f
 	.string	"IfxMtu_isAutoInitRunning"
 	.byte	0x4
 	.uahalf	0x22a
 	.byte	0x1
-	.uaword	0x23b
+	.uaword	0x255
 	.byte	0x3
-	.uaword	0x8056
+	.uaword	0x8070
 	.uleb128 0x23
 	.uaword	.LASF41
 	.byte	0x4
 	.uahalf	0x22a
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uleb128 0x20
 	.string	"mtuMemstat"
 	.byte	0x4
 	.uahalf	0x22c
-	.uaword	0x7ff7
+	.uaword	0x8011
 	.uleb128 0x20
 	.string	"mask"
 	.byte	0x4
 	.uahalf	0x22d
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxMtu_isMbistDone"
 	.byte	0x4
 	.uahalf	0x240
 	.byte	0x1
-	.uaword	0x23b
+	.uaword	0x255
 	.byte	0x3
-	.uaword	0x809e
+	.uaword	0x80b8
 	.uleb128 0x23
 	.uaword	.LASF41
 	.byte	0x4
 	.uahalf	0x240
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uleb128 0x20
 	.string	"mc"
 	.byte	0x4
 	.uahalf	0x242
-	.uaword	0x809e
+	.uaword	0x80b8
 	.uleb128 0x20
 	.string	"status"
 	.byte	0x4
 	.uahalf	0x243
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x7697
+	.uaword	0x76b1
 	.uleb128 0x22
 	.string	"IfxMtu_disableMbistShell"
 	.byte	0x4
 	.uahalf	0x205
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x80ed
+	.uaword	0x8107
 	.uleb128 0x23
 	.uaword	.LASF41
 	.byte	0x4
 	.uahalf	0x205
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uleb128 0x24
 	.uaword	.LASF40
 	.byte	0x4
 	.uahalf	0x207
-	.uaword	0x7ff7
+	.uaword	0x8011
 	.uleb128 0x20
 	.string	"mask"
 	.byte	0x4
 	.uahalf	0x208
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0
 	.uleb128 0x25
 	.string	"IfxScuWdt_getSafetyWatchdogEndInit"
 	.byte	0x5
 	.uahalf	0x1e3
 	.byte	0x1
-	.uaword	0x23b
+	.uaword	0x255
 	.byte	0x3
 	.uleb128 0x26
 	.string	"IfxMtu_waitForMbistDone"
@@ -14930,85 +14930,85 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x822f
+	.uaword	0x8249
 	.uleb128 0x27
 	.string	"towerDepth"
 	.byte	0x1
 	.uahalf	0x238
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST0
 	.uleb128 0x27
 	.string	"numInstructions"
 	.byte	0x1
 	.uahalf	0x238
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST1
 	.uleb128 0x28
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x238
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST2
 	.uleb128 0x29
 	.string	"waitFact"
 	.byte	0x1
 	.uahalf	0x23a
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST3
 	.uleb128 0x2a
 	.string	"waitTime"
 	.byte	0x1
 	.uahalf	0x23b
-	.uaword	0x7ffd
+	.uaword	0x8017
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -4
 	.uleb128 0x2b
-	.uaword	0x7f5b
+	.uaword	0x7f75
 	.uaword	.LBB80
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.uahalf	0x25d
-	.uaword	0x81df
+	.uaword	0x81f9
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0
 	.uleb128 0x2d
-	.uaword	0x7f88
+	.uaword	0x7fa2
 	.uaword	.LLST4
 	.uleb128 0x2e
 	.uaword	.LVL5
-	.uaword	0x91e1
+	.uaword	0x91fb
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uaword	0x7fa3
+	.uaword	0x7fbd
 	.uaword	.LBB84
 	.uaword	.LBE84
 	.byte	0x1
 	.uahalf	0x29c
 	.uleb128 0x2b
-	.uaword	0x7f5b
+	.uaword	0x7f75
 	.uaword	.LBB86
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
 	.uahalf	0x260
-	.uaword	0x821c
+	.uaword	0x8236
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0x18
 	.uleb128 0x2d
-	.uaword	0x7f88
+	.uaword	0x7fa2
 	.uaword	.LLST5
 	.uleb128 0x2e
 	.uaword	.LVL15
-	.uaword	0x91e1
+	.uaword	0x91fb
 	.byte	0
 	.byte	0
 	.uleb128 0x2e
 	.uaword	.LVL3
-	.uaword	0x920d
+	.uaword	0x9227
 	.uleb128 0x2e
 	.uaword	.LVL13
-	.uaword	0x920d
+	.uaword	0x9227
 	.byte	0
 	.uleb128 0x30
 	.byte	0x1
@@ -15021,18 +15021,18 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x8279
+	.uaword	0x8293
 	.uleb128 0x31
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0x35
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST6
 	.uleb128 0x32
 	.string	"mc"
 	.byte	0x1
 	.byte	0x37
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -15047,64 +15047,64 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x83f6
+	.uaword	0x8410
 	.uleb128 0x31
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0x75
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST7
 	.uleb128 0x32
 	.string	"mc"
 	.byte	0x1
 	.byte	0x77
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x63
 	.uleb128 0x33
 	.uaword	.LASF42
 	.byte	0x1
 	.byte	0xb2
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uahalf	0x4000
 	.uleb128 0x34
-	.uaword	0x7faf
+	.uaword	0x7fc9
 	.uaword	.LBB90
 	.uaword	.Ldebug_ranges0+0x30
 	.byte	0x1
 	.byte	0x79
-	.uaword	0x8300
+	.uaword	0x831a
 	.uleb128 0x35
-	.uaword	0x7fd1
+	.uaword	0x7feb
 	.uaword	.LLST8
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0x30
 	.uleb128 0x2d
-	.uaword	0x7fdd
+	.uaword	0x7ff7
 	.uaword	.LLST9
 	.uleb128 0x2d
-	.uaword	0x7fe9
+	.uaword	0x8003
 	.uaword	.LLST10
 	.byte	0
 	.byte	0
 	.uleb128 0x36
-	.uaword	0x8002
+	.uaword	0x801c
 	.uaword	.LBB96
 	.uaword	.LBE96
 	.byte	0x1
 	.byte	0x7c
-	.uaword	0x8339
+	.uaword	0x8353
 	.uleb128 0x35
-	.uaword	0x8029
+	.uaword	0x8043
 	.uaword	.LLST11
 	.uleb128 0x37
 	.uaword	.LBB97
 	.uaword	.LBE97
 	.uleb128 0x2d
-	.uaword	0x8035
+	.uaword	0x804f
 	.uaword	.LLST12
 	.uleb128 0x2d
-	.uaword	0x8048
+	.uaword	0x8062
 	.uaword	.LLST13
 	.byte	0
 	.byte	0
@@ -15115,66 +15115,66 @@ IfxMtu_writeSramAddress:
 	.string	"item"
 	.byte	0x1
 	.byte	0x82
-	.uaword	0x83f6
+	.uaword	0x8410
 	.uleb128 0x39
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x84
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uleb128 0x39
 	.uaword	.LASF37
 	.byte	0x1
 	.byte	0x87
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uleb128 0x38
 	.string	"eccSize"
 	.byte	0x1
 	.byte	0x88
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uleb128 0x3a
 	.uaword	.LASF38
 	.byte	0x1
 	.byte	0x89
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0x1
 	.byte	0x56
 	.uleb128 0x3a
 	.uaword	.LASF39
 	.byte	0x1
 	.byte	0x8a
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0x32
 	.string	"memSize"
 	.byte	0x1
 	.byte	0x8c
-	.uaword	0x214
+	.uaword	0x22e
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x3b
 	.string	"bitPos"
 	.byte	0x1
 	.byte	0x8e
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST14
 	.uleb128 0x3b
 	.string	"wordIx"
 	.byte	0x1
 	.byte	0x8f
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST15
 	.uleb128 0x3b
 	.string	"data"
 	.byte	0x1
 	.byte	0x90
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uaword	.LLST16
 	.uleb128 0x3b
 	.string	"mem"
 	.byte	0x1
 	.byte	0x92
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST17
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0x50
@@ -15182,16 +15182,16 @@ IfxMtu_writeSramAddress:
 	.string	"i"
 	.byte	0x1
 	.byte	0x96
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST18
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x83fc
+	.uaword	0x8416
 	.uleb128 0x3c
-	.uaword	0x7f44
+	.uaword	0x7f5e
 	.uleb128 0x30
 	.byte	0x1
 	.string	"IfxMtu_enableErrorTracking"
@@ -15203,25 +15203,25 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x845c
+	.uaword	0x8476
 	.uleb128 0x31
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0xb8
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST19
 	.uleb128 0x3d
 	.string	"enable"
 	.byte	0x1
 	.byte	0xb8
-	.uaword	0x23b
+	.uaword	0x255
 	.byte	0x1
 	.byte	0x55
 	.uleb128 0x32
 	.string	"mc"
 	.byte	0x1
 	.byte	0xba
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x6f
 	.byte	0
@@ -15231,42 +15231,42 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0xc7
 	.byte	0x1
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LFB227
 	.uaword	.LFE227
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x84eb
+	.uaword	0x8505
 	.uleb128 0x3f
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0xc7
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x40
 	.string	"trackedSramAddress"
 	.byte	0x1
 	.byte	0xc7
-	.uaword	0x7448
+	.uaword	0x7462
 	.uaword	.LLST20
 	.uleb128 0x41
 	.uaword	.LASF43
 	.byte	0x1
 	.byte	0xc9
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST21
 	.uleb128 0x38
 	.string	"mbi"
 	.byte	0x1
 	.byte	0xca
-	.uaword	0x214
+	.uaword	0x22e
 	.uleb128 0x3b
 	.string	"systemAddress"
 	.byte	0x1
 	.byte	0xcb
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST22
 	.byte	0
 	.uleb128 0x3e
@@ -15275,55 +15275,55 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0xff
 	.byte	0x1
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LFB228
 	.uaword	.LFE228
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x85a2
+	.uaword	0x85bc
 	.uleb128 0x31
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0xff
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST23
 	.uleb128 0x3d
 	.string	"trackedSramAddresses"
 	.byte	0x1
 	.byte	0xff
-	.uaword	0x85a2
+	.uaword	0x85bc
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x2a
 	.string	"mc"
 	.byte	0x1
 	.uahalf	0x101
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x62
 	.uleb128 0x29
 	.string	"validFlags"
 	.byte	0x1
 	.uahalf	0x102
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST24
 	.uleb128 0x29
 	.string	"numTrackedAddresses"
 	.byte	0x1
 	.uahalf	0x103
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST25
 	.uleb128 0x29
 	.string	"i"
 	.byte	0x1
 	.uahalf	0x104
-	.uaword	0x180
+	.uaword	0x19a
 	.uaword	.LLST26
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x7448
+	.uaword	0x7462
 	.uleb128 0x42
 	.byte	0x1
 	.string	"IfxMtu_readSramAddress"
@@ -15335,61 +15335,61 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x8666
+	.uaword	0x8680
 	.uleb128 0x28
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x117
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST27
 	.uleb128 0x28
 	.uaword	.LASF43
 	.byte	0x1
 	.uahalf	0x117
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uaword	.LLST28
 	.uleb128 0x2a
 	.string	"mc"
 	.byte	0x1
 	.uahalf	0x119
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x43
 	.uaword	.LASF42
 	.byte	0x1
 	.uahalf	0x11c
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uahalf	0x4000
 	.uleb128 0x2b
-	.uaword	0x8056
+	.uaword	0x8070
 	.uaword	.LBB102
 	.uaword	.Ldebug_ranges0+0x70
 	.byte	0x1
 	.uahalf	0x12b
-	.uaword	0x863f
+	.uaword	0x8659
 	.uleb128 0x44
-	.uaword	0x8077
+	.uaword	0x8091
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0x70
 	.uleb128 0x45
-	.uaword	0x8083
+	.uaword	0x809d
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x2d
-	.uaword	0x808e
+	.uaword	0x80a8
 	.uaword	.LLST29
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uaword	0x7fa3
+	.uaword	0x7fbd
 	.uaword	.LBB105
 	.uaword	.LBE105
 	.byte	0x1
 	.uahalf	0x12d
 	.uleb128 0x46
 	.uaword	.LVL102
-	.uaword	0x811a
+	.uaword	0x8134
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x55
@@ -15414,61 +15414,61 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x871e
+	.uaword	0x8738
 	.uleb128 0x31
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0x67
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST30
 	.uleb128 0x36
-	.uaword	0x80a4
+	.uaword	0x80be
 	.uaword	.LBB108
 	.uaword	.LBE108
 	.byte	0x1
 	.byte	0x6d
-	.uaword	0x86d7
+	.uaword	0x86f1
 	.uleb128 0x35
-	.uaword	0x80c7
+	.uaword	0x80e1
 	.uaword	.LLST31
 	.uleb128 0x37
 	.uaword	.LBB109
 	.uaword	.LBE109
 	.uleb128 0x45
-	.uaword	0x80d3
+	.uaword	0x80ed
 	.byte	0x1
 	.byte	0x62
 	.uleb128 0x45
-	.uaword	0x80df
+	.uaword	0x80f9
 	.byte	0x1
 	.byte	0x52
 	.byte	0
 	.byte	0
 	.uleb128 0x36
-	.uaword	0x8002
+	.uaword	0x801c
 	.uaword	.LBB110
 	.uaword	.LBE110
 	.byte	0x1
 	.byte	0x70
-	.uaword	0x8708
+	.uaword	0x8722
 	.uleb128 0x44
-	.uaword	0x8029
+	.uaword	0x8043
 	.uleb128 0x37
 	.uaword	.LBB111
 	.uaword	.LBE111
 	.uleb128 0x45
-	.uaword	0x8035
+	.uaword	0x804f
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x45
-	.uaword	0x8048
+	.uaword	0x8062
 	.byte	0x1
 	.byte	0x52
 	.byte	0
 	.byte	0
 	.uleb128 0x46
 	.uaword	.LVL107
-	.uaword	0x85a8
+	.uaword	0x85c2
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x55
@@ -15493,64 +15493,64 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x8862
+	.uaword	0x887c
 	.uleb128 0x31
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0x3c
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST32
 	.uleb128 0x41
 	.uaword	.LASF44
 	.byte	0x1
 	.byte	0x3e
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST33
 	.uleb128 0x41
 	.uaword	.LASF45
 	.byte	0x1
 	.byte	0x3f
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uaword	.LLST34
 	.uleb128 0x48
-	.uaword	0x80ed
+	.uaword	0x8107
 	.uaword	.LBB112
 	.uaword	.Ldebug_ranges0+0x88
 	.byte	0x1
 	.byte	0x44
 	.uleb128 0x34
-	.uaword	0x8056
+	.uaword	0x8070
 	.uaword	.LBB116
 	.uaword	.Ldebug_ranges0+0xa0
 	.byte	0x1
 	.byte	0x55
-	.uaword	0x87b4
+	.uaword	0x87ce
 	.uleb128 0x35
-	.uaword	0x8077
+	.uaword	0x8091
 	.uaword	.LLST35
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0xa0
 	.uleb128 0x2d
-	.uaword	0x8083
+	.uaword	0x809d
 	.uaword	.LLST36
 	.uleb128 0x2d
-	.uaword	0x808e
+	.uaword	0x80a8
 	.uaword	.LLST37
 	.byte	0
 	.byte	0
 	.uleb128 0x49
-	.uaword	0x7fa3
+	.uaword	0x7fbd
 	.uaword	.LBB121
 	.uaword	.LBE121
 	.byte	0x1
 	.byte	0x57
 	.uleb128 0x2e
 	.uaword	.LVL113
-	.uaword	0x9232
+	.uaword	0x924c
 	.uleb128 0x4a
 	.uaword	.LVL116
-	.uaword	0x8279
-	.uaword	0x87e0
+	.uaword	0x8293
+	.uaword	0x87fa
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15560,8 +15560,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL117
-	.uaword	0x9261
-	.uaword	0x87f4
+	.uaword	0x927b
+	.uaword	0x880e
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15571,8 +15571,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL118
-	.uaword	0x811a
-	.uaword	0x8814
+	.uaword	0x8134
+	.uaword	0x882e
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x56
@@ -15594,8 +15594,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL124
-	.uaword	0x928c
-	.uaword	0x8828
+	.uaword	0x92a6
+	.uaword	0x8842
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15605,8 +15605,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL125
-	.uaword	0x8666
-	.uaword	0x883c
+	.uaword	0x8680
+	.uaword	0x8856
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15617,8 +15617,8 @@ IfxMtu_writeSramAddress:
 	.uleb128 0x4b
 	.uaword	.LVL126
 	.byte	0x1
-	.uaword	0x9261
-	.uaword	0x8851
+	.uaword	0x927b
+	.uaword	0x886b
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15628,7 +15628,7 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x46
 	.uaword	.LVL127
-	.uaword	0x928c
+	.uaword	0x92a6
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15643,61 +15643,61 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.uahalf	0x132
 	.byte	0x1
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LFB230
 	.uaword	.LFE230
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x8b2d
+	.uaword	0x8b47
 	.uleb128 0x28
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST38
 	.uleb128 0x28
 	.uaword	.LASF46
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST39
 	.uleb128 0x28
 	.uaword	.LASF47
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST40
 	.uleb128 0x28
 	.uaword	.LASF48
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST41
 	.uleb128 0x28
 	.uaword	.LASF49
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0x8b2d
+	.uaword	0x8b47
 	.uaword	.LLST42
 	.uleb128 0x27
 	.string	"numberRedundancyLines"
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0x214
+	.uaword	0x22e
 	.uaword	.LLST43
 	.uleb128 0x2a
 	.string	"mc"
 	.byte	0x1
 	.uahalf	0x137
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x2a
 	.string	"configCheckerBoardSequence"
 	.byte	0x1
 	.uahalf	0x138
-	.uaword	0x8b33
+	.uaword	0x8b4d
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -16
@@ -15705,150 +15705,150 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF45
 	.byte	0x1
 	.uahalf	0x13e
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.byte	0x1
 	.byte	0x59
 	.uleb128 0x4e
 	.uaword	.LASF50
 	.byte	0x1
 	.uahalf	0x13f
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST44
 	.uleb128 0x4e
 	.uaword	.LASF51
 	.byte	0x1
 	.uahalf	0x140
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST45
 	.uleb128 0x4e
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x141
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST46
 	.uleb128 0x4f
-	.uaword	0x80ed
+	.uaword	0x8107
 	.uaword	.LBB124
 	.uaword	.Ldebug_ranges0+0xc0
 	.byte	0x1
 	.uahalf	0x145
 	.uleb128 0x50
-	.uaword	0x7faf
+	.uaword	0x7fc9
 	.uaword	.LBB128
 	.uaword	.LBE128
 	.byte	0x1
 	.uahalf	0x14d
-	.uaword	0x89c3
+	.uaword	0x89dd
 	.uleb128 0x35
-	.uaword	0x7fd1
+	.uaword	0x7feb
 	.uaword	.LLST47
 	.uleb128 0x37
 	.uaword	.LBB129
 	.uaword	.LBE129
 	.uleb128 0x2d
-	.uaword	0x7fdd
+	.uaword	0x7ff7
 	.uaword	.LLST48
 	.uleb128 0x2d
-	.uaword	0x7fe9
+	.uaword	0x8003
 	.uaword	.LLST49
 	.byte	0
 	.byte	0
 	.uleb128 0x50
-	.uaword	0x8002
+	.uaword	0x801c
 	.uaword	.LBB130
 	.uaword	.LBE130
 	.byte	0x1
 	.uahalf	0x150
-	.uaword	0x89fd
+	.uaword	0x8a17
 	.uleb128 0x35
-	.uaword	0x8029
+	.uaword	0x8043
 	.uaword	.LLST50
 	.uleb128 0x37
 	.uaword	.LBB131
 	.uaword	.LBE131
 	.uleb128 0x2d
-	.uaword	0x8035
+	.uaword	0x804f
 	.uaword	.LLST51
 	.uleb128 0x2d
-	.uaword	0x8048
+	.uaword	0x8062
 	.uaword	.LLST52
 	.byte	0
 	.byte	0
 	.uleb128 0x2b
-	.uaword	0x8056
+	.uaword	0x8070
 	.uaword	.LBB132
 	.uaword	.Ldebug_ranges0+0xd8
 	.byte	0x1
 	.uahalf	0x165
-	.uaword	0x8a33
+	.uaword	0x8a4d
 	.uleb128 0x35
-	.uaword	0x8077
+	.uaword	0x8091
 	.uaword	.LLST53
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0xd8
 	.uleb128 0x2d
-	.uaword	0x8083
+	.uaword	0x809d
 	.uaword	.LLST54
 	.uleb128 0x2d
-	.uaword	0x808e
+	.uaword	0x80a8
 	.uaword	.LLST55
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uaword	0x7fa3
+	.uaword	0x7fbd
 	.uaword	.LBB135
 	.uaword	.LBE135
 	.byte	0x1
 	.uahalf	0x167
 	.uleb128 0x50
-	.uaword	0x80a4
+	.uaword	0x80be
 	.uaword	.LBB138
 	.uaword	.LBE138
 	.byte	0x1
 	.uahalf	0x17d
-	.uaword	0x8a7d
+	.uaword	0x8a97
 	.uleb128 0x35
-	.uaword	0x80c7
+	.uaword	0x80e1
 	.uaword	.LLST56
 	.uleb128 0x37
 	.uaword	.LBB139
 	.uaword	.LBE139
 	.uleb128 0x2d
-	.uaword	0x80d3
+	.uaword	0x80ed
 	.uaword	.LLST57
 	.uleb128 0x2d
-	.uaword	0x80df
+	.uaword	0x80f9
 	.uaword	.LLST58
 	.byte	0
 	.byte	0
 	.uleb128 0x50
-	.uaword	0x8002
+	.uaword	0x801c
 	.uaword	.LBB140
 	.uaword	.LBE140
 	.byte	0x1
 	.uahalf	0x17f
-	.uaword	0x8ab7
+	.uaword	0x8ad1
 	.uleb128 0x35
-	.uaword	0x8029
+	.uaword	0x8043
 	.uaword	.LLST59
 	.uleb128 0x37
 	.uaword	.LBB141
 	.uaword	.LBE141
 	.uleb128 0x2d
-	.uaword	0x8035
+	.uaword	0x804f
 	.uaword	.LLST60
 	.uleb128 0x2d
-	.uaword	0x8048
+	.uaword	0x8062
 	.uaword	.LLST61
 	.byte	0
 	.byte	0
 	.uleb128 0x2e
 	.uaword	.LVL130
-	.uaword	0x9232
+	.uaword	0x924c
 	.uleb128 0x4a
 	.uaword	.LVL139
-	.uaword	0x9261
-	.uaword	0x8ad4
+	.uaword	0x927b
+	.uaword	0x8aee
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15858,8 +15858,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL140
-	.uaword	0x811a
-	.uaword	0x8af4
+	.uaword	0x8134
+	.uaword	0x8b0e
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x56
@@ -15881,8 +15881,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL145
-	.uaword	0x928c
-	.uaword	0x8b08
+	.uaword	0x92a6
+	.uaword	0x8b22
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15892,8 +15892,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL152
-	.uaword	0x9261
-	.uaword	0x8b1c
+	.uaword	0x927b
+	.uaword	0x8b36
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15903,7 +15903,7 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x46
 	.uaword	.LVL154
-	.uaword	0x928c
+	.uaword	0x92a6
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -15914,12 +15914,12 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uleb128 0x9
-	.uaword	0x214
-	.uaword	0x8b43
+	.uaword	0x22e
+	.uaword	0x8b5d
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x3
 	.byte	0
 	.uleb128 0x4c
@@ -15928,55 +15928,55 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.uahalf	0x18c
 	.byte	0x1
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LFB231
 	.uaword	.LFE231
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x8de2
+	.uaword	0x8dfc
 	.uleb128 0x28
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x18c
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST62
 	.uleb128 0x28
 	.uaword	.LASF46
 	.byte	0x1
 	.uahalf	0x18c
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST63
 	.uleb128 0x28
 	.uaword	.LASF47
 	.byte	0x1
 	.uahalf	0x18c
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST64
 	.uleb128 0x28
 	.uaword	.LASF48
 	.byte	0x1
 	.uahalf	0x18c
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST65
 	.uleb128 0x28
 	.uaword	.LASF49
 	.byte	0x1
 	.uahalf	0x18c
-	.uaword	0x8b2d
+	.uaword	0x8b47
 	.uaword	.LLST66
 	.uleb128 0x2a
 	.string	"mc"
 	.byte	0x1
 	.uahalf	0x191
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x2a
 	.string	"configMarchUSequence"
 	.byte	0x1
 	.uahalf	0x192
-	.uaword	0x8de2
+	.uaword	0x8dfc
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -24
@@ -15984,149 +15984,149 @@ IfxMtu_writeSramAddress:
 	.uaword	.LASF45
 	.byte	0x1
 	.uahalf	0x19a
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uaword	.LLST67
 	.uleb128 0x4e
 	.uaword	.LASF50
 	.byte	0x1
 	.uahalf	0x19b
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST68
 	.uleb128 0x4e
 	.uaword	.LASF51
 	.byte	0x1
 	.uahalf	0x19c
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST69
 	.uleb128 0x4e
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x19d
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST70
 	.uleb128 0x2f
-	.uaword	0x80ed
+	.uaword	0x8107
 	.uaword	.LBB142
 	.uaword	.LBE142
 	.byte	0x1
 	.uahalf	0x1a1
 	.uleb128 0x50
-	.uaword	0x7faf
+	.uaword	0x7fc9
 	.uaword	.LBB144
 	.uaword	.LBE144
 	.byte	0x1
 	.uahalf	0x1a9
-	.uaword	0x8c78
+	.uaword	0x8c92
 	.uleb128 0x35
-	.uaword	0x7fd1
+	.uaword	0x7feb
 	.uaword	.LLST71
 	.uleb128 0x37
 	.uaword	.LBB145
 	.uaword	.LBE145
 	.uleb128 0x2d
-	.uaword	0x7fdd
+	.uaword	0x7ff7
 	.uaword	.LLST72
 	.uleb128 0x2d
-	.uaword	0x7fe9
+	.uaword	0x8003
 	.uaword	.LLST73
 	.byte	0
 	.byte	0
 	.uleb128 0x50
-	.uaword	0x8002
+	.uaword	0x801c
 	.uaword	.LBB146
 	.uaword	.LBE146
 	.byte	0x1
 	.uahalf	0x1ac
-	.uaword	0x8cb2
+	.uaword	0x8ccc
 	.uleb128 0x35
-	.uaword	0x8029
+	.uaword	0x8043
 	.uaword	.LLST74
 	.uleb128 0x37
 	.uaword	.LBB147
 	.uaword	.LBE147
 	.uleb128 0x2d
-	.uaword	0x8035
+	.uaword	0x804f
 	.uaword	.LLST75
 	.uleb128 0x2d
-	.uaword	0x8048
+	.uaword	0x8062
 	.uaword	.LLST76
 	.byte	0
 	.byte	0
 	.uleb128 0x2b
-	.uaword	0x8056
+	.uaword	0x8070
 	.uaword	.LBB148
 	.uaword	.Ldebug_ranges0+0xf0
 	.byte	0x1
 	.uahalf	0x1c1
-	.uaword	0x8ce8
+	.uaword	0x8d02
 	.uleb128 0x35
-	.uaword	0x8077
+	.uaword	0x8091
 	.uaword	.LLST77
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0xf0
 	.uleb128 0x2d
-	.uaword	0x8083
+	.uaword	0x809d
 	.uaword	.LLST78
 	.uleb128 0x2d
-	.uaword	0x808e
+	.uaword	0x80a8
 	.uaword	.LLST79
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uaword	0x7fa3
+	.uaword	0x7fbd
 	.uaword	.LBB151
 	.uaword	.LBE151
 	.byte	0x1
 	.uahalf	0x1c3
 	.uleb128 0x50
-	.uaword	0x80a4
+	.uaword	0x80be
 	.uaword	.LBB154
 	.uaword	.LBE154
 	.byte	0x1
 	.uahalf	0x1d8
-	.uaword	0x8d32
+	.uaword	0x8d4c
 	.uleb128 0x35
-	.uaword	0x80c7
+	.uaword	0x80e1
 	.uaword	.LLST80
 	.uleb128 0x37
 	.uaword	.LBB155
 	.uaword	.LBE155
 	.uleb128 0x2d
-	.uaword	0x80d3
+	.uaword	0x80ed
 	.uaword	.LLST81
 	.uleb128 0x2d
-	.uaword	0x80df
+	.uaword	0x80f9
 	.uaword	.LLST82
 	.byte	0
 	.byte	0
 	.uleb128 0x50
-	.uaword	0x8002
+	.uaword	0x801c
 	.uaword	.LBB156
 	.uaword	.LBE156
 	.byte	0x1
 	.uahalf	0x1db
-	.uaword	0x8d6c
+	.uaword	0x8d86
 	.uleb128 0x35
-	.uaword	0x8029
+	.uaword	0x8043
 	.uaword	.LLST83
 	.uleb128 0x37
 	.uaword	.LBB157
 	.uaword	.LBE157
 	.uleb128 0x2d
-	.uaword	0x8035
+	.uaword	0x804f
 	.uaword	.LLST84
 	.uleb128 0x2d
-	.uaword	0x8048
+	.uaword	0x8062
 	.uaword	.LLST85
 	.byte	0
 	.byte	0
 	.uleb128 0x2e
 	.uaword	.LVL159
-	.uaword	0x9232
+	.uaword	0x924c
 	.uleb128 0x4a
 	.uaword	.LVL168
-	.uaword	0x9261
-	.uaword	0x8d89
+	.uaword	0x927b
+	.uaword	0x8da3
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -16136,8 +16136,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL169
-	.uaword	0x811a
-	.uaword	0x8da9
+	.uaword	0x8134
+	.uaword	0x8dc3
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x56
@@ -16159,8 +16159,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL174
-	.uaword	0x928c
-	.uaword	0x8dbd
+	.uaword	0x92a6
+	.uaword	0x8dd7
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -16170,8 +16170,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL179
-	.uaword	0x9261
-	.uaword	0x8dd1
+	.uaword	0x927b
+	.uaword	0x8deb
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -16181,7 +16181,7 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x46
 	.uaword	.LVL181
-	.uaword	0x928c
+	.uaword	0x92a6
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -16191,10 +16191,10 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x214
-	.uaword	0x8df2
+	.uaword	0x22e
+	.uaword	0x8e0c
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x5
 	.byte	0
 	.uleb128 0x4c
@@ -16203,191 +16203,191 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.uahalf	0x1e9
 	.byte	0x1
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LFB232
 	.uaword	.LFE232
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x906b
+	.uaword	0x9085
 	.uleb128 0x28
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x1e9
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST86
 	.uleb128 0x28
 	.uaword	.LASF46
 	.byte	0x1
 	.uahalf	0x1e9
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST87
 	.uleb128 0x28
 	.uaword	.LASF47
 	.byte	0x1
 	.uahalf	0x1e9
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST88
 	.uleb128 0x28
 	.uaword	.LASF48
 	.byte	0x1
 	.uahalf	0x1e9
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST89
 	.uleb128 0x28
 	.uaword	.LASF49
 	.byte	0x1
 	.uahalf	0x1e9
-	.uaword	0x8b2d
+	.uaword	0x8b47
 	.uaword	.LLST90
 	.uleb128 0x2a
 	.string	"mc"
 	.byte	0x1
 	.uahalf	0x1ee
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x4e
 	.uaword	.LASF45
 	.byte	0x1
 	.uahalf	0x1ef
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uaword	.LLST91
 	.uleb128 0x4e
 	.uaword	.LASF50
 	.byte	0x1
 	.uahalf	0x1f0
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST92
 	.uleb128 0x4e
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x1f1
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST93
 	.uleb128 0x2f
-	.uaword	0x80ed
+	.uaword	0x8107
 	.uaword	.LBB158
 	.uaword	.LBE158
 	.byte	0x1
 	.uahalf	0x1f5
 	.uleb128 0x50
-	.uaword	0x7faf
+	.uaword	0x7fc9
 	.uaword	.LBB160
 	.uaword	.LBE160
 	.byte	0x1
 	.uahalf	0x1fd
-	.uaword	0x8f08
+	.uaword	0x8f22
 	.uleb128 0x35
-	.uaword	0x7fd1
+	.uaword	0x7feb
 	.uaword	.LLST94
 	.uleb128 0x37
 	.uaword	.LBB161
 	.uaword	.LBE161
 	.uleb128 0x2d
-	.uaword	0x7fdd
+	.uaword	0x7ff7
 	.uaword	.LLST95
 	.uleb128 0x2d
-	.uaword	0x7fe9
+	.uaword	0x8003
 	.uaword	.LLST96
 	.byte	0
 	.byte	0
 	.uleb128 0x50
-	.uaword	0x8002
+	.uaword	0x801c
 	.uaword	.LBB162
 	.uaword	.LBE162
 	.byte	0x1
 	.uahalf	0x200
-	.uaword	0x8f42
+	.uaword	0x8f5c
 	.uleb128 0x35
-	.uaword	0x8029
+	.uaword	0x8043
 	.uaword	.LLST97
 	.uleb128 0x37
 	.uaword	.LBB163
 	.uaword	.LBE163
 	.uleb128 0x2d
-	.uaword	0x8035
+	.uaword	0x804f
 	.uaword	.LLST98
 	.uleb128 0x2d
-	.uaword	0x8048
+	.uaword	0x8062
 	.uaword	.LLST99
 	.byte	0
 	.byte	0
 	.uleb128 0x2b
-	.uaword	0x8056
+	.uaword	0x8070
 	.uaword	.LBB164
 	.uaword	.Ldebug_ranges0+0x108
 	.byte	0x1
 	.uahalf	0x212
-	.uaword	0x8f78
+	.uaword	0x8f92
 	.uleb128 0x35
-	.uaword	0x8077
+	.uaword	0x8091
 	.uaword	.LLST100
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0x108
 	.uleb128 0x2d
-	.uaword	0x8083
+	.uaword	0x809d
 	.uaword	.LLST101
 	.uleb128 0x2d
-	.uaword	0x808e
+	.uaword	0x80a8
 	.uaword	.LLST102
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uaword	0x7fa3
+	.uaword	0x7fbd
 	.uaword	.LBB167
 	.uaword	.LBE167
 	.byte	0x1
 	.uahalf	0x214
 	.uleb128 0x50
-	.uaword	0x80a4
+	.uaword	0x80be
 	.uaword	.LBB170
 	.uaword	.LBE170
 	.byte	0x1
 	.uahalf	0x227
-	.uaword	0x8fc2
+	.uaword	0x8fdc
 	.uleb128 0x35
-	.uaword	0x80c7
+	.uaword	0x80e1
 	.uaword	.LLST103
 	.uleb128 0x37
 	.uaword	.LBB171
 	.uaword	.LBE171
 	.uleb128 0x2d
-	.uaword	0x80d3
+	.uaword	0x80ed
 	.uaword	.LLST104
 	.uleb128 0x2d
-	.uaword	0x80df
+	.uaword	0x80f9
 	.uaword	.LLST105
 	.byte	0
 	.byte	0
 	.uleb128 0x50
-	.uaword	0x8002
+	.uaword	0x801c
 	.uaword	.LBB172
 	.uaword	.LBE172
 	.byte	0x1
 	.uahalf	0x22a
-	.uaword	0x8ffc
+	.uaword	0x9016
 	.uleb128 0x35
-	.uaword	0x8029
+	.uaword	0x8043
 	.uaword	.LLST106
 	.uleb128 0x37
 	.uaword	.LBB173
 	.uaword	.LBE173
 	.uleb128 0x2d
-	.uaword	0x8035
+	.uaword	0x804f
 	.uaword	.LLST107
 	.uleb128 0x2d
-	.uaword	0x8048
+	.uaword	0x8062
 	.uaword	.LLST108
 	.byte	0
 	.byte	0
 	.uleb128 0x2e
 	.uaword	.LVL185
-	.uaword	0x9232
+	.uaword	0x924c
 	.uleb128 0x4a
 	.uaword	.LVL192
-	.uaword	0x9261
-	.uaword	0x9019
+	.uaword	0x927b
+	.uaword	0x9033
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -16397,8 +16397,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL193
-	.uaword	0x811a
-	.uaword	0x9032
+	.uaword	0x8134
+	.uaword	0x904c
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x56
@@ -16413,8 +16413,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL198
-	.uaword	0x928c
-	.uaword	0x9046
+	.uaword	0x92a6
+	.uaword	0x9060
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -16424,8 +16424,8 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.LVL204
-	.uaword	0x9261
-	.uaword	0x905a
+	.uaword	0x927b
+	.uaword	0x9074
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -16435,7 +16435,7 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x46
 	.uaword	.LVL206
-	.uaword	0x928c
+	.uaword	0x92a6
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x54
@@ -16455,83 +16455,83 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x9180
+	.uaword	0x919a
 	.uleb128 0x28
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x2a1
-	.uaword	0x7ed1
+	.uaword	0x7eeb
 	.uaword	.LLST109
 	.uleb128 0x28
 	.uaword	.LASF43
 	.byte	0x1
 	.uahalf	0x2a1
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uaword	.LLST110
 	.uleb128 0x2a
 	.string	"mc"
 	.byte	0x1
 	.uahalf	0x2a3
-	.uaword	0x809e
+	.uaword	0x80b8
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x4e
 	.uaword	.LASF44
 	.byte	0x1
 	.uahalf	0x2a4
-	.uaword	0x1b7
+	.uaword	0x1d1
 	.uaword	.LLST111
 	.uleb128 0x4e
 	.uaword	.LASF45
 	.byte	0x1
 	.uahalf	0x2a5
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uaword	.LLST112
 	.uleb128 0x4e
 	.uaword	.LASF42
 	.byte	0x1
 	.uahalf	0x2b1
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.uaword	.LLST113
 	.uleb128 0x2f
-	.uaword	0x80ed
+	.uaword	0x8107
 	.uaword	.LBB174
 	.uaword	.LBE174
 	.byte	0x1
 	.uahalf	0x2a9
 	.uleb128 0x2b
-	.uaword	0x8056
+	.uaword	0x8070
 	.uaword	.LBB176
 	.uaword	.Ldebug_ranges0+0x120
 	.byte	0x1
 	.uahalf	0x2c7
-	.uaword	0x913b
+	.uaword	0x9155
 	.uleb128 0x35
-	.uaword	0x8077
+	.uaword	0x8091
 	.uaword	.LLST114
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0x120
 	.uleb128 0x2d
-	.uaword	0x8083
+	.uaword	0x809d
 	.uaword	.LLST115
 	.uleb128 0x2d
-	.uaword	0x808e
+	.uaword	0x80a8
 	.uaword	.LLST116
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uaword	0x7fa3
+	.uaword	0x7fbd
 	.uaword	.LBB179
 	.uaword	.LBE179
 	.byte	0x1
 	.uahalf	0x2c9
 	.uleb128 0x2e
 	.uaword	.LVL208
-	.uaword	0x9232
+	.uaword	0x924c
 	.uleb128 0x4a
 	.uaword	.LVL213
-	.uaword	0x811a
-	.uaword	0x916d
+	.uaword	0x8134
+	.uaword	0x9187
 	.uleb128 0x47
 	.byte	0x1
 	.byte	0x56
@@ -16546,50 +16546,50 @@ IfxMtu_writeSramAddress:
 	.byte	0
 	.uleb128 0x2e
 	.uaword	.LVL218
-	.uaword	0x928c
+	.uaword	0x92a6
 	.uleb128 0x2e
 	.uaword	.LVL219
-	.uaword	0x9261
+	.uaword	0x927b
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x2aa
-	.uaword	0x9190
+	.uaword	0x2c4
+	.uaword	0x91aa
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x2
 	.byte	0
 	.uleb128 0x51
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xc
 	.byte	0x96
-	.uaword	0x91ad
+	.uaword	0x91c7
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3c
-	.uaword	0x9180
+	.uaword	0x919a
 	.uleb128 0x9
-	.uaword	0x7f44
-	.uaword	0x91c2
+	.uaword	0x7f5e
+	.uaword	0x91dc
 	.uleb128 0xa
-	.uaword	0x2d9
+	.uaword	0x2f3
 	.byte	0x57
 	.byte	0
 	.uleb128 0x51
 	.string	"IfxMtu_sramTable"
 	.byte	0xb
 	.byte	0xa8
-	.uaword	0x91dc
+	.uaword	0x91f6
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3c
-	.uaword	0x91b2
+	.uaword	0x91cc
 	.uleb128 0x52
 	.byte	0x1
 	.string	"IfxScuCcu_getPllErayVcoFrequency"
 	.byte	0x2
 	.uahalf	0x388
 	.byte	0x1
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x1
 	.uleb128 0x52
 	.byte	0x1
@@ -16597,7 +16597,7 @@ IfxMtu_writeSramAddress:
 	.byte	0x2
 	.uahalf	0x3a6
 	.byte	0x1
-	.uaword	0x222
+	.uaword	0x23c
 	.byte	0x1
 	.uleb128 0x52
 	.byte	0x1
@@ -16605,7 +16605,7 @@ IfxMtu_writeSramAddress:
 	.byte	0x5
 	.uahalf	0x17b
 	.byte	0x1
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.byte	0x1
 	.uleb128 0x53
 	.byte	0x1
@@ -16614,9 +16614,9 @@ IfxMtu_writeSramAddress:
 	.byte	0xe5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x928c
+	.uaword	0x92a6
 	.uleb128 0x54
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.byte	0
 	.uleb128 0x55
 	.byte	0x1
@@ -16626,7 +16626,7 @@ IfxMtu_writeSramAddress:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x54
-	.uaword	0x1e2
+	.uaword	0x1fc
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -17963,7 +17963,7 @@ IfxMtu_writeSramAddress:
 	.uahalf	0x13
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x177
+	.uleb128 0x191
 	.byte	0x73
 	.sleb128 0
 	.byte	0x8
@@ -17972,9 +17972,9 @@ IfxMtu_writeSramAddress:
 	.byte	0x23
 	.uleb128 0x1
 	.byte	0xf7
-	.uleb128 0x180
+	.uleb128 0x19a
 	.byte	0xf7
-	.uleb128 0x177
+	.uleb128 0x191
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL7
@@ -17982,7 +17982,7 @@ IfxMtu_writeSramAddress:
 	.uahalf	0x13
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x177
+	.uleb128 0x191
 	.byte	0x73
 	.sleb128 -1
 	.byte	0x8
@@ -17991,9 +17991,9 @@ IfxMtu_writeSramAddress:
 	.byte	0x23
 	.uleb128 0x1
 	.byte	0xf7
-	.uleb128 0x180
+	.uleb128 0x19a
 	.byte	0xf7
-	.uleb128 0x177
+	.uleb128 0x191
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
@@ -18004,7 +18004,7 @@ IfxMtu_writeSramAddress:
 	.uahalf	0x13
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x177
+	.uleb128 0x191
 	.byte	0x73
 	.sleb128 0
 	.byte	0x8
@@ -18013,9 +18013,9 @@ IfxMtu_writeSramAddress:
 	.byte	0x23
 	.uleb128 0x1
 	.byte	0xf7
-	.uleb128 0x180
+	.uleb128 0x19a
 	.byte	0xf7
-	.uleb128 0x177
+	.uleb128 0x191
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL17
@@ -18023,7 +18023,7 @@ IfxMtu_writeSramAddress:
 	.uahalf	0x13
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x177
+	.uleb128 0x191
 	.byte	0x73
 	.sleb128 -1
 	.byte	0x8
@@ -18032,9 +18032,9 @@ IfxMtu_writeSramAddress:
 	.byte	0x23
 	.uleb128 0x1
 	.byte	0xf7
-	.uleb128 0x180
+	.uleb128 0x19a
 	.byte	0xf7
-	.uleb128 0x177
+	.uleb128 0x191
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
