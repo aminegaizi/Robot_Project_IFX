@@ -92,7 +92,6 @@ void command(char recv)
 	switch(recv){
 		case 'w':
 			Forward_1();//go forward
-			//Left(25);
 			break;
 		case 's':
 			Backward_1();//go backward

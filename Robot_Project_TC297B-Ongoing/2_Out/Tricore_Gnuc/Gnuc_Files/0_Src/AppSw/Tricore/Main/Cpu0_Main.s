@@ -283,19 +283,19 @@ command:
 	.code32
 	j	.L16
 .L11:
-	.loc 1 101 0
+	.loc 1 100 0
 	j	Left
 .LVL30:
 .L13:
-	.loc 1 104 0
+	.loc 1 103 0
 	j	Right
 .LVL31:
 .L14:
-	.loc 1 107 0
+	.loc 1 106 0
 	j	Motors_stop
 .LVL32:
 .L15:
-	.loc 1 98 0
+	.loc 1 97 0
 	j	Backward_1
 .LVL33:
 .L16:

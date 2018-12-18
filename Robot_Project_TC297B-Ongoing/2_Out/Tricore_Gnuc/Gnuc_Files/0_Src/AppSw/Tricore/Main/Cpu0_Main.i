@@ -29816,7 +29816,6 @@ void command(char recv)
  switch(recv){
   case 'w':
    Forward_1();
-
    break;
   case 's':
    Backward_1();
