@@ -32,6 +32,11 @@ IfxCpu_syncEvent cpuSyncEvent= 0;
 //extern volatile uint32 interruptRight_counter;
 //extern volatile uint32 interruptLeft_counter;
 volatile float64 distance_obstacle = 0;
+char object_detect;
+int state_machine,enable_flag=0;
+char angle[10];
+char distance[10];
+int i,A,D;
 
 int core0_main (void)
 {
@@ -57,11 +62,13 @@ int core0_main (void)
 	Init_gyro(); //Uncomment MPU init
 	Encoders_config();
 	serial_config();
+	serial_config_Raspberry();
+
 
 	//ultrasonic sensor config
 	configUltrasonicSensor();
 	sendTrig(IfxPort_P14_4);
-
+	serial_config_Raspberry();
 	//servomotor config
 	config_servomotor();
 	sweep_servo_config();
@@ -70,6 +77,10 @@ int core0_main (void)
 
     while (1)
     {
+    	if(D<30)
+    	{
+        	beep();
+    	}
 		sweep_servo();
 
     	temp = returnDistance();
@@ -109,4 +120,67 @@ void command(char recv)
 			break;
 		}
 }
+
+void Raspberry_rcv(char recv)
+{
+	switch(state_machine){
+		case 0:
+			if(recv == '+'){ //START bit
+				enable_flag = 1;
+			}
+			if(recv == '!'){
+				state_machine = 1;
+			}
+			break;
+		case 1:
+			if(enable_flag == 1){
+				if(recv == '!'){
+					state_machine = 2;
+				}
+				else{
+					object_detect = recv;//Which object is detected ? [S,E or numbers from 1 to 5]
+				}
+			}
+			break;
+		case 2:
+			if(enable_flag == 1){
+				if(recv == '!'){
+					state_machine = 3;
+					i=0;
+				}
+				else{
+					angle[i] =  recv; //Angle of detection
+					i++;
+				}
+			}
+			break;
+		case 3:
+			if(enable_flag == 1){
+				if(recv == '!'){
+					state_machine = 4;
+					i=0;
+				}
+				else{
+					distance[i] =  recv; //Range of detection
+					i++;
+				}
+			}
+			break;
+		case 4:
+			if(recv == '-' && enable_flag == 1){ //STOP bit
+				enable_flag = 0;
+			}
+			if(recv == '!'){
+				state_machine = 0;
+				A = atoi(angle);
+				D = atoi(distance);
+			}
+			break;
+		default: //Case nothing
+			enable_flag = 0;
+			state_machine = 0;
+			break;
+	}
+}
+
 

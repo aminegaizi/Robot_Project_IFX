@@ -10551,12 +10551,12 @@ void Encoders_config()
  IfxSrc_init(src1, IfxCpu_Irq_getTos(IfxCpu_getCoreId()), 1);
  IfxSrc_enable(src1);
 
- IfxScuEru_initReqPin(&IfxScu_REQ13_P15_5_IN, IfxPort_InputMode_noPullDevice);
- IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
- IfxScuEru_enableFallingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
+ IfxScuEru_initReqPin(&IfxScu_REQ6_P02_0_IN, IfxPort_InputMode_noPullDevice);
+ IfxScuEru_enableRisingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ6_P02_0_IN.channelId);
+ IfxScuEru_enableFallingEdgeDetection((IfxScuEru_InputChannel) IfxScu_REQ6_P02_0_IN.channelId);
 
- IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId, IfxScuEru_InputNodePointer_1);
- IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ13_P15_5_IN.channelId);
+ IfxScuEru_connectTrigger((IfxScuEru_InputChannel) IfxScu_REQ6_P02_0_IN.channelId, IfxScuEru_InputNodePointer_1);
+ IfxScuEru_enableTriggerPulse((IfxScuEru_InputChannel) IfxScu_REQ6_P02_0_IN.channelId);
  IfxScuEru_setInterruptGatingPattern(IfxScuEru_OutputChannel_1, IfxScuEru_InterruptGatingPattern_alwaysActive);
 
 }

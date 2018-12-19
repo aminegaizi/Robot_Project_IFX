@@ -29702,8 +29702,20 @@ void GetYawPitchRoll();
 void beep(void);
 # 36 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 
+# 1 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h" 1
+# 10 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h"
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
+# 11 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h" 2
+
+
+# 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 1
+# 14 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h" 2
+# 23 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h"
+void serial_config_Raspberry();
+# 38 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 
 void command(char);
+void Raspberry_rcv(char recv);
 # 9 "0_Src/AppSw/Tricore/Serial/serial.h" 2
 
 
@@ -29788,10 +29800,10 @@ volatile uint8 commande_movement = 0;
 volatile int Flag = 0;
 
 
-P_coefficient Forward_correction = {-9.0,-9.375,-3.0};
-P_coefficient Backward_correction = {-9.0,-10.75,-4.0};
-P_coefficient Right_correction = {0.0,-10.75,0.0};
-P_coefficient Left_correction = {0.0,-10.75,0.0};
+P_coefficient Forward_correction = {0.0,-1.0,0.0};
+P_coefficient Backward_correction = {0.0,-1.0,0.0};
+P_coefficient Right_correction = {0.0,-1.0,0.0};
+P_coefficient Left_correction = {0.0,-1.0,0.0};
 
  void Forward_1()
  {
@@ -29906,7 +29918,7 @@ void STM_INTERRUPT_CORRECTION()
 {
  IfxStm_clearCompareFlag(stm2,CompareCorrection.comparator);
 
- GetYawPitchRoll();
+
  Flag += 1;
  Encoders_Error = interruptRight_counter - interruptLeft_counter;
  if (commande_movement == 1)
@@ -29927,7 +29939,7 @@ void STM_INTERRUPT_CORRECTION()
  }
  if (commande_movement == 3)
  {
-  Right_duty_cycle = 20;
+  Right_duty_cycle = 30;
   Left_duty_cycle = Right_duty_cycle - (Right_correction.stable * Encoders_Error);
 
      PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
@@ -29935,7 +29947,7 @@ void STM_INTERRUPT_CORRECTION()
  }
  if (commande_movement == 4)
  {
-  Right_duty_cycle = 25;
+  Right_duty_cycle = 30;
   Left_duty_cycle = Right_duty_cycle - (Left_correction.stable * Encoders_Error);
 
   PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);

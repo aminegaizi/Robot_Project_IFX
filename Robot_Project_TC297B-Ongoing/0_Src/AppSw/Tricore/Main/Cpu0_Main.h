@@ -34,7 +34,9 @@
 #include "Gyroscope_i2c.h"
 #include "Beeper.h"
 
+#include "serial_Raspberry.h"
 
 void command(char);
+void Raspberry_rcv(char recv);
 
 #endif /*CPU_MAIN_0_H*/

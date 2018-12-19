@@ -9,7 +9,7 @@
 core0_main:
 .LFB512:
 	.file 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.c"
-	.loc 1 37 0
+	.loc 1 42 0
 .LVL0:
 .LBB32:
 .LBB33:
@@ -22,66 +22,78 @@ core0_main:
 #NO_APP
 .LBE33:
 .LBE32:
-	.loc 1 46 0
+	.loc 1 51 0
 	call	IfxScuWdt_getCpuWatchdogPassword
 .LVL1:
 	mov	%d4, %d2
 	call	IfxScuWdt_disableCpuWatchdog
 .LVL2:
-	.loc 1 47 0
+	.loc 1 52 0
 	call	IfxScuWdt_getSafetyWatchdogPassword
 .LVL3:
 	mov	%d4, %d2
-	.loc 1 50 0
+	.loc 1 55 0
 	movh.a	%a15, hi:cpuSyncEvent
-	.loc 1 47 0
+	.loc 1 52 0
 	call	IfxScuWdt_disableSafetyWatchdog
 .LVL4:
-	.loc 1 50 0
+	.loc 1 55 0
 	lea	%a15, [%a15] lo:cpuSyncEvent
 	mov.aa	%a4, %a15
 	call	IfxCpu_emitEvent
 .LVL5:
-	.loc 1 51 0
+	.loc 1 56 0
 	mov.aa	%a4, %a15
 	mov	%d4, 1
 	call	IfxCpu_waitEvent
 .LVL6:
-	.loc 1 63 0
-	movh.a	%a15, hi:IfxPort_P14_4
-	.loc 1 53 0
+	.loc 1 70 0
+	movh.a	%a12, hi:IfxPort_P14_4
+	.loc 1 58 0
 	call	ClockConfig
 .LVL7:
-	.loc 1 63 0
-	lea	%a15, [%a15] lo:IfxPort_P14_4
-	.loc 1 56 0
+	.loc 1 70 0
+	lea	%a12, [%a12] lo:IfxPort_P14_4
+	.loc 1 61 0
 	call	Motors_initialization
 .LVL8:
-	.loc 1 57 0
+	.loc 1 62 0
 	call	Init_gyro
 .LVL9:
-	.loc 1 58 0
+	.loc 1 63 0
 	call	Encoders_config
 .LVL10:
-	.loc 1 59 0
+	.loc 1 64 0
 	call	serial_config
 .LVL11:
-	.loc 1 62 0
-	call	configUltrasonicSensor
+	.loc 1 65 0
+	call	serial_config_Raspberry
 .LVL12:
-	.loc 1 63 0
-	ld.d	%e4, [%a15]0
-	movh.a	%a13, hi:distance_obstacle
-	call	sendTrig
-.LVL13:
-	.loc 1 66 0
-	call	config_servomotor
-.LVL14:
-	.loc 1 67 0
-	call	sweep_servo_config
-.LVL15:
 	.loc 1 69 0
+	call	configUltrasonicSensor
+.LVL13:
+	.loc 1 70 0
+	ld.d	%e4, [%a12]0
+	movh.a	%a15, hi:D
+	call	sendTrig
+.LVL14:
+	.loc 1 71 0
+	call	serial_config_Raspberry
+.LVL15:
+	.loc 1 73 0
+	call	config_servomotor
+.LVL16:
+	.loc 1 74 0
+	call	sweep_servo_config
+.LVL17:
+	.loc 1 76 0
 	mov	%d4, 45
+	lea	%a15, [%a15] lo:D
+	call	move_servo
+.LVL18:
+	.loc 1 80 0
+	ld.w	%d15, [%a15]0
+	movh.a	%a14, hi:distance_obstacle
 .LBB34:
 .LBB35:
 .LBB36:
@@ -90,17 +102,16 @@ core0_main:
 .LBB39:
 	.file 3 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuCcu.h"
 	.loc 3 1105 0
-	movh.a	%a12, 61443
+	movh.a	%a13, 61443
 .LBE39:
 .LBE38:
 .LBE37:
 .LBE36:
 .LBE35:
 .LBE34:
-	.loc 1 69 0
-	call	move_servo
-.LVL16:
-	lea	%a13, [%a13] lo:distance_obstacle
+	.loc 1 80 0
+	ge	%d15, %d15, 30
+	lea	%a14, [%a14] lo:distance_obstacle
 .LBB51:
 .LBB48:
 .LBB46:
@@ -108,37 +119,39 @@ core0_main:
 .LBB42:
 .LBB40:
 	.loc 3 1105 0
-	lea	%a12, [%a12] 24628
-.LVL17:
-.L5:
+	lea	%a13, [%a13] 24628
 .LBE40:
 .LBE42:
 .LBE44:
 .LBE46:
 .LBE48:
 .LBE51:
-	.loc 1 73 0
-	call	sweep_servo
-.LVL18:
-	.loc 1 75 0
-	call	returnDistance
+	.loc 1 80 0
+	jz	%d15, .L10
 .LVL19:
-	.loc 1 77 0
+.L2:
+	.loc 1 84 0
+	call	sweep_servo
+.LVL20:
+	.loc 1 86 0
+	call	returnDistance
+.LVL21:
+	.loc 1 88 0
 	movh	%d7, 16687
 	mov	%e4, %d3, %d2
 	mov	%d6, 0
 	addi	%d7, %d7, -31616
-	.loc 1 75 0
+	.loc 1 86 0
 	mov	%e8, %d3, %d2
-.LVL20:
-	.loc 1 77 0
-	call	__ltdf2
-.LVL21:
-	jgez	%d2, .L2
-	.loc 1 79 0
-	st.d	[%a13]0, %e8
-.L2:
 .LVL22:
+	.loc 1 88 0
+	call	__ltdf2
+.LVL23:
+	jgez	%d2, .L3
+	.loc 1 90 0
+	st.d	[%a14]0, %e8
+.L3:
+.LVL24:
 .LBB52:
 .LBB49:
 .LBB47:
@@ -147,12 +160,12 @@ core0_main:
 .LBB41:
 	.loc 3 1105 0
 	call	IfxScuCcu_getSourceFrequency
-.LVL23:
-	ld.w	%d15, [%a12]0
-	extr.u	%d15, %d15, 8, 4
-.LVL24:
-	itof	%d15, %d15
 .LVL25:
+	ld.w	%d15, [%a13]0
+	extr.u	%d15, %d15, 8, 4
+.LVL26:
+	itof	%d15, %d15
+.LVL27:
 	div.f	%d2, %d2, %d15
 .LBE41:
 .LBE43:
@@ -183,8 +196,8 @@ core0_main:
 	sha	%d15, %d15, -31
 	sha	%d3, -6
 	sub	%d3, %d15
-.LVL26:
-.L4:
+.LVL28:
+.L5:
 .LBE50:
 .LBE60:
 .LBB61:
@@ -197,15 +210,23 @@ core0_main:
 .LBE57:
 	.loc 4 672 0
 	sub	%d15, %d2
-	jlt.u	%d15, %d3, .L4
+	jlt.u	%d15, %d3, .L5
 .LBE59:
 .LBE61:
-	.loc 1 84 0
-	ld.d	%e4, [%a15]0
+	.loc 1 95 0
+	ld.d	%e4, [%a12]0
 	call	sendTrig
-.LVL27:
-	.loc 1 85 0
-	j	.L5
+.LVL29:
+	.loc 1 80 0
+	ld.w	%d15, [%a15]0
+	ge	%d15, %d15, 30
+	jnz	%d15, .L2
+.LVL30:
+.L10:
+	.loc 1 82 0
+	call	beep
+.LVL31:
+	j	.L2
 .LFE512:
 	.size	core0_main, .-core0_main
 .section .text.command,"ax",@progbits
@@ -214,96 +235,326 @@ core0_main:
 	.type	command, @function
 command:
 .LFB513:
-	.loc 1 90 0
-.LVL28:
-	.loc 1 90 0
+	.loc 1 101 0
+.LVL32:
+	.loc 1 101 0
 	mov	%d15, %d4
-	.loc 1 91 0
+	.loc 1 102 0
 	and	%d4, %d4, 255
 	call	serial_send
-.LVL29:
-	.loc 1 92 0
+.LVL33:
+	.loc 1 103 0
 	addi	%d15, %d15, -97
 	ge.u	%d2, %d15, 23
-	jz	%d2, .L17
-.L9:
+	jz	%d2, .L19
+.L11:
 	ret
-.L17:
-	movh.a	%a15, hi:.L12
-	lea	%a15, [%a15] lo:.L12
+.L19:
+	movh.a	%a15, hi:.L14
+	lea	%a15, [%a15] lo:.L14
 	addsc.a	%a15, %a15, %d15, 2
 	ji	%a15
 	.align 2
 	.align 2
-.L12:
-	.code32
-	j	.L11
-	.code32
-	j	.L9
-	.code32
-	j	.L9
+.L14:
 	.code32
 	j	.L13
 	.code32
-	j	.L9
+	j	.L11
 	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L9
-	.code32
-	j	.L14
-	.code32
-	j	.L9
+	j	.L11
 	.code32
 	j	.L15
 	.code32
-	j	.L9
+	j	.L11
 	.code32
-	j	.L9
+	j	.L11
 	.code32
-	j	.L9
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
 	.code32
 	j	.L16
-.L11:
-	.loc 1 100 0
-	j	Left
-.LVL30:
+	.code32
+	j	.L11
+	.code32
+	j	.L17
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L11
+	.code32
+	j	.L18
 .L13:
-	.loc 1 103 0
-	j	Right
-.LVL31:
-.L14:
-	.loc 1 106 0
-	j	Motors_stop
-.LVL32:
-.L15:
-	.loc 1 97 0
-	j	Backward_1
-.LVL33:
-.L16:
-	.loc 1 94 0
-	j	Forward_1
+	.loc 1 111 0
+	j	Left
 .LVL34:
+.L15:
+	.loc 1 114 0
+	j	Right
+.LVL35:
+.L16:
+	.loc 1 117 0
+	j	Motors_stop
+.LVL36:
+.L17:
+	.loc 1 108 0
+	j	Backward_1
+.LVL37:
+.L18:
+	.loc 1 105 0
+	j	Forward_1
+.LVL38:
 .LFE513:
 	.size	command, .-command
+.section .text.Raspberry_rcv,"ax",@progbits
+	.align 1
+	.global	Raspberry_rcv
+	.type	Raspberry_rcv, @function
+Raspberry_rcv:
+.LFB514:
+	.loc 1 125 0
+.LVL39:
+	.loc 1 126 0
+	movh.a	%a15, hi:state_machine
+	ld.w	%d15, [%a15] lo:state_machine
+	jlt.u	%d15, 5, .L36
+	.loc 1 180 0
+	mov	%d15, 0
+	movh.a	%a2, hi:enable_flag
+	st.w	[%a2] lo:enable_flag, %d15
+	.loc 1 181 0
+	st.w	[%a15] lo:state_machine, %d15
+.LVL40:
+.L20:
+	ret
+.LVL41:
+.L36:
+	.loc 1 126 0
+	movh.a	%a2, hi:.L23
+	lea	%a2, [%a2] lo:.L23
+	addsc.a	%a2, %a2, %d15, 2
+	ji	%a2
+	.align 2
+	.align 2
+.L23:
+	.code32
+	j	.L22
+	.code32
+	j	.L24
+	.code32
+	j	.L25
+	.code32
+	j	.L26
+	.code32
+	j	.L27
+.L26:
+	.loc 1 158 0
+	movh.a	%a2, hi:enable_flag
+	ld.w	%d15, [%a2] lo:enable_flag
+	jne	%d15, 1, .L20
+	.loc 1 159 0
+	ne	%d15, %d4, 33
+	jz	%d15, .L37
+	.loc 1 164 0
+	movh.a	%a2, hi:distance
+	movh.a	%a15, hi:i
+	lea	%a2, [%a2] lo:distance
+.L35:
+	ld.a	%a3, [%a15] lo:i
+	.loc 1 165 0
+	mov.d	%d15, %a3
+	add	%d15, 1
+	.loc 1 164 0
+	add.a	%a2, %a3
+	st.b	[%a2]0, %d4
+	.loc 1 165 0
+	st.w	[%a15] lo:i, %d15
+	ret
+.L27:
+	.loc 1 170 0
+	ne	%d15, %d4, 45
+	jz	%d15, .L38
+	.loc 1 173 0
+	ne	%d4, %d4, 33
+.LVL42:
+	jnz	%d4, .L20
+.LBB62:
+	.loc 1 174 0
+	mov	%d15, 0
+	.loc 1 175 0
+	movh.a	%a4, hi:angle
+	lea	%a4, [%a4] lo:angle
+	.loc 1 174 0
+	st.w	[%a15] lo:state_machine, %d15
+	.loc 1 175 0
+	call	atoi
+.LVL43:
+	.loc 1 176 0
+	movh.a	%a4, hi:distance
+	.loc 1 175 0
+	movh.a	%a15, hi:A
+	.loc 1 176 0
+	lea	%a4, [%a4] lo:distance
+	.loc 1 175 0
+	st.w	[%a15] lo:A, %d2
+	.loc 1 176 0
+	call	atoi
+.LVL44:
+	movh.a	%a15, hi:D
+	st.w	[%a15] lo:D, %d2
+	ret
+.LVL45:
+.L22:
+.LBE62:
+	.loc 1 128 0
+	ne	%d15, %d4, 43
+	jz	%d15, .L39
+	.loc 1 131 0
+	ne	%d4, %d4, 33
+.LVL46:
+	jnz	%d4, .L20
+	.loc 1 132 0
+	mov	%d15, 1
+	st.w	[%a15] lo:state_machine, %d15
+	ret
+.LVL47:
+.L24:
+	.loc 1 136 0
+	movh.a	%a2, hi:enable_flag
+	ld.w	%d15, [%a2] lo:enable_flag
+	jne	%d15, 1, .L20
+	.loc 1 137 0
+	ne	%d15, %d4, 33
+	jz	%d15, .L40
+	.loc 1 141 0
+	movh.a	%a15, hi:object_detect
+	st.b	[%a15] lo:object_detect, %d4
+	ret
+.L25:
+	.loc 1 146 0
+	movh.a	%a2, hi:enable_flag
+	ld.w	%d15, [%a2] lo:enable_flag
+	jne	%d15, 1, .L20
+	.loc 1 147 0
+	ne	%d15, %d4, 33
+	jz	%d15, .L41
+	.loc 1 152 0
+	movh.a	%a2, hi:angle
+	movh.a	%a15, hi:i
+	lea	%a2, [%a2] lo:angle
+	j	.L35
+.L41:
+	.loc 1 148 0
+	mov	%d15, 3
+	st.w	[%a15] lo:state_machine, %d15
+	.loc 1 149 0
+	mov	%d15, 0
+	movh.a	%a15, hi:i
+	st.w	[%a15] lo:i, %d15
+	ret
+.L40:
+	.loc 1 138 0
+	mov	%d15, 2
+	st.w	[%a15] lo:state_machine, %d15
+	ret
+.L37:
+	.loc 1 160 0
+	mov	%d15, 4
+	st.w	[%a15] lo:state_machine, %d15
+	.loc 1 161 0
+	mov	%d15, 0
+	movh.a	%a15, hi:i
+	st.w	[%a15] lo:i, %d15
+	ret
+.L38:
+	.loc 1 170 0 discriminator 1
+	movh.a	%a15, hi:enable_flag
+	ld.w	%d15, [%a15] lo:enable_flag
+	jne	%d15, 1, .L20
+	.loc 1 171 0
+	mov	%d15, 0
+	st.w	[%a15] lo:enable_flag, %d15
+	ret
+.L39:
+	.loc 1 129 0
+	mov	%d15, 1
+	movh.a	%a15, hi:enable_flag
+	st.w	[%a15] lo:enable_flag, %d15
+	ret
+.LFE514:
+	.size	Raspberry_rcv, .-Raspberry_rcv
+	.global	D
+.section .bss.D,"aw",@nobits
+	.align 2
+	.type	D, @object
+	.size	D, 4
+D:
+	.zero	4
+	.global	A
+.section .bss.A,"aw",@nobits
+	.align 2
+	.type	A, @object
+	.size	A, 4
+A:
+	.zero	4
+	.global	i
+.section .bss.i,"aw",@nobits
+	.align 2
+	.type	i, @object
+	.size	i, 4
+i:
+	.zero	4
+	.global	distance
+.section .bss.distance,"aw",@nobits
+	.type	distance, @object
+	.size	distance, 10
+distance:
+	.zero	10
+	.global	angle
+.section .bss.angle,"aw",@nobits
+	.type	angle, @object
+	.size	angle, 10
+angle:
+	.zero	10
+	.global	enable_flag
+.section .bss.enable_flag,"aw",@nobits
+	.align 2
+	.type	enable_flag, @object
+	.size	enable_flag, 4
+enable_flag:
+	.zero	4
+	.global	state_machine
+.section .bss.state_machine,"aw",@nobits
+	.align 2
+	.type	state_machine, @object
+	.size	state_machine, 4
+state_machine:
+	.zero	4
+	.global	object_detect
+.section .bss.object_detect,"aw",@nobits
+	.type	object_detect, @object
+	.size	object_detect, 1
+object_detect:
+	.zero	1
 	.global	distance_obstacle
 .section .bss.distance_obstacle,"aw",@nobits
 	.align 2
@@ -349,6 +600,14 @@ cpuSyncEvent:
 	.uaword	.LFE513-.LFB513
 	.align 2
 .LEFDE2:
+.LSFDE4:
+	.uaword	.LEFDE4-.LASFDE4
+.LASFDE4:
+	.uaword	.Lframe0
+	.uaword	.LFB514
+	.uaword	.LFE514-.LFB514
+	.align 2
+.LEFDE4:
 .section .text,"ax",@progbits
 .Letext0:
 	.file 5 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/Platform_Types.h"
@@ -365,11 +624,13 @@ cpuSyncEvent:
 	.file 16 "0_Src/AppSw/Tricore/Encoders/Encoders_config.h"
 	.file 17 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.h"
 	.file 18 "0_Src/AppSw/Tricore/Serial/serial.h"
-	.file 19 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h"
-	.file 20 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+	.file 19 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h"
+	.file 20 "0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h"
+	.file 21 "0_Src/AppSw/Tricore/Servomotor/servomotor.h"
+	.file 22 "0_Src/AppSw/Tricore/Beeper/Beeper.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x41ea
+	.uaword	0x437d
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -6897,7 +7158,7 @@ cpuSyncEvent:
 	.byte	0x1
 	.string	"core0_main"
 	.byte	0x1
-	.byte	0x24
+	.byte	0x29
 	.byte	0x1
 	.uaword	0x185
 	.uaword	.LFB512
@@ -6905,17 +7166,17 @@ cpuSyncEvent:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3e1c
+	.uaword	0x3e35
 	.uleb128 0x22
 	.string	"temp"
 	.byte	0x1
-	.byte	0x26
+	.byte	0x2b
 	.uaword	0x23f
 	.uaword	.LLST0
 	.uleb128 0x23
 	.string	"stm_sfr"
 	.byte	0x1
-	.byte	0x27
+	.byte	0x2c
 	.uaword	0x3b21
 	.sleb128 -268435456
 	.uleb128 0x24
@@ -6923,26 +7184,26 @@ cpuSyncEvent:
 	.uaword	.LBB32
 	.uaword	.LBE32
 	.byte	0x1
-	.byte	0x29
+	.byte	0x2e
 	.uleb128 0x25
 	.uaword	0x3b27
 	.uaword	.LBB34
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
-	.byte	0x52
-	.uaword	0x3cde
+	.byte	0x5d
+	.uaword	0x3cdf
 	.uleb128 0x26
 	.uaword	0x3b55
-	.sleb128 -268435456
-	.uleb128 0x27
-	.uaword	0x3b61
-	.byte	0x1
-	.uleb128 0x28
-	.uaword	.Ldebug_ranges0+0
-	.uleb128 0x29
-	.uaword	0x3b76
 	.uaword	.LLST1
-	.uleb128 0x2a
+	.uleb128 0x26
+	.uaword	0x3b61
+	.uaword	.LLST2
+	.uleb128 0x27
+	.uaword	.Ldebug_ranges0+0
+	.uleb128 0x28
+	.uaword	0x3b76
+	.uaword	.LLST3
+	.uleb128 0x29
 	.uaword	0x3ae3
 	.uaword	.LBB36
 	.uaword	.Ldebug_ranges0+0x28
@@ -6950,20 +7211,20 @@ cpuSyncEvent:
 	.uahalf	0x266
 	.uleb128 0x26
 	.uaword	0x3b05
-	.sleb128 -268435456
-	.uleb128 0x28
+	.uaword	.LLST1
+	.uleb128 0x27
 	.uaword	.Ldebug_ranges0+0x28
-	.uleb128 0x2b
-	.uaword	0x3b11
 	.uleb128 0x2a
+	.uaword	0x3b11
+	.uleb128 0x29
 	.uaword	0x3abf
 	.uaword	.LBB38
 	.uaword	.Ldebug_ranges0+0x28
 	.byte	0x4
 	.uahalf	0x223
-	.uleb128 0x2c
-	.uaword	.LVL23
-	.uaword	0x3f19
+	.uleb128 0x2b
+	.uaword	.LVL25
+	.uaword	0x406a
 	.byte	0
 	.byte	0
 	.byte	0
@@ -6974,30 +7235,30 @@ cpuSyncEvent:
 	.uaword	.LBB53
 	.uaword	.Ldebug_ranges0+0x48
 	.byte	0x1
-	.byte	0x52
-	.uaword	0x3d4a
-	.uleb128 0x2d
+	.byte	0x5d
+	.uaword	0x3d48
+	.uleb128 0x26
 	.uaword	0x3bf4
-	.uaword	.LLST2
+	.uaword	.LLST5
 	.uleb128 0x26
 	.uaword	0x3be8
-	.sleb128 -268435456
-	.uleb128 0x28
+	.uaword	.LLST6
+	.uleb128 0x27
 	.uaword	.Ldebug_ranges0+0x48
-	.uleb128 0x2b
+	.uleb128 0x2a
 	.uaword	0x3c02
-	.uleb128 0x2e
+	.uleb128 0x2c
 	.uaword	0x3b84
 	.uaword	.LBB55
 	.uaword	.LBE55
 	.byte	0x4
 	.uahalf	0x29b
-	.uaword	0x3d2d
+	.uaword	0x3d2c
 	.uleb128 0x26
 	.uaword	0x3ba2
-	.sleb128 -268435456
+	.uaword	.LLST6
 	.byte	0
-	.uleb128 0x2f
+	.uleb128 0x2d
 	.uaword	0x3b84
 	.uaword	.LBB57
 	.uaword	.LBE57
@@ -7005,120 +7266,129 @@ cpuSyncEvent:
 	.uahalf	0x2a0
 	.uleb128 0x26
 	.uaword	0x3ba2
-	.sleb128 -268435456
+	.uaword	.LLST6
 	.byte	0
 	.byte	0
 	.byte	0
-	.uleb128 0x2c
+	.uleb128 0x2b
 	.uaword	.LVL1
-	.uaword	0x3f41
-	.uleb128 0x2c
+	.uaword	0x4092
+	.uleb128 0x2b
 	.uaword	.LVL2
-	.uaword	0x3f6d
-	.uleb128 0x2c
+	.uaword	0x40be
+	.uleb128 0x2b
 	.uaword	.LVL3
-	.uaword	0x3f9b
-	.uleb128 0x2c
+	.uaword	0x40ec
+	.uleb128 0x2b
 	.uaword	.LVL4
-	.uaword	0x3fca
-	.uleb128 0x30
+	.uaword	0x411b
+	.uleb128 0x2e
 	.uaword	.LVL5
-	.uaword	0x3ffb
-	.uaword	0x3d82
-	.uleb128 0x31
+	.uaword	0x414c
+	.uaword	0x3d80
+	.uleb128 0x2f
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8f
 	.sleb128 0
 	.byte	0
-	.uleb128 0x30
+	.uleb128 0x2e
 	.uaword	.LVL6
-	.uaword	0x4023
-	.uaword	0x3d9b
-	.uleb128 0x31
+	.uaword	0x4174
+	.uaword	0x3d99
+	.uleb128 0x2f
 	.byte	0x1
 	.byte	0x54
 	.byte	0x1
 	.byte	0x31
-	.uleb128 0x31
+	.uleb128 0x2f
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8f
 	.sleb128 0
 	.byte	0
-	.uleb128 0x2c
+	.uleb128 0x2b
 	.uaword	.LVL7
-	.uaword	0x404e
-	.uleb128 0x2c
+	.uaword	0x419f
+	.uleb128 0x2b
 	.uaword	.LVL8
-	.uaword	0x4065
-	.uleb128 0x2c
+	.uaword	0x41b6
+	.uleb128 0x2b
 	.uaword	.LVL9
-	.uaword	0x4086
-	.uleb128 0x2c
+	.uaword	0x41d7
+	.uleb128 0x2b
 	.uaword	.LVL10
-	.uaword	0x4096
-	.uleb128 0x2c
+	.uaword	0x41e7
+	.uleb128 0x2b
 	.uaword	.LVL11
-	.uaword	0x40b1
-	.uleb128 0x2c
+	.uaword	0x4202
+	.uleb128 0x2b
 	.uaword	.LVL12
-	.uaword	0x40c5
-	.uleb128 0x2c
+	.uaword	0x4216
+	.uleb128 0x2b
 	.uaword	.LVL13
-	.uaword	0x40e2
-	.uleb128 0x2c
+	.uaword	0x4239
+	.uleb128 0x2b
 	.uaword	.LVL14
-	.uaword	0x40fb
-	.uleb128 0x2c
+	.uaword	0x4256
+	.uleb128 0x2b
 	.uaword	.LVL15
-	.uaword	0x4113
-	.uleb128 0x30
+	.uaword	0x4216
+	.uleb128 0x2b
 	.uaword	.LVL16
-	.uaword	0x412c
-	.uaword	0x3e00
-	.uleb128 0x31
+	.uaword	0x426f
+	.uleb128 0x2b
+	.uaword	.LVL17
+	.uaword	0x4287
+	.uleb128 0x2e
+	.uaword	.LVL18
+	.uaword	0x42a0
+	.uaword	0x3e10
+	.uleb128 0x2f
 	.byte	0x1
 	.byte	0x54
 	.byte	0x2
 	.byte	0x8
 	.byte	0x2d
 	.byte	0
-	.uleb128 0x2c
-	.uaword	.LVL18
-	.uaword	0x4147
-	.uleb128 0x2c
-	.uaword	.LVL19
-	.uaword	0x4159
-	.uleb128 0x2c
-	.uaword	.LVL27
-	.uaword	0x40e2
+	.uleb128 0x2b
+	.uaword	.LVL20
+	.uaword	0x42bb
+	.uleb128 0x2b
+	.uaword	.LVL21
+	.uaword	0x42cd
+	.uleb128 0x2b
+	.uaword	.LVL29
+	.uaword	0x4256
+	.uleb128 0x2b
+	.uaword	.LVL31
+	.uaword	0x42e6
 	.byte	0
-	.uleb128 0x32
+	.uleb128 0x30
 	.byte	0x1
 	.string	"command"
 	.byte	0x1
-	.byte	0x59
+	.byte	0x64
 	.byte	0x1
 	.uaword	.LFB513
 	.uaword	.LFE513
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3e90
-	.uleb128 0x33
+	.uaword	0x3ea9
+	.uleb128 0x31
 	.string	"recv"
 	.byte	0x1
-	.byte	0x59
+	.byte	0x64
 	.uaword	0x292
-	.uaword	.LLST3
-	.uleb128 0x30
-	.uaword	.LVL29
-	.uaword	0x4172
-	.uaword	0x3e5d
-	.uleb128 0x31
+	.uaword	.LLST9
+	.uleb128 0x2e
+	.uaword	.LVL33
+	.uaword	0x42f1
+	.uaword	0x3e76
+	.uleb128 0x2f
 	.byte	0x1
 	.byte	0x54
 	.byte	0x3
@@ -7126,51 +7396,105 @@ cpuSyncEvent:
 	.uleb128 0x1
 	.byte	0x54
 	.byte	0
-	.uleb128 0x34
-	.uaword	.LVL30
-	.byte	0x1
-	.uaword	0x418e
-	.uleb128 0x34
-	.uaword	.LVL31
-	.byte	0x1
-	.uaword	0x419e
-	.uleb128 0x34
-	.uaword	.LVL32
-	.byte	0x1
-	.uaword	0x41af
-	.uleb128 0x34
-	.uaword	.LVL33
-	.byte	0x1
-	.uaword	0x41c6
-	.uleb128 0x34
+	.uleb128 0x32
 	.uaword	.LVL34
 	.byte	0x1
-	.uaword	0x41dc
+	.uaword	0x430d
+	.uleb128 0x32
+	.uaword	.LVL35
+	.byte	0x1
+	.uaword	0x431d
+	.uleb128 0x32
+	.uaword	.LVL36
+	.byte	0x1
+	.uaword	0x432e
+	.uleb128 0x32
+	.uaword	.LVL37
+	.byte	0x1
+	.uaword	0x4345
+	.uleb128 0x32
+	.uaword	.LVL38
+	.byte	0x1
+	.uaword	0x435b
+	.byte	0
+	.uleb128 0x30
+	.byte	0x1
+	.string	"Raspberry_rcv"
+	.byte	0x1
+	.byte	0x7c
+	.byte	0x1
+	.uaword	.LFB514
+	.uaword	.LFE514
+	.byte	0x1
+	.byte	0x9c
+	.byte	0x1
+	.uaword	0x3f24
+	.uleb128 0x31
+	.string	"recv"
+	.byte	0x1
+	.byte	0x7c
+	.uaword	0x292
+	.uaword	.LLST10
+	.uleb128 0x33
+	.uaword	.LBB62
+	.uaword	.LBE62
+	.uleb128 0x34
+	.byte	0x1
+	.string	"atoi"
+	.byte	0x1
+	.byte	0xaf
+	.uaword	0x185
+	.byte	0x1
+	.uaword	0x3ef8
+	.uleb128 0x35
+	.byte	0
+	.uleb128 0x2e
+	.uaword	.LVL43
+	.uaword	0x4370
+	.uaword	0x3f0f
+	.uleb128 0x2f
+	.byte	0x1
+	.byte	0x64
+	.byte	0x5
+	.byte	0x3
+	.uaword	angle
+	.byte	0
+	.uleb128 0x36
+	.uaword	.LVL44
+	.uaword	0x4370
+	.uleb128 0x2f
+	.byte	0x1
+	.byte	0x64
+	.byte	0x5
+	.byte	0x3
+	.uaword	distance
+	.byte	0
+	.byte	0
 	.byte	0
 	.uleb128 0x8
 	.uaword	0x2c7
-	.uaword	0x3ea0
+	.uaword	0x3f34
 	.uleb128 0x9
 	.uaword	0x2f1
 	.byte	0x2
 	.byte	0
-	.uleb128 0x35
+	.uleb128 0x37
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xb
 	.byte	0x96
-	.uaword	0x3ebd
+	.uaword	0x3f51
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x36
-	.uaword	0x3e90
-	.uleb128 0x35
+	.uleb128 0x38
+	.uaword	0x3f24
+	.uleb128 0x37
 	.string	"IfxPort_P14_4"
 	.byte	0xc
 	.byte	0x8f
 	.uaword	0x3a85
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x37
+	.uleb128 0x39
 	.string	"cpuSyncEvent"
 	.byte	0x1
 	.byte	0x1b
@@ -7179,18 +7503,97 @@ cpuSyncEvent:
 	.byte	0x5
 	.byte	0x3
 	.uaword	cpuSyncEvent
-	.uleb128 0x37
+	.uleb128 0x39
 	.string	"distance_obstacle"
 	.byte	0x1
 	.byte	0x22
-	.uaword	0x3f14
+	.uaword	0x3fa8
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	distance_obstacle
 	.uleb128 0x17
 	.uaword	0x23f
-	.uleb128 0x38
+	.uleb128 0x39
+	.string	"object_detect"
+	.byte	0x1
+	.byte	0x23
+	.uaword	0x292
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	object_detect
+	.uleb128 0x39
+	.string	"state_machine"
+	.byte	0x1
+	.byte	0x24
+	.uaword	0x185
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	state_machine
+	.uleb128 0x39
+	.string	"enable_flag"
+	.byte	0x1
+	.byte	0x24
+	.uaword	0x185
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	enable_flag
+	.uleb128 0x8
+	.uaword	0x292
+	.uaword	0x400f
+	.uleb128 0x9
+	.uaword	0x2f1
+	.byte	0x9
+	.byte	0
+	.uleb128 0x39
+	.string	"angle"
+	.byte	0x1
+	.byte	0x25
+	.uaword	0x3fff
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	angle
+	.uleb128 0x39
+	.string	"distance"
+	.byte	0x1
+	.byte	0x26
+	.uaword	0x3fff
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	distance
+	.uleb128 0x39
+	.string	"i"
+	.byte	0x1
+	.byte	0x27
+	.uaword	0x185
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	i
+	.uleb128 0x39
+	.string	"A"
+	.byte	0x1
+	.byte	0x27
+	.uaword	0x185
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	A
+	.uleb128 0x39
+	.string	"D"
+	.byte	0x1
+	.byte	0x27
+	.uaword	0x185
+	.byte	0x1
+	.byte	0x5
+	.byte	0x3
+	.uaword	D
+	.uleb128 0x3a
 	.byte	0x1
 	.string	"IfxScuCcu_getSourceFrequency"
 	.byte	0x3
@@ -7198,7 +7601,7 @@ cpuSyncEvent:
 	.byte	0x1
 	.uaword	0x230
 	.byte	0x1
-	.uleb128 0x38
+	.uleb128 0x3a
 	.byte	0x1
 	.string	"IfxScuWdt_getCpuWatchdogPassword"
 	.byte	0xd
@@ -7206,18 +7609,18 @@ cpuSyncEvent:
 	.byte	0x1
 	.uaword	0x1f0
 	.byte	0x1
-	.uleb128 0x39
+	.uleb128 0x3b
 	.byte	0x1
 	.string	"IfxScuWdt_disableCpuWatchdog"
 	.byte	0xd
 	.uahalf	0x146
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x3f9b
-	.uleb128 0x3a
+	.uaword	0x40ec
+	.uleb128 0x3c
 	.uaword	0x1f0
 	.byte	0
-	.uleb128 0x38
+	.uleb128 0x3a
 	.byte	0x1
 	.string	"IfxScuWdt_getSafetyWatchdogPassword"
 	.byte	0xd
@@ -7225,32 +7628,32 @@ cpuSyncEvent:
 	.byte	0x1
 	.uaword	0x1f0
 	.byte	0x1
-	.uleb128 0x39
+	.uleb128 0x3b
 	.byte	0x1
 	.string	"IfxScuWdt_disableSafetyWatchdog"
 	.byte	0xd
 	.uahalf	0x150
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x3ffb
-	.uleb128 0x3a
+	.uaword	0x414c
+	.uleb128 0x3c
 	.uaword	0x1f0
 	.byte	0
-	.uleb128 0x39
+	.uleb128 0x3b
 	.byte	0x1
 	.string	"IfxCpu_emitEvent"
 	.byte	0x2
 	.uahalf	0x26d
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x401d
-	.uleb128 0x3a
-	.uaword	0x401d
+	.uaword	0x416e
+	.uleb128 0x3c
+	.uaword	0x416e
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
 	.uaword	0x3a98
-	.uleb128 0x3b
+	.uleb128 0x3d
 	.byte	0x1
 	.string	"IfxCpu_waitEvent"
 	.byte	0x2
@@ -7258,47 +7661,47 @@ cpuSyncEvent:
 	.byte	0x1
 	.uaword	0x258
 	.byte	0x1
-	.uaword	0x404e
-	.uleb128 0x3a
-	.uaword	0x401d
-	.uleb128 0x3a
+	.uaword	0x419f
+	.uleb128 0x3c
+	.uaword	0x416e
+	.uleb128 0x3c
 	.uaword	0x222
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"ClockConfig"
 	.byte	0xe
 	.byte	0x19
 	.byte	0x1
-	.uaword	0x4065
-	.uleb128 0x3d
+	.uaword	0x41b6
+	.uleb128 0x35
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"Motors_initialization"
 	.byte	0xf
 	.byte	0x31
 	.byte	0x1
-	.uaword	0x4086
-	.uleb128 0x3d
+	.uaword	0x41d7
+	.uleb128 0x35
 	.byte	0
-	.uleb128 0x3e
+	.uleb128 0x3f
 	.byte	0x1
 	.string	"Init_gyro"
 	.byte	0x11
 	.byte	0x80
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x3c
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"Encoders_config"
 	.byte	0x10
 	.byte	0x17
 	.byte	0x1
-	.uaword	0x40b1
-	.uleb128 0x3d
+	.uaword	0x4202
+	.uleb128 0x35
 	.byte	0
-	.uleb128 0x3e
+	.uleb128 0x3f
 	.byte	0x1
 	.string	"serial_config"
 	.byte	0x12
@@ -7307,116 +7710,142 @@ cpuSyncEvent:
 	.byte	0x1
 	.uleb128 0x3e
 	.byte	0x1
+	.string	"serial_config_Raspberry"
+	.byte	0x13
+	.byte	0x17
+	.byte	0x1
+	.uaword	0x4239
+	.uleb128 0x35
+	.byte	0
+	.uleb128 0x3f
+	.byte	0x1
 	.string	"configUltrasonicSensor"
-	.byte	0x13
+	.byte	0x14
 	.byte	0x18
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x3f
-	.byte	0x1
-	.string	"sendTrig"
-	.byte	0x13
-	.byte	0x1b
-	.byte	0x1
-	.byte	0x1
-	.uaword	0x40fb
-	.uleb128 0x3a
-	.uaword	0x3a85
-	.byte	0
-	.uleb128 0x3e
-	.byte	0x1
-	.string	"config_servomotor"
-	.byte	0x14
-	.byte	0x22
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x3e
-	.byte	0x1
-	.string	"sweep_servo_config"
-	.byte	0x14
-	.byte	0x36
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x3f
-	.byte	0x1
-	.string	"move_servo"
-	.byte	0x14
-	.byte	0x2b
-	.byte	0x1
-	.byte	0x1
-	.uaword	0x4147
-	.uleb128 0x3a
-	.uaword	0x1d2
-	.byte	0
-	.uleb128 0x3e
-	.byte	0x1
-	.string	"sweep_servo"
-	.byte	0x14
-	.byte	0x3f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x40
 	.byte	0x1
+	.string	"sendTrig"
+	.byte	0x14
+	.byte	0x1b
+	.byte	0x1
+	.byte	0x1
+	.uaword	0x426f
+	.uleb128 0x3c
+	.uaword	0x3a85
+	.byte	0
+	.uleb128 0x3f
+	.byte	0x1
+	.string	"config_servomotor"
+	.byte	0x15
+	.byte	0x22
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x3f
+	.byte	0x1
+	.string	"sweep_servo_config"
+	.byte	0x15
+	.byte	0x36
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x40
+	.byte	0x1
+	.string	"move_servo"
+	.byte	0x15
+	.byte	0x2b
+	.byte	0x1
+	.byte	0x1
+	.uaword	0x42bb
+	.uleb128 0x3c
+	.uaword	0x1d2
+	.byte	0
+	.uleb128 0x3f
+	.byte	0x1
+	.string	"sweep_servo"
+	.byte	0x15
+	.byte	0x3f
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x41
+	.byte	0x1
 	.string	"returnDistance"
-	.byte	0x13
+	.byte	0x14
 	.byte	0x28
 	.byte	0x1
 	.uaword	0x23f
 	.byte	0x1
 	.uleb128 0x3f
 	.byte	0x1
+	.string	"beep"
+	.byte	0x16
+	.byte	0x10
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x40
+	.byte	0x1
 	.string	"serial_send"
 	.byte	0x12
 	.byte	0xc
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x418e
-	.uleb128 0x3a
+	.uaword	0x430d
+	.uleb128 0x3c
 	.uaword	0x1c5
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"Left"
 	.byte	0xf
 	.byte	0x42
 	.byte	0x1
-	.uaword	0x419e
-	.uleb128 0x3d
+	.uaword	0x431d
+	.uleb128 0x35
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"Right"
 	.byte	0xf
 	.byte	0x3c
 	.byte	0x1
-	.uaword	0x41af
-	.uleb128 0x3d
+	.uaword	0x432e
+	.uleb128 0x35
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"Motors_stop"
 	.byte	0xf
 	.byte	0x36
 	.byte	0x1
-	.uaword	0x41c6
-	.uleb128 0x3d
+	.uaword	0x4345
+	.uleb128 0x35
 	.byte	0
-	.uleb128 0x3c
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"Backward_1"
 	.byte	0xf
 	.byte	0x2c
 	.byte	0x1
-	.uaword	0x41dc
-	.uleb128 0x3d
+	.uaword	0x435b
+	.uleb128 0x35
 	.byte	0
-	.uleb128 0x41
+	.uleb128 0x3e
 	.byte	0x1
 	.string	"Forward_1"
 	.byte	0xf
 	.byte	0x27
 	.byte	0x1
-	.uleb128 0x3d
+	.uaword	0x4370
+	.uleb128 0x35
+	.byte	0
+	.uleb128 0x42
+	.byte	0x1
+	.string	"atoi"
+	.byte	0x1
+	.byte	0xaf
+	.uaword	0x185
+	.byte	0x1
+	.uleb128 0x35
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -7967,27 +8396,18 @@ cpuSyncEvent:
 	.byte	0
 	.uleb128 0x31
 	.uleb128 0x13
-	.uleb128 0x1c
-	.uleb128 0xd
+	.uleb128 0x2
+	.uleb128 0x6
 	.byte	0
 	.byte	0
 	.uleb128 0x27
-	.uleb128 0x5
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x1c
-	.uleb128 0xb
-	.byte	0
-	.byte	0
-	.uleb128 0x28
 	.uleb128 0xb
 	.byte	0x1
 	.uleb128 0x55
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x29
+	.uleb128 0x28
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x31
@@ -7996,7 +8416,7 @@ cpuSyncEvent:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x29
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
@@ -8011,14 +8431,14 @@ cpuSyncEvent:
 	.uleb128 0x5
 	.byte	0
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2a
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x31
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2c
+	.uleb128 0x2b
 	.uleb128 0x4109
 	.byte	0
 	.uleb128 0x11
@@ -8027,16 +8447,7 @@ cpuSyncEvent:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2d
-	.uleb128 0x5
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x2
-	.uleb128 0x6
-	.byte	0
-	.byte	0
-	.uleb128 0x2e
+	.uleb128 0x2c
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
@@ -8049,37 +8460,37 @@ cpuSyncEvent:
 	.uleb128 0xb
 	.uleb128 0x59
 	.uleb128 0x5
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x2d
+	.uleb128 0x1d
+	.byte	0x1
+	.uleb128 0x31
+	.uleb128 0x13
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x58
+	.uleb128 0xb
+	.uleb128 0x59
+	.uleb128 0x5
+	.byte	0
+	.byte	0
+	.uleb128 0x2e
+	.uleb128 0x4109
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x31
+	.uleb128 0x13
 	.uleb128 0x1
 	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uleb128 0x1d
-	.byte	0x1
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x58
-	.uleb128 0xb
-	.uleb128 0x59
-	.uleb128 0x5
-	.byte	0
-	.byte	0
-	.uleb128 0x30
-	.uleb128 0x4109
-	.byte	0x1
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x31
 	.uleb128 0x410a
 	.byte	0
 	.uleb128 0x2
@@ -8088,7 +8499,7 @@ cpuSyncEvent:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x32
+	.uleb128 0x30
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -8113,7 +8524,7 @@ cpuSyncEvent:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x33
+	.uleb128 0x31
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -8128,7 +8539,7 @@ cpuSyncEvent:
 	.uleb128 0x6
 	.byte	0
 	.byte	0
-	.uleb128 0x34
+	.uleb128 0x32
 	.uleb128 0x4109
 	.byte	0
 	.uleb128 0x11
@@ -8139,9 +8550,20 @@ cpuSyncEvent:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x35
-	.uleb128 0x34
+	.uleb128 0x33
+	.uleb128 0xb
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
 	.byte	0
+	.byte	0
+	.uleb128 0x34
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
 	.uleb128 0x3
 	.uleb128 0x8
 	.uleb128 0x3a
@@ -8150,16 +8572,23 @@ cpuSyncEvent:
 	.uleb128 0xb
 	.uleb128 0x49
 	.uleb128 0x13
-	.uleb128 0x3f
-	.uleb128 0xc
 	.uleb128 0x3c
 	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x35
+	.uleb128 0x18
+	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x36
-	.uleb128 0x26
-	.byte	0
-	.uleb128 0x49
+	.uleb128 0x4109
+	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x31
 	.uleb128 0x13
 	.byte	0
 	.byte	0
@@ -8176,11 +8605,35 @@ cpuSyncEvent:
 	.uleb128 0x13
 	.uleb128 0x3f
 	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.byte	0
+	.byte	0
+	.uleb128 0x38
+	.uleb128 0x26
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x39
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3f
+	.uleb128 0xc
 	.uleb128 0x2
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x38
+	.uleb128 0x3a
 	.uleb128 0x2e
 	.byte	0
 	.uleb128 0x3f
@@ -8199,32 +8652,6 @@ cpuSyncEvent:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x39
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x3a
-	.uleb128 0x5
-	.byte	0
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
 	.uleb128 0x3b
 	.uleb128 0x2e
 	.byte	0x1
@@ -8238,37 +8665,58 @@ cpuSyncEvent:
 	.uleb128 0x5
 	.uleb128 0x27
 	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x3c
+	.uleb128 0x5
+	.byte	0
 	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x3c
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
 	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x3d
-	.uleb128 0x18
-	.byte	0
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0x5
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x3e
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x3f
 	.uleb128 0x2e
 	.byte	0
 	.uleb128 0x3f
@@ -8285,7 +8733,7 @@ cpuSyncEvent:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x3f
+	.uleb128 0x40
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -8304,7 +8752,7 @@ cpuSyncEvent:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x40
+	.uleb128 0x41
 	.uleb128 0x2e
 	.byte	0
 	.uleb128 0x3f
@@ -8323,7 +8771,7 @@ cpuSyncEvent:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x41
+	.uleb128 0x42
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -8334,6 +8782,8 @@ cpuSyncEvent:
 	.uleb128 0xb
 	.uleb128 0x3b
 	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
 	.uleb128 0x3c
 	.uleb128 0xc
 	.byte	0
@@ -8343,14 +8793,14 @@ cpuSyncEvent:
 .Ldebug_loc0:
 .LLST0:
 	.uaword	.LVL0
-	.uaword	.LVL17
+	.uaword	.LVL19
 	.uahalf	0xa
 	.byte	0x9e
 	.uleb128 0x8
 	.uaword	0
 	.uaword	0
-	.uaword	.LVL20
-	.uaword	.LVL21-1
+	.uaword	.LVL22
+	.uaword	.LVL23-1
 	.uahalf	0x6
 	.byte	0x52
 	.byte	0x93
@@ -8358,8 +8808,8 @@ cpuSyncEvent:
 	.byte	0x53
 	.byte	0x93
 	.uleb128 0x4
-	.uaword	.LVL21-1
-	.uaword	.LFE512
+	.uaword	.LVL23-1
+	.uaword	.LVL30
 	.uahalf	0x6
 	.byte	0x58
 	.byte	0x93
@@ -8371,7 +8821,26 @@ cpuSyncEvent:
 	.uaword	0
 .LLST1:
 	.uaword	.LVL24
-	.uaword	.LVL25
+	.uaword	.LVL30
+	.uahalf	0x5
+	.byte	0x40
+	.byte	0x48
+	.byte	0x24
+	.byte	0x1f
+	.byte	0x9f
+	.uaword	0
+	.uaword	0
+.LLST2:
+	.uaword	.LVL24
+	.uaword	.LVL30
+	.uahalf	0x2
+	.byte	0x31
+	.byte	0x9f
+	.uaword	0
+	.uaword	0
+.LLST3:
+	.uaword	.LVL26
+	.uaword	.LVL27
 	.uahalf	0x16
 	.byte	0xf5
 	.uleb128 0x2
@@ -8393,19 +8862,30 @@ cpuSyncEvent:
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
-.LLST2:
-	.uaword	.LVL26
-	.uaword	.LVL27-1
+.LLST5:
+	.uaword	.LVL28
+	.uaword	.LVL29-1
 	.uahalf	0x1
 	.byte	0x53
 	.uaword	0
 	.uaword	0
-.LLST3:
+.LLST6:
 	.uaword	.LVL28
-	.uaword	.LVL29-1
+	.uaword	.LVL30
+	.uahalf	0x5
+	.byte	0x40
+	.byte	0x48
+	.byte	0x24
+	.byte	0x1f
+	.byte	0x9f
+	.uaword	0
+	.uaword	0
+.LLST9:
+	.uaword	.LVL32
+	.uaword	.LVL33-1
 	.uahalf	0x1
 	.byte	0x54
-	.uaword	.LVL29-1
+	.uaword	.LVL33-1
 	.uaword	.LFE513
 	.uahalf	0x4
 	.byte	0xf3
@@ -8414,8 +8894,48 @@ cpuSyncEvent:
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
+.LLST10:
+	.uaword	.LVL39
+	.uaword	.LVL40
+	.uahalf	0x1
+	.byte	0x54
+	.uaword	.LVL40
+	.uaword	.LVL41
+	.uahalf	0x4
+	.byte	0xf3
+	.uleb128 0x1
+	.byte	0x54
+	.byte	0x9f
+	.uaword	.LVL41
+	.uaword	.LVL42
+	.uahalf	0x1
+	.byte	0x54
+	.uaword	.LVL42
+	.uaword	.LVL45
+	.uahalf	0x4
+	.byte	0xf3
+	.uleb128 0x1
+	.byte	0x54
+	.byte	0x9f
+	.uaword	.LVL45
+	.uaword	.LVL46
+	.uahalf	0x1
+	.byte	0x54
+	.uaword	.LVL46
+	.uaword	.LVL47
+	.uahalf	0x4
+	.byte	0xf3
+	.uleb128 0x1
+	.byte	0x54
+	.byte	0x9f
+	.uaword	.LVL47
+	.uaword	.LFE514
+	.uahalf	0x1
+	.byte	0x54
+	.uaword	0
+	.uaword	0
 .section .debug_aranges,"",@progbits
-	.uaword	0x24
+	.uaword	0x2c
 	.uahalf	0x2
 	.uaword	.Ldebug_info0
 	.byte	0x4
@@ -8426,6 +8946,8 @@ cpuSyncEvent:
 	.uaword	.LFE512-.LFB512
 	.uaword	.LFB513
 	.uaword	.LFE513-.LFB513
+	.uaword	.LFB514
+	.uaword	.LFE514-.LFB514
 	.uaword	0
 	.uaword	0
 .section .debug_ranges,"",@progbits
@@ -8458,6 +8980,8 @@ cpuSyncEvent:
 	.uaword	.LFE512
 	.uaword	.LFB513
 	.uaword	.LFE513
+	.uaword	.LFB514
+	.uaword	.LFE514
 	.uaword	0
 	.uaword	0
 .section .debug_line,"",@progbits
@@ -8493,12 +9017,14 @@ cpuSyncEvent:
 	.string	"reserved_24"
 .LASF13:
 	.string	"reserved_28"
+	.extern	atoi,STT_FUNC,0
 	.extern	Forward_1,STT_FUNC,0
 	.extern	Backward_1,STT_FUNC,0
 	.extern	Motors_stop,STT_FUNC,0
 	.extern	Right,STT_FUNC,0
 	.extern	Left,STT_FUNC,0
 	.extern	serial_send,STT_FUNC,0
+	.extern	beep,STT_FUNC,0
 	.extern	IfxScuCcu_getSourceFrequency,STT_FUNC,0
 	.extern	returnDistance,STT_FUNC,0
 	.extern	sweep_servo,STT_FUNC,0
@@ -8507,6 +9033,7 @@ cpuSyncEvent:
 	.extern	config_servomotor,STT_FUNC,0
 	.extern	sendTrig,STT_FUNC,0
 	.extern	configUltrasonicSensor,STT_FUNC,0
+	.extern	serial_config_Raspberry,STT_FUNC,0
 	.extern	serial_config,STT_FUNC,0
 	.extern	Encoders_config,STT_FUNC,0
 	.extern	Init_gyro,STT_FUNC,0

@@ -29,10 +29,10 @@ volatile uint8 commande_movement = 0; //Trigger Flag for movement enslavement
 volatile int Flag = 0;
 //Structure for the Proportional correction coefficients
 
-P_coefficient Forward_correction = {-9.0,-9.375,-3.0}; //Forward Proportional correction factors
-P_coefficient Backward_correction = {-9.0,-10.75,-4.0}; //Backward Proportional correction factors
-P_coefficient Right_correction = {0.0,-10.75,0.0}; //Backward Proportional correction factors
-P_coefficient Left_correction = {0.0,-10.75,0.0}; //Backward Proportional correction factors
+P_coefficient Forward_correction = {0.0,-1.0,0.0}; //Forward Proportional correction factors
+P_coefficient Backward_correction = {0.0,-1.0,0.0}; //Backward Proportional correction factors
+P_coefficient Right_correction = {0.0,-1.0,0.0}; //Backward Proportional correction factors
+P_coefficient Left_correction = {0.0,-1.0,0.0}; //Backward Proportional correction factors
 
  void Forward_1()
  {
@@ -147,7 +147,7 @@ void STM_INTERRUPT_CORRECTION()
 {
 	IfxStm_clearCompareFlag(stm2,CompareCorrection.comparator); //Clear interrupt Flag
 
-	GetYawPitchRoll();
+	//GetYawPitchRoll();
 	Flag += 1;
 	Encoders_Error = interruptRight_counter - interruptLeft_counter; //Calculate the value of the error (in encoder ticks) between the two wheels
 	if (commande_movement == 1) //Moving Forward
@@ -168,7 +168,7 @@ void STM_INTERRUPT_CORRECTION()
 	}
 	if (commande_movement == 3) //Turning right
 	{
-		Right_duty_cycle = 20;
+		Right_duty_cycle = 30;
 		Left_duty_cycle = Right_duty_cycle - (Right_correction.stable * Encoders_Error);
 
 	    PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);
@@ -176,7 +176,7 @@ void STM_INTERRUPT_CORRECTION()
 	}
 	if (commande_movement == 4) //Turning Left
 	{
-		Right_duty_cycle = 25;
+		Right_duty_cycle = 30;
 		Left_duty_cycle = Right_duty_cycle - (Left_correction.stable * Encoders_Error);
 
 		PWM_setDuty(Timers.PWM1_Bridge, Right_duty_cycle);

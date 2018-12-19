@@ -9,6 +9,7 @@
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Position/position.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/PWM/PWM_config.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Serial/serial.o"
+"2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Serial/serial_Raspberry.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Servomotor/servomotor.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/BaseSw/Service/CpuGeneric/If/SpiIf.o"

@@ -10420,7 +10420,7 @@ serialDriver:
 	.byte	0x1
 	.string	"command"
 	.byte	0x10
-	.byte	0x26
+	.byte	0x27
 	.byte	0x1
 	.byte	0x1
 	.uaword	0x6cca

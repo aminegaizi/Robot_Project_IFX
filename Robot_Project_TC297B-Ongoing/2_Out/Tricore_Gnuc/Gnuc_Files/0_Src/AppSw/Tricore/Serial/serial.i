@@ -29749,8 +29749,20 @@ float64 returnDistance(void);
 void beep(void);
 # 36 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 
+# 1 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h" 1
+# 10 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h"
+# 1 "0_Src/AppSw/CpuGeneric/Config/Config_ISR.h" 1
+# 11 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h" 2
+
+
+# 1 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 1
+# 14 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h" 2
+# 23 "0_Src/AppSw/Tricore/Serial/serial_Raspberry.h"
+void serial_config_Raspberry();
+# 38 "0_Src/AppSw/Tricore/Main/Cpu0_Main.h" 2
 
 void command(char);
+void Raspberry_rcv(char recv);
 # 9 "0_Src/AppSw/Tricore/Serial/serial.h" 2
 
 

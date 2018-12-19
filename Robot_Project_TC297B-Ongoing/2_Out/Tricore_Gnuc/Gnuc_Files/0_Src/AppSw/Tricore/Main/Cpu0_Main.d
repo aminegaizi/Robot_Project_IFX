@@ -98,4 +98,5 @@
  0_Src/BaseSw/iLLD/TC29B/Tricore/_PinMap/IfxPort_pinMap.h \
  0_Src/AppSw/Tricore/Ultrasonic_sensor/ultrasonic_sensor.h \
  0_Src/AppSw/Tricore/Beeper/Beeper.h \
- 0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h
+ 0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h \
+ 0_Src/AppSw/Tricore/Serial/serial_Raspberry.h

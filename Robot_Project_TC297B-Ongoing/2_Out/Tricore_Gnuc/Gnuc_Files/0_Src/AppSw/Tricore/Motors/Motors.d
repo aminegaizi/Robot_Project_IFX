@@ -97,4 +97,5 @@
  0_Src/BaseSw/Infra/Sfr/TC29B/_Reg/IfxI2c_regdef.h \
  0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuCcu.h \
  0_Src/AppSw/Tricore/Beeper/Beeper.h \
- 0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h
+ 0_Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Bsp.h \
+ 0_Src/AppSw/Tricore/Serial/serial_Raspberry.h

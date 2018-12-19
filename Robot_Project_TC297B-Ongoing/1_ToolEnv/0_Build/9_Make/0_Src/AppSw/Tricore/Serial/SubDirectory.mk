@@ -47,3 +47,13 @@ B_GEN_OBJS_TRICORE_TC+= 2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Serial
 	@-rm -f $(B_GEN_ELF_TRICORE_TC) $(B_GEN_HEX_TRICORE_TC)
 	@echo 'Building source file serial.c for Tricore'
 	$(B_GEN_TRICORE_GNUC_CC) $(B_GNUC_TRICORE_CC_OPTIONS) @$(B_GEN_INC_LISTFILE_TRICORE) $(B_GEN_EXT_INCLUDE_PATHS) -c $< -o $@ -save-temps=obj -MMD
+
+#Make-rule to build file: serial_Raspberry.c
+B_GEN_DEP_FILES+= 2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Serial/serial_Raspberry.d
+B_GEN_OBJS_TRICORE_TC+= 2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Serial/serial_Raspberry.o
+
+2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Serial/serial_Raspberry.o: 0_Src/AppSw/Tricore/Serial/serial_Raspberry.c $(B_GEN_CONFIG_TRICORE_GNUC)
+	@mkdir -p $(@D)
+	@-rm -f $(B_GEN_ELF_TRICORE_TC) $(B_GEN_HEX_TRICORE_TC)
+	@echo 'Building source file serial_Raspberry.c for Tricore'
+	$(B_GEN_TRICORE_GNUC_CC) $(B_GNUC_TRICORE_CC_OPTIONS) @$(B_GEN_INC_LISTFILE_TRICORE) $(B_GEN_EXT_INCLUDE_PATHS) -c $< -o $@ -save-temps=obj -MMD

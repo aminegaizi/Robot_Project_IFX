@@ -454,9 +454,6 @@ STM_INTERRUPT_CORRECTION:
 	.loc 1 148 0
 	call	IfxStm_clearCompareFlag
 .LVL16:
-	.loc 1 150 0
-	call	GetYawPitchRoll
-.LVL17:
 	.loc 1 151 0
 	ld.w	%d15, [%a15] lo:Flag
 	.loc 1 152 0
@@ -492,14 +489,14 @@ STM_INTERRUPT_CORRECTION:
 	.loc 1 185 0
 	movh.a	%a15, hi:frequency
 	ld.w	%d2, [%a15] lo:frequency
-.LVL18:
+.LVL17:
 	ld.a	%a15, [%a13] lo:stm2
 	ld.bu	%d15, [%a14] lo:CompareCorrection
 	addsc.a	%a15, %a15, %d15, 2
 	movh	%d15, 20972
 	addi	%d15, %d15, -31457
 	mul.u	%e2, %d2, %d15
-.LVL19:
+.LVL18:
 .LBB26:
 .LBB27:
 	.file 2 "0_Src/BaseSw/iLLD/TC29B/Tricore/Stm/Std/IfxStm.h"
@@ -516,12 +513,12 @@ STM_INTERRUPT_CORRECTION:
 	st.w	[%a15] 48, %d15
 	rslcx
 	rfe
-.LVL20:
+.LVL19:
 .L14:
 .LBE28:
 .LBE29:
 	.loc 1 179 0
-	mov	%d15, 25
+	mov	%d15, 30
 	movh.a	%a15, hi:Right_duty_cycle
 	.loc 1 180 0
 	movh.a	%a2, hi:Left_correction
@@ -549,12 +546,12 @@ STM_INTERRUPT_CORRECTION:
 	mov.a	%a15, %d15
 	.loc 1 182 0
 	call	PWM_setDuty
-.LVL21:
+.LVL20:
 	.loc 1 183 0
 	ld.bu	%d4, [%a12] lo:Left_duty_cycle
 	lea	%a4, [%a15] 60
 	call	PWM_setDuty
-.LVL22:
+.LVL21:
 	j	.L9
 .L11:
 	.loc 1 155 0
@@ -590,14 +587,14 @@ STM_INTERRUPT_CORRECTION:
 	.loc 1 158 0
 	ld.bu	%d4, [%a2] lo:Right_duty_cycle
 	call	PWM_setDuty
-.LVL23:
+.LVL22:
 	.loc 1 159 0
 	mov.a	%a3, %d15
 	mov.a	%a2, %d8
 	ld.bu	%d4, [%a3] lo:Left_duty_cycle
 	lea	%a4, [%a2] 60
 	call	PWM_setDuty
-.LVL24:
+.LVL23:
 	.loc 1 161 0
 	ld.bu	%d15, [%a15] lo:commande_movement
 	jne	%d15, 2, .L7
@@ -635,20 +632,20 @@ STM_INTERRUPT_CORRECTION:
 	.loc 1 166 0
 	ld.bu	%d4, [%a2] lo:Right_duty_cycle
 	call	PWM_setDuty
-.LVL25:
+.LVL24:
 	.loc 1 167 0
 	mov.a	%a3, %d15
 	mov.a	%a2, %d8
 	ld.bu	%d4, [%a3] lo:Left_duty_cycle
 	lea	%a4, [%a2] 60
 	call	PWM_setDuty
-.LVL26:
+.LVL25:
 	.loc 1 169 0
 	ld.bu	%d15, [%a15] lo:commande_movement
 	jne	%d15, 3, .L8
 .L13:
 	.loc 1 171 0
-	mov	%d15, 20
+	mov	%d15, 30
 	movh.a	%a2, hi:Right_duty_cycle
 	.loc 1 172 0
 	movh.a	%a3, hi:Right_correction
@@ -680,14 +677,14 @@ STM_INTERRUPT_CORRECTION:
 	.loc 1 174 0
 	ld.bu	%d4, [%a2] lo:Right_duty_cycle
 	call	PWM_setDuty
-.LVL27:
+.LVL26:
 	.loc 1 175 0
 	mov.a	%a3, %d15
 	mov.a	%a2, %d8
 	ld.bu	%d4, [%a3] lo:Left_duty_cycle
 	lea	%a4, [%a2] 60
 	call	PWM_setDuty
-.LVL28:
+.LVL27:
 	j	.L8
 .LFE516:
 	.size	STM_INTERRUPT_CORRECTION, .-STM_INTERRUPT_CORRECTION
@@ -698,7 +695,7 @@ STM_INTERRUPT_CORRECTION:
 timer_compare:
 .LFB517:
 	.loc 1 190 0
-.LVL29:
+.LVL28:
 	sub.a	%SP, 16
 .LCFI0:
 	.loc 1 189 0
@@ -709,7 +706,7 @@ timer_compare:
 	st.d	[%a2+]8, %e2
 	ld.w	%d2, [%a4+]4
 	st.w	[%a2+]4, %d2
-.LVL30:
+.LVL29:
 	.loc 1 190 0
 	mov	%d8, %d4
 	mov.aa	%a12, %a5
@@ -720,7 +717,7 @@ timer_compare:
 	.file 3 "0_Src/BaseSw/iLLD/TC29B/Tricore/Scu/Std/IfxScuCcu.h"
 	.loc 3 1105 0
 	call	IfxScuCcu_getSourceFrequency
-.LVL31:
+.LVL30:
 	movh.a	%a2, 61443
 	lea	%a2, [%a2] 24628
 	ld.w	%d15, [%a2]0
@@ -756,12 +753,12 @@ timer_compare:
 	# 632 "0_Src/BaseSw/iLLD/TC29B/Tricore/Cpu/Std/IfxCpu.h" 1
 	mfcr %d15, LO:0xFE2C
 	# 0 "" 2
-.LVL32:
+.LVL31:
 #NO_APP
 .LBE42:
 	.loc 4 633 0
 	extr.u	%d15, %d15, 15, 1
-.LVL33:
+.LVL32:
 .LBE41:
 .LBE40:
 	.loc 4 641 0
@@ -786,7 +783,7 @@ timer_compare:
 	.loc 1 195 0
 	mov.aa	%a4, %a15
 	call	IfxStm_initCompareConfig
-.LVL34:
+.LVL33:
 	.loc 1 197 0
 	mov	%d2, 0
 	.loc 1 198 0
@@ -808,12 +805,12 @@ timer_compare:
 	st.w	[%SP] 8, %d2
 	.loc 1 199 0
 	call	IfxStm_initCompare
-.LVL35:
+.LVL34:
 	.loc 1 201 0
 	ld.bu	%d4, [%SP] 4
 	mov.aa	%a4, %a12
 	call	IfxStm_enableComparatorInterrupt
-.LVL36:
+.LVL35:
 .LBB45:
 .LBB46:
 	.loc 4 916 0
@@ -844,12 +841,12 @@ Motors_initialization:
 	mov	%d4, 3
 	lea	%a4, [%a12] lo:CompareCorrection
 	call	timer_compare
-.LVL37:
+.LVL36:
 	.loc 1 209 0
 	ld.a	%a4, [%a15] lo:stm2
 	ld.bu	%d4, [%a12] lo:CompareCorrection
 	j	IfxStm_enableComparatorInterrupt
-.LVL38:
+.LVL37:
 .LFE518:
 	.size	Motors_initialization, .-Motors_initialization
 .section .text.Motors_stop,"ax",@progbits
@@ -876,11 +873,11 @@ Motors_stop:
 	lea	%a15, [%a15] lo:Timers
 	mov.aa	%a4, %a15
 	call	IfxGtm_Tom_Timer_stop
-.LVL39:
+.LVL38:
 	.loc 1 220 0
 	lea	%a4, [%a15] 60
 	j	IfxGtm_Tom_Timer_stop
-.LVL40:
+.LVL39:
 .LFE519:
 	.size	Motors_stop, .-Motors_stop
 	.global	Left_correction
@@ -890,7 +887,7 @@ Motors_stop:
 	.size	Left_correction, 12
 Left_correction:
 	.word	0
-	.word	-1054081024
+	.word	-1082130432
 	.word	0
 	.global	Right_correction
 .section .data.Right_correction,"aw",@progbits
@@ -899,7 +896,7 @@ Left_correction:
 	.size	Right_correction, 12
 Right_correction:
 	.word	0
-	.word	-1054081024
+	.word	-1082130432
 	.word	0
 	.global	Backward_correction
 .section .data.Backward_correction,"aw",@progbits
@@ -907,18 +904,18 @@ Right_correction:
 	.type	Backward_correction, @object
 	.size	Backward_correction, 12
 Backward_correction:
-	.word	-1055916032
-	.word	-1054081024
-	.word	-1065353216
+	.word	0
+	.word	-1082130432
+	.word	0
 	.global	Forward_correction
 .section .data.Forward_correction,"aw",@progbits
 	.align 2
 	.type	Forward_correction, @object
 	.size	Forward_correction, 12
 Forward_correction:
-	.word	-1055916032
-	.word	-1055522816
-	.word	-1069547520
+	.word	0
+	.word	-1082130432
+	.word	0
 	.global	Flag
 .section .bss.Flag,"aw",@nobits
 	.align 2
@@ -1080,10 +1077,9 @@ CompareCorrection:
 	.file 19 "0_Src/BaseSw/iLLD/TC29B/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.h"
 	.file 20 "0_Src/AppSw/Tricore/PWM/PWM_config.h"
 	.file 21 "0_Src/AppSw/Tricore/Motors/Motors.h"
-	.file 22 "0_Src/AppSw/Tricore/Gyroscope/Gyroscope_i2c.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x21dee
+	.uaword	0x21dca
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -51994,7 +51990,7 @@ CompareCorrection:
 	.uaword	0x21558
 	.uleb128 0x31
 	.uaword	.LVL0
-	.uaword	0x21c74
+	.uaword	0x21c6b
 	.uaword	0x2151a
 	.uleb128 0x32
 	.byte	0x1
@@ -52013,7 +52009,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL1
-	.uaword	0x21c9d
+	.uaword	0x21c94
 	.uaword	0x2152e
 	.uleb128 0x32
 	.byte	0x1
@@ -52024,7 +52020,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL2
-	.uaword	0x21c74
+	.uaword	0x21c6b
 	.uaword	0x2154e
 	.uleb128 0x32
 	.byte	0x1
@@ -52043,7 +52039,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x33
 	.uaword	.LVL3
-	.uaword	0x21c9d
+	.uaword	0x21c94
 	.byte	0
 	.uleb128 0x30
 	.byte	0x1
@@ -52058,7 +52054,7 @@ CompareCorrection:
 	.uaword	0x215d4
 	.uleb128 0x31
 	.uaword	.LVL4
-	.uaword	0x21c74
+	.uaword	0x21c6b
 	.uaword	0x21596
 	.uleb128 0x32
 	.byte	0x1
@@ -52077,7 +52073,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL5
-	.uaword	0x21c9d
+	.uaword	0x21c94
 	.uaword	0x215aa
 	.uleb128 0x32
 	.byte	0x1
@@ -52088,7 +52084,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL6
-	.uaword	0x21c74
+	.uaword	0x21c6b
 	.uaword	0x215ca
 	.uleb128 0x32
 	.byte	0x1
@@ -52107,7 +52103,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x33
 	.uaword	.LVL7
-	.uaword	0x21c9d
+	.uaword	0x21c94
 	.byte	0
 	.uleb128 0x30
 	.byte	0x1
@@ -52122,7 +52118,7 @@ CompareCorrection:
 	.uaword	0x2164b
 	.uleb128 0x31
 	.uaword	.LVL8
-	.uaword	0x21c74
+	.uaword	0x21c6b
 	.uaword	0x2160d
 	.uleb128 0x32
 	.byte	0x1
@@ -52141,7 +52137,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL9
-	.uaword	0x21c9d
+	.uaword	0x21c94
 	.uaword	0x21621
 	.uleb128 0x32
 	.byte	0x1
@@ -52152,7 +52148,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL10
-	.uaword	0x21c74
+	.uaword	0x21c6b
 	.uaword	0x21641
 	.uleb128 0x32
 	.byte	0x1
@@ -52171,7 +52167,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x33
 	.uaword	.LVL11
-	.uaword	0x21c9d
+	.uaword	0x21c94
 	.byte	0
 	.uleb128 0x30
 	.byte	0x1
@@ -52186,7 +52182,7 @@ CompareCorrection:
 	.uaword	0x216c1
 	.uleb128 0x31
 	.uaword	.LVL12
-	.uaword	0x21c74
+	.uaword	0x21c6b
 	.uaword	0x21683
 	.uleb128 0x32
 	.byte	0x1
@@ -52205,7 +52201,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL13
-	.uaword	0x21c9d
+	.uaword	0x21c94
 	.uaword	0x21697
 	.uleb128 0x32
 	.byte	0x1
@@ -52216,7 +52212,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL14
-	.uaword	0x21c74
+	.uaword	0x21c6b
 	.uaword	0x216b7
 	.uleb128 0x32
 	.byte	0x1
@@ -52235,7 +52231,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x33
 	.uaword	.LVL15
-	.uaword	0x21c9d
+	.uaword	0x21c94
 	.byte	0
 	.uleb128 0x34
 	.byte	0x1
@@ -52248,7 +52244,7 @@ CompareCorrection:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x217cc
+	.uaword	0x217c3
 	.uleb128 0x35
 	.uaword	0x21429
 	.uaword	.LBB26
@@ -52268,58 +52264,55 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x33
 	.uaword	.LVL16
-	.uaword	0x21cbe
-	.uleb128 0x33
-	.uaword	.LVL17
-	.uaword	0x21cec
+	.uaword	0x21cb5
 	.uleb128 0x31
-	.uaword	.LVL21
-	.uaword	0x21c9d
-	.uaword	0x21743
+	.uaword	.LVL20
+	.uaword	0x21c94
+	.uaword	0x2173a
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x7f
 	.sleb128 0
+	.byte	0
+	.uleb128 0x31
+	.uaword	.LVL21
+	.uaword	0x21c94
+	.uaword	0x2174e
+	.uleb128 0x32
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x7f
+	.sleb128 60
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL22
-	.uaword	0x21c9d
-	.uaword	0x21757
+	.uaword	0x21c94
+	.uaword	0x21762
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
-	.byte	0x7f
-	.sleb128 60
+	.byte	0x78
+	.sleb128 0
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL23
-	.uaword	0x21c9d
-	.uaword	0x2176b
+	.uaword	0x21c94
+	.uaword	0x21776
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x78
-	.sleb128 0
+	.sleb128 60
 	.byte	0
 	.uleb128 0x31
 	.uaword	.LVL24
-	.uaword	0x21c9d
-	.uaword	0x2177f
-	.uleb128 0x32
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x78
-	.sleb128 60
-	.byte	0
-	.uleb128 0x31
-	.uaword	.LVL25
-	.uaword	0x21c9d
-	.uaword	0x21793
+	.uaword	0x21c94
+	.uaword	0x2178a
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52328,9 +52321,9 @@ CompareCorrection:
 	.sleb128 0
 	.byte	0
 	.uleb128 0x31
-	.uaword	.LVL26
-	.uaword	0x21c9d
-	.uaword	0x217a7
+	.uaword	.LVL25
+	.uaword	0x21c94
+	.uaword	0x2179e
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52339,9 +52332,9 @@ CompareCorrection:
 	.sleb128 60
 	.byte	0
 	.uleb128 0x31
-	.uaword	.LVL27
-	.uaword	0x21c9d
-	.uaword	0x217bb
+	.uaword	.LVL26
+	.uaword	0x21c94
+	.uaword	0x217b2
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52350,8 +52343,8 @@ CompareCorrection:
 	.sleb128 0
 	.byte	0
 	.uleb128 0x37
-	.uaword	.LVL28
-	.uaword	0x21c9d
+	.uaword	.LVL27
+	.uaword	0x21c94
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52371,7 +52364,7 @@ CompareCorrection:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x21943
+	.uaword	0x2193a
 	.uleb128 0x38
 	.string	"PRIORITY"
 	.byte	0x1
@@ -52403,7 +52396,7 @@ CompareCorrection:
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
 	.byte	0xbf
-	.uaword	0x21881
+	.uaword	0x21878
 	.uleb128 0x36
 	.uaword	0x21407
 	.uaword	.LLST5
@@ -52418,8 +52411,8 @@ CompareCorrection:
 	.byte	0x2
 	.uahalf	0x223
 	.uleb128 0x33
-	.uaword	.LVL31
-	.uaword	0x21d07
+	.uaword	.LVL30
+	.uaword	0x21ce3
 	.byte	0
 	.byte	0
 	.byte	0
@@ -52429,7 +52422,7 @@ CompareCorrection:
 	.uaword	.LBE38
 	.byte	0x1
 	.byte	0xc0
-	.uaword	0x218eb
+	.uaword	0x218e2
 	.uleb128 0x3f
 	.uaword	.LBB39
 	.uaword	.LBE39
@@ -52441,7 +52434,7 @@ CompareCorrection:
 	.uaword	.LBE40
 	.byte	0x4
 	.uahalf	0x280
-	.uaword	0x218d9
+	.uaword	0x218d0
 	.uleb128 0x3f
 	.uaword	.LBB41
 	.uaword	.LBE41
@@ -52470,14 +52463,14 @@ CompareCorrection:
 	.uaword	.LBE45
 	.byte	0x1
 	.byte	0xca
-	.uaword	0x21904
+	.uaword	0x218fb
 	.uleb128 0x43
 	.uaword	0x214cc
 	.byte	0
 	.uleb128 0x31
-	.uaword	.LVL34
-	.uaword	0x21d2f
-	.uaword	0x21918
+	.uaword	.LVL33
+	.uaword	0x21d0b
+	.uaword	0x2190f
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52486,9 +52479,9 @@ CompareCorrection:
 	.sleb128 0
 	.byte	0
 	.uleb128 0x31
-	.uaword	.LVL35
-	.uaword	0x21d5f
-	.uaword	0x21932
+	.uaword	.LVL34
+	.uaword	0x21d3b
+	.uaword	0x21929
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x65
@@ -52503,8 +52496,8 @@ CompareCorrection:
 	.sleb128 0
 	.byte	0
 	.uleb128 0x37
-	.uaword	.LVL36
-	.uaword	0x21d97
+	.uaword	.LVL35
+	.uaword	0x21d73
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52523,11 +52516,11 @@ CompareCorrection:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x21993
+	.uaword	0x2198a
 	.uleb128 0x31
-	.uaword	.LVL37
-	.uaword	0x217cc
-	.uaword	0x21988
+	.uaword	.LVL36
+	.uaword	0x217c3
+	.uaword	0x2197f
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52541,9 +52534,9 @@ CompareCorrection:
 	.byte	0x33
 	.byte	0
 	.uleb128 0x44
-	.uaword	.LVL38
+	.uaword	.LVL37
 	.byte	0x1
-	.uaword	0x21d97
+	.uaword	0x21d73
 	.byte	0
 	.uleb128 0x30
 	.byte	0x1
@@ -52555,11 +52548,11 @@ CompareCorrection:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x219d8
+	.uaword	0x219cf
 	.uleb128 0x31
-	.uaword	.LVL39
-	.uaword	0x21dce
-	.uaword	0x219c6
+	.uaword	.LVL38
+	.uaword	0x21daa
+	.uaword	0x219bd
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52568,9 +52561,9 @@ CompareCorrection:
 	.sleb128 0
 	.byte	0
 	.uleb128 0x45
-	.uaword	.LVL40
+	.uaword	.LVL39
 	.byte	0x1
-	.uaword	0x21dce
+	.uaword	0x21daa
 	.uleb128 0x32
 	.byte	0x1
 	.byte	0x64
@@ -52581,7 +52574,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x13
 	.uaword	0x2f1
-	.uaword	0x219e8
+	.uaword	0x219df
 	.uleb128 0x14
 	.uaword	0x13f1
 	.byte	0x2
@@ -52590,11 +52583,11 @@ CompareCorrection:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xc
 	.byte	0x96
-	.uaword	0x21a05
+	.uaword	0x219fc
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x26
-	.uaword	0x219d8
+	.uaword	0x219cf
 	.uleb128 0x47
 	.string	"IfxGtm_TOM0_2_TOUT28_P33_6_OUT"
 	.byte	0x11
@@ -52668,7 +52661,7 @@ CompareCorrection:
 	.string	"Encoders_Error"
 	.byte	0x1
 	.byte	0x15
-	.uaword	0x21b56
+	.uaword	0x21b4d
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -52679,7 +52672,7 @@ CompareCorrection:
 	.string	"Left_duty_cycle"
 	.byte	0x1
 	.byte	0x16
-	.uaword	0x21b79
+	.uaword	0x21b70
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -52690,7 +52683,7 @@ CompareCorrection:
 	.string	"Right_duty_cycle"
 	.byte	0x1
 	.byte	0x17
-	.uaword	0x21b79
+	.uaword	0x21b70
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -52715,7 +52708,7 @@ CompareCorrection:
 	.string	"commande_movement"
 	.byte	0x1
 	.byte	0x1c
-	.uaword	0x21b79
+	.uaword	0x21b70
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -52724,7 +52717,7 @@ CompareCorrection:
 	.string	"Flag"
 	.byte	0x1
 	.byte	0x1d
-	.uaword	0x21b56
+	.uaword	0x21b4d
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -52772,11 +52765,11 @@ CompareCorrection:
 	.byte	0x1c
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x21c97
+	.uaword	0x21c8e
 	.uleb128 0x4a
 	.uaword	0x21030
 	.uleb128 0x4a
-	.uaword	0x21c97
+	.uaword	0x21c8e
 	.uleb128 0x4a
 	.uaword	0x23f
 	.byte	0
@@ -52790,7 +52783,7 @@ CompareCorrection:
 	.byte	0x1d
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x21cbe
+	.uaword	0x21cb5
 	.uleb128 0x4a
 	.uaword	0x2126d
 	.uleb128 0x4a
@@ -52803,22 +52796,13 @@ CompareCorrection:
 	.uahalf	0x1be
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x21cec
+	.uaword	0x21ce3
 	.uleb128 0x4a
 	.uaword	0x21423
 	.uleb128 0x4a
 	.uaword	0x3d60
 	.byte	0
 	.uleb128 0x4c
-	.byte	0x1
-	.string	"GetYawPitchRoll"
-	.byte	0x16
-	.byte	0x87
-	.byte	0x1
-	.uaword	0x21d07
-	.uleb128 0x4d
-	.byte	0
-	.uleb128 0x4e
 	.byte	0x1
 	.string	"IfxScuCcu_getSourceFrequency"
 	.byte	0x3
@@ -52833,14 +52817,14 @@ CompareCorrection:
 	.uahalf	0x1e0
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x21d59
+	.uaword	0x21d35
 	.uleb128 0x4a
-	.uaword	0x21d59
+	.uaword	0x21d35
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
 	.uaword	0x4639
-	.uleb128 0x4f
+	.uleb128 0x4d
 	.byte	0x1
 	.string	"IfxStm_initCompare"
 	.byte	0x2
@@ -52848,15 +52832,15 @@ CompareCorrection:
 	.byte	0x1
 	.uaword	0x258
 	.byte	0x1
-	.uaword	0x21d8c
+	.uaword	0x21d68
 	.uleb128 0x4a
 	.uaword	0x21423
 	.uleb128 0x4a
-	.uaword	0x21d8c
+	.uaword	0x21d68
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x21d92
+	.uaword	0x21d6e
 	.uleb128 0x26
 	.uaword	0x4639
 	.uleb128 0x4b
@@ -52866,13 +52850,13 @@ CompareCorrection:
 	.uahalf	0x1cc
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x21dce
+	.uaword	0x21daa
 	.uleb128 0x4a
 	.uaword	0x21423
 	.uleb128 0x4a
 	.uaword	0x3d60
 	.byte	0
-	.uleb128 0x50
+	.uleb128 0x4e
 	.byte	0x1
 	.string	"IfxGtm_Tom_Timer_stop"
 	.byte	0x13
@@ -52880,7 +52864,7 @@ CompareCorrection:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x4a
-	.uaword	0x21c97
+	.uaword	0x21c8e
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -53896,7 +53880,7 @@ CompareCorrection:
 	.byte	0
 	.uleb128 0x4c
 	.uleb128 0x2e
-	.byte	0x1
+	.byte	0
 	.uleb128 0x3f
 	.uleb128 0xc
 	.uleb128 0x3
@@ -53904,38 +53888,16 @@ CompareCorrection:
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0xb
+	.uleb128 0x5
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x49
+	.uleb128 0x13
 	.uleb128 0x3c
 	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x4d
-	.uleb128 0x18
-	.byte	0
-	.byte	0
-	.byte	0
-	.uleb128 0x4e
-	.uleb128 0x2e
-	.byte	0
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3c
-	.uleb128 0xc
-	.byte	0
-	.byte	0
-	.uleb128 0x4f
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -53956,7 +53918,7 @@ CompareCorrection:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x50
+	.uleb128 0x4e
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -53977,8 +53939,8 @@ CompareCorrection:
 .section .debug_loc,"",@progbits
 .Ldebug_loc0:
 .LLST0:
+	.uaword	.LVL17
 	.uaword	.LVL18
-	.uaword	.LVL19
 	.uahalf	0xe
 	.byte	0x72
 	.sleb128 0
@@ -53995,27 +53957,27 @@ CompareCorrection:
 	.uaword	0
 	.uaword	0
 .LLST1:
-	.uaword	.LVL18
-	.uaword	.LVL20
+	.uaword	.LVL17
+	.uaword	.LVL19
 	.uahalf	0x5
 	.byte	0x3
 	.uaword	CompareCorrection
 	.uaword	0
 	.uaword	0
 .LLST2:
-	.uaword	.LVL18
-	.uaword	.LVL20
+	.uaword	.LVL17
+	.uaword	.LVL19
 	.uahalf	0x5
 	.byte	0x3
 	.uaword	stm2
 	.uaword	0
 	.uaword	0
 .LLST3:
-	.uaword	.LVL29
-	.uaword	.LVL31-1
+	.uaword	.LVL28
+	.uaword	.LVL30-1
 	.uahalf	0x1
 	.byte	0x54
-	.uaword	.LVL31-1
+	.uaword	.LVL30-1
 	.uaword	.LFE517
 	.uahalf	0x4
 	.byte	0xf3
@@ -54025,30 +53987,30 @@ CompareCorrection:
 	.uaword	0
 	.uaword	0
 .LLST4:
-	.uaword	.LVL29
-	.uaword	.LVL31-1
+	.uaword	.LVL28
+	.uaword	.LVL30-1
 	.uahalf	0x1
 	.byte	0x65
-	.uaword	.LVL31-1
+	.uaword	.LVL30-1
 	.uaword	.LFE517
 	.uahalf	0x1
 	.byte	0x6c
 	.uaword	0
 	.uaword	0
 .LLST5:
-	.uaword	.LVL30
-	.uaword	.LVL31-1
+	.uaword	.LVL29
+	.uaword	.LVL30-1
 	.uahalf	0x1
 	.byte	0x65
-	.uaword	.LVL31-1
+	.uaword	.LVL30-1
 	.uaword	.LFE517
 	.uahalf	0x1
 	.byte	0x6c
 	.uaword	0
 	.uaword	0
 .LLST6:
+	.uaword	.LVL31
 	.uaword	.LVL32
-	.uaword	.LVL33
 	.uahalf	0x1
 	.byte	0x5f
 	.uaword	0
@@ -54541,7 +54503,6 @@ CompareCorrection:
 	.extern	IfxScuCcu_getSourceFrequency,STT_FUNC,0
 	.extern	interruptLeft_counter,STT_OBJECT,4
 	.extern	interruptRight_counter,STT_OBJECT,4
-	.extern	GetYawPitchRoll,STT_FUNC,0
 	.extern	IfxStm_clearCompareFlag,STT_FUNC,0
 	.extern	IfxGtm_TOM0_6_TOUT24_P33_2_OUT,STT_OBJECT,20
 	.extern	IfxGtm_TOM1_3_TOUT13_P00_4_OUT,STT_OBJECT,20
