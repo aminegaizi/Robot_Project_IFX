@@ -74,7 +74,8 @@ void ISR_CurrentMeasurement_Config(void)
  */
 void ISR_ObstacleAvoidance(void)
 {
-    IfxCpu_enableInterrupts();
+	volatile float64 temp = 0;	
+	IfxCpu_enableInterrupts();
 	temp = returnDistance(); //Get Ultrasonic Sensor result
 
 	if(temp < 1e+06) //check for absurd results
