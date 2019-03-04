@@ -18,7 +18,7 @@ volatile float global_duty_end;
 volatile float global_step;
 volatile float frequency_servo;
 volatile boolean flag_limit = FALSE;
-volatile float64 temp = 0;
+
 extern int Servo_Enable;
 extern PWM_Timers Timers;
 
