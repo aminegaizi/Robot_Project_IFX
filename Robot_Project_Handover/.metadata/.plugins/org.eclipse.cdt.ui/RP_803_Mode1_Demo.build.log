@@ -1,0 +1,6 @@
+10:14:28 **** Clean-only build of configuration Default for project RP_803_Mode1_Demo ****
+make clean 
+Deleting build generated files !!!
+
+10:14:42 Build Finished (took 14s.323ms)
+

@@ -1,0 +1,11 @@
+14:14:18 **** Incremental Build of configuration Default for project Robot_Project_Mode2 ****
+make all 
+Now Build started !!!
+Building source file Encoders_config.c for Tricore
+Building source file Beeper.c for Tricore
+Building source file Cpu0_Main.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Robot_Project_Mode2_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Robot_Project_Mode2_Tc.hex
+
+14:14:35 Build Finished (took 16s.487ms)
+

@@ -1,0 +1,7 @@
+08:33:09 **** Incremental Build of configuration Default for project eWorld_AURIX_AutonomousRobot ****
+make all 
+Now Build started !!!
+make[1]: Nothing to be done for 'all'.
+
+08:33:13 Build Finished (took 3s.422ms)
+

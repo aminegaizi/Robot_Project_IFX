@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item value="false" key="caseSensitive"/>
+		<item value="227191" key="searchFlags"/>
+		<list key="previousPatterns">
+			<item value="frequency"/>
+			<item value="L_Wheel_PWM"/>
+			<item value="R_Wheel_PWM"/>
+			<item value="degAngle_R"/>
+			<item value="Yaw_initvalue_error"/>
+			<item value="orientation_angle"/>
+			<item value="CurrentAngle"/>
+			<item value="RightEncoderCounter"/>
+			<item value="error_enable"/>
+			<item value="BEEP_ENA"/>
+			<item value="enable_read"/>
+			<item value="Current_position"/>
+			<item value="Desired_position"/>
+			<item value="position"/>
+			<item value="Fsys"/>
+			<item value="config_servo"/>
+			<item value="iterator_s"/>
+			<item value="Timers"/>
+			<item value="Servo_Enable"/>
+			<item value="timerOneMs"/>
+			<item value="timerScreen"/>
+			<item value="timerGyro"/>
+			<item value="timerPositionUpdate"/>
+			<item value="beep"/>
+			<item value="distance_obstacle"/>
+			<item value="Mode2_flag"/>
+			<item value="Turn"/>
+			<item value="CurrentYaw"/>
+			<item value="LeftEncoderCounter"/>
+			<item value="direction"/>
+			<item value="ModeSelector"/>
+			<item value="ISR_TftScreen_Config"/>
+			<item value="ISR_ObstacleAvoidance_Config"/>
+			<item value="ISR_Gyro_Config"/>
+			<item value="enable_obstacle_FSM"/>
+			<item value="obstacle_FSM"/>
+			<item value="i"/>
+			<item value="enable_flag"/>
+			<item value="positoin"/>
+			<item value="position_data"/>
+			<item value="ticks"/>
+			<item value="volatilefloatticks0"/>
+			<item value="commande_movement"/>
+		</list>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+</section>

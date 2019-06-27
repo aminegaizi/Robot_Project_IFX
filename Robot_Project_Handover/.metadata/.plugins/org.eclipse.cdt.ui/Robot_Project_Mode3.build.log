@@ -1,0 +1,7 @@
+14:14:35 **** Incremental Build of configuration Default for project Robot_Project_Mode3 ****
+make all 
+Now Build started !!!
+make[1]: Nothing to be done for 'all'.
+
+14:14:40 Build Finished (took 5s.266ms)
+

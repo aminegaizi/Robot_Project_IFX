@@ -1,0 +1,156 @@
+/*
+ * servomotor.c
+ *
+ *  Created on: 18.10.2018
+ *      Author: Bourgogn
+ */
+
+#include "servomotor.h"
+#include "ultrasonic_sensor.h"
+
+extern Ifx_STM *stm_sfr;
+
+IfxStm_CompareConfig config_servo;
+
+volatile float duty3 = 0;
+volatile float global_duty_start;
+volatile float global_duty_end;
+volatile float global_step;
+volatile float frequency_servo;
+volatile boolean flag_limit = FALSE;
+
+extern int Servo_Enable;
+extern PWM_Timers Timers;
+
+/*
+ * void config_servomotor()
+ * 	input: none
+	output: none
+	function: configure 2 PMWs for the servos
+	one on P33.10 and the other on P33.5
+*/
+void config_servomotor()
+{
+	IfxPort_setPinModeOutput(&MODULE_P33, 10, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general); 	//set P33.10 as output for the PWM
+	PWM_init(PWM1_SERVOMOTOR, &Timers.PWM1_Servo, 50); 	//look up in IfxGtm_PinMap.h to find which IfxGtm to use depending on the port used
+
+	IfxPort_setPinModeOutput(&MODULE_P33, 5, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+	PWM_init(PWM2_SERVOMOTOR, &Timers.PWM2_Servo, 50);
+}
+
+/*
+ * void move_servo(unsigned char angle)
+ * input: angle, value of the angle, should be between 0 and 180 if not angle is 90
+	output: none
+	function: generates a PWM for the servo that is locked in position
+*/
+void move_servo(unsigned char angle)
+{
+	float duty_position;
+	if(angle>180)
+		angle =90;
+	duty_position = angle * (9.75/ 180)+ DUTY_MIN;
+	PWM_setDuty(Timers.PWM2_Servo, duty_position); 	//generation of the PWM of duty cycle equal to duty_position
+}
+
+/*
+ *  void sweep_servo_config()
+ * 	input: none
+	output: none
+	function: configure the global values for the duties in the sweep servo function
+	and the step
+	It also defines  SWEEP_SERVO to allow the definition of the IFX_INTERRUPT,
+	 sweep_servo(), STM_INTERRUPT() and timer_compare_config()
+*/
+void sweep_servo_config()
+{
+	global_duty_start = DUTY_MIN;
+	global_duty_end = DUTY_MAX;
+	global_step = STEP;
+
+	duty3 = global_duty_start;
+	#define SWEEP_SERVO
+}
+
+/*
+ *  void sweep_servo()
+ * 	input: none
+	output: none
+	function: generates the PWM for the sweeping servo
+	checks if the extreme duty are reached and if not the PWM is generated
+*/
+void sweep_servo()
+{
+	if(flag_limit) 	//if the limit is reached just increment the timer and reset the flag
+	{
+		flag_limit = FALSE;
+	}
+}
+
+#ifdef SWEEP_SERVO
+IFX_INTERRUPT(STM_INTERRUPT_SERVO, 0, PRIORITY_ISR_SERVOMOTOR);
+
+
+
+/*
+ * void STM_INTERRUPT_SERVO()
+ * input: none
+	output: none
+	function: interrupt routine executed every period of the aforementioned timer
+	changes value of the duty and the direction of the servo motion
+*/
+void STM_INTERRUPT_SERVO()
+{
+	IfxStm_clearCompareFlag(stm_sfr, config_servo.comparator);
+
+	sweep_servo();
+	PWM_setDuty(Timers.PWM1_Servo, duty3); //Set Servomotor position at the position corresponding to the duty3 value
+	if (Servo_Enable == 1) //If Mode 2 is selected and launched
+	{
+		duty3+= global_step; //incrementing the value of the duty used for sweep_servo
+		PWM_setDuty(Timers.PWM1_Servo, duty3);//Set Servomotor position at the position corresponding to the duty3 value
+	}
+	flag_limit = FALSE;	//reset of the flag
+
+	if(duty3 > global_duty_end) //check if duty is equal to its upper limit
+	{
+		duty3 = DUTY_MAX; //reset of the value of the duty for max value
+		global_step *= -1; //now duty will decrement
+		duty3+= global_step;
+		flag_limit = TRUE;	//indicates that we reached a limit for the duty
+	}
+
+	else if(duty3 < global_duty_start) 	//check if duty is equal to its lower limit
+	{
+		duty3 = DUTY_MIN; 	//reset of the value of the duty for min value
+		global_step *= -1; 	//now duty will increment
+		duty3+= global_step;
+		flag_limit= TRUE; 	//indicates that we reached a limit for the duty
+	}
+
+	IfxStm_increaseCompare(stm_sfr, config_servo.comparator, frequency_servo);
+}
+
+/*
+ * void SERVO_ISR_CONFIG()
+ * 	input: none
+	output: none
+	function: configure the timer that will be used to calibrate the sending of each PWM
+	for the sweep function
+*/
+void SERVO_ISR_CONFIG()
+{
+       frequency_servo = IfxStm_getFrequency(stm_sfr)/5;
+       boolean interruptState = IfxCpu_disableInterrupts();
+
+       IfxStm_initCompareConfig(&config_servo);
+       config_servo.triggerPriority = PRIORITY_ISR_SERVOMOTOR;
+       config_servo.typeOfService = IfxSrc_Tos_cpu0;
+       //interrupt every 1/4s
+       //change value of frequency to change frequency
+       config_servo.ticks = frequency_servo;
+       IfxStm_initCompare(stm_sfr, &config_servo);
+       IfxStm_enableComparatorInterrupt(stm_sfr, config_servo.comparator);
+       IfxCpu_restoreInterrupts(interruptState);
+}
+#endif

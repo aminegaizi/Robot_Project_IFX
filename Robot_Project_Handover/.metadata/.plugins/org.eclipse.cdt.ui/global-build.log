@@ -1,0 +1,269 @@
+14:04:14 **** Clean-only build of configuration Default for project Beeper_Song ****
+make clean 
+Deleting build generated files !!!
+14:04:22 **** Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file IfxStdIf_Timer.c for Tricore
+Building source file Cpu0_Main.c for Tricore
+Building source file PWM_config.c for Tricore
+Building source file IfxStdIf_Pos.c for Tricore
+Building source file Bsp.c for Tricore
+Building source file IfxStdIf_PwmHl.c for Tricore
+Building source file IfxSent_cfg.c for Tricore
+Building source file Ifx_AngleTrkF32.c for Tricore
+Building source file IfxI2c_cfg.c for Tricore
+Building source file Ifx_WndF32_BlackmanHarrisTable.c for Tricore
+Building source file IfxStdIf_DPipe.c for Tricore
+Building source file IfxEray_cfg.c for Tricore
+Building source file SpiIf.c for Tricore
+Building source file Ifx_GlobalResources.c for Tricore
+Building source file Tft.c for Tricore
+Building source file Ifx_WndF32_HannTable.c for Tricore
+Building source file Ifx_LutSincosF32_Table.c for Tricore
+Building source file Cpu2_Main.c for Tricore
+Building source file Cpu1_Main.c for Tricore
+Building source file Ifx_LutAtan2F32.c for Tricore
+Building source file Ifx_Cf32.c for Tricore
+Building source file Beeper.c for Tricore
+Building source file Ifx_Console.c for Tricore
+Building source file Ifx_FftF32.c for Tricore
+Building source file IfxSrc_cfg.c for Tricore
+Building source file Ifx_IntegralF32.c for Tricore
+Building source file Ifx_LutAtan2F32_Table.c for Tricore
+Building source file Ifx_InterfaceConst.c for Tricore
+Building source file IfxPsi5s_cfg.c for Tricore
+Building source file IfxScu_cfg.c for Tricore
+Building source file IfxHssl_cfg.c for Tricore
+Building source file Ifx_LutLSincosF32.c for Tricore
+Building source file Ifx_Crc.c for Tricore
+Building source file Ifx_FftF32_TwiddleTable.c for Tricore
+Building source file IfxCpu_cfg.c for Tricore
+Building source file IfxCcu6_cfg.c for Tricore
+Building source file IfxFlash_cfg.c for Tricore
+Building source file IfxCcu6_PinMap.c for Tricore
+Building source file Ifx_DateTime.c for Tricore
+Building source file IfxVadc_cfg.c for Tricore
+Building source file IfxPsi5_cfg.c for Tricore
+Building source file IfxDma_cfg.c for Tricore
+Building source file IfxAsclin_PinMap.c for Tricore
+Building source file IfxCif_cfg.c for Tricore
+Building source file IfxPort_cfg.c for Tricore
+Building source file Ifx_LutLinearF32.c for Tricore
+Building source file Ifx_LowPassPt1F32.c for Tricore
+Building source file IfxStm_cfg.c for Tricore
+Building source file IfxSmu_cfg.c for Tricore
+Building source file IfxDsadc_PinMap.c for Tricore
+Building source file IfxFft_cfg.c for Tricore
+Building source file IfxQspi_cfg.c for Tricore
+Building source file Ifx_Shell.c for Tricore
+0_Src/BaseSw/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.c: In function 'Ifx_Shell_parseAddress':
+0_Src/BaseSw/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.c:784:9: warning: format '%x' expects argument of type 'unsigned int *', but argument 3 has type 'uint32 *' [-Wformat=]
+         result = (buffer[0] != IFX_SHELL_NULL_CHAR) && (sscanf(buffer, "%x ", (uint32 *)address) == 1);
+         ^
+0_Src/BaseSw/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.c:784:9: warning: format '%x' expects argument of type 'unsigned int *', but argument 3 has type 'uint32 *' [-Wformat=]
+Building source file IfxMultican_cfg.c for Tricore
+Building source file Ifx_LutSincosF32.c for Tricore
+Building source file IfxMtu_cfg.c for Tricore
+Building source file Ifx_RampF32.c for Tricore
+Building source file IfxAsclin_cfg.c for Tricore
+Building source file IfxEmem_cfg.c for Tricore
+Building source file Assert.c for Tricore
+Building source file IfxCif_PinMap.c for Tricore
+Building source file Ifx_FftF32_BitReverseTable.c for Tricore
+Building source file IfxGtm_cfg.c for Tricore
+Building source file IfxMsc_cfg.c for Tricore
+Building source file CompilerGnuc.c for Tricore
+Building source file CompilerTasking.c for Tricore
+Building source file CompilerGhs.c for Tricore
+Building source file Ifx_CircularBuffer.c for Tricore
+Building source file Ifx_InternalMux.c for Tricore
+Building source file CompilerDcc.c for Tricore
+Building source file Ifx_CircularBuffer.asm.c for Tricore
+Building source file Ifx_Fifo.c for Tricore
+Building source file IfxSmu.c for Tricore
+Building source file IfxScuEru.c for Tricore
+Building source file IfxSrc.c for Tricore
+Building source file IfxVadc_Adc.c for Tricore
+Building source file IfxStm.c for Tricore
+Building source file IfxQspi.c for Tricore
+Building source file IfxVadc.c for Tricore
+Building source file IfxSent.c for Tricore
+Building source file IfxStm_Timer.c for Tricore
+Building source file IfxQspi_SpiSlave.c for Tricore
+Building source file IfxMultican_Can.c for Tricore
+Building source file IfxScuCcu.c for Tricore
+Building source file IfxScuWdt.c for Tricore
+Building source file IfxHssl.c for Tricore
+Building source file IfxPsi5s.c for Tricore
+Building source file IfxPort_Io.c for Tricore
+Building source file IfxGtm_Tom_Timer.c for Tricore
+Building source file IfxMtu.c for Tricore
+Building source file IfxGtm_Atom_Pwm.c for Tricore
+Building source file IfxPsi5_Psi5.c for Tricore
+Building source file IfxPsi5.c for Tricore
+Building source file IfxMsc_Msc.c for Tricore
+Building source file IfxPort.c for Tricore
+Building source file IfxMsc.c for Tricore
+0_Src/BaseSw/iLLD/TC29B/Tricore/Msc/Std/IfxMsc.c: In function 'IfxMsc_getDownstreamAbraBaudrate':
+0_Src/BaseSw/iLLD/TC29B/Tricore/Msc/Std/IfxMsc.c:233:5: warning: implicit declaration of function 'IfxScuCcu_getMscFrequency' [-Wimplicit-function-declaration]
+     float32 f_MSC    = IfxScuCcu_getMscFrequency();
+     ^
+Building source file IfxPsi5s_Psi5s.c for Tricore
+Building source file IfxI2c.c for Tricore
+Building source file IfxQspi_SpiMaster.c for Tricore
+Building source file IfxIom_Driver.c for Tricore
+Building source file IfxGtm_Tom_PwmHl.c for Tricore
+Building source file IfxGtm_Tom_Pwm.c for Tricore
+Building source file IfxGtm_Tom.c for Tricore
+Building source file IfxI2c_I2c.c for Tricore
+Building source file IfxGtm_Trig.c for Tricore
+Building source file IfxSent_Sent.c for Tricore
+Building source file IfxMultican.c for Tricore
+Building source file IfxGtm_Atom_Timer.c for Tricore
+Building source file IfxGtm_Cmu.c for Tricore
+Building source file IfxGtm_Tim_In.c for Tricore
+Building source file IfxGtm_Atom_PwmHl.c for Tricore
+Building source file IfxHssl_Hssl.c for Tricore
+Building source file IfxIom.c for Tricore
+Building source file IfxFft_Fft.c for Tricore
+0_Src/BaseSw/iLLD/TC29B/Tricore/Fft/Fft/IfxFft_Fft.c: In function 'IfxFft_Fft_initJob':
+0_Src/BaseSw/iLLD/TC29B/Tricore/Fft/Fft/IfxFft_Fft.c:230:12: warning: unused variable 'fftLength' [-Wunused-variable]
+     uint16 fftLength = IfxFft_getLengthFromCode(jobConfig->fftLength);
+            ^
+0_Src/BaseSw/iLLD/TC29B/Tricore/Fft/Fft/IfxFft_Fft.c: In function 'IfxFft_Fft_initWindow':
+0_Src/BaseSw/iLLD/TC29B/Tricore/Fft/Fft/IfxFft_Fft.c:343:14: warning: unused variable 'fftSFR' [-Wunused-variable]
+     Ifx_FFT      *fftSFR = fft->fft;
+              ^
+Building source file IfxFlash.c for Tricore
+Building source file IfxGtm_Tbu.c for Tricore
+Building source file IfxGtm_Tim.c for Tricore
+Building source file IfxGtm.c for Tricore
+Building source file IfxGpt12.c for Tricore
+Building source file IfxFft.c for Tricore
+Building source file IfxGpt12_IncrEnc.c for Tricore
+Building source file IfxEth.c for Tricore
+Building source file IfxEray.c for Tricore
+Building source file IfxGtm_Dpll.c for Tricore
+Building source file IfxEth_Phy_Pef7071.c for Tricore
+Building source file IfxFce_Crc.c for Tricore
+Building source file IfxGtm_Atom.c for Tricore
+Building source file IfxFce.c for Tricore
+Building source file IfxEbu.c for Tricore
+Building source file IfxEmem.c for Tricore
+Building source file IfxEbu_Sram.c for Tricore
+Building source file IfxEbu_Dram.c for Tricore
+Building source file IfxEray_Eray.c for Tricore
+Building source file IfxCpu_Irq.c for Tricore
+Building source file IfxSent_PinMap.c for Tricore
+Building source file IfxSmu_PinMap.c for Tricore
+Building source file IfxI2c_PinMap.c for Tricore
+Building source file IfxCcu6_Timer.c for Tricore
+Building source file IfxQspi_PinMap.c for Tricore
+Building source file IfxDsadc.c for Tricore
+Building source file IfxCpu_CStart2.c for Tricore
+Building source file IfxDts.c for Tricore
+Building source file IfxCpu_Trap.c for Tricore
+Building source file IfxCpu_CStart1.c for Tricore
+Building source file IfxCcu6_TPwm.c for Tricore
+Building source file IfxCcu6_Icu.c for Tricore
+Building source file IfxCif.c for Tricore
+Building source file IfxCif_Cam.c for Tricore
+Building source file IfxCpu_CStart0.c for Tricore
+Building source file IfxCcu6_PwmHl.c for Tricore
+Building source file IfxCpu.c for Tricore
+Building source file IfxScu_PinMap.c for Tricore
+Building source file IfxPort_PinMap.c for Tricore
+Building source file IfxEbu_BFlashSpansion.c for Tricore
+Building source file IfxPsi5_PinMap.c for Tricore
+Building source file IfxDma_Dma.c for Tricore
+Building source file IfxAsclin.c for Tricore
+Building source file IfxEray_PinMap.c for Tricore
+Building source file IfxDma.c for Tricore
+Building source file IfxDts_Dts.c for Tricore
+Building source file IfxVadc_PinMap.c for Tricore
+Building source file IfxPsi5s_PinMap.c for Tricore
+Building source file IfxDsadc_Dsadc.c for Tricore
+Building source file IfxEbu_BFlashSt.c for Tricore
+Building source file IfxMsc_PinMap.c for Tricore
+Building source file IfxEth_PinMap.c for Tricore
+Building source file IfxAsclin_Spi.c for Tricore
+Building source file IfxAsclin_Asc.c for Tricore
+Building source file IfxGpt12_PinMap.c for Tricore
+Building source file IfxMultican_PinMap.c for Tricore
+Building source file IfxGtm_PinMap.c for Tricore
+Building source file IfxCcu6_PwmBc.c for Tricore
+Building source file IfxCcu6_TimerWithTrigger.c for Tricore
+Building source file IfxCcu6.c for Tricore
+Building source file IfxAsclin_Lin.c for Tricore
+Building source file IfxDsadc_Rdc.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:06:15 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:07:34 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Beeper.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+2_Out/Tricore_Gnuc/Gnuc_Files/0_Src/AppSw/Tricore/Beeper/Beeper.o: In function `Tft_Star_wars':
+C:\\Robot_Project_Handover\\Beeper_Song/0_Src/AppSw/Tricore/Beeper/Beeper.c:221: error: undefined reference to `TextColor'
+C:\\Robot_Project_Handover\\Beeper_Song/0_Src/AppSw/Tricore/Beeper/Beeper.c:221: error: undefined reference to `TextColor'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [1_ToolEnv/0_Build/9_Make/Project.mk:61: 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf] Error 1
+make: *** [C:\Tools\BifacesWin64\bin/../Bifaces/Make/Root.mk:44: build] Error 2
+14:07:53 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Tft.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:09:00 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:10:29 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building source file Beeper.c for Tricore
+Building source file Tft.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:11:09 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:12:45 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building source file Beeper.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:14:17 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:14:38 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+14:15:30 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex

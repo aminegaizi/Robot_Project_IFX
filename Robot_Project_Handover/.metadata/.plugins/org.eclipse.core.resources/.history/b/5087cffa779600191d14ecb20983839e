@@ -1,0 +1,228 @@
+/*
+ * Beeper.c
+ *
+ *  Created on: 18.12.2018
+ *      Author: Gaizi
+ *
+ *
+ *  Note: This is a project that I did very quickly, I did not pay attention to have the most accurate frequencies for notes, or have the most efficient code
+ *  I followed the values of delay and frequency in the following projects:
+ *
+ *  Star Wars: https://gist.github.com/nicksort/4736535
+ *  Happy Birthday: https://gist.github.com/krin-san/ef6b8b1e501ad4a82902
+ *
+ *  Sometimes the frequencies or the delays documented in the above websites were wrong, I had to correct them. It is normal if a couple of values are different.
+ *
+ */
+
+#include "Beeper.h"
+
+IfxGtm_Tom_Timer Beeper;
+extern unsigned short TextColor;
+
+sint32 Fsys = 0;
+uint8 Duty_Cycle = 0;
+int freqs[26] = {264, 264, 297, 264, 352, 330, 264, 264, 297, 264, 396, 352, 264, 264, 523, 440, 352, 352, 330, 297, 466, 466, 440, 352, 396, 352}; //Frequencies for Happy Birthday song
+float length[26] = {4.0, 4.0, 1.0, 1.0, 1.0, 0.5, 4.0, 4.0, 1.0, 1.0, 1.0, 0.5, 4.0, 4.0, 1.0, 1.0, 2.0, 4.0, 1.0, 0.5, 4.0, 4.0, 1.0, 1.0, 1.0, 0.5}; //Delays for Happy Birthday song
+
+float length2[] = {4.0, 4.0, 2.0, 2.0, 2.0, 1.0, 4.0, 4.0, 2.0, 2.0, 2.0, 1.0, 4.0, 4.0, 2.0, 2.0, 3.0, 4.0, 2.0, 1.0, 4.0, 4.0, 2.0, 2.0, 2.0, 1.0};
+int current_freq = 0; //Variable used for Debug purposes
+float current_len = 0; //Variable used for Debug purposes
+uint8 i=0;
+
+int f_sw1_1[9] = {440, 440, 440, 349, 523, 440, 349, 523, 440}; //Frequencies 1st section, 1st half of the Star Wars Theme
+float len_sw1_1[9] = {2.0, 2.0, 2.0, 2.85, 6.66, 2.0, 2.85, 6.66, 1.56}; //Delays for 1st section, 1st half of the Star Wars Theme
+
+int f_sw1_2[9] = {659, 659, 659, 698, 523, 415, 349, 523, 440}; //Frequencies 1st section, 2nd half of the Star Wars Theme, delays are the same than the 1st half
+
+int f_sw_2_1[9] = {880, 440, 440, 880, 830, 415, 830, 698, 740};//Frequencies 2nd section, 1st half of the Star Wars Theme
+float len_sw2_1[9] = {2.0, 3.33, 6.66, 2.0, 3.07, 5.71, 8.0, 8.0, 4.0};//Delays for 2nd section, 1st half of the Star Wars Theme
+
+int f_sw_2_2[7] = {455, 622, 587, 554, 523, 466, 523}; //Frequencies 2nd section, 2nd half of the Star Wars Theme
+float len_sw2_2[7] = {4.0, 2.00, 3.07, 5.71, 8.00, 8.00, 4.0};//Delays for 2nd section, 2nd half of the Star Wars Theme
+
+int f_sw3[8] = {349, 415, 349, 440, 523, 440, 523, 659};//Frequencies 3rd section of the Star Wars Theme
+int len_sw3[8] = {4.0, 2.0, 2.86, 6.66, 2.00, 2.66, 6.66, 1.56};//Delays for 3rd section of the Star Wars Theme
+
+int f_sw4[8] = {349, 415, 349, 523, 440, 349, 523, 440}; //Frequencies 4th section of the Star Wars Theme
+int len_sw4[8] = {4.0, 2.0, 2.66, 6.66, 2.00, 2.66, 6.66, 1.56};//Delays for 4th section of the Star Wars Theme
+
+/*
+ * void happy_birthday()
+ * This function plays the Happy Birthday song on the beeper of the application kit
+ */
+void happy_birthday()
+{
+
+	initTime(); //Initialize the time constants for the BSP timer delays
+	Duty_Cycle = 10; //Duty cycle of the PWM. Increasing this value will increase the volume of the speaker
+	Fsys = IfxStm_getFrequency(BSP_DEFAULT_TIMER); //Save frequency of the timer used for delays
+	Tft_HBD_Alex();
+	for (i=0; i<26; i++)
+	{
+		current_freq = freqs[i]; //For debug purposes, irrelevant
+		current_len = Fsys/length2[i]; //For debug purposes, irrelevant
+
+		PWM_init(PWM_BEEPER, &Beeper, freqs[i]); //Initialize and launch the GTM PWM timer to the frequency of the note
+		PWM_setDuty(Beeper, Duty_Cycle); //Change the duty cycle to hear the note
+		waitTime(Fsys/(2*length[i])); //Delay, here the value of the delay is Fsys/Value. Fsys represents the number of ticks necesary for a 1 second delay. For 250ms delay, we would use Fsys/4 ticks
+		PWM_setDuty(Beeper, 0); //Set the duty cycle to 0 to stop the sound
+		IfxGtm_Tom_Timer_stop(&Beeper); //Stop the PWM
+		waitTime(Fsys/4); //Wait 250ms
+	}
+
+
+	IfxGtm_Tom_Timer_stop(&Beeper);
+
+
+}
+
+/*
+ * void star_wars()
+ * This function plays the star wars theme from the
+ */
+void star_wars()
+{
+	initTime(); //Initialize the time constants for the BSP timer delays
+	Duty_Cycle = 10; //Duty cycle of the PWM. Increasing this value will increase the volume of the speaker
+	Fsys = IfxStm_getFrequency(BSP_DEFAULT_TIMER); //Save frequency of the timer used for delays
+	i = 0;
+	Tft_Star_wars();
+	for (i=0; i<9; i++) //Theme section 1, part 1
+	{
+
+		PWM_init(PWM_BEEPER, &Beeper, f_sw1_1[i]); //Initialize and launch the GTM PWM timer to the frequency the wanted note
+		PWM_setDuty(Beeper, Duty_Cycle); //Change the duty cycle to hear the note
+		waitTime(Fsys/(len_sw1_1[i])); //Delay, here the value of the delay is Fsys/Value, with Fsys being the number of ticks needed to wait 1 second
+		PWM_setDuty(Beeper, 0);
+		IfxGtm_Tom_Timer_stop(&Beeper);
+		waitTime(Fsys/20);
+	}
+
+	IfxGtm_Tom_Timer_stop(&Beeper);
+	waitTime(Fsys/2);
+
+	for (i=0; i<9; i++) //Theme section 1, part 2
+	{
+
+		PWM_init(PWM_BEEPER, &Beeper, f_sw1_2[i]);
+		PWM_setDuty(Beeper, Duty_Cycle);
+		waitTime(Fsys/(len_sw1_1[i]));
+		PWM_setDuty(Beeper, 0);
+		IfxGtm_Tom_Timer_stop(&Beeper);
+		waitTime(Fsys/20);
+	}
+
+	IfxGtm_Tom_Timer_stop(&Beeper);
+	waitTime(Fsys/1.53); //End of section 1
+
+	for (i=0; i<9; i++) //Section 2, part 1
+	{
+
+		PWM_init(PWM_BEEPER, &Beeper, f_sw_2_1[i]);
+		PWM_setDuty(Beeper, Duty_Cycle);
+		waitTime(Fsys/(len_sw2_1[i]));
+		PWM_setDuty(Beeper, 0);
+		IfxGtm_Tom_Timer_stop(&Beeper);
+		waitTime(Fsys/20);
+	}
+
+	IfxGtm_Tom_Timer_stop(&Beeper);
+	waitTime(Fsys/2);
+
+	for (i=0; i<7; i++) //section 2, part 2
+	{
+
+		PWM_init(PWM_BEEPER, &Beeper, f_sw_2_2[i]);
+		PWM_setDuty(Beeper, Duty_Cycle);
+		waitTime(Fsys/(len_sw2_2[i]));
+		PWM_setDuty(Beeper, 0);
+		IfxGtm_Tom_Timer_stop(&Beeper);
+		waitTime(Fsys/20);
+	}
+
+	IfxGtm_Tom_Timer_stop(&Beeper);
+	waitTime(Fsys/2.86); //End of section 2
+
+	for (i=0; i<8; i++) //Variant 1; Section 3
+	{
+		current_freq = f_sw3[i];
+		current_len = Fsys/len_sw3[i];
+
+		PWM_init(PWM_BEEPER, &Beeper, f_sw3[i]);
+		PWM_setDuty(Beeper, Duty_Cycle);
+		waitTime(Fsys/(len_sw3[i]));
+		PWM_setDuty(Beeper, 0);
+		IfxGtm_Tom_Timer_stop(&Beeper);
+		waitTime(Fsys/20);
+	}
+
+	IfxGtm_Tom_Timer_stop(&Beeper);
+	waitTime(Fsys/2);
+
+	for (i=0; i<9; i++) //Section 2 (2nd time)
+	{
+
+		PWM_init(PWM_BEEPER, &Beeper, f_sw_2_1[i]);
+		PWM_setDuty(Beeper, Duty_Cycle);
+		waitTime(Fsys/(len_sw2_1[i]));
+		PWM_setDuty(Beeper, 0);
+		IfxGtm_Tom_Timer_stop(&Beeper);
+		waitTime(Fsys/20);
+	}
+
+	IfxGtm_Tom_Timer_stop(&Beeper);
+	waitTime(Fsys/2);
+
+	for (i=0; i<7; i++)
+	{
+
+		PWM_init(PWM_BEEPER, &Beeper, f_sw_2_2[i]);
+		PWM_setDuty(Beeper, Duty_Cycle);
+		waitTime(Fsys/(len_sw2_2[i]));
+		PWM_setDuty(Beeper, 0);
+		IfxGtm_Tom_Timer_stop(&Beeper);
+		waitTime(Fsys/20);
+	}
+
+	IfxGtm_Tom_Timer_stop(&Beeper);
+	waitTime(Fsys/2.86); //End of section 2 (2nd time)
+
+	for (i=0; i<9; i++) //Variant 2; Section 4
+	{
+		current_freq = f_sw4[i];
+		current_len = Fsys/len_sw4[i];
+
+		PWM_init(PWM_BEEPER, &Beeper, f_sw4[i]);
+		PWM_setDuty(Beeper, Duty_Cycle);
+		waitTime(Fsys/(len_sw4[i]));
+		PWM_setDuty(Beeper, 0);
+		IfxGtm_Tom_Timer_stop(&Beeper);
+		waitTime(Fsys/20);
+	}
+	IfxGtm_Tom_Timer_stop(&Beeper);
+}
+
+/*
+ * void Tft_screen_config()
+ * Configuration of the Tft screen
+ * Initialize the screen and display Title + Infineon logo
+ */
+void Tft_HBD_Alex()
+{
+    GLCD_init();//Init the Tft screen
+    GLCD_clear(COLOR_WHITE);//Backgound is white
+    GLCD_displayStringLn(LINE1, "       HAPPY        ");
+    GLCD_displayStringLn(LINE2, "      BIRTHDAY      ");
+    GLCD_displayStringLn(LINE3, "       ALEX!        ");
+}
+
+void Tft_Star_wars()
+{
+    //GLCD_init();//Init the Tft screen
+    GLCD_clear(COLOR_BLACK);//Backgound is black
+    TextColor = COLOR_WHITE;
+    GLCD_displayStringLn(LINE1, "      MAY THE       ");
+    GLCD_displayStringLn(LINE2, "      FORCE BE      ");
+    GLCD_displayStringLn(LINE3, "      WITH YOU !    ");
+}

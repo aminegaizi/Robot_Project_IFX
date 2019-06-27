@@ -5,7 +5,7 @@ This is the archive with everything that was used for the demonstration at Embed
 
 - Embedded_World_2019: Folder containing the code that was flashed to the AURIX for embedded world 2019
 	Import the project on BIFACES and Build it 
-	Flash the project on the AURIX with UDE or any debugger
+	Flash the project on the AURIX™ with UDE or any debugger
 
 Once you have generated your exectuable file for the GUI and you have flashed the program in the AURIX
 
@@ -22,5 +22,5 @@ Once you have generated your exectuable file for the GUI and you have flashed th
 
 If you want to go back to mode 1, click on F1 again. 
 
-Please note that if you do a Power On Reset, the GUI does not detect it. That means that the GUI might show that you are in mode 1 or 2 even if on the Robot's side, neither mode is selected yet. 
+Please note that if you do a Power On Reset (PORST), the GUI does not detect it. That means that the GUI might show that you are in mode 1 or 2 even if on the Robot's side, neither mode is selected yet. 
  

@@ -1,0 +1,33 @@
+/*
+ * Beeper.c
+ *
+ *  Created on: 18.12.2018
+ *      Author: Gaizi
+ */
+
+#include "Beeper.h"
+
+extern PWM_Timers Timers;
+
+/*
+ * void beep(uint16 Freq_beep)
+ * function that uses the application kit's piezo beeper
+ * Call this function for a beep that lasts 100ms
+ * Change the Value of the frequency for a different sound
+ * The duty cycle is proportional to the volume of the beep
+ */
+void beep(uint16 Freq_beep)
+{
+	//initTime(); //Init time constants for delay. This function is called in the main, uncomment it here if it is not called in the main anymore
+	//Freq_beep = 440;
+	uint8 Duty_Cycle = 25;
+	sint32 Fsys = IfxStm_getFrequency(BSP_DEFAULT_TIMER);
+
+
+	PWM_init(PWM_BEEPER, &Timers.Beeper, Freq_beep);
+	PWM_setDuty(Timers.Beeper, Duty_Cycle);
+	waitTime(Fsys/10);
+	PWM_setDuty(Timers.Beeper, 0);
+	IfxGtm_Tom_Timer_stop(&Timers.Beeper);
+
+}

@@ -1,0 +1,9 @@
+14:15:30 **** Incremental Build of configuration Default for project Beeper_Song ****
+make all 
+Now Build started !!!
+Building source file Cpu0_Main.c for Tricore
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.elf
+Building output 2_Out/Tricore_Gnuc/Beeper_Song_Tc.hex
+
+14:15:39 Build Finished (took 9s.797ms)
+

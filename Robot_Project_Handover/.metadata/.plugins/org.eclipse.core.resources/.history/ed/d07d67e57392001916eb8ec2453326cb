@@ -1,0 +1,64 @@
+/*
+ * Motors.h
+ *
+ *  Created on: 19.11.2018
+ *      Author: Gaizi
+ */
+
+#ifndef MOTORS_H__
+#define MOTORS_H__
+
+#include "IfxStm.h"
+#include "encoders_config.h"
+#include "IfxPort_reg.h"
+#include "PWM_config.h"
+#include "position.h"
+#include "serial.h"
+
+
+#define M_PI 3.14159265358979323846 //Value of Pi
+#define DIAMETER 6.5 //diameter of a wheel in cm
+
+
+/*
+ * Interrupt Service Routine function used to realize the Proportional Correction of the robot
+ * The interrupt is set to happen every 10ms
+ */
+ void STM_INTERRUPT_CORRECTION();
+
+ /*
+  * Function used to initialize the System Timer Module interrupt
+  * It uses the Compare Match Unit of the module, when the STM counts to a particular value, it goes through the ISR
+  * The frequency of the module gives the value to which it has to count for 1 second
+  */
+ void timer_compare(Ifx_Priority PRIORITY, IfxStm_CompareConfig CompareConfig, Ifx_STM *stm);
+
+
+ void Forward_1();
+
+
+ void Backward_1();
+
+
+ void Motors_initialization();
+
+
+ void Motors_stop();
+
+
+ void Right();
+
+
+ void Left();
+
+
+
+ typedef struct
+ {
+	 float acceleration;
+	 float stable;
+	 float deceleration;
+ }P_coefficient;
+//Structure for the Proportional correction coefficients
+
+#endif /* MOTORS_H__*/

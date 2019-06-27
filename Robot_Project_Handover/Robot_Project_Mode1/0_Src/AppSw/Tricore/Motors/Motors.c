@@ -1,0 +1,263 @@
+/*
+ * Motors.c
+ *
+ *  Created on: 19.11.2018
+ *      Author: Gaizi
+ */
+
+#include "Motors.h"
+
+IFX_INTERRUPT(STM_INTERRUPT_CORRECTION, 0, PRIORITY_ISR_ENSLAVEMENT); //Interrupt for the Proportional correction
+
+IfxStm_CompareConfig CompareCorrection;
+Ifx_STM *stm2 = &MODULE_STM2;
+
+extern volatile uint32 interruptLeft_counter; //Number of rising/falling edges sent by the left encoder
+extern volatile uint32 interruptRight_counter;//Number of rising/falling edges sent by the right encoder
+extern IfxGtm_Tom_Timer Timer1; //GTM Tom Timer for Left Wheel PWM
+extern IfxGtm_Tom_Timer Timer2; //GTM Tom Timer for Right Wheel PWM
+volatile uint32 frequency = 0; //Variable to store the value of the System Timer
+volatile int Encoders_Error = 2; //Difference between the two encoders gives information about the position error, initialized at 5 to compensate the lack of correction at the beginning
+volatile uint8 Left_duty_cycle = 0; //Duty cycle sent to the left wheel
+volatile uint8 Right_duty_cycle = 0; //Duty cycle sent to the right wheel
+volatile uint8 command_movement = 0; //Trigger Flag for movement enslavement
+volatile int Flag = 0;
+
+
+/*Structure for the Proportional correction coefficients, in comment are the initial values found by testing.
+*Afterwards, we changed we found two motors that had more similar behaviors. This small correction was enough.
+*/
+//P_coefficient Forward_correction = {-9.0,-9.375,-3.0}; //Forward Proportional correction factors
+//P_coefficient Backward_correction = {-9.0,-10.75,-4.0}; //Backward Proportional correction factors
+//P_coefficient Right_correction = {0.0,-10.75,0.0}; //Backward Proportional correction factors
+//P_coefficient Left_correction = {0.0,-10.75,0.0}; //Backward Proportional correction factors
+
+P_coefficient Forward_correction = {-1.0,-1.0,-1.0}; //Forward Proportional correction factors
+P_coefficient Backward_correction = {-1.0,-1.0,-1.0}; //Backward Proportional correction factors
+P_coefficient Right_correction = {-1.0,-1.0,-1.0}; //Backward Proportional correction factors
+P_coefficient Left_correction = {0.0,-1.0,0.0}; //Backward Proportional correction factors
+
+
+/*
+ * Foward_1()
+ * Function used to set the H-Bridge and PWM pins for going Forward and then sets a flag to make the robot move forward
+ */
+ void Forward_1()
+ {
+	Left_duty_cycle = 40;
+ 	Right_duty_cycle = 40;
+
+ 	/*Configuration of the General Purpose Outputs for the H-Bridge*/
+ 	P00_IOCR4.B.PC4 = 0x10; //In2
+ 	P00_IOCR4.B.PC6 = 0x10; //EnA
+ 	P33_IOCR0.B.PC2 = 0x10; //In4
+ 	P33_IOCR4.B.PC4 = 0x10; //EnB
+
+
+ 	PWM_config(IfxGtm_TOM0_3_TOUT21_P00_12_OUT); //In1 PWM signal configuration
+ 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty1
+
+ 	PWM2_config(IfxGtm_TOM0_2_TOUT28_P33_6_OUT); //In3 PWM signal configuration
+ 	IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty2
+
+ 	//--Motors On
+	P00_OUT.B.P6 = 1; //EnA = 1
+	P00_OUT.B.P4 = 0; //In2 = 0
+
+	P33_OUT.B.P4 = 1; //EnB = 1
+	P33_OUT.B.P2 = 0; //In4 = 0
+
+	command_movement = 1;
+ }
+
+ /*
+  * Backward_1()
+  * Function used to set the H-Bridge and PWM pins for going Backwards and then sets a flag to make the robot move backwards
+  */
+ void Backward_1()
+ {
+
+ 	Left_duty_cycle = 40;//35
+ 	Right_duty_cycle = 40;//15
+
+ 	/*Config of the General Purpose Outputs for the H-Bridge*/
+ 	P00_IOCR12.B.PC12 = 0x10;
+ 	P00_IOCR4.B.PC6 = 0x10;
+ 	P33_IOCR4.B.PC6 = 0x10;
+ 	P33_IOCR4.B.PC4 = 0x10;
+
+ 	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //In2 PWM signal configuration
+ 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty cycle
+
+ 	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT);//In4 PWM signal configuration
+ 	IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of duty cycle
+
+	P00_OUT.B.P6 = 1; //EnA = 1
+	P00_OUT.B.P12 = 0; //In1 = 0
+	P33_OUT.B.P4 = 1; //EnB = 1
+	P33_OUT.B.P6 = 0; //In3 = 0
+
+	command_movement = 2;
+
+ }
+ /*
+  * Right()
+  * Function used to set the H-Bridge and PWM pins for the left wheel going Forward and Right wheel going Backward
+  * this makes the robot turn to the right
+  */
+ void Right()
+ {
+	Left_duty_cycle = 40;
+	Right_duty_cycle = 40;//
+
+  	/*Configuration of the General Purpose Outputs for the H-Bridge*/
+  	P00_IOCR12.B.PC12 = 0x10; //In1
+  	P00_IOCR4.B.PC6 = 0x10; //EnA
+  	P33_IOCR0.B.PC2 = 0x10; //In4
+  	P33_IOCR4.B.PC4 = 0x10; //EnB
+
+ 	PWM_config(IfxGtm_TOM1_3_TOUT13_P00_4_OUT); //In2 PWM signal configuration
+ 	PWM2_config(IfxGtm_TOM0_2_TOUT28_P33_6_OUT); //In3 PWM signal configuration
+
+ 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
+  	IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
+
+  	//--Motors On
+ 	P00_OUT.B.P6 = 1; //EnA = 1
+ 	P00_OUT.B.P12 = 0; //In1 = 0
+
+ 	P33_OUT.B.P4 = 1; //EnB = 1
+ 	P33_OUT.B.P2 = 0; //In4 = 0
+
+ 	command_movement = 3; //Flag for turning Right
+ }
+
+ /*
+  * Left()
+  * Function used to set the H-Bridge and PWM pins for the Right wheel going Forward and Left wheel going Backward
+  * this makes the robot turn to the left
+  */
+ void Left()
+ {
+	Left_duty_cycle = 40;
+	Right_duty_cycle = 40;
+
+ 	/*Config of the General Purpose Outputs for the H-Bridge*/
+  	P00_IOCR4.B.PC4 = 0x10; //In2
+  	P00_IOCR4.B.PC6 = 0x10; //EnA
+  	P33_IOCR4.B.PC6 = 0x10; //In3
+  	P33_IOCR4.B.PC4 = 0x10; //EnB
+
+ 	PWM_config(IfxGtm_TOM1_3_TOUT21_P00_12_OUT); //In1 PWM signal configuration
+ 	PWM2_config(IfxGtm_TOM0_6_TOUT24_P33_2_OUT); //In4 PWM signal configuration
+
+ 	IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100);
+  	IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100);
+
+  	//--Motors On
+ 	P00_OUT.B.P6 = 1; //EnA = 1
+ 	P00_OUT.B.P4 = 0; //In2 = 0
+
+ 	P33_OUT.B.P4 = 1; //EnB = 1
+ 	P33_OUT.B.P6 = 0; //In3 = 0
+
+ 	//command_movement = 4; //Flag for Forward Acceleration
+ }
+
+ /*
+  * STM_INTERRUPT_CORRECTION()
+  * Interrupt Service Routine function used for the Proportional Correction of the robot
+  * The interrupt is set to happen every 10ms
+  */
+void STM_INTERRUPT_CORRECTION()
+{
+	IfxStm_clearCompareFlag(stm2,CompareCorrection.comparator); //Clear interrupt Flag
+	Flag += 1;
+	Encoders_Error = interruptRight_counter - interruptLeft_counter; //Calculate the value of the error (in encoder ticks) between the two wheels
+	if (command_movement == 1) //Moving Forward
+	{
+			Right_duty_cycle = 55;
+			Left_duty_cycle = Right_duty_cycle - (Forward_correction.stable * Encoders_Error);
+
+			IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Right_duty_cycle
+			IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Left_duty_cycle
+
+	}
+	if (command_movement == 2) //Moving Backward
+	{
+
+		Right_duty_cycle = 55;
+		Left_duty_cycle = Right_duty_cycle - (Backward_correction.stable * Encoders_Error);
+
+		IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Right_duty_cycle
+		IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Left_duty_cycle
+
+	}
+	if (command_movement == 3) //Turning right
+	{
+		Right_duty_cycle = 55;
+		Left_duty_cycle = Right_duty_cycle - (Right_correction.stable * Encoders_Error);
+
+		IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Right_duty_cycle
+		IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Left_duty_cycle
+
+	}
+	if (command_movement == 4) //Turning Left
+	{
+		Right_duty_cycle = 55;
+			Left_duty_cycle = Right_duty_cycle - (Left_correction.stable * Encoders_Error);
+
+			IfxGtm_Tom_Timer_setTrigger(&Timer1, (Right_duty_cycle * Timer1.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Right_duty_cycle
+			IfxGtm_Tom_Timer_setTrigger(&Timer2, (Left_duty_cycle * Timer2.base.period) / 100); //Triggers PWM; Change to duty cycle by changing the value of Left_duty_cycle
+
+	}
+	IfxStm_increaseCompare(stm2, CompareCorrection.comparator, frequency/100); //set the interrupt to happen in 10ms
+}
+
+/*
+ * timer_compare()
+ * Function used to initialize the System Timer Module interrupt
+ * It uses the Compare Match Unit of the module, when the STM counts to a particular value, it goes through the ISR
+ * The frequency of the module gives the value to which it has to count for 1 second
+ */
+void timer_compare(Ifx_Priority PRIORITY, IfxStm_CompareConfig CompareConfig, Ifx_STM *stm)
+{
+       frequency = IfxStm_getFrequency(stm); //Get the frequency at which the System Timer used for the interrupt is running
+       boolean interruptState = IfxCpu_disableInterrupts();
+
+       //	---Interrupt Config---
+       IfxStm_initCompareConfig(&CompareConfig);
+       CompareConfig.triggerPriority = PRIORITY;
+       CompareConfig.typeOfService = IfxSrc_Tos_cpu0; //Interrupt in Cpu0
+       CompareConfig.ticks = frequency/100; //Interrupt starts at 10ms
+       IfxStm_initCompare(stm, &CompareConfig);
+
+       IfxStm_enableComparatorInterrupt(stm, CompareConfig.comparator);
+       IfxCpu_restoreInterrupts(interruptState);
+}
+
+/*
+ * Motors_initialization() configures and enables the timer interrupt taking care the movement's enslavement
+ */
+void Motors_initialization()
+{
+	timer_compare(PRIORITY_ISR_ENSLAVEMENT, CompareCorrection, stm2); //Configuration of the enslavement interrupt
+	IfxStm_enableComparatorInterrupt(stm2, CompareCorrection.comparator); //Enable STM interrupt
+}
+
+/*
+ * Motors_stop() resets the enable pins of the H-Bridge and stop the PWM signals
+ * This results in stopping the motors.
+ *
+ */
+void Motors_stop()
+{
+	//Disable the H-Bridge
+	P00_OUT.B.P6 = 0; //EnA = 0
+	P33_OUT.B.P4 = 0; //EnB = 0
+
+	//Stop the PWM signals
+ 	IfxGtm_Tom_Timer_stop(&Timer1); //Stops Timer1 PWM signal (In1 = 0)
+ 	IfxGtm_Tom_Timer_stop(&Timer2); //Stops Timer2 PWM signal (In3 = 0)
+}
+
